@@ -1,0 +1,22 @@
+{
+  "changed_existing_engine": [
+    "README.md"
+  ],
+  "changed_workspace": {
+    "MACROMIND_MASTER_STATE.md": "previously empty; now navigation index"
+  },
+  "added_workspace": [
+    "START_HERE.md"
+  ],
+  "artifacts": {
+    "G:\\youhegaojian\\macro-mind-engine\\docs\\current\\OPERATIONS.md": "fe8a398439616e6703ec155bdde5f64eced079eec762f39667e85390ad02ecdf",
+    "G:\\youhegaojian\\macro-mind-engine\\docs\\current\\README.md": "38a01fac6c36b7e03f277ccdce887242aa016286045a5638d938bc233c012be4",
+    "G:\\youhegaojian\\macro-mind-engine\\docs\\current\\STATUS.md": "1b76f9bc4e8dbbb7e3514817ae485c0b053ccaf0193f7cdc9c8881f6fc02e0a8",
+    "G:\\youhegaojian\\macro-mind-engine\\docs\\current\\STRUCTURE.md": "aa18460bfdd2fa7fc971833d474ed01a110bf15cf1705f19771cfeb02e2429bc",
+    "G:\\youhegaojian\\macro-mind-engine\\scripts\\operations\\project_status.py": "1eab0a0259d0c597f90de793190b214784e58117007ac2252681e3cc7ea7a756",
+    "G:\\youhegaojian\\macro-mind-engine\\tests\\operations\\test_project_status.py": "1e85b1fb0932c453c34fe9b7de5ab91f38e10d4067b19edee88f5332eb6a94f6",
+    "G:\\youhegaojian\\macro-mind-engine\\README.md": "56db7f11005386402c38df2f56f15b02d59e01c6603b581ee57f223086480309",
+    "G:\\youhegaojian\\START_HERE.md": "49ac1648fda080f6206986a31e31cfeca4742f858012db903f2a3772d5fc3545",
+    "G:\\youhegaojian\\MACROMIND_MASTER_STATE.md": "946f23b8e2a64df638ec74f9dfd2612bcc5fb42bcd1bb2c3da9de29d0b3b0af3"
+  }
+}

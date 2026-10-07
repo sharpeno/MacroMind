@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "Three cards, only two proposed revisions can be adopted",
+    "Calibration decisions and notes persist",
+    "New dataset JSON export",
+    "TXT export",
+    "Import round trip",
+    "Reject adoption when no proposal exists",
+    "Mobile fits width",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "url": "http://127.0.0.1:8768/HUMAN_REVIEW.html",
+  "browser": "Edge headless Playwright; Browser plugin unavailable",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "limitations": [
+    "Native directory picker and Codex download UI not tested",
+    "New isolated context; user drafts not accessed",
+    "Synthetic feedback not human approval"
+  ]
+}

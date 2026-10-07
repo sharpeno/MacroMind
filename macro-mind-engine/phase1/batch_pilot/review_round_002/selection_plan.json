@@ -1,0 +1,25 @@
+{
+  "round": "review_round_002",
+  "strategy": "Purposive risk-based sample, not random; no population accuracy inference",
+  "items": 8,
+  "episodes": 5,
+  "categories": {
+    "推理链": 3,
+    "条件与范围": 3,
+    "字幕覆盖": 2
+  },
+  "completed_first10_excluded": [
+    "EP001/A01",
+    "EP001/A02",
+    "EP002/A01",
+    "EP002/A02",
+    "EP003/A01",
+    "EP003/A02",
+    "EP004/A02",
+    "EP004/A03",
+    "EP005/A01",
+    "EP005/A02"
+  ],
+  "canonical_mutations": false,
+  "prior_reviews_reopened": false
+}

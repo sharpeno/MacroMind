@@ -1,0 +1,12 @@
+PASS: comparison references, exact quotes, unchanged baseline statements and bounded conclusions.
+PASS rejected: altered_quote
+PASS rejected: missing_method
+PASS rejected: missing_evidence
+PASS rejected: wrong_baseline_ref
+PASS rejected: false_equal_inputs
+PASS rejected: false_score
+PASS rejected: altered_judgment
+PASS rejected: promoted_truth
+PASS rejected: unapproved_rule_change
+PASS rejected: unjustified_full_pass
+PASS: 591 protected files unchanged; source hashes match.

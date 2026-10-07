@@ -1,0 +1,24 @@
+{
+  "navigation_integrity": "PASS",
+  "canonical_run": "phase1/batch_pilot/run_005",
+  "quality_run": "phase1/extraction_quality/semantic_calibrated_001",
+  "report": "phase1/extraction_quality/semantic_calibrated_001/REPORT.md",
+  "review_receipt": "phase1/batch_pilot/human_reviews/semantic_pilot_001/batch_001/receipt.json",
+  "policies": "phase1/extraction_quality/semantic_calibrated_001/policies",
+  "review_status": "FEEDBACK_IMPLEMENTED",
+  "sealed_artifacts_checked": 182,
+  "episode_count": 5,
+  "raw_cues": 1913,
+  "totals": {
+    "candidate_objects": 3211,
+    "active_objects": 2779,
+    "normalized_claims": 121,
+    "active_claims": 83,
+    "active_arguments": 19,
+    "nonreference_indeterminate": 53
+  },
+  "isolated_objects": 432,
+  "semantic_acceptance": false,
+  "production_ready": false,
+  "scope": "Read-only navigation, seals and counts; not truth or method effectiveness"
+}

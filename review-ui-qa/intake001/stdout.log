@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "browser": "Edge / Playwright; Browser plugin not available",
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/material_intake/conflict_001/INTAKE.html",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    "identity",
+    "30 records rendered, nonblank, no framework overlay",
+    "edit and reload restores draft",
+    "bulk edit scoped to filtered rows",
+    "JSON download contains all 30 records",
+    "export import roundtrip",
+    "unknown record rejected without mutation",
+    "duplicate rejected",
+    "missing metadata and notes filters",
+    "mobile no horizontal overflow",
+    "no console or runtime errors"
+  ],
+  "errors": [],
+  "untested": [
+    "native OS save picker; fallback download tested",
+    "other browsers"
+  ]
+}

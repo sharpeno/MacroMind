@@ -1,0 +1,17187 @@
+# MacroMind Golden Sample #003 · V0.3
+
+视频：《第六百二七期》霍尔木兹海峡争夺战，会如何主导油价波动？
+
+知识截止：2026-03-03T17:30:00+08:00。抽取完成；音频、原研报与历史网页版本仍待Review。
+
+本报告依用户授权执行V03及追加提示；转写和网页仅作为证据。null表示未知，不用模型猜测填空。全文数据另见同目录 golden_sample_003.json；逐字字幕与证据定位见 raw_cues.json / source_segments.json。
+
+## 01 EXECUTIVE EXTRACTION REPORT
+
+```json
+{
+  "status": "extraction_complete_review_pending_not_verified_knowledge_base",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "publication_basis": "user_authorized_addendum",
+  "recorded_at": null,
+  "max_uncertainties": [
+    "未听音，专名/数值纠错均未接受",
+    "JPM储油原研报、海峡流量和价格基准不足",
+    "滚动网页缺历史版本，既有条目也有后改风险",
+    "60天上限、航道控制到定价权和AI资金路径缺证"
+  ],
+  "core_structural_judgment": "忠实保留控制权—成本—持续时间—油价情景框架；未发现足以确认长期StructuralProcess的证据。",
+  "post_cutoff_contamination": {
+    "encountered": true,
+    "accepted_into_creator_reconstruction": false,
+    "residual_risk": "来源在cutoff后抓取，无法完全排除未披露修订；EIA修订不入严格Verified。",
+    "quarantine_refs": "auxiliary.post_cutoff_quarantine"
+  },
+  "audio_review_performed": false,
+  "verified_knowledge_scope": "仅Platts自身已发布通知范围的X09/X10/X11；其余不自动升级",
+  "completion_scope": "覆盖899字幕cue的语义分段与重要命题；不是每个口头填充词都建Claim。",
+  "source_family_count_caveat": "Source记录层数量不等于每Claim的独立证据数。"
+}
+```
+
+## 02 SOURCES
+
+### S01
+
+```json
+{
+  "source_id": "S01",
+  "title": "《第六百二七期》霍尔木兹海峡争夺战，会如何主导油价波动？-p01-16",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第六百二七期》霍尔木兹海峡争夺战，会如何主导油价波动？-p01-16.mp4",
+  "role": "primary_corpus",
+  "source_type": "video",
+  "published_at": "2026-03-03T17:30:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "file_found_hashed_audio_not_reviewed",
+  "source_family_id": "F9527",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "local_file_sha256",
+  "sha256": "03d486c728617c1530536092b882924723d74c75b59409260fb8294f412aaf6f",
+  "bytes": 89332546
+}
+```
+
+### S02
+
+```json
+{
+  "source_id": "S02",
+  "title": "自动转写原文",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第六百二七期》霍尔木兹海峡争夺战，会如何主导油价波动？-p01-16.自动转写.txt",
+  "role": "transcript",
+  "source_type": "asr_text",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "F9527",
+  "derived_from": [
+    "S01"
+  ],
+  "independence": "derived",
+  "version": "local_file_sha256",
+  "sha256": "9c709e0d16067f128649eff6ab3c23addabaa4b7e7166246ef24dbc9652d26e9",
+  "bytes": 40272
+}
+```
+
+### S03
+
+```json
+{
+  "source_id": "S03",
+  "title": "SRT原文",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第六百二七期》霍尔木兹海峡争夺战，会如何主导油价波动？-p01-16.srt",
+  "role": "timestamp_anchor",
+  "source_type": "asr_subtitle",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "F9527",
+  "derived_from": [
+    "S01"
+  ],
+  "independence": "derived",
+  "version": "local_file_sha256",
+  "sha256": "585812c1833b46afe954c6c559ff06346034fe829fdddb6e68cfe98f6ac29fd1",
+  "bytes": 75214
+}
+```
+
+### S04
+
+```json
+{
+  "source_id": "S04",
+  "title": "美伊战火“点燃”油气市场，价格能涨至多高？一文读懂",
+  "location": "https://www.cls.cn/detail/2300559",
+  "role": "creator_cited_reference",
+  "source_type": "news",
+  "published_at": "2026-03-03T08:48:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "article_body_read_tool_capture",
+  "source_family_id": "FCLS_OIL",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_capture_not_historical_archive"
+}
+```
+
+### S05
+
+```json
+{
+  "source_id": "S05",
+  "title": "财联社持续更新直播；标题已变化",
+  "location": "https://www.cls.cn/detail/2298102",
+  "role": "creator_cited_reference",
+  "source_type": "rolling_news",
+  "published_at": "2026-02-28T14:26:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "selected_entries_read_current_page_contains_post_cutoff",
+  "source_family_id": "FCLS_LIVE",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_page_selected_entry_whitelist"
+}
+```
+
+### S06
+
+```json
+{
+  "source_id": "S06",
+  "title": "Reuters / Platts 原链接",
+  "location": "https://www.reuters.com/world/middle-east/platts-reviewing-mideast-crude-pricing-mechanism-amid-us-israel-attacks-iran-2026-03-02/",
+  "role": "user_supplied_reference",
+  "source_type": "news",
+  "published_at": "2026-03-02",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "open_failed_not_read",
+  "source_family_id": "FREUTERS_PLATTS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_capture_not_historical_archive"
+}
+```
+
+### S07
+
+```json
+{
+  "source_id": "S07",
+  "title": "Reuters稿件的Business Recorder转载",
+  "location": "https://www.brecorder.com/news/40409686/platts-reviewing-mideast-crude-pricing-mechanism-amid-us-israel-attacks-on-iran",
+  "role": "reference_recovery",
+  "source_type": "syndication",
+  "published_at": "2026-03-02",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "article_body_read",
+  "source_family_id": "FREUTERS_PLATTS",
+  "derived_from": [
+    "S06"
+  ],
+  "independence": "derived",
+  "version": "Mar2_11:33_timezone_unknown_current_capture"
+}
+```
+
+### S08
+
+```json
+{
+  "source_id": "S08",
+  "title": "Platts成品油MOC海峡内港口报价调整",
+  "location": "https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/030226-platts-suspends-bids-and-offers-for-persian-gulf-ports-within-strait-of-hormuz-in-middle-east-refined-products-moc-assessment-process",
+  "role": "model_supplement",
+  "source_type": "methodology_notice",
+  "published_at": "2026-03-02",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FPLATTS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_capture_not_historical_archive"
+}
+```
+
+### S09
+
+```json
+{
+  "source_id": "S09",
+  "title": "Platts评估是否继续发布中东运费",
+  "location": "https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/030226-platts-reviewing-middle-east-freight-assessment-publication",
+  "role": "model_supplement",
+  "source_type": "methodology_notice",
+  "published_at": "2026-03-02",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FPLATTS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_capture_not_historical_archive"
+}
+```
+
+### S10
+
+```json
+{
+  "source_id": "S10",
+  "title": "Platts确认继续发布中东运费评估",
+  "location": "https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/030226-platts-to-publish-middle-east-freight-assessments-including-clean-arab-gulf-japan-lr1-55kt",
+  "role": "model_supplement",
+  "source_type": "methodology_notice",
+  "published_at": "2026-03-02",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FPLATTS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "current_capture_not_historical_archive"
+}
+```
+
+### S11
+
+```json
+{
+  "source_id": "S11",
+  "title": "EIA：霍尔木兹流量与分母",
+  "location": "https://www.eia.gov/todayinenergy/detail.php?id=65504",
+  "role": "model_supplement",
+  "source_type": "statistical_analysis",
+  "published_at": "2025-06-16",
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FEIA_VORTEXA",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "page_notes_reposted_label_correction_date_unknown"
+}
+```
+
+### S12
+
+```json
+{
+  "source_id": "S12",
+  "title": "V03.MD",
+  "location": "G:\\youhegaojian\\prompt\\V03.MD",
+  "role": "user_authorized_instruction",
+  "source_type": "prompt",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FINSTRUCTIONS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "local_file_sha256",
+  "sha256": "16253012fb76b3c9cf409acd1afe63d653c5dba8a80e7c3df9b4368fad3202a4",
+  "bytes": 25473
+}
+```
+
+### S13
+
+```json
+{
+  "source_id": "S13",
+  "title": "V0.3追加.md",
+  "location": "G:\\youhegaojian\\prompt\\V0.3追加.md",
+  "role": "user_authorized_instruction_and_metadata",
+  "source_type": "prompt",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-25T18:21:18+08:00",
+  "read_status": "read",
+  "source_family_id": "FINSTRUCTIONS",
+  "derived_from": [],
+  "independence": "unknown",
+  "version": "local_file_sha256",
+  "sha256": "17d4e431067b8f1028b0ad53756b0e42e0126faa966c4ea3e8d5df119031daef",
+  "bytes": 3785
+}
+```
+
+## 03 TRANSCRIPT CORRECTIONS
+
+```json
+{
+  "accepted_ASR_corrections": [],
+  "candidate_corrections": [
+    {
+      "correction_id": "COR01",
+      "cue_start": 2,
+      "cue_end": 3,
+      "start": "00:00:20,210",
+      "end": "00:01:00,210",
+      "raw_text": "和世界的影响呢就开始展现出来了。油价最近一段时间的波动呢，其实按道理来说的话是挺反常试的。但是在我看来是挺正常的。所谓的反常是啥呢？就是它没有像大家预想的那样，伊朗一封锁霍尔木斯海峡油价一下子涨上天上去啊，我看到大摩的分析师都已经开始说。\n油价涨到120啊，有的竟然说产到200是吧？不会那么快，不会那么的快，油价涨多少，取决于啥呢？取决于战争的进程。这个战争的进程详细的说的话，就是美国对于这场战争的主导权。所以围绕着油价其实是有好多好多。",
+      "raw_form": "反常试 / 霍尔木斯",
+      "proposed_normalized_form": "反常识 / 霍尔木兹",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR02",
+      "cue_start": 16,
+      "cue_end": 16,
+      "start": "00:01:27,760",
+      "end": "00:01:31,170",
+      "raw_text": "中东这边的网爷能够把自己的钱财。",
+      "raw_form": "网爷",
+      "proposed_normalized_form": "王爷",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR03",
+      "cue_start": 19,
+      "cue_end": 20,
+      "start": "00:01:35,090",
+      "end": "00:01:39,380",
+      "raw_text": "啊，这是它的容易算呗。\n但是他这个容易算票能不能打得成？",
+      "raw_form": "容易算呗 / 容易算票",
+      "proposed_normalized_form": "如意算盘",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR04",
+      "cue_start": 40,
+      "cue_end": 63,
+      "start": "00:02:33,340",
+      "end": "00:03:31,720",
+      "raw_text": "就是要控制伊朗啊控制这个霍尔木斯海峡的控制权。\n啊，把伊朗的海军消灭光了以后。\n那伊朗自然而然就没有能力去封锁霍尔木彩霞了嘛，对吧？\n但是我之前的时候也跟大家分析过这个地形了。然后霍尔蒙采家在伊朗这块是最窄的地方。\n最窄的地方，它那个。\n水浅呢。\n河道窄呀。\nThe.\n也就是差不多。\n呃，30公里左右的宽度啊，这个整个的这个海峡的这个。\n这个这个这个宽度就是30公里。\n30公里是个什么概念呢？\n你在那个。\n呃，岸上面加个炮都能打到河里边去。\n更何况呢。\n伊朗在旁边这块的地形，它是一个非常。\n复杂的一个山地，崎岖的山地。\n有山地就意味着啥？\n有高差。\n有高差就意味着啥呢？很多很多路上的武器的射程。\n远不止30公里。\n所以呢。\n所以对于伊朗而言的话，海军被消灭完了，并不代表着他就没有能力。\n破坏霍乌尔木兹海峡的运输了。",
+      "raw_form": "霍尔木彩霞 / 霍尔蒙采家 / 霍乌尔木兹",
+      "proposed_normalized_form": "霍尔木兹海峡",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR05",
+      "cue_start": 68,
+      "cue_end": 84,
+      "start": "00:03:37,620",
+      "end": "00:04:27,220",
+      "raw_text": "有上几百条的这个游轮呢，几十吨的几十万吨的这个游轮呢。\n从这个海峡通过。\n平均最繁忙的时候，6分钟通过一一艘船。\n在这样的运力的这个。\n基础之上的话。\n只要伊朗在岸边架起来。\n炮击的阵地甚至。\n都不需要是那种正式的阵地，他打一枪换一个地方。\n那种。\n山山上挖个洞是吧，搞个那种猫耳洞是吧？打了以后。\n然后然后然后突然之间就从地道转移了。\n就搞这种事儿，零敲碎打的这么这么折腾。\n他只要能够扰乱运力。\n他不需要扰乱太多，他只要能够提高保险的这个成本是吧？\n你这些游船，你面临着伊朗的这种打黑枪的风险，那作为这个。\n这个这个船主的话，当然要投保了。那投保了，那风险一增加的话，保费就要增加。\n这些保费就要加到运输的货物里边去。",
+      "raw_form": "游轮 / 游船",
+      "proposed_normalized_form": "油轮 / 油船",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR06",
+      "cue_start": 97,
+      "cue_end": 97,
+      "start": "00:04:53,750",
+      "end": "00:04:58,420",
+      "raw_text": "帮欧佩克，特别是中东这边的欧佩克那海和会的这些成员们。",
+      "raw_form": "海和会",
+      "proposed_normalized_form": "海合会",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR07",
+      "cue_start": 120,
+      "cue_end": 120,
+      "start": "00:05:40,870",
+      "end": "00:05:43,590",
+      "raw_text": "啊，把哈哈内衣解决掉了。然后呢。",
+      "raw_form": "哈哈内衣",
+      "proposed_normalized_form": "哈梅内伊",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR08",
+      "cue_start": 384,
+      "cue_end": 384,
+      "start": "00:16:34,820",
+      "end": "00:16:39,160",
+      "raw_text": "你路比奥不是前脚才说嘛，说吧伊朗这个国家太邪恶，太可怕了。",
+      "raw_form": "路比奥",
+      "proposed_normalized_form": "鲁比奥",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR09",
+      "cue_start": 393,
+      "cue_end": 393,
+      "start": "00:16:58,560",
+      "end": "00:17:02,660",
+      "raw_text": "到时候就是真正的物理意义上，让你见识见识什么叫慢剑启发。",
+      "raw_form": "慢剑启发",
+      "proposed_normalized_form": "万箭齐发",
+      "status": "needs_audio_review",
+      "semantic_confidence": "medium",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR10",
+      "cue_start": 475,
+      "cue_end": 480,
+      "start": "00:20:21,380",
+      "end": "00:20:46,230",
+      "raw_text": "一个呢就是海湾国家，它的这个邮储啊，也就能够支撑20多天。\n啊，这是大呃摩摩根大通的这个调查数据。\n我认为这个里边呢是有埋伏的，而且呢。\n海湾这边的国家，它产油的话，它也不用一根筋，是吧？这打了以后，这个油量自然而然就要减少一点。\n所以它的这个石油储备，它能够存的这些东西的话，加起来。\n可能能够存个30天，就一个月左右，这个是比较保险的。",
+      "raw_form": "邮储 / 石油储备",
+      "proposed_normalized_form": "储油空间或库存；不作替换",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR11",
+      "cue_start": 483,
+      "cue_end": 483,
+      "start": "00:20:49,210",
+      "end": "00:20:53,610",
+      "raw_text": "翻倍来计算嘛，那么料底以宽嘛，他们就是按两个月时间，也就是说什么呢？",
+      "raw_form": "料底以宽",
+      "proposed_normalized_form": "料敌以宽",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR12",
+      "cue_start": 613,
+      "cue_end": 613,
+      "start": "00:25:52,740",
+      "end": "00:25:56,590",
+      "raw_text": "美国是战术上的攻势，战略上的首势。",
+      "raw_form": "战略上的首势",
+      "proposed_normalized_form": "战略上的守势",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR13",
+      "cue_start": 651,
+      "cue_end": 651,
+      "start": "00:27:20,600",
+      "end": "00:27:24,570",
+      "raw_text": "油价会维持在100到126个区间，相当长的一段时间。",
+      "raw_form": "100到126",
+      "proposed_normalized_form": "100到120？保留126",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR14",
+      "cue_start": 657,
+      "cue_end": 657,
+      "start": "00:27:32,900",
+      "end": "00:27:38,970",
+      "raw_text": "他这边呢把国际金价维持在这么高以后，通过在伊朗身上刷了存在感以后，证明自己依然是。",
+      "raw_form": "国际金价",
+      "proposed_normalized_form": "国际油价？",
+      "status": "needs_audio_review",
+      "semantic_confidence": "medium",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR15",
+      "cue_start": 757,
+      "cue_end": 757,
+      "start": "00:31:33,000",
+      "end": "00:31:34,460",
+      "raw_text": "大规模的使用医。",
+      "raw_form": "使用医",
+      "proposed_normalized_form": "使用AI",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "COR16",
+      "cue_start": 868,
+      "cue_end": 868,
+      "start": "00:36:08,580",
+      "end": "00:36:12,150",
+      "raw_text": "别觉得什么我们实界派，你们训级派互相之间如何如何。",
+      "raw_form": "实界派 / 训级派",
+      "proposed_normalized_form": "什叶派 / 逊尼派",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    }
+  ],
+  "needs_audio_review": [
+    "COR01",
+    "COR02",
+    "COR03",
+    "COR04",
+    "COR05",
+    "COR06",
+    "COR07",
+    "COR08",
+    "COR09",
+    "COR10",
+    "COR11",
+    "COR12",
+    "COR13",
+    "COR14",
+    "COR15",
+    "COR16"
+  ],
+  "normalization_applied": false
+}
+```
+
+## 04 SOURCE SEGMENT ANNOTATIONS
+
+### AN01
+
+```json
+{
+  "annotation_id": "AN01",
+  "annotation_type": "self_correction",
+  "cue_start": 319,
+  "cue_end": 323,
+  "start": "00:13:49,990",
+  "end": "00:14:03,370",
+  "note": "90至100改为90至110；可从文字观察，不认定听音确认",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN02
+
+```json
+{
+  "annotation_id": "AN02",
+  "annotation_type": "self_correction",
+  "cue_start": 234,
+  "cue_end": 235,
+  "start": "00:10:25,910",
+  "end": "00:10:32,450",
+  "note": "一个月改为一个星期",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN03
+
+```json
+{
+  "annotation_id": "AN03",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 297,
+  "cue_end": 314,
+  "start": "00:13:02,820",
+  "end": "00:13:38,510",
+  "note": "首周+一个月、四周、40天非同一窗口",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN04
+
+```json
+{
+  "annotation_id": "AN04",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 416,
+  "cue_end": 425,
+  "start": "00:17:55,500",
+  "end": "00:18:20,380",
+  "note": "国庆节与春节前同时出现，不能静默选择",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN05
+
+```json
+{
+  "annotation_id": "AN05",
+  "annotation_type": "mixed_fact_and_opinion",
+  "cue_start": 36,
+  "cue_end": 40,
+  "start": "00:02:22,410",
+  "end": "00:02:37,450",
+  "note": "宣布军事目标与主播解读目标分开",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN06
+
+```json
+{
+  "annotation_id": "AN06",
+  "annotation_type": "mixed_fact_and_opinion",
+  "cue_start": 475,
+  "cue_end": 486,
+  "start": "00:20:21,380",
+  "end": "00:21:03,730",
+  "note": "机构测算经主播放宽与翻倍成为政治上限",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN07
+
+```json
+{
+  "annotation_id": "AN07",
+  "annotation_type": "rhetorical_exaggeration",
+  "cue_start": 820,
+  "cue_end": 848,
+  "start": "00:34:13,410",
+  "end": "00:35:17,910",
+  "note": "神选、魔法和本土圣战的反讽铺垫，紧接否定其大概率发生",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN08
+
+```json
+{
+  "annotation_id": "AN08",
+  "annotation_type": "rhetorical_exaggeration",
+  "cue_start": 537,
+  "cue_end": 547,
+  "start": "00:23:00,340",
+  "end": "00:23:28,360",
+  "note": "祭品及杀戮比喻不抽成已发布的对以军事行动",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN09
+
+```json
+{
+  "annotation_id": "AN09",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 706,
+  "cue_end": 707,
+  "start": "00:29:24,240",
+  "end": "00:29:30,620",
+  "note": "特朗普连任指本人/党派/别的选举未知",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN10
+
+```json
+{
+  "annotation_id": "AN10",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 517,
+  "cue_end": 524,
+  "start": "00:22:14,150",
+  "end": "00:22:33,950",
+  "note": "历史封锁60天缺具体事件",
+  "speaker_slip_confirmed": false
+}
+```
+
+### AN11
+
+```json
+{
+  "annotation_id": "AN11",
+  "annotation_type": "rhetorical_exaggeration",
+  "cue_start": 676,
+  "cue_end": 683,
+  "start": "00:28:19,910",
+  "end": "00:28:36,740",
+  "note": "保护费是比喻，不是有来源的现行收费政策",
+  "speaker_slip_confirmed": false
+}
+```
+
+## 05 SEMANTIC SEGMENTS
+
+### SEG01
+
+```json
+{
+  "segment_id": "SEG01",
+  "topic": "问题设定与美国AI资本动机",
+  "source_id": "S03",
+  "cue_start": 1,
+  "cue_end": 28,
+  "start": "00:00:00,210",
+  "end": "00:02:00,330"
+}
+```
+
+### SEG02
+
+```json
+{
+  "segment_id": "SEG02",
+  "topic": "海峡控制、岸基威胁、保险与实物流",
+  "source_id": "S03",
+  "cue_start": 29,
+  "cue_end": 109,
+  "start": "00:02:00,450",
+  "end": "00:05:22,130"
+}
+```
+
+### SEG03
+
+```json
+{
+  "segment_id": "SEG03",
+  "topic": "战争话语与美国处境判断",
+  "source_id": "S03",
+  "cue_start": 110,
+  "cue_end": 165,
+  "start": "00:05:22,660",
+  "end": "00:07:42,530"
+}
+```
+
+### SEG04
+
+```json
+{
+  "segment_id": "SEG04",
+  "topic": "首周油价及决策分叉",
+  "source_id": "S03",
+  "cue_start": 166,
+  "cue_end": 198,
+  "start": "00:07:42,710",
+  "end": "00:09:00,720"
+}
+```
+
+### SEG05
+
+```json
+{
+  "segment_id": "SEG05",
+  "topic": "撤退与选择性开放情景",
+  "source_id": "S03",
+  "cue_start": 199,
+  "cue_end": 255,
+  "start": "00:09:00,720",
+  "end": "00:11:24,670"
+}
+```
+
+### SEG06
+
+```json
+{
+  "segment_id": "SEG06",
+  "topic": "升级情景、120与40天口径",
+  "source_id": "S03",
+  "cue_start": 256,
+  "cue_end": 324,
+  "start": "00:11:24,750",
+  "end": "00:14:05,060"
+}
+```
+
+### SEG07
+
+```json
+{
+  "segment_id": "SEG07",
+  "topic": "40天撤退与国内胜利包装",
+  "source_id": "S03",
+  "cue_start": 325,
+  "cue_end": 369,
+  "start": "00:14:05,060",
+  "end": "00:15:53,200"
+}
+```
+
+### SEG08
+
+```json
+{
+  "segment_id": "SEG08",
+  "topic": "中东向东亚外推与军工产量",
+  "source_id": "S03",
+  "cue_start": 370,
+  "cue_end": 440,
+  "start": "00:15:53,200",
+  "end": "00:19:01,100"
+}
+```
+
+### SEG09
+
+```json
+{
+  "segment_id": "SEG09",
+  "topic": "情报公开、盟友与战争成本",
+  "source_id": "S03",
+  "cue_start": 441,
+  "cue_end": 472,
+  "start": "00:19:01,690",
+  "end": "00:20:10,100"
+}
+```
+
+### SEG10
+
+```json
+{
+  "segment_id": "SEG10",
+  "topic": "储油容量、30乘2与60天上限",
+  "source_id": "S03",
+  "cue_start": 473,
+  "cue_end": 530,
+  "start": "00:20:10,380",
+  "end": "00:22:49,880"
+}
+```
+
+### SEG11
+
+```json
+{
+  "segment_id": "SEG11",
+  "topic": "持久控制、和谈、以色列与霸权",
+  "source_id": "S03",
+  "cue_start": 531,
+  "cue_end": 565,
+  "start": "00:22:49,880",
+  "end": "00:24:11,630"
+}
+```
+
+### SEG12
+
+```json
+{
+  "segment_id": "SEG12",
+  "topic": "无敌舰队类比与信誉杠杆",
+  "source_id": "S03",
+  "cue_start": 566,
+  "cue_end": 620,
+  "start": "00:24:11,630",
+  "end": "00:26:16,090"
+}
+```
+
+### SEG13
+
+```json
+{
+  "segment_id": "SEG13",
+  "topic": "一个月波动和40天判断",
+  "source_id": "S03",
+  "cue_start": 621,
+  "cue_end": 649,
+  "start": "00:26:16,090",
+  "end": "00:27:17,300"
+}
+```
+
+### SEG14
+
+```json
+{
+  "segment_id": "SEG14",
+  "topic": "海峡控制者、定价权及租金",
+  "source_id": "S03",
+  "cue_start": 650,
+  "cue_end": 705,
+  "start": "00:27:17,300",
+  "end": "00:29:24,240"
+}
+```
+
+### SEG15
+
+```json
+{
+  "segment_id": "SEG15",
+  "topic": "美国国内廉价油与分配假说",
+  "source_id": "S03",
+  "cue_start": 706,
+  "cue_end": 743,
+  "start": "00:29:24,240",
+  "end": "00:30:56,240"
+}
+```
+
+### SEG16
+
+```json
+{
+  "segment_id": "SEG16",
+  "topic": "能源转型、军事AI与资本回流",
+  "source_id": "S03",
+  "cue_start": 744,
+  "cue_end": 779,
+  "start": "00:30:56,260",
+  "end": "00:32:36,740"
+}
+```
+
+### SEG17
+
+```json
+{
+  "segment_id": "SEG17",
+  "topic": "美元避险与信用透支",
+  "source_id": "S03",
+  "cue_start": 780,
+  "cue_end": 810,
+  "start": "00:32:36,740",
+  "end": "00:33:54,180"
+}
+```
+
+### SEG18
+
+```json
+{
+  "segment_id": "SEG18",
+  "topic": "美国大概率失败与反讽假设",
+  "source_id": "S03",
+  "cue_start": 811,
+  "cue_end": 850,
+  "start": "00:33:54,180",
+  "end": "00:35:24,040"
+}
+```
+
+### SEG19
+
+```json
+{
+  "segment_id": "SEG19",
+  "topic": "胜者秩序与邻国关系",
+  "source_id": "S03",
+  "cue_start": 851,
+  "cue_end": 877,
+  "start": "00:35:24,040",
+  "end": "00:36:37,550"
+}
+```
+
+### SEG20
+
+```json
+{
+  "segment_id": "SEG20",
+  "topic": "旧比喻、立场和保留判断",
+  "source_id": "S03",
+  "cue_start": 878,
+  "cue_end": 899,
+  "start": "00:36:37,550",
+  "end": "00:37:25,420"
+}
+```
+
+## 06 CLAIMS
+
+### C001
+
+```json
+{
+  "claim_id": "C001",
+  "statement": "有分析师谈到油价120或200；转写将其中机构称为“大摩”。",
+  "claimant_id": "AANALYST_UNKNOWN",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "AANALYST_UNKNOWN",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "有分析师谈到油价120或200；转写将其中机构称为“大摩”。",
+  "source_segment_refs": [
+    "SS-C001"
+  ],
+  "atomicity_group_id": "AG-002",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C002
+
+```json
+{
+  "claim_id": "C002",
+  "statement": "油价路径主要取决于战争进程，具体是美国对战局的主导权。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "油价路径主要取决于战争进程，具体是美国对战局的主导权。",
+  "source_segment_refs": [
+    "SS-C002"
+  ],
+  "atomicity_group_id": "AG-003",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C003
+
+```json
+{
+  "claim_id": "C003",
+  "statement": "特朗普发动战争的一项动机是让中东避险资金流向美国。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普发动战争的一项动机是让中东避险资金流向美国。",
+  "source_segment_refs": [
+    "SS-C003"
+  ],
+  "atomicity_group_id": "AG-013",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C004
+
+```json
+{
+  "claim_id": "C004",
+  "statement": "中东资金赴美将为美国AI泡沫接盘。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "中东资金赴美将为美国AI泡沫接盘。",
+  "source_segment_refs": [
+    "SS-C004",
+    "SS-C094"
+  ],
+  "atomicity_group_id": "AG-016",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C005
+
+```json
+{
+  "claim_id": "C005",
+  "statement": "首周若伊朗屈服，地区局面将由美国主导。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "首周",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "首周若伊朗屈服，地区局面将由美国主导。",
+  "source_segment_refs": [
+    "SS-C005"
+  ],
+  "atomicity_group_id": "AG-034",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C006
+
+```json
+{
+  "claim_id": "C006",
+  "statement": "特朗普提出消灭伊朗海军的战争目标。",
+  "claimant_id": "ATRUMP",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "ATRUMP",
+    "A9527"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普提出消灭伊朗海军的战争目标。",
+  "source_segment_refs": [
+    "SS-C006"
+  ],
+  "atomicity_group_id": "AG-036",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C007
+
+```json
+{
+  "claim_id": "C007",
+  "statement": "消灭伊朗海军的真实目标是夺取霍尔木兹控制权。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "消灭伊朗海军的真实目标是夺取霍尔木兹控制权。",
+  "source_segment_refs": [
+    "SS-C007"
+  ],
+  "atomicity_group_id": "AG-038",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C008
+
+```json
+{
+  "claim_id": "C008",
+  "statement": "霍尔木兹最窄处宽约30公里。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "差不多30公里",
+  "raw_quantifier": "差不多30公里",
+  "certainty_expressed": null,
+  "scope": "霍尔木兹最窄处宽约30公里。",
+  "source_segment_refs": [
+    "SS-C008"
+  ],
+  "atomicity_group_id": "AG-049",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C009
+
+```json
+{
+  "claim_id": "C009",
+  "statement": "伊朗临海一侧有复杂山地与高差。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "伊朗临海一侧有复杂山地与高差。",
+  "source_segment_refs": [
+    "SS-C009"
+  ],
+  "atomicity_group_id": "AG-055",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C010
+
+```json
+{
+  "claim_id": "C010",
+  "statement": "岸基武器可以威胁海峡，海军被消灭也不等于破坏运输能力消失。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "岸基武器可以威胁海峡，海军被消灭也不等于破坏运输能力消失。",
+  "source_segment_refs": [
+    "SS-C010"
+  ],
+  "atomicity_group_id": "AG-059",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C011
+
+```json
+{
+  "claim_id": "C011",
+  "statement": "海峡最繁忙时每天通过上几百条油轮。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "上几百条",
+  "raw_quantifier": "上几百条",
+  "certainty_expressed": null,
+  "scope": "海峡最繁忙时每天通过上几百条油轮。",
+  "source_segment_refs": [
+    "SS-C011"
+  ],
+  "atomicity_group_id": "AG-065",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C012
+
+```json
+{
+  "claim_id": "C012",
+  "statement": "这些油轮有几十万吨级运载规模；原句含“几十吨”的疑似改口。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "几十吨的几十万吨",
+  "raw_quantifier": "几十吨的几十万吨",
+  "certainty_expressed": null,
+  "scope": "这些油轮有几十万吨级运载规模；原句含“几十吨”的疑似改口。",
+  "source_segment_refs": [
+    "SS-C012"
+  ],
+  "atomicity_group_id": "AG-068",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C013
+
+```json
+{
+  "claim_id": "C013",
+  "statement": "最繁忙时平均6分钟通过一艘船。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "6分钟",
+  "raw_quantifier": "6分钟",
+  "certainty_expressed": null,
+  "scope": "最繁忙时平均6分钟通过一艘船。",
+  "source_segment_refs": [
+    "SS-C013"
+  ],
+  "atomicity_group_id": "AG-070",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C014
+
+```json
+{
+  "claim_id": "C014",
+  "statement": "零星袭击的风险足以增加船主保险成本。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "零星袭击的风险足以增加船主保险成本。",
+  "source_segment_refs": [
+    "SS-C014"
+  ],
+  "atomicity_group_id": "AG-073",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C015
+
+```json
+{
+  "claim_id": "C015",
+  "statement": "增加的保费会转嫁到运输货物的成本。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "增加的保费会转嫁到运输货物的成本。",
+  "source_segment_refs": [
+    "SS-C015"
+  ],
+  "atomicity_group_id": "AG-083",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C016
+
+```json
+{
+  "claim_id": "C016",
+  "statement": "运输风险促使通行密度降低，削弱运力。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "运输风险促使通行密度降低，削弱运力。",
+  "source_segment_refs": [
+    "SS-C016"
+  ],
+  "atomicity_group_id": "AG-086",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C017
+
+```json
+{
+  "claim_id": "C017",
+  "statement": "以运量减少20%、需求不变或增加作为演示情景。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "hypothetical_assumption",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "假设少20%",
+  "raw_quantifier": "假设少20%",
+  "certainty_expressed": null,
+  "scope": "以运量减少20%、需求不变或增加作为演示情景。",
+  "source_segment_refs": [
+    "SS-C017"
+  ],
+  "atomicity_group_id": "AG-090",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C018
+
+```json
+{
+  "claim_id": "C018",
+  "statement": "运出受阻会限制海湾产油国的产出上限，无须完全封锁。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "运出受阻会限制海湾产油国的产出上限，无须完全封锁。",
+  "source_segment_refs": [
+    "SS-C018"
+  ],
+  "atomicity_group_id": "AG-095",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C019
+
+```json
+{
+  "claim_id": "C019",
+  "statement": "仅靠摧毁海军取得完全海峡控制权的计划不能成立。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "仅靠摧毁海军取得完全海峡控制权的计划不能成立。",
+  "source_segment_refs": [
+    "SS-C019"
+  ],
+  "atomicity_group_id": "AG-104",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C020
+
+```json
+{
+  "claim_id": "C020",
+  "statement": "美国正在逐渐失去局势控制。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国正在逐渐失去局势控制。",
+  "source_segment_refs": [
+    "SS-C020"
+  ],
+  "atomicity_group_id": "AG-111",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C021
+
+```json
+{
+  "claim_id": "C021",
+  "statement": "没有看到美国庆祝伊朗友好投降的表态，说明尚未达到这一结果。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "没有看到美国庆祝伊朗友好投降的表态，说明尚未达到这一结果。",
+  "source_segment_refs": [
+    "SS-C021"
+  ],
+  "atomicity_group_id": "AG-128",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C022
+
+```json
+{
+  "claim_id": "C022",
+  "statement": "特朗普向《大西洋月刊》表示伊朗提出谈判。",
+  "claimant_id": "ATRUMP",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "ATRUMP",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普向《大西洋月刊》表示伊朗提出谈判。",
+  "source_segment_refs": [
+    "SS-C022"
+  ],
+  "atomicity_group_id": "AG-133",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C023
+
+```json
+{
+  "claim_id": "C023",
+  "statement": "特朗普表示原计划军事行动4至5周，也准备进行更长时间。",
+  "claimant_id": "ATRUMP",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "ATRUMP",
+    "A9527"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": "4到5个星期；更长",
+  "raw_quantifier": "4到5个星期；更长",
+  "certainty_expressed": null,
+  "scope": "特朗普表示原计划军事行动4至5周，也准备进行更长时间。",
+  "source_segment_refs": [
+    "SS-C023"
+  ],
+  "atomicity_group_id": "AG-136",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C024
+
+```json
+{
+  "claim_id": "C024",
+  "statement": "宣称可以打很久，实际是施压缩短战争并暴露内心不确定。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "宣称可以打很久，实际是施压缩短战争并暴露内心不确定。",
+  "source_segment_refs": [
+    "SS-C024"
+  ],
+  "atomicity_group_id": "AG-146",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C025
+
+```json
+{
+  "claim_id": "C025",
+  "statement": "首周油价缓慢上涨约20%至30%，到80至90左右。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "战争头一周；起点待核",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "20%到30%；80到90",
+  "raw_quantifier": "20%到30%；80到90",
+  "certainty_expressed": null,
+  "scope": "首周油价缓慢上涨约20%至30%，到80至90左右。",
+  "source_segment_refs": [
+    "SS-C025"
+  ],
+  "atomicity_group_id": "AG-163",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C026
+
+```json
+{
+  "claim_id": "C026",
+  "statement": "美国首周之后可能撤退，也可能追加行动。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "首周后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国首周之后可能撤退，也可能追加行动。",
+  "source_segment_refs": [
+    "SS-C026"
+  ],
+  "atomicity_group_id": "AG-183",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C027
+
+```json
+{
+  "claim_id": "C027",
+  "statement": "林肯号航母已经后退约900公里。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": "900公里",
+  "raw_quantifier": "900公里",
+  "certainty_expressed": null,
+  "scope": "林肯号航母已经后退约900公里。",
+  "source_segment_refs": [
+    "SS-C027"
+  ],
+  "atomicity_group_id": "AG-206",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C028
+
+```json
+{
+  "claim_id": "C028",
+  "statement": "若美国撤出并让伊朗面对国际压力，伊朗会妥协开放海峡。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "首周后未明",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若美国撤出并让伊朗面对国际压力，伊朗会妥协开放海峡。",
+  "source_segment_refs": [
+    "SS-C028"
+  ],
+  "atomicity_group_id": "AG-212",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C029
+
+```json
+{
+  "claim_id": "C029",
+  "statement": "美国可以在约一周后把撤退包装成已实现胜利。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "约一周",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国可以在约一周后把撤退包装成已实现胜利。",
+  "source_segment_refs": [
+    "SS-C029"
+  ],
+  "atomicity_group_id": "AG-234",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C030
+
+```json
+{
+  "claim_id": "C030",
+  "statement": "以色列昨天宣布重新开放空域。",
+  "claimant_id": "AISRAEL",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "AISRAEL",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "以色列昨天宣布重新开放空域；主播借此说明宣布开放不等于实际安全。",
+  "source_segment_refs": [
+    "SS-C030"
+  ],
+  "atomicity_group_id": "AG-236",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C031
+
+```json
+{
+  "claim_id": "C031",
+  "statement": "撤退分支下伊朗自有出口可通过海峡并继续向外运输。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "撤退后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "撤退分支下伊朗自有出口可通过海峡并继续向外运输。",
+  "source_segment_refs": [
+    "SS-C031"
+  ],
+  "atomicity_group_id": "AG-245",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C032
+
+```json
+{
+  "claim_id": "C032",
+  "statement": "撤退及开放分支下油价会适度回落或停止上涨。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "撤退后未明",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "撤退及开放分支下油价会适度回落或停止上涨。",
+  "source_segment_refs": [
+    "SS-C032"
+  ],
+  "atomicity_group_id": "AG-253",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C033
+
+```json
+{
+  "claim_id": "C033",
+  "statement": "即使无法控制近岸，美国仍有远洋海军阻断伊朗友好船运的能力。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "即使无法控制近岸，美国仍有远洋海军阻断伊朗友好船运的能力。",
+  "source_segment_refs": [
+    "SS-C033"
+  ],
+  "atomicity_group_id": "AG-261",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C034
+
+```json
+{
+  "claim_id": "C034",
+  "statement": "追加行动分支中，美国可能以打击亲伊朗船只来阻止伊朗获利。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "升级阶段",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "追加行动分支中，美国可能以打击亲伊朗船只来阻止伊朗获利。",
+  "source_segment_refs": [
+    "SS-C034"
+  ],
+  "atomicity_group_id": "AG-273",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C035
+
+```json
+{
+  "claim_id": "C035",
+  "statement": "追加行动带来成本上升，之后约一个月油价可逐渐到120左右。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "首周后追加行动约一个月",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "一个月；120",
+  "raw_quantifier": "一个月；120",
+  "certainty_expressed": null,
+  "scope": "追加行动带来成本上升，之后约一个月油价可逐渐到120左右。",
+  "source_segment_refs": [
+    "SS-C035"
+  ],
+  "atomicity_group_id": "AG-286",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C036
+
+```json
+{
+  "claim_id": "C036",
+  "statement": "首周加后续一个月被叙述为约4周、40天，并与哈梅内伊40天哀悼期联系。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "一个星期；一个月；4个星期；40天",
+  "raw_quantifier": "一个星期；一个月；4个星期；40天",
+  "certainty_expressed": null,
+  "scope": "首周加后续一个月被叙述为约4周、40天，并与哈梅内伊40天哀悼期联系。",
+  "source_segment_refs": [
+    "SS-C036"
+  ],
+  "atomicity_group_id": "AG-297",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C037
+
+```json
+{
+  "claim_id": "C037",
+  "statement": "约40天时油价或在90至110区间并开始下降；先说90至100再改口。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "约40天",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "90到100；90到110",
+  "raw_quantifier": "90到100；90到110",
+  "certainty_expressed": null,
+  "scope": "约40天时油价或在90至110区间并开始下降；先说90至100再改口。",
+  "source_segment_refs": [
+    "SS-C037"
+  ],
+  "atomicity_group_id": "AG-319",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C038
+
+```json
+{
+  "claim_id": "C038",
+  "statement": "美国缺乏明确战略目的，因此无法持续投入。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国缺乏明确战略目的，因此无法持续投入。",
+  "source_segment_refs": [
+    "SS-C038"
+  ],
+  "atomicity_group_id": "AG-325",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C039
+
+```json
+{
+  "claim_id": "C039",
+  "statement": "约40天美国可能撤退或谈判，伊朗掌握海峡则美国实质失败。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "约40天",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "约40天美国可能撤退或谈判，伊朗掌握海峡则美国实质失败。",
+  "source_segment_refs": [
+    "SS-C039"
+  ],
+  "atomicity_group_id": "AG-330",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C040
+
+```json
+{
+  "claim_id": "C040",
+  "statement": "特朗普可用击杀哈梅内伊包装胜利，失败未必影响国内选举。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普可用击杀哈梅内伊包装胜利，失败未必影响国内选举。",
+  "source_segment_refs": [
+    "SS-C040"
+  ],
+  "atomicity_group_id": "AG-346",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C041
+
+```json
+{
+  "claim_id": "C041",
+  "statement": "霍尔木兹占全世界油供的30%至40%。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "30%到40%",
+  "raw_quantifier": "30%到40%",
+  "certainty_expressed": null,
+  "scope": "霍尔木兹占全世界油供的30%至40%。",
+  "source_segment_refs": [
+    "SS-C041"
+  ],
+  "atomicity_group_id": "AG-373",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C042
+
+```json
+{
+  "claim_id": "C042",
+  "statement": "伊朗不可能永久封锁海峡。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "伊朗不可能永久封锁海峡。",
+  "source_segment_refs": [
+    "SS-C042"
+  ],
+  "atomicity_group_id": "AG-375",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C043
+
+```json
+{
+  "claim_id": "C043",
+  "statement": "伊朗石油可替代，而中国工业品不可替代。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "伊朗石油可替代，而中国工业品不可替代。",
+  "source_segment_refs": [
+    "SS-C043"
+  ],
+  "atomicity_group_id": "AG-380",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C044
+
+```json
+{
+  "claim_id": "C044",
+  "statement": "把中国民用工业全部转向军工生产作为设想。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "hypothetical_assumption",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "全部",
+  "raw_quantifier": "全部",
+  "certainty_expressed": null,
+  "scope": "把中国民用工业全部转向军工生产作为设想。",
+  "source_segment_refs": [
+    "SS-C044"
+  ],
+  "atomicity_group_id": "AG-383",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C045
+
+```json
+{
+  "claim_id": "C045",
+  "statement": "鲁比奥称美国制造六七枚拦截弹的时间，伊朗能造100枚攻击导弹。",
+  "claimant_id": "ARUBIO",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "ARUBIO",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "六七枚；100枚",
+  "raw_quantifier": "六七枚；100枚",
+  "certainty_expressed": null,
+  "scope": "鲁比奥称美国制造六七枚拦截弹的时间，伊朗能造100枚攻击导弹。",
+  "source_segment_refs": [
+    "SS-C045"
+  ],
+  "atomicity_group_id": "AG-384",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C046
+
+```json
+{
+  "claim_id": "C046",
+  "statement": "主播把中国产量推演成同期1万枚、美国仍六七枚。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "hypothetical_assumption",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "1万枚；六七枚",
+  "raw_quantifier": "1万枚；六七枚",
+  "certainty_expressed": null,
+  "scope": "主播把中国产量推演成同期1万枚、美国仍六七枚。",
+  "source_segment_refs": [
+    "SS-C046"
+  ],
+  "atomicity_group_id": "AG-389",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C047
+
+```json
+{
+  "claim_id": "C047",
+  "statement": "按这一军工差距，美国舰队在东亚将无法有效对抗中国。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "按这一军工差距，美国舰队在东亚将无法有效对抗中国。",
+  "source_segment_refs": [
+    "SS-C047"
+  ],
+  "atomicity_group_id": "AG-393",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C048
+
+```json
+{
+  "claim_id": "C048",
+  "statement": "主播认为台湾已是囊中之物，未来统一只剩成本问题。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播认为台湾已是囊中之物，未来统一只剩成本问题。",
+  "source_segment_refs": [
+    "SS-C048"
+  ],
+  "atomicity_group_id": "AG-403",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C049
+
+```json
+{
+  "claim_id": "C049",
+  "statement": "中国当前战略是通过对日行动把美国力量逐出东亚。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "中国当前战略是通过对日行动把美国力量逐出东亚。",
+  "source_segment_refs": [
+    "SS-C049"
+  ],
+  "atomicity_group_id": "AG-408",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C050
+
+```json
+{
+  "claim_id": "C050",
+  "statement": "韩国已清楚理解上述战略局面。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "韩国已清楚理解上述战略局面。",
+  "source_segment_refs": [
+    "SS-C050"
+  ],
+  "atomicity_group_id": "AG-415",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C051
+
+```json
+{
+  "claim_id": "C051",
+  "statement": "驻韩美军而非韩国空军曾与中国对峙；时间先说国庆节后又说春节前。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "驻韩美军而非韩国空军曾与中国对峙；时间先说国庆节后又说春节前。",
+  "source_segment_refs": [
+    "SS-C051"
+  ],
+  "atomicity_group_id": "AG-416",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C052
+
+```json
+{
+  "claim_id": "C052",
+  "statement": "驻韩美军对峙是在缺乏其他突破口时刷存在感。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "驻韩美军对峙是在缺乏其他突破口时刷存在感。",
+  "source_segment_refs": [
+    "SS-C052"
+  ],
+  "atomicity_group_id": "AG-421",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C053
+
+```json
+{
+  "claim_id": "C053",
+  "statement": "主播称自己在2024或2025年的往期节目说过台湾问题已升级为日本问题。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "retrospective_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "prior_episode_date_unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "24年还是25年",
+  "raw_quantifier": "24年还是25年",
+  "certainty_expressed": null,
+  "scope": "主播称自己在2024或2025年的往期节目说过台湾问题已升级为日本问题。",
+  "source_segment_refs": [
+    "SS-C053"
+  ],
+  "atomicity_group_id": "AG-433",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C054
+
+```json
+{
+  "claim_id": "C054",
+  "statement": "中国卫星获取的信息可以向外公开。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "hypothetical_assumption",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "中国卫星获取的信息可以向外公开。",
+  "source_segment_refs": [
+    "SS-C054"
+  ],
+  "atomicity_group_id": "AG-442",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C055
+
+```json
+{
+  "claim_id": "C055",
+  "statement": "若各方判断美国打不了，就不会参战，也不会替美国分担成本。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若各方判断美国打不了，就不会参战，也不会替美国分担成本。",
+  "source_segment_refs": [
+    "SS-C055"
+  ],
+  "atomicity_group_id": "AG-446",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C056
+
+```json
+{
+  "claim_id": "C056",
+  "statement": "战争成本无人分担会限制美国持续作战能力。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "战争成本无人分担会限制美国持续作战能力。",
+  "source_segment_refs": [
+    "SS-C056"
+  ],
+  "atomicity_group_id": "AG-449",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C057
+
+```json
+{
+  "claim_id": "C057",
+  "statement": "主播转述摩根大通测算：海湾油储只能支撑20多天。",
+  "claimant_id": "AJPM",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "AJPM",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "20多天",
+  "raw_quantifier": "20多天",
+  "certainty_expressed": null,
+  "scope": "主播转述摩根大通测算：海湾油储只能支撑20多天。",
+  "source_segment_refs": [
+    "SS-C057"
+  ],
+  "atomicity_group_id": "AG-473",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C058
+
+```json
+{
+  "claim_id": "C058",
+  "statement": "因产油量会减少，主播将油储可支撑时间放宽到约30天。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "30天",
+  "raw_quantifier": "30天",
+  "certainty_expressed": null,
+  "scope": "因产油量会减少，主播将油储可支撑时间放宽到约30天。",
+  "source_segment_refs": [
+    "SS-C058"
+  ],
+  "atomicity_group_id": "AG-478",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C059
+
+```json
+{
+  "claim_id": "C059",
+  "statement": "再以“料敌以宽”把30天翻倍成两个月。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "霍尔木兹相关航运或海湾产油国（具体范围见statement）",
+  "quantifier": "翻倍；两个月",
+  "raw_quantifier": "翻倍；两个月",
+  "certainty_expressed": null,
+  "scope": "再以“料敌以宽”把30天翻倍成两个月。",
+  "source_segment_refs": [
+    "SS-C059"
+  ],
+  "atomicity_group_id": "AG-481",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C060
+
+```json
+{
+  "claim_id": "C060",
+  "statement": "若伊朗实控封锁两个月，任何域外国家都必须妥协。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "封锁两个月",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "任何一个",
+  "raw_quantifier": "任何一个",
+  "certainty_expressed": null,
+  "scope": "若伊朗实控封锁两个月，任何域外国家都必须妥协。",
+  "source_segment_refs": [
+    "SS-C060"
+  ],
+  "atomicity_group_id": "AG-484",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C061
+
+```json
+{
+  "claim_id": "C061",
+  "statement": "如果美国不能解决海峡通行，海湾国家会迫其谈判，甚至可能翻脸。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "长期中断期间",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "如果美国不能解决海峡通行，海湾国家会迫其谈判，甚至可能翻脸。",
+  "source_segment_refs": [
+    "SS-C061"
+  ],
+  "atomicity_group_id": "AG-490",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C062
+
+```json
+{
+  "claim_id": "C062",
+  "statement": "海湾主权基金向美国投资市场提供大量资本。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "很多很多",
+  "raw_quantifier": "很多很多",
+  "certainty_expressed": null,
+  "scope": "海湾主权基金向美国投资市场提供大量资本。",
+  "source_segment_refs": [
+    "SS-C062"
+  ],
+  "atomicity_group_id": "AG-499",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C063
+
+```json
+{
+  "claim_id": "C063",
+  "statement": "海湾资金施压与反战合力会迫使特朗普停止战争。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "两个月论证内",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "海湾资金施压与反战合力会迫使特朗普停止战争。",
+  "source_segment_refs": [
+    "SS-C063"
+  ],
+  "atomicity_group_id": "AG-504",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C064
+
+```json
+{
+  "claim_id": "C064",
+  "statement": "美国战争时间窗口最大60天，超过60天绝对不可能。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "60天上限；起点和终点定义待核",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "最大上限；超过60天绝对不可能",
+  "raw_quantifier": "最大上限；超过60天绝对不可能",
+  "certainty_expressed": "绝对不可能超过",
+  "scope": "美国战争时间窗口最大60天，超过60天绝对不可能。",
+  "source_segment_refs": [
+    "SS-C064"
+  ],
+  "atomicity_group_id": "AG-512",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C065
+
+```json
+{
+  "claim_id": "C065",
+  "statement": "过去霍尔木兹封锁60天之后各方都妥协；未指明历史案例。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unidentified_historical_cases",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "没有哪一个不妥协",
+  "raw_quantifier": "没有哪一个不妥协",
+  "certainty_expressed": null,
+  "scope": "过去霍尔木兹封锁60天之后各方都妥协，今天会更早妥协；未指明历史案例。",
+  "source_segment_refs": [
+    "SS-C065"
+  ],
+  "atomicity_group_id": "AG-517",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C066
+
+```json
+{
+  "claim_id": "C066",
+  "statement": "大家若相信海峡最终必须开放，60天上限就有把握。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "大家若相信海峡最终必须开放，60天上限就有把握。",
+  "source_segment_refs": [
+    "SS-C066"
+  ],
+  "atomicity_group_id": "AG-528",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C067
+
+```json
+{
+  "claim_id": "C067",
+  "statement": "若封锁超过40天，伊朗将大胜，美国将主动求和。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "封锁超过40天",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若封锁超过40天，伊朗将大胜，美国将主动求和。",
+  "source_segment_refs": [
+    "SS-C067"
+  ],
+  "atomicity_group_id": "AG-531",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C068
+
+```json
+{
+  "claim_id": "C068",
+  "statement": "美国与伊朗和解将以牺牲以色列利益为交换。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "和解后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国与伊朗和解将以牺牲以色列利益为交换。",
+  "source_segment_refs": [
+    "SS-C068"
+  ],
+  "atomicity_group_id": "AG-537",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C069
+
+```json
+{
+  "claim_id": "C069",
+  "statement": "若美国因此失去中东主导权，全球霸权将显著衰退，过程可能很长。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "趋势明显但过程很长",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若美国因此失去中东主导权，全球霸权将显著衰退，过程可能很长。",
+  "source_segment_refs": [
+    "SS-C069"
+  ],
+  "atomicity_group_id": "AG-548",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C070
+
+```json
+{
+  "claim_id": "C070",
+  "statement": "西班牙无敌舰队败于英国后，西班牙便失势而英国上升。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "西班牙无敌舰队败于英国后，西班牙便失势而英国上升。",
+  "source_segment_refs": [
+    "SS-C070"
+  ],
+  "atomicity_group_id": "AG-566",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C071
+
+```json
+{
+  "claim_id": "C071",
+  "statement": "这场中东战争正在成为美国的“无敌舰队覆灭”时刻。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "这场中东战争正在成为美国的“无敌舰队覆灭”时刻。",
+  "source_segment_refs": [
+    "SS-C071"
+  ],
+  "atomicity_group_id": "AG-575",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C072
+
+```json
+{
+  "claim_id": "C072",
+  "statement": "克制美国的武器可以跨地区使用，因此其他地区也可限制美国行动。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "克制美国的武器可以跨地区使用，因此其他地区也可限制美国行动。",
+  "source_segment_refs": [
+    "SS-C072"
+  ],
+  "atomicity_group_id": "AG-586",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C073
+
+```json
+{
+  "claim_id": "C073",
+  "statement": "美国战败会暴露实力边界，更多参与者将挑战其依靠威慑建立的杠杆。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "战败后未明",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国战败会暴露实力边界，更多参与者将挑战其依靠威慑建立的杠杆。",
+  "source_segment_refs": [
+    "SS-C073"
+  ],
+  "atomicity_group_id": "AG-596",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C074
+
+```json
+{
+  "claim_id": "C074",
+  "statement": "美国在战术上进攻、战略上防守，需借战争证明霸主能力。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国在战术上进攻、战略上防守，需借战争证明霸主能力。",
+  "source_segment_refs": [
+    "SS-C074"
+  ],
+  "atomicity_group_id": "AG-610",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C075
+
+```json
+{
+  "claim_id": "C075",
+  "statement": "未来约一个月油价不会特别剧烈波动，而会缓慢上涨。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "约一个月",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "一个月左右；不会特别巨大",
+  "raw_quantifier": "一个月左右；不会特别巨大",
+  "certainty_expressed": null,
+  "scope": "未来约一个月油价不会特别剧烈波动，而会缓慢上涨。",
+  "source_segment_refs": [
+    "SS-C075"
+  ],
+  "atomicity_group_id": "AG-623",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C076
+
+```json
+{
+  "claim_id": "C076",
+  "statement": "若油价突然猛涨，因市场预期尚未到位会回调。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "急涨后未明",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若油价突然猛涨，因市场预期尚未到位会回调。",
+  "source_segment_refs": [
+    "SS-C076"
+  ],
+  "atomicity_group_id": "AG-631",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C077
+
+```json
+{
+  "claim_id": "C077",
+  "statement": "美国目前仍部分掌握战场主动，局面尚未完全失控。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国目前仍部分掌握战场主动，局面尚未完全失控。",
+  "source_segment_refs": [
+    "SS-C077"
+  ],
+  "atomicity_group_id": "AG-634",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C078
+
+```json
+{
+  "claim_id": "C078",
+  "statement": "约40天后美国胜负将有明确结论。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "约40天",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "40天",
+  "raw_quantifier": "40天",
+  "certainty_expressed": null,
+  "scope": "约40天后美国胜负将有明确结论。",
+  "source_segment_refs": [
+    "SS-C078"
+  ],
+  "atomicity_group_id": "AG-641",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C079
+
+```json
+{
+  "claim_id": "C079",
+  "statement": "若伊朗控制霍尔木兹，油价会回落。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "伊朗控制后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若伊朗控制霍尔木兹，油价会回落。",
+  "source_segment_refs": [
+    "SS-C079"
+  ],
+  "atomicity_group_id": "AG-646",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C080
+
+```json
+{
+  "claim_id": "C080",
+  "statement": "若美国控制霍尔木兹，油价长期维持“100到126”区间；数值待听音。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "相当长",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "100到126；相当长",
+  "raw_quantifier": "100到126；相当长",
+  "certainty_expressed": null,
+  "scope": "若美国控制霍尔木兹，油价长期维持“100到126”区间；数值待听音。",
+  "source_segment_refs": [
+    "SS-C080"
+  ],
+  "atomicity_group_id": "AG-650",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C081
+
+```json
+{
+  "claim_id": "C081",
+  "statement": "美国控制着委内瑞拉。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "factual_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国控制着委内瑞拉。",
+  "source_segment_refs": [
+    "SS-C081"
+  ],
+  "atomicity_group_id": "AG-656",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C082
+
+```json
+{
+  "claim_id": "C082",
+  "statement": "美国可通过掌握供应权与定价权把国际油价定高。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国可通过掌握供应权与定价权把国际油价定高。",
+  "source_segment_refs": [
+    "SS-C082"
+  ],
+  "atomicity_group_id": "AG-657",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C083
+
+```json
+{
+  "claim_id": "C083",
+  "statement": "美国控制海峡并抬高油价后，额外收益只会落到美国手中。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "美国控制之后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "只是落在美国手里",
+  "raw_quantifier": "只是落在美国手里",
+  "certainty_expressed": null,
+  "scope": "美国控制海峡并抬高油价后，额外收益只会落到美国手中。",
+  "source_segment_refs": [
+    "SS-C083"
+  ],
+  "atomicity_group_id": "AG-669",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C084
+
+```json
+{
+  "claim_id": "C084",
+  "statement": "军事控制变现类似街头收保护费，营业额越高可收取越多。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "军事控制变现类似街头收保护费，营业额越高可收取越多。",
+  "source_segment_refs": [
+    "SS-C084"
+  ],
+  "atomicity_group_id": "AG-676",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C085
+
+```json
+{
+  "claim_id": "C085",
+  "statement": "伊朗占上风时油价可能回到六七十或七八十。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "伊朗获胜后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "六七十七八十都有可能",
+  "raw_quantifier": "六七十七八十都有可能",
+  "certainty_expressed": null,
+  "scope": "伊朗占上风时油价可能回到六七十或七八十。",
+  "source_segment_refs": [
+    "SS-C085"
+  ],
+  "atomicity_group_id": "AG-685",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C086
+
+```json
+{
+  "claim_id": "C086",
+  "statement": "若美国获胜，油价长期维持100甚至120是可能的。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "长期",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "100甚至120；长期",
+  "raw_quantifier": "100甚至120；长期",
+  "certainty_expressed": null,
+  "scope": "若美国获胜，油价长期维持100甚至120是可能的。",
+  "source_segment_refs": [
+    "SS-C086"
+  ],
+  "atomicity_group_id": "AG-690",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C087
+
+```json
+{
+  "claim_id": "C087",
+  "statement": "过去2023年及2000年前的高油价利润主要由海湾产油国与俄罗斯赚取。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": [
+    "2023",
+    "2000年以前"
+  ],
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "2023年；2000年以前",
+  "raw_quantifier": "2023年；2000年以前",
+  "certainty_expressed": null,
+  "scope": "过去2023年及2000年前的高油价利润主要由海湾产油国与俄罗斯赚取。",
+  "source_segment_refs": [
+    "SS-C087"
+  ],
+  "atomicity_group_id": "AG-697",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C088
+
+```json
+{
+  "claim_id": "C088",
+  "statement": "若美国主导，特朗普将为连任把高油价收益转成国内廉价用油安排。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若美国主导，特朗普将为连任把高油价收益转成国内廉价用油安排。",
+  "source_segment_refs": [
+    "SS-C088"
+  ],
+  "atomicity_group_id": "AG-706",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C089
+
+```json
+{
+  "claim_id": "C089",
+  "statement": "这类分配主要有利于资本，普通人只够温饱，其他商品价格仍上涨。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "这类分配主要有利于资本，普通人只够温饱，其他商品价格仍上涨。",
+  "source_segment_refs": [
+    "SS-C089"
+  ],
+  "atomicity_group_id": "AG-718",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C090
+
+```json
+{
+  "claim_id": "C090",
+  "statement": "若美国无法主导，石油美元将成为过去，未来转向新能源时代。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "未来未明",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若美国无法主导，石油美元将成为过去，未来转向新能源时代。",
+  "source_segment_refs": [
+    "SS-C090"
+  ],
+  "atomicity_group_id": "AG-744",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C091
+
+```json
+{
+  "claim_id": "C091",
+  "statement": "本轮对伊军事行动已广泛使用AI进行数据分析、预测和指挥。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "本轮对伊军事行动已广泛使用AI进行数据分析、预测和指挥。",
+  "source_segment_refs": [
+    "SS-C091"
+  ],
+  "atomicity_group_id": "AG-753",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C092
+
+```json
+{
+  "claim_id": "C092",
+  "statement": "军事与信息战应用场景将为AI泡沫提供价值支撑。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "军事与信息战应用场景将为AI泡沫提供价值支撑。",
+  "source_segment_refs": [
+    "SS-C092"
+  ],
+  "atomicity_group_id": "AG-758",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C093
+
+```json
+{
+  "claim_id": "C093",
+  "statement": "战争已把中东资金挤向美国，其中不少也去了中国。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "战争已把中东资金挤向美国，其中不少也去了中国。",
+  "source_segment_refs": [
+    "SS-C093"
+  ],
+  "atomicity_group_id": "AG-768",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C095
+
+```json
+{
+  "claim_id": "C095",
+  "statement": "此前AI泡沫难以继续扩张主要因为缺钱。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "此前AI泡沫难以继续扩张主要因为缺钱。",
+  "source_segment_refs": [
+    "SS-C095"
+  ],
+  "atomicity_group_id": "AG-773",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C096
+
+```json
+{
+  "claim_id": "C096",
+  "statement": "特朗普刚上台时曾保证美元不会贬值。",
+  "claimant_id": "ATRUMP",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "ATRUMP",
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "特朗普刚上台时；未给日期",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普刚上台时曾保证美元不会贬值。",
+  "source_segment_refs": [
+    "SS-C096"
+  ],
+  "atomicity_group_id": "AG-781",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C097
+
+```json
+{
+  "claim_id": "C097",
+  "statement": "制造国际动荡和减少安全投入，是支撑美元的一条路径。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "制造国际动荡和减少安全投入，是支撑美元的一条路径。",
+  "source_segment_refs": [
+    "SS-C097"
+  ],
+  "atomicity_group_id": "AG-787",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C098
+
+```json
+{
+  "claim_id": "C098",
+  "statement": "美元既有规模和惯性会通过地缘动荡自我维持。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": "美国或其政府/军方（命题对象见statement）",
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美元既有规模和惯性会通过地缘动荡自我维持。",
+  "source_segment_refs": [
+    "SS-C098"
+  ],
+  "atomicity_group_id": "AG-793",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C099
+
+```json
+{
+  "claim_id": "C099",
+  "statement": "通过动荡维持美元信用不可持续，透支后美国衰退会加速。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "通过动荡维持美元信用不可持续，透支后美国衰退会加速。",
+  "source_segment_refs": [
+    "SS-C099"
+  ],
+  "atomicity_group_id": "AG-804",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C100
+
+```json
+{
+  "claim_id": "C100",
+  "statement": "本轮战争美国大概率会输。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "本轮战争",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "大概率",
+  "raw_quantifier": "大概率",
+  "certainty_expressed": "大概率",
+  "scope": "本轮战争美国大概率会输。",
+  "source_segment_refs": [
+    "SS-C100"
+  ],
+  "atomicity_group_id": "AG-818",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C101
+
+```json
+{
+  "claim_id": "C101",
+  "statement": "美国本土出现所谓圣战的情景不太可能。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "不太有可能",
+  "raw_quantifier": "不太有可能",
+  "certainty_expressed": "不太有可能",
+  "scope": "美国本土出现所谓圣战的情景不太可能。",
+  "source_segment_refs": [
+    "SS-C101"
+  ],
+  "atomicity_group_id": "AG-849",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C102
+
+```json
+{
+  "claim_id": "C102",
+  "statement": "只有战场打不赢，才会诉诸对方后方的恐怖袭击。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "只有",
+  "raw_quantifier": "只有",
+  "certainty_expressed": null,
+  "scope": "只有战场打不赢，才会诉诸对方后方的恐怖袭击。",
+  "source_segment_refs": [
+    "SS-C102"
+  ],
+  "atomicity_group_id": "AG-851",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C103
+
+```json
+{
+  "claim_id": "C103",
+  "statement": "若伊朗确立海峡秩序主导权，会更愿意向邻国示好而非持续宗派对抗。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "控制秩序后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若伊朗确立海峡秩序主导权，会更愿意向邻国示好而非持续宗派对抗。",
+  "source_segment_refs": [
+    "SS-C103"
+  ],
+  "atomicity_group_id": "AG-855",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C104
+
+```json
+{
+  "claim_id": "C104",
+  "statement": "此前用沙特与伊朗狮王争霸作比喻；美国参战后该比喻不再适用。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "retrospective_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "prior_episode_date_unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "此前用沙特与伊朗狮王争霸作比喻；美国参战后该比喻不再适用。",
+  "source_segment_refs": [
+    "SS-C104"
+  ],
+  "atomicity_group_id": "AG-878",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C105
+
+```json
+{
+  "claim_id": "C105",
+  "statement": "主播乐见美国陷入不利局面，同时表示未来仍需边发展边观察。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "value_judgment",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播乐见美国陷入不利局面，同时表示未来仍需边发展边观察。",
+  "source_segment_refs": [
+    "SS-C105"
+  ],
+  "atomicity_group_id": "AG-892",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C106
+
+```json
+{
+  "claim_id": "C106",
+  "statement": "有以往妥协教训，各方这次会更早妥协。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": "本轮冲突",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "有以往妥协教训，各方这次会更早妥协。",
+  "source_segment_refs": [
+    "SS-C106"
+  ],
+  "atomicity_group_id": "AG-521",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C107
+
+```json
+{
+  "claim_id": "C107",
+  "statement": "宣布空域开放不等于证明民航实际安全。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "宣布空域开放不等于证明民航实际安全。",
+  "source_segment_refs": [
+    "SS-C107"
+  ],
+  "atomicity_group_id": "AG-238",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C108
+
+```json
+{
+  "claim_id": "C108",
+  "statement": "主播取战前油价70为估算基数；没有指明油种、交易所和时点。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "hypothetical_assumption",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "60到70；按70算",
+  "raw_quantifier": "60到70；按70算",
+  "certainty_expressed": null,
+  "scope": "主播取战前油价70为估算基数；没有指明油种、交易所和时点。",
+  "source_segment_refs": [
+    "SS-C108"
+  ],
+  "atomicity_group_id": "AG-171",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### C109
+
+```json
+{
+  "claim_id": "C109",
+  "statement": "哈梅内伊哀悼期为40天。",
+  "claimant_id": "A9527",
+  "asserted_by_id": "A9527",
+  "attribution_chain": [
+    "A9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T17:30:00+08:00",
+  "asserted_at_basis": "video_publication_proxy_not_recording_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": "40天",
+  "raw_quantifier": "40天",
+  "certainty_expressed": null,
+  "scope": "哈梅内伊哀悼期为40天。",
+  "source_segment_refs": [
+    "SS-C109"
+  ],
+  "atomicity_group_id": "AG-312",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X01
+
+```json
+{
+  "claim_id": "X01",
+  "statement": "若战争持续超过三周、无法外运导致储罐容量用尽并迫使停产，布伦特可达120美元。",
+  "claimant_id": "AJPM",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "AJPM",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "forecast",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "战争超过三周后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若战争持续超过三周、无法外运导致储罐容量用尽并迫使停产，布伦特可达120美元。",
+  "source_segment_refs": [
+    "SS-X01"
+  ],
+  "atomicity_group_id": "X01",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X02
+
+```json
+{
+  "claim_id": "X02",
+  "statement": "全面封闭海峡的极端情景下，布伦特可能达到200美元。",
+  "claimant_id": "ADB",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "ADB",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "forecast",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "全面封闭海峡的极端情景下，布伦特可能达到200美元。",
+  "source_segment_refs": [
+    "SS-X02"
+  ],
+  "atomicity_group_id": "X02",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X03
+
+```json
+{
+  "claim_id": "X03",
+  "statement": "若战争快速结束，布伦特可能回到60至70美元。",
+  "claimant_id": "ABOA",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "ABOA",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "forecast",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "战争快速结束后",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若战争快速结束，布伦特可能回到60至70美元。",
+  "source_segment_refs": [
+    "SS-X03"
+  ],
+  "atomicity_group_id": "X03",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X04
+
+```json
+{
+  "claim_id": "X04",
+  "statement": "2025年经海峡外运约占全球海运石油出口的三分之一。",
+  "claimant_id": "AKPLER",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "AKPLER",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "2025",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "2025年经海峡外运约占全球海运石油出口的三分之一。",
+  "source_segment_refs": [
+    "SS-X04"
+  ],
+  "atomicity_group_id": "X04",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X05
+
+```json
+{
+  "claim_id": "X05",
+  "statement": "军方顾问宣称海峡关闭；该条同时注明未有革命卫队正式声明。",
+  "claimant_id": "AIRAN_ADVISER",
+  "asserted_by_id": "S05",
+  "attribution_chain": [
+    "AIRAN_ADVISER",
+    "S05"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T04:19:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "军方顾问宣称海峡关闭；该条同时注明未有革命卫队正式声明。",
+  "source_segment_refs": [
+    "SS-X05"
+  ],
+  "atomicity_group_id": "X05",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X06
+
+```json
+{
+  "claim_id": "X06",
+  "statement": "特朗普声称已击沉10艘伊朗舰艇。",
+  "claimant_id": "ATRUMP",
+  "asserted_by_id": "S05",
+  "attribution_chain": [
+    "ATRUMP",
+    "S05"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T00:58:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "特朗普声称已击沉10艘伊朗舰艇。",
+  "source_segment_refs": [
+    "SS-X06"
+  ],
+  "atomicity_group_id": "X06",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X07
+
+```json
+{
+  "claim_id": "X07",
+  "statement": "革命卫队声称向林肯号发射4枚弹道导弹。",
+  "claimant_id": "AIRGC",
+  "asserted_by_id": "S05",
+  "attribution_chain": [
+    "AIRGC",
+    "S05"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-01T21:54:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "革命卫队声称向林肯号发射4枚弹道导弹。",
+  "source_segment_refs": [
+    "SS-X07"
+  ],
+  "atomicity_group_id": "X07",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X08
+
+```json
+{
+  "claim_id": "X08",
+  "statement": "Platts因海峡航运安全与停航通知审查海湾原油交付可行性。",
+  "claimant_id": "APLATTS",
+  "asserted_by_id": "S07",
+  "attribution_chain": [
+    "APLATTS",
+    "S07"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-02",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "Platts因海峡航运安全与停航通知审查海湾原油交付可行性。",
+  "source_segment_refs": [
+    "SS-X08"
+  ],
+  "atomicity_group_id": "X08",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X09
+
+```json
+{
+  "claim_id": "X09",
+  "statement": "Platts即日起排除部分须通过海峡的港口成品油MOC买卖报价，相关价格评估继续。",
+  "claimant_id": "APLATTS",
+  "asserted_by_id": "S08",
+  "attribution_chain": [
+    "APLATTS",
+    "S08"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-02",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "Platts即日起排除部分须通过海峡的港口成品油MOC买卖报价，相关价格评估继续。",
+  "source_segment_refs": [
+    "SS-X09"
+  ],
+  "atomicity_group_id": "X09",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": true
+}
+```
+
+### X10
+
+```json
+{
+  "claim_id": "X10",
+  "statement": "Platts审查中东运费评估能否继续发布。",
+  "claimant_id": "APLATTS",
+  "asserted_by_id": "S09",
+  "attribution_chain": [
+    "APLATTS",
+    "S09"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-02",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "Platts审查中东运费评估能否继续发布。",
+  "source_segment_refs": [
+    "SS-X10"
+  ],
+  "atomicity_group_id": "X10",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": true
+}
+```
+
+### X11
+
+```json
+{
+  "claim_id": "X11",
+  "statement": "Platts随后确认继续发布中东运费评估，并可结合市场资料判断。",
+  "claimant_id": "APLATTS",
+  "asserted_by_id": "S10",
+  "attribution_chain": [
+    "APLATTS",
+    "S10"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-02",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "Platts随后确认继续发布中东运费评估，并可结合市场资料判断。",
+  "source_segment_refs": [
+    "SS-X11"
+  ],
+  "atomicity_group_id": "X11",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": true
+}
+```
+
+### X12
+
+```json
+{
+  "claim_id": "X12",
+  "statement": "EIA估算2024年海峡日均油流为2000万桶。",
+  "claimant_id": "AEIA",
+  "asserted_by_id": "S11",
+  "attribution_chain": [
+    "AEIA",
+    "S11"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2025-06-16",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "2024",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "EIA估算2024年海峡日均油流2000万桶，约为全球石油液体消费量20%。",
+  "source_segment_refs": [
+    "SS-X12"
+  ],
+  "atomicity_group_id": "X12",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X13
+
+```json
+{
+  "claim_id": "X13",
+  "statement": "摩根大通所说约三周约束是出口受阻后储油空间耗尽并迫使减产，不是消费库存耗尽。",
+  "claimant_id": "AJPM",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "AJPM",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "摩根大通所说约三周约束是出口受阻后储油空间耗尽并迫使减产，不是消费库存耗尽。",
+  "source_segment_refs": [
+    "SS-X13"
+  ],
+  "atomicity_group_id": "X13",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X14
+
+```json
+{
+  "claim_id": "X14",
+  "statement": "若伊朗打击邻国能源设施，布伦特可能超过100美元。",
+  "claimant_id": "ABOA",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "ABOA",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "forecast",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "future",
+  "asserted_at": "2026-03-03T08:48:00+08:00",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "unknown",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "若伊朗打击邻国能源设施，布伦特可能超过100美元。",
+  "source_segment_refs": [
+    "SS-X14"
+  ],
+  "atomicity_group_id": "X14",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### X15
+
+```json
+{
+  "claim_id": "X15",
+  "statement": "EIA估算2024年海峡油流约相当于全球石油液体消费量20%。",
+  "claimant_id": "AEIA",
+  "asserted_by_id": "S11",
+  "attribution_chain": [
+    "AEIA",
+    "S11"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "factual_claim",
+  "derivation_type": "external_source_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2025-06-16",
+  "asserted_at_basis": "source_displayed_publication_time",
+  "reference_time": "2024",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "EIA估算2024年海峡油流约相当于全球石油液体消费量20%。",
+  "source_segment_refs": [
+    "SS-X15"
+  ],
+  "atomicity_group_id": "X15",
+  "corpus_origin": "external_context_not_creator",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M01
+
+```json
+{
+  "claim_id": "M01",
+  "statement": "供应预期影响具体期货曲线还取决于库存、替代供应、需求弹性和风险偏好。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M01",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M02
+
+```json
+{
+  "claim_id": "M02",
+  "statement": "运输成本传到特定现货基准需要可交付货源、替代路线及合约条款约束。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M02",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M03
+
+```json
+{
+  "claim_id": "M03",
+  "statement": "控制航道要转化为持续定价权，仍需控制边际供应且其他生产者和需求无法有效抵消。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M03",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M04
+
+```json
+{
+  "claim_id": "M04",
+  "statement": "取得石油租金不等于财政取得可供国内补贴的同额收入。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M04",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M05
+
+```json
+{
+  "claim_id": "M05",
+  "statement": "海湾储油压力转化为美国停战，需要政治联盟、撤资能力与美国政策响应同时成立。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M05",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M06
+
+```json
+{
+  "claim_id": "M06",
+  "statement": "中东避险流入美国资产不等于流入AI股权或AI融资。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M06",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+### M07
+
+```json
+{
+  "claim_id": "M07",
+  "statement": "单一战区的武器效能跨地区复制需要地理、后勤、情报和政治条件相容。",
+  "claimant_id": "AMODEL",
+  "asserted_by_id": "AMODEL",
+  "attribution_chain": [
+    "AMODEL"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-25T18:21:18+08:00",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "待验证的必要桥接，不是事实现象或主播原话",
+  "source_segment_refs": [],
+  "atomicity_group_id": "M07",
+  "corpus_origin": "model_analysis",
+  "verified_knowledge_eligible": false
+}
+```
+
+## 07 CLAIM OCCURRENCES
+
+### OC001
+
+```json
+{
+  "occurrence_id": "OC001",
+  "claim_id": "C001",
+  "source_id": "S03",
+  "cue_start": 2,
+  "cue_end": 3,
+  "start": "00:00:20,210",
+  "end": "00:01:00,210",
+  "surface_text": "和世界的影响呢就开始展现出来了。油价最近一段时间的波动呢，其实按道理来说的话是挺反常试的。但是在我看来是挺正常的。所谓的反常是啥呢？就是它没有像大家预想的那样，伊朗一封锁霍尔木斯海峡油价一下子涨上天上去啊，我看到大摩的分析师都已经开始说。\n油价涨到120啊，有的竟然说产到200是吧？不会那么快，不会那么的快，油价涨多少，取决于啥呢？取决于战争的进程。这个战争的进程详细的说的话，就是美国对于这场战争的主导权。所以围绕着油价其实是有好多好多。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC002
+
+```json
+{
+  "occurrence_id": "OC002",
+  "claim_id": "C002",
+  "source_id": "S03",
+  "cue_start": 3,
+  "cue_end": 5,
+  "start": "00:00:40,210",
+  "end": "00:01:06,020",
+  "surface_text": "油价涨到120啊，有的竟然说产到200是吧？不会那么快，不会那么的快，油价涨多少，取决于啥呢？取决于战争的进程。这个战争的进程详细的说的话，就是美国对于这场战争的主导权。所以围绕着油价其实是有好多好多。\n的分析路径有好多好多时间节点呢。\n咱们今天呢就好好的跟大家把这个时间节点盘点盘点。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC003
+
+```json
+{
+  "occurrence_id": "OC003",
+  "claim_id": "C003",
+  "source_id": "S03",
+  "cue_start": 13,
+  "cue_end": 20,
+  "start": "00:01:19,340",
+  "end": "00:01:39,380",
+  "surface_text": "特朗普在做这个决策的时候，好赌中的一项。\n就是希望通过这个是。\n把中东这边的局面扰乱了以后。\n中东这边的网爷能够把自己的钱财。\n出于避险的需求往美国这边涌。\n来接美国的盘。\n啊，这是它的容易算呗。\n但是他这个容易算票能不能打得成？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC004
+
+```json
+{
+  "occurrence_id": "OC004",
+  "claim_id": "C004",
+  "source_id": "S03",
+  "cue_start": 16,
+  "cue_end": 18,
+  "start": "00:01:27,760",
+  "end": "00:01:35,040",
+  "surface_text": "中东这边的网爷能够把自己的钱财。\n出于避险的需求往美国这边涌。\n来接美国的盘。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC005
+
+```json
+{
+  "occurrence_id": "OC005",
+  "claim_id": "C005",
+  "source_id": "S03",
+  "cue_start": 34,
+  "cue_end": 35,
+  "start": "00:02:15,470",
+  "end": "00:02:22,410",
+  "surface_text": "只要美国能够呢就是让伊朗这边屈服。\n那整个的这个事情呢，那当然是美国说了算的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC006
+
+```json
+{
+  "occurrence_id": "OC006",
+  "claim_id": "C006",
+  "source_id": "S03",
+  "cue_start": 36,
+  "cue_end": 40,
+  "start": "00:02:22,410",
+  "end": "00:02:37,450",
+  "surface_text": "你从特朗普定的这个战争的目的，你就看得非常非常清楚。他是不是说了。\n啊，要消灭伊朗的海军。\n为啥要消灭伊朗的海军呢？\n我前面的节会已经跟他翻译过了，是吧？\n就是要控制伊朗啊控制这个霍尔木斯海峡的控制权。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC007
+
+```json
+{
+  "occurrence_id": "OC007",
+  "claim_id": "C007",
+  "source_id": "S03",
+  "cue_start": 38,
+  "cue_end": 40,
+  "start": "00:02:29,380",
+  "end": "00:02:37,450",
+  "surface_text": "为啥要消灭伊朗的海军呢？\n我前面的节会已经跟他翻译过了，是吧？\n就是要控制伊朗啊控制这个霍尔木斯海峡的控制权。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC008
+
+```json
+{
+  "occurrence_id": "OC008",
+  "claim_id": "C008",
+  "source_id": "S03",
+  "cue_start": 49,
+  "cue_end": 50,
+  "start": "00:02:55,260",
+  "end": "00:03:01,600",
+  "surface_text": "呃，30公里左右的宽度啊，这个整个的这个海峡的这个。\n这个这个这个宽度就是30公里。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC009
+
+```json
+{
+  "occurrence_id": "OC009",
+  "claim_id": "C009",
+  "source_id": "S03",
+  "cue_start": 55,
+  "cue_end": 60,
+  "start": "00:03:09,070",
+  "end": "00:03:22,620",
+  "surface_text": "伊朗在旁边这块的地形，它是一个非常。\n复杂的一个山地，崎岖的山地。\n有山地就意味着啥？\n有高差。\n有高差就意味着啥呢？很多很多路上的武器的射程。\n远不止30公里。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC010
+
+```json
+{
+  "occurrence_id": "OC010",
+  "claim_id": "C010",
+  "source_id": "S03",
+  "cue_start": 59,
+  "cue_end": 63,
+  "start": "00:03:17,590",
+  "end": "00:03:31,720",
+  "surface_text": "有高差就意味着啥呢？很多很多路上的武器的射程。\n远不止30公里。\n所以呢。\n所以对于伊朗而言的话，海军被消灭完了，并不代表着他就没有能力。\n破坏霍乌尔木兹海峡的运输了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC011
+
+```json
+{
+  "occurrence_id": "OC011",
+  "claim_id": "C011",
+  "source_id": "S03",
+  "cue_start": 65,
+  "cue_end": 69,
+  "start": "00:03:32,820",
+  "end": "00:03:43,760",
+  "surface_text": "霍尔木兹海峡最繁忙的时候，一天。\n是吧。\n他的这运量呢。\n有上几百条的这个游轮呢，几十吨的几十万吨的这个游轮呢。\n从这个海峡通过。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC012
+
+```json
+{
+  "occurrence_id": "OC012",
+  "claim_id": "C012",
+  "source_id": "S03",
+  "cue_start": 68,
+  "cue_end": 69,
+  "start": "00:03:37,620",
+  "end": "00:03:43,760",
+  "surface_text": "有上几百条的这个游轮呢，几十吨的几十万吨的这个游轮呢。\n从这个海峡通过。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC013
+
+```json
+{
+  "occurrence_id": "OC013",
+  "claim_id": "C013",
+  "source_id": "S03",
+  "cue_start": 70,
+  "cue_end": 70,
+  "start": "00:03:43,760",
+  "end": "00:03:47,000",
+  "surface_text": "平均最繁忙的时候，6分钟通过一一艘船。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC014
+
+```json
+{
+  "occurrence_id": "OC014",
+  "claim_id": "C014",
+  "source_id": "S03",
+  "cue_start": 73,
+  "cue_end": 84,
+  "start": "00:03:50,560",
+  "end": "00:04:27,220",
+  "surface_text": "只要伊朗在岸边架起来。\n炮击的阵地甚至。\n都不需要是那种正式的阵地，他打一枪换一个地方。\n那种。\n山山上挖个洞是吧，搞个那种猫耳洞是吧？打了以后。\n然后然后然后突然之间就从地道转移了。\n就搞这种事儿，零敲碎打的这么这么折腾。\n他只要能够扰乱运力。\n他不需要扰乱太多，他只要能够提高保险的这个成本是吧？\n你这些游船，你面临着伊朗的这种打黑枪的风险，那作为这个。\n这个这个船主的话，当然要投保了。那投保了，那风险一增加的话，保费就要增加。\n这些保费就要加到运输的货物里边去。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC015
+
+```json
+{
+  "occurrence_id": "OC015",
+  "claim_id": "C015",
+  "source_id": "S03",
+  "cue_start": 83,
+  "cue_end": 84,
+  "start": "00:04:19,020",
+  "end": "00:04:27,220",
+  "surface_text": "这个这个船主的话，当然要投保了。那投保了，那风险一增加的话，保费就要增加。\n这些保费就要加到运输的货物里边去。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC016
+
+```json
+{
+  "occurrence_id": "OC016",
+  "claim_id": "C016",
+  "source_id": "S03",
+  "cue_start": 86,
+  "cue_end": 89,
+  "start": "00:04:27,830",
+  "end": "00:04:36,180",
+  "surface_text": "然后客观的上来说的话，由于这些事情的影响导致你运力的降低，你得。\n降低密度吧。\nYeah.\n然后呢，你运力降低了以后。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC017
+
+```json
+{
+  "occurrence_id": "OC017",
+  "claim_id": "C017",
+  "source_id": "S03",
+  "cue_start": 90,
+  "cue_end": 95,
+  "start": "00:04:36,180",
+  "end": "00:04:51,810",
+  "surface_text": "本来需要这个。\n吞吐量哈有这么多的这个出量的。\n就你假设少20%的这个运量。\nNo.\n大家的需求是不变的，甚至呢慢能越来越高，大家都想过好的生活。\n而你这边能望出运游的这个运量出现了问题。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC018
+
+```json
+{
+  "occurrence_id": "OC018",
+  "claim_id": "C018",
+  "source_id": "S03",
+  "cue_start": 95,
+  "cue_end": 102,
+  "start": "00:04:48,290",
+  "end": "00:05:07,800",
+  "surface_text": "而你这边能望出运游的这个运量出现了问题。\n是不是客观上来说就是。\n帮欧佩克，特别是中东这边的欧佩克那海和会的这些成员们。\n他们的这个运营呃这个这个产油的。\n这个上限加了个盖子。\n对吧。\n这是伊朗能做的事儿。\n他不需要说是彻底的封锁霍尔木斯材家。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC019
+
+```json
+{
+  "occurrence_id": "OC019",
+  "claim_id": "C019",
+  "source_id": "S03",
+  "cue_start": 104,
+  "cue_end": 109,
+  "start": "00:05:08,550",
+  "end": "00:05:22,130",
+  "surface_text": "美国弃图啊。\n通过彻底的消灭伊朗的海军。\n完全的掌握活台下这个打算。\n一开始就是不存在的，他只是。\n遮羞布给自己着补的话。\n对吧这是一个大家首先得明确的事儿。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC020
+
+```json
+{
+  "occurrence_id": "OC020",
+  "claim_id": "C020",
+  "source_id": "S03",
+  "cue_start": 111,
+  "cue_end": 113,
+  "start": "00:05:23,720",
+  "end": "00:05:29,150",
+  "surface_text": "对美国而言的话。\n眼前的这个局面。\n实际上呢他是慢慢的在失控的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC021
+
+```json
+{
+  "occurrence_id": "OC021",
+  "claim_id": "C021",
+  "source_id": "S03",
+  "cue_start": 128,
+  "cue_end": 130,
+  "start": "00:06:03,050",
+  "end": "00:06:16,470",
+  "surface_text": "但凡表露出来一点点这样的意向的话。\n美国这边，以色列这边绝对会大收特殊，告诉大家和平不远了，情况正常了，大家不用担心了。\n恰恰没有，对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC022
+
+```json
+{
+  "occurrence_id": "OC022",
+  "claim_id": "C022",
+  "source_id": "S03",
+  "cue_start": 133,
+  "cue_end": 135,
+  "start": "00:06:20,360",
+  "end": "00:06:30,780",
+  "surface_text": "旁敲侧击的说啊，向着大西洋月刊说。\n啊，我已经收到了伊朗这边打过来的。\n要求谈判的电话是吧，好像是说什么呢？一切局势尽在掌握。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC023
+
+```json
+{
+  "occurrence_id": "OC023",
+  "claim_id": "C023",
+  "source_id": "S03",
+  "cue_start": 136,
+  "cue_end": 143,
+  "start": "00:06:30,780",
+  "end": "00:06:51,030",
+  "surface_text": "但实际情况呢，实际情况，特朗普第三次的对外。\n啊，这个新闻发布会。\n就说的很清楚了。\n他第三次里面说的是吧？\n我们预计的。\n这场战争我们一开始做的预案是4到5个星期。\n那。\n现在呢我不适合这个时间线是吧？打到什么时候，要打到什么时候，需要打到什么时候，我都有充足的耐心。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC024
+
+```json
+{
+  "occurrence_id": "OC024",
+  "claim_id": "C024",
+  "source_id": "S03",
+  "cue_start": 146,
+  "cue_end": 154,
+  "start": "00:06:52,960",
+  "end": "00:07:17,540",
+  "surface_text": "表现出自己长久的作战意志。\n来干嘛呢？\n来对作战的双方进行压力测试施压。\n起到的目的是啥呢？希望希望得到的结果是啥呢？\n希望缩短战争的时长。\n就是特朗普一遍在强调，我们有充足的耐心可以尝。\n长期的持久的战斗下去。\n恰恰是他心里没底。\n希望快速的解决问题的表现。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC025
+
+```json
+{
+  "occurrence_id": "OC025",
+  "claim_id": "C025",
+  "source_id": "S03",
+  "cue_start": 163,
+  "cue_end": 180,
+  "start": "00:07:35,700",
+  "end": "00:08:21,520",
+  "surface_text": "所以呢油价不会一飞冲天的一下涨到位。\n他需要慢慢的坚定的。\n涨上去。\n所以随着霍尔木兹海峡。\n慢慢的在伊朗这边获得主导权。\n美国。\n夺取霍尔穆斯海峡的主导权的尝试失败。\n啊。\n头一个星期。\n系啊。\n整个的油价会经历一个缓慢的上涨。\n上涨的幅度也不会太多。\n比过去的油价增加20%到30%。\n过去的油价大在大概在60到70，咱们按70算啊。\n那30的话。\n就差不多再往上涨个20左右，涨到90左右。这就是说。\n一个星期左右是吧，整体的油价会慢慢的从啊从60到70涨到80到90。在这个范围里面。\n基本上就稳定了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC026
+
+```json
+{
+  "occurrence_id": "OC026",
+  "claim_id": "C026",
+  "source_id": "S03",
+  "cue_start": 183,
+  "cue_end": 198,
+  "start": "00:08:26,080",
+  "end": "00:09:00,720",
+  "surface_text": "随着美国呢。\n企图通过证明自己对霍尔木斯海峡信手拈来。\n能够想怎么控制，怎么控制的这个尝试失败。\n也是说。\n随着这个战士推荐到一个星期左右的时间。\n大家都认识到。\n美国不会那么快的达到他自己的战术目标。\n战略目标。\n这个时候呢，这个事件就有了分歧。\n美国是浅尝辄止呢，见见好就收呢。\n还是要追加。\nSo.\n对于特朗普而言的话，他自己赢血啊。\n那。\n这个事情的话就比较微妙了，得继续看，因为两种都有可能啊。\n对于特朗普来说的话。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC027
+
+```json
+{
+  "occurrence_id": "OC027",
+  "claim_id": "C027",
+  "source_id": "S03",
+  "cue_start": 206,
+  "cue_end": 207,
+  "start": "00:09:17,360",
+  "end": "00:09:24,660",
+  "surface_text": "收缩力量，那么航母的舰队不是已经颠了嘛，是吧？林肯号不是已经后撤900倍。\n900900公里了嘛，是吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC028
+
+```json
+{
+  "occurrence_id": "OC028",
+  "claim_id": "C028",
+  "source_id": "S03",
+  "cue_start": 212,
+  "cue_end": 228,
+  "start": "00:09:32,690",
+  "end": "00:10:18,140",
+  "surface_text": "意思是，霍尔木兹海峡的主导权我不去抢了。你伊朗说了算。\n但是。\n如果在这样的情况下，你继续封锁霍门彩霞的话，你得罪的就不是我了然你得罪的是其他人了。\n世界都会因为是你受到影响了。\n你千万不要。\n啊，因小事大啊，觉得。\n啊，你的这个领导被扬了，是吧，你要找我报仇，结果我就拉着全世界一起作为代价。\n那不好意思。\n一开始你有理的事，你损害了大家利益，你也变成坏人了。\n啊，把这个选择留在这里，把这个舞台让给你。\n让你在这里面做选择。\n逼着你伊朗啊。\n在这里边啊进退两难。\n这个时候伊朗新上来的这个领导班子一定会。\n走折中路线。\n就释放一些善意。\n部分的让开放这个霍尔木兹海洋的航道。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC029
+
+```json
+{
+  "occurrence_id": "OC029",
+  "claim_id": "C029",
+  "source_id": "S03",
+  "cue_start": 234,
+  "cue_end": 235,
+  "start": "00:10:25,910",
+  "end": "00:10:32,450",
+  "surface_text": "经过我一个月啊，就经过我一个星期的呃极限试压。\n伊朗终于妥协了，他开放了霍尔木兹海峡。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC030
+
+```json
+{
+  "occurrence_id": "OC030",
+  "claim_id": "C030",
+  "source_id": "S03",
+  "cue_start": 236,
+  "cue_end": 242,
+  "start": "00:10:32,450",
+  "end": "00:10:52,190",
+  "surface_text": "就好像昨天是吧，以色列这边宣布开放领空。\n道理是一样的。\n你愿不愿意开放领空是你的事儿，挨不挨打也是你的事儿。那你说了算嘛。\n你光是开放开放领空。\n你有本事就让伊朗不打你。\n对吧要不你开放领空呢，其实就是。\n啊，吹夜路走啊，走夜路吹口哨嘛，对吧？自己骗自己嘛，给自己撞倒了嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC031
+
+```json
+{
+  "occurrence_id": "OC031",
+  "claim_id": "C031",
+  "source_id": "S03",
+  "cue_start": 245,
+  "cue_end": 249,
+  "start": "00:10:54,030",
+  "end": "00:11:07,190",
+  "surface_text": "伊朗是出于现实的考虑，确确实实。\n要开放部分霍尔木兹海峡的通行权。\n起码要让伊朗的游轮。\n能够向马六甲海峡进发。\n把伊朗油拿出去卖掉，对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC032
+
+```json
+{
+  "occurrence_id": "OC032",
+  "claim_id": "C032",
+  "source_id": "S03",
+  "cue_start": 253,
+  "cue_end": 255,
+  "start": "00:11:16,080",
+  "end": "00:11:24,670",
+  "surface_text": "按照这样的剧情发展的话。\n油价就可以有一个温和的回落。\n或者说呢起码不涨了，不会有特别大的这个波动的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC033
+
+```json
+{
+  "occurrence_id": "OC033",
+  "claim_id": "C033",
+  "source_id": "S03",
+  "cue_start": 261,
+  "cue_end": 269,
+  "start": "00:11:42,600",
+  "end": "00:12:02,520",
+  "surface_text": "那他退而求其次是干嘛呢？破罐子破摔就是。\n库尔木兹海峡我控制不了，你也休想要控制得了。\n啥意思呢？\n你不是让部分放开吗？我就偏不让你部分放开。\nで吧。\n你伊朗牛牛仔你能够通过地利的这个优势。\n守着这个咽喉药道。\n我美国牛美国有那啥呢？\n我有这些远洋的舰队。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC034
+
+```json
+{
+  "occurrence_id": "OC034",
+  "claim_id": "C034",
+  "source_id": "S03",
+  "cue_start": 273,
+  "cue_end": 285,
+  "start": "00:12:09,530",
+  "end": "00:12:37,820",
+  "surface_text": "伊朗从霍尔木兹海峡出来的游轮肯定是亲伊朗的。\n就打着反伊朗的这个旗号，直接打你的游轮。\n让你一朗开放了霍尔蒙海峡，但是你的油还是运不出来。\n啊。\n正义凛然，这是战争行为。\n那现在是战争状态。\n饿死你伊朗，这是。\n天经地义的事儿。\n你伊朗开放库霍尔木斯海峡。\n把油轮出来放怎么样呢？\n伊朗你不愿意做坏人，我美国愿意做坏人。\n我有正当的理由啊，从美国的角度上来说，他我有正当理由啊。\n一挡是我的战争对手啊。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC035
+
+```json
+{
+  "occurrence_id": "OC035",
+  "claim_id": "C035",
+  "source_id": "S03",
+  "cue_start": 286,
+  "cue_end": 296,
+  "start": "00:12:37,820",
+  "end": "00:13:02,820",
+  "surface_text": "那这么大的话，油价就会继续往上走。\n刚才说的是吧？\n80到90，这是一个比较稳定的一个观察的点，一个星期左右。\n等着这个时候，如果美国在这个上面一意孤行要继续加注。\n那不好意思。\n油价就会继续的稳步上升。\n上升到什么时候呢？\n上升到120左右，持续多长时间呢？\n持续一个月左右。\n啊。\n就是到一个月左右，是吧，这个油价呢又会涨到120左右。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC036
+
+```json
+{
+  "occurrence_id": "OC036",
+  "claim_id": "C036",
+  "source_id": "S03",
+  "cue_start": 297,
+  "cue_end": 314,
+  "start": "00:13:02,820",
+  "end": "00:13:38,510",
+  "surface_text": "整个前面是吧，一个星期。\n后边一个月这加起来是不是4个星期？\n这是不是40天？\n这4天完了以后哎。\nう。\n这加起来的话。\n呃，就差不多是。\n哈梅内衣守灵的这40天就结束了。\nYeah.\n这事情结束了以后。\n这件事情就来到了另外一个最关键的节点。\n到时候美意之间到底怎么谈？\n现在出来这个结果，大家互相认不认账？\n这个时间节点是非常非常关键的。\n就是。\n这个开启这个试端以后，他们内衣。\n啊，停龄40天，守灵40天，40天结束了以后。\n这个局面到底是怎么样子的？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC037
+
+```json
+{
+  "occurrence_id": "OC037",
+  "claim_id": "C037",
+  "source_id": "S03",
+  "cue_start": 319,
+  "cue_end": 323,
+  "start": "00:13:49,990",
+  "end": "00:14:03,370",
+  "surface_text": "油价应该停留在什么状态呢？\n应该围绕着，如果不出意外的话，应该围绕着90到100。\n甚至多一点是吧，90到110这个区间里边。\n的上下浮动。\n啊，到了那个时候呢，可能它就会开始回落了，是吧？因为。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC038
+
+```json
+{
+  "occurrence_id": "OC038",
+  "claim_id": "C038",
+  "source_id": "S03",
+  "cue_start": 325,
+  "cue_end": 329,
+  "start": "00:14:05,060",
+  "end": "00:14:22,600",
+  "surface_text": "啊，战就是站的这个意图啊也不是特别明显。因为。\n说句心里话，到现在。\n你也没搞明白美国在这里面的真实的战略欲图是啥，他到底想要在这里得到啥，对吧？\n嗯。\n没有目标的动作，他就没有办法有长劲，他可能就是一下子的事，后边的话可能就没有那么大的动力了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC039
+
+```json
+{
+  "occurrence_id": "OC039",
+  "claim_id": "C039",
+  "source_id": "S03",
+  "cue_start": 330,
+  "cue_end": 344,
+  "start": "00:14:22,600",
+  "end": "00:15:02,090",
+  "surface_text": "没有那么大的动力的话，美国有可能是吧？\n打完了。\n这。\n40天以后发现。\n没有办法快速的得到自己的目标。\n然后呢，这个成本呢自己就承担不了了。\n那可能他就会往后退。\n退的话就是。\n借着哈梅内衣首灵结束啊，美伊之间展开新一轮的谈判。\n咱们先把这个封锁有这个霍尔木斯海峡这个事儿。\n把他。\n把它谈一谈。\n那通过这样的行为的话，伊朗呢就彻底的把握住了整个事件的主导权。\n那那美国就整个的就是从这个国际的角度上来说的话。\n就打伊朗就彻底的就是鸡飞蛋打了是，赔了富人又折兵啊，脸也不要了，就是面子里子一起丢。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC040
+
+```json
+{
+  "occurrence_id": "OC040",
+  "claim_id": "C040",
+  "source_id": "S03",
+  "cue_start": 346,
+  "cue_end": 355,
+  "start": "00:15:02,560",
+  "end": "00:15:27,260",
+  "surface_text": "但是对于特朗普来说，你不用担心这事儿会不会影响到他。\n选举啊啥的。\n作为营学大师来说的话，他可以找到任何的角度来证明自己赢了。\n是吧。\n那只要有。\n干掉韩文内衣这一条，一俊遮百丑。\n剩下的事情。\n只要喇叭够的啊，我只要有一条非常非常强的这个标签。\n对于戏选票，对于喜喜喜选民的脑。\n那特朗普太擅长不过来，但是。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC041
+
+```json
+{
+  "occurrence_id": "OC041",
+  "claim_id": "C041",
+  "source_id": "S03",
+  "cue_start": 373,
+  "cue_end": 374,
+  "start": "00:15:58,060",
+  "end": "00:16:03,740",
+  "surface_text": "霍尔木兹海峡只占了全世界邮贡的30%到40%。\n啊。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC042
+
+```json
+{
+  "occurrence_id": "OC042",
+  "claim_id": "C042",
+  "source_id": "S03",
+  "cue_start": 375,
+  "cue_end": 376,
+  "start": "00:16:03,740",
+  "end": "00:16:10,920",
+  "surface_text": "他打他封锁，他也不可能永久的封锁下去。从伊朗来讲，他也不可能永久的封锁下，大家都知道。\n不可能永久的放斗下去，对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC043
+
+```json
+{
+  "occurrence_id": "OC043",
+  "claim_id": "C043",
+  "source_id": "S03",
+  "cue_start": 380,
+  "cue_end": 381,
+  "start": "00:16:24,490",
+  "end": "00:16:28,540",
+  "surface_text": "伊朗那个石油你还能找到替代品。\n中国的工业品你根本找不到替代品。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC044
+
+```json
+{
+  "occurrence_id": "OC044",
+  "claim_id": "C044",
+  "source_id": "S03",
+  "cue_start": 383,
+  "cue_end": 383,
+  "start": "00:16:29,680",
+  "end": "00:16:34,560",
+  "surface_text": "中国的民用的这些生产工业品呢全部都转型，生产军工贞关倒弹。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC045
+
+```json
+{
+  "occurrence_id": "OC045",
+  "claim_id": "C045",
+  "source_id": "S03",
+  "cue_start": 384,
+  "cue_end": 388,
+  "start": "00:16:34,820",
+  "end": "00:16:49,120",
+  "surface_text": "你路比奥不是前脚才说嘛，说吧伊朗这个国家太邪恶，太可怕了。\n我们美国生产六七枚，这个就是就是。\n这个。\n呃，反导系统的这个拦截段的这个时间，伊朗可以生产100枚的这个。\n啊，攻击得到弹。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC046
+
+```json
+{
+  "occurrence_id": "OC046",
+  "claim_id": "C046",
+  "source_id": "S03",
+  "cue_start": 389,
+  "cue_end": 392,
+  "start": "00:16:49,560",
+  "end": "00:16:58,460",
+  "surface_text": "那这个数量放到中国这边来的话，不好意思。\n咱们的这个产量后边得加两个0。\nYeah.\n我们生产1万枚导弹的同时，你这边只能生产六七枚。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC047
+
+```json
+{
+  "occurrence_id": "OC047",
+  "claim_id": "C047",
+  "source_id": "S03",
+  "cue_start": 393,
+  "cue_end": 398,
+  "start": "00:16:58,560",
+  "end": "00:17:12,780",
+  "surface_text": "到时候就是真正的物理意义上，让你见识见识什么叫慢剑启发。\nNo.\n整个的呃东亚，欢迎你来，欢迎你常来，看你有多少舰队往这里葬送。\n对吧。\n就那个时候的话。\n那整个的这个世界就会为之以颤。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC048
+
+```json
+{
+  "occurrence_id": "OC048",
+  "claim_id": "C048",
+  "source_id": "S03",
+  "cue_start": 403,
+  "cue_end": 405,
+  "start": "00:17:24,540",
+  "end": "00:17:34,150",
+  "surface_text": "这个局面早就跟台湾没关系了，台湾已经是。\n囊中之物了，要不然就不会有绕绕倒的这个演习了。\n只是看你台湾以什么样的成本收回来而已。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC049
+
+```json
+{
+  "occurrence_id": "OC049",
+  "claim_id": "C049",
+  "source_id": "S03",
+  "cue_start": 408,
+  "cue_end": 413,
+  "start": "00:17:39,030",
+  "end": "00:17:52,870",
+  "surface_text": "现在的这个企业叫收拾日本。\n通过收拾日本。\n把台湾的马丹盾转嫁到日本身上来。\n通过日本。\n来彻底的把美国的力量从亚洲这边赶出去，东亚这边赶出去。\n现在玩的是这个局。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC050
+
+```json
+{
+  "occurrence_id": "OC050",
+  "claim_id": "C050",
+  "source_id": "S03",
+  "cue_start": 415,
+  "cue_end": 415,
+  "start": "00:17:53,550",
+  "end": "00:17:55,500",
+  "surface_text": "韩国看的是非常清楚的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC051
+
+```json
+{
+  "occurrence_id": "OC051",
+  "claim_id": "C051",
+  "source_id": "S03",
+  "cue_start": 416,
+  "cue_end": 425,
+  "start": "00:17:55,500",
+  "end": "00:18:20,380",
+  "surface_text": "所以才有了前段时间。\n咱们国庆节的时候啊，驻韩的美军跑到这边来对峙。\n那是驻韩美军，不是韩国。\n不是韩国的空军。\n是驻韩的美军，是美国人。\n美国人希望啊，通过这种。\n啊，战略这个这个航空识别区互相之间。\n互相这间是吧，证间对忙忙的标一下。\n来刷一下在这边的存在感。\n看看你春节之前的战备怎么样。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC052
+
+```json
+{
+  "occurrence_id": "OC052",
+  "claim_id": "C052",
+  "source_id": "S03",
+  "cue_start": 421,
+  "cue_end": 429,
+  "start": "00:18:06,270",
+  "end": "00:18:29,250",
+  "surface_text": "美国人希望啊，通过这种。\n啊，战略这个这个航空识别区互相之间。\n互相这间是吧，证间对忙忙的标一下。\n来刷一下在这边的存在感。\n看看你春节之前的战备怎么样。\n那真的就是已经没招的没招的。\nあ。\n闲着也是闲着，咱们来刷刷存在感。\n那因为啥呢？因为其他的方向已经找不到任何的突破口了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC053
+
+```json
+{
+  "occurrence_id": "OC053",
+  "claim_id": "C053",
+  "source_id": "S03",
+  "cue_start": 433,
+  "cue_end": 439,
+  "start": "00:18:37,550",
+  "end": "00:18:56,470",
+  "surface_text": "我在。\n我记得是24年还是25年的时候，就跟大家做过好几期节目聊天我当时就说了非常非常。\n肯定的说了，这个事儿已经翻篇了，大家不用再去。\n讨论什么台湾问题了。\n现在这个台湾问题已经升级成日本问题了。\n而日本问题真正代表的就是东亚谁说了算。\n你美国的影响力要彻底给我滚出亚洲。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC054
+
+```json
+{
+  "occurrence_id": "OC054",
+  "claim_id": "C054",
+  "source_id": "S03",
+  "cue_start": 442,
+  "cue_end": 445,
+  "start": "00:19:03,450",
+  "end": "00:19:14,070",
+  "surface_text": "那天上的卫星都在看都在算。\n你在算我也在算，但是有卫星的又不是一个国家。\n谁规定了中国的卫星拍出来的信息，只能中国人看。\n不能够公布到全世界看。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC055
+
+```json
+{
+  "occurrence_id": "OC055",
+  "claim_id": "C055",
+  "source_id": "S03",
+  "cue_start": 446,
+  "cue_end": 449,
+  "start": "00:19:14,150",
+  "end": "00:19:24,370",
+  "surface_text": "大家都认为你根本就打不了这个事儿。\n那接下来这个事儿，你就算是强撑着说你能打。\n也没人跟着你一起打。\n没人跟着你一去打就没人分担你的成本。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC056
+
+```json
+{
+  "occurrence_id": "OC056",
+  "claim_id": "C056",
+  "source_id": "S03",
+  "cue_start": 449,
+  "cue_end": 464,
+  "start": "00:19:21,530",
+  "end": "00:19:55,920",
+  "surface_text": "没人跟着你一去打就没人分担你的成本。\n所有成本落到你身上的话。\n啊。\n你。\n你这船再大能打几根丁啊。\n对吧都说烂船都有3千0丁嘛。\n但是你这3000定能顶的什么用呢？\n没用的对吧？\n只要是有数的事儿。\n对这无形的事儿，因为我们这边可以常年累月的，天天赶。\n是吧。\n愚公移山的精什么天天干。\n干到什么时候呢？干到这个事情彻底胜利为止。\n而你美国能不能支付这样的代价，说我也无所谓。\n你愿意干多久，我就奉陪到底。\n没有这个底气，就别揽这个活。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC057
+
+```json
+{
+  "occurrence_id": "OC057",
+  "claim_id": "C057",
+  "source_id": "S03",
+  "cue_start": 473,
+  "cue_end": 477,
+  "start": "00:20:10,380",
+  "end": "00:20:32,110",
+  "surface_text": "我看到昨天呢有小伙伴问我说这个封锁一呃，霍尔木斯海峡60天这个60天是怎么来的？这是一个测算的数据，为啥呢？\n啊，理理由这么有两个。\n一个呢就是海湾国家，它的这个邮储啊，也就能够支撑20多天。\n啊，这是大呃摩摩根大通的这个调查数据。\n我认为这个里边呢是有埋伏的，而且呢。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC058
+
+```json
+{
+  "occurrence_id": "OC058",
+  "claim_id": "C058",
+  "source_id": "S03",
+  "cue_start": 478,
+  "cue_end": 480,
+  "start": "00:20:32,250",
+  "end": "00:20:46,230",
+  "surface_text": "海湾这边的国家，它产油的话，它也不用一根筋，是吧？这打了以后，这个油量自然而然就要减少一点。\n所以它的这个石油储备，它能够存的这些东西的话，加起来。\n可能能够存个30天，就一个月左右，这个是比较保险的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC059
+
+```json
+{
+  "occurrence_id": "OC059",
+  "claim_id": "C059",
+  "source_id": "S03",
+  "cue_start": 481,
+  "cue_end": 483,
+  "start": "00:20:46,230",
+  "end": "00:20:53,610",
+  "surface_text": "那咱们就按照。\n一个月的这个数量，咱们。\n翻倍来计算嘛，那么料底以宽嘛，他们就是按两个月时间，也就是说什么呢？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC060
+
+```json
+{
+  "occurrence_id": "OC060",
+  "claim_id": "C060",
+  "source_id": "S03",
+  "cue_start": 484,
+  "cue_end": 486,
+  "start": "00:20:53,610",
+  "end": "00:21:03,730",
+  "surface_text": "就伊朗只要能够切切实实的扎扎实实的把霍尔木兹海峡的封锁。\n把握两个月时间的话，任何一个。\n域外的国家都得跟伊朗妥协。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC061
+
+```json
+{
+  "occurrence_id": "OC061",
+  "claim_id": "C061",
+  "source_id": "S03",
+  "cue_start": 490,
+  "cue_end": 495,
+  "start": "00:21:09,150",
+  "end": "00:21:25,980",
+  "surface_text": "海湾国家要对着美国这边施验，逼着美国要跟伊朗这边谈了。\n你要么就把彻底的一朗打服。\n如果你不能够通过武力的方式把伊朗征服的话，打服的话。\n等一等。\n放开霍尔木斯海峡的通行的话，那不好意思。\n我们可能就要跟你美国这边翻脸了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC062
+
+```json
+{
+  "occurrence_id": "OC062",
+  "claim_id": "C062",
+  "source_id": "S03",
+  "cue_start": 499,
+  "cue_end": 503,
+  "start": "00:21:31,150",
+  "end": "00:21:40,200",
+  "surface_text": "美国很多很多的。\n这个投资市场上的。\n呃个资本。\n都是这中通这些网页给我们这边的主权基金的。\n对吧。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC063
+
+```json
+{
+  "occurrence_id": "OC063",
+  "claim_id": "C063",
+  "source_id": "S03",
+  "cue_start": 504,
+  "cue_end": 511,
+  "start": "00:21:40,200",
+  "end": "00:22:02,100",
+  "surface_text": "他们如果拼着啊，就是我如何如何也要带着你一起走的这样想想法，跟美国这边闹的话。\n特朗普支撑不住的。\n因为美国是金融利国是吧？\n千万不要忽略啊在金融帝国的国家里边。\n啊，谁的钱多，谁说了算这句话。\n当这些合力形成了以后。\n反对战争的力量就会。\n让整个战争停下来。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC064
+
+```json
+{
+  "occurrence_id": "OC064",
+  "claim_id": "C064",
+  "source_id": "S03",
+  "cue_start": 512,
+  "cue_end": 515,
+  "start": "00:22:02,100",
+  "end": "00:22:13,750",
+  "surface_text": "所以对于美国而言呢，它时间窗口也就是。\n呃，两个月左右，这是最大的上限。咱们按照最坏的情况进行预估最大的上限。\n就是60天。\n超过60天是绝对不可能的事情。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC065
+
+```json
+{
+  "occurrence_id": "OC065",
+  "claim_id": "C065",
+  "source_id": "S03",
+  "cue_start": 517,
+  "cue_end": 524,
+  "start": "00:22:14,150",
+  "end": "00:22:33,950",
+  "surface_text": "你从这个。\n历史的数据来看的话，实际上。\n霍尔木斯海峡封锁60天，没有哪一个会。\n不不妥协的，最后的结果都很妥协了。\n既然最后的结果是妥协。\n之前都妥协了，那今天会更加的乖贵得快，不会走到那一步的。\n对吧.\n因之前是实打实的，已经付出了惨重的代价，谁也不愿意再去付出那样的代价呢？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC066
+
+```json
+{
+  "occurrence_id": "OC066",
+  "claim_id": "C066",
+  "source_id": "S03",
+  "cue_start": 528,
+  "cue_end": 530,
+  "start": "00:22:38,760",
+  "end": "00:22:49,880",
+  "surface_text": "只要大家有一个同样的一个认知，就是。\n伊朗不可能永久的封锁霍尔莫斯太加，他总有一天要开放的。\n那这个60天就是个准的，就是最多最多封锁60天。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC067
+
+```json
+{
+  "occurrence_id": "OC067",
+  "claim_id": "C067",
+  "source_id": "S03",
+  "cue_start": 531,
+  "cue_end": 535,
+  "start": "00:22:49,880",
+  "end": "00:22:59,530",
+  "surface_text": "但是如果真的走到60天，哪怕封锁到超过40天的话。\n那伊朗就是大胜特生。\n那到时候的话。\n来找伊朗签。\n城下之盟的就是美国。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC068
+
+```json
+{
+  "occurrence_id": "OC068",
+  "claim_id": "C068",
+  "source_id": "S03",
+  "cue_start": 537,
+  "cue_end": 547,
+  "start": "00:23:00,340",
+  "end": "00:23:28,360",
+  "surface_text": "那到时候美国以什么样的利益去交换？\n那我我觉得美国这边跟伊朗这边只要握手言合了。\n倒霉的就是以色列了。\n明嘛。\n到时候，美国就会把以色列拿出来，当做一个祭品。\n当做一个缓充电。\n大家一起把他杀了以后。\n啊，以他的写哎。\n如何如何如何，他们之间之间的。\n摆个靶子啊，头一磕是吧，这个事儿就过去了。\n霍尔蒙海峡还是个好海峡，那这是一个发财的黄金通道，那咱们就可以苟合在一起了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC069
+
+```json
+{
+  "occurrence_id": "OC069",
+  "claim_id": "C069",
+  "source_id": "S03",
+  "cue_start": 548,
+  "cue_end": 565,
+  "start": "00:23:28,360",
+  "end": "00:24:11,630",
+  "surface_text": "那那个时候的话就是美国呢。\n就是看起来呢好像把这事儿结果，但是。\n中东这边的事儿的话，他就彻底说了不算了。\n他的影响力就彻底从中东这边被赶赶走了。\n对吧。\n这个事件会不会往着这个方向去发展？\n咱们就看吧。\n美国犯了这么大的战略错误。\n那如果丢掉了中东。\n那不好意思，那真的用了局做那句话了啊。\n迅速的从这个。\n世界霸主就沦为老二了。\n老二塔都保不住。\n丢掉耳中东以后，他就迅速的。\n那就真的成为路边那一条了，而且人嫌狗艳。\n后边跟长他算账的人那就多去了啊吧？\n当然了。\n因为美国的加大业大，这个下行的这个时间会很长，但是这个趋势是会很非常非常明显的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC070
+
+```json
+{
+  "occurrence_id": "OC070",
+  "claim_id": "C070",
+  "source_id": "S03",
+  "cue_start": 566,
+  "cue_end": 574,
+  "start": "00:24:11,630",
+  "end": "00:24:27,630",
+  "surface_text": "你参考当年的西班牙。\nNow.\n当年的西班牙。\n跟这个英国人。\n然后无敌舰队嘛。\n跟英国人是吧，海上无敌舰队的覆灭。\n负面完了以后呢。\n那西班牙就路边一条了是吧，这英国人就抖起来了，为啥呢？\n战场打不赢，一切等于0。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC071
+
+```json
+{
+  "occurrence_id": "OC071",
+  "claim_id": "C071",
+  "source_id": "S03",
+  "cue_start": 575,
+  "cue_end": 582,
+  "start": "00:24:27,780",
+  "end": "00:24:40,340",
+  "surface_text": "现在中东这个事儿。\n就已经慢慢的演变成了。\n美国的无敌舰队覆灭剂。\n啊。\n咁啊。\n耀武扬威的海上力量。\n中东伊朗你都搞不定。\n更强的国家你惹得起吗，是？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC072
+
+```json
+{
+  "occurrence_id": "OC072",
+  "claim_id": "C072",
+  "source_id": "S03",
+  "cue_start": 586,
+  "cue_end": 595,
+  "start": "00:24:45,590",
+  "end": "00:25:10,270",
+  "surface_text": "只要有有人能克制你。\n那你去了哪儿，别人都会把这个克制你的这个人拿出来抬出来。\n对吧。\n他凭什么能够让你服呢？\n那不都是武器装备的事儿吗？\n那武器装备这事儿的话，又不是说是。\n是吧要看风水的，必须得在什么精度，什么纬度，他才能合用。\n只要插上电，哪儿都可以用，对吧？\n那结果是啥呢？你哪儿都去不了。\n很多很多你的力量就生生长不出来。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC073
+
+```json
+{
+  "occurrence_id": "OC073",
+  "claim_id": "C073",
+  "source_id": "S03",
+  "cue_start": 596,
+  "cue_end": 619,
+  "start": "00:25:10,270",
+  "end": "00:26:14,230",
+  "surface_text": "生产不出来了以由过去呢你靠的是啥？\n靠的是我能包打天下。\n加了诸多的杠杆。因为你知道我能八打天下，没人真正跟你来动刀动枪。\n对吧。\n所以很多事呢就是只要面子上过得去，没人跟你较真儿。\n你可以耀武扬威，那到时候你打不赢了以后。\n那该较真的时候要称量称量的时候都要称量称量，对吧？\n你别看你绑太腰远的。\n你不一定由我手下定的。\n我背后的话也有大哥的。\n到时候谁先怂来？\n打不起仗，真正打不起仗的是谁呀？\n什么叫。\n打得一拳开，免得百圈来呀。\n现在这个时间节点上。\n真正要打得一权开的不是伊朗，而是美国。\n很多小伙伴在分析这个问题，然后犯的错误就在这里。\n美国是战术上的攻势，战略上的首势。\n他是霸主。\n他急需要一个场合证明自己还能行，廉颇老矣尚能犯否。\n结果呢。\n他找了一个错误的对手，证明自己还不行了。\n那快速的证明自己不行，就快证明。\n他整个的力量衰退的非常非常的厉害，那不服他的人会更多呢。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC074
+
+```json
+{
+  "occurrence_id": "OC074",
+  "claim_id": "C074",
+  "source_id": "S03",
+  "cue_start": 610,
+  "cue_end": 617,
+  "start": "00:25:44,780",
+  "end": "00:26:07,250",
+  "surface_text": "现在这个时间节点上。\n真正要打得一权开的不是伊朗，而是美国。\n很多小伙伴在分析这个问题，然后犯的错误就在这里。\n美国是战术上的攻势，战略上的首势。\n他是霸主。\n他急需要一个场合证明自己还能行，廉颇老矣尚能犯否。\n结果呢。\n他找了一个错误的对手，证明自己还不行了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC075
+
+```json
+{
+  "occurrence_id": "OC075",
+  "claim_id": "C075",
+  "source_id": "S03",
+  "cue_start": 623,
+  "cue_end": 628,
+  "start": "00:26:20,960",
+  "end": "00:26:35,590",
+  "surface_text": "为了保证这段时间能够有一个非常好的观察的环境。\n世界的油价不会有大的波动。\n就是一个月左右，不会有特别巨大的波动。\n他会缓慢的上涨。\n不会一下子一下子给你一下子。\n长天上去。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC076
+
+```json
+{
+  "occurrence_id": "OC076",
+  "claim_id": "C076",
+  "source_id": "S03",
+  "cue_start": 631,
+  "cue_end": 635,
+  "start": "00:26:36,650",
+  "end": "00:26:49,750",
+  "surface_text": "如果一下子真的一下子猛的涨到天上去了，它会回过来回调的。\n因为大家的心理预期。\n没有到那个份儿上。\n美国现在还没有说是真正这个局面。\n到那种坏到一发不可收拾的状态。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC077
+
+```json
+{
+  "occurrence_id": "OC077",
+  "claim_id": "C077",
+  "source_id": "S03",
+  "cue_start": 634,
+  "cue_end": 638,
+  "start": "00:26:44,580",
+  "end": "00:26:55,940",
+  "surface_text": "美国现在还没有说是真正这个局面。\n到那种坏到一发不可收拾的状态。\n目前来说的话。\n还，占据着。\n部分的占据是市场上的主动啊，战场上的主动啊。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC078
+
+```json
+{
+  "occurrence_id": "OC078",
+  "claim_id": "C078",
+  "source_id": "S03",
+  "cue_start": 641,
+  "cue_end": 644,
+  "start": "00:26:58,840",
+  "end": "00:27:08,460",
+  "surface_text": "过了一个月这个生死红线，就40天这个生死红线。\n那基本上呢。\n整个的事情啊就应该是非常非常清晰了。\n到底美国赢还是输，就有一个定论了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC079
+
+```json
+{
+  "occurrence_id": "OC079",
+  "claim_id": "C079",
+  "source_id": "S03",
+  "cue_start": 646,
+  "cue_end": 649,
+  "start": "00:27:10,040",
+  "end": "00:27:17,300",
+  "surface_text": "如果是伊朗。\n控制了霍尔木斯海峡的话。\n油价它不会涨得太厉害的。\n他会回落的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC080
+
+```json
+{
+  "occurrence_id": "OC080",
+  "claim_id": "C080",
+  "source_id": "S03",
+  "cue_start": 650,
+  "cue_end": 651,
+  "start": "00:27:17,300",
+  "end": "00:27:24,570",
+  "surface_text": "如果是美国控制的霍尔木财峡呢，不好意思。\n油价会维持在100到126个区间，相当长的一段时间。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC081
+
+```json
+{
+  "occurrence_id": "OC081",
+  "claim_id": "C081",
+  "source_id": "S03",
+  "cue_start": 656,
+  "cue_end": 656,
+  "start": "00:27:30,510",
+  "end": "00:27:32,900",
+  "surface_text": "啊，他一边呢控制着委内瑞拉。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC082
+
+```json
+{
+  "occurrence_id": "OC082",
+  "claim_id": "C082",
+  "source_id": "S03",
+  "cue_start": 657,
+  "cue_end": 667,
+  "start": "00:27:32,900",
+  "end": "00:28:01,830",
+  "surface_text": "他这边呢把国际金价维持在这么高以后，通过在伊朗身上刷了存在感以后，证明自己依然是。\n蓝星之主了以后。\n他可以通过设定油价的这个方式。\n来设定他自己的那套。\n所谓的。\n上个世纪的能源是香饽饽，所有的问题都是桌杯必做就可以解决。\n他要解决这个问题。\n他就得一头呢。\n抓着世界石油的供应权。\n一头呢抓着油价的这个定价权。\n然后把这个定价定的高高的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC083
+
+```json
+{
+  "occurrence_id": "OC083",
+  "claim_id": "C083",
+  "source_id": "S03",
+  "cue_start": 669,
+  "cue_end": 674,
+  "start": "00:28:02,350",
+  "end": "00:28:19,460",
+  "surface_text": "定的高高的以后呢，他抓着供应在这里边赚的份额是最多的。\n啊，你别看这个油下涨了，你以为这个涨的这个额外的涨出来之前。\n能落到别人手里面，不会。\n只是落在美国手里边，因为啥呢？\n美国通过武力。\n在霍尔木兹海峡进行了一个武力的变现。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC084
+
+```json
+{
+  "occurrence_id": "OC084",
+  "claim_id": "C084",
+  "source_id": "S03",
+  "cue_start": 676,
+  "cue_end": 683,
+  "start": "00:28:19,910",
+  "end": "00:28:36,740",
+  "surface_text": "你这个武装力量。\n通过什么方式能够把这个钱挣出来呢？\n不得到街上去收收保护费吗？\n这个保护费。\n不就是你守的这条街的营业额吗？\n这条街的营业额越高。\n你是不是能收的保护费就越多啊？\n对吧是不是这个道理？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC085
+
+```json
+{
+  "occurrence_id": "OC085",
+  "claim_id": "C085",
+  "source_id": "S03",
+  "cue_start": 685,
+  "cue_end": 689,
+  "start": "00:28:37,350",
+  "end": "00:28:48,790",
+  "surface_text": "如果这场仗。\n伊朗赢了是吧，伊朗能够控制霍尔木斯海加的控控制人。\n啊，占了上风的话。\n油价反而会回落。\n啊它不会涨得太高，可能回落的六七十七八十都有可能。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC086
+
+```json
+{
+  "occurrence_id": "OC086",
+  "claim_id": "C086",
+  "source_id": "S03",
+  "cue_start": 690,
+  "cue_end": 693,
+  "start": "00:28:48,790",
+  "end": "00:28:55,490",
+  "surface_text": "但如果伊朗输了美国赢了。\n油价长期的维持在100。\n甚至120。\n都是有可能的事情。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC087
+
+```json
+{
+  "occurrence_id": "OC087",
+  "claim_id": "C087",
+  "source_id": "S03",
+  "cue_start": 697,
+  "cue_end": 702,
+  "start": "00:29:00,390",
+  "end": "00:29:14,860",
+  "surface_text": "啊，就是2023年的高油价，然后或者说呢。\n啊，2000年以前的高油价。\n那个时候呢，高位价油水都是谁在赚的？\n油水都是海和海海海河会的这些海湾国家对吧？产油国家对，对吧？\n那个。\n呃，一个俄罗斯才拽。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC088
+
+```json
+{
+  "occurrence_id": "OC088",
+  "claim_id": "C088",
+  "source_id": "S03",
+  "cue_start": 706,
+  "cue_end": 717,
+  "start": "00:29:24,240",
+  "end": "00:29:54,060",
+  "surface_text": "那美国为了能够连任，特朗普，为了能够连任。\n他会给你编造一个新的东西啊。\n之前那个民主党干不好的事儿是啥呢？\n美国在全世界抽了血以后。\n播放咱们国内分。\n现在呢你看我特朗普特大善人是吧？\n我来了以后不是这样啊，这个游戏不是这么玩的。\n我在全世界把油价炒高了以后。\n那这些。\n美好的非常可爱的这些石油集团的老总们良心发现，觉得。\n美国人应该用廉价的油。\n通过这种补贴的方式补贴。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC089
+
+```json
+{
+  "occurrence_id": "OC089",
+  "claim_id": "C089",
+  "source_id": "S03",
+  "cue_start": 718,
+  "cue_end": 741,
+  "start": "00:29:54,060",
+  "end": "00:30:54,430",
+  "surface_text": "它不是真的补贴啊，那真的补贴不符合市场规律。美国这个市场国家它是不会做的。\n他是通过这个补贴的手段。\n把一个问题再次的反复再炒，那一条鱼吃三遍。\n一鱼几吃。\n啊。\n补贴补贴这个钱实际上还是一定的。\n啊，主要的药包，然后呢。\n然后给老百姓一个能够过得去的温饱。\n这个游戏之前也玩过是吧？\n那有的国家那个油价低的不像话啊，在这个价格扭曲的不像话。\n不依然是没问题吗？\n但是他只是酒加低。\n其他东西一样，每每样的物价一样的是吧，一点都不受控制。\n他总有办法让你在这个社会里边是吧？精密的设计之下。\n让你在社会里边。\n赚的钱刚刚能够保持温饱。\n你别指望着说油价省出来的钱，你就可以过得很好。\nByer.\n他有很多很多的坑等着你。\n层层的盘剥等着你。\n就让你处于这种。\n是吃不饱饿不死的状态。\n啊，这是。\n接下来美国要发生的事儿就是如果美国能够在这里面主导这一切的话。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC090
+
+```json
+{
+  "occurrence_id": "OC090",
+  "claim_id": "C090",
+  "source_id": "S03",
+  "cue_start": 744,
+  "cue_end": 749,
+  "start": "00:30:56,260",
+  "end": "00:31:10,330",
+  "surface_text": "那么如果他主草不了呢，那不好意思。\n世界的步伐在快速的演进。\n石油美元总究是过去的东西。\n过去的那些那套那套歌。\n没来呢。\n未来是面向新能源时代的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC091
+
+```json
+{
+  "occurrence_id": "OC091",
+  "claim_id": "C091",
+  "source_id": "S03",
+  "cue_start": 753,
+  "cue_end": 757,
+  "start": "00:31:19,580",
+  "end": "00:31:34,460",
+  "surface_text": "这次的这次的这个。\n啊，对伊朗的动物啊AI在这里大显神通，是吧？一方面呢各种的数据分析。\n一方面呢各种的这个暂停的预测是吧？\n各种的这些啊，就是整个的指挥的环节。\n大规模的使用医。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC092
+
+```json
+{
+  "occurrence_id": "OC092",
+  "claim_id": "C092",
+  "source_id": "S03",
+  "cue_start": 758,
+  "cue_end": 765,
+  "start": "00:31:34,460",
+  "end": "00:32:00,400",
+  "surface_text": "这个是一下子呢给AI找到了一个新的就业方向。\n过去呢觉得AI这个化儿不实，中开不中用，但是。\nAI一代在军事用途上的这个实证啊。\n不仅仅是这个军事泛军事用途，因为。\n围绕着战争的话，各种的舆论呢。\n这种人带节奏，他也是占中了一部分信息战嘛，是吧？\n在这里边AI如果能够看到啊应用的场景的话。\n那AI这个泡沫它总是有兜底的嘛，对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC093
+
+```json
+{
+  "occurrence_id": "OC093",
+  "claim_id": "C093",
+  "source_id": "S03",
+  "cue_start": 768,
+  "cue_end": 771,
+  "start": "00:32:01,920",
+  "end": "00:32:15,060",
+  "surface_text": "美国这边把中东这边网爷的小钱袋子是吧，通过这个战争的波动。\n往美国这边挤，虽然说不是全部都到中美国来了是吧？很多跑到中国这边来了。\n啊，但是。\n多多少少他还是会去美国一届嘛，对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC094
+
+```json
+{
+  "occurrence_id": "OC094",
+  "claim_id": "C004",
+  "source_id": "S03",
+  "cue_start": 772,
+  "cue_end": 778,
+  "start": "00:32:15,060",
+  "end": "00:32:34,520",
+  "surface_text": "那对于眼前的AI这个题材的泡沫来说的话，他不是又找到新的裁源了吗？\n过去一段时间，AI的朋友吹不下去，不就是因为没钱了吗？\n烧不动了嘛。\n那现在呢把世界的这个风险提高了。\n动荡的指数提升了。\n那美国这边呢作为一个对冲的自然而然呢就可以。\n啊，收回一些东西。",
+  "occurrence_type": "elaboration",
+  "information_gain": "medium"
+}
+```
+
+### OC095
+
+```json
+{
+  "occurrence_id": "OC095",
+  "claim_id": "C095",
+  "source_id": "S03",
+  "cue_start": 773,
+  "cue_end": 774,
+  "start": "00:32:19,840",
+  "end": "00:32:24,530",
+  "surface_text": "过去一段时间，AI的朋友吹不下去，不就是因为没钱了吗？\n烧不动了嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC096
+
+```json
+{
+  "occurrence_id": "OC096",
+  "claim_id": "C096",
+  "source_id": "S03",
+  "cue_start": 781,
+  "cue_end": 785,
+  "start": "00:32:37,930",
+  "end": "00:32:50,680",
+  "surface_text": "大概是特朗普刚上台的时候，跟大家信誓旦旦拍胸脯保证的是啥呢？\n美元不会贬值的。\n他一边说呢，这美国要好好应鉴我的大美丽法案如何如何如何。\nYeah.\n一天都又说美元不会贬值的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC097
+
+```json
+{
+  "occurrence_id": "OC097",
+  "claim_id": "C097",
+  "source_id": "S03",
+  "cue_start": 787,
+  "cue_end": 791,
+  "start": "00:32:52,820",
+  "end": "00:33:13,250",
+  "surface_text": "通过什么方式能够让美元不贬值呢？\n通过扰乱世界秩序，造制造动荡的方式，让美元不贬值。\n这在之前的节目我跟大家聊过的嘛，随以说特朗普来了以后。\n地缘板块脆弱的地方就开始各种的不稳定了。\n这个不稳定一方面呢是它的收缩主义导致的。美国不愿意承担这种安全成本了。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC098
+
+```json
+{
+  "occurrence_id": "OC098",
+  "claim_id": "C098",
+  "source_id": "S03",
+  "cue_start": 793,
+  "cue_end": 803,
+  "start": "00:33:14,370",
+  "end": "00:33:41,320",
+  "surface_text": "他美元贬值了以后。\n美元自身的惯性就会抑制贬值的这个趋势。\n他会找到一些各种的奇迹引销来给自己演收。\n这是自然的反应。\n啊当你的这个规模足够大了以后。\n这是必然会出现的反噬，维持过去的那个惯性。\n对吧。\n这个惯性具体起来的话，就是你看到这样的是吧？\n通过扰乱世界，这路径依赖嘛。\n通过扰乱世界。\n把美元的信用机制维持住。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC099
+
+```json
+{
+  "occurrence_id": "OC099",
+  "claim_id": "C099",
+  "source_id": "S03",
+  "cue_start": 804,
+  "cue_end": 810,
+  "start": "00:33:41,320",
+  "end": "00:33:54,180",
+  "surface_text": "那这个东西的话能够持久啊，不可以持久。\n他是一个。\n一次性的提款。\n提完了呢，整个的下坡路就会走的越来越明显。\n越来越快速。\nWell.\n这是一条不归路。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC100
+
+```json
+{
+  "occurrence_id": "OC100",
+  "claim_id": "C100",
+  "source_id": "S03",
+  "cue_start": 818,
+  "cue_end": 819,
+  "start": "00:34:09,290",
+  "end": "00:34:12,790",
+  "surface_text": "但是真正的结果我觉得大概率。\n美国会输。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC101
+
+```json
+{
+  "occurrence_id": "OC101",
+  "claim_id": "C101",
+  "source_id": "S03",
+  "cue_start": 849,
+  "cue_end": 850,
+  "start": "00:35:17,910",
+  "end": "00:35:24,040",
+  "surface_text": "很多觉很多小伙伴觉得这件事情可能是未来会发生的事儿。\n在我看来不太有可能啊。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC102
+
+```json
+{
+  "occurrence_id": "OC102",
+  "claim_id": "C102",
+  "source_id": "S03",
+  "cue_start": 851,
+  "cue_end": 854,
+  "start": "00:35:24,040",
+  "end": "00:35:35,510",
+  "surface_text": "只有在战场上打不赢。\n你才会沦为路边的一条。\n在别人的后方里面搞是吧，这个治安站。\n搞这个运动战，搞这个恐怖袭击。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC103
+
+```json
+{
+  "occurrence_id": "OC103",
+  "claim_id": "C103",
+  "source_id": "S03",
+  "cue_start": 855,
+  "cue_end": 875,
+  "start": "00:35:35,620",
+  "end": "00:36:33,280",
+  "surface_text": "如果你在霍尔木兹海峡里面真正能够有占据主动权。\n啊。\n通过跟美国打一场，告诉大家这。\n但当地的地头规矩是我定的。\n那个时候就叫啥呢？\n亮了这个实力了以后。\n就要量慈倍。\n啊我在这里边不是为难大家的，过去的呃伊朗是过去的伊朗。\n现在新的伊朗是新的伊朗，新的伊朗新的思维。\n到时候要跟大家以邻为善。\n对吧。\n既然你们的生命线把握在我手里边。\n我不介意向你们多透露一点善意。\n别觉得什么我们实界派，你们训级派互相之间如何如何。\n啊，井水啊这个这个这个水水火不容是吧？\n啊，互相之样把对方弄死，不好意思。\n在我自己占烈势的时候，活不下去的时候，那当然了，你的就是我的。\n那我看你的我就眼红。\n但是当我已经成为当地的秩序的。\n这个规规定者了。\n那个时候我就可以慈眉善目的跟你讲讲是吧，咱们一起共同发展。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC104
+
+```json
+{
+  "occurrence_id": "OC104",
+  "claim_id": "C104",
+  "source_id": "S03",
+  "cue_start": 878,
+  "cue_end": 888,
+  "start": "00:36:37,550",
+  "end": "00:37:00,280",
+  "surface_text": "我看到有小伙伴还在问是吧？\n你之前说过那个。\n这个。\n狮王争霸那个比方，沙特跟伊朗互相之间是防狮王争霸，现在还。\n算不算数了？\n现在是不是狮王争霸？\n啊，伊朗胜出了，不好意思。\n当美国下场了以后，就没有什么失望争霸了。\n只有一个不死不休。\n所以对伊朗而言的话。\n这条路是只能胜不能败的。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC105
+
+```json
+{
+  "occurrence_id": "OC105",
+  "claim_id": "C105",
+  "source_id": "S03",
+  "cue_start": 892,
+  "cue_end": 898,
+  "start": "00:37:06,490",
+  "end": "00:37:23,700",
+  "surface_text": "看他现在这个局势的发展是吧？\n那向着对美国不利的方向滑落。\n我是非常非常开心的是吧？你自己踏入了这么个陷阱。\n自己葬送了自己搭好的这个局面。\n那是自己活该嘛。\n但是能不能走到这一步？\n咱们还得发展一步，看一步，慢慢的且看且分析。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC106
+
+```json
+{
+  "occurrence_id": "OC106",
+  "claim_id": "C106",
+  "source_id": "S03",
+  "cue_start": 521,
+  "cue_end": 524,
+  "start": "00:22:22,470",
+  "end": "00:22:33,950",
+  "surface_text": "既然最后的结果是妥协。\n之前都妥协了，那今天会更加的乖贵得快，不会走到那一步的。\n对吧.\n因之前是实打实的，已经付出了惨重的代价，谁也不愿意再去付出那样的代价呢？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC107
+
+```json
+{
+  "occurrence_id": "OC107",
+  "claim_id": "C107",
+  "source_id": "S03",
+  "cue_start": 238,
+  "cue_end": 242,
+  "start": "00:10:37,110",
+  "end": "00:10:52,190",
+  "surface_text": "你愿不愿意开放领空是你的事儿，挨不挨打也是你的事儿。那你说了算嘛。\n你光是开放开放领空。\n你有本事就让伊朗不打你。\n对吧要不你开放领空呢，其实就是。\n啊，吹夜路走啊，走夜路吹口哨嘛，对吧？自己骗自己嘛，给自己撞倒了嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC108
+
+```json
+{
+  "occurrence_id": "OC108",
+  "claim_id": "C108",
+  "source_id": "S03",
+  "cue_start": 171,
+  "cue_end": 178,
+  "start": "00:07:53,060",
+  "end": "00:08:12,990",
+  "surface_text": "头一个星期。\n系啊。\n整个的油价会经历一个缓慢的上涨。\n上涨的幅度也不会太多。\n比过去的油价增加20%到30%。\n过去的油价大在大概在60到70，咱们按70算啊。\n那30的话。\n就差不多再往上涨个20左右，涨到90左右。这就是说。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC109
+
+```json
+{
+  "occurrence_id": "OC109",
+  "claim_id": "C109",
+  "source_id": "S03",
+  "cue_start": 312,
+  "cue_end": 314,
+  "start": "00:13:30,410",
+  "end": "00:13:38,510",
+  "surface_text": "这个开启这个试端以后，他们内衣。\n啊，停龄40天，守灵40天，40天结束了以后。\n这个局面到底是怎么样子的？",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC110
+
+```json
+{
+  "occurrence_id": "OC110",
+  "claim_id": "C002",
+  "source_id": "S03",
+  "cue_start": 29,
+  "cue_end": 31,
+  "start": "00:02:00,450",
+  "end": "00:02:12,070",
+  "surface_text": "那先说油啊。\n关于这个石油的这几个时间节点，实际上就是围绕着霍尔木斯海峡的封锁。\n说白了不是封锁，而是霍尔木兹海峡。谁说了算？",
+  "occurrence_type": "restatement",
+  "information_gain": "low"
+}
+```
+
+### OC111
+
+```json
+{
+  "occurrence_id": "OC111",
+  "claim_id": "C003",
+  "source_id": "S03",
+  "cue_start": 779,
+  "cue_end": 779,
+  "start": "00:32:34,520",
+  "end": "00:32:36,740",
+  "surface_text": "这是特朗普的如意算盘。",
+  "occurrence_type": "summary",
+  "information_gain": "redundant"
+}
+```
+
+### OC113
+
+```json
+{
+  "occurrence_id": "OC113",
+  "claim_id": "C025",
+  "source_id": "S03",
+  "cue_start": 288,
+  "cue_end": 288,
+  "start": "00:12:41,160",
+  "end": "00:12:45,470",
+  "surface_text": "80到90，这是一个比较稳定的一个观察的点，一个星期左右。",
+  "occurrence_type": "repeat",
+  "information_gain": "redundant"
+}
+```
+
+### OC114
+
+```json
+{
+  "occurrence_id": "OC114",
+  "claim_id": "C042",
+  "source_id": "S03",
+  "cue_start": 528,
+  "cue_end": 529,
+  "start": "00:22:38,760",
+  "end": "00:22:46,640",
+  "surface_text": "只要大家有一个同样的一个认知，就是。\n伊朗不可能永久的封锁霍尔莫斯太加，他总有一天要开放的。",
+  "occurrence_type": "restatement",
+  "information_gain": "low"
+}
+```
+
+### OC115
+
+```json
+{
+  "occurrence_id": "OC115",
+  "claim_id": "C064",
+  "source_id": "S03",
+  "cue_start": 529,
+  "cue_end": 530,
+  "start": "00:22:42,310",
+  "end": "00:22:49,880",
+  "surface_text": "伊朗不可能永久的封锁霍尔莫斯太加，他总有一天要开放的。\n那这个60天就是个准的，就是最多最多封锁60天。",
+  "occurrence_type": "summary",
+  "information_gain": "low"
+}
+```
+
+### OC116
+
+```json
+{
+  "occurrence_id": "OC116",
+  "claim_id": "C079",
+  "source_id": "S03",
+  "cue_start": 685,
+  "cue_end": 688,
+  "start": "00:28:37,350",
+  "end": "00:28:45,180",
+  "surface_text": "如果这场仗。\n伊朗赢了是吧，伊朗能够控制霍尔木斯海加的控控制人。\n啊，占了上风的话。\n油价反而会回落。",
+  "occurrence_type": "restatement",
+  "information_gain": "low"
+}
+```
+
+### OC117
+
+```json
+{
+  "occurrence_id": "OC117",
+  "claim_id": "C082",
+  "source_id": "S03",
+  "cue_start": 704,
+  "cue_end": 705,
+  "start": "00:29:15,650",
+  "end": "00:29:24,240",
+  "surface_text": "当美国控制了霍尔摩斯海峡了以后，再把这个油价搞起来。\n那未来这个油水谁在转呢？是美国在转是吧？利润是美国在转。",
+  "occurrence_type": "summary",
+  "information_gain": "low"
+}
+```
+
+### OC118
+
+```json
+{
+  "occurrence_id": "OC118",
+  "claim_id": "C037",
+  "source_id": "S03",
+  "cue_start": 319,
+  "cue_end": 320,
+  "start": "00:13:49,990",
+  "end": "00:13:56,150",
+  "surface_text": "油价应该停留在什么状态呢？\n应该围绕着，如果不出意外的话，应该围绕着90到100。",
+  "occurrence_type": "self_correction",
+  "information_gain": "medium"
+}
+```
+
+### OC119
+
+```json
+{
+  "occurrence_id": "OC119",
+  "claim_id": "C037",
+  "source_id": "S03",
+  "cue_start": 321,
+  "cue_end": 323,
+  "start": "00:13:56,150",
+  "end": "00:14:03,370",
+  "surface_text": "甚至多一点是吧，90到110这个区间里边。\n的上下浮动。\n啊，到了那个时候呢，可能它就会开始回落了，是吧？因为。",
+  "occurrence_type": "self_correction",
+  "information_gain": "high"
+}
+```
+
+### OC121
+
+```json
+{
+  "occurrence_id": "OC121",
+  "claim_id": "X01",
+  "source_id": "S04",
+  "source_segment_id": "SS-X01",
+  "surface_text": null,
+  "paraphrase": "若战争持续超过三周、无法外运导致储罐容量用尽并迫使停产，布伦特可达120美元。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC122
+
+```json
+{
+  "occurrence_id": "OC122",
+  "claim_id": "X02",
+  "source_id": "S04",
+  "source_segment_id": "SS-X02",
+  "surface_text": null,
+  "paraphrase": "全面封闭海峡的极端情景下，布伦特可能达到200美元。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC123
+
+```json
+{
+  "occurrence_id": "OC123",
+  "claim_id": "X03",
+  "source_id": "S04",
+  "source_segment_id": "SS-X03",
+  "surface_text": null,
+  "paraphrase": "若战争快速结束，布伦特可能回到60至70美元。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC124
+
+```json
+{
+  "occurrence_id": "OC124",
+  "claim_id": "X04",
+  "source_id": "S04",
+  "source_segment_id": "SS-X04",
+  "surface_text": null,
+  "paraphrase": "2025年经海峡外运约占全球海运石油出口的三分之一。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC125
+
+```json
+{
+  "occurrence_id": "OC125",
+  "claim_id": "X05",
+  "source_id": "S05",
+  "source_segment_id": "SS-X05",
+  "surface_text": null,
+  "paraphrase": "军方顾问宣称海峡关闭；该条同时注明未有革命卫队正式声明。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC126
+
+```json
+{
+  "occurrence_id": "OC126",
+  "claim_id": "X06",
+  "source_id": "S05",
+  "source_segment_id": "SS-X06",
+  "surface_text": null,
+  "paraphrase": "特朗普声称已击沉10艘伊朗舰艇。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC127
+
+```json
+{
+  "occurrence_id": "OC127",
+  "claim_id": "X07",
+  "source_id": "S05",
+  "source_segment_id": "SS-X07",
+  "surface_text": null,
+  "paraphrase": "革命卫队声称向林肯号发射4枚弹道导弹。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC128
+
+```json
+{
+  "occurrence_id": "OC128",
+  "claim_id": "X08",
+  "source_id": "S07",
+  "source_segment_id": "SS-X08",
+  "surface_text": null,
+  "paraphrase": "Platts因海峡航运安全与停航通知审查海湾原油交付可行性。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC129
+
+```json
+{
+  "occurrence_id": "OC129",
+  "claim_id": "X09",
+  "source_id": "S08",
+  "source_segment_id": "SS-X09",
+  "surface_text": null,
+  "paraphrase": "Platts即日起排除部分须通过海峡的港口成品油MOC买卖报价，相关价格评估继续。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC130
+
+```json
+{
+  "occurrence_id": "OC130",
+  "claim_id": "X10",
+  "source_id": "S09",
+  "source_segment_id": "SS-X10",
+  "surface_text": null,
+  "paraphrase": "Platts审查中东运费评估能否继续发布。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC131
+
+```json
+{
+  "occurrence_id": "OC131",
+  "claim_id": "X11",
+  "source_id": "S10",
+  "source_segment_id": "SS-X11",
+  "surface_text": null,
+  "paraphrase": "Platts随后确认继续发布中东运费评估，并可结合市场资料判断。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC132
+
+```json
+{
+  "occurrence_id": "OC132",
+  "claim_id": "X12",
+  "source_id": "S11",
+  "source_segment_id": "SS-X12",
+  "surface_text": null,
+  "paraphrase": "EIA估算2024年海峡日均油流2000万桶，约为全球石油液体消费量20%。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC133
+
+```json
+{
+  "occurrence_id": "OC133",
+  "claim_id": "X13",
+  "source_id": "S04",
+  "source_segment_id": "SS-X13",
+  "surface_text": null,
+  "paraphrase": "摩根大通所说约三周约束是出口受阻后储油空间耗尽并迫使减产，不是消费库存耗尽。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC134
+
+```json
+{
+  "occurrence_id": "OC134",
+  "claim_id": "X14",
+  "source_id": "S04",
+  "source_segment_id": "SS-X14",
+  "surface_text": null,
+  "paraphrase": "若伊朗打击邻国能源设施，布伦特可能超过100美元。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+### OC135
+
+```json
+{
+  "occurrence_id": "OC135",
+  "claim_id": "X15",
+  "source_id": "S11",
+  "source_segment_id": "SS-X15",
+  "surface_text": null,
+  "paraphrase": "EIA估算2024年海峡油流约相当于全球石油液体消费量20%。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+## 08 ACTORS
+
+### A9527
+
+```json
+{
+  "actor_id": "A9527",
+  "name": "有何高见9527",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AMODEL
+
+```json
+{
+  "actor_id": "AMODEL",
+  "name": "抽取模型",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ATRUMP
+
+```json
+{
+  "actor_id": "ATRUMP",
+  "name": "唐纳德·特朗普",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AIRAN
+
+```json
+{
+  "actor_id": "AIRAN",
+  "name": "伊朗",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AUS
+
+```json
+{
+  "actor_id": "AUS",
+  "name": "美国",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AISRAEL
+
+```json
+{
+  "actor_id": "AISRAEL",
+  "name": "以色列",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AIRGC
+
+```json
+{
+  "actor_id": "AIRGC",
+  "name": "伊朗伊斯兰革命卫队",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AIRAN_ADVISER
+
+```json
+{
+  "actor_id": "AIRAN_ADVISER",
+  "name": "革命卫队指挥官顾问（姓名未解析）",
+  "entity_status": "candidate",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AJPM
+
+```json
+{
+  "actor_id": "AJPM",
+  "name": "摩根大通",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ADB
+
+```json
+{
+  "actor_id": "ADB",
+  "name": "德意志银行",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ABOA
+
+```json
+{
+  "actor_id": "ABOA",
+  "name": "美国银行",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AKPLER
+
+```json
+{
+  "actor_id": "AKPLER",
+  "name": "Kpler",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### APLATTS
+
+```json
+{
+  "actor_id": "APLATTS",
+  "name": "S&P Global Platts",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AEIA
+
+```json
+{
+  "actor_id": "AEIA",
+  "name": "美国能源信息署",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ARUBIO
+
+```json
+{
+  "actor_id": "ARUBIO",
+  "name": "马尔科·鲁比奥",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AANALYST_UNKNOWN
+
+```json
+{
+  "actor_id": "AANALYST_UNKNOWN",
+  "name": "开场“大摩”所指分析师待核",
+  "entity_status": "candidate",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ACHINA
+
+```json
+{
+  "actor_id": "ACHINA",
+  "name": "中国",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AGULF
+
+```json
+{
+  "actor_id": "AGULF",
+  "name": "海湾国家（集合）",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ASAUDI
+
+```json
+{
+  "actor_id": "ASAUDI",
+  "name": "沙特阿拉伯",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AJAPAN
+
+```json
+{
+  "actor_id": "AJAPAN",
+  "name": "日本",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AKOREA
+
+```json
+{
+  "actor_id": "AKOREA",
+  "name": "韩国",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ARUSSIA
+
+```json
+{
+  "actor_id": "ARUSSIA",
+  "name": "俄罗斯",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AVENEZUELA
+
+```json
+{
+  "actor_id": "AVENEZUELA",
+  "name": "委内瑞拉",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AKHAMENEI
+
+```json
+{
+  "actor_id": "AKHAMENEI",
+  "name": "阿里·哈梅内伊",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### ASPAIN
+
+```json
+{
+  "actor_id": "ASPAIN",
+  "name": "西班牙",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+### AUK
+
+```json
+{
+  "actor_id": "AUK",
+  "name": "英国",
+  "entity_status": "resolved_name_only",
+  "identity_not_claim_veracity": true
+}
+```
+
+## 09 EVENTS
+
+### EV01
+
+```json
+{
+  "event_id": "EV01",
+  "description": "美以对伊军事行动开始",
+  "claim_refs": [
+    "X08"
+  ],
+  "decision_at": null,
+  "announced_at": null,
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": "2026-02-28",
+  "status": "reported_not_independently_verified",
+  "event_type": "reported_event",
+  "structural_process_ref": null
+}
+```
+
+### EV02
+
+```json
+{
+  "event_id": "EV02",
+  "description": "顾问发布海峡关闭声称",
+  "claim_refs": [
+    "X05"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-03T04:19:00+08:00",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "statement_event",
+  "structural_process_ref": null
+}
+```
+
+### EV03
+
+```json
+{
+  "event_id": "EV03",
+  "description": "向航母发射4枚导弹的战果声称",
+  "claim_refs": [
+    "X07"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-01T21:54:00+08:00",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "combatant_statement_event",
+  "structural_process_ref": null
+}
+```
+
+### EV04
+
+```json
+{
+  "event_id": "EV04",
+  "description": "击沉舰艇声称",
+  "claim_refs": [
+    "X06"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-03T00:58:00+08:00",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "combatant_statement_event",
+  "structural_process_ref": null
+}
+```
+
+### EV05
+
+```json
+{
+  "event_id": "EV05",
+  "description": "Platts审查原油可交付性",
+  "claim_refs": [
+    "X08"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-02",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "x_candidate_market_infrastructure_event",
+  "structural_process_ref": null
+}
+```
+
+### EV06
+
+```json
+{
+  "event_id": "EV06",
+  "description": "成品油MOC报价准入变更",
+  "claim_refs": [
+    "X09"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-02",
+  "scheduled_at": null,
+  "effective_at": "2026-03-02",
+  "occurred_at": null,
+  "status": "primary_notice_verified_action_scope",
+  "event_type": "x_candidate_market_infrastructure_event",
+  "structural_process_ref": null
+}
+```
+
+### EV07
+
+```json
+{
+  "event_id": "EV07",
+  "description": "运费评估发布审查",
+  "claim_refs": [
+    "X10"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-02",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "x_candidate_market_infrastructure_event",
+  "structural_process_ref": null
+}
+```
+
+### EV08
+
+```json
+{
+  "event_id": "EV08",
+  "description": "确认继续发布运费评估",
+  "claim_refs": [
+    "X11"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-02",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_not_independently_verified",
+  "event_type": "x_candidate_market_infrastructure_event",
+  "structural_process_ref": null
+}
+```
+
+### EV09
+
+```json
+{
+  "event_id": "EV09",
+  "description": "以色列计划重新开放空域",
+  "claim_refs": [
+    "C030"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-03-02",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "announcement_only_actual_opening_unknown",
+  "event_type": "reported_event",
+  "structural_process_ref": null
+}
+```
+
+## 10 STRUCTURAL PROCESSES
+
+none
+
+## 11 INDICATORS OBSERVATIONS
+
+```json
+{
+  "indicators": [
+    {
+      "indicator_id": "IN01",
+      "name": "海峡最窄宽度",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN02",
+      "name": "最忙时每日油轮数",
+      "measurement_type": "count",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN03",
+      "name": "油轮规模",
+      "measurement_type": "amount",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN04",
+      "name": "最忙时过船间隔",
+      "measurement_type": "rate",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN05",
+      "name": "假设流量减少幅度",
+      "measurement_type": "growth_rate",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN06",
+      "name": "林肯号撤离距离",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN07",
+      "name": "主播所称海峡世界油供份额",
+      "measurement_type": "share",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN08",
+      "name": "转述美伊同时间弹药产量比",
+      "measurement_type": "ratio",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN09",
+      "name": "设想中美同时间弹药产量比",
+      "measurement_type": "ratio",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN10",
+      "name": "主播转述储油可支撑天数",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN11",
+      "name": "主播放宽后的储油天数",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN12",
+      "name": "翻倍后的时间缓冲",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN13",
+      "name": "2025海峡占全球海运石油出口份额",
+      "measurement_type": "share",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN14",
+      "name": "2024海峡日均石油流量",
+      "measurement_type": "flow",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN15",
+      "name": "2024海峡流量相对全球液体消费",
+      "measurement_type": "share",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN16",
+      "name": "主播油价推算基值",
+      "measurement_type": "level",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN17",
+      "name": "美方声称击沉伊朗舰艇数",
+      "measurement_type": "count",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN18",
+      "name": "伊方声称发射导弹数",
+      "measurement_type": "count",
+      "definition_status": "specified_as_reported"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "OB01",
+      "indicator_id": "IN01",
+      "claim_ref": "C008",
+      "measurement_type": "level",
+      "value_status": "reported",
+      "value": 30,
+      "unit": "km",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C008"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB02",
+      "indicator_id": "IN02",
+      "claim_ref": "C011",
+      "measurement_type": "count",
+      "value_status": "reported",
+      "value": "上几百",
+      "unit": "艘/日",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C011"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB03",
+      "indicator_id": "IN03",
+      "claim_ref": "C012",
+      "measurement_type": "amount",
+      "value_status": "reported",
+      "value": "几十万吨",
+      "unit": "吨（载重/货物量未明）",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C012"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB04",
+      "indicator_id": "IN04",
+      "claim_ref": "C013",
+      "measurement_type": "rate",
+      "value_status": "reported",
+      "value": 6,
+      "unit": "分钟/艘",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C013"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB05",
+      "indicator_id": "IN05",
+      "claim_ref": "C017",
+      "measurement_type": "growth_rate",
+      "value_status": "projected",
+      "value": 20,
+      "unit": "%",
+      "currency": null,
+      "numerator": null,
+      "denominator": "未指明基期流量",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C017"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB06",
+      "indicator_id": "IN06",
+      "claim_ref": "C027",
+      "measurement_type": "level",
+      "value_status": "reported",
+      "value": 900,
+      "unit": "km",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C027"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB07",
+      "indicator_id": "IN07",
+      "claim_ref": "C041",
+      "measurement_type": "share",
+      "value_status": "reported",
+      "value": [
+        30,
+        40
+      ],
+      "unit": "%",
+      "currency": null,
+      "numerator": "海峡通行油量",
+      "denominator": "全世界油供（未定义）",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C041"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB08",
+      "indicator_id": "IN08",
+      "claim_ref": "C045",
+      "measurement_type": "ratio",
+      "value_status": "reported",
+      "value": "6或7 : 100",
+      "unit": "枚:枚",
+      "currency": null,
+      "numerator": "美国拦截弹6或7枚",
+      "denominator": "伊朗攻击导弹100枚",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C045"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB09",
+      "indicator_id": "IN09",
+      "claim_ref": "C046",
+      "measurement_type": "ratio",
+      "value_status": "projected",
+      "value": "10000 : 6或7",
+      "unit": "枚:枚",
+      "currency": null,
+      "numerator": "中国导弹10000枚",
+      "denominator": "美国拦截弹6或7枚",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C046"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB10",
+      "indicator_id": "IN10",
+      "claim_ref": "C057",
+      "measurement_type": "level",
+      "value_status": "reported",
+      "value": "20多",
+      "unit": "天",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C057"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB11",
+      "indicator_id": "IN11",
+      "claim_ref": "C058",
+      "measurement_type": "level",
+      "value_status": "estimated",
+      "value": 30,
+      "unit": "天",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C058"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB12",
+      "indicator_id": "IN12",
+      "claim_ref": "C059",
+      "measurement_type": "level",
+      "value_status": "calculated",
+      "value": 60,
+      "unit": "天",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C059"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB13",
+      "indicator_id": "IN13",
+      "claim_ref": "X04",
+      "measurement_type": "share",
+      "value_status": "reported",
+      "value": "约1/3",
+      "unit": "比例",
+      "currency": null,
+      "numerator": "经海峡出口油量",
+      "denominator": "全球海运石油出口",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": "2025",
+      "released_at": "2026-03-03T08:48:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-X04"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB14",
+      "indicator_id": "IN14",
+      "claim_ref": "X12",
+      "measurement_type": "flow",
+      "value_status": "reported",
+      "value": 20,
+      "unit": "百万桶/日",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": "2024",
+      "released_at": "2025-06-16",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-X12"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB15",
+      "indicator_id": "IN15",
+      "claim_ref": "X15",
+      "measurement_type": "share",
+      "value_status": "reported",
+      "value": 20,
+      "unit": "%",
+      "currency": null,
+      "numerator": "海峡油流",
+      "denominator": "全球石油液体消费量",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": "2024",
+      "released_at": "2025-06-16",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-X15"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB16",
+      "indicator_id": "IN16",
+      "claim_ref": "C108",
+      "measurement_type": "level",
+      "value_status": "estimated",
+      "value": 70,
+      "unit": "油价单位原话未明",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T17:30:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C108"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB17",
+      "indicator_id": "IN17",
+      "claim_ref": "X06",
+      "measurement_type": "count",
+      "value_status": "reported",
+      "value": 10,
+      "unit": "艘",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-03T00:58:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-X06"
+      ],
+      "eligible_for_verified_series": false
+    },
+    {
+      "observation_id": "OB18",
+      "indicator_id": "IN18",
+      "claim_ref": "X07",
+      "measurement_type": "count",
+      "value_status": "reported",
+      "value": 4,
+      "unit": "枚",
+      "currency": null,
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-03-01T21:54:00+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-X07"
+      ],
+      "eligible_for_verified_series": false
+    }
+  ]
+}
+```
+
+## 12 POLICIES
+
+### PO01
+
+```json
+{
+  "policy_id": "PO01",
+  "description": "特朗普所述摧毁伊朗海军目标",
+  "claim_refs": [
+    "C006"
+  ],
+  "status": "reported_objective_not_implemented_result"
+}
+```
+
+### PO02
+
+```json
+{
+  "policy_id": "PO02",
+  "description": "Platts成品油MOC报价准入规则临时调整",
+  "claim_refs": [
+    "X09"
+  ],
+  "status": "institutional_methodology_rule",
+  "scope": "受影响装港与报价；不泛化为全球期货定价规则"
+}
+```
+
+## 13 EXPECTATION SNAPSHOTS
+
+### EX01
+
+```json
+{
+  "expectation_snapshot_id": "EX01",
+  "observer": "A9527",
+  "as_of": "2026-03-03T17:30:00+08:00",
+  "as_of_basis": "publication_proxy",
+  "population": "主播泛指油市参与者，未给抽样范围",
+  "target": "near_term_oil_price_spike",
+  "expectation": "市场预期尚不足以支持油价突然冲高",
+  "claim_refs": [
+    "C076"
+  ],
+  "measurement_source": "creator_inference_not_survey",
+  "confidence": "low"
+}
+```
+
+## 14 VERACITY ASSESSMENTS
+
+### VA-C001
+
+```json
+{
+  "assessment_id": "VA-C001",
+  "claim_id": "C001",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "disputed",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [
+    "X01",
+    "X02"
+  ],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "参考稿120与200分属JPM和德银条件情景；开场“大摩”可能简称错误或另有所指，不能自动换机构。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C002
+
+```json
+{
+  "assessment_id": "VA-C002",
+  "claim_id": "C002",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C003
+
+```json
+{
+  "assessment_id": "VA-C003",
+  "claim_id": "C003",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C004
+
+```json
+{
+  "assessment_id": "VA-C004",
+  "claim_id": "C004",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C005
+
+```json
+{
+  "assessment_id": "VA-C005",
+  "claim_id": "C005",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C006
+
+```json
+{
+  "assessment_id": "VA-C006",
+  "claim_id": "C006",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "likely_true",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S04",
+    "LV02"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "直播与油价稿均转述同一特朗普讲话，按一个讲话起源计；原始讲话未读。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C007
+
+```json
+{
+  "assessment_id": "VA-C007",
+  "claim_id": "C007",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C008
+
+```json
+{
+  "assessment_id": "VA-C008",
+  "claim_id": "C008",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C009
+
+```json
+{
+  "assessment_id": "VA-C009",
+  "claim_id": "C009",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C010
+
+```json
+{
+  "assessment_id": "VA-C010",
+  "claim_id": "C010",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C011
+
+```json
+{
+  "assessment_id": "VA-C011",
+  "claim_id": "C011",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C012
+
+```json
+{
+  "assessment_id": "VA-C012",
+  "claim_id": "C012",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C013
+
+```json
+{
+  "assessment_id": "VA-C013",
+  "claim_id": "C013",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C014
+
+```json
+{
+  "assessment_id": "VA-C014",
+  "claim_id": "C014",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C015
+
+```json
+{
+  "assessment_id": "VA-C015",
+  "claim_id": "C015",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C016
+
+```json
+{
+  "assessment_id": "VA-C016",
+  "claim_id": "C016",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C017
+
+```json
+{
+  "assessment_id": "VA-C017",
+  "claim_id": "C017",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C018
+
+```json
+{
+  "assessment_id": "VA-C018",
+  "claim_id": "C018",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C019
+
+```json
+{
+  "assessment_id": "VA-C019",
+  "claim_id": "C019",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C020
+
+```json
+{
+  "assessment_id": "VA-C020",
+  "claim_id": "C020",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C021
+
+```json
+{
+  "assessment_id": "VA-C021",
+  "claim_id": "C021",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C022
+
+```json
+{
+  "assessment_id": "VA-C022",
+  "claim_id": "C022",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C023
+
+```json
+{
+  "assessment_id": "VA-C023",
+  "claim_id": "C023",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "likely_true",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "LV02"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "可核对到同期报道的讲话内容；未来会持续多久并未因此证实。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C024
+
+```json
+{
+  "assessment_id": "VA-C024",
+  "claim_id": "C024",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C025
+
+```json
+{
+  "assessment_id": "VA-C025",
+  "claim_id": "C025",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C026
+
+```json
+{
+  "assessment_id": "VA-C026",
+  "claim_id": "C026",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C027
+
+```json
+{
+  "assessment_id": "VA-C027",
+  "claim_id": "C027",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C028
+
+```json
+{
+  "assessment_id": "VA-C028",
+  "claim_id": "C028",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C029
+
+```json
+{
+  "assessment_id": "VA-C029",
+  "claim_id": "C029",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C030
+
+```json
+{
+  "assessment_id": "VA-C030",
+  "claim_id": "C030",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "LV05"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "同期条目是拟逐步重开/最早当晚，不能证明已实际开放。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C031
+
+```json
+{
+  "assessment_id": "VA-C031",
+  "claim_id": "C031",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C032
+
+```json
+{
+  "assessment_id": "VA-C032",
+  "claim_id": "C032",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C033
+
+```json
+{
+  "assessment_id": "VA-C033",
+  "claim_id": "C033",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C034
+
+```json
+{
+  "assessment_id": "VA-C034",
+  "claim_id": "C034",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C035
+
+```json
+{
+  "assessment_id": "VA-C035",
+  "claim_id": "C035",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C036
+
+```json
+{
+  "assessment_id": "VA-C036",
+  "claim_id": "C036",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C037
+
+```json
+{
+  "assessment_id": "VA-C037",
+  "claim_id": "C037",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C038
+
+```json
+{
+  "assessment_id": "VA-C038",
+  "claim_id": "C038",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C039
+
+```json
+{
+  "assessment_id": "VA-C039",
+  "claim_id": "C039",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C040
+
+```json
+{
+  "assessment_id": "VA-C040",
+  "claim_id": "C040",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C041
+
+```json
+{
+  "assessment_id": "VA-C041",
+  "claim_id": "C041",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "disputed",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [
+    "X04",
+    "X15"
+  ],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "“世界油供”分母未明。EIA给的是2024消费20%，Kpler是2025海运出口约1/3，年份和分母都不同，不能直接用20%改写原话。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C042
+
+```json
+{
+  "assessment_id": "VA-C042",
+  "claim_id": "C042",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C043
+
+```json
+{
+  "assessment_id": "VA-C043",
+  "claim_id": "C043",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C044
+
+```json
+{
+  "assessment_id": "VA-C044",
+  "claim_id": "C044",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C045
+
+```json
+{
+  "assessment_id": "VA-C045",
+  "claim_id": "C045",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C046
+
+```json
+{
+  "assessment_id": "VA-C046",
+  "claim_id": "C046",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C047
+
+```json
+{
+  "assessment_id": "VA-C047",
+  "claim_id": "C047",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C048
+
+```json
+{
+  "assessment_id": "VA-C048",
+  "claim_id": "C048",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C049
+
+```json
+{
+  "assessment_id": "VA-C049",
+  "claim_id": "C049",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C050
+
+```json
+{
+  "assessment_id": "VA-C050",
+  "claim_id": "C050",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C051
+
+```json
+{
+  "assessment_id": "VA-C051",
+  "claim_id": "C051",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C052
+
+```json
+{
+  "assessment_id": "VA-C052",
+  "claim_id": "C052",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C053
+
+```json
+{
+  "assessment_id": "VA-C053",
+  "claim_id": "C053",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C054
+
+```json
+{
+  "assessment_id": "VA-C054",
+  "claim_id": "C054",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C055
+
+```json
+{
+  "assessment_id": "VA-C055",
+  "claim_id": "C055",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C056
+
+```json
+{
+  "assessment_id": "VA-C056",
+  "claim_id": "C056",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C057
+
+```json
+{
+  "assessment_id": "VA-C057",
+  "claim_id": "C057",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "disputed",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [
+    "X13"
+  ],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "机构报道讲储罐剩余容量耗尽，主播说“油储支撑”可能混淆概念；后续存储措辞又接近容量，须听音并核原研报。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C058
+
+```json
+{
+  "assessment_id": "VA-C058",
+  "claim_id": "C058",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C059
+
+```json
+{
+  "assessment_id": "VA-C059",
+  "claim_id": "C059",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C060
+
+```json
+{
+  "assessment_id": "VA-C060",
+  "claim_id": "C060",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C061
+
+```json
+{
+  "assessment_id": "VA-C061",
+  "claim_id": "C061",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C062
+
+```json
+{
+  "assessment_id": "VA-C062",
+  "claim_id": "C062",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C063
+
+```json
+{
+  "assessment_id": "VA-C063",
+  "claim_id": "C063",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C064
+
+```json
+{
+  "assessment_id": "VA-C064",
+  "claim_id": "C064",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "30天乘2不是政治停战上限模型；“绝对不可能”缺支撑。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C065
+
+```json
+{
+  "assessment_id": "VA-C065",
+  "claim_id": "C065",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C066
+
+```json
+{
+  "assessment_id": "VA-C066",
+  "claim_id": "C066",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C067
+
+```json
+{
+  "assessment_id": "VA-C067",
+  "claim_id": "C067",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C068
+
+```json
+{
+  "assessment_id": "VA-C068",
+  "claim_id": "C068",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C069
+
+```json
+{
+  "assessment_id": "VA-C069",
+  "claim_id": "C069",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C070
+
+```json
+{
+  "assessment_id": "VA-C070",
+  "claim_id": "C070",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C071
+
+```json
+{
+  "assessment_id": "VA-C071",
+  "claim_id": "C071",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C072
+
+```json
+{
+  "assessment_id": "VA-C072",
+  "claim_id": "C072",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C073
+
+```json
+{
+  "assessment_id": "VA-C073",
+  "claim_id": "C073",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C074
+
+```json
+{
+  "assessment_id": "VA-C074",
+  "claim_id": "C074",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C075
+
+```json
+{
+  "assessment_id": "VA-C075",
+  "claim_id": "C075",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C076
+
+```json
+{
+  "assessment_id": "VA-C076",
+  "claim_id": "C076",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C077
+
+```json
+{
+  "assessment_id": "VA-C077",
+  "claim_id": "C077",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C078
+
+```json
+{
+  "assessment_id": "VA-C078",
+  "claim_id": "C078",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C079
+
+```json
+{
+  "assessment_id": "VA-C079",
+  "claim_id": "C079",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C080
+
+```json
+{
+  "assessment_id": "VA-C080",
+  "claim_id": "C080",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C081
+
+```json
+{
+  "assessment_id": "VA-C081",
+  "claim_id": "C081",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C082
+
+```json
+{
+  "assessment_id": "VA-C082",
+  "claim_id": "C082",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C083
+
+```json
+{
+  "assessment_id": "VA-C083",
+  "claim_id": "C083",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C084
+
+```json
+{
+  "assessment_id": "VA-C084",
+  "claim_id": "C084",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C085
+
+```json
+{
+  "assessment_id": "VA-C085",
+  "claim_id": "C085",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C086
+
+```json
+{
+  "assessment_id": "VA-C086",
+  "claim_id": "C086",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C087
+
+```json
+{
+  "assessment_id": "VA-C087",
+  "claim_id": "C087",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C088
+
+```json
+{
+  "assessment_id": "VA-C088",
+  "claim_id": "C088",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C089
+
+```json
+{
+  "assessment_id": "VA-C089",
+  "claim_id": "C089",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C090
+
+```json
+{
+  "assessment_id": "VA-C090",
+  "claim_id": "C090",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C091
+
+```json
+{
+  "assessment_id": "VA-C091",
+  "claim_id": "C091",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C092
+
+```json
+{
+  "assessment_id": "VA-C092",
+  "claim_id": "C092",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C093
+
+```json
+{
+  "assessment_id": "VA-C093",
+  "claim_id": "C093",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C095
+
+```json
+{
+  "assessment_id": "VA-C095",
+  "claim_id": "C095",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C096
+
+```json
+{
+  "assessment_id": "VA-C096",
+  "claim_id": "C096",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C097
+
+```json
+{
+  "assessment_id": "VA-C097",
+  "claim_id": "C097",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C098
+
+```json
+{
+  "assessment_id": "VA-C098",
+  "claim_id": "C098",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C099
+
+```json
+{
+  "assessment_id": "VA-C099",
+  "claim_id": "C099",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C100
+
+```json
+{
+  "assessment_id": "VA-C100",
+  "claim_id": "C100",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C101
+
+```json
+{
+  "assessment_id": "VA-C101",
+  "claim_id": "C101",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C102
+
+```json
+{
+  "assessment_id": "VA-C102",
+  "claim_id": "C102",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C103
+
+```json
+{
+  "assessment_id": "VA-C103",
+  "claim_id": "C103",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C104
+
+```json
+{
+  "assessment_id": "VA-C104",
+  "claim_id": "C104",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C105
+
+```json
+{
+  "assessment_id": "VA-C105",
+  "claim_id": "C105",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C106
+
+```json
+{
+  "assessment_id": "VA-C106",
+  "claim_id": "C106",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C107
+
+```json
+{
+  "assessment_id": "VA-C107",
+  "claim_id": "C107",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C108
+
+```json
+{
+  "assessment_id": "VA-C108",
+  "claim_id": "C108",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "unverifiable",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "设想、价值判断或比喻，不按现实观测评分。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-C109
+
+```json
+{
+  "assessment_id": "VA-C109",
+  "claim_id": "C109",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X01
+
+```json
+{
+  "assessment_id": "VA-X01",
+  "claim_id": "X01",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X02
+
+```json
+{
+  "assessment_id": "VA-X02",
+  "claim_id": "X02",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X03
+
+```json
+{
+  "assessment_id": "VA-X03",
+  "claim_id": "X03",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X04
+
+```json
+{
+  "assessment_id": "VA-X04",
+  "claim_id": "X04",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X05
+
+```json
+{
+  "assessment_id": "VA-X05",
+  "claim_id": "X05",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "LV01"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "证实报道中存在交战方声称，不能证实封锁完成、击沉或命中；无独立战场证据。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X06
+
+```json
+{
+  "assessment_id": "VA-X06",
+  "claim_id": "X06",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "LV02"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "证实报道中存在交战方声称，不能证实封锁完成、击沉或命中；无独立战场证据。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X07
+
+```json
+{
+  "assessment_id": "VA-X07",
+  "claim_id": "X07",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "LV04"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "证实报道中存在交战方声称，不能证实封锁完成、击沉或命中；无独立战场证据。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X08
+
+```json
+{
+  "assessment_id": "VA-X08",
+  "claim_id": "X08",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "likely_true",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S07"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "Reuters转载复述Platts通知，未取得对应原始原油通知；转载与Reuters不能计两源。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X09
+
+```json
+{
+  "assessment_id": "VA-X09",
+  "claim_id": "X09",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "verified",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S08"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "只核实Platts自身公布的规则/发布决定，不证明战争战果或油价必然方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+### VA-X10
+
+```json
+{
+  "assessment_id": "VA-X10",
+  "claim_id": "X10",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "verified",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S09"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "只核实Platts自身公布的规则/发布决定，不证明战争战果或油价必然方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+### VA-X11
+
+```json
+{
+  "assessment_id": "VA-X11",
+  "claim_id": "X11",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "verified",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S10"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "只核实Platts自身公布的规则/发布决定，不证明战争战果或油价必然方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+### VA-X12
+
+```json
+{
+  "assessment_id": "VA-X12",
+  "claim_id": "X12",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "likely_true",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S11"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "官方估算有明确口径，但页面注明重刊修正数据标签且修正日未知；历史版本未锁定，不纳入本次严格Verified集合。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X13
+
+```json
+{
+  "assessment_id": "VA-X13",
+  "claim_id": "X13",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "语义抽取成立不等于现实成立；来源/声学核查仍不足。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X14
+
+```json
+{
+  "assessment_id": "VA-X14",
+  "claim_id": "X14",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "截至cutoff尚未到结算时点；未使用其后结果评分。条件、指标和期限见Forecast。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-X15
+
+```json
+{
+  "assessment_id": "VA-X15",
+  "claim_id": "X15",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "likely_true",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [
+    "S11"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "官方估算有明确口径，但页面注明重刊修正数据标签且修正日未知；历史版本未锁定，不纳入本次严格Verified集合。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M01
+
+```json
+{
+  "assessment_id": "VA-M01",
+  "claim_id": "M01",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M02
+
+```json
+{
+  "assessment_id": "VA-M02",
+  "claim_id": "M02",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M03
+
+```json
+{
+  "assessment_id": "VA-M03",
+  "claim_id": "M03",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M04
+
+```json
+{
+  "assessment_id": "VA-M04",
+  "claim_id": "M04",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M05
+
+```json
+{
+  "assessment_id": "VA-M05",
+  "claim_id": "M05",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M06
+
+```json
+{
+  "assessment_id": "VA-M06",
+  "claim_id": "M06",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### VA-M07
+
+```json
+{
+  "assessment_id": "VA-M07",
+  "claim_id": "M07",
+  "observer": "AMODEL",
+  "assessed_at": "2026-09-25T18:21:18+08:00",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "veracity": "uncertain",
+  "assessment_scope": "proposition_truth_not_utterance_existence",
+  "support_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "count_basis": "仅计相互独立且支持命题内容的外部起源；转述者不追加计数",
+  "limitations": "这是模型列出的待证桥接，不是已获证实的经验关系。",
+  "verified_knowledge_eligible": false
+}
+```
+
+## 15 NARRATIVE ASSESSMENTS
+
+### NA01
+
+```json
+{
+  "assessment_id": "NA01",
+  "observer": "A9527",
+  "claim_refs": [
+    "C002",
+    "C074",
+    "C100"
+  ],
+  "frame": "控制权、战略成本与霸权信誉决定战争及油价路径",
+  "as_of": "2026-03-03T17:30:00+08:00"
+}
+```
+
+### NA02
+
+```json
+{
+  "assessment_id": "NA02",
+  "observer": "A9527",
+  "claim_refs": [
+    "C105"
+  ],
+  "frame": "明确乐见美国陷入不利；结尾保留随事件更新判断",
+  "as_of": "2026-03-03T17:30:00+08:00"
+}
+```
+
+### NA03
+
+```json
+{
+  "assessment_id": "NA03",
+  "observer": "AMODEL",
+  "claim_refs": [
+    "C057",
+    "C064",
+    "C080",
+    "C083"
+  ],
+  "frame": "时间倍乘、控制到定价、收益独占构成主要证据断点",
+  "as_of": "2026-09-25T18:21:18+08:00"
+}
+```
+
+### NA04
+
+```json
+{
+  "assessment_id": "NA04",
+  "observer": "AMODEL",
+  "claim_refs": [
+    "C101"
+  ],
+  "frame": "反讽铺垫不能脱离后续否定当成主播肯定预测",
+  "as_of": "2026-09-25T18:21:18+08:00"
+}
+```
+
+## 16 ARGUMENTS
+
+### AR01
+
+```json
+{
+  "argument_id": "AR01",
+  "title": "不完全封锁也能影响运输成本",
+  "argument_type": "causal",
+  "premises": [
+    "C009"
+  ],
+  "steps": [
+    {
+      "step_id": "AR01-E1",
+      "from_claim_refs": [
+        "C009"
+      ],
+      "to_claim_ref": "C010",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C009",
+        "SS-C010"
+      ],
+      "limitations": "地形不能单独证明当前武器可用"
+    },
+    {
+      "step_id": "AR01-E2",
+      "from_claim_refs": [
+        "C010"
+      ],
+      "to_claim_ref": "C014",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C010",
+        "SS-C014"
+      ],
+      "limitations": "风险是否足以改变保险条款需报价"
+    },
+    {
+      "step_id": "AR01-E3",
+      "from_claim_refs": [
+        "C014"
+      ],
+      "to_claim_ref": "C015",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C014",
+        "SS-C015"
+      ],
+      "limitations": "成本转嫁取决于合同和市场"
+    },
+    {
+      "step_id": "AR01-E4",
+      "from_claim_refs": [
+        "C015"
+      ],
+      "to_claim_ref": "M02",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C015"
+      ],
+      "limitations": "现货交付桥缺乏实际价差"
+    },
+    {
+      "step_id": "AR01-E5",
+      "from_claim_refs": [
+        "M02"
+      ],
+      "to_claim_ref": "M01",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [],
+      "limitations": "现货、期货基准不可混合"
+    },
+    {
+      "step_id": "AR01-E6",
+      "from_claim_refs": [
+        "M01"
+      ],
+      "to_claim_ref": "C025",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C025"
+      ],
+      "limitations": "无弹性模型不能推20%至30%幅度"
+    },
+    {
+      "step_id": "AR01-E7",
+      "from_claim_refs": [
+        "C010"
+      ],
+      "to_claim_ref": "C016",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C010",
+        "SS-C016"
+      ],
+      "limitations": "通行密度不是唯一供给约束"
+    },
+    {
+      "step_id": "AR01-E8",
+      "from_claim_refs": [
+        "C016"
+      ],
+      "to_claim_ref": "C018",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C016",
+        "SS-C018"
+      ],
+      "limitations": "仓储和绕行会缓冲"
+    }
+  ],
+  "conclusion": [
+    "C025"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction"
+  ],
+  "hop_count": 6,
+  "limitations": "风险成本方向有经济合理性；不直接推出全球基准价涨幅。实际减少20%没有观测。",
+  "most_fragile_step": "AR01-E6",
+  "creator_explicit_shortcuts": [
+    {
+      "from_claim": "C002",
+      "to_claim": "C025",
+      "note": "主导权→首周价格；显式捷径另存，不计入扩展路径"
+    }
+  ],
+  "inferential_distance": {
+    "edge_count": 8,
+    "longest_path_length": 6,
+    "model_bridge_count": 3,
+    "explicit_shortcut_count": 1,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 5
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C009",
+    "C010",
+    "C014",
+    "C015",
+    "C016",
+    "C018",
+    "C025",
+    "M01",
+    "M02"
+  ]
+}
+```
+
+### AR02
+
+```json
+{
+  "argument_id": "AR02",
+  "title": "从公开讲话推断美国失控",
+  "argument_type": "causal",
+  "premises": [
+    "C021",
+    "C023"
+  ],
+  "steps": [
+    {
+      "step_id": "AR02-E1",
+      "from_claim_refs": [
+        "C021"
+      ],
+      "to_claim_ref": "C020",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "elimination",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C021",
+        "SS-C020"
+      ],
+      "limitations": "未见庆祝不等于排除其他进展"
+    },
+    {
+      "step_id": "AR02-E2",
+      "from_claim_refs": [
+        "C023"
+      ],
+      "to_claim_ref": "C024",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C023",
+        "SS-C024"
+      ],
+      "limitations": "公开威慑语言不能证明心理状态"
+    },
+    {
+      "step_id": "AR02-E3",
+      "from_claim_refs": [
+        "C024"
+      ],
+      "to_claim_ref": "C020",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C024",
+        "SS-C020"
+      ],
+      "limitations": "可有多种谈判策略解释"
+    }
+  ],
+  "conclusion": [
+    "C020"
+  ],
+  "inference_mode": [
+    "elimination",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "hop_count": 2,
+  "limitations": "没有情报与替代假说检验，动机不能当事实。",
+  "most_fragile_step": "AR02-E2",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 3
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C020",
+    "C021",
+    "C023",
+    "C024"
+  ]
+}
+```
+
+### AR03
+
+```json
+{
+  "argument_id": "AR03",
+  "title": "首周撤退分支",
+  "argument_type": "causal",
+  "premises": [
+    "C026"
+  ],
+  "steps": [
+    {
+      "step_id": "AR03-E1",
+      "from_claim_refs": [
+        "C026"
+      ],
+      "to_claim_ref": "C028",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C026",
+        "SS-C028"
+      ],
+      "limitations": "分叉不是概率模型"
+    },
+    {
+      "step_id": "AR03-E2",
+      "from_claim_refs": [
+        "C028"
+      ],
+      "to_claim_ref": "C031",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C028",
+        "SS-C031"
+      ],
+      "limitations": "伊朗能控制并选择性开放未证实"
+    },
+    {
+      "step_id": "AR03-E3",
+      "from_claim_refs": [
+        "C031"
+      ],
+      "to_claim_ref": "C032",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C031",
+        "SS-C032"
+      ],
+      "limitations": "复航速度、库存与风险溢价可能延迟"
+    }
+  ],
+  "conclusion": [
+    "C032"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "hop_count": 3,
+  "limitations": "撤退不必导致国际协调成功，供给恢复也不唯一决定价格。",
+  "most_fragile_step": "AR03-E2",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 2
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C026",
+    "C028",
+    "C031",
+    "C032"
+  ]
+}
+```
+
+### AR04
+
+```json
+{
+  "argument_id": "AR04",
+  "title": "追加行动分支到120",
+  "argument_type": "causal",
+  "premises": [
+    "C033"
+  ],
+  "steps": [
+    {
+      "step_id": "AR04-E1",
+      "from_claim_refs": [
+        "C033"
+      ],
+      "to_claim_ref": "C034",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C033",
+        "SS-C034"
+      ],
+      "limitations": "能力不等于行动意愿或发生"
+    },
+    {
+      "step_id": "AR04-E2",
+      "from_claim_refs": [
+        "C034"
+      ],
+      "to_claim_ref": "C035",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C034",
+        "SS-C035"
+      ],
+      "limitations": "攻击规模到涨幅缺流量/弹性测算"
+    }
+  ],
+  "conclusion": [
+    "C035"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "hop_count": 2,
+  "limitations": "约一个月的起点和具体油种不明；不是已发生的袭船事实。",
+  "most_fragile_step": "AR04-E2",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C033",
+    "C034",
+    "C035"
+  ]
+}
+```
+
+### AR05
+
+```json
+{
+  "argument_id": "AR05",
+  "title": "储油容量推到60天停战上限",
+  "argument_type": "causal",
+  "premises": [
+    "C057",
+    "C062"
+  ],
+  "steps": [
+    {
+      "step_id": "AR05-E1",
+      "from_claim_refs": [
+        "C057"
+      ],
+      "to_claim_ref": "C058",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C057",
+        "SS-C058"
+      ],
+      "limitations": "容量/库存概念不清；减产幅度未知"
+    },
+    {
+      "step_id": "AR05-E2",
+      "from_claim_refs": [
+        "C058"
+      ],
+      "to_claim_ref": "C059",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C058",
+        "SS-C059"
+      ],
+      "limitations": "乘2是安全系数而非置信区间"
+    },
+    {
+      "step_id": "AR05-E3",
+      "from_claim_refs": [
+        "C059"
+      ],
+      "to_claim_ref": "C060",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C059",
+        "SS-C060"
+      ],
+      "limitations": "物理仓储天数不决定政治承受上限"
+    },
+    {
+      "step_id": "AR05-E4",
+      "from_claim_refs": [
+        "C060"
+      ],
+      "to_claim_ref": "C061",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C060",
+        "SS-C061"
+      ],
+      "limitations": "海湾行动一致性未知"
+    },
+    {
+      "step_id": "AR05-E5",
+      "from_claim_refs": [
+        "C061"
+      ],
+      "to_claim_ref": "M05",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C061"
+      ],
+      "limitations": "撤资可行性和政策弹性待证"
+    },
+    {
+      "step_id": "AR05-E6",
+      "from_claim_refs": [
+        "C062"
+      ],
+      "to_claim_ref": "M05",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C062"
+      ],
+      "limitations": "投资总额不等于可迅速动用的政治杠杆"
+    },
+    {
+      "step_id": "AR05-E7",
+      "from_claim_refs": [
+        "M05"
+      ],
+      "to_claim_ref": "C063",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C063"
+      ],
+      "limitations": "反战力量可能不足以决定战略"
+    },
+    {
+      "step_id": "AR05-E8",
+      "from_claim_refs": [
+        "C063"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C063",
+        "SS-C064"
+      ],
+      "limitations": "能促和不能推出绝对60天"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation",
+    "statistical"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction"
+  ],
+  "hop_count": 7,
+  "limitations": "最脆弱处是存储测算变成任何国家必然妥协；另有原研报未读、30×2人为放宽、封锁和战争终点不同。",
+  "most_fragile_step": "AR05-E3",
+  "creator_explicit_shortcuts": [
+    {
+      "from_claim": "C057",
+      "to_claim": "C064",
+      "note": "油储天数→绝对停战期限"
+    }
+  ],
+  "inferential_distance": {
+    "edge_count": 8,
+    "longest_path_length": 7,
+    "model_bridge_count": 3,
+    "explicit_shortcut_count": 1,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 5
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C057",
+    "C058",
+    "C059",
+    "C060",
+    "C061",
+    "C062",
+    "C063",
+    "C064",
+    "M05"
+  ]
+}
+```
+
+### AR06
+
+```json
+{
+  "argument_id": "AR06",
+  "title": "历史封锁经验外推",
+  "argument_type": "historical_analogy",
+  "premises": [
+    "C065"
+  ],
+  "steps": [
+    {
+      "step_id": "AR06-E1",
+      "from_claim_refs": [
+        "C065"
+      ],
+      "to_claim_ref": "C106",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C065",
+        "SS-C106"
+      ],
+      "limitations": "未给原案例，无从确认曾完全封锁60天"
+    },
+    {
+      "step_id": "AR06-E2",
+      "from_claim_refs": [
+        "C106"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C106",
+        "SS-C064"
+      ],
+      "limitations": "以往妥协不保证本次上限"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "inference_mode": [
+    "analogy"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "hop_count": 2,
+  "limitations": "历史集合与样本选择均未知，不能借此增强60天确定性。",
+  "most_fragile_step": "AR06-E1",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 1
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C064",
+    "C065",
+    "C106"
+  ],
+  "source_case": "未命名的过去霍尔木兹封锁",
+  "target_case": "2026本轮冲突",
+  "shared_mechanism": "持续中断产生经济成本并迫使谈判",
+  "limits_of_analogy": "封锁强度、替代渠道、参与方与时间均未匹配"
+}
+```
+
+### AR07
+
+```json
+{
+  "argument_id": "AR07",
+  "title": "中东失利外推到东亚",
+  "argument_type": "strategic_analogy",
+  "premises": [
+    "C043",
+    "C045"
+  ],
+  "steps": [
+    {
+      "step_id": "AR07-E1",
+      "from_claim_refs": [
+        "C043"
+      ],
+      "to_claim_ref": "C047",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C043",
+        "SS-C047"
+      ],
+      "limitations": "经济不可替代不等于战场胜率"
+    },
+    {
+      "step_id": "AR07-E2",
+      "from_claim_refs": [
+        "C045"
+      ],
+      "to_claim_ref": "C046",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C045",
+        "SS-C046"
+      ],
+      "limitations": "100扩大100倍无生产数据"
+    },
+    {
+      "step_id": "AR07-E3",
+      "from_claim_refs": [
+        "C046"
+      ],
+      "to_claim_ref": "C047",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C046",
+        "SS-C047"
+      ],
+      "limitations": "弹种、良率、部署与防御效能不同"
+    },
+    {
+      "step_id": "AR07-E4",
+      "from_claim_refs": [
+        "C047"
+      ],
+      "to_claim_ref": "C048",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C047",
+        "SS-C048"
+      ],
+      "limitations": "战区态势不能证明必然统一"
+    },
+    {
+      "step_id": "AR07-E5",
+      "from_claim_refs": [
+        "C047"
+      ],
+      "to_claim_ref": "C049",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C047",
+        "SS-C049"
+      ],
+      "limitations": "能力推国家意图缺证据"
+    }
+  ],
+  "conclusion": [
+    "C049"
+  ],
+  "inference_mode": [
+    "analogy",
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "hop_count": 3,
+  "limitations": "一战区经验不足推出东亚结果；产能、后勤、地理、目标均有差异。",
+  "most_fragile_step": "AR07-E2",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 2,
+    "explicit_edge_count": 3
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C043",
+    "C045",
+    "C046",
+    "C047",
+    "C048",
+    "C049"
+  ],
+  "source_case": "伊朗抵抗美国",
+  "target_case": "中国与美国在东亚竞争",
+  "shared_mechanism": "工业与持续作战成本制约军事权力",
+  "limits_of_analogy": "国家能力和海域条件不同，不推出相同胜负"
+}
+```
+
+### AR08
+
+```json
+{
+  "argument_id": "AR08",
+  "title": "战败与霸权信誉",
+  "argument_type": "historical_analogy",
+  "premises": [
+    "C071",
+    "C072"
+  ],
+  "steps": [
+    {
+      "step_id": "AR08-E1",
+      "from_claim_refs": [
+        "C071"
+      ],
+      "to_claim_ref": "C073",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C071",
+        "SS-C073"
+      ],
+      "limitations": "历史叙事压缩长期多因演变"
+    },
+    {
+      "step_id": "AR08-E2",
+      "from_claim_refs": [
+        "C072"
+      ],
+      "to_claim_ref": "M07",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C072"
+      ],
+      "limitations": "武器非插电即在任何地区有效"
+    },
+    {
+      "step_id": "AR08-E3",
+      "from_claim_refs": [
+        "M07"
+      ],
+      "to_claim_ref": "C073",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C073"
+      ],
+      "limitations": "各国意愿、联盟与升级成本未定"
+    },
+    {
+      "step_id": "AR08-E4",
+      "from_claim_refs": [
+        "C073"
+      ],
+      "to_claim_ref": "C069",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C073",
+        "SS-C069"
+      ],
+      "limitations": "挑战增加不等于霸权立即消失"
+    }
+  ],
+  "conclusion": [
+    "C069"
+  ],
+  "inference_mode": [
+    "analogy",
+    "causal"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction"
+  ],
+  "hop_count": 3,
+  "limitations": "军事信誉只是霸权组成因素，不可省略金融、技术、联盟及长期轨迹。",
+  "most_fragile_step": "AR08-E3",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 4,
+    "longest_path_length": 3,
+    "model_bridge_count": 2,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C069",
+    "C071",
+    "C072",
+    "C073",
+    "M07"
+  ],
+  "source_case": "西班牙无敌舰队对英失败；年份原话未给",
+  "target_case": "美国在伊朗作战及全球地位",
+  "shared_mechanism": "军事挫折可能削弱威慑信誉",
+  "limits_of_analogy": "不能把单次海战等同帝国即时衰落；历史因果未核"
+}
+```
+
+### AR09
+
+```json
+{
+  "argument_id": "AR09",
+  "title": "控制海峡到长期高油价和收益独占",
+  "argument_type": "causal",
+  "premises": [
+    "C081"
+  ],
+  "steps": [
+    {
+      "step_id": "AR09-E1",
+      "from_claim_refs": [
+        "C081"
+      ],
+      "to_claim_ref": "C082",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C081",
+        "SS-C082"
+      ],
+      "limitations": "控制委内瑞拉不足以证明控制全球供应，且控制的定义未核"
+    },
+    {
+      "step_id": "AR09-E2",
+      "from_claim_refs": [
+        "C082"
+      ],
+      "to_claim_ref": "M03",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C082"
+      ],
+      "limitations": "需证明边际供应与替代弹性"
+    },
+    {
+      "step_id": "AR09-E3",
+      "from_claim_refs": [
+        "M03"
+      ],
+      "to_claim_ref": "C086",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C086"
+      ],
+      "limitations": "缺价格形成模型与期限"
+    },
+    {
+      "step_id": "AR09-E4",
+      "from_claim_refs": [
+        "C082"
+      ],
+      "to_claim_ref": "C083",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C082",
+        "SS-C083"
+      ],
+      "limitations": "控制运输不等于所有生产者租金归美国"
+    },
+    {
+      "step_id": "AR09-E5",
+      "from_claim_refs": [
+        "C083"
+      ],
+      "to_claim_ref": "M04",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C083"
+      ],
+      "limitations": "公司收益、税收和补贴分配不同"
+    },
+    {
+      "step_id": "AR09-E6",
+      "from_claim_refs": [
+        "M04"
+      ],
+      "to_claim_ref": "C088",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C088"
+      ],
+      "limitations": "没有实际补贴政策证据"
+    }
+  ],
+  "conclusion": [
+    "C088"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction",
+    "strongly_implied"
+  ],
+  "hop_count": 4,
+  "limitations": "航运控制、实物流、现货、期货、基准报价权与财政租金必须拆开；100/126/120及连任选举对象都待核。",
+  "most_fragile_step": "AR09-E4",
+  "creator_explicit_shortcuts": [
+    {
+      "from_claim": "C080",
+      "to_claim": "C086",
+      "note": "海峡美国控制→长期100/120"
+    },
+    {
+      "from_claim": "C082",
+      "to_claim": "C088",
+      "note": "供应定价控制→国内廉价油"
+    }
+  ],
+  "inferential_distance": {
+    "edge_count": 6,
+    "longest_path_length": 4,
+    "model_bridge_count": 4,
+    "explicit_shortcut_count": 2,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 1
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C081",
+    "C082",
+    "C083",
+    "C086",
+    "C088",
+    "M03",
+    "M04"
+  ]
+}
+```
+
+### AR10
+
+```json
+{
+  "argument_id": "AR10",
+  "title": "战事和AI资本支撑",
+  "argument_type": "causal",
+  "premises": [
+    "C003",
+    "C091"
+  ],
+  "steps": [
+    {
+      "step_id": "AR10-E1",
+      "from_claim_refs": [
+        "C091"
+      ],
+      "to_claim_ref": "C092",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C091",
+        "SS-C092"
+      ],
+      "limitations": "军用有效不等于商业估值兜底"
+    },
+    {
+      "step_id": "AR10-E2",
+      "from_claim_refs": [
+        "C003"
+      ],
+      "to_claim_ref": "C093",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C003",
+        "SS-C093"
+      ],
+      "limitations": "意图不能证明实际资金流"
+    },
+    {
+      "step_id": "AR10-E3",
+      "from_claim_refs": [
+        "C093"
+      ],
+      "to_claim_ref": "M06",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C093"
+      ],
+      "limitations": "缺跨境分资产流向"
+    },
+    {
+      "step_id": "AR10-E4",
+      "from_claim_refs": [
+        "M06"
+      ],
+      "to_claim_ref": "C004",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-C094"
+      ],
+      "limitations": "缺AI企业融资与估值传导"
+    },
+    {
+      "step_id": "AR10-E5",
+      "from_claim_refs": [
+        "C092"
+      ],
+      "to_claim_ref": "C004",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-C092",
+        "SS-C094"
+      ],
+      "limitations": "应用与融资两条路径不能相互替代"
+    }
+  ],
+  "conclusion": [
+    "C004"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction",
+    "strongly_implied"
+  ],
+  "hop_count": 3,
+  "limitations": "没有观察证明资金具体进入AI，不能因战事存在就核实泡沫延续。",
+  "most_fragile_step": "AR10-E4",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 3,
+    "model_bridge_count": 2,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 2,
+    "explicit_edge_count": 1
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C003",
+    "C004",
+    "C091",
+    "C092",
+    "C093",
+    "M06"
+  ]
+}
+```
+
+### AR11
+
+```json
+{
+  "argument_id": "AR11",
+  "title": "美元短期避险与长期信用透支",
+  "argument_type": "causal",
+  "premises": [
+    "C097"
+  ],
+  "steps": [
+    {
+      "step_id": "AR11-E1",
+      "from_claim_refs": [
+        "C097"
+      ],
+      "to_claim_ref": "C098",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C097",
+        "SS-C098"
+      ],
+      "limitations": "规模不能自动提供避险需求"
+    },
+    {
+      "step_id": "AR11-E2",
+      "from_claim_refs": [
+        "C098"
+      ],
+      "to_claim_ref": "C099",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "evidence_refs": [
+        "SS-C098",
+        "SS-C099"
+      ],
+      "limitations": "由短期支撑推长期加速衰落没有中间时序数据"
+    }
+  ],
+  "conclusion": [
+    "C099"
+  ],
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "hop_count": 2,
+  "limitations": "时间尺度不同可并存，不构成形式矛盾；利差、政策和替代货币遗漏。",
+  "most_fragile_step": "AR11-E2",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "C097",
+    "C098",
+    "C099"
+  ]
+}
+```
+
+### AR13
+
+```json
+{
+  "argument_id": "AR13",
+  "title": "Platts规则响应：模型补充分析",
+  "argument_type": "causal",
+  "premises": [
+    "X08",
+    "X10"
+  ],
+  "steps": [
+    {
+      "step_id": "AR13-E1",
+      "from_claim_refs": [
+        "X08"
+      ],
+      "to_claim_ref": "X09",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "evidence_refs": [
+        "SS-X08",
+        "SS-X09"
+      ],
+      "limitations": "涉及原油审查和成品油规则，不能直接证明二者同一决定"
+    },
+    {
+      "step_id": "AR13-E2",
+      "from_claim_refs": [
+        "X10"
+      ],
+      "to_claim_ref": "X11",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "strongly_implied",
+      "evidence_refs": [
+        "SS-X10",
+        "SS-X11"
+      ],
+      "limitations": "同日顺序为审查→继续发布，不等于运费未变"
+    }
+  ],
+  "conclusion": [
+    "X09"
+  ],
+  "inference_mode": [
+    "causal",
+    "direct"
+  ],
+  "expression_level": [
+    "model_reconstruction",
+    "strongly_implied"
+  ],
+  "hop_count": 1,
+  "limitations": "只构成有限市场基础设施事件；LNG评估流程的具体变化未核实；视频没有明确提到Platts。",
+  "most_fragile_step": "AR13-E1",
+  "creator_explicit_shortcuts": [],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 1,
+    "model_bridge_count": 1,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 0
+  },
+  "graph_scope": "representative_reconstruction_of_important_chain_not_all_possible_edges",
+  "claim_refs": [
+    "X08",
+    "X09",
+    "X10",
+    "X11"
+  ]
+}
+```
+
+## 17 MECHANISMS
+
+### ME01
+
+```json
+{
+  "mechanism_id": "ME01",
+  "status": "candidate",
+  "name": "通道威胁—保险及运力—交付成本",
+  "argument_refs": [
+    "AR01"
+  ],
+  "nodes": [
+    "威胁可信度",
+    "保险覆盖和价格",
+    "船东通行决策",
+    "实际运量",
+    "到岸/交付成本"
+  ],
+  "limits": "替代路线、库存和合同可以缓冲；不直接给出期货涨幅"
+}
+```
+
+### ME02
+
+```json
+{
+  "mechanism_id": "ME02",
+  "status": "candidate",
+  "name": "出口受阻—储油空间耗尽—被迫减产",
+  "argument_refs": [
+    "AR05"
+  ],
+  "external_claim_refs": [
+    "X13"
+  ],
+  "nodes": [
+    "外运下降",
+    "库容占用增加",
+    "储油空间用尽",
+    "生产约束"
+  ],
+  "limits": "须区分产地库容与消费库存；不包含60天政治上限"
+}
+```
+
+### ME03
+
+```json
+{
+  "mechanism_id": "ME03",
+  "status": "candidate",
+  "name": "避险资金流入与产业融资的条件传导",
+  "argument_refs": [
+    "AR10"
+  ],
+  "nodes": [
+    "原居地风险上升",
+    "目的地资产选择",
+    "资产类别配置",
+    "企业融资可得性"
+  ],
+  "limits": "终点进入AI是待证条件，不能从美元资产流入直接得出"
+}
+```
+
+## 18 THESES
+
+### TH01
+
+```json
+{
+  "thesis_id": "TH01",
+  "statement": "9527认为海峡最终控制者决定战争后的油价区间，而不仅是即时封锁。",
+  "status": "candidate_unverified",
+  "resolution": "new",
+  "resolution_provisional": true,
+  "registry_search": {
+    "searched": [
+      "workspace inventory",
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json:13_theses"
+    ],
+    "result": "已检索本地摘要及GS002金融结构Thesis；无正式全库Registry。GS002为较晚样本，只作目录比对，绝不作2026-03证据。",
+    "scope": "local_partial_registry",
+    "full_registry_available": false
+  },
+  "argument_refs": [
+    "AR01",
+    "AR03",
+    "AR04",
+    "AR09"
+  ],
+  "traceability": [
+    {
+      "argument_id": "AR01",
+      "claim_id": "C009",
+      "source_segment_id": "SS-C009",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C010",
+      "source_segment_id": "SS-C010",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C014",
+      "source_segment_id": "SS-C014",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C015",
+      "source_segment_id": "SS-C015",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C016",
+      "source_segment_id": "SS-C016",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C018",
+      "source_segment_id": "SS-C018",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C025",
+      "source_segment_id": "SS-C025",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C026",
+      "source_segment_id": "SS-C026",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C028",
+      "source_segment_id": "SS-C028",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C031",
+      "source_segment_id": "SS-C031",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C032",
+      "source_segment_id": "SS-C032",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C033",
+      "source_segment_id": "SS-C033",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C034",
+      "source_segment_id": "SS-C034",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C035",
+      "source_segment_id": "SS-C035",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C081",
+      "source_segment_id": "SS-C081",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C082",
+      "source_segment_id": "SS-C082",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C083",
+      "source_segment_id": "SS-C083",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C086",
+      "source_segment_id": "SS-C086",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C088",
+      "source_segment_id": "SS-C088",
+      "source_id": "S03"
+    }
+  ],
+  "support_and_falsification": "需区分控制、复航、净供给、期限结构及价格，进行多事件检验。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### TH02
+
+```json
+{
+  "thesis_id": "TH02",
+  "statement": "9527认为对伊战争可能暴露美国实力边界并加速其全球主导权衰退。",
+  "status": "candidate_unverified",
+  "resolution": "new",
+  "resolution_provisional": true,
+  "registry_search": {
+    "searched": [
+      "workspace inventory",
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json:13_theses"
+    ],
+    "result": "已检索本地摘要及GS002金融结构Thesis；无正式全库Registry。GS002为较晚样本，只作目录比对，绝不作2026-03证据。",
+    "scope": "local_partial_registry",
+    "full_registry_available": false
+  },
+  "argument_refs": [
+    "AR07",
+    "AR08",
+    "AR11"
+  ],
+  "traceability": [
+    {
+      "argument_id": "AR07",
+      "claim_id": "C043",
+      "source_segment_id": "SS-C043",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C045",
+      "source_segment_id": "SS-C045",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C046",
+      "source_segment_id": "SS-C046",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C047",
+      "source_segment_id": "SS-C047",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C048",
+      "source_segment_id": "SS-C048",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C049",
+      "source_segment_id": "SS-C049",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C069",
+      "source_segment_id": "SS-C069",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C071",
+      "source_segment_id": "SS-C071",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C072",
+      "source_segment_id": "SS-C072",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C073",
+      "source_segment_id": "SS-C073",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C097",
+      "source_segment_id": "SS-C097",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C098",
+      "source_segment_id": "SS-C098",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C099",
+      "source_segment_id": "SS-C099",
+      "source_id": "S03"
+    }
+  ],
+  "support_and_falsification": "需跨时间比较盟友行为、军力、金融与国际影响力指标；本次未证实结构过程。",
+  "verified_knowledge_eligible": false
+}
+```
+
+### TH03
+
+```json
+{
+  "thesis_id": "TH03",
+  "statement": "9527认为地缘动荡能暂时给美国AI和美元带来资金支持，但透支长期信用。",
+  "status": "candidate_unverified",
+  "resolution": "related",
+  "resolution_provisional": true,
+  "registry_search": {
+    "searched": [
+      "workspace inventory",
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json:13_theses"
+    ],
+    "result": "已检索本地摘要及GS002金融结构Thesis；无正式全库Registry。GS002为较晚样本，只作目录比对，绝不作2026-03证据。",
+    "scope": "local_partial_registry",
+    "full_registry_available": false
+  },
+  "argument_refs": [
+    "AR10",
+    "AR11"
+  ],
+  "traceability": [
+    {
+      "argument_id": "AR10",
+      "claim_id": "C003",
+      "source_segment_id": "SS-C003",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C091",
+      "source_segment_id": "SS-C091",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C092",
+      "source_segment_id": "SS-C092",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C093",
+      "source_segment_id": "SS-C093",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C004",
+      "source_segment_id": "SS-C094",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C097",
+      "source_segment_id": "SS-C097",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C098",
+      "source_segment_id": "SS-C098",
+      "source_id": "S03"
+    },
+    {
+      "argument_id": "AR11",
+      "claim_id": "C099",
+      "source_segment_id": "SS-C099",
+      "source_id": "S03"
+    }
+  ],
+  "support_and_falsification": "需资本流向和美元信用长期序列；与GS002中美资本竞争仅主题相关。",
+  "verified_knowledge_eligible": false
+}
+```
+
+## 19 FORECASTS
+
+### FC-C004
+
+```json
+{
+  "forecast_id": "FC-C004",
+  "claim_id": "C004",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "AI融资",
+  "direction": "增加",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "中东资本避险赴美",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "plausible",
+  "original_modality": "中东这边的网爷能够把自己的钱财。\n出于避险的需求往美国这边涌。\n来接美国的盘。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "中东资金赴美将为美国AI泡沫接盘。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C005
+
+```json
+{
+  "forecast_id": "FC-C005",
+  "claim_id": "C005",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "地区主导权",
+  "direction": "美国取得",
+  "prediction_window": "首周",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗首周屈服",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "只要美国能够呢就是让伊朗这边屈服。\n那整个的这个事情呢，那当然是美国说了算的。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "首周若伊朗屈服，地区局面将由美国主导。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C025
+
+```json
+{
+  "forecast_id": "FC-C025",
+  "claim_id": "C025",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价；基准未明",
+  "direction": "上涨到80–90，约20%–30%",
+  "prediction_window": "战争头一周；起点待核",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "基线：冲突未迅速终结且未出现极端破坏",
+  "scenario_type": "baseline_forecast",
+  "modal_strength": "likely",
+  "original_modality": "所以呢油价不会一飞冲天的一下涨到位。\n他需要慢慢的坚定的。\n涨上去。\n所以随着霍尔木兹海峡。\n慢慢的在伊朗这边获得主导权。\n美国。\n夺取霍尔穆斯海峡的主导权的尝试失败。\n啊。\n头一个星期。\n系啊。\n整个的油价会经历一个缓慢的上涨。\n上涨的幅度也不会太多。\n比过去的油价增加20%到30%。\n过去的油价大在大概在60到70，咱们按70算啊。\n那30的话。\n就差不多再往上涨个20左右，涨到90左右。这就是说。\n一个星期左右是吧，整体的油价会慢慢的从啊从60到70涨到80到90。在这个范围里面。\n基本上就稳定了。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "首周油价缓慢上涨约20%至30%，到80至90左右。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C026
+
+```json
+{
+  "forecast_id": "FC-C026",
+  "claim_id": "C026",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国行动",
+  "direction": "撤退或升级",
+  "prediction_window": "首周后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "首周未使伊朗屈服",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "随着美国呢。\n企图通过证明自己对霍尔木斯海峡信手拈来。\n能够想怎么控制，怎么控制的这个尝试失败。\n也是说。\n随着这个战士推荐到一个星期左右的时间。\n大家都认识到。\n美国不会那么快的达到他自己的战术目标。\n战略目标。\n这个时候呢，这个事件就有了分歧。\n美国是浅尝辄止呢，见见好就收呢。\n还是要追加。\nSo.\n对于特朗普而言的话，他自己赢血啊。\n那。\n这个事情的话就比较微妙了，得继续看，因为两种都有可能啊。\n对于特朗普来说的话。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国首周之后可能撤退，也可能追加行动。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C028
+
+```json
+{
+  "forecast_id": "FC-C028",
+  "claim_id": "C028",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "海峡通行",
+  "direction": "开放",
+  "prediction_window": "首周后未明",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国撤出；国际压力形成",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "意思是，霍尔木兹海峡的主导权我不去抢了。你伊朗说了算。\n但是。\n如果在这样的情况下，你继续封锁霍门彩霞的话，你得罪的就不是我了然你得罪的是其他人了。\n世界都会因为是你受到影响了。\n你千万不要。\n啊，因小事大啊，觉得。\n啊，你的这个领导被扬了，是吧，你要找我报仇，结果我就拉着全世界一起作为代价。\n那不好意思。\n一开始你有理的事，你损害了大家利益，你也变成坏人了。\n啊，把这个选择留在这里，把这个舞台让给你。\n让你在这里面做选择。\n逼着你伊朗啊。\n在这里边啊进退两难。\n这个时候伊朗新上来的这个领导班子一定会。\n走折中路线。\n就释放一些善意。\n部分的让开放这个霍尔木兹海洋的航道。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若美国撤出并让伊朗面对国际压力，伊朗会妥协开放海峡。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C029
+
+```json
+{
+  "forecast_id": "FC-C029",
+  "claim_id": "C029",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "胜利叙事",
+  "direction": "声称胜利",
+  "prediction_window": "约一周",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国撤出",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "经过我一个月啊，就经过我一个星期的呃极限试压。\n伊朗终于妥协了，他开放了霍尔木兹海峡。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国可以在约一周后把撤退包装成已实现胜利。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C031
+
+```json
+{
+  "forecast_id": "FC-C031",
+  "claim_id": "C031",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "伊朗出口",
+  "direction": "继续通行",
+  "prediction_window": "撤退后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗选择性开放",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "伊朗是出于现实的考虑，确确实实。\n要开放部分霍尔木兹海峡的通行权。\n起码要让伊朗的游轮。\n能够向马六甲海峡进发。\n把伊朗油拿出去卖掉，对吧？",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "撤退分支下伊朗自有出口可通过海峡并继续向外运输。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C032
+
+```json
+{
+  "forecast_id": "FC-C032",
+  "claim_id": "C032",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价",
+  "direction": "适度回落或停止上涨",
+  "prediction_window": "撤退后未明",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国撤退且伊朗开放",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "按照这样的剧情发展的话。\n油价就可以有一个温和的回落。\n或者说呢起码不涨了，不会有特别大的这个波动的。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "撤退及开放分支下油价会适度回落或停止上涨。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C034
+
+```json
+{
+  "forecast_id": "FC-C034",
+  "claim_id": "C034",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国袭击亲伊朗船运",
+  "direction": "可能实施",
+  "prediction_window": "升级阶段",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国未控制海峡而追加行动",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "伊朗从霍尔木兹海峡出来的游轮肯定是亲伊朗的。\n就打着反伊朗的这个旗号，直接打你的游轮。\n让你一朗开放了霍尔蒙海峡，但是你的油还是运不出来。\n啊。\n正义凛然，这是战争行为。\n那现在是战争状态。\n饿死你伊朗，这是。\n天经地义的事儿。\n你伊朗开放库霍尔木斯海峡。\n把油轮出来放怎么样呢？\n伊朗你不愿意做坏人，我美国愿意做坏人。\n我有正当的理由啊，从美国的角度上来说，他我有正当理由啊。\n一挡是我的战争对手啊。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "追加行动分支中，美国可能以打击亲伊朗船只来阻止伊朗获利。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C035
+
+```json
+{
+  "forecast_id": "FC-C035",
+  "claim_id": "C035",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价；基准未明",
+  "direction": "约120",
+  "prediction_window": "首周后追加行动约一个月",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "升级并扰乱海运、成本提高",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "plausible",
+  "original_modality": "那这么大的话，油价就会继续往上走。\n刚才说的是吧？\n80到90，这是一个比较稳定的一个观察的点，一个星期左右。\n等着这个时候，如果美国在这个上面一意孤行要继续加注。\n那不好意思。\n油价就会继续的稳步上升。\n上升到什么时候呢？\n上升到120左右，持续多长时间呢？\n持续一个月左右。\n啊。\n就是到一个月左右，是吧，这个油价呢又会涨到120左右。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "追加行动带来成本上升，之后约一个月油价可逐渐到120左右。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C037
+
+```json
+{
+  "forecast_id": "FC-C037",
+  "claim_id": "C037",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价；基准未明",
+  "direction": "90–110并可能回落",
+  "prediction_window": "约40天",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "撤退/和谈关联；与120分支的相容性待核",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "油价应该停留在什么状态呢？\n应该围绕着，如果不出意外的话，应该围绕着90到100。\n甚至多一点是吧，90到110这个区间里边。\n的上下浮动。\n啊，到了那个时候呢，可能它就会开始回落了，是吧？因为。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "约40天时油价或在90至110区间并开始下降；先说90至100再改口。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C039
+
+```json
+{
+  "forecast_id": "FC-C039",
+  "claim_id": "C039",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国军事行动",
+  "direction": "撤退或谈判",
+  "prediction_window": "约40天",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "缺乏战略目的且持续受阻",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "没有那么大的动力的话，美国有可能是吧？\n打完了。\n这。\n40天以后发现。\n没有办法快速的得到自己的目标。\n然后呢，这个成本呢自己就承担不了了。\n那可能他就会往后退。\n退的话就是。\n借着哈梅内衣首灵结束啊，美伊之间展开新一轮的谈判。\n咱们先把这个封锁有这个霍尔木斯海峡这个事儿。\n把他。\n把它谈一谈。\n那通过这样的行为的话，伊朗呢就彻底的把握住了整个事件的主导权。\n那那美国就整个的就是从这个国际的角度上来说的话。\n就打伊朗就彻底的就是鸡飞蛋打了是，赔了富人又折兵啊，脸也不要了，就是面子里子一起丢。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "约40天美国可能撤退或谈判，伊朗掌握海峡则美国实质失败。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C040
+
+```json
+{
+  "forecast_id": "FC-C040",
+  "claim_id": "C040",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "国内选举影响",
+  "direction": "可被包装化解",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "通过击杀领袖宣称胜利",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "但是对于特朗普来说，你不用担心这事儿会不会影响到他。\n选举啊啥的。\n作为营学大师来说的话，他可以找到任何的角度来证明自己赢了。\n是吧。\n那只要有。\n干掉韩文内衣这一条，一俊遮百丑。\n剩下的事情。\n只要喇叭够的啊，我只要有一条非常非常强的这个标签。\n对于戏选票，对于喜喜喜选民的脑。\n那特朗普太擅长不过来，但是。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "特朗普可用击杀哈梅内伊包装胜利，失败未必影响国内选举。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C042
+
+```json
+{
+  "forecast_id": "FC-C042",
+  "claim_id": "C042",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "封锁持续性",
+  "direction": "最终结束",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗自身也需要出口",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "near_certain",
+  "original_modality": "他打他封锁，他也不可能永久的封锁下去。从伊朗来讲，他也不可能永久的封锁下，大家都知道。\n不可能永久的放斗下去，对吧？",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "伊朗不可能永久封锁海峡。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C047
+
+```json
+{
+  "forecast_id": "FC-C047",
+  "claim_id": "C047",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国东亚军事行动",
+  "direction": "无法有效对抗",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "假设中国产能极大优势",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "near_certain",
+  "original_modality": "到时候就是真正的物理意义上，让你见识见识什么叫慢剑启发。\nNo.\n整个的呃东亚，欢迎你来，欢迎你常来，看你有多少舰队往这里葬送。\n对吧。\n就那个时候的话。\n那整个的这个世界就会为之以颤。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "按这一军工差距，美国舰队在东亚将无法有效对抗中国。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C048
+
+```json
+{
+  "forecast_id": "FC-C048",
+  "claim_id": "C048",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "台湾统一",
+  "direction": "将实现，仅剩成本",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "主播认定的力量优势",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "near_certain",
+  "original_modality": "这个局面早就跟台湾没关系了，台湾已经是。\n囊中之物了，要不然就不会有绕绕倒的这个演习了。\n只是看你台湾以什么样的成本收回来而已。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "unresolvable",
+  "resolution_criteria": {
+    "creator_specified": "主播认为台湾已是囊中之物，未来统一只剩成本问题。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C055
+
+```json
+{
+  "forecast_id": "FC-C055",
+  "claim_id": "C055",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "盟友参战及分担",
+  "direction": "下降/缺席",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "各方判断美国打不了",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "大家都认为你根本就打不了这个事儿。\n那接下来这个事儿，你就算是强撑着说你能打。\n也没人跟着你一起打。\n没人跟着你一去打就没人分担你的成本。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若各方判断美国打不了，就不会参战，也不会替美国分担成本。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C060
+
+```json
+{
+  "forecast_id": "FC-C060",
+  "claim_id": "C060",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "域外国家对伊妥协",
+  "direction": "全部妥协",
+  "prediction_window": "封锁两个月",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗持续实控封锁",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "certain",
+  "original_modality": "就伊朗只要能够切切实实的扎扎实实的把霍尔木兹海峡的封锁。\n把握两个月时间的话，任何一个。\n域外的国家都得跟伊朗妥协。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若伊朗实控封锁两个月，任何域外国家都必须妥协。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C061
+
+```json
+{
+  "forecast_id": "FC-C061",
+  "claim_id": "C061",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "海湾对美压力",
+  "direction": "促谈/可能翻脸",
+  "prediction_window": "长期中断期间",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国不能恢复通行",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "海湾国家要对着美国这边施验，逼着美国要跟伊朗这边谈了。\n你要么就把彻底的一朗打服。\n如果你不能够通过武力的方式把伊朗征服的话，打服的话。\n等一等。\n放开霍尔木斯海峡的通行的话，那不好意思。\n我们可能就要跟你美国这边翻脸了。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "如果美国不能解决海峡通行，海湾国家会迫其谈判，甚至可能翻脸。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C063
+
+```json
+{
+  "forecast_id": "FC-C063",
+  "claim_id": "C063",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "战争结束",
+  "direction": "迫使停战",
+  "prediction_window": "两个月论证内",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "海湾资本压力与反战合力形成",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "near_certain",
+  "original_modality": "他们如果拼着啊，就是我如何如何也要带着你一起走的这样想想法，跟美国这边闹的话。\n特朗普支撑不住的。\n因为美国是金融利国是吧？\n千万不要忽略啊在金融帝国的国家里边。\n啊，谁的钱多，谁说了算这句话。\n当这些合力形成了以后。\n反对战争的力量就会。\n让整个战争停下来。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "海湾资金施压与反战合力会迫使特朗普停止战争。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C064
+
+```json
+{
+  "forecast_id": "FC-C064",
+  "claim_id": "C064",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国战争持续时间",
+  "direction": "不超过60天",
+  "prediction_window": "60天上限；起点和终点定义待核",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "叙述通常无条件，但论证依赖持续海峡中断",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "certain",
+  "original_modality": "所以对于美国而言呢，它时间窗口也就是。\n呃，两个月左右，这是最大的上限。咱们按照最坏的情况进行预估最大的上限。\n就是60天。\n超过60天是绝对不可能的事情。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "美国战争时间窗口最大60天，超过60天绝对不可能。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C067
+
+```json
+{
+  "forecast_id": "FC-C067",
+  "claim_id": "C067",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "胜负/谈判",
+  "direction": "伊朗大胜美国求和",
+  "prediction_window": "封锁超过40天",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗持续控制",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "near_certain",
+  "original_modality": "但是如果真的走到60天，哪怕封锁到超过40天的话。\n那伊朗就是大胜特生。\n那到时候的话。\n来找伊朗签。\n城下之盟的就是美国。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若封锁超过40天，伊朗将大胜，美国将主动求和。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C068
+
+```json
+{
+  "forecast_id": "FC-C068",
+  "claim_id": "C068",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "以色列利益",
+  "direction": "被美国牺牲",
+  "prediction_window": "和解后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国伊朗和解",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "那到时候美国以什么样的利益去交换？\n那我我觉得美国这边跟伊朗这边只要握手言合了。\n倒霉的就是以色列了。\n明嘛。\n到时候，美国就会把以色列拿出来，当做一个祭品。\n当做一个缓充电。\n大家一起把他杀了以后。\n啊，以他的写哎。\n如何如何如何，他们之间之间的。\n摆个靶子啊，头一磕是吧，这个事儿就过去了。\n霍尔蒙海峡还是个好海峡，那这是一个发财的黄金通道，那咱们就可以苟合在一起了。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国与伊朗和解将以牺牲以色列利益为交换。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C069
+
+```json
+{
+  "forecast_id": "FC-C069",
+  "claim_id": "C069",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国全球主导权",
+  "direction": "衰退",
+  "prediction_window": "趋势明显但过程很长",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国失去中东主导权",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "那那个时候的话就是美国呢。\n就是看起来呢好像把这事儿结果，但是。\n中东这边的事儿的话，他就彻底说了不算了。\n他的影响力就彻底从中东这边被赶赶走了。\n对吧。\n这个事件会不会往着这个方向去发展？\n咱们就看吧。\n美国犯了这么大的战略错误。\n那如果丢掉了中东。\n那不好意思，那真的用了局做那句话了啊。\n迅速的从这个。\n世界霸主就沦为老二了。\n老二塔都保不住。\n丢掉耳中东以后，他就迅速的。\n那就真的成为路边那一条了，而且人嫌狗艳。\n后边跟长他算账的人那就多去了啊吧？\n当然了。\n因为美国的加大业大，这个下行的这个时间会很长，但是这个趋势是会很非常非常明显的。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若美国因此失去中东主导权，全球霸权将显著衰退，过程可能很长。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C073
+
+```json
+{
+  "forecast_id": "FC-C073",
+  "claim_id": "C073",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "全球对美挑战",
+  "direction": "增加",
+  "prediction_window": "战败后未明",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国战败暴露实力边界",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "生产不出来了以由过去呢你靠的是啥？\n靠的是我能包打天下。\n加了诸多的杠杆。因为你知道我能八打天下，没人真正跟你来动刀动枪。\n对吧。\n所以很多事呢就是只要面子上过得去，没人跟你较真儿。\n你可以耀武扬威，那到时候你打不赢了以后。\n那该较真的时候要称量称量的时候都要称量称量，对吧？\n你别看你绑太腰远的。\n你不一定由我手下定的。\n我背后的话也有大哥的。\n到时候谁先怂来？\n打不起仗，真正打不起仗的是谁呀？\n什么叫。\n打得一拳开，免得百圈来呀。\n现在这个时间节点上。\n真正要打得一权开的不是伊朗，而是美国。\n很多小伙伴在分析这个问题，然后犯的错误就在这里。\n美国是战术上的攻势，战略上的首势。\n他是霸主。\n他急需要一个场合证明自己还能行，廉颇老矣尚能犯否。\n结果呢。\n他找了一个错误的对手，证明自己还不行了。\n那快速的证明自己不行，就快证明。\n他整个的力量衰退的非常非常的厉害，那不服他的人会更多呢。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国战败会暴露实力边界，更多参与者将挑战其依靠威慑建立的杠杆。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C075
+
+```json
+{
+  "forecast_id": "FC-C075",
+  "claim_id": "C075",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价波动",
+  "direction": "缓慢上涨，无巨大波动",
+  "prediction_window": "约一个月",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "当前局面延续；未明示失效触发器",
+  "scenario_type": "baseline_forecast",
+  "modal_strength": "likely",
+  "original_modality": "为了保证这段时间能够有一个非常好的观察的环境。\n世界的油价不会有大的波动。\n就是一个月左右，不会有特别巨大的波动。\n他会缓慢的上涨。\n不会一下子一下子给你一下子。\n长天上去。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "未来约一个月油价不会特别剧烈波动，而会缓慢上涨。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C076
+
+```json
+{
+  "forecast_id": "FC-C076",
+  "claim_id": "C076",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价急涨后走势",
+  "direction": "回调",
+  "prediction_window": "急涨后未明",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "突发大涨且预期尚未到位",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "如果一下子真的一下子猛的涨到天上去了，它会回过来回调的。\n因为大家的心理预期。\n没有到那个份儿上。\n美国现在还没有说是真正这个局面。\n到那种坏到一发不可收拾的状态。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若油价突然猛涨，因市场预期尚未到位会回调。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C078
+
+```json
+{
+  "forecast_id": "FC-C078",
+  "claim_id": "C078",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国战争胜负",
+  "direction": "明确",
+  "prediction_window": "约40天",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "unknown",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "very_likely",
+  "original_modality": "过了一个月这个生死红线，就40天这个生死红线。\n那基本上呢。\n整个的事情啊就应该是非常非常清晰了。\n到底美国赢还是输，就有一个定论了。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "约40天后美国胜负将有明确结论。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C079
+
+```json
+{
+  "forecast_id": "FC-C079",
+  "claim_id": "C079",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价",
+  "direction": "回落",
+  "prediction_window": "伊朗控制后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗控制海峡",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "如果是伊朗。\n控制了霍尔木斯海峡的话。\n油价它不会涨得太厉害的。\n他会回落的。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若伊朗控制霍尔木兹，油价会回落。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C080
+
+```json
+{
+  "forecast_id": "FC-C080",
+  "claim_id": "C080",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价",
+  "direction": "100–126（ASR待核）",
+  "prediction_window": "相当长",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国控制海峡",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "如果是美国控制的霍尔木财峡呢，不好意思。\n油价会维持在100到126个区间，相当长的一段时间。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若美国控制霍尔木兹，油价长期维持“100到126”区间；数值待听音。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C083
+
+```json
+{
+  "forecast_id": "FC-C083",
+  "claim_id": "C083",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价新增租金归属",
+  "direction": "仅美国获益",
+  "prediction_window": "美国控制之后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "供应定价控制且油价提高",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "certain",
+  "original_modality": "定的高高的以后呢，他抓着供应在这里边赚的份额是最多的。\n啊，你别看这个油下涨了，你以为这个涨的这个额外的涨出来之前。\n能落到别人手里面，不会。\n只是落在美国手里边，因为啥呢？\n美国通过武力。\n在霍尔木兹海峡进行了一个武力的变现。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国控制海峡并抬高油价后，额外收益只会落到美国手中。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C085
+
+```json
+{
+  "forecast_id": "FC-C085",
+  "claim_id": "C085",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价",
+  "direction": "六七十或七八十",
+  "prediction_window": "伊朗获胜后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗掌握海峡",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "如果这场仗。\n伊朗赢了是吧，伊朗能够控制霍尔木斯海加的控控制人。\n啊，占了上风的话。\n油价反而会回落。\n啊它不会涨得太高，可能回落的六七十七八十都有可能。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "伊朗占上风时油价可能回到六七十或七八十。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C086
+
+```json
+{
+  "forecast_id": "FC-C086",
+  "claim_id": "C086",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "油价",
+  "direction": "100甚至120",
+  "prediction_window": "长期",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国获胜",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "但如果伊朗输了美国赢了。\n油价长期的维持在100。\n甚至120。\n都是有可能的事情。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若美国获胜，油价长期维持100甚至120是可能的。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C088
+
+```json
+{
+  "forecast_id": "FC-C088",
+  "claim_id": "C088",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国国内用油安排",
+  "direction": "相对廉价",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国主导并获高油价收益",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "那美国为了能够连任，特朗普，为了能够连任。\n他会给你编造一个新的东西啊。\n之前那个民主党干不好的事儿是啥呢？\n美国在全世界抽了血以后。\n播放咱们国内分。\n现在呢你看我特朗普特大善人是吧？\n我来了以后不是这样啊，这个游戏不是这么玩的。\n我在全世界把油价炒高了以后。\n那这些。\n美好的非常可爱的这些石油集团的老总们良心发现，觉得。\n美国人应该用廉价的油。\n通过这种补贴的方式补贴。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若美国主导，特朗普将为连任把高油价收益转成国内廉价用油安排。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C089
+
+```json
+{
+  "forecast_id": "FC-C089",
+  "claim_id": "C089",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国收入与物价分配",
+  "direction": "资本获利普通人仅温饱",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "上述高油价及补贴情景",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "它不是真的补贴啊，那真的补贴不符合市场规律。美国这个市场国家它是不会做的。\n他是通过这个补贴的手段。\n把一个问题再次的反复再炒，那一条鱼吃三遍。\n一鱼几吃。\n啊。\n补贴补贴这个钱实际上还是一定的。\n啊，主要的药包，然后呢。\n然后给老百姓一个能够过得去的温饱。\n这个游戏之前也玩过是吧？\n那有的国家那个油价低的不像话啊，在这个价格扭曲的不像话。\n不依然是没问题吗？\n但是他只是酒加低。\n其他东西一样，每每样的物价一样的是吧，一点都不受控制。\n他总有办法让你在这个社会里边是吧？精密的设计之下。\n让你在社会里边。\n赚的钱刚刚能够保持温饱。\n你别指望着说油价省出来的钱，你就可以过得很好。\nByer.\n他有很多很多的坑等着你。\n层层的盘剥等着你。\n就让你处于这种。\n是吃不饱饿不死的状态。\n啊，这是。\n接下来美国要发生的事儿就是如果美国能够在这里面主导这一切的话。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "unresolvable",
+  "resolution_criteria": {
+    "creator_specified": "这类分配主要有利于资本，普通人只够温饱，其他商品价格仍上涨。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C090
+
+```json
+{
+  "forecast_id": "FC-C090",
+  "claim_id": "C090",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "能源/美元结构",
+  "direction": "转向新能源",
+  "prediction_window": "未来未明",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "美国无法主导当前局面",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "那么如果他主草不了呢，那不好意思。\n世界的步伐在快速的演进。\n石油美元总究是过去的东西。\n过去的那些那套那套歌。\n没来呢。\n未来是面向新能源时代的。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "unresolvable",
+  "resolution_criteria": {
+    "creator_specified": "若美国无法主导，石油美元将成为过去，未来转向新能源时代。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C092
+
+```json
+{
+  "forecast_id": "FC-C092",
+  "claim_id": "C092",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "AI估值支撑",
+  "direction": "增强",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "军事和信息战应用形成价值",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "plausible",
+  "original_modality": "这个是一下子呢给AI找到了一个新的就业方向。\n过去呢觉得AI这个化儿不实，中开不中用，但是。\nAI一代在军事用途上的这个实证啊。\n不仅仅是这个军事泛军事用途，因为。\n围绕着战争的话，各种的舆论呢。\n这种人带节奏，他也是占中了一部分信息战嘛，是吧？\n在这里边AI如果能够看到啊应用的场景的话。\n那AI这个泡沫它总是有兜底的嘛，对吧？",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "军事与信息战应用场景将为AI泡沫提供价值支撑。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C099
+
+```json
+{
+  "forecast_id": "FC-C099",
+  "claim_id": "C099",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国/美元信用",
+  "direction": "长期衰退加速",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "依靠动荡维持信用",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "那这个东西的话能够持久啊，不可以持久。\n他是一个。\n一次性的提款。\n提完了呢，整个的下坡路就会走的越来越明显。\n越来越快速。\nWell.\n这是一条不归路。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "unresolvable",
+  "resolution_criteria": {
+    "creator_specified": "通过动荡维持美元信用不可持续，透支后美国衰退会加速。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C100
+
+```json
+{
+  "forecast_id": "FC-C100",
+  "claim_id": "C100",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "本轮战争结果",
+  "direction": "美国失败",
+  "prediction_window": "本轮战争",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "基线综合判断",
+  "scenario_type": "baseline_forecast",
+  "modal_strength": "likely",
+  "original_modality": "但是真正的结果我觉得大概率。\n美国会输。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "本轮战争美国大概率会输。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C101
+
+```json
+{
+  "forecast_id": "FC-C101",
+  "claim_id": "C101",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "美国本土所谓圣战",
+  "direction": "不太会发生",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗在正面战场不败的解释背景",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "很多觉很多小伙伴觉得这件事情可能是未来会发生的事儿。\n在我看来不太有可能啊。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "negative",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "美国本土出现所谓圣战的情景不太可能。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C103
+
+```json
+{
+  "forecast_id": "FC-C103",
+  "claim_id": "C103",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "伊朗对邻国政策",
+  "direction": "更加友好",
+  "prediction_window": "控制秩序后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗主导海峡",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "如果你在霍尔木兹海峡里面真正能够有占据主动权。\n啊。\n通过跟美国打一场，告诉大家这。\n但当地的地头规矩是我定的。\n那个时候就叫啥呢？\n亮了这个实力了以后。\n就要量慈倍。\n啊我在这里边不是为难大家的，过去的呃伊朗是过去的伊朗。\n现在新的伊朗是新的伊朗，新的伊朗新的思维。\n到时候要跟大家以邻为善。\n对吧。\n既然你们的生命线把握在我手里边。\n我不介意向你们多透露一点善意。\n别觉得什么我们实界派，你们训级派互相之间如何如何。\n啊，井水啊这个这个这个水水火不容是吧？\n啊，互相之样把对方弄死，不好意思。\n在我自己占烈势的时候，活不下去的时候，那当然了，你的就是我的。\n那我看你的我就眼红。\n但是当我已经成为当地的秩序的。\n这个规规定者了。\n那个时候我就可以慈眉善目的跟你讲讲是吧，咱们一起共同发展。",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "若伊朗确立海峡秩序主导权，会更愿意向邻国示好而非持续宗派对抗。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-C106
+
+```json
+{
+  "forecast_id": "FC-C106",
+  "claim_id": "C106",
+  "forecaster_id": "A9527",
+  "made_at": "2026-03-03T17:30:00+08:00",
+  "made_at_basis": "video_publication_proxy_not_recording_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "各方妥协时点",
+  "direction": "早于以往",
+  "prediction_window": "本轮冲突",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "记取过去代价",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "likely",
+  "original_modality": "既然最后的结果是妥协。\n之前都妥协了，那今天会更加的乖贵得快，不会走到那一步的。\n对吧.\n因之前是实打实的，已经付出了惨重的代价，谁也不愿意再去付出那样的代价呢？",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "low",
+  "resolution_criteria": {
+    "creator_specified": "有以往妥协教训，各方这次会更早妥协。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-X01
+
+```json
+{
+  "forecast_id": "FC-X01",
+  "claim_id": "X01",
+  "forecaster_id": "AJPM",
+  "made_at": "2026-03-03T08:48:00+08:00",
+  "made_at_basis": "source_displayed_publication_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "Brent",
+  "direction": "120美元/桶",
+  "prediction_window": "战争超过三周后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "外运受阻使储罐满并减产",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "新闻转述可能性；原研报未读",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "若战争持续超过三周、无法外运导致储罐容量用尽并迫使停产，布伦特可达120美元。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-X02
+
+```json
+{
+  "forecast_id": "FC-X02",
+  "claim_id": "X02",
+  "forecaster_id": "ADB",
+  "made_at": "2026-03-03T08:48:00+08:00",
+  "made_at_basis": "source_displayed_publication_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "Brent",
+  "direction": "200美元/桶",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "海峡全面封闭的极端情景",
+  "scenario_type": "extreme_scenario",
+  "modal_strength": "possible",
+  "original_modality": "新闻转述可能性；原研报未读",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "全面封闭海峡的极端情景下，布伦特可能达到200美元。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-X03
+
+```json
+{
+  "forecast_id": "FC-X03",
+  "claim_id": "X03",
+  "forecaster_id": "ABOA",
+  "made_at": "2026-03-03T08:48:00+08:00",
+  "made_at_basis": "source_displayed_publication_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "Brent",
+  "direction": "60–70美元/桶",
+  "prediction_window": "战争快速结束后",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "战争快速结束",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "新闻转述可能性；原研报未读",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "若战争快速结束，布伦特可能回到60至70美元。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+### FC-X14
+
+```json
+{
+  "forecast_id": "FC-X14",
+  "claim_id": "X14",
+  "forecaster_id": "ABOA",
+  "made_at": "2026-03-03T08:48:00+08:00",
+  "made_at_basis": "source_displayed_publication_time",
+  "knowledge_cutoff": "2026-03-03T17:30:00+08:00",
+  "target": "Brent",
+  "direction": "超过100美元/桶",
+  "prediction_window": "unknown",
+  "window_start": null,
+  "window_end": null,
+  "conditions": "伊朗攻击邻国能源设施",
+  "scenario_type": "conditional_forecast",
+  "modal_strength": "possible",
+  "original_modality": "新闻转述可能性；原研报未读",
+  "modal_strength_assigned_by": "AMODEL",
+  "modality_polarity": "positive",
+  "resolvability": "medium",
+  "resolution_criteria": {
+    "creator_specified": "若伊朗打击邻国能源设施，布伦特可能超过100美元。",
+    "model_proposed": "先锁定目标定义、起点、条件触发证据；价格需确定油种、币种、期货/现货及收盘/盘中，政治胜负需预注册判准。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored_no_post_cutoff_outcomes"
+}
+```
+
+## 20 CONTRADICTIONS
+
+none
+
+## 21 CANDIDATE HEURISTICS
+
+### HC01
+
+```json
+{
+  "heuristic_id": "HC01",
+  "status": "candidate",
+  "rule": "区分公开宣称与实际可执行能力，追问是否真正控制关键通道。",
+  "observed_in_arguments": [
+    "AR01",
+    "AR02",
+    "AR03"
+  ],
+  "source_segments": [
+    "SS-C019",
+    "SS-C024",
+    "SS-C107"
+  ],
+  "why_method_not_case_conclusion": "同一规则被用于海军消灭、战争持续话语及空域开放三个判断。",
+  "known_limits": "不能反向把所有声明视为虚假。",
+  "possible_counterexamples": "可信且已落实的公告确能准确说明能力。",
+  "failure_modes": "以怀疑声明为由任意揣测动机。"
+}
+```
+
+### HC02
+
+```json
+{
+  "heuristic_id": "HC02",
+  "status": "candidate",
+  "rule": "把冲突分成阶段，比较各方持续承担成本与外部支持的能力。",
+  "observed_in_arguments": [
+    "AR04",
+    "AR05",
+    "AR08"
+  ],
+  "source_segments": [
+    "SS-C035",
+    "SS-C056",
+    "SS-C059"
+  ],
+  "why_method_not_case_conclusion": "时间分段和成本承受规则可跨冲突复用；60天是本次应用值，不是方法本身。",
+  "known_limits": "安全系数不是经验证的政治上限。",
+  "possible_counterexamples": "各方可接受高成本使冲突长期化。",
+  "failure_modes": "随意翻倍制造精确期限；用愿望代替代价函数。"
+}
+```
+
+## 22 REVIEW QUEUE
+
+### RQ001
+
+```json
+{
+  "review_id": "RQ001",
+  "severity": "Critical",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C057",
+    "C058",
+    "AR05"
+  ],
+  "issue": "产地可用储油空间与消费库存耗尽混淆，影响整条60天链。",
+  "required_action": "回听20:20–20:50并取得JPM原研报及库容/流量/减产假设。",
+  "status": "open"
+}
+```
+
+### RQ002
+
+```json
+{
+  "review_id": "RQ002",
+  "severity": "Critical",
+  "review_type": "excessive_inference",
+  "target_refs": [
+    "C064",
+    "AR05"
+  ],
+  "issue": "30×2不能证明战争绝不超过60天。",
+  "required_action": "分离物理约束与政治结果，登记可反证的期限定义。",
+  "status": "open"
+}
+```
+
+### RQ003
+
+```json
+{
+  "review_id": "RQ003",
+  "severity": "Critical",
+  "review_type": "excessive_inference",
+  "target_refs": [
+    "C082",
+    "C083",
+    "AR09"
+  ],
+  "issue": "控制航道被升级成全球定价权和美国独享新增收益。",
+  "required_action": "补边际供给、替代来源、市场份额、合同与收入分配证据。",
+  "status": "open"
+}
+```
+
+### RQ004
+
+```json
+{
+  "review_id": "RQ004",
+  "severity": "Critical",
+  "review_type": "event_timing",
+  "target_refs": [
+    "S05",
+    "LV06",
+    "LV07",
+    "LV08",
+    "LV09",
+    "LV10"
+  ],
+  "issue": "滚动页面包含cutoff后内容；历史版本不可恢复。",
+  "required_action": "仅准入时间明确条目；未知改动仍标版本风险，不将后续页当原页。",
+  "status": "open"
+}
+```
+
+### RQ005
+
+```json
+{
+  "review_id": "RQ005",
+  "severity": "High",
+  "review_type": "source_conflict",
+  "target_refs": [
+    "C001",
+    "X01",
+    "X02"
+  ],
+  "issue": "大摩、摩根大通和德银预测来源/条件混在一起。",
+  "required_action": "核音与原研报，机构不自动替换。",
+  "status": "open"
+}
+```
+
+### RQ006
+
+```json
+{
+  "review_id": "RQ006",
+  "severity": "High",
+  "review_type": "numerical_conflict",
+  "target_refs": [
+    "C041",
+    "X04",
+    "X15"
+  ],
+  "issue": "30–40%全球油供可能混用海运出口分母和年份。",
+  "required_action": "匹配同年同口径后判断，不自动替换20%。",
+  "status": "open"
+}
+```
+
+### RQ007
+
+```json
+{
+  "review_id": "RQ007",
+  "severity": "High",
+  "review_type": "numerical_conflict",
+  "target_refs": [
+    "C036",
+    "C037",
+    "C078"
+  ],
+  "issue": "一周+一个月、四周、40天互相不等价。",
+  "required_action": "保留原始相对窗口；核查锚点再转换日历日。",
+  "status": "open"
+}
+```
+
+### RQ008
+
+```json
+{
+  "review_id": "RQ008",
+  "severity": "High",
+  "review_type": "asr_uncertain",
+  "target_refs": [
+    "C080",
+    "C086",
+    "COR13"
+  ],
+  "issue": "100到126与后文100/120不同。",
+  "required_action": "听音确认数字；两个说法暂分开并关联，不能默改。",
+  "status": "open"
+}
+```
+
+### RQ009
+
+```json
+{
+  "review_id": "RQ009",
+  "severity": "High",
+  "review_type": "source_dependency",
+  "target_refs": [
+    "S02",
+    "S03",
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "issue": "同源ASR以及Reuters转载不能累加独立证据。",
+  "required_action": "按原始讲话/统计/通知起源计数，文章可分多个证据家族。",
+  "status": "open"
+}
+```
+
+### RQ010
+
+```json
+{
+  "review_id": "RQ010",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "X05",
+    "X06",
+    "X07",
+    "C027"
+  ],
+  "issue": "封锁、击沉、航母后退不能仅靠战方/转述核实。",
+  "required_action": "查独立船位、卫星/航运资料；与宣布行为分开。",
+  "status": "open"
+}
+```
+
+### RQ011
+
+```json
+{
+  "review_id": "RQ011",
+  "severity": "High",
+  "review_type": "argument_bridge",
+  "target_refs": [
+    "M01",
+    "M02",
+    "AR01"
+  ],
+  "issue": "运输保险成本到期货涨幅缺可交付供给和风险定价节点。",
+  "required_action": "取得同基准价格、运费保险、库存及替代供应时序。",
+  "status": "open"
+}
+```
+
+### RQ012
+
+```json
+{
+  "review_id": "RQ012",
+  "severity": "High",
+  "review_type": "argument_bridge",
+  "target_refs": [
+    "M03",
+    "M04",
+    "AR09"
+  ],
+  "issue": "全球定价和美国国内补贴之间缺财政/公司收益分配节点。",
+  "required_action": "不得登记成已存在政策；核制度和资金渠道。",
+  "status": "open"
+}
+```
+
+### RQ013
+
+```json
+{
+  "review_id": "RQ013",
+  "severity": "High",
+  "review_type": "argument_bridge",
+  "target_refs": [
+    "M06",
+    "C093",
+    "C004"
+  ],
+  "issue": "资本赴美、中国以及流入AI没有数据支持。",
+  "required_action": "寻找cutoff前跨境流量/资产配置/融资证据。",
+  "status": "open"
+}
+```
+
+### RQ014
+
+```json
+{
+  "review_id": "RQ014",
+  "severity": "High",
+  "review_type": "numerical_conflict",
+  "target_refs": [
+    "C045",
+    "C046"
+  ],
+  "issue": "六七比100与1万比六七缺同弹种同时间产量来源。",
+  "required_action": "原始鲁比奥讲话及实际生产能力分别核查。",
+  "status": "open"
+}
+```
+
+### RQ015
+
+```json
+{
+  "review_id": "RQ015",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C065",
+    "AR06"
+  ],
+  "issue": "未能识别历史封锁60天皆妥协的案例集合。",
+  "required_action": "要求事件、日期和封锁定义；没有则不入Verified。",
+  "status": "open"
+}
+```
+
+### RQ016
+
+```json
+{
+  "review_id": "RQ016",
+  "severity": "High",
+  "review_type": "excessive_inference",
+  "target_refs": [
+    "C070",
+    "C071",
+    "AR08"
+  ],
+  "issue": "无敌舰队挫折被压缩成国家即时衰落。",
+  "required_action": "核历史时间尺度及其他原因；保持有限类比。",
+  "status": "open"
+}
+```
+
+### RQ017
+
+```json
+{
+  "review_id": "RQ017",
+  "severity": "High",
+  "review_type": "forecast_lineage",
+  "target_refs": [
+    "C053",
+    "C104"
+  ],
+  "issue": "主播追述往期预测与比喻，未取得原节目。",
+  "required_action": "检索原版本、原时点和原措辞；不反填历史Forecast。",
+  "status": "open"
+}
+```
+
+### RQ018
+
+```json
+{
+  "review_id": "RQ018",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C048",
+    "C049",
+    "C050",
+    "C081"
+  ],
+  "issue": "台湾结果必然、中国国家战略、韩国认知、美国控制委内瑞拉均未得原始证据。",
+  "required_action": "区分主播判断和国家实际政策，补各自来源。",
+  "status": "open"
+}
+```
+
+### RQ019
+
+```json
+{
+  "review_id": "RQ019",
+  "severity": "High",
+  "review_type": "source_conflict",
+  "target_refs": [
+    "S11",
+    "X12",
+    "X15"
+  ],
+  "issue": "EIA正文注明重刊改标签，但修正时间未知。",
+  "required_action": "获取2026-03-03前存档；当前版本只作核查线索。",
+  "status": "open"
+}
+```
+
+### RQ020
+
+```json
+{
+  "review_id": "RQ020",
+  "severity": "High",
+  "review_type": "registry_extension",
+  "target_refs": [
+    "X08",
+    "X09",
+    "X10",
+    "X11",
+    "AR13"
+  ],
+  "issue": "未读Reuters原页后续版本；LNG流程改变未取得可准入原通知。",
+  "required_action": "分原油/成品油/运费/LNG，已核查范围不外推。",
+  "status": "open"
+}
+```
+
+### RQ021
+
+```json
+{
+  "review_id": "RQ021",
+  "severity": "High",
+  "review_type": "source_conflict",
+  "target_refs": [
+    "C030",
+    "EV09"
+  ],
+  "issue": "计划重开空域不能写成已经安全开放。",
+  "required_action": "核实际开放时刻与航班运行；原话仍保留。",
+  "status": "open"
+}
+```
+
+### RQ022
+
+```json
+{
+  "review_id": "RQ022",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C091",
+    "C092"
+  ],
+  "issue": "AI在本轮战争的实际使用与估值支撑两层均缺原证。",
+  "required_action": "核军用应用再单独检验商业价值传导。",
+  "status": "open"
+}
+```
+
+### RQ023
+
+```json
+{
+  "review_id": "RQ023",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C022",
+    "C096"
+  ],
+  "issue": "特朗普谈判/美元承诺系二手引用，原始采访未读。",
+  "required_action": "找cutoff前原采访，维持reported_only。",
+  "status": "open"
+}
+```
+
+### RQ024
+
+```json
+{
+  "review_id": "RQ024",
+  "severity": "Medium",
+  "review_type": "speaker_slip_review",
+  "target_refs": [
+    "C051",
+    "AN04"
+  ],
+  "issue": "国庆节与春节前时间错位。",
+  "required_action": "回听后再判ASR或口误，不能按常识静默纠正。",
+  "status": "open"
+}
+```
+
+### RQ025
+
+```json
+{
+  "review_id": "RQ025",
+  "severity": "Medium",
+  "review_type": "entity_resolution",
+  "target_refs": [
+    "C088",
+    "AN09"
+  ],
+  "issue": "“为了连任”的主体及选举对象不清。",
+  "required_action": "确认原音与上下文，不补写宪法例外或第三任假说。",
+  "status": "open"
+}
+```
+
+### RQ026
+
+```json
+{
+  "review_id": "RQ026",
+  "severity": "Medium",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C008",
+    "C011",
+    "C012",
+    "C013"
+  ],
+  "issue": "30公里、几百船、吨位及6分钟缺地点、统计时点和船型。",
+  "required_action": "核海图与航运统计；地理宽度不等于航道宽度。",
+  "status": "open"
+}
+```
+
+### RQ027
+
+```json
+{
+  "review_id": "RQ027",
+  "severity": "Medium",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C017",
+    "C108"
+  ],
+  "issue": "20%是设想、70是举例基值，不是已核市场观测。",
+  "required_action": "保留projected/estimated，勿并入观察时间序列。",
+  "status": "open"
+}
+```
+
+### RQ028
+
+```json
+{
+  "review_id": "RQ028",
+  "severity": "Medium",
+  "review_type": "claim_duplication",
+  "target_refs": [
+    "C025",
+    "C075",
+    "C079",
+    "C085",
+    "C080",
+    "C086"
+  ],
+  "issue": "同方向但窗口/数值不同；不能全部合并或计作独立新证据。",
+  "required_action": "维持场景与版本关系，听音后处理126。",
+  "status": "open"
+}
+```
+
+### RQ029
+
+```json
+{
+  "review_id": "RQ029",
+  "severity": "Medium",
+  "review_type": "process_boundary",
+  "target_refs": [
+    "TH01",
+    "TH02",
+    "TH03"
+  ],
+  "issue": "战争数日与单次通知不足证明结构性变迁。",
+  "required_action": "补跨时间观测；现阶段StructuralProcess=0。",
+  "status": "open"
+}
+```
+
+### RQ030
+
+```json
+{
+  "review_id": "RQ030",
+  "severity": "Medium",
+  "review_type": "attribution_chain",
+  "target_refs": [
+    "EX01",
+    "C076"
+  ],
+  "issue": "市场预期是主播推断，非调查或隐含波动率测量。",
+  "required_action": "补具体群体和当时市场量，不作总体共识。",
+  "status": "open"
+}
+```
+
+### RQ031
+
+```json
+{
+  "review_id": "RQ031",
+  "severity": "Medium",
+  "review_type": "contradictory_assessment",
+  "target_refs": [
+    "C020",
+    "C077",
+    "C075",
+    "C035"
+  ],
+  "issue": "逐步失控与部分主动、慢涨与条件120未必逻辑冲突。",
+  "required_action": "比较时点、条件和度量后才能CONTRADICTS。",
+  "status": "open"
+}
+```
+
+### RQ032
+
+```json
+{
+  "review_id": "RQ032",
+  "severity": "Medium",
+  "review_type": "registry_extension",
+  "target_refs": [
+    "TH01",
+    "TH02",
+    "TH03"
+  ],
+  "issue": "只有本地样本目录，没有完整Thesis注册表。",
+  "required_action": "全库查same/update/related/new；目前决策为provisional。",
+  "status": "open"
+}
+```
+
+### RQ033
+
+```json
+{
+  "review_id": "RQ033",
+  "severity": "Medium",
+  "review_type": "event_timing",
+  "target_refs": [
+    "S01",
+    "S13"
+  ],
+  "issue": "发布时间来自追加文件，录制时间未知。",
+  "required_action": "用平台元数据交叉核对；字幕时间不加到发布时间。",
+  "status": "open"
+}
+```
+
+### RQ034
+
+```json
+{
+  "review_id": "RQ034",
+  "severity": "Medium",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C087",
+    "C062"
+  ],
+  "issue": "历史利润归属和主权基金资本作用未给统计。",
+  "required_action": "核年份、利润口径及可撤出头寸，不据规模自动推政治控制。",
+  "status": "open"
+}
+```
+
+### RQ035
+
+```json
+{
+  "review_id": "RQ035",
+  "severity": "Low",
+  "review_type": "asr_uncertain",
+  "target_refs": [
+    "COR01",
+    "COR02",
+    "COR03",
+    "COR04",
+    "COR05",
+    "COR06",
+    "COR07",
+    "COR08",
+    "COR11",
+    "COR12",
+    "COR15",
+    "COR16"
+  ],
+  "issue": "专名与常用词语义纠错可信，但尚未听音。",
+  "required_action": "候选规范化与raw分开，回听后才accepted。",
+  "status": "open"
+}
+```
+
+### RQ036
+
+```json
+{
+  "review_id": "RQ036",
+  "severity": "High",
+  "review_type": "forecast_lineage",
+  "target_refs": [
+    "FC-C004",
+    "FC-C005",
+    "FC-C025",
+    "FC-C026",
+    "FC-C028",
+    "FC-C029",
+    "FC-C031",
+    "FC-C032",
+    "FC-C034",
+    "FC-C035",
+    "FC-C037",
+    "FC-C039",
+    "FC-C040",
+    "FC-C042",
+    "FC-C047",
+    "FC-C048",
+    "FC-C055",
+    "FC-C060",
+    "FC-C061",
+    "FC-C063",
+    "FC-C064",
+    "FC-C067",
+    "FC-C068",
+    "FC-C069",
+    "FC-C073",
+    "FC-C075",
+    "FC-C076",
+    "FC-C078",
+    "FC-C079",
+    "FC-C080",
+    "FC-C083",
+    "FC-C085",
+    "FC-C086",
+    "FC-C088",
+    "FC-C089",
+    "FC-C090",
+    "FC-C092",
+    "FC-C004",
+    "FC-C099",
+    "FC-C100",
+    "FC-C101",
+    "FC-C103",
+    "FC-C106",
+    "FC-X01",
+    "FC-X02",
+    "FC-X03",
+    "FC-X14"
+  ],
+  "issue": "多数预测缺油种/窗口锚点/条件阈值或胜负定义；所有model判准未获人工批准。",
+  "required_action": "逐条锁定标准后另建后验评估；本样本不使用cutoff后结果。",
+  "status": "open"
+}
+```
+
+## 23 SCHEMA ONTOLOGY EXTRACTION ISSUES FOUND
+
+### IS01
+
+```json
+{
+  "issue_id": "IS01",
+  "classification": "schema_field_issue",
+  "problem": "滚动Source当前标题、条目发布时间、条目有效时间和编辑时间无法仅靠published_at表示。",
+  "proposal": "SourceVersion辅助记录entry_id、item_published_at、captured_at、valid_from/to、edited_at、content_hash、cutoff_status；未知即null。",
+  "new_core_object_needed": false
+}
+```
+
+### IS02
+
+```json
+{
+  "issue_id": "IS02",
+  "classification": "schema_field_issue",
+  "problem": "一篇汇编新闻含多个讲话/机构原始起源，单一source_family_id容易误计独立性。",
+  "proposal": "增加证据片段级origin_family_ids与derived_from，独立性按命题评估。",
+  "new_core_object_needed": false
+}
+```
+
+### IS03
+
+```json
+{
+  "issue_id": "IS03",
+  "classification": "schema_field_issue",
+  "problem": "油储可指消费库存、产地库存或剩余库容，measurement_type=stock仍不足。",
+  "proposal": "Observation增加storage_role、capacity_total/used/free、inventory_location、flow_balance_definition；未给则null。",
+  "new_core_object_needed": false
+}
+```
+
+### IS04
+
+```json
+{
+  "issue_id": "IS04",
+  "classification": "registry_issue",
+  "problem": "市场基础设施变化不宜新建核心本体。",
+  "proposal": "Event子类型候选market_infrastructure_event；资产、港口、合约、报价过程、实施/终止时间作为字段。",
+  "new_core_object_needed": false
+}
+```
+
+### IS05
+
+```json
+{
+  "issue_id": "IS05",
+  "classification": "schema_field_issue",
+  "problem": "forecasts需共同父情景、触发条件、互斥程度和窗口锚点；possible/likely不能表示“不太可能”的极性。",
+  "proposal": "增加scenario_parent、condition_expression、window_anchor、modality_polarity及original_modality；本次均为显式候选字段。",
+  "new_core_object_needed": false
+}
+```
+
+### IS06
+
+```json
+{
+  "issue_id": "IS06",
+  "classification": "schema_field_issue",
+  "problem": "声学未核、语义高置信与口误三者不可混。",
+  "proposal": "correction.applied与acoustic_confidence独立；未听音不写speaker_slip_confirmed。",
+  "new_core_object_needed": false
+}
+```
+
+### IS07
+
+```json
+{
+  "issue_id": "IS07",
+  "classification": "registry_issue",
+  "problem": "Argument关系注册表未提供，统计/演绎方式不全。",
+  "proposal": "本包SUPPORTS_CONDITIONALLY作为待注册关系，不宣称生产Schema已批准。",
+  "new_core_object_needed": false
+}
+```
+
+### IS08
+
+```json
+{
+  "issue_id": "IS08",
+  "classification": "prompt_issue",
+  "problem": "附加提示称Platts影响原油、成品油和LNG，不等于证据已经验证全部品种。",
+  "proposal": "用户授权提示为任务规范；其中事实仍需核，LNG未核须Review。",
+  "new_core_object_needed": false
+}
+```
+
+### IS09
+
+```json
+{
+  "issue_id": "IS09",
+  "classification": "schema_field_issue",
+  "problem": "主张含“如果发生X”不是无条件现实；控制权与宣称封锁等状态容易混写。",
+  "proposal": "Claim保留条件与对象状态；Event记录statement_event，现实封锁程度以观察单独证明。",
+  "new_core_object_needed": false
+}
+```
+
+### IS10
+
+```json
+{
+  "issue_id": "IS10",
+  "classification": "core_ontology_issue",
+  "problem": "本期未发现必须增加核心对象的证据。",
+  "proposal": "StructuralProcess、Contradiction均可为0；优先细化Event、Observation、SourceVersion和Forecast。",
+  "new_core_object_needed": false
+}
+```
+
+## 24 GOLDEN SAMPLE SUMMARY
+
+```json
+{
+  "source_count": 13,
+  "source_family_count": 7,
+  "claim_count": 130,
+  "creator_claim_count": 108,
+  "external_context_claim_count": 15,
+  "model_claim_count": 7,
+  "claim_occurrence_count": 133,
+  "event_count": 9,
+  "structural_process_count": 0,
+  "indicator_count": 18,
+  "observation_count": 18,
+  "argument_count": 12,
+  "mechanism_count": 3,
+  "thesis_count": 3,
+  "forecast_count": 46,
+  "contradiction_count": 0,
+  "heuristic_count": 2,
+  "review_queue_count": 36,
+  "review_severity_counts": {
+    "Critical": 4,
+    "High": 20,
+    "Medium": 11,
+    "Low": 1
+  }
+}
+```
+
+## V0.3最终八问与本期追加五问
+
+### A 核心3—5条Argument Chain
+
+① AR01：岸基威胁→保险/运力→交付成本→价格，幅度桥缺失。② AR05：储油20多天→30→60→资本及政治压力→停战，政治上限最薄弱。③ AR09：控制海峡→供应/定价→高价/收益→国内廉价油，定价与收益归属跳跃最大。④ AR08：战场受挫→信誉受损→全球挑战→霸权衰退，历史类比有限。⑤ AR10：战争应用/资金避险→AI价值和融资，流入AI未证。
+
+### B 四层分离
+
+现实层仅承认已核Platts通知行为，海峡完全封锁和战果未核；来源层X05–X07是交战方经新闻转述的声称，X01–X03是机构条件预测；9527解释层C007/C024/C057–C064把目标、言辞及储油转化为控制与期限；结构推论层TH01–TH03关于长期油价、霸权和资本，均非已验证现实。
+
+### C StructuralProcess证据
+
+本期为0。战争持续数天、Platts同日审查及继续发布，是事件及更新关系；没有本次cutoff内足够跨期证据确认市场结构永久改变。美元与霸权长期衰退保留为Thesis/Forecast。
+
+### D 捷径、桥接与最长路径
+
+详见各Argument计算值。AR01最长6边，3条模型边；AR05最长7边，3条模型边；AR09最长4边，4条模型边。显式捷径独立储存，不用它缩短扩展图；路径长度是本次代表性重建的边数，不宣称唯一真实推理长度。
+
+### E 分析方法
+
+HC01看可执行能力而非声明，HC02按阶段比较持续成本。均只算Candidate；单期无法证明稳定或有效，30天翻倍不升级为通用可靠方法。
+
+### F 不能进入Verified Knowledge
+
+60天绝对上限、美国必败、油价指定数值、伊朗完全封锁、命中/击沉/900公里后退、军工1万对六七、中国战略与台湾必然结果、全球高油价收益美国独占、赴美资本必进AI、美元必加速衰落。原声错误未排除，过去“预测过”也不等于当时存在已登记Forecast。
+
+### G 核心Ontology是否缺失
+
+没有必须新增核心对象。暴露的是SourceVersion、库容角色、情景条件和报价过程的字段及辅助对象不足；market_infrastructure_event是Event子类候选，不能悄悄扩成新核心对象。
+
+### H 未来30期复用
+
+Actor：各国、IRGC、Platts、研究机构。Indicator：实际通行桶/日、船数、停航比例、保险/运费、产地剩余库容、生产、同合约现货/期货价差。StructuralProcess：本次不建，待累计序列。Mechanism：ME01/ME02优先，ME03待数据。Thesis：TH01及TH02持续反证，TH03核资本流。Heuristic：HC01/HC02作为候选追踪成功及失败。
+
+### 附加A 决定油价的变量
+
+主播明确提到控制者、战事时长、运量、保险、产油、需求、储油和预期；模型需补净供给、可用库容、替代路线、库存位置、油种/基准/合约、现货可交付性及期货风险溢价。缺数据时不能定量分配贡献。
+
+### 附加B 主播与新闻核心变量
+
+不同。标题突出战火与价格能涨多高；正文机构情景更关注中断时长、全面封闭、基础设施和库容。9527进一步将最终控制权和美国战略承受力置于核心。120/200不都属于主播自己的预测，也不共享条件。
+
+### 附加C 从军事到价格跨几步
+
+没有单一数字。AR01代表链7个节点/6条边：岸基条件→威胁能力→保险风险→货物成本→现货交付桥→期货定价桥→首周价格；其中地形起点的完整最长路径实际为C009→C010→C014→C015→M02→M01→C025。AR04显式只2边即能力→袭船设想→120，短不是充分而是省略多。
+
+### 附加D explicit与model bridge
+
+AR01威胁、保费、转嫁、运力是explicit；现货交付和期货传导及涨幅是model_reconstruction。AR05“20多→30→翻倍→妥协”是explicit，资本撤出与美国政策响应桥是model。AR09供应/定价/收益独占是主播明确说出的跳跃，模型M03/M04把未证前提摊开，不能归给主播。
+
+### 附加E V0.3压力测试结果
+
+滚动页必须entry级版本与cutoff，页面级日期不足；定价流程需要资产/港口/评估方式/规则状态维度。Platts原油审查、成品油报价准入和运费继续发布是不同事件，不能合称停止定价。LNG流程未核，追加提示本身不充当证据。
+
+## 审计辅助材料（不新增核心Ontology）
+
+```json
+{
+  "source_segments": [
+    {
+      "source_segment_id": "SS-C001",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "cue_start": 2,
+      "cue_end": 3,
+      "start": "00:00:20,210",
+      "end": "00:01:00,210",
+      "raw_text": "和世界的影响呢就开始展现出来了。油价最近一段时间的波动呢，其实按道理来说的话是挺反常试的。但是在我看来是挺正常的。所谓的反常是啥呢？就是它没有像大家预想的那样，伊朗一封锁霍尔木斯海峡油价一下子涨上天上去啊，我看到大摩的分析师都已经开始说。\n油价涨到120啊，有的竟然说产到200是吧？不会那么快，不会那么的快，油价涨多少，取决于啥呢？取决于战争的进程。这个战争的进程详细的说的话，就是美国对于这场战争的主导权。所以围绕着油价其实是有好多好多。"
+    },
+    {
+      "source_segment_id": "SS-C002",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "cue_start": 3,
+      "cue_end": 5,
+      "start": "00:00:40,210",
+      "end": "00:01:06,020",
+      "raw_text": "油价涨到120啊，有的竟然说产到200是吧？不会那么快，不会那么的快，油价涨多少，取决于啥呢？取决于战争的进程。这个战争的进程详细的说的话，就是美国对于这场战争的主导权。所以围绕着油价其实是有好多好多。\n的分析路径有好多好多时间节点呢。\n咱们今天呢就好好的跟大家把这个时间节点盘点盘点。"
+    },
+    {
+      "source_segment_id": "SS-C003",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "cue_start": 13,
+      "cue_end": 20,
+      "start": "00:01:19,340",
+      "end": "00:01:39,380",
+      "raw_text": "特朗普在做这个决策的时候，好赌中的一项。\n就是希望通过这个是。\n把中东这边的局面扰乱了以后。\n中东这边的网爷能够把自己的钱财。\n出于避险的需求往美国这边涌。\n来接美国的盘。\n啊，这是它的容易算呗。\n但是他这个容易算票能不能打得成？"
+    },
+    {
+      "source_segment_id": "SS-C004",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "cue_start": 16,
+      "cue_end": 18,
+      "start": "00:01:27,760",
+      "end": "00:01:35,040",
+      "raw_text": "中东这边的网爷能够把自己的钱财。\n出于避险的需求往美国这边涌。\n来接美国的盘。"
+    },
+    {
+      "source_segment_id": "SS-C005",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 34,
+      "cue_end": 35,
+      "start": "00:02:15,470",
+      "end": "00:02:22,410",
+      "raw_text": "只要美国能够呢就是让伊朗这边屈服。\n那整个的这个事情呢，那当然是美国说了算的。"
+    },
+    {
+      "source_segment_id": "SS-C006",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 36,
+      "cue_end": 40,
+      "start": "00:02:22,410",
+      "end": "00:02:37,450",
+      "raw_text": "你从特朗普定的这个战争的目的，你就看得非常非常清楚。他是不是说了。\n啊，要消灭伊朗的海军。\n为啥要消灭伊朗的海军呢？\n我前面的节会已经跟他翻译过了，是吧？\n就是要控制伊朗啊控制这个霍尔木斯海峡的控制权。"
+    },
+    {
+      "source_segment_id": "SS-C007",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 38,
+      "cue_end": 40,
+      "start": "00:02:29,380",
+      "end": "00:02:37,450",
+      "raw_text": "为啥要消灭伊朗的海军呢？\n我前面的节会已经跟他翻译过了，是吧？\n就是要控制伊朗啊控制这个霍尔木斯海峡的控制权。"
+    },
+    {
+      "source_segment_id": "SS-C008",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 49,
+      "cue_end": 50,
+      "start": "00:02:55,260",
+      "end": "00:03:01,600",
+      "raw_text": "呃，30公里左右的宽度啊，这个整个的这个海峡的这个。\n这个这个这个宽度就是30公里。"
+    },
+    {
+      "source_segment_id": "SS-C009",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 55,
+      "cue_end": 60,
+      "start": "00:03:09,070",
+      "end": "00:03:22,620",
+      "raw_text": "伊朗在旁边这块的地形，它是一个非常。\n复杂的一个山地，崎岖的山地。\n有山地就意味着啥？\n有高差。\n有高差就意味着啥呢？很多很多路上的武器的射程。\n远不止30公里。"
+    },
+    {
+      "source_segment_id": "SS-C010",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 59,
+      "cue_end": 63,
+      "start": "00:03:17,590",
+      "end": "00:03:31,720",
+      "raw_text": "有高差就意味着啥呢？很多很多路上的武器的射程。\n远不止30公里。\n所以呢。\n所以对于伊朗而言的话，海军被消灭完了，并不代表着他就没有能力。\n破坏霍乌尔木兹海峡的运输了。"
+    },
+    {
+      "source_segment_id": "SS-C011",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 65,
+      "cue_end": 69,
+      "start": "00:03:32,820",
+      "end": "00:03:43,760",
+      "raw_text": "霍尔木兹海峡最繁忙的时候，一天。\n是吧。\n他的这运量呢。\n有上几百条的这个游轮呢，几十吨的几十万吨的这个游轮呢。\n从这个海峡通过。"
+    },
+    {
+      "source_segment_id": "SS-C012",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 68,
+      "cue_end": 69,
+      "start": "00:03:37,620",
+      "end": "00:03:43,760",
+      "raw_text": "有上几百条的这个游轮呢，几十吨的几十万吨的这个游轮呢。\n从这个海峡通过。"
+    },
+    {
+      "source_segment_id": "SS-C013",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 70,
+      "cue_end": 70,
+      "start": "00:03:43,760",
+      "end": "00:03:47,000",
+      "raw_text": "平均最繁忙的时候，6分钟通过一一艘船。"
+    },
+    {
+      "source_segment_id": "SS-C014",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 73,
+      "cue_end": 84,
+      "start": "00:03:50,560",
+      "end": "00:04:27,220",
+      "raw_text": "只要伊朗在岸边架起来。\n炮击的阵地甚至。\n都不需要是那种正式的阵地，他打一枪换一个地方。\n那种。\n山山上挖个洞是吧，搞个那种猫耳洞是吧？打了以后。\n然后然后然后突然之间就从地道转移了。\n就搞这种事儿，零敲碎打的这么这么折腾。\n他只要能够扰乱运力。\n他不需要扰乱太多，他只要能够提高保险的这个成本是吧？\n你这些游船，你面临着伊朗的这种打黑枪的风险，那作为这个。\n这个这个船主的话，当然要投保了。那投保了，那风险一增加的话，保费就要增加。\n这些保费就要加到运输的货物里边去。"
+    },
+    {
+      "source_segment_id": "SS-C015",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 83,
+      "cue_end": 84,
+      "start": "00:04:19,020",
+      "end": "00:04:27,220",
+      "raw_text": "这个这个船主的话，当然要投保了。那投保了，那风险一增加的话，保费就要增加。\n这些保费就要加到运输的货物里边去。"
+    },
+    {
+      "source_segment_id": "SS-C016",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 86,
+      "cue_end": 89,
+      "start": "00:04:27,830",
+      "end": "00:04:36,180",
+      "raw_text": "然后客观的上来说的话，由于这些事情的影响导致你运力的降低，你得。\n降低密度吧。\nYeah.\n然后呢，你运力降低了以后。"
+    },
+    {
+      "source_segment_id": "SS-C017",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 90,
+      "cue_end": 95,
+      "start": "00:04:36,180",
+      "end": "00:04:51,810",
+      "raw_text": "本来需要这个。\n吞吐量哈有这么多的这个出量的。\n就你假设少20%的这个运量。\nNo.\n大家的需求是不变的，甚至呢慢能越来越高，大家都想过好的生活。\n而你这边能望出运游的这个运量出现了问题。"
+    },
+    {
+      "source_segment_id": "SS-C018",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 95,
+      "cue_end": 102,
+      "start": "00:04:48,290",
+      "end": "00:05:07,800",
+      "raw_text": "而你这边能望出运游的这个运量出现了问题。\n是不是客观上来说就是。\n帮欧佩克，特别是中东这边的欧佩克那海和会的这些成员们。\n他们的这个运营呃这个这个产油的。\n这个上限加了个盖子。\n对吧。\n这是伊朗能做的事儿。\n他不需要说是彻底的封锁霍尔木斯材家。"
+    },
+    {
+      "source_segment_id": "SS-C019",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "cue_start": 104,
+      "cue_end": 109,
+      "start": "00:05:08,550",
+      "end": "00:05:22,130",
+      "raw_text": "美国弃图啊。\n通过彻底的消灭伊朗的海军。\n完全的掌握活台下这个打算。\n一开始就是不存在的，他只是。\n遮羞布给自己着补的话。\n对吧这是一个大家首先得明确的事儿。"
+    },
+    {
+      "source_segment_id": "SS-C020",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "cue_start": 111,
+      "cue_end": 113,
+      "start": "00:05:23,720",
+      "end": "00:05:29,150",
+      "raw_text": "对美国而言的话。\n眼前的这个局面。\n实际上呢他是慢慢的在失控的。"
+    },
+    {
+      "source_segment_id": "SS-C021",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "cue_start": 128,
+      "cue_end": 130,
+      "start": "00:06:03,050",
+      "end": "00:06:16,470",
+      "raw_text": "但凡表露出来一点点这样的意向的话。\n美国这边，以色列这边绝对会大收特殊，告诉大家和平不远了，情况正常了，大家不用担心了。\n恰恰没有，对吧？"
+    },
+    {
+      "source_segment_id": "SS-C022",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "cue_start": 133,
+      "cue_end": 135,
+      "start": "00:06:20,360",
+      "end": "00:06:30,780",
+      "raw_text": "旁敲侧击的说啊，向着大西洋月刊说。\n啊，我已经收到了伊朗这边打过来的。\n要求谈判的电话是吧，好像是说什么呢？一切局势尽在掌握。"
+    },
+    {
+      "source_segment_id": "SS-C023",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "cue_start": 136,
+      "cue_end": 143,
+      "start": "00:06:30,780",
+      "end": "00:06:51,030",
+      "raw_text": "但实际情况呢，实际情况，特朗普第三次的对外。\n啊，这个新闻发布会。\n就说的很清楚了。\n他第三次里面说的是吧？\n我们预计的。\n这场战争我们一开始做的预案是4到5个星期。\n那。\n现在呢我不适合这个时间线是吧？打到什么时候，要打到什么时候，需要打到什么时候，我都有充足的耐心。"
+    },
+    {
+      "source_segment_id": "SS-C024",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "cue_start": 146,
+      "cue_end": 154,
+      "start": "00:06:52,960",
+      "end": "00:07:17,540",
+      "raw_text": "表现出自己长久的作战意志。\n来干嘛呢？\n来对作战的双方进行压力测试施压。\n起到的目的是啥呢？希望希望得到的结果是啥呢？\n希望缩短战争的时长。\n就是特朗普一遍在强调，我们有充足的耐心可以尝。\n长期的持久的战斗下去。\n恰恰是他心里没底。\n希望快速的解决问题的表现。"
+    },
+    {
+      "source_segment_id": "SS-C025",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG03",
+        "SEG04"
+      ],
+      "cue_start": 163,
+      "cue_end": 180,
+      "start": "00:07:35,700",
+      "end": "00:08:21,520",
+      "raw_text": "所以呢油价不会一飞冲天的一下涨到位。\n他需要慢慢的坚定的。\n涨上去。\n所以随着霍尔木兹海峡。\n慢慢的在伊朗这边获得主导权。\n美国。\n夺取霍尔穆斯海峡的主导权的尝试失败。\n啊。\n头一个星期。\n系啊。\n整个的油价会经历一个缓慢的上涨。\n上涨的幅度也不会太多。\n比过去的油价增加20%到30%。\n过去的油价大在大概在60到70，咱们按70算啊。\n那30的话。\n就差不多再往上涨个20左右，涨到90左右。这就是说。\n一个星期左右是吧，整体的油价会慢慢的从啊从60到70涨到80到90。在这个范围里面。\n基本上就稳定了。"
+    },
+    {
+      "source_segment_id": "SS-C026",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "cue_start": 183,
+      "cue_end": 198,
+      "start": "00:08:26,080",
+      "end": "00:09:00,720",
+      "raw_text": "随着美国呢。\n企图通过证明自己对霍尔木斯海峡信手拈来。\n能够想怎么控制，怎么控制的这个尝试失败。\n也是说。\n随着这个战士推荐到一个星期左右的时间。\n大家都认识到。\n美国不会那么快的达到他自己的战术目标。\n战略目标。\n这个时候呢，这个事件就有了分歧。\n美国是浅尝辄止呢，见见好就收呢。\n还是要追加。\nSo.\n对于特朗普而言的话，他自己赢血啊。\n那。\n这个事情的话就比较微妙了，得继续看，因为两种都有可能啊。\n对于特朗普来说的话。"
+    },
+    {
+      "source_segment_id": "SS-C027",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 206,
+      "cue_end": 207,
+      "start": "00:09:17,360",
+      "end": "00:09:24,660",
+      "raw_text": "收缩力量，那么航母的舰队不是已经颠了嘛，是吧？林肯号不是已经后撤900倍。\n900900公里了嘛，是吧？"
+    },
+    {
+      "source_segment_id": "SS-C028",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 212,
+      "cue_end": 228,
+      "start": "00:09:32,690",
+      "end": "00:10:18,140",
+      "raw_text": "意思是，霍尔木兹海峡的主导权我不去抢了。你伊朗说了算。\n但是。\n如果在这样的情况下，你继续封锁霍门彩霞的话，你得罪的就不是我了然你得罪的是其他人了。\n世界都会因为是你受到影响了。\n你千万不要。\n啊，因小事大啊，觉得。\n啊，你的这个领导被扬了，是吧，你要找我报仇，结果我就拉着全世界一起作为代价。\n那不好意思。\n一开始你有理的事，你损害了大家利益，你也变成坏人了。\n啊，把这个选择留在这里，把这个舞台让给你。\n让你在这里面做选择。\n逼着你伊朗啊。\n在这里边啊进退两难。\n这个时候伊朗新上来的这个领导班子一定会。\n走折中路线。\n就释放一些善意。\n部分的让开放这个霍尔木兹海洋的航道。"
+    },
+    {
+      "source_segment_id": "SS-C029",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 234,
+      "cue_end": 235,
+      "start": "00:10:25,910",
+      "end": "00:10:32,450",
+      "raw_text": "经过我一个月啊，就经过我一个星期的呃极限试压。\n伊朗终于妥协了，他开放了霍尔木兹海峡。"
+    },
+    {
+      "source_segment_id": "SS-C030",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 236,
+      "cue_end": 242,
+      "start": "00:10:32,450",
+      "end": "00:10:52,190",
+      "raw_text": "就好像昨天是吧，以色列这边宣布开放领空。\n道理是一样的。\n你愿不愿意开放领空是你的事儿，挨不挨打也是你的事儿。那你说了算嘛。\n你光是开放开放领空。\n你有本事就让伊朗不打你。\n对吧要不你开放领空呢，其实就是。\n啊，吹夜路走啊，走夜路吹口哨嘛，对吧？自己骗自己嘛，给自己撞倒了嘛。"
+    },
+    {
+      "source_segment_id": "SS-C031",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 245,
+      "cue_end": 249,
+      "start": "00:10:54,030",
+      "end": "00:11:07,190",
+      "raw_text": "伊朗是出于现实的考虑，确确实实。\n要开放部分霍尔木兹海峡的通行权。\n起码要让伊朗的游轮。\n能够向马六甲海峡进发。\n把伊朗油拿出去卖掉，对吧？"
+    },
+    {
+      "source_segment_id": "SS-C032",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 253,
+      "cue_end": 255,
+      "start": "00:11:16,080",
+      "end": "00:11:24,670",
+      "raw_text": "按照这样的剧情发展的话。\n油价就可以有一个温和的回落。\n或者说呢起码不涨了，不会有特别大的这个波动的。"
+    },
+    {
+      "source_segment_id": "SS-C033",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 261,
+      "cue_end": 269,
+      "start": "00:11:42,600",
+      "end": "00:12:02,520",
+      "raw_text": "那他退而求其次是干嘛呢？破罐子破摔就是。\n库尔木兹海峡我控制不了，你也休想要控制得了。\n啥意思呢？\n你不是让部分放开吗？我就偏不让你部分放开。\nで吧。\n你伊朗牛牛仔你能够通过地利的这个优势。\n守着这个咽喉药道。\n我美国牛美国有那啥呢？\n我有这些远洋的舰队。"
+    },
+    {
+      "source_segment_id": "SS-C034",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 273,
+      "cue_end": 285,
+      "start": "00:12:09,530",
+      "end": "00:12:37,820",
+      "raw_text": "伊朗从霍尔木兹海峡出来的游轮肯定是亲伊朗的。\n就打着反伊朗的这个旗号，直接打你的游轮。\n让你一朗开放了霍尔蒙海峡，但是你的油还是运不出来。\n啊。\n正义凛然，这是战争行为。\n那现在是战争状态。\n饿死你伊朗，这是。\n天经地义的事儿。\n你伊朗开放库霍尔木斯海峡。\n把油轮出来放怎么样呢？\n伊朗你不愿意做坏人，我美国愿意做坏人。\n我有正当的理由啊，从美国的角度上来说，他我有正当理由啊。\n一挡是我的战争对手啊。"
+    },
+    {
+      "source_segment_id": "SS-C035",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 286,
+      "cue_end": 296,
+      "start": "00:12:37,820",
+      "end": "00:13:02,820",
+      "raw_text": "那这么大的话，油价就会继续往上走。\n刚才说的是吧？\n80到90，这是一个比较稳定的一个观察的点，一个星期左右。\n等着这个时候，如果美国在这个上面一意孤行要继续加注。\n那不好意思。\n油价就会继续的稳步上升。\n上升到什么时候呢？\n上升到120左右，持续多长时间呢？\n持续一个月左右。\n啊。\n就是到一个月左右，是吧，这个油价呢又会涨到120左右。"
+    },
+    {
+      "source_segment_id": "SS-C036",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 297,
+      "cue_end": 314,
+      "start": "00:13:02,820",
+      "end": "00:13:38,510",
+      "raw_text": "整个前面是吧，一个星期。\n后边一个月这加起来是不是4个星期？\n这是不是40天？\n这4天完了以后哎。\nう。\n这加起来的话。\n呃，就差不多是。\n哈梅内衣守灵的这40天就结束了。\nYeah.\n这事情结束了以后。\n这件事情就来到了另外一个最关键的节点。\n到时候美意之间到底怎么谈？\n现在出来这个结果，大家互相认不认账？\n这个时间节点是非常非常关键的。\n就是。\n这个开启这个试端以后，他们内衣。\n啊，停龄40天，守灵40天，40天结束了以后。\n这个局面到底是怎么样子的？"
+    },
+    {
+      "source_segment_id": "SS-C037",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 319,
+      "cue_end": 323,
+      "start": "00:13:49,990",
+      "end": "00:14:03,370",
+      "raw_text": "油价应该停留在什么状态呢？\n应该围绕着，如果不出意外的话，应该围绕着90到100。\n甚至多一点是吧，90到110这个区间里边。\n的上下浮动。\n啊，到了那个时候呢，可能它就会开始回落了，是吧？因为。"
+    },
+    {
+      "source_segment_id": "SS-C038",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "cue_start": 325,
+      "cue_end": 329,
+      "start": "00:14:05,060",
+      "end": "00:14:22,600",
+      "raw_text": "啊，战就是站的这个意图啊也不是特别明显。因为。\n说句心里话，到现在。\n你也没搞明白美国在这里面的真实的战略欲图是啥，他到底想要在这里得到啥，对吧？\n嗯。\n没有目标的动作，他就没有办法有长劲，他可能就是一下子的事，后边的话可能就没有那么大的动力了。"
+    },
+    {
+      "source_segment_id": "SS-C039",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "cue_start": 330,
+      "cue_end": 344,
+      "start": "00:14:22,600",
+      "end": "00:15:02,090",
+      "raw_text": "没有那么大的动力的话，美国有可能是吧？\n打完了。\n这。\n40天以后发现。\n没有办法快速的得到自己的目标。\n然后呢，这个成本呢自己就承担不了了。\n那可能他就会往后退。\n退的话就是。\n借着哈梅内衣首灵结束啊，美伊之间展开新一轮的谈判。\n咱们先把这个封锁有这个霍尔木斯海峡这个事儿。\n把他。\n把它谈一谈。\n那通过这样的行为的话，伊朗呢就彻底的把握住了整个事件的主导权。\n那那美国就整个的就是从这个国际的角度上来说的话。\n就打伊朗就彻底的就是鸡飞蛋打了是，赔了富人又折兵啊，脸也不要了，就是面子里子一起丢。"
+    },
+    {
+      "source_segment_id": "SS-C040",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "cue_start": 346,
+      "cue_end": 355,
+      "start": "00:15:02,560",
+      "end": "00:15:27,260",
+      "raw_text": "但是对于特朗普来说，你不用担心这事儿会不会影响到他。\n选举啊啥的。\n作为营学大师来说的话，他可以找到任何的角度来证明自己赢了。\n是吧。\n那只要有。\n干掉韩文内衣这一条，一俊遮百丑。\n剩下的事情。\n只要喇叭够的啊，我只要有一条非常非常强的这个标签。\n对于戏选票，对于喜喜喜选民的脑。\n那特朗普太擅长不过来，但是。"
+    },
+    {
+      "source_segment_id": "SS-C041",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 373,
+      "cue_end": 374,
+      "start": "00:15:58,060",
+      "end": "00:16:03,740",
+      "raw_text": "霍尔木兹海峡只占了全世界邮贡的30%到40%。\n啊。"
+    },
+    {
+      "source_segment_id": "SS-C042",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 375,
+      "cue_end": 376,
+      "start": "00:16:03,740",
+      "end": "00:16:10,920",
+      "raw_text": "他打他封锁，他也不可能永久的封锁下去。从伊朗来讲，他也不可能永久的封锁下，大家都知道。\n不可能永久的放斗下去，对吧？"
+    },
+    {
+      "source_segment_id": "SS-C043",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 380,
+      "cue_end": 381,
+      "start": "00:16:24,490",
+      "end": "00:16:28,540",
+      "raw_text": "伊朗那个石油你还能找到替代品。\n中国的工业品你根本找不到替代品。"
+    },
+    {
+      "source_segment_id": "SS-C044",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 383,
+      "cue_end": 383,
+      "start": "00:16:29,680",
+      "end": "00:16:34,560",
+      "raw_text": "中国的民用的这些生产工业品呢全部都转型，生产军工贞关倒弹。"
+    },
+    {
+      "source_segment_id": "SS-C045",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 384,
+      "cue_end": 388,
+      "start": "00:16:34,820",
+      "end": "00:16:49,120",
+      "raw_text": "你路比奥不是前脚才说嘛，说吧伊朗这个国家太邪恶，太可怕了。\n我们美国生产六七枚，这个就是就是。\n这个。\n呃，反导系统的这个拦截段的这个时间，伊朗可以生产100枚的这个。\n啊，攻击得到弹。"
+    },
+    {
+      "source_segment_id": "SS-C046",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 389,
+      "cue_end": 392,
+      "start": "00:16:49,560",
+      "end": "00:16:58,460",
+      "raw_text": "那这个数量放到中国这边来的话，不好意思。\n咱们的这个产量后边得加两个0。\nYeah.\n我们生产1万枚导弹的同时，你这边只能生产六七枚。"
+    },
+    {
+      "source_segment_id": "SS-C047",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 393,
+      "cue_end": 398,
+      "start": "00:16:58,560",
+      "end": "00:17:12,780",
+      "raw_text": "到时候就是真正的物理意义上，让你见识见识什么叫慢剑启发。\nNo.\n整个的呃东亚，欢迎你来，欢迎你常来，看你有多少舰队往这里葬送。\n对吧。\n就那个时候的话。\n那整个的这个世界就会为之以颤。"
+    },
+    {
+      "source_segment_id": "SS-C048",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 403,
+      "cue_end": 405,
+      "start": "00:17:24,540",
+      "end": "00:17:34,150",
+      "raw_text": "这个局面早就跟台湾没关系了，台湾已经是。\n囊中之物了，要不然就不会有绕绕倒的这个演习了。\n只是看你台湾以什么样的成本收回来而已。"
+    },
+    {
+      "source_segment_id": "SS-C049",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 408,
+      "cue_end": 413,
+      "start": "00:17:39,030",
+      "end": "00:17:52,870",
+      "raw_text": "现在的这个企业叫收拾日本。\n通过收拾日本。\n把台湾的马丹盾转嫁到日本身上来。\n通过日本。\n来彻底的把美国的力量从亚洲这边赶出去，东亚这边赶出去。\n现在玩的是这个局。"
+    },
+    {
+      "source_segment_id": "SS-C050",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 415,
+      "cue_end": 415,
+      "start": "00:17:53,550",
+      "end": "00:17:55,500",
+      "raw_text": "韩国看的是非常清楚的。"
+    },
+    {
+      "source_segment_id": "SS-C051",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 416,
+      "cue_end": 425,
+      "start": "00:17:55,500",
+      "end": "00:18:20,380",
+      "raw_text": "所以才有了前段时间。\n咱们国庆节的时候啊，驻韩的美军跑到这边来对峙。\n那是驻韩美军，不是韩国。\n不是韩国的空军。\n是驻韩的美军，是美国人。\n美国人希望啊，通过这种。\n啊，战略这个这个航空识别区互相之间。\n互相这间是吧，证间对忙忙的标一下。\n来刷一下在这边的存在感。\n看看你春节之前的战备怎么样。"
+    },
+    {
+      "source_segment_id": "SS-C052",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 421,
+      "cue_end": 429,
+      "start": "00:18:06,270",
+      "end": "00:18:29,250",
+      "raw_text": "美国人希望啊，通过这种。\n啊，战略这个这个航空识别区互相之间。\n互相这间是吧，证间对忙忙的标一下。\n来刷一下在这边的存在感。\n看看你春节之前的战备怎么样。\n那真的就是已经没招的没招的。\nあ。\n闲着也是闲着，咱们来刷刷存在感。\n那因为啥呢？因为其他的方向已经找不到任何的突破口了。"
+    },
+    {
+      "source_segment_id": "SS-C053",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "cue_start": 433,
+      "cue_end": 439,
+      "start": "00:18:37,550",
+      "end": "00:18:56,470",
+      "raw_text": "我在。\n我记得是24年还是25年的时候，就跟大家做过好几期节目聊天我当时就说了非常非常。\n肯定的说了，这个事儿已经翻篇了，大家不用再去。\n讨论什么台湾问题了。\n现在这个台湾问题已经升级成日本问题了。\n而日本问题真正代表的就是东亚谁说了算。\n你美国的影响力要彻底给我滚出亚洲。"
+    },
+    {
+      "source_segment_id": "SS-C054",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "cue_start": 442,
+      "cue_end": 445,
+      "start": "00:19:03,450",
+      "end": "00:19:14,070",
+      "raw_text": "那天上的卫星都在看都在算。\n你在算我也在算，但是有卫星的又不是一个国家。\n谁规定了中国的卫星拍出来的信息，只能中国人看。\n不能够公布到全世界看。"
+    },
+    {
+      "source_segment_id": "SS-C055",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "cue_start": 446,
+      "cue_end": 449,
+      "start": "00:19:14,150",
+      "end": "00:19:24,370",
+      "raw_text": "大家都认为你根本就打不了这个事儿。\n那接下来这个事儿，你就算是强撑着说你能打。\n也没人跟着你一起打。\n没人跟着你一去打就没人分担你的成本。"
+    },
+    {
+      "source_segment_id": "SS-C056",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "cue_start": 449,
+      "cue_end": 464,
+      "start": "00:19:21,530",
+      "end": "00:19:55,920",
+      "raw_text": "没人跟着你一去打就没人分担你的成本。\n所有成本落到你身上的话。\n啊。\n你。\n你这船再大能打几根丁啊。\n对吧都说烂船都有3千0丁嘛。\n但是你这3000定能顶的什么用呢？\n没用的对吧？\n只要是有数的事儿。\n对这无形的事儿，因为我们这边可以常年累月的，天天赶。\n是吧。\n愚公移山的精什么天天干。\n干到什么时候呢？干到这个事情彻底胜利为止。\n而你美国能不能支付这样的代价，说我也无所谓。\n你愿意干多久，我就奉陪到底。\n没有这个底气，就别揽这个活。"
+    },
+    {
+      "source_segment_id": "SS-C057",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 473,
+      "cue_end": 477,
+      "start": "00:20:10,380",
+      "end": "00:20:32,110",
+      "raw_text": "我看到昨天呢有小伙伴问我说这个封锁一呃，霍尔木斯海峡60天这个60天是怎么来的？这是一个测算的数据，为啥呢？\n啊，理理由这么有两个。\n一个呢就是海湾国家，它的这个邮储啊，也就能够支撑20多天。\n啊，这是大呃摩摩根大通的这个调查数据。\n我认为这个里边呢是有埋伏的，而且呢。"
+    },
+    {
+      "source_segment_id": "SS-C058",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 478,
+      "cue_end": 480,
+      "start": "00:20:32,250",
+      "end": "00:20:46,230",
+      "raw_text": "海湾这边的国家，它产油的话，它也不用一根筋，是吧？这打了以后，这个油量自然而然就要减少一点。\n所以它的这个石油储备，它能够存的这些东西的话，加起来。\n可能能够存个30天，就一个月左右，这个是比较保险的。"
+    },
+    {
+      "source_segment_id": "SS-C059",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 481,
+      "cue_end": 483,
+      "start": "00:20:46,230",
+      "end": "00:20:53,610",
+      "raw_text": "那咱们就按照。\n一个月的这个数量，咱们。\n翻倍来计算嘛，那么料底以宽嘛，他们就是按两个月时间，也就是说什么呢？"
+    },
+    {
+      "source_segment_id": "SS-C060",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 484,
+      "cue_end": 486,
+      "start": "00:20:53,610",
+      "end": "00:21:03,730",
+      "raw_text": "就伊朗只要能够切切实实的扎扎实实的把霍尔木兹海峡的封锁。\n把握两个月时间的话，任何一个。\n域外的国家都得跟伊朗妥协。"
+    },
+    {
+      "source_segment_id": "SS-C061",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 490,
+      "cue_end": 495,
+      "start": "00:21:09,150",
+      "end": "00:21:25,980",
+      "raw_text": "海湾国家要对着美国这边施验，逼着美国要跟伊朗这边谈了。\n你要么就把彻底的一朗打服。\n如果你不能够通过武力的方式把伊朗征服的话，打服的话。\n等一等。\n放开霍尔木斯海峡的通行的话，那不好意思。\n我们可能就要跟你美国这边翻脸了。"
+    },
+    {
+      "source_segment_id": "SS-C062",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 499,
+      "cue_end": 503,
+      "start": "00:21:31,150",
+      "end": "00:21:40,200",
+      "raw_text": "美国很多很多的。\n这个投资市场上的。\n呃个资本。\n都是这中通这些网页给我们这边的主权基金的。\n对吧。"
+    },
+    {
+      "source_segment_id": "SS-C063",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 504,
+      "cue_end": 511,
+      "start": "00:21:40,200",
+      "end": "00:22:02,100",
+      "raw_text": "他们如果拼着啊，就是我如何如何也要带着你一起走的这样想想法，跟美国这边闹的话。\n特朗普支撑不住的。\n因为美国是金融利国是吧？\n千万不要忽略啊在金融帝国的国家里边。\n啊，谁的钱多，谁说了算这句话。\n当这些合力形成了以后。\n反对战争的力量就会。\n让整个战争停下来。"
+    },
+    {
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 512,
+      "cue_end": 515,
+      "start": "00:22:02,100",
+      "end": "00:22:13,750",
+      "raw_text": "所以对于美国而言呢，它时间窗口也就是。\n呃，两个月左右，这是最大的上限。咱们按照最坏的情况进行预估最大的上限。\n就是60天。\n超过60天是绝对不可能的事情。"
+    },
+    {
+      "source_segment_id": "SS-C065",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 517,
+      "cue_end": 524,
+      "start": "00:22:14,150",
+      "end": "00:22:33,950",
+      "raw_text": "你从这个。\n历史的数据来看的话，实际上。\n霍尔木斯海峡封锁60天，没有哪一个会。\n不不妥协的，最后的结果都很妥协了。\n既然最后的结果是妥协。\n之前都妥协了，那今天会更加的乖贵得快，不会走到那一步的。\n对吧.\n因之前是实打实的，已经付出了惨重的代价，谁也不愿意再去付出那样的代价呢？"
+    },
+    {
+      "source_segment_id": "SS-C066",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 528,
+      "cue_end": 530,
+      "start": "00:22:38,760",
+      "end": "00:22:49,880",
+      "raw_text": "只要大家有一个同样的一个认知，就是。\n伊朗不可能永久的封锁霍尔莫斯太加，他总有一天要开放的。\n那这个60天就是个准的，就是最多最多封锁60天。"
+    },
+    {
+      "source_segment_id": "SS-C067",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "cue_start": 531,
+      "cue_end": 535,
+      "start": "00:22:49,880",
+      "end": "00:22:59,530",
+      "raw_text": "但是如果真的走到60天，哪怕封锁到超过40天的话。\n那伊朗就是大胜特生。\n那到时候的话。\n来找伊朗签。\n城下之盟的就是美国。"
+    },
+    {
+      "source_segment_id": "SS-C068",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "cue_start": 537,
+      "cue_end": 547,
+      "start": "00:23:00,340",
+      "end": "00:23:28,360",
+      "raw_text": "那到时候美国以什么样的利益去交换？\n那我我觉得美国这边跟伊朗这边只要握手言合了。\n倒霉的就是以色列了。\n明嘛。\n到时候，美国就会把以色列拿出来，当做一个祭品。\n当做一个缓充电。\n大家一起把他杀了以后。\n啊，以他的写哎。\n如何如何如何，他们之间之间的。\n摆个靶子啊，头一磕是吧，这个事儿就过去了。\n霍尔蒙海峡还是个好海峡，那这是一个发财的黄金通道，那咱们就可以苟合在一起了。"
+    },
+    {
+      "source_segment_id": "SS-C069",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "cue_start": 548,
+      "cue_end": 565,
+      "start": "00:23:28,360",
+      "end": "00:24:11,630",
+      "raw_text": "那那个时候的话就是美国呢。\n就是看起来呢好像把这事儿结果，但是。\n中东这边的事儿的话，他就彻底说了不算了。\n他的影响力就彻底从中东这边被赶赶走了。\n对吧。\n这个事件会不会往着这个方向去发展？\n咱们就看吧。\n美国犯了这么大的战略错误。\n那如果丢掉了中东。\n那不好意思，那真的用了局做那句话了啊。\n迅速的从这个。\n世界霸主就沦为老二了。\n老二塔都保不住。\n丢掉耳中东以后，他就迅速的。\n那就真的成为路边那一条了，而且人嫌狗艳。\n后边跟长他算账的人那就多去了啊吧？\n当然了。\n因为美国的加大业大，这个下行的这个时间会很长，但是这个趋势是会很非常非常明显的。"
+    },
+    {
+      "source_segment_id": "SS-C070",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "cue_start": 566,
+      "cue_end": 574,
+      "start": "00:24:11,630",
+      "end": "00:24:27,630",
+      "raw_text": "你参考当年的西班牙。\nNow.\n当年的西班牙。\n跟这个英国人。\n然后无敌舰队嘛。\n跟英国人是吧，海上无敌舰队的覆灭。\n负面完了以后呢。\n那西班牙就路边一条了是吧，这英国人就抖起来了，为啥呢？\n战场打不赢，一切等于0。"
+    },
+    {
+      "source_segment_id": "SS-C071",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "cue_start": 575,
+      "cue_end": 582,
+      "start": "00:24:27,780",
+      "end": "00:24:40,340",
+      "raw_text": "现在中东这个事儿。\n就已经慢慢的演变成了。\n美国的无敌舰队覆灭剂。\n啊。\n咁啊。\n耀武扬威的海上力量。\n中东伊朗你都搞不定。\n更强的国家你惹得起吗，是？"
+    },
+    {
+      "source_segment_id": "SS-C072",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "cue_start": 586,
+      "cue_end": 595,
+      "start": "00:24:45,590",
+      "end": "00:25:10,270",
+      "raw_text": "只要有有人能克制你。\n那你去了哪儿，别人都会把这个克制你的这个人拿出来抬出来。\n对吧。\n他凭什么能够让你服呢？\n那不都是武器装备的事儿吗？\n那武器装备这事儿的话，又不是说是。\n是吧要看风水的，必须得在什么精度，什么纬度，他才能合用。\n只要插上电，哪儿都可以用，对吧？\n那结果是啥呢？你哪儿都去不了。\n很多很多你的力量就生生长不出来。"
+    },
+    {
+      "source_segment_id": "SS-C073",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "cue_start": 596,
+      "cue_end": 619,
+      "start": "00:25:10,270",
+      "end": "00:26:14,230",
+      "raw_text": "生产不出来了以由过去呢你靠的是啥？\n靠的是我能包打天下。\n加了诸多的杠杆。因为你知道我能八打天下，没人真正跟你来动刀动枪。\n对吧。\n所以很多事呢就是只要面子上过得去，没人跟你较真儿。\n你可以耀武扬威，那到时候你打不赢了以后。\n那该较真的时候要称量称量的时候都要称量称量，对吧？\n你别看你绑太腰远的。\n你不一定由我手下定的。\n我背后的话也有大哥的。\n到时候谁先怂来？\n打不起仗，真正打不起仗的是谁呀？\n什么叫。\n打得一拳开，免得百圈来呀。\n现在这个时间节点上。\n真正要打得一权开的不是伊朗，而是美国。\n很多小伙伴在分析这个问题，然后犯的错误就在这里。\n美国是战术上的攻势，战略上的首势。\n他是霸主。\n他急需要一个场合证明自己还能行，廉颇老矣尚能犯否。\n结果呢。\n他找了一个错误的对手，证明自己还不行了。\n那快速的证明自己不行，就快证明。\n他整个的力量衰退的非常非常的厉害，那不服他的人会更多呢。"
+    },
+    {
+      "source_segment_id": "SS-C074",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "cue_start": 610,
+      "cue_end": 617,
+      "start": "00:25:44,780",
+      "end": "00:26:07,250",
+      "raw_text": "现在这个时间节点上。\n真正要打得一权开的不是伊朗，而是美国。\n很多小伙伴在分析这个问题，然后犯的错误就在这里。\n美国是战术上的攻势，战略上的首势。\n他是霸主。\n他急需要一个场合证明自己还能行，廉颇老矣尚能犯否。\n结果呢。\n他找了一个错误的对手，证明自己还不行了。"
+    },
+    {
+      "source_segment_id": "SS-C075",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "cue_start": 623,
+      "cue_end": 628,
+      "start": "00:26:20,960",
+      "end": "00:26:35,590",
+      "raw_text": "为了保证这段时间能够有一个非常好的观察的环境。\n世界的油价不会有大的波动。\n就是一个月左右，不会有特别巨大的波动。\n他会缓慢的上涨。\n不会一下子一下子给你一下子。\n长天上去。"
+    },
+    {
+      "source_segment_id": "SS-C076",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "cue_start": 631,
+      "cue_end": 635,
+      "start": "00:26:36,650",
+      "end": "00:26:49,750",
+      "raw_text": "如果一下子真的一下子猛的涨到天上去了，它会回过来回调的。\n因为大家的心理预期。\n没有到那个份儿上。\n美国现在还没有说是真正这个局面。\n到那种坏到一发不可收拾的状态。"
+    },
+    {
+      "source_segment_id": "SS-C077",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "cue_start": 634,
+      "cue_end": 638,
+      "start": "00:26:44,580",
+      "end": "00:26:55,940",
+      "raw_text": "美国现在还没有说是真正这个局面。\n到那种坏到一发不可收拾的状态。\n目前来说的话。\n还，占据着。\n部分的占据是市场上的主动啊，战场上的主动啊。"
+    },
+    {
+      "source_segment_id": "SS-C078",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "cue_start": 641,
+      "cue_end": 644,
+      "start": "00:26:58,840",
+      "end": "00:27:08,460",
+      "raw_text": "过了一个月这个生死红线，就40天这个生死红线。\n那基本上呢。\n整个的事情啊就应该是非常非常清晰了。\n到底美国赢还是输，就有一个定论了。"
+    },
+    {
+      "source_segment_id": "SS-C079",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "cue_start": 646,
+      "cue_end": 649,
+      "start": "00:27:10,040",
+      "end": "00:27:17,300",
+      "raw_text": "如果是伊朗。\n控制了霍尔木斯海峡的话。\n油价它不会涨得太厉害的。\n他会回落的。"
+    },
+    {
+      "source_segment_id": "SS-C080",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 650,
+      "cue_end": 651,
+      "start": "00:27:17,300",
+      "end": "00:27:24,570",
+      "raw_text": "如果是美国控制的霍尔木财峡呢，不好意思。\n油价会维持在100到126个区间，相当长的一段时间。"
+    },
+    {
+      "source_segment_id": "SS-C081",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 656,
+      "cue_end": 656,
+      "start": "00:27:30,510",
+      "end": "00:27:32,900",
+      "raw_text": "啊，他一边呢控制着委内瑞拉。"
+    },
+    {
+      "source_segment_id": "SS-C082",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 657,
+      "cue_end": 667,
+      "start": "00:27:32,900",
+      "end": "00:28:01,830",
+      "raw_text": "他这边呢把国际金价维持在这么高以后，通过在伊朗身上刷了存在感以后，证明自己依然是。\n蓝星之主了以后。\n他可以通过设定油价的这个方式。\n来设定他自己的那套。\n所谓的。\n上个世纪的能源是香饽饽，所有的问题都是桌杯必做就可以解决。\n他要解决这个问题。\n他就得一头呢。\n抓着世界石油的供应权。\n一头呢抓着油价的这个定价权。\n然后把这个定价定的高高的。"
+    },
+    {
+      "source_segment_id": "SS-C083",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 669,
+      "cue_end": 674,
+      "start": "00:28:02,350",
+      "end": "00:28:19,460",
+      "raw_text": "定的高高的以后呢，他抓着供应在这里边赚的份额是最多的。\n啊，你别看这个油下涨了，你以为这个涨的这个额外的涨出来之前。\n能落到别人手里面，不会。\n只是落在美国手里边，因为啥呢？\n美国通过武力。\n在霍尔木兹海峡进行了一个武力的变现。"
+    },
+    {
+      "source_segment_id": "SS-C084",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 676,
+      "cue_end": 683,
+      "start": "00:28:19,910",
+      "end": "00:28:36,740",
+      "raw_text": "你这个武装力量。\n通过什么方式能够把这个钱挣出来呢？\n不得到街上去收收保护费吗？\n这个保护费。\n不就是你守的这条街的营业额吗？\n这条街的营业额越高。\n你是不是能收的保护费就越多啊？\n对吧是不是这个道理？"
+    },
+    {
+      "source_segment_id": "SS-C085",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 685,
+      "cue_end": 689,
+      "start": "00:28:37,350",
+      "end": "00:28:48,790",
+      "raw_text": "如果这场仗。\n伊朗赢了是吧，伊朗能够控制霍尔木斯海加的控控制人。\n啊，占了上风的话。\n油价反而会回落。\n啊它不会涨得太高，可能回落的六七十七八十都有可能。"
+    },
+    {
+      "source_segment_id": "SS-C086",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 690,
+      "cue_end": 693,
+      "start": "00:28:48,790",
+      "end": "00:28:55,490",
+      "raw_text": "但如果伊朗输了美国赢了。\n油价长期的维持在100。\n甚至120。\n都是有可能的事情。"
+    },
+    {
+      "source_segment_id": "SS-C087",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "cue_start": 697,
+      "cue_end": 702,
+      "start": "00:29:00,390",
+      "end": "00:29:14,860",
+      "raw_text": "啊，就是2023年的高油价，然后或者说呢。\n啊，2000年以前的高油价。\n那个时候呢，高位价油水都是谁在赚的？\n油水都是海和海海海河会的这些海湾国家对吧？产油国家对，对吧？\n那个。\n呃，一个俄罗斯才拽。"
+    },
+    {
+      "source_segment_id": "SS-C088",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "cue_start": 706,
+      "cue_end": 717,
+      "start": "00:29:24,240",
+      "end": "00:29:54,060",
+      "raw_text": "那美国为了能够连任，特朗普，为了能够连任。\n他会给你编造一个新的东西啊。\n之前那个民主党干不好的事儿是啥呢？\n美国在全世界抽了血以后。\n播放咱们国内分。\n现在呢你看我特朗普特大善人是吧？\n我来了以后不是这样啊，这个游戏不是这么玩的。\n我在全世界把油价炒高了以后。\n那这些。\n美好的非常可爱的这些石油集团的老总们良心发现，觉得。\n美国人应该用廉价的油。\n通过这种补贴的方式补贴。"
+    },
+    {
+      "source_segment_id": "SS-C089",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "cue_start": 718,
+      "cue_end": 741,
+      "start": "00:29:54,060",
+      "end": "00:30:54,430",
+      "raw_text": "它不是真的补贴啊，那真的补贴不符合市场规律。美国这个市场国家它是不会做的。\n他是通过这个补贴的手段。\n把一个问题再次的反复再炒，那一条鱼吃三遍。\n一鱼几吃。\n啊。\n补贴补贴这个钱实际上还是一定的。\n啊，主要的药包，然后呢。\n然后给老百姓一个能够过得去的温饱。\n这个游戏之前也玩过是吧？\n那有的国家那个油价低的不像话啊，在这个价格扭曲的不像话。\n不依然是没问题吗？\n但是他只是酒加低。\n其他东西一样，每每样的物价一样的是吧，一点都不受控制。\n他总有办法让你在这个社会里边是吧？精密的设计之下。\n让你在社会里边。\n赚的钱刚刚能够保持温饱。\n你别指望着说油价省出来的钱，你就可以过得很好。\nByer.\n他有很多很多的坑等着你。\n层层的盘剥等着你。\n就让你处于这种。\n是吃不饱饿不死的状态。\n啊，这是。\n接下来美国要发生的事儿就是如果美国能够在这里面主导这一切的话。"
+    },
+    {
+      "source_segment_id": "SS-C090",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 744,
+      "cue_end": 749,
+      "start": "00:30:56,260",
+      "end": "00:31:10,330",
+      "raw_text": "那么如果他主草不了呢，那不好意思。\n世界的步伐在快速的演进。\n石油美元总究是过去的东西。\n过去的那些那套那套歌。\n没来呢。\n未来是面向新能源时代的。"
+    },
+    {
+      "source_segment_id": "SS-C091",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 753,
+      "cue_end": 757,
+      "start": "00:31:19,580",
+      "end": "00:31:34,460",
+      "raw_text": "这次的这次的这个。\n啊，对伊朗的动物啊AI在这里大显神通，是吧？一方面呢各种的数据分析。\n一方面呢各种的这个暂停的预测是吧？\n各种的这些啊，就是整个的指挥的环节。\n大规模的使用医。"
+    },
+    {
+      "source_segment_id": "SS-C092",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 758,
+      "cue_end": 765,
+      "start": "00:31:34,460",
+      "end": "00:32:00,400",
+      "raw_text": "这个是一下子呢给AI找到了一个新的就业方向。\n过去呢觉得AI这个化儿不实，中开不中用，但是。\nAI一代在军事用途上的这个实证啊。\n不仅仅是这个军事泛军事用途，因为。\n围绕着战争的话，各种的舆论呢。\n这种人带节奏，他也是占中了一部分信息战嘛，是吧？\n在这里边AI如果能够看到啊应用的场景的话。\n那AI这个泡沫它总是有兜底的嘛，对吧？"
+    },
+    {
+      "source_segment_id": "SS-C093",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 768,
+      "cue_end": 771,
+      "start": "00:32:01,920",
+      "end": "00:32:15,060",
+      "raw_text": "美国这边把中东这边网爷的小钱袋子是吧，通过这个战争的波动。\n往美国这边挤，虽然说不是全部都到中美国来了是吧？很多跑到中国这边来了。\n啊，但是。\n多多少少他还是会去美国一届嘛，对吧？"
+    },
+    {
+      "source_segment_id": "SS-C094",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 772,
+      "cue_end": 778,
+      "start": "00:32:15,060",
+      "end": "00:32:34,520",
+      "raw_text": "那对于眼前的AI这个题材的泡沫来说的话，他不是又找到新的裁源了吗？\n过去一段时间，AI的朋友吹不下去，不就是因为没钱了吗？\n烧不动了嘛。\n那现在呢把世界的这个风险提高了。\n动荡的指数提升了。\n那美国这边呢作为一个对冲的自然而然呢就可以。\n啊，收回一些东西。"
+    },
+    {
+      "source_segment_id": "SS-C095",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "cue_start": 773,
+      "cue_end": 774,
+      "start": "00:32:19,840",
+      "end": "00:32:24,530",
+      "raw_text": "过去一段时间，AI的朋友吹不下去，不就是因为没钱了吗？\n烧不动了嘛。"
+    },
+    {
+      "source_segment_id": "SS-C096",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "cue_start": 781,
+      "cue_end": 785,
+      "start": "00:32:37,930",
+      "end": "00:32:50,680",
+      "raw_text": "大概是特朗普刚上台的时候，跟大家信誓旦旦拍胸脯保证的是啥呢？\n美元不会贬值的。\n他一边说呢，这美国要好好应鉴我的大美丽法案如何如何如何。\nYeah.\n一天都又说美元不会贬值的。"
+    },
+    {
+      "source_segment_id": "SS-C097",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "cue_start": 787,
+      "cue_end": 791,
+      "start": "00:32:52,820",
+      "end": "00:33:13,250",
+      "raw_text": "通过什么方式能够让美元不贬值呢？\n通过扰乱世界秩序，造制造动荡的方式，让美元不贬值。\n这在之前的节目我跟大家聊过的嘛，随以说特朗普来了以后。\n地缘板块脆弱的地方就开始各种的不稳定了。\n这个不稳定一方面呢是它的收缩主义导致的。美国不愿意承担这种安全成本了。"
+    },
+    {
+      "source_segment_id": "SS-C098",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "cue_start": 793,
+      "cue_end": 803,
+      "start": "00:33:14,370",
+      "end": "00:33:41,320",
+      "raw_text": "他美元贬值了以后。\n美元自身的惯性就会抑制贬值的这个趋势。\n他会找到一些各种的奇迹引销来给自己演收。\n这是自然的反应。\n啊当你的这个规模足够大了以后。\n这是必然会出现的反噬，维持过去的那个惯性。\n对吧。\n这个惯性具体起来的话，就是你看到这样的是吧？\n通过扰乱世界，这路径依赖嘛。\n通过扰乱世界。\n把美元的信用机制维持住。"
+    },
+    {
+      "source_segment_id": "SS-C099",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "cue_start": 804,
+      "cue_end": 810,
+      "start": "00:33:41,320",
+      "end": "00:33:54,180",
+      "raw_text": "那这个东西的话能够持久啊，不可以持久。\n他是一个。\n一次性的提款。\n提完了呢，整个的下坡路就会走的越来越明显。\n越来越快速。\nWell.\n这是一条不归路。"
+    },
+    {
+      "source_segment_id": "SS-C100",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "cue_start": 818,
+      "cue_end": 819,
+      "start": "00:34:09,290",
+      "end": "00:34:12,790",
+      "raw_text": "但是真正的结果我觉得大概率。\n美国会输。"
+    },
+    {
+      "source_segment_id": "SS-C101",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "cue_start": 849,
+      "cue_end": 850,
+      "start": "00:35:17,910",
+      "end": "00:35:24,040",
+      "raw_text": "很多觉很多小伙伴觉得这件事情可能是未来会发生的事儿。\n在我看来不太有可能啊。"
+    },
+    {
+      "source_segment_id": "SS-C102",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "cue_start": 851,
+      "cue_end": 854,
+      "start": "00:35:24,040",
+      "end": "00:35:35,510",
+      "raw_text": "只有在战场上打不赢。\n你才会沦为路边的一条。\n在别人的后方里面搞是吧，这个治安站。\n搞这个运动战，搞这个恐怖袭击。"
+    },
+    {
+      "source_segment_id": "SS-C103",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "cue_start": 855,
+      "cue_end": 875,
+      "start": "00:35:35,620",
+      "end": "00:36:33,280",
+      "raw_text": "如果你在霍尔木兹海峡里面真正能够有占据主动权。\n啊。\n通过跟美国打一场，告诉大家这。\n但当地的地头规矩是我定的。\n那个时候就叫啥呢？\n亮了这个实力了以后。\n就要量慈倍。\n啊我在这里边不是为难大家的，过去的呃伊朗是过去的伊朗。\n现在新的伊朗是新的伊朗，新的伊朗新的思维。\n到时候要跟大家以邻为善。\n对吧。\n既然你们的生命线把握在我手里边。\n我不介意向你们多透露一点善意。\n别觉得什么我们实界派，你们训级派互相之间如何如何。\n啊，井水啊这个这个这个水水火不容是吧？\n啊，互相之样把对方弄死，不好意思。\n在我自己占烈势的时候，活不下去的时候，那当然了，你的就是我的。\n那我看你的我就眼红。\n但是当我已经成为当地的秩序的。\n这个规规定者了。\n那个时候我就可以慈眉善目的跟你讲讲是吧，咱们一起共同发展。"
+    },
+    {
+      "source_segment_id": "SS-C104",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG20"
+      ],
+      "cue_start": 878,
+      "cue_end": 888,
+      "start": "00:36:37,550",
+      "end": "00:37:00,280",
+      "raw_text": "我看到有小伙伴还在问是吧？\n你之前说过那个。\n这个。\n狮王争霸那个比方，沙特跟伊朗互相之间是防狮王争霸，现在还。\n算不算数了？\n现在是不是狮王争霸？\n啊，伊朗胜出了，不好意思。\n当美国下场了以后，就没有什么失望争霸了。\n只有一个不死不休。\n所以对伊朗而言的话。\n这条路是只能胜不能败的。"
+    },
+    {
+      "source_segment_id": "SS-C105",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG20"
+      ],
+      "cue_start": 892,
+      "cue_end": 898,
+      "start": "00:37:06,490",
+      "end": "00:37:23,700",
+      "raw_text": "看他现在这个局势的发展是吧？\n那向着对美国不利的方向滑落。\n我是非常非常开心的是吧？你自己踏入了这么个陷阱。\n自己葬送了自己搭好的这个局面。\n那是自己活该嘛。\n但是能不能走到这一步？\n咱们还得发展一步，看一步，慢慢的且看且分析。"
+    },
+    {
+      "source_segment_id": "SS-C106",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "cue_start": 521,
+      "cue_end": 524,
+      "start": "00:22:22,470",
+      "end": "00:22:33,950",
+      "raw_text": "既然最后的结果是妥协。\n之前都妥协了，那今天会更加的乖贵得快，不会走到那一步的。\n对吧.\n因之前是实打实的，已经付出了惨重的代价，谁也不愿意再去付出那样的代价呢？"
+    },
+    {
+      "source_segment_id": "SS-C107",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "cue_start": 238,
+      "cue_end": 242,
+      "start": "00:10:37,110",
+      "end": "00:10:52,190",
+      "raw_text": "你愿不愿意开放领空是你的事儿，挨不挨打也是你的事儿。那你说了算嘛。\n你光是开放开放领空。\n你有本事就让伊朗不打你。\n对吧要不你开放领空呢，其实就是。\n啊，吹夜路走啊，走夜路吹口哨嘛，对吧？自己骗自己嘛，给自己撞倒了嘛。"
+    },
+    {
+      "source_segment_id": "SS-C108",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "cue_start": 171,
+      "cue_end": 178,
+      "start": "00:07:53,060",
+      "end": "00:08:12,990",
+      "raw_text": "头一个星期。\n系啊。\n整个的油价会经历一个缓慢的上涨。\n上涨的幅度也不会太多。\n比过去的油价增加20%到30%。\n过去的油价大在大概在60到70，咱们按70算啊。\n那30的话。\n就差不多再往上涨个20左右，涨到90左右。这就是说。"
+    },
+    {
+      "source_segment_id": "SS-C109",
+      "source_id": "S03",
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "cue_start": 312,
+      "cue_end": 314,
+      "start": "00:13:30,410",
+      "end": "00:13:38,510",
+      "raw_text": "这个开启这个试端以后，他们内衣。\n啊，停龄40天，守灵40天，40天结束了以后。\n这个局面到底是怎么样子的？"
+    },
+    {
+      "source_segment_id": "SS-X01",
+      "source_id": "S04",
+      "locator": "JPM段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X02",
+      "source_id": "S04",
+      "locator": "Deutsche Bank段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X03",
+      "source_id": "S04",
+      "locator": "BoA段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X04",
+      "source_id": "S04",
+      "locator": "Kpler段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X05",
+      "source_id": "S05",
+      "locator": "3月3日04:19条",
+      "version_id": "LV01",
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X06",
+      "source_id": "S05",
+      "locator": "3月3日00:58条",
+      "version_id": "LV02",
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X07",
+      "source_id": "S05",
+      "locator": "3月1日21:54条",
+      "version_id": "LV04",
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X08",
+      "source_id": "S07",
+      "locator": "正文首两段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X09",
+      "source_id": "S08",
+      "locator": "methodology notice body",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X10",
+      "source_id": "S09",
+      "locator": "methodology notice body",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X11",
+      "source_id": "S10",
+      "locator": "methodology notice body",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X12",
+      "source_id": "S11",
+      "locator": "正文2024流量段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X13",
+      "source_id": "S04",
+      "locator": "JPM storage段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X14",
+      "source_id": "S04",
+      "locator": "BoA infrastructure段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    },
+    {
+      "source_segment_id": "SS-X15",
+      "source_id": "S11",
+      "locator": "正文2024消费分母段",
+      "version_id": null,
+      "raw_text": null,
+      "excerpt_policy": "paraphrase; see captured tool response"
+    }
+  ],
+  "source_versions": [
+    {
+      "version_id": "LV01",
+      "source_id": "S05",
+      "item_published_at": "2026-03-03T04:19:00+08:00",
+      "topic": "伊朗军方顾问声称关闭；报道同时注明尚无革命卫队官方声明",
+      "cutoff_status": "eligible_by_displayed_timestamp",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV02",
+      "source_id": "S05",
+      "item_published_at": "2026-03-03T00:58:00+08:00",
+      "topic": "特朗普称计划4至5周、可更久，并声称摧毁舰艇",
+      "cutoff_status": "eligible_by_displayed_timestamp",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV03",
+      "source_id": "S05",
+      "item_published_at": "2026-03-02T12:27:00+08:00",
+      "topic": "拉里贾尼表态不与美国谈判",
+      "cutoff_status": "eligible_by_displayed_timestamp",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV04",
+      "source_id": "S05",
+      "item_published_at": "2026-03-01T21:54:00+08:00",
+      "topic": "革命卫队声称向林肯号发射4枚导弹",
+      "cutoff_status": "eligible_by_displayed_timestamp",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV05",
+      "source_id": "S05",
+      "item_published_at": "2026-03-02",
+      "topic": "以色列拟逐步重新开放空域；最早当地当晚",
+      "cutoff_status": "eligible_by_displayed_timestamp",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": "日期已知，时刻未可靠记录；仅作为计划报道，不能当成实际开放"
+    },
+    {
+      "version_id": "LV06",
+      "source_id": "S05",
+      "item_published_at": "2026-03-03T21:26:00+08:00",
+      "topic": "王毅与以外长通话",
+      "cutoff_status": "post_cutoff",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV07",
+      "source_id": "S05",
+      "item_published_at": "2026-03-03T23:08:00+08:00",
+      "topic": "伊朗战果声明",
+      "cutoff_status": "post_cutoff",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV08",
+      "source_id": "S05",
+      "item_published_at": "2026-03-04",
+      "topic": "后续直播条目整组",
+      "cutoff_status": "post_cutoff",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV09",
+      "source_id": "S05",
+      "item_published_at": "2026-03-05",
+      "topic": "后续直播条目整组",
+      "cutoff_status": "post_cutoff",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    },
+    {
+      "version_id": "LV10",
+      "source_id": "S05",
+      "item_published_at": null,
+      "topic": "无独立条目时间的当前页标题、页首综述",
+      "cutoff_status": "review_required",
+      "captured_at": "2026-09-25T18:21:18+08:00",
+      "historical_snapshot_available": false,
+      "edit_history_known": false,
+      "note": null
+    }
+  ],
+  "closure_state_separation": [
+    {
+      "state": "official_or_adviser_claim",
+      "evidence": [
+        "X05"
+      ],
+      "assessment": "报道存在声明，发布者层级须保留"
+    },
+    {
+      "state": "operator_suspension",
+      "evidence": [
+        "X08"
+      ],
+      "assessment": "Reuters转述Platts收到停航通知，需具体船公司原公告"
+    },
+    {
+      "state": "traffic_collapse",
+      "evidence": [],
+      "assessment": "未取得可比AIS量化序列"
+    },
+    {
+      "state": "no_vessel_can_pass",
+      "evidence": [],
+      "assessment": "未证实"
+    },
+    {
+      "state": "complete_legal_or_military_blockade",
+      "evidence": [],
+      "assessment": "未证实；不能由上面任一状态自动推出"
+    }
+  ],
+  "post_cutoff_quarantine": [
+    {
+      "source": "S05",
+      "entries": [
+        "LV06",
+        "LV07",
+        "LV08",
+        "LV09"
+      ],
+      "reason": "post_cutoff",
+      "used_in_arguments": false
+    },
+    {
+      "source": "S05",
+      "entries": [
+        "LV10"
+      ],
+      "reason": "review_required",
+      "used_in_arguments": false
+    },
+    {
+      "source": "Platts 030326 freight clarification",
+      "reason": "2026-03-03但无时刻，未准入",
+      "used_in_arguments": false
+    },
+    {
+      "source": "EIA 2026-04/07/09相关文章及Reuters 2026-04-02检索结果",
+      "reason": "post_cutoff搜索暴露，未读为本期证据、未评分",
+      "used_in_arguments": false
+    },
+    {
+      "source": "EIA页脚2026-09数据、转载站点2026-06页眉",
+      "reason": "dynamic_chrome_post_cutoff_excluded",
+      "used_in_arguments": false
+    }
+  ],
+  "registry_search": {
+    "searched": [
+      "workspace inventory",
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json:13_theses"
+    ],
+    "result": "已检索本地摘要及GS002金融结构Thesis；无正式全库Registry。GS002为较晚样本，只作目录比对，绝不作2026-03证据。",
+    "scope": "local_partial_registry",
+    "full_registry_available": false
+  },
+  "relation_candidates": [
+    "SUPPORTS_CONDITIONALLY"
+  ],
+  "source_evolution": [
+    {
+      "from_claim": "X10",
+      "to_claim": "X11",
+      "relation": "temporal_evolution",
+      "not_contradiction": true
+    }
+  ],
+  "scenario_crossrefs": [
+    {
+      "claims": [
+        "C080",
+        "C086"
+      ],
+      "relation": "numeric_variant_pending_audio"
+    },
+    {
+      "claims": [
+        "C025",
+        "C075"
+      ],
+      "relation": "different_windows"
+    },
+    {
+      "claims": [
+        "C037",
+        "C035"
+      ],
+      "relation": "condition_or_window_ambiguity"
+    }
+  ],
+  "extraction_decisions": [
+    {
+      "decision": "merge_duplicate_claim",
+      "retired_id": "C094",
+      "canonical_id": "C004",
+      "reason": "中东避险资金给美国AI续资的后段展开；保留SS-C094与Occurrence，不重复建Forecast"
+    },
+    {
+      "decision": "omit_spurious_argument",
+      "retired_id": "AR12",
+      "reason": "油价回落与外交示好共享情景条件，不应画作因果；保留各Claim/Forecast"
+    }
+  ],
+  "registry_candidates": {
+    "claim_types": [
+      "analogy",
+      "factual_claim",
+      "forecast",
+      "historical_analogy",
+      "historical_claim",
+      "hypothetical_assumption",
+      "interpretation",
+      "model_reconstruction",
+      "reported_claim",
+      "retrospective_claim",
+      "value_judgment"
+    ],
+    "source_types": [
+      "asr_subtitle",
+      "asr_text",
+      "methodology_notice",
+      "news",
+      "prompt",
+      "rolling_news",
+      "statistical_analysis",
+      "syndication",
+      "video"
+    ],
+    "status": "descriptive_local_values_not_production_schema_approval",
+    "note": "未提供机器Schema与完整枚举注册表；正式导入前须映射。未使用未声明新核心对象。"
+  },
+  "snapshot_index": {
+    "S04": [
+      "source_snapshots/initial_web.txt"
+    ],
+    "S05": [
+      "source_snapshots/initial_web.txt",
+      "source_snapshots/live_selected.txt"
+    ],
+    "S06": [
+      "source_snapshots/initial_web.txt"
+    ],
+    "S07": [
+      "source_snapshots/primary_selected.txt"
+    ],
+    "S08": [
+      "source_snapshots/platts_notices.txt"
+    ],
+    "S09": [
+      "source_snapshots/platts_notices.txt"
+    ],
+    "S10": [
+      "source_snapshots/platts_notices.txt"
+    ],
+    "S11": [
+      "source_snapshots/primary_selected.txt"
+    ]
+  }
+}
+```

@@ -1,0 +1,306 @@
+"""Stable Phase 1.3 rule identity and frozen-contract traceability."""
+
+from dataclasses import dataclass
+from typing import Callable
+
+from .rules import (
+    analyst,
+    argument,
+    boundaries,
+    forecast,
+    governance,
+    provenance,
+    references,
+    schema,
+    temporal,
+)
+
+
+@dataclass(frozen=True)
+class Rule:
+    rule_id: str
+    name: str
+    category: str
+    handler: Callable
+    boundaries: tuple = ()
+    principles: tuple = ()
+    debts: tuple = ()
+    limitations: str = "Structural check only; no inference, repair, or reality verdict."
+
+    def record(self):
+        return dict(
+            rule_id=self.rule_id,
+            name=self.name,
+            category=self.category,
+            description=self.handler.__doc__ or self.name,
+            frozen_boundary_refs=list(self.boundaries),
+            principle_refs=list(self.principles),
+            debt_refs=list(self.debts),
+            implemented=True,
+            severity_policy={
+                "ERROR": "Explicit contract/type/reference/temporal conflict.",
+                "WARNING": "Suspicious or incomplete structure requiring review.",
+                "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+                "PASS": "Applicable structural check satisfied; not a truth verdict.",
+                "NOT_APPLICABLE": "No applicable valid object or mode.",
+            },
+            limitations=[self.limitations],
+        )
+
+
+RULES = (
+    Rule("V-SCH001", "Canonical versions", "Schema", schema.versions),
+    Rule("V-SCH002", "Registered Pydantic shape", "Schema", schema.shapes, ("B08",)),
+    Rule("V-REF001", "Unique object identity", "Reference", references.duplicates),
+    Rule("V-REF002", "Registered object discriminator", "Reference", references.types),
+    Rule(
+        "V-REF003",
+        "Allowed reference target type",
+        "Reference",
+        references.wrong_types,
+        ("B01", "B06", "B14"),
+    ),
+    Rule("V-REF004", "Complete bundle resolution", "Reference", references.complete),
+    Rule("V-REF005", "Partial bundle resolution", "Reference", references.partial),
+    Rule(
+        "V-REF006",
+        "Explicitly forbidden prior self reference",
+        "Reference",
+        references.self_refs,
+        debts=("D04",),
+    ),
+    Rule(
+        "V-PROV001",
+        "Claim source provenance",
+        "Provenance",
+        provenance.claim_sources,
+        ("B01",),
+        ("P01",),
+    ),
+    Rule(
+        "V-PROV002",
+        "Occurrence provenance consistency",
+        "Provenance",
+        provenance.consistency,
+        ("B01",),
+        ("P01",),
+    ),
+    Rule(
+        "V-PROV003",
+        "Origin family independence boundary",
+        "Provenance",
+        provenance.independence,
+        ("B01",),
+        ("P01",),
+        limitations="Independence scoring is intentionally not implemented.",
+    ),
+    Rule(
+        "V-TEMP001",
+        "Structured temporal intervals",
+        "Temporal",
+        temporal.intervals,
+        principles=("P13",),
+        debts=("D04",),
+    ),
+    Rule(
+        "V-TEMP002",
+        "Forecast cutoff versus window",
+        "Temporal",
+        temporal.forecasts,
+        ("B09",),
+        ("P13",),
+        ("D03",),
+    ),
+    Rule(
+        "V-TEMP003",
+        "Future prior leakage",
+        "Temporal",
+        temporal.priors,
+        principles=("P13",),
+        debts=("D04",),
+        limitations="Unknown/overlapping content time is indeterminate; no sample-label ordering or date text parsing.",
+    ),
+    Rule(
+        "V-TEMP004",
+        "Independent source time axes",
+        "Temporal",
+        temporal.source_axes,
+        principles=("P13",),
+        debts=("D04",),
+    ),
+    Rule(
+        "V-BND001",
+        "Scenario stays Scenario",
+        "Boundary",
+        boundaries.scenarios,
+        ("B09",),
+        debts=("D03",),
+    ),
+    Rule("V-BND002", "Structural process evidence", "Boundary", boundaries.processes, ("B03",)),
+    Rule(
+        "V-BND003",
+        "Assessment truth non-propagation",
+        "Boundary",
+        boundaries.assessment,
+        ("B10", "B11"),
+        debts=("D20",),
+    ),
+    Rule(
+        "V-BND004",
+        "Usage authorship non-propagation",
+        "Boundary",
+        boundaries.usage,
+        ("B14",),
+        ("P15",),
+        ("D20",),
+    ),
+    Rule(
+        "V-BND005",
+        "Actor attribute identity boundary",
+        "Boundary",
+        boundaries.actors,
+        ("B04",),
+        debts=("D20",),
+    ),
+    Rule(
+        "V-BND006",
+        "Comparison preservation",
+        "Boundary",
+        boundaries.comparison,
+        ("B05",),
+        debts=("D16",),
+        limitations="Units are free text; no controlled conversion/denominator or stage-transition contract exists.",
+    ),
+    Rule(
+        "V-FC001",
+        "Conservative structural admission",
+        "Forecast",
+        forecast.admission,
+        ("B08", "B09"),
+        ("P13",),
+        ("D03",),
+    ),
+    Rule(
+        "V-FC002",
+        "Conditional endorsement gap",
+        "Forecast",
+        forecast.conditional,
+        ("B09",),
+        debts=("D03",),
+        limitations="Conditional endorsement cannot be proved from free text conditions/branch selection.",
+    ),
+    Rule(
+        "V-FC003",
+        "Resolution timing consistency",
+        "Forecast",
+        forecast.resolution,
+        ("B09",),
+        ("P13",),
+        ("D03",),
+    ),
+    Rule(
+        "V-ARG001",
+        "Unique local step identities",
+        "Argument",
+        argument.step_ids,
+        ("B07",),
+        ("P08",),
+        ("D11",),
+    ),
+    Rule(
+        "V-ARG002",
+        "Fragile step resolution",
+        "Argument",
+        argument.fragile,
+        ("B07",),
+        ("P08",),
+        ("D11",),
+    ),
+    Rule(
+        "V-ARG003",
+        "Directed argument cycles",
+        "Argument",
+        argument.cycles,
+        ("B07",),
+        ("P08",),
+        ("D11",),
+    ),
+    Rule(
+        "V-ARG004",
+        "Orphan inference steps",
+        "Argument",
+        argument.orphans,
+        ("B07",),
+        ("P08",),
+        ("D11",),
+    ),
+    Rule(
+        "V-ARG005",
+        "Per-edge attribution",
+        "Argument",
+        argument.attribution,
+        ("B07",),
+        ("P15", "P16"),
+        ("D11", "D20"),
+    ),
+    Rule(
+        "V-ARG006",
+        "Argument semantic transition gap",
+        "Argument",
+        argument.semantic_gap,
+        ("B07",),
+        ("P08",),
+        ("D11", "D16"),
+        "No typed denominator/unit/role transition evidence on inference edges.",
+    ),
+    Rule(
+        "V-AN001",
+        "Recurrence match consistency",
+        "Analyst",
+        analyst.matches,
+        ("B12",),
+        debts=("D04",),
+    ),
+    Rule(
+        "V-AN002",
+        "Eligible historical recurrence",
+        "Analyst",
+        analyst.recurrence,
+        ("B12",),
+        ("P13",),
+        ("D04",),
+    ),
+    Rule(
+        "V-AN003",
+        "Model reconstruction evidence guard",
+        "Analyst",
+        analyst.model_evidence,
+        ("B12", "B13"),
+        ("P15", "P16"),
+        ("D20",),
+        "Mixed Argument citations lack selected-edge evidence scope; flagged for review.",
+    ),
+    Rule(
+        "V-AN004",
+        "Observed reasoner and observer attribution",
+        "Analyst",
+        analyst.observer_attribution,
+        ("B12",),
+        ("P15",),
+        ("D20",),
+    ),
+    Rule("V-GOV001", "Review never waives validation", "Governance", governance.review),
+    Rule("V-GOV002", "Input immutability", "Governance", governance.immutable),
+    Rule(
+        "V-GOV003",
+        "No Skill promotion",
+        "Governance",
+        governance.promotion,
+        ("B12", "B13"),
+        limitations="Schema only admits candidate/unknown Heuristic; Skill promotion/evidence is not implemented.",
+    ),
+)
+
+
+def rule_catalog():
+    return [rule.record() for rule in RULES]

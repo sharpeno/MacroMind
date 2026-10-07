@@ -1,0 +1,173 @@
+{
+  "analyst_skill_status": "NOT_READY",
+  "batch_pilot_status": "NOT_STARTED",
+  "blockers": [],
+  "checks": [
+    {
+      "evidence": "load_frozen_contract succeeded",
+      "id": "G01",
+      "name": "Frozen Contract loads",
+      "status": "PASS"
+    },
+    {
+      "evidence": "contract_integrity_report.json",
+      "id": "G02",
+      "name": "Contract integrity ERROR=0",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "Actor",
+        "Argument",
+        "Assessment",
+        "Claim",
+        "Contradiction",
+        "Event",
+        "Forecast",
+        "Heuristic",
+        "Indicator",
+        "Mechanism",
+        "Policy",
+        "Source",
+        "StructuralProcess",
+        "Thesis"
+      ],
+      "id": "G03",
+      "name": "14/14 Core models",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "AnalystMethodSignal",
+        "ClaimOccurrence",
+        "ExpectationSnapshot",
+        "IndicatorObservation",
+        "InformationSet",
+        "MechanismUsage",
+        "ReviewQueueItem",
+        "Scenario",
+        "SourceFamily",
+        "SourceSegment",
+        "SourceVersion",
+        "TranscriptCorrection"
+      ],
+      "id": "G04",
+      "name": "Required Auxiliary models",
+      "status": "PASS"
+    },
+    {
+      "evidence": "26 schemas; schema and CLI export tests",
+      "id": "G05",
+      "name": "JSON Schema export works",
+      "status": "PASS"
+    },
+    {
+      "evidence": {
+        "enums": 15,
+        "relations": 9
+      },
+      "id": "G06",
+      "name": "Registry loads",
+      "status": "PASS"
+    },
+    {
+      "evidence": [
+        "Actor",
+        "Argument",
+        "Assessment",
+        "Claim",
+        "Contradiction",
+        "Event",
+        "Forecast",
+        "Heuristic",
+        "Indicator",
+        "Mechanism",
+        "Policy",
+        "Source",
+        "StructuralProcess",
+        "Thesis"
+      ],
+      "id": "G07",
+      "name": "Registry Core count=14",
+      "status": "PASS"
+    },
+    {
+      "evidence": "exact membership checks",
+      "id": "G08",
+      "name": "No extra Core Object",
+      "status": "PASS"
+    },
+    {
+      "evidence": "all nested enum definitions compared with YAML",
+      "id": "G09",
+      "name": "Schema enums resolve through Registry",
+      "status": "PASS"
+    },
+    {
+      "evidence": "S004/S005 distinguish explicit unknown, null and missing",
+      "id": "G10",
+      "name": "Unknown supported",
+      "status": "PASS"
+    },
+    {
+      "evidence": "8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424",
+      "id": "G11",
+      "name": "Semantic hash reproducible",
+      "status": "PASS"
+    },
+    {
+      "evidence": "S014/R011/R012; committed bytes equal generated payloads",
+      "id": "G12",
+      "name": "Generated output deterministic",
+      "status": "PASS"
+    },
+    {
+      "evidence": "immutability_report.json",
+      "id": "G13",
+      "name": "No Frozen artifact modified",
+      "status": "PASS"
+    },
+    {
+      "evidence": "171 original files checked; includes supporting historical files",
+      "id": "G14",
+      "name": "No Golden modified",
+      "status": "PASS"
+    },
+    {
+      "evidence": "Module/CLI scope checked; implementation review limits validation to contract, schema and registry integrity",
+      "id": "G15",
+      "name": "No complete Validator Engine implemented early",
+      "status": "PASS"
+    },
+    {
+      "evidence": "frozen manifest and phase manifest",
+      "id": "G16",
+      "name": "production_import_ready remains false",
+      "status": "PASS"
+    },
+    {
+      "evidence": "frozen manifest and phase manifest",
+      "id": "G17",
+      "name": "Analyst Skill remains NOT_READY",
+      "status": "PASS"
+    },
+    {
+      "evidence": "frozen manifest and phase manifest",
+      "id": "G18",
+      "name": "MacroMind Core Skill remains NOT_READY",
+      "status": "PASS"
+    }
+  ],
+  "gate": "PHASE1_0_1_2_GATE",
+  "macromind_core_skill_status": "NOT_READY",
+  "phase1_3_status": "NOT_STARTED",
+  "production_import_ready": false,
+  "static_checks": "PASS",
+  "status": "READY_FOR_PHASE_1_3",
+  "tests": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 84,
+    "SKIPPED": 0
+  }
+}

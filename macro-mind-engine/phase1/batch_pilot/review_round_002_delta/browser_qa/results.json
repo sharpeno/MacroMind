@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Correct page and two cards",
+    "Explicit revision decisions persist",
+    "Independent two-record JSON export",
+    "Import accepts new decision types",
+    "Previous eight-record export rejected",
+    "No mobile horizontal overflow",
+    "No JavaScript errors"
+  ],
+  "errors": [],
+  "browser": "Edge headless Playwright; Browser plugin unavailable",
+  "url": "http://127.0.0.1:8768/HUMAN_REVIEW.html",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "limitations": [
+    "Native directory picker and in-app browser downloads not tested",
+    "Fresh isolated context; user drafts not accessed",
+    "Synthetic feedback is not human approval"
+  ]
+}

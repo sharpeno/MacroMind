@@ -1,0 +1,1916 @@
+[
+  {
+    "source_segment_id": "SS-C001",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "raw_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。",
+    "cue_start": 1,
+    "cue_end": 1,
+    "start": "00:00:00,190",
+    "end": "00:00:20,190"
+  },
+  {
+    "source_segment_id": "SS-C002",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "raw_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。\n马上就小伙伴在评论区里问是吧，是不是对这轮科技股泡沫破裂的判断错了。啊，这轮反弹进来了，昨天才打了预防针是吧？不不会有这样的事发生的那今天出现这个市场的波动，马上就倒行混乱。那咱们今天呢就顺着这轮反弹的逻辑，上涨的逻辑跟大家聊聊这里面的问题。",
+    "cue_start": 1,
+    "cue_end": 2,
+    "start": "00:00:00,190",
+    "end": "00:00:40,190"
+  },
+  {
+    "source_segment_id": "SS-C003",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+    "cue_start": 33,
+    "cue_end": 33,
+    "start": "00:02:12,930",
+    "end": "00:02:20,200"
+  },
+  {
+    "source_segment_id": "SS-C004",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "亚马逊呢收涨4.5%吧，就是。\n前天哈。",
+    "cue_start": 31,
+    "cue_end": 32,
+    "start": "00:02:08,850",
+    "end": "00:02:12,850"
+  },
+  {
+    "source_segment_id": "SS-C005",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+    "cue_start": 33,
+    "cue_end": 33,
+    "start": "00:02:12,930",
+    "end": "00:02:20,200"
+  },
+  {
+    "source_segment_id": "SS-C006",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "总市值占上了3万亿美元。",
+    "cue_start": 34,
+    "cue_end": 34,
+    "start": "00:02:20,260",
+    "end": "00:02:22,790"
+  },
+  {
+    "source_segment_id": "SS-C007",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "此外呢，谷歌微软涨超4%。",
+    "cue_start": 35,
+    "cue_end": 35,
+    "start": "00:02:22,790",
+    "end": "00:02:25,890"
+  },
+  {
+    "source_segment_id": "SS-C008",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "此外呢，谷歌微软涨超4%。",
+    "cue_start": 35,
+    "cue_end": 35,
+    "start": "00:02:22,790",
+    "end": "00:02:25,890"
+  },
+  {
+    "source_segment_id": "SS-C009",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "没塔涨长6%。",
+    "cue_start": 36,
+    "cue_end": 36,
+    "start": "00:02:25,890",
+    "end": "00:02:27,440"
+  },
+  {
+    "source_segment_id": "SS-C010",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "甲骨文呢更是走出了单日超9%的账幅，听起来一片欣欣向荣啊。",
+    "cue_start": 37,
+    "cue_end": 37,
+    "start": "00:02:27,440",
+    "end": "00:02:32,690"
+  },
+  {
+    "source_segment_id": "SS-C011",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "为什么会这么上涨呢？是因为。\n亚马逊以及谷o歌的这个。\n财报是引爆了大家的热情。\n其实恰恰就是google的财报引发了。\n上周的暴跌。\n同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。",
+    "cue_start": 38,
+    "cue_end": 45,
+    "start": "00:02:32,850",
+    "end": "00:02:51,590"
+  },
+  {
+    "source_segment_id": "SS-C012",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。\n所以说。\n充分的证明了这里边掌握着话语权才是最重要的，掌握着解释权才是最重要的真相不重要是吧？\n此前的当然了。\n咱们分析还是得从几呃呃真相开始，因为。",
+    "cue_start": 43,
+    "cue_end": 49,
+    "start": "00:02:44,020",
+    "end": "00:03:03,360"
+  },
+  {
+    "source_segment_id": "SS-C013",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "真相就像一地心引力。\n你可以短时间的啊抵抗敌心引力飞起来。\n但是呢。\n你长时间的话，你非让你飞起来，那个力量没有了，就得落下来。\n一个道理，你花这钱。\n呃。\n摇唇骨折，那自然可以营造太平盛世。\n但是稍微的这个劲儿松一点了，那就得看真相吧。\n真章到底是怎么回事儿？\n那就大家就真相大白了吧。",
+    "cue_start": 50,
+    "cue_end": 59,
+    "start": "00:03:03,360",
+    "end": "00:03:28,350"
+  },
+  {
+    "source_segment_id": "SS-C014",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "这一次的AI泡沫科技泡沫破裂。\n就是花不起这个钱啦。\n说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。\n这才是问题的根源。\n这才是矛盾的根源。\n那现在这波反弹。\n解决这个矛盾吧，没有啊。",
+    "cue_start": 75,
+    "cue_end": 84,
+    "start": "00:04:01,330",
+    "end": "00:04:26,790"
+  },
+  {
+    "source_segment_id": "SS-C015",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "raw_text": "说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。",
+    "cue_start": 77,
+    "cue_end": 80,
+    "start": "00:04:06,100",
+    "end": "00:04:20,020"
+  },
+  {
+    "source_segment_id": "SS-C016",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "此前呢亚马逊公布二季度财报。\n其中呢，AWS云业务呢净销销售是422.3亿美元。",
+    "cue_start": 86,
+    "cue_end": 87,
+    "start": "00:04:31,590",
+    "end": "00:04:40,280"
+  },
+  {
+    "source_segment_id": "SS-C017",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "超过分析师预计的405.7亿美元。",
+    "cue_start": 88,
+    "cue_end": 88,
+    "start": "00:04:40,280",
+    "end": "00:04:44,000"
+  },
+  {
+    "source_segment_id": "SS-C018",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "营收增速呢创18个季度的新高。",
+    "cue_start": 89,
+    "cue_end": 89,
+    "start": "00:04:44,000",
+    "end": "00:04:46,800"
+  },
+  {
+    "source_segment_id": "SS-C019",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "请大家注意啊。\n这个增速确实是高，但是也就是高了多少，5%。\n预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+    "cue_start": 90,
+    "cue_end": 95,
+    "start": "00:04:46,800",
+    "end": "00:05:05,650"
+  },
+  {
+    "source_segment_id": "SS-C020",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "这5%的。\n这个预期的增增速的收涨。\n让整个市场得到的信号是涨多少呢？\n是整个盘子一下子涨了百分之，就整个亚马逊的。\n一下子涨了5%。\n这合理吗？\n这合适吗？\n如果是这样的话，就相当于啥呢？\n相当于百一个季度的业务净增长。\n在一天内直接就给你兑现了。\n一天跟一个季度中间差多少，差了90倍，对不对？\n意思是啥呢？意思是这里边的泡沫。\n那我觉得哈。\n以现在这种增长的趋势来看的话。\n这里面的泡沫最少最少。\n是。\n1比90的这个稀释比例。\n而这个比例。\n跟现在市面上AI泡沫这个比例惊人的一致。\n不是说完全的问啊。\n数量级是差不多的。\n都是。\n，一就是百倍左右的这个这个泡沫。",
+    "cue_start": 96,
+    "cue_end": 118,
+    "start": "00:05:05,770",
+    "end": "00:05:57,050"
+  },
+  {
+    "source_segment_id": "SS-C021",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "如果按照这个思路去看的话，要维持这样的泡沫继续增长的话。\n那下个季度亚马逊的旅营业务增增增加要增加多少？\n要比预期额外的再增加最少最少，那不是20亿美元了。\n那可能的话就得是3040亿5亿美元。\n才能符合大家的这种增长的预期，才能引起引起一搏。\n疯狂的上涨。",
+    "cue_start": 121,
+    "cue_end": 126,
+    "start": "00:06:00,390",
+    "end": "00:06:22,180"
+  },
+  {
+    "source_segment_id": "SS-C022",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "美国自己内部。\n13个周取消了数据中心的优惠，税收优惠。\nYeah.\n呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。\n啊自己本土的这个。\n数据中心的优惠。\n取消了，这个其实很正常。",
+    "cue_start": 131,
+    "cue_end": 137,
+    "start": "00:06:30,710",
+    "end": "00:06:45,320"
+  },
+  {
+    "source_segment_id": "SS-C023",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。",
+    "cue_start": 134,
+    "cue_end": 134,
+    "start": "00:06:36,050",
+    "end": "00:06:40,030"
+  },
+  {
+    "source_segment_id": "SS-C024",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "因为疯狂的做这个数据中心。\n已经开始影影响到美国的民生了。\n而且。\n数据中心带来的这种疯狂的扩张。对带电力的这种需求。\n是吧这种忽高忽低的这种需求。\n对于整个维持整个电网的稳定。\n挑战越来越严峻了。",
+    "cue_start": 138,
+    "cue_end": 144,
+    "start": "00:06:45,370",
+    "end": "00:07:02,630"
+  },
+  {
+    "source_segment_id": "SS-C025",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "那这个挑战。\n额要应付这个挑战，就得额外多花钱，钱从何来呢？\n那就得从这些项目上面之前补贴他们的这个项目。\n开始入手，开始减少这个补贴。\n把这些钱拿来升级自己的电网，稳定自己的电网配配平是吧？所谓的这个。\n你要接入一些。\n储能进去。\n让个电网更加的稳定，波风波波谷啊区别差别差距不要那么的大，这都是要花钱的东西。\n而这些钱羊毛出在羊身上。",
+    "cue_start": 145,
+    "cue_end": 153,
+    "start": "00:07:02,630",
+    "end": "00:07:29,440"
+  },
+  {
+    "source_segment_id": "SS-C026",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "这个对于数据中心的税收优惠的取消。\n这只是刚开始。\n后边随着数据中心的这个需求，假设啊这个业务没有任何的变化，一直在增长的话。\n那对于收数据中心额外的收运营的费用。\n甚至呢让他交这种电网的平衡的这种费用。\n那是基基本上是板上钉钉指日可待的。",
+    "cue_start": 155,
+    "cue_end": 160,
+    "start": "00:07:30,030",
+    "end": "00:07:48,810"
+  },
+  {
+    "source_segment_id": "SS-C027",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "raw_text": "围绕着数据中心这件事儿，如果你能证明你能挣钱。\n那所有人来收钱的。\n开始是吧。\n打着主意开始在这里面收过路费的。\n要在我的地盘听我的，然你。\n呃，这个这个挣了钱的话，要分我一杯羹呢，就开始陆续的找上你了。这些东西都会推高你数据中心的营收成本啊，运营的这个成本。而这个运营成本一升高的话，你数据中心的盈利就会下降。这是板上钉钉的事，这是第一个挑战。内部的挑战，第二个挑战呢是外部的deeps V4flash的性价比。",
+    "cue_start": 161,
+    "cue_end": 166,
+    "start": "00:07:48,810",
+    "end": "00:08:19,830"
+  },
+  {
+    "source_segment_id": "SS-C028",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "raw_text": "无敌了哈啊，运美国的研究机构评估呢运行成本呢可能呢是呃这个fiable的1%啊，这个事儿的话是个外部的挑战。因为这样的这个成本的差距，对应着你自己在估值上面的这个疯狂的泡沫，实际上。",
+    "cue_start": 167,
+    "cue_end": 167,
+    "start": "00:08:19,830",
+    "end": "00:08:39,830"
+  },
+  {
+    "source_segment_id": "SS-C029",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "raw_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。",
+    "cue_start": 168,
+    "cue_end": 168,
+    "start": "00:08:39,830",
+    "end": "00:08:59,830"
+  },
+  {
+    "source_segment_id": "SS-C030",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "raw_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。\n是啥呢？说的直白一点，就不是为他人做嫁衣嘛，你这边把这个所有的事情都准备的好好的，准备要收钱了。结果那边。\n横差一杠子，比你便宜。\n啊，这个算力提供的比你丰富。\n啊整个的这个上限比你提供的高，这还只是完全陷入在美国对于自己的AI的叙事描述中啊。",
+    "cue_start": 168,
+    "cue_end": 172,
+    "start": "00:08:39,830",
+    "end": "00:09:18,640"
+  },
+  {
+    "source_segment_id": "SS-C031",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "我看到现在很多很多的这个AI应用已经就是国内的这个应用啊。\n已经深入到一线的这个工程的应用里边了。\n很多的这种过去的。\n呃，经验的积累啊，包括一些现场的一些分析啊。",
+    "cue_start": 175,
+    "cue_end": 178,
+    "start": "00:09:22,690",
+    "end": "00:09:36,950"
+  },
+  {
+    "source_segment_id": "SS-C032",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "现在都用一些这个AI的模型在做了，而且是免费的啊，要不就是使用什么豆包啊。",
+    "cue_start": 179,
+    "cue_end": 179,
+    "start": "00:09:36,950",
+    "end": "00:09:42,790"
+  },
+  {
+    "source_segment_id": "SS-C033",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "或者呢稍微专业一点的公司，他会有自己为1个AI的模型。但是。\n使用的场景往往是非常非常单一的这个场景。\n他现在已经有在这种用了。",
+    "cue_start": 180,
+    "cue_end": 182,
+    "start": "00:09:42,790",
+    "end": "00:09:52,080"
+  },
+  {
+    "source_segment_id": "SS-C034",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "这种就是典型的toC端的应用，开始向B端延展嘛。\n这明明对的是个人用户。\n但是个人用户呢正在使用。\n这些。\n东西呢进行一些商业的交付，进行一些。\n这个。\n这不是。\n个人用户啊自己在。\n把它这个生产的把把这个AI带来的这个生产力的提升。\n应用他自己赚钱的手艺上。\n提升它的效率。",
+    "cue_start": 183,
+    "cue_end": 193,
+    "start": "00:09:52,080",
+    "end": "00:10:14,320"
+  },
+  {
+    "source_segment_id": "SS-C035",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "这个和场景其实就是美国梦想中AI。\n开始大发展大繁荣应该有的。\n这样的场景越来越多，培育一段时间以后，在这里边就会产生整个生产力的跃迁。\n对吧对AI越来越离不开嘛。",
+    "cue_start": 195,
+    "cue_end": 198,
+    "start": "00:10:15,130",
+    "end": "00:10:29,570"
+  },
+  {
+    "source_segment_id": "SS-C036",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "就跟当年的移动支付是一样的。\n一开始的时候，移动支付并没有减少什么什么。\n交易的摩擦如何如何如何，但是。\n时间长了以后，移动支付的习惯深入人心了以后。\n很多很多的业态就会发生非常大的变化。\n最直接的影响就是。\n没人上上街带吹钱包了。\n是吧有个手机就改搞定了。\n这个事情的话，一方面推广了手机的普及。另外一方面呢。\n改变了消费的习惯。\n是不是？\n那移动支付是不是中美之间拉开了巨大的差异？\n现在的AI领域也有这样的趋势了。",
+    "cue_start": 199,
+    "cue_end": 211,
+    "start": "00:10:29,570",
+    "end": "00:11:03,060"
+  },
+  {
+    "source_segment_id": "SS-C037",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "实际上对于美国来说的话，当然是很羡慕的啦。\n但是这个事儿他做的成嘛，他没有做成，而且。\n从现在网上的这个啊这个云。\n云服务商的这个收益的暴增。\n实际上就说明了这个问题。昨天还有小伙伴跟我讨论这个问题，说。",
+    "cue_start": 213,
+    "cue_end": 217,
+    "start": "00:11:04,180",
+    "end": "00:11:20,340"
+  },
+  {
+    "source_segment_id": "SS-C038",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "raw_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。",
+    "cue_start": 218,
+    "cue_end": 220,
+    "start": "00:11:20,340",
+    "end": "00:11:29,830"
+  },
+  {
+    "source_segment_id": "SS-C039",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "呃，关于这个AI投入投资回报率的这个关键问题呢。\n亚马逊的CEO表示呢。\n距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+    "cue_start": 222,
+    "cue_end": 224,
+    "start": "00:11:32,890",
+    "end": "00:11:46,930"
+  },
+  {
+    "source_segment_id": "SS-C040",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+    "cue_start": 224,
+    "cue_end": 224,
+    "start": "00:11:39,220",
+    "end": "00:11:46,930"
+  },
+  {
+    "source_segment_id": "SS-C041",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "，微软最新的财报也显示啊。\n呃，微软公司的这个云计算业务同比增收是增长了43%。",
+    "cue_start": 226,
+    "cue_end": 227,
+    "start": "00:11:47,880",
+    "end": "00:11:54,610"
+  },
+  {
+    "source_segment_id": "SS-C042",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "高于分析师预期的39.98%，这个跟刚才微软啊那个亚马逊的这个增幅也差不多，是吧？",
+    "cue_start": 228,
+    "cue_end": 228,
+    "start": "00:11:54,610",
+    "end": "00:12:01,010"
+  },
+  {
+    "source_segment_id": "SS-C043",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "那40%到43%3%吧。",
+    "cue_start": 229,
+    "cue_end": 229,
+    "start": "00:12:01,010",
+    "end": "00:12:03,490"
+  },
+  {
+    "source_segment_id": "SS-C044",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+    "cue_start": 230,
+    "cue_end": 230,
+    "start": "00:12:03,490",
+    "end": "00:12:11,970"
+  },
+  {
+    "source_segment_id": "SS-C045",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+    "cue_start": 230,
+    "cue_end": 230,
+    "start": "00:12:03,490",
+    "end": "00:12:11,970"
+  },
+  {
+    "source_segment_id": "SS-C046",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "增加的额度的话，大概增加了。\n将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+    "cue_start": 231,
+    "cue_end": 232,
+    "start": "00:12:11,970",
+    "end": "00:12:21,940"
+  },
+  {
+    "source_segment_id": "SS-C047",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+    "cue_start": 232,
+    "cue_end": 232,
+    "start": "00:12:14,440",
+    "end": "00:12:21,940"
+  },
+  {
+    "source_segment_id": "SS-C048",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "也跟我之前的时候说是吧，要维持这样的这个节奏。\n亚马逊下一次的这个财报需要。\n交付的这个结果。\n从5%的增幅要增加到10%翻一翻。\n啊，这个差不多是相匹配的。",
+    "cue_start": 233,
+    "cue_end": 237,
+    "start": "00:12:21,940",
+    "end": "00:12:33,970"
+  },
+  {
+    "source_segment_id": "SS-C049",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "然后与此同时呢，竞争对手google云的云收入呢。\n从啊飙升了82%。\n啊同样远超市场的预期。",
+    "cue_start": 238,
+    "cue_end": 240,
+    "start": "00:12:33,970",
+    "end": "00:12:42,230"
+  },
+  {
+    "source_segment_id": "SS-C050",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "raw_text": "所以呢。\n整体的市场呢展现出来的就是认为呢云计算呢会。\n非常非常的炙手可热。",
+    "cue_start": 241,
+    "cue_end": 243,
+    "start": "00:12:42,230",
+    "end": "00:12:48,910"
+  },
+  {
+    "source_segment_id": "SS-C051",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "第一个呢就是云服务这个事儿的话，并不是今天才开始热的。\n云服务热10年前就开始了。\n云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。\n啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。\n然后云营服务商的话就保证是吧我在这边的话，稳定的这给你交付这个。\n算利就行了，给你交付这种网络的资源就可以了，提供这种网络的访问就可以了。\n这个事儿已经运行了十几年了。\n这种替换已经是上一代。\n互联网革命的内容之一啦。",
+    "cue_start": 245,
+    "cue_end": 263,
+    "start": "00:12:50,400",
+    "end": "00:13:54,460"
+  },
+  {
+    "source_segment_id": "SS-C052",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。",
+    "cue_start": 247,
+    "cue_end": 255,
+    "start": "00:12:57,140",
+    "end": "00:13:28,360"
+  },
+  {
+    "source_segment_id": "SS-C053",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。",
+    "cue_start": 256,
+    "cue_end": 258,
+    "start": "00:13:28,360",
+    "end": "00:13:37,990"
+  },
+  {
+    "source_segment_id": "SS-C054",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "现在呢这事儿呢只是说。\n由于。\n算力的这个需求一下子骤然的上升了。\n算力需求的类型不一样了。\n过去的时候更多的说啊是你的网上的这个运算的资源，是吧？后租了多少的服务器。\n有多少个虚拟的CPU是吧？这对应的多少个算例。\n啊，租了多少的这个储存空间。\n然后匹配的是吧，你接入到这个网络里面有多少的这个带宽响应的带宽。\n支持多多少人同时的在线，啊这些服务的内容。\n成为了定价的依据，变成了一个云服务的包，每个月每个月给你服务。",
+    "cue_start": 264,
+    "cue_end": 273,
+    "start": "00:13:54,570",
+    "end": "00:14:28,710"
+  },
+  {
+    "source_segment_id": "SS-C055",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "说换句话说是什么呢？就是。\n现在刚才提到的微软里边有未交付的订单，金额6780亿美元里边。\n有多少是过去的这种传统业务积压下来的，本来就应该交付的东西呢？",
+    "cue_start": 284,
+    "cue_end": 286,
+    "start": "00:14:54,640",
+    "end": "00:15:10,180"
+  },
+  {
+    "source_segment_id": "SS-C056",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "对云服务本身这个特点它是线上的服务嘛。\n他自己本身的话就有业务的波动嘛。\n他储备一些未交付的订单。\n慢慢的做延期。\n这是个很正常的规避自己商商业风险的手段。\n他额外的未交付的这个订单呢，它永远有一部分是未交付的。\n但这个未交付的，实际上就是为了应对。\n由于这种需求的涨跌。\n带来的对他这个业务的平平顺性的这个冲击的。",
+    "cue_start": 287,
+    "cue_end": 295,
+    "start": "00:15:10,180",
+    "end": "00:15:34,990"
+  },
+  {
+    "source_segment_id": "SS-C057",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "根据实际的需求，比方说增加了三份需求。\n他这边追加两份的硬件的投入。\n那总是要留一份出来做为做啥呢？\n万一这个行情变了，这个市场的这个风向转头了。\n这边的需求萎缩了。\n他不至于一下子投入的太多是吧？导致自己的硬件的投入亏本。",
+    "cue_start": 297,
+    "cue_end": 302,
+    "start": "00:15:35,990",
+    "end": "00:15:54,030"
+  },
+  {
+    "source_segment_id": "SS-C058",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "raw_text": "因为硬件本身拿到手里边，它就会有折旧。你只要开始使用，它就会有折旧。\n对吧。\n你的储存的这个东西的话。\n呃，用多长时间它就坏了。\n是吧你CPU虽然说理论上来它的个寿命很长，但是。\n在那样恶劣的机房的环境来说的话，时间长了它也会坏。它。\n定期的他都会淘汰。\n这些折旧淘汰了以后，都会算到云云服务的成本里边去。",
+    "cue_start": 303,
+    "cue_end": 310,
+    "start": "00:15:54,030",
+    "end": "00:16:16,570"
+  },
+  {
+    "source_segment_id": "SS-C059",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "raw_text": "而现在呢给你讲的这波反弹呢是把。\n这个成熟商业模型里边沉默的那个商业逻辑的那部分拿出来跟你讲。\n这是未来市场发育非常强劲的一个表现。\n那典型的是把固定投入。\n当做了未来的。\n这个预期收入了嘛。\n啊，你本来这个东西应该算成成本的。\n啊，本来是为了应付整个的业务波动。\n对一个额外的冗余的准备。\n结果呢你把这部分算成了未来可期，算成了这个市场了。\n这个对于这个服务的需求有这么的旺盛。\n这个本身就是一种市场的误导。",
+    "cue_start": 313,
+    "cue_end": 324,
+    "start": "00:16:21,190",
+    "end": "00:16:55,520"
+  },
+  {
+    "source_segment_id": "SS-C060",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "raw_text": "了解云服务的看到了这些东西。第一个反应就是。\n换汤不换药，这个故事讲了它额外带来的增量并没有多少，就是我开始给你算的。\n5%10%撑死了，撑死了到20%了不起了。\n但是现在市场上更多的不明就理的对这个事情不是很理解的消费者。\n或者投资者。\n狂热的跟风的。\n或者不愿意相信真相的呢。\n把过去存单的那些东西完全当做了增量。\n那这个增量一上来的话，他对于未来的预期就会非常非常的高。",
+    "cue_start": 329,
+    "cue_end": 337,
+    "start": "00:17:08,100",
+    "end": "00:17:38,550"
+  },
+  {
+    "source_segment_id": "SS-C061",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "raw_text": "那这个增量一上来的话，他对于未来的预期就会非常非常的高。\n那既有了这么高的预期，自然而然的觉得现在的估值非常非常的低，那值得大局的商入。\n这是杀猪盘的典型玩法。\n利用大家的信息不对称。\n利用大家的知识结构的差异。\n对一件事情的看法产生了剧烈的波动。\n那利用这种价格的分歧。\n来收割那些老实人，那些天真的。\n对于这个事情不是很了解的，贸然的那些冒失冒失鬼的钱。",
+    "cue_start": 337,
+    "cue_end": 345,
+    "start": "00:17:34,690",
+    "end": "00:18:03,160"
+  },
+  {
+    "source_segment_id": "SS-C062",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "raw_text": "救命的稻草给你个啥，你就愿意信啥，为啥呢？前期的损失太多了，需要这一轮的给它补回来。\n就像我前几天跟大家聊，这轮的反弹非常危险。\n那也拦不住，有人觉得这周反弹是个机会啊，为啥呢？\n那前期那波雪崩埋进去了。\n那我要需要找一个反弹，赶紧的把这个。\n这个损失给他补回来。\n但是恰恰呢这是让你深入深渊。\n更深的调入深渊的。",
+    "cue_start": 348,
+    "cue_end": 355,
+    "start": "00:18:08,950",
+    "end": "00:18:34,740"
+  },
+  {
+    "source_segment_id": "SS-C063",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "raw_text": "上一轮给你讲，了你跑你跑不出来。\n那就意味着啥呢？意味着你没有逃生的天赋嘛，对不对？\n那这一轮呢，你看到反弹杀进去呢，你就相信这一轮你就有逃生的天赋了，你就可以。\n在它下跌之前的话，及时的跑出来了嘛。\n不会的吧。\n而且最这件事最妙的是那什么呢？\n就是你自己会患得患失。\n对吧事后复反了以后，觉得自己跑早了。\n本来呢这个机会其实呢就是你自己的能力。但你觉得呢这次盈利不够多，跑早了，那下次的话就会肯定会被埋进去，对吧？这次呢如果恰时恰逢机会呢按示的跑了，那下次的话这种侥幸心理会更加的膨胀，是吧？我是已经股神复身了，我可以准确的预预测哪个是拐点，那下次我就按照我的。\n想法来，但现实的话会跟你的想法有相左。那你反复的几次就被坑进去了。或者呢这次的话跑晚了，再次被坑了，那不是被陷入到这个坑里面越陷越深了吗？就是说无论在这个选择里面，你做的是对还是不对，无论这个对，咱们就不说了。无论这个不对，到底是早了还是晚了，其实。\n都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？",
+    "cue_start": 357,
+    "cue_end": 367,
+    "start": "00:18:37,300",
+    "end": "00:20:00,150"
+  },
+  {
+    "source_segment_id": "SS-C064",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "raw_text": "都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？\n我前面已经跟他说了是吧，从外部的因素，内部的因素。\n这客观的因素。\n也支撑不了多久了。",
+    "cue_start": 367,
+    "cue_end": 370,
+    "start": "00:19:40,210",
+    "end": "00:20:05,110"
+  },
+  {
+    "source_segment_id": "SS-C065",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "呃，云服务商最终的考虑，就像我前面说的是吧，他考虑的是。\n我这些硬件的服务折旧。\n跟我这个硬件服务周期里面的回报。\n互相之间的匹配度。\n如果说呢我这个折旧的速度啊。\n比我。\n这个提供这个云服务得到的这个收益的话。\n要少。\n那我这个生意就是赚钱的对吧？反之的话，如果我这个硬件的折旧是比那个更多的。\n那我就是赔钱的。",
+    "cue_start": 374,
+    "cue_end": 383,
+    "start": "00:20:12,010",
+    "end": "00:20:36,470"
+  },
+  {
+    "source_segment_id": "SS-C066",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "第一个呢。\n它涉及到了这个AI算力本身产生这个算力的基础，就是。\n英伟达生产的那些铲子。\n它的生产成本这是第一个部分。\n而这个生产成本呢，它未来的话会面临着两重的折旧。\n一个是更新迭代的折旧，一个呢是自然损坏的折旧，对吧？自然损坏带来的这些。\n这个比例的这个时效吧，这就。",
+    "cue_start": 388,
+    "cue_end": 394,
+    "start": "00:20:47,460",
+    "end": "00:21:08,870"
+  },
+  {
+    "source_segment_id": "SS-C067",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "这两个折旧呢。\n现在目前来看的话。\n主要是来源于这个更新迭代带来的折旧压力大。",
+    "cue_start": 395,
+    "cue_end": 397,
+    "start": "00:21:08,870",
+    "end": "00:21:17,800"
+  },
+  {
+    "source_segment_id": "SS-C068",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "但是更新迭代折旧的话，有一些技术手段可以进行一个规避。\n比如说啥呢？\n比如说我把这个折旧的评估周期拉长一点。\n拉长一点的话，就可以把现在已经被淘汰的边缘那东西。\nOh.\n不把它计算到这个折旧的这个成本里边去。\n对吧。\n这样的算法有道理，为啥呢？",
+    "cue_start": 398,
+    "cue_end": 405,
+    "start": "00:21:17,800",
+    "end": "00:21:35,450"
+  },
+  {
+    "source_segment_id": "SS-C069",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "因为结合着后边的另外一个折旧，就是他运作的过程中，他有些卡坏掉了，他要补新的卡。\n这样的折旧。\n用这样的这种方式拉长整个的评估周期的话。\n过去那些明显的这个价值啊，折损了很多很多，落后了几代的那些卡。\n他们本来的话在市场上按算减值的话，会减值很多的。\n但是正好呢。\n这些卡可以来补充。\n新增这算例里边那些损坏。\n你让他顶顶顶大梁，他是顶不住的。但是。\n你把这些淘汰的损坏进行一个补充是可以的。\n这个补充的话就会让整个的这个折旧模型变得非常非常的漂亮。\n只要你拉长这个折旧的周期。\n就可以无限的内部进行一个循环。\n这样的话呢。\n整个的折旧成本。\n从财报上看的话会非常的亮眼。但实际上隐患是啥呢？两个隐患对吧？",
+    "cue_start": 406,
+    "cue_end": 421,
+    "start": "00:21:35,450",
+    "end": "00:22:24,500"
+  },
+  {
+    "source_segment_id": "SS-C070",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "raw_text": "更新迭代的速度，它持续的进行进展的话，它总有你这个周期不可能有无限的拉长，从三年变5年变5年变7年。\n你不可能在7年里面变70年吧。\n你总有一天那个时间它延长到一定程度，你就。\n这个卡就彻底逃汰，就好像。",
+    "cue_start": 423,
+    "cue_end": 426,
+    "start": "00:22:25,390",
+    "end": "00:22:40,240"
+  },
+  {
+    "source_segment_id": "SS-C071",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。",
+    "cue_start": 430,
+    "cue_end": 437,
+    "start": "00:22:48,460",
+    "end": "00:23:13,400"
+  },
+  {
+    "source_segment_id": "SS-C072",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。\n到那个时候，你就必须得。\n进行他最终的整个的这个折旧周期的一个定型了。\n一定下来。\n那前面那些损失的东西就要在你的财报上进行反映了。\n对吧他就已经彻底的没有价值了嘛。",
+    "cue_start": 438,
+    "cue_end": 446,
+    "start": "00:23:13,450",
+    "end": "00:23:38,040"
+  },
+  {
+    "source_segment_id": "SS-C073",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "而这个没有价值会引起的就是两个影响了。\n第一个的话。\n这一部分没有价值东西进行一个。\n去出京了。\n算完了。\n那你接下来的话，你这种算力在运行过程中啊出现这种算力折损。\n进行补充的话。\n你得额外的定价了。\n这个定价对你的成本来说是一个巨大的压力。因为。\n众所周知的原因是吧？\n这数据中心的这个算卡算利卡其实淘汰的因为他那个工作环境很恶劣嘛。\n而且工作负荷很大嘛。\n是吧这个淘汰起来的话还是。\n挺吓人的，过去的时候可以用一些旧的。\n进行一个。\n减直的一个平台，现在没有旧的了，全是新的。\n那按照最新的这个价格来的话，那可能这一下子。\n在资本项的这个支出啊，这个成本折旧里边会。\n突然之间某一个时间点上，它上一个台阶亮面接这边上一个台阶。",
+    "cue_start": 447,
+    "cue_end": 465,
+    "start": "00:23:38,040",
+    "end": "00:24:26,200"
+  },
+  {
+    "source_segment_id": "SS-C074",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "而另一方面呢，你肉眼可见的这个折旧。\n很快就会带来迎来一个量变一些质变的上台阶。",
+    "cue_start": 471,
+    "cue_end": 472,
+    "start": "00:24:44,750",
+    "end": "00:24:51,470"
+  },
+  {
+    "source_segment_id": "SS-C075",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "这个台阶的翻的话可能是上升10倍。\n折旧的这个费嘛可能是上升10倍。\n或者上升几倍。\n这样的东西的话，对于你整个的盈利预期是非常大的打击。",
+    "cue_start": 473,
+    "cue_end": 476,
+    "start": "00:24:51,470",
+    "end": "00:25:02,160"
+  },
+  {
+    "source_segment_id": "SS-C076",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "这些事儿。\n运行者数据中心的。\n接触过云服务的。\n稍微对云服务这样的服务类型有过一个商业测算的，都是门清的。\n所有人都看在眼里了，但是呢谁不清楚呢？\n刚刚初来乍到进入这个市场。\n对着AI算力的出售出租，有着不切实际幻想的投资者，他不清楚。\n对吧。\n这是你运行那段时间以后就要面对的问题。面对这些问题，你就得算这个细账。\n这就是所谓的。\n啊，存量行业必须得精打细算。\n那些增量行业呢，那根本就不关心这事儿。\n他只要追着风头跑就完了。\n这样的认知差距就会导致。\n大家对这个事情未来的扩扩展空间有了最大的这种分歧。",
+    "cue_start": 477,
+    "cue_end": 491,
+    "start": "00:25:02,170",
+    "end": "00:25:44,340"
+  },
+  {
+    "source_segment_id": "SS-C077",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "而这种分歧本身。\n就是制造不稳定的源头。\n之前那波泡沫是没有任何不稳定的因素，顺风顺水的吹到这么的高大的高度。\n现在市场上有了担忧。\n有了裂痕。\n有了共识呃共识的破裂。\n在这种对冲的情况下，它市场怎么可能脱离地形引力继续向上涨呢？",
+    "cue_start": 492,
+    "cue_end": 498,
+    "start": "00:25:44,340",
+    "end": "00:26:05,410"
+  },
+  {
+    "source_segment_id": "SS-C078",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "如果没有继续向上涨的话，市场没有赚钱效应，它就没有这个吸引力了。\n那失去吸引力的市场，自然而然呢，它就会自己踩踏自己产生向心的弹索。",
+    "cue_start": 499,
+    "cue_end": 500,
+    "start": "00:26:05,410",
+    "end": "00:26:15,880"
+  },
+  {
+    "source_segment_id": "SS-C079",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "这轮的反弹，它注定只是一个花架子。\n它没有真正反弹的核心支撑，它没有业务上的变化。\n没有应应用上的这种质的飞跃。\n也没有需求上面的一种长期的需求的不满足。\n这种长期的不满足。\n实际上是个伪需求啊，所以。",
+    "cue_start": 503,
+    "cue_end": 508,
+    "start": "00:26:18,420",
+    "end": "00:26:37,220"
+  },
+  {
+    "source_segment_id": "SS-C080",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "这都是底层的逻辑啊，从来没跟你讲让，从数据上分析如何如何得到什么结论。\n不看这个。\n看的是底层的逻辑，你凭什么继续的抛弃地金引力往上涨？\n抵抗地心引力的理由是啥？\n你得拿着出来。\n目前看到了他给的理由支撑不了这个。\n就他的推进能力不足够。\n那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+    "cue_start": 513,
+    "cue_end": 520,
+    "start": "00:26:50,360",
+    "end": "00:27:13,200"
+  },
+  {
+    "source_segment_id": "SS-C081",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "raw_text": "那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+    "cue_start": 520,
+    "cue_end": 520,
+    "start": "00:27:09,470",
+    "end": "00:27:13,200"
+  },
+  {
+    "source_segment_id": "SS-C082",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "raw_text": "就好像。\n美国跟日本联合的救市汇率救市。\n我当时星期一的节目里面是不是说了？\n我说最可怕的是啥呢？就是。\n啊，这个画寒的挺漂亮的。\n结果呢。\n一上去就是呢就是。\n啊，这个动作打的这个虎虎生风。\n嗯。\n效果呢稀松平常。\n啊吧，结果救是了，救了一下。\n钱花了不少，结果市场根本就不买账。\n到那个时候的话就成了这等着蜜月期一过。\n两边一起就是不是有个蜜月期嘛，是吧等着蜜月期一过。\n开始坐下来算账的时候，你多我少的时候就开始意见分歧了。\n那意见分歧了，就互相指责对方菜嘛，都是你这个菜。\n是，菜鸡拖累我本来我的话，美国英雄英明神武本来救救你日本的话，勾勾手指就给你救起来了。\n结果兄你日本太不中用了啊，在这是坏国的好事儿。\n等着这个意见分歧了以后。\n那美国人啊落井下石，埋你埋的更快。\n到时候。\n前面怎么救的，后面就怎么埋你。\n这个迹象已经开始了嘛，是吧那。\n接下来这事儿不就乐乐呵了吗？\n眼前的这波反弹也是一样的嘛。\n底层逻辑是相通的嘛。",
+    "cue_start": 521,
+    "cue_end": 546,
+    "start": "00:27:13,200",
+    "end": "00:28:20,420"
+  },
+  {
+    "source_segment_id": "SS-C083",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "呃，另外一个呢咱们聊聊。\n华为的这个公关啊，鸿蒙之行的这个公关啊。\n那公关在我看来的话，是一个巨大的灾难。",
+    "cue_start": 563,
+    "cue_end": 565,
+    "start": "00:28:53,890",
+    "end": "00:29:02,650"
+  },
+  {
+    "source_segment_id": "SS-C084",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "当下的最关键的主要矛盾是啥？\n在华为，在鸿蒙之行眼前，最大最大的主要矛盾是啥？\n是销量的下滑。\n那。\n鸿蒙之行的销量为什么下滑？",
+    "cue_start": 571,
+    "cue_end": 575,
+    "start": "00:29:14,600",
+    "end": "00:29:27,650"
+  },
+  {
+    "source_segment_id": "SS-C085",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "因为。\n是自己的粉丝消费不动了，那喜欢华为的，喜欢认对华为有好感的，对红梦之星有好感的。\n他们已经消费过一批了，那消费的量也不少，几十万台车是吧？\n这已经消费不动了。\n现在急需要破圈。",
+    "cue_start": 576,
+    "cue_end": 580,
+    "start": "00:29:27,680",
+    "end": "00:29:43,910"
+  },
+  {
+    "source_segment_id": "SS-C086",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "现在急需要破圈。\n而破圈需要的是让路人路转粉。\n啊，而不是路转黑。\n而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。\n对吧。\n那你现在呢主要的是要打开销量，这是你的主要矛盾吧。\n那你现在是不是急需要跟自己的路人？\n啊，把这个路人员从过去的不好的路人员慢慢转向到好的路人员。\n在这个过程中，你是不是应该放低自己的姿态？\n然后呢，跟自己的那些。\n你不用强化那些真正喜欢你的人，因为。\n现在销量已经告诉你了，这些真正喜欢你的人，他们的消费能力是在下降的。因为前面该买的已经买了嘛。\n他们的潜力已经挖掘光了嘛。\n您在急需要拓展第二市场、第三市场嘛。\n在这个压力之下的话，是不是急需的把自己的品牌形象进行一个柔和的转变，是当务之急呀。",
+    "cue_start": 580,
+    "cue_end": 608,
+    "start": "00:29:41,770",
+    "end": "00:31:03,310"
+  },
+  {
+    "source_segment_id": "SS-C087",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。",
+    "cue_start": 583,
+    "cue_end": 597,
+    "start": "00:29:49,790",
+    "end": "00:30:24,930"
+  },
+  {
+    "source_segment_id": "SS-C088",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "raw_text": "那现在这个华为的这个。\n呃，这个鸿梦之行的这个回复。\n那么生硬的看起来最后结尾的时候说我们要保持谦卑如何如何。但是。\n它是一个从法律的角度。\n从数据的角度进行的回应。\n他就不是一个公关的。\n意思是啥呢？就是我没错。\n客观的事实是这样的，我没错。\n再别说他这个文稿里面本身就有很多很多偷换概念。\n对吧。",
+    "cue_start": 609,
+    "cue_end": 618,
+    "start": "00:31:03,770",
+    "end": "00:31:28,530"
+  },
+  {
+    "source_segment_id": "SS-C089",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "呃，首先第一个是吧。\n他拿这个数据的对比，然后我只投诉了170多个。\n那实际上呢有55.5点几万条。\n这个数据对比对吗？不对。\n因为这个事件发酵口碑发酵，它是一个爆炸式增长的过程。\n你那个投诉170几条，是在这个事件的初期。",
+    "cue_start": 619,
+    "cue_end": 624,
+    "start": "00:31:28,530",
+    "end": "00:31:46,990"
+  },
+  {
+    "source_segment_id": "SS-C090",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "那实际上呢有55.5点几万条。",
+    "cue_start": 621,
+    "cue_end": 621,
+    "start": "00:31:33,870",
+    "end": "00:31:36,780"
+  },
+  {
+    "source_segment_id": "SS-C091",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "你那个投诉170几条，是在这个事件的初期。\n总共关于这个事件相关的这个事儿都没有多少。\n可能就是几百条上千条。\n对吧。\n是因为你那100多条，那在整个的比例里边呢，可能就占很高的比例了。",
+    "cue_start": 624,
+    "cue_end": 628,
+    "start": "00:31:43,240",
+    "end": "00:31:57,630"
+  },
+  {
+    "source_segment_id": "SS-C092",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？",
+    "cue_start": 635,
+    "cue_end": 639,
+    "start": "00:32:14,490",
+    "end": "00:32:29,950"
+  },
+  {
+    "source_segment_id": "SS-C093",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "是因为你的这个粗暴的脂法引引发了口碑的发酵，引发了大家的反弹。\n一下子爆炸性性的增长。\n一增长了后候，你一看。\n这个情况你已经失控了，那就干干脆的话就别别在这个问题上再继续搞了。因为。\n太多的这个投诉，你投诉不过来了。\n对吧。\n最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？\n在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。",
+    "cue_start": 629,
+    "cue_end": 642,
+    "start": "00:31:57,630",
+    "end": "00:32:44,160"
+  },
+  {
+    "source_segment_id": "SS-C094",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG17"
+    ],
+    "raw_text": "再次提醒大家，我知道华嗯评论区里面有很多华为的这个拥趸，喜欢华为的。\n我跟你们的立场没有区别。\n但是我希望呢大家放下你自己粉丝的身份。\n用一个路人的视角看待你喜欢的品牌。\n你们的行为到底是在帮他招黑，还是帮他扩展自己的路人员？",
+    "cue_start": 649,
+    "cue_end": 653,
+    "start": "00:33:00,740",
+    "end": "00:33:18,830"
+  },
+  {
+    "source_segment_id": "SS-C095",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG17"
+    ],
+    "raw_text": "不排除这里面确确实实有很多米粉。\n但是你能说所有讨厌你的都是米粉吗？\n或者说呢。\n哪怕讨厌你的都是米粉。\n那这米粉和米粉之间亦有不同，也有程度的差别。\n难道你就要一竿子打死，把他们全部都排入你的黑名单，跟他们老死不相往来？\n不把这一部分来争取转化一部分嘛。",
+    "cue_start": 662,
+    "cue_end": 668,
+    "start": "00:33:37,440",
+    "end": "00:33:56,880"
+  },
+  {
+    "source_segment_id": "SS-C096",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG17"
+    ],
+    "raw_text": "要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。\n把自己的敌人搞得少少的。\n搞得少少的恰恰是主要矛盾。\n这就是矛盾论的精髓。",
+    "cue_start": 687,
+    "cue_end": 711,
+    "start": "00:34:48,720",
+    "end": "00:35:46,110"
+  },
+  {
+    "source_segment_id": "SS-C097",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG17"
+    ],
+    "raw_text": "这句话背景的是啥？当年的时候，共产党的势力。\n在国内的话是非常非常小的。\n这属于是赤匪。\n属于是流流扣那个级别的。\n结果呢。\n整个环境环境敌对你。\n妨碍你去拉拢那些本来是你的敌人，成为你的朋友吗？\n洞房碍呀。\n要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。",
+    "cue_start": 679,
+    "cue_end": 708,
+    "start": "00:34:29,680",
+    "end": "00:35:39,880"
+  },
+  {
+    "source_segment_id": "SS-C098",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG18"
+    ],
+    "raw_text": "现在。\n那些。\n，这华为的这个粉丝是吧？\n在干的事儿是干嘛的？\n再竖一个巨大的靶字。\n把所有人这个往这个靶子里装，然后把这些所有人全部变成自己的敌对。\n这叫把自己的朋友搞得少少的，把敌人搞得多多的。\n这是一个要破圈的品牌，应该做的事儿吗？\n显然不是嘛，对不对？",
+    "cue_start": 714,
+    "cue_end": 722,
+    "start": "00:35:49,680",
+    "end": "00:36:10,630"
+  },
+  {
+    "source_segment_id": "SS-C099",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG18"
+    ],
+    "raw_text": "这个公关的稿本身的出发点就是错的。\n你不是现在需要博取同情，说自己没错。\n认个错咋了？\n你确确实实之前的时候堵嘴这个事儿的话，已经引发了大家的反弹了嘛。\n这件事情能够传播的这么的广。\n最后堵都堵不过来，那客观程度上来说就是路人对你的缘，路人缘已经败坏了嘛。\n这件事情你先得认识清楚了后有这个勇气。\n认清现实。\n有这么大的胃口能够吞下这个。\n苍蝇。\n你才能谈其他的后边怎么改进吧。\n如果视而不见，对这样的一个矛盾视而不见，坚坚决的否认的话。\n那越否认陷得越深嘛。",
+    "cue_start": 724,
+    "cue_end": 736,
+    "start": "00:36:11,340",
+    "end": "00:36:52,360"
+  },
+  {
+    "source_segment_id": "SS-C100",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG18"
+    ],
+    "raw_text": "我昨天节目是不是说了，对于于成东来说的话。\n其实呢很多的建议我觉得挺中肯。从公关的角度建议。\n他最好的方法呢是自嘲，对吧？上台了，拿个竹治料这转一转转啊转转一转，然后自嘲一下，然后说一下哎，这个是下不为例。啊，很多事儿的话，我也是无心的。然后我这个形象讲话那个有口音啊，说话有口必。哎呀，是个人都有这样的小毛病，大家都谅解一谅解，没必要把这个上纲上线，把这个东西告。\n人身攻击自我的解嘲一下就完事儿了，对吧？这个事情无论如何，他对于降低这个事情的冲击都是有好处的。但是我昨天节目也说了，他自己被架那里面，他自己背后有团队，他不能够接受失败，他甚至不能够让这个失败的可能性增加一点点。这事儿给他架着，他不能够做这样的。\n柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+    "cue_start": 738,
+    "cue_end": 743,
+    "start": "00:36:52,970",
+    "end": "00:38:19,860"
+  },
+  {
+    "source_segment_id": "SS-C101",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG18"
+    ],
+    "raw_text": "柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+    "cue_start": 742,
+    "cue_end": 743,
+    "start": "00:37:39,860",
+    "end": "00:38:19,860"
+  },
+  {
+    "source_segment_id": "SS-C102",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG18"
+    ],
+    "raw_text": "这个事儿是很公平的。所以我在昨天节目结尾的时候，推荐大家看求是7月16号的那篇文章，我等会儿把这篇文章贴到评论区里啊，贴到那个简介里面，大家有有兴趣看一下，我党是怎么样历久弥新。在一些关键的环节里面焕发重生的怎么抓住这些主要。\n矛盾把自己的敌人搞得少少的，把自己的朋友搞得多多的对吧？有了这么一个目标，有了这么的一个现场的示范，还学不会，学不会，你起码得得学会看懂吧。还看不懂。那请问你喜欢这个品牌，最后让你的智商降低，这对你来说是好事还是坏事。",
+    "cue_start": 744,
+    "cue_end": 745,
+    "start": "00:38:19,860",
+    "end": "00:38:59,860"
+  },
+  {
+    "source_segment_id": "SS-C103",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "或者咱们换个话说，咱们不对华为这个品牌有任何的这个攻击性啊，咱们还是中立的说的话，我做这个节目做这么长时间，我这么真诚的面对大家给大们家讲这件事儿，我早就说过了，聊华为这个事儿对我来说是没有任何的好处的。为啥呢？因为我是在会员频道聊的。所有的听众的话，都是我。\n会员已经是我的会员了。在这个里边的话，我损失的每一个会员对我来说是有直接经济收入的损失的对吧？但是我还是要跟大家聊这个话题，还是顶住各种各样的影响。要聊这个话题。为啥呢？因为我觉得我这个频道唯一的价值就是能够真诚的带大家，对吧很多事儿的话，我是怎么想的，我就怎么跟大家说。",
+    "cue_start": 746,
+    "cue_end": 747,
+    "start": "00:38:59,860",
+    "end": "00:39:39,860"
+  },
+  {
+    "source_segment_id": "SS-C104",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "那不去讨论这个事情的对错啊，就是你到底判断的准还是不准呢，这些都是其次的。咱们分析的是整个的逻辑，对吧？整个的事件的发展，你能够提前的预知吗？特别是遇到特朗普这样的2250，你能够提前的知道他怎么想的嘛，或者说他自己的私心有多重，你就能够提前知道吗？你知道他的下限有。\n多低嘛，你无法知道的。但是他做出任何的判断，他也离不开整个世件的背景啊，他也离不开这个世界的基基调啊，他能够独立于呃独立于这个世界之外，想干嘛就干嘛嘛，他也有他自己的限制啊，看清楚这些限制，知道他的边界，根据这些边界来分析事件的走向，往往是。",
+    "cue_start": 748,
+    "cue_end": 749,
+    "start": "00:39:39,860",
+    "end": "00:40:19,860"
+  },
+  {
+    "source_segment_id": "SS-C105",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "最靠谱的他只有可能比这个情况处理的更差，他不可能比这个情况处理的更好。这叫做保下线。想要保下线就得眼睛看的更加的真实。那所有的内容的话就跟大家真实的交代。那我觉得这是我这个频道唯一的价值了。其他的事我也不是能掐会算的，我也没办法给你钱算的很很。",
+    "cue_start": 750,
+    "cue_end": 750,
+    "start": "00:40:19,860",
+    "end": "00:40:39,860"
+  },
+  {
+    "source_segment_id": "SS-C106",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "很明白，对吧？我每天每天接收的数据也有限啊，接收的信息也有限，做不到那种全职全能提前预知未来做不到的。你对我有这样的想法就是错误的。但是我不认为我给大家提供的这些内容是没有价值的，恰恰相反，我认为我提供的价值呃，提供的内容是非常非常的有价值的，是超值的。",
+    "cue_start": 751,
+    "cue_end": 751,
+    "start": "00:40:39,860",
+    "end": "00:40:59,860"
+  },
+  {
+    "source_segment_id": "SS-C107",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "所以我有这个信心嘛，是吧？你愿意订阅就订阅。看我评论区里边经常道德绑架我是吧？你这个节目质量越来越差了，我不想要取关了，我只能说能力有限，该取关就取关，为啥呢？因为确确实实可能你认为我提供的东西没有价值，有没有可能有没有一种可能，就是我自己提供的，我认。\n没的很有价值的东西。在你看来的话，没有价值，对吧？这就是两种可能性嘛。一种的话，你缺乏识识别识别有价值信息的能力，对吧？那这种情况下，你跟他说再多没用，对吧？另外一个的话就是你的水平比我高太多，对吧？那那确确实实的那你继续听我讲的话，也没有什么太大的意义。\n啊这两种可能性自选其一就可以了。，这就叫什么呢？这就叫把自己的朋友搞得多多的，把敌人搞得少少的，争取咱们之间的最大公约数啊，争取树立一个主要矛盾，来转化自己的对手，把一个对立面转化成自己的同行者。",
+    "cue_start": 752,
+    "cue_end": 754,
+    "start": "00:41:00,070",
+    "end": "00:42:00,000"
+  },
+  {
+    "source_segment_id": "SS-C108",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG19"
+    ],
+    "raw_text": "这个话不是我今天说的，半年前就说了，他跑偏了。\n对吧。\n但是我现在很悲观，我认为他没办法从自己的错误中改正出来，为啥呢？\n他现在都没认为他自己错了。\n就好像恰如现在的美国一样。",
+    "cue_start": 761,
+    "cue_end": 765,
+    "start": "00:42:17,890",
+    "end": "00:42:32,450"
+  },
+  {
+    "source_segment_id": "SS-C109",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "raw_text": "预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+    "cue_start": 92,
+    "cue_end": 95,
+    "start": "00:04:53,680",
+    "end": "00:05:05,650"
+  },
+  {
+    "source_segment_id": "SS-C110",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "raw_text": "手机虽然一年一换，一年一年之间的比较差别不大。\n但是今年的手机跟10年前的手机比的话，差别还是挺大的。\n是吧。\n2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。\n我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。",
+    "cue_start": 427,
+    "cue_end": 441,
+    "start": "00:22:40,240",
+    "end": "00:23:26,040"
+  },
+  {
+    "source_segment_id": "SS-C111",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "raw_text": "在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。\n对吧觉得你这个道歉不诚恳嘛。\n你发这个东西其实想说的是啥呢？是想说我们认识到错了，这个事能不能冷处理嘛？\n是不是您发这个东西是不是就起到这个目标嘛？\n但实际上呢。\n你发这个东西本身的话，火上浇油。\n让不爽你的人更不爽了。我说的啊。",
+    "cue_start": 640,
+    "cue_end": 648,
+    "start": "00:32:30,210",
+    "end": "00:33:00,450"
+  },
+  {
+    "source_segment_id": "SS-C112",
+    "source_id": "S03",
+    "source_version_ref": "V-S03",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "semantic_segment_refs": [
+      "SEG06",
+      "SEG07"
+    ],
+    "raw_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。\n为啥先把这个分析说说清楚啊。",
+    "cue_start": 218,
+    "cue_end": 221,
+    "start": "00:11:20,340",
+    "end": "00:11:31,890"
+  },
+  {
+    "source_segment_id": "SS-X01",
+    "source_id": "S10",
+    "source_version_ref": "V-S10",
+    "origin_family_ids": [
+      "FMSFT"
+    ],
+    "locator": "Commercial remaining performance obligation definition",
+    "raw_text": null,
+    "paraphrase": "微软商业RPO是未履行合同的未来收入义务，不是已经投入的硬件资产成本。"
+  },
+  {
+    "source_segment_id": "SS-X02",
+    "source_id": "S10",
+    "source_version_ref": "V-S10",
+    "origin_family_ids": [
+      "FMSFT"
+    ],
+    "locator": "Q326/Q426 columns",
+    "raw_text": null,
+    "paraphrase": "微软商业RPO FY26Q3为6270亿美元、Q4为6780亿美元。"
+  },
+  {
+    "source_segment_id": "SS-X03",
+    "source_id": "S11",
+    "source_version_ref": "V-S11",
+    "origin_family_ids": [
+      "FMSFT"
+    ],
+    "locator": "Business Highlights",
+    "raw_text": null,
+    "paraphrase": "微软FY26Q4 Azure及其他云服务同比增长43%；不是全部Microsoft Cloud。"
+  },
+  {
+    "source_segment_id": "SS-X04",
+    "source_id": "S12",
+    "source_version_ref": "V-S12",
+    "origin_family_ids": [
+      "FAMZN"
+    ],
+    "locator": "AWS results bullet",
+    "raw_text": null,
+    "paraphrase": "亚马逊报告AWS二季度销售约422亿美元，同比增长约37%。"
+  },
+  {
+    "source_segment_id": "SS-X05",
+    "source_id": "S13",
+    "source_version_ref": "V-S13",
+    "origin_family_ids": [
+      "FGOOG"
+    ],
+    "locator": "headline results / Cloud",
+    "raw_text": null,
+    "paraphrase": "Alphabet报告2026Q2 Google Cloud收入同比增长82%。"
+  },
+  {
+    "source_segment_id": "SS-X06",
+    "source_id": "S06",
+    "source_version_ref": "V-S06",
+    "origin_family_ids": [
+      "FTHEINFORMATION"
+    ],
+    "locator": "开头政策进度",
+    "raw_text": null,
+    "paraphrase": "报道区分四州取消或暂停与九州研究类似政策，不能统称13州已经取消。"
+  },
+  {
+    "source_segment_id": "SS-X07",
+    "source_id": "S06",
+    "source_version_ref": "V-S06",
+    "origin_family_ids": [
+      "FTHEINFORMATION"
+    ],
+    "locator": "成本估算段",
+    "raw_text": null,
+    "paraphrase": "每GW约30亿美元是按7%销售税及设备购置规模估算的增量，不是年度通用运营费。"
+  },
+  {
+    "source_segment_id": "SS-X08",
+    "source_id": "S05",
+    "source_version_ref": "V-S05",
+    "origin_family_ids": [
+      "FAA"
+    ],
+    "locator": "任务成本段",
+    "raw_text": null,
+    "paraphrase": "3美分与3.15美元比较的是指定智能指数任务的估算成本，不是整个数据中心成本。"
+  },
+  {
+    "source_segment_id": "SS-X09",
+    "source_id": "S14",
+    "source_version_ref": "V-S14",
+    "origin_family_ids": [
+      "FAA"
+    ],
+    "locator": "Pricing / token usage",
+    "raw_text": null,
+    "paraphrase": "0731版本输入/输出Token价格不变，缓存折扣和任务Token使用影响成本比较。"
+  },
+  {
+    "source_segment_id": "SS-X10",
+    "source_id": "S04",
+    "source_version_ref": "V-S04",
+    "origin_family_ids": [
+      "FBROKER"
+    ],
+    "locator": "标题/ROI段",
+    "raw_text": null,
+    "paraphrase": "新闻将云收入与订单改善解释为AI回报兑现信号，并使用卖铲到用铲的标题框架。"
+  },
+  {
+    "source_segment_id": "SS-X11",
+    "source_id": "S08",
+    "source_version_ref": "V-S08",
+    "origin_family_ids": [
+      "FQIUSHI"
+    ],
+    "locator": "日期/自省段",
+    "raw_text": null,
+    "paraphrase": "文章强调组织自我检视与纠错；网页显示7月16日，URL含0715。"
+  }
+]

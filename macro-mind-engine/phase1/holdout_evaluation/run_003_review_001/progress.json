@@ -1,0 +1,30 @@
+{
+  "status": "THREE_COMPARISON_ITEMS_HUMAN_APPROVED",
+  "completed": [
+    "submission schema, identity, IDs and source hash verified",
+    "original review archived byte-for-byte",
+    "R01/R02/R03 accepted",
+    "previous sealed answer, comparison and v0.3 preserved"
+  ],
+  "pending": [
+    "prepare explicit scenario/discriminating-observation checklist for next case",
+    "475 and remaining 12 reserved episodes not started",
+    "independent factual and forecast evaluation not performed"
+  ],
+  "remaining_unread_episodes": [
+    "475",
+    "476",
+    "478",
+    "479",
+    "480",
+    "482",
+    "484",
+    "493",
+    "495",
+    "496",
+    "509",
+    "601"
+  ],
+  "original_answer_result": "PARTIAL_METHOD_TRANSFER_WITH_CORE_REASONING_GAP",
+  "framework_change": "NONE"
+}

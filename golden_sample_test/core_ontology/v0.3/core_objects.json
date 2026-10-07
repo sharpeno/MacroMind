@@ -1,0 +1,581 @@
+{
+  "ontology_version": "0.3",
+  "freeze_status": "FROZEN",
+  "objects": [
+    {
+      "object_name": "Source",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "信息载体及其来源身份；真实性评价与载体存在分离。",
+      "semantic_invariants": [
+        "信息载体及其来源身份；真实性评价与载体存在分离。",
+        "Source ≠ Claim ≠ Reality 来源存在 不等于 来源内容为真。 准确引用 不等于 引用命题为现实事实。",
+        "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+        "历史分析必须遵守： Knowledge Cutoff Information Set Source Version Content Chronology 不得使用未来信息改写历史判断。",
+        "Source→片段/版本→Claim；独立 Assessment；按命题 origin 去重。"
+      ],
+      "principle_refs": [
+        "P01",
+        "P02",
+        "P13"
+      ],
+      "known_nonblocking_debts": [
+        "D06",
+        "D07",
+        "D19"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/0",
+          "evidence_refs": [
+            "E01",
+            "E10",
+            "E11"
+          ]
+        }
+      ],
+      "coverage_note": "跨版本/转载不是新 Core。"
+    },
+    {
+      "object_name": "Claim",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "带说话者、时间、Population、量词、模态与来源的可断言命题。",
+      "semantic_invariants": [
+        "带说话者、时间、Population、量词、模态与来源的可断言命题。",
+        "Source ≠ Claim ≠ Reality 来源存在 不等于 来源内容为真。 准确引用 不等于 引用命题为现实事实。",
+        "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+        "信息不足时： unknown / null / review 优于模型猜测。",
+        "历史分析必须遵守： Knowledge Cutoff Information Set Source Version Content Chronology 不得使用未来信息改写历史判断。",
+        "必须区分： analyst statement analyst reasoning model reconstruction model diagnostic human adjudication reasoner_id analysis_context annotation_observer 不得混用。",
+        "Source→片段/版本→Claim；独立 Assessment；按命题 origin 去重。",
+        "Claim 保存说法；Event 的状态和发生证据单列。",
+        "Assessment 指向目标/标准/观察者；不改写原 Claim。"
+      ],
+      "principle_refs": [
+        "P01",
+        "P02",
+        "P12",
+        "P13",
+        "P15"
+      ],
+      "known_nonblocking_debts": [
+        "D02",
+        "D05",
+        "D08",
+        "D20"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/1",
+          "evidence_refs": [
+            "E02",
+            "E23",
+            "E41"
+          ]
+        }
+      ],
+      "coverage_note": "原话、事件与真实性不合并。"
+    },
+    {
+      "object_name": "Event",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "具有相对明确时间边界的状态变化；宣布/生效/发生分别记录。",
+      "semantic_invariants": [
+        "具有相对明确时间边界的状态变化；宣布/生效/发生分别记录。",
+        "单个Event不得自动升级为StructuralProcess。 StructuralProcess要求跨时间持续证据。",
+        "Policy为持续状态。 宣布、实施、调整是Event。",
+        "历史分析必须遵守： Knowledge Cutoff Information Set Source Version Content Chronology 不得使用未来信息改写历史判断。",
+        "Claim 保存说法；Event 的状态和发生证据单列。",
+        "跨期证据门槛；证据不足保留 Claim/Thesis。",
+        "以 Event subtype 和 registry 扩展表示通知动作。"
+      ],
+      "principle_refs": [
+        "P03",
+        "P07",
+        "P13"
+      ],
+      "known_nonblocking_debts": [
+        "D05",
+        "D06"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/2",
+          "evidence_refs": [
+            "E05",
+            "E12",
+            "E25"
+          ]
+        }
+      ],
+      "coverage_note": "通知是已宣布事件，不推出所宣称结果已实现。"
+    },
+    {
+      "object_name": "StructuralProcess",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "跨一段时间持续发生、由多时期观测/时间序列/多事件政策支持的现实结构变化。",
+      "semantic_invariants": [
+        "跨一段时间持续发生、由多时期观测/时间序列/多事件政策支持的现实结构变化。",
+        "单个Event不得自动升级为StructuralProcess。 StructuralProcess要求跨时间持续证据。",
+        "跨期证据门槛；证据不足保留 Claim/Thesis。"
+      ],
+      "principle_refs": [
+        "P03"
+      ],
+      "known_nonblocking_debts": [
+        "D12"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/3",
+          "evidence_refs": [
+            "E03",
+            "E25",
+            "E32"
+          ]
+        }
+      ],
+      "coverage_note": "需求正例与拒绝升格负例已覆盖；正式正例尚无。"
+    },
+    {
+      "object_name": "Actor",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "具有行动或决策归属的主体；同名地理位置和叙事角色不是主体身份。",
+      "semantic_invariants": [
+        "具有行动或决策归属的主体；同名地理位置和叙事角色不是主体身份。",
+        "主体身份与 location/role 关系分开。"
+      ],
+      "principle_refs": [],
+      "known_nonblocking_debts": [
+        "D07",
+        "D20"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/4",
+          "evidence_refs": [
+            "E05",
+            "E14"
+          ]
+        }
+      ],
+      "coverage_note": "国家作为主体与作为地理范围须分开引用。"
+    },
+    {
+      "object_name": "Indicator",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "可重复使用的指标定义及口径；某时值由辅助 Observation 承载。",
+      "semantic_invariants": [
+        "可重复使用的指标定义及口径；某时值由辅助 Observation 承载。",
+        "Indicator定义变量。 IndicatorObservation记录实际时点观测。 Target Design Capacity Guidance Observed Value 不得混用。",
+        "信息不足时： unknown / null / review 优于模型猜测。",
+        "指标定义稳定，观测带 value_kind、period、comparison、role/stage。"
+      ],
+      "principle_refs": [
+        "P06",
+        "P12"
+      ],
+      "known_nonblocking_debts": [
+        "D11",
+        "D16"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/5",
+          "evidence_refs": [
+            "E05",
+            "E13",
+            "E20",
+            "E27"
+          ]
+        }
+      ],
+      "coverage_note": "flow/stock、价格/量、目标/实际为定义或观测字段。"
+    },
+    {
+      "object_name": "Policy",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "持续有效的制度/政策安排；宣布、调整、执行是相关 Event。",
+      "semantic_invariants": [
+        "持续有效的制度/政策安排；宣布、调整、执行是相关 Event。",
+        "Policy为持续状态。 宣布、实施、调整是Event。",
+        "政策持久状态与宣布/实施事件分别记录并关联。"
+      ],
+      "principle_refs": [
+        "P07"
+      ],
+      "known_nonblocking_debts": [
+        "D05",
+        "D07"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/6",
+          "evidence_refs": [
+            "E05",
+            "E12"
+          ]
+        }
+      ],
+      "coverage_note": "PL01 与 EV05 分开，未来生效不等于未来信息。"
+    },
+    {
+      "object_name": "Mechanism",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "在适用条件下可跨案例复用的因果机制；使用实例不等于共享机制作者。",
+      "semantic_invariants": [
+        "在适用条件下可跨案例复用的因果机制；使用实例不等于共享机制作者。",
+        "Mechanism是可复用因果模型。 Argument是特定reasoner在特定语境中的实际推理链。",
+        "机制使用者 不自动成为 机制作者。 unknown不得为了字段完整被补成analyst。",
+        "机制保留可复用因果结构，Argument 保存本次前提和实际推理边。",
+        "共享机制和使用实例分别 attribution。"
+      ],
+      "principle_refs": [
+        "P08",
+        "P09"
+      ],
+      "known_nonblocking_debts": [
+        "D07",
+        "D10"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/7",
+          "evidence_refs": [
+            "E06",
+            "E18",
+            "E19"
+          ]
+        }
+      ],
+      "coverage_note": "candidate 状态不妨碍类型存在。"
+    },
+    {
+      "object_name": "Argument",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "连接前提、推理边、中间与最终结论的论证；保存表达层、reasoner、距离及脆弱环节。",
+      "semantic_invariants": [
+        "连接前提、推理边、中间与最终结论的论证；保存表达层、reasoner、距离及脆弱环节。",
+        "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+        "Mechanism是可复用因果模型。 Argument是特定reasoner在特定语境中的实际推理链。",
+        "必须区分： analyst statement analyst reasoning model reconstruction model diagnostic human adjudication reasoner_id analysis_context annotation_observer 不得混用。",
+        "model_reconstruction 不得直接成为： Analyst Method evidence 除非存在原始explicit或strongly implied证据。",
+        "机制保留可复用因果结构，Argument 保存本次前提和实际推理边。"
+      ],
+      "principle_refs": [
+        "P02",
+        "P08",
+        "P15",
+        "P16"
+      ],
+      "known_nonblocking_debts": [
+        "D11",
+        "D17"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/8",
+          "evidence_refs": [
+            "E06",
+            "E16",
+            "E26"
+          ]
+        }
+      ],
+      "coverage_note": "model bridge 与 creator shortcut 不同；无需拆分 Core。"
+    },
+    {
+      "object_name": "Thesis",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "对事件、过程、指标组合的持久解释或结构判断，可由后续证据支持/反驳。",
+      "semantic_invariants": [
+        "对事件、过程、指标组合的持久解释或结构判断，可由后续证据支持/反驳。",
+        "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+        "持久结构解释不等于时间绑定预测。",
+        "持久结构解释与带时间/条件的未来判断分别引用。"
+      ],
+      "principle_refs": [
+        "P02",
+        "P05"
+      ],
+      "known_nonblocking_debts": [
+        "D12",
+        "D15"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/9",
+          "evidence_refs": [
+            "E01",
+            "E03",
+            "E25"
+          ]
+        }
+      ],
+      "coverage_note": "现实过程本身不重复包装成 Thesis。"
+    },
+    {
+      "object_name": "Forecast",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "主体对未来结果承担的判断：Claim + cutoff + window + modality + resolution criteria，受准入门槛约束。",
+      "semantic_invariants": [
+        "主体对未来结果承担的判断：Claim + cutoff + window + modality + resolution criteria，受准入门槛约束。",
+        "Scenario表达： 条件分支 / possible branch。 Forecast要求： 主体对未来结果承担判断。 未endorsed的IF-THEN不得自动进入Forecast Ledger。",
+        "持久结构解释不等于时间绑定预测。",
+        "历史分析必须遵守： Knowledge Cutoff Information Set Source Version Content Chronology 不得使用未来信息改写历史判断。",
+        "持久结构解释与带时间/条件的未来判断分别引用。",
+        "Scenario 保留分支；Forecast 必须满足主体判断准入；不以 resolvability 单独替代准入。"
+      ],
+      "principle_refs": [
+        "P04",
+        "P05",
+        "P13"
+      ],
+      "known_nonblocking_debts": [
+        "D03",
+        "D15"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/10",
+          "evidence_refs": [
+            "E08",
+            "E24",
+            "E34",
+            "E43"
+          ]
+        }
+      ],
+      "coverage_note": "条件推演与押注区别；低可判定性不自动排除明确判断。"
+    },
+    {
+      "object_name": "Contradiction",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "跨时持续、多个目标/约束冲突并由多个 Event/Thesis 与互动支持的结构性张力。",
+      "semantic_invariants": [
+        "跨时持续、多个目标/约束冲突并由多个 Event/Thesis 与互动支持的结构性张力。"
+      ],
+      "principle_refs": [],
+      "known_nonblocking_debts": [
+        "D13",
+        "D20"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/11",
+          "evidence_refs": [
+            "E07",
+            "E33"
+          ]
+        }
+      ],
+      "coverage_note": "仅负例/拒绝自动生成覆盖；不能等同 claim_relation=CONTRADICTS。"
+    },
+    {
+      "object_name": "Assessment",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "特定观察者按标准、时点和信息集对目标作出的评价。",
+      "semantic_invariants": [
+        "特定观察者按标准、时点和信息集对目标作出的评价。",
+        "Source ≠ Claim ≠ Reality 来源存在 不等于 来源内容为真。 准确引用 不等于 引用命题为现实事实。",
+        "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+        "模型评价： “推理不足” 不等于： “原子事实为假”。 Assessment真值不得向Reality传播。",
+        "必须区分： analyst statement analyst reasoning model reconstruction model diagnostic human adjudication reasoner_id analysis_context annotation_observer 不得混用。",
+        "Assessment 指向目标/标准/观察者；不改写原 Claim。",
+        "评价作用范围和真值不传播原则。"
+      ],
+      "principle_refs": [
+        "P01",
+        "P02",
+        "P10",
+        "P15"
+      ],
+      "known_nonblocking_debts": [
+        "D08",
+        "D20"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/12",
+          "evidence_refs": [
+            "E01",
+            "E41",
+            "E42"
+          ]
+        }
+      ],
+      "coverage_note": "评价不是现实本身；source fidelity 不向因果真实性传播。"
+    },
+    {
+      "object_name": "Heuristic",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "core_definition": "潜在跨事件复用的分析动作或检查规则，具有适用范围、限制和失败条件；可处于候选状态。",
+      "semantic_invariants": [
+        "潜在跨事件复用的分析动作或检查规则，具有适用范围、限制和失败条件；可处于候选状态。",
+        "AnalystMethodSignal → Repeated Signal → Candidate Pattern → Heuristic → Validated Skill Rule 单次Signal不得直接成为Skill Rule。",
+        "model_reconstruction 不得直接成为： Analyst Method evidence 除非存在原始explicit或strongly implied证据。",
+        "局部行为观察→候选模式→规则，保留失败与匹配范围。",
+        "Core Heuristic 可候选；Skill 需跨案稳定性、反例与验证。"
+      ],
+      "principle_refs": [
+        "P11",
+        "P16"
+      ],
+      "known_nonblocking_debts": [
+        "D14",
+        "D17"
+      ],
+      "allowed_extension_layers": [
+        "field",
+        "auxiliary_object",
+        "relation",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+          "json_pointer": "/core_object_assessments/13",
+          "evidence_refs": [
+            "E01",
+            "E04",
+            "E17",
+            "E40"
+          ]
+        }
+      ],
+      "coverage_note": "MethodSignal 是局部观察，SkillRule 是经验证可执行产物；没有降级 Core 的结构证据。"
+    }
+  ]
+}

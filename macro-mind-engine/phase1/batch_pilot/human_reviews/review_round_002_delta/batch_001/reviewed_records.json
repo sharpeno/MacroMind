@@ -1,0 +1,26 @@
+[
+  {
+    "id": "R02D/EP002/C22",
+    "episode": "EP002",
+    "kind": "修订确认",
+    "decision": "accept_revision",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "content_status": "pending",
+    "reviewer": "",
+    "updated_at": "2026-10-03T19:25:11.135Z"
+  },
+  {
+    "id": "R02D/EP005/A03",
+    "episode": "EP005",
+    "kind": "修订确认",
+    "decision": "accept_revision",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "content_status": "pending",
+    "reviewer": "",
+    "updated_at": "2026-10-03T19:25:40.364Z"
+  }
+]

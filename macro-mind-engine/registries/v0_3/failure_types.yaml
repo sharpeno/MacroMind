@@ -1,0 +1,100 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "FailureType",
+  "requires_unknown": true,
+  "source_refs": [
+    "Phase 1.0-1.2 Execution Prompt",
+    "GS004/GS005 accepted auxiliary fields; MA.1 schema_contract.json"
+  ],
+  "entries": [
+    {
+      "value": "dimensional_error",
+      "description": "FailureType: dimensional error; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "scope_shift",
+      "description": "FailureType: scope shift; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "denominator_shift",
+      "description": "FailureType: denominator shift; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "temporal_mismatch",
+      "description": "FailureType: temporal mismatch; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unsupported_causal_jump",
+      "description": "FailureType: unsupported causal jump; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "motive_overreach",
+      "description": "FailureType: motive overreach; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "analogy_overreach",
+      "description": "FailureType: analogy overreach; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "object_role_shift",
+      "description": "FailureType: object role shift; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "closed_explanation",
+      "description": "FailureType: closed explanation; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "other",
+      "description": "FailureType: other; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

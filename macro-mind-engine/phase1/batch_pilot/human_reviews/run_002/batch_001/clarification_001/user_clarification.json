@@ -1,0 +1,11 @@
+{
+  "received_at": "2026-10-03T09:20:52.933521+00:00",
+  "source": "Explicit user reply in current chat",
+  "verbatim": "确认此前纠正可以采用",
+  "scope": [
+    "EP002/A02/revision",
+    "EP003/A01/revision"
+  ],
+  "meaning": "Adopt previous six correction suggestions; do not withdraw them",
+  "supersedes": "Ambiguous interpretation of audio_ok, not the original export bytes"
+}

@@ -1,0 +1,74 @@
+{
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/method_comparison/run_001/TRACE.html",
+  "browser": "Edge / Playwright",
+  "availability": "Browser plugin not available",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    {
+      "name": "identity",
+      "pass": true
+    },
+    {
+      "name": "not_blank",
+      "pass": true
+    },
+    {
+      "name": "no_overlay",
+      "pass": true
+    },
+    {
+      "name": "five_methods",
+      "pass": true
+    },
+    {
+      "name": "eight_evidence_groups",
+      "pass": true
+    },
+    {
+      "name": "reason_expands",
+      "pass": true
+    },
+    {
+      "name": "quote_anchor",
+      "pass": true
+    },
+    {
+      "name": "quotes_visible",
+      "pass": true
+    },
+    {
+      "name": "video_time_link",
+      "pass": true
+    },
+    {
+      "name": "internal_links_resolve",
+      "pass": true
+    },
+    {
+      "name": "baseline_link",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile_expansion",
+      "pass": true
+    },
+    {
+      "name": "console_health",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

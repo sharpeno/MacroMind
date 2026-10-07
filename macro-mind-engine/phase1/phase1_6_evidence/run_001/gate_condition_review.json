@@ -1,0 +1,8 @@
+{
+  "change": "Remove nonempty-canonical precondition from G06: the plan explicitly permits GS001 summary-only. All real unresolved references still block G06.",
+  "executed_snapshot_sha256": "31679a6fc18bbbfb2abc2c88cb08d5eb683a2ca48973b00c19496ce30ab823b8",
+  "current_script_sha256": "38dfe92f448062b10ad45a31b17ec9df6eeb797442371f9e778bd06f78ab7fa2",
+  "G06_recomputed": "FAIL",
+  "recorded_G06": "FAIL",
+  "result_unchanged": true
+}

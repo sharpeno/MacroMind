@@ -1,0 +1,233 @@
+{
+  "$defs": {
+    "AnalysisContext": {
+      "enum": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "title": "AnalysisContext",
+      "type": "string"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Mechanism",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Mechanism; ontology_version=0.3.",
+  "properties": {
+    "analysis_context": {
+      "$ref": "#/$defs/AnalysisContext",
+      "description": "Context of mechanism attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json"
+    },
+    "annotation_observer": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observer recording attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Annotation Observer"
+    },
+    "applicability_conditions": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Conditions for reuse",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Applicability Conditions"
+    },
+    "causal_structure": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Causal relationships",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Causal Structure"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "domain_scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Applicable domain",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Domain Scope"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "Mechanism",
+      "default": "Mechanism",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Mechanism author; usage analyst is not automatically author",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Reasoner Id"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_refs": {
+      "description": "Sources for the mechanism",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "statement": {
+      "description": "Reusable causal structure",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Mechanism; core_principles.json",
+      "title": "Statement",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "statement",
+    "causal_structure",
+    "applicability_conditions",
+    "domain_scope",
+    "reasoner_id",
+    "analysis_context",
+    "annotation_observer",
+    "source_refs"
+  ],
+  "title": "Mechanism",
+  "type": "object"
+}

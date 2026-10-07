@@ -1,0 +1,20 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "records": 30,
+  "source_hashes_unchanged": 30,
+  "framework_unchanged": true,
+  "development": 15,
+  "reserved": 15,
+  "read_development": 2,
+  "parsed_cues": 1436,
+  "units": 10,
+  "negative_tests_rejected": [
+    "overlap",
+    "wrong_date",
+    "evidence_mutation",
+    "false_acceptance",
+    "holdout_read"
+  ],
+  "semantic_acceptance": false,
+  "prediction_accuracy_verified": false
+}

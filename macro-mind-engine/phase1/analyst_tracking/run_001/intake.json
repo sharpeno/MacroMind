@@ -1,0 +1,94 @@
+{
+  "EP007": {
+    "episode": "EP007",
+    "published_at": "2026-08-31 10:51:04",
+    "date_basis": "USER_METADATA_NOT_EXTERNALLY_VERIFIED",
+    "title": "《第七百五二期》沃什放鹰，美联储九月是否加息？",
+    "url": "https://www.bilibili.com/video/BV12gt46tEb9/?spm_id_from=333.1387.upload.video_card.click&vd_source=02968f8f80698e2c7aeb01f11924db75",
+    "intake": {
+      "cue_count": 83,
+      "contiguous_ids": true,
+      "valid_intervals": true,
+      "overlaps": 0,
+      "max_gap_seconds": 0.18,
+      "first_start_seconds": 0.0,
+      "last_end_seconds": 2305.578,
+      "video_duration_seconds": 2305.583469,
+      "tail_gap_seconds": 0.005469,
+      "every_srt_quote_found_in_txt": true,
+      "audio_listened": false,
+      "semantic_completeness": "NOT_ESTABLISHED"
+    },
+    "external_links": [
+      {
+        "url": "https://www.cls.cn/detail/2468314",
+        "status": "NOT_FETCHED_NOT_FACT_CHECKED",
+        "cue_alignment": "UNASSIGNED"
+      },
+      {
+        "url": "https://wallstreetcn.com/articles/3780594",
+        "status": "NOT_FETCHED_NOT_FACT_CHECKED",
+        "cue_alignment": "UNASSIGNED"
+      }
+    ]
+  },
+  "EP008": {
+    "episode": "EP008",
+    "published_at": "2026-09-07 10:41:25",
+    "date_basis": "USER_METADATA_NOT_EXTERNALLY_VERIFIED",
+    "title": "《第七百五七期》美国八月非农传喜报，大幅超出预期是否会影响美联储9月加息预期？",
+    "url": "https://www.bilibili.com/video/BV1eJbw6uEp5/?spm_id_from=333.1387.upload.video_card.click&vd_source=02968f8f80698e2c7aeb01f11924db75",
+    "intake": {
+      "cue_count": 72,
+      "contiguous_ids": true,
+      "valid_intervals": true,
+      "overlaps": 0,
+      "max_gap_seconds": 0.0,
+      "first_start_seconds": 0.09,
+      "last_end_seconds": 2086.498,
+      "video_duration_seconds": 2086.502766,
+      "tail_gap_seconds": 0.004766,
+      "every_srt_quote_found_in_txt": true,
+      "audio_listened": false,
+      "semantic_completeness": "NOT_ESTABLISHED"
+    },
+    "external_links": [
+      {
+        "url": "https://www.cls.cn/detail/2474737",
+        "status": "NOT_FETCHED_NOT_FACT_CHECKED",
+        "cue_alignment": "UNASSIGNED"
+      },
+      {
+        "url": "https://www.cls.cn/detail/2475058",
+        "status": "NOT_FETCHED_NOT_FACT_CHECKED",
+        "cue_alignment": "UNASSIGNED"
+      },
+      {
+        "url": "https://www.cls.cn/detail/2474788",
+        "status": "NOT_FETCHED_NOT_FACT_CHECKED",
+        "cue_alignment": "UNASSIGNED"
+      }
+    ]
+  },
+  "EP001": {
+    "episode": "EP001",
+    "published_at": "2026-09-11 10:10:52",
+    "date_basis": "USER_METADATA_NOT_EXTERNALLY_VERIFIED",
+    "title": "《第七百六一期》美国八月PPI跳涨，美联储9月加息概率大增，美国柴油平均价格突破6美元一加仑",
+    "url": "https://www.bilibili.com/video/BV1TuY56uEmg/?spm_id_from=333.1387.upload.video_card.click&vd_source=02968f8f80698e2c7aeb01f11924db75"
+  },
+  "EP002": {
+    "episode": "EP002",
+    "published_at": "2026-09-15 10:29:44",
+    "date_basis": "USER_METADATA_NOT_EXTERNALLY_VERIFIED",
+    "title": "《第七百六三期》美联储9月加息将近，对市场会产生哪些影响？",
+    "url": "https://www.bilibili.com/video/BV12Cej62Exm/?spm_id_from=333.1387.upload.video_card.click&vd_source=02968f8f80698e2c7aeb01f11924db75"
+  },
+  "EP003": {
+    "episode": "EP003",
+    "published_at": "2026-09-17 09:36:31",
+    "date_basis": "USER_METADATA_NOT_EXTERNALLY_VERIFIED",
+    "title": "《第七百六五期》美联储时隔三年再次加息，仅此一次还是紧缩开始？沃什加息，特朗普怎么办？",
+    "url": "https://www.bilibili.com/video/BV1pEeu6DEHR/?spm_id_from=333.1387.upload.video_card.click&vd_source=02968f8f80698e2c7aeb01f11924db75"
+  }
+}

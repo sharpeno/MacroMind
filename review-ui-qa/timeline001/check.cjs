@@ -1,0 +1,22 @@
+const {chromium}=require('C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const checks=[],errors=[];try{
+const page=await browser.newPage({viewport:{width:1280,height:900}});page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await page.goto('http://127.0.0.1:8772/TRACE.html');const ck=(name,ok)=>checks.push({name,passed:!!ok});
+ck('page identity',(await page.title()).includes('判断更新时间线'));
+ck('not blank',await page.locator('section').count()===3);
+ck('hindsight warning',(await page.locator('.intro').innerText()).includes('不是盲测或真实预测成绩'));
+ck('no overlay',!(await page.locator('body').innerText()).includes('Internal Server Error'));
+ck('before excludes later evidence',!(await page.locator('#T0').innerText()).includes('4.75%'));
+await page.locator('nav a[href="#T1"]').click();ck('stage navigation',page.url().endsWith('#T1'));
+ck('scheduled not observed',(await page.locator('#T1 article').nth(1).innerText()).includes('尚不写成已经观察到效果'));
+await page.locator('nav a[href="#T2"]').click();const execution=page.locator('#T2 article').nth(1);await execution.locator('summary').click();
+ck('publication date distinct',(await execution.innerText()).includes('2024-11-26')&&(await execution.innerText()).includes('2024-11-07'));
+ck('source unfolds',(await execution.innerText()).includes('fully passing through'));
+ck('withdrawal explicit',(await page.locator('#T2 article').nth(2).innerText()).includes('撤回分支'));
+ck('teaching branch disclosed',(await page.locator('#T2 article').nth(2).innerText()).includes('不是真实事前预测')||(await page.locator('#T2 article').nth(2).innerText()).includes('不是9527观点或真实事前预测'));
+await execution.scrollIntoViewIfNeeded();await page.screenshot({path:path.join(__dirname,'desktop.png')});
+const response=await page.request.get('http://127.0.0.1:8772/timeline.json');ck('json accessible',response.ok()&&(await response.json()).length===3);
+await page.setViewportSize({width:390,height:844});await page.goto('http://127.0.0.1:8772/TRACE.html');ck('mobile no overflow',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:path.join(__dirname,'mobile.png')});ck('console health',errors.length===0);
+fs.writeFileSync(path.join(__dirname,'results.json'),JSON.stringify({reason:'Browser plugin not available; independent Playwright Edge',viewports:['1280x900','390x844'],checks,errors},null,2));console.log(JSON.stringify({checks:checks.length,passed:checks.every(c=>c.passed),errors}));if(checks.some(c=>!c.passed))process.exitCode=1;
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});

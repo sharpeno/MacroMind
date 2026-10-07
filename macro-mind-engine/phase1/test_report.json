@@ -1,0 +1,48 @@
+{
+  "command": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "G:\\youhegaojian\\macro-mind-engine\\tests",
+    "-q",
+    "-W",
+    "error",
+    "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\all-tests.xml"
+  ],
+  "exit_code": 0,
+  "groups": {
+    "cli": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 6,
+      "SKIPPED": 0
+    },
+    "contract": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 21,
+      "SKIPPED": 0
+    },
+    "registry": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 19,
+      "SKIPPED": 0
+    },
+    "schema": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 38,
+      "SKIPPED": 0
+    }
+  },
+  "junit_xml": "phase1/all-tests.xml",
+  "stderr": "",
+  "stdout": "........................................................................ [ 85%]\n............                                                             [100%]\n84 passed in 7.66s\n",
+  "totals": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 84,
+    "SKIPPED": 0
+  }
+}

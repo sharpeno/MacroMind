@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-09-27T00:45:15+08:00",
+  "manifest_sha256": "c914c025561baeac92f456515453fd57f75e36be950565f4047b8208d7a3bf0d",
+  "all_output_hashes_match": true,
+  "all_input_hashes_match": true,
+  "golden_inventory_and_bytes_unchanged": true,
+  "audit_inventory_and_bytes_unchanged": true,
+  "manifest_declares_frozen": true,
+  "debt_copy_byte_identical": true,
+  "D01_overlay_hash_bound": true,
+  "passed": true
+}

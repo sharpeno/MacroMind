@@ -1,0 +1,193 @@
+[
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "G:\\youhegaojian\\macro-mind-engine\\tests",
+      "-q",
+      "-W",
+      "error",
+      "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\tests.xml"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "pytest",
+    "stderr": "phase1/phase1_4_evidence/run_002/pytest.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/pytest.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "--config",
+      "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+      "G:\\youhegaojian\\macro-mind-engine\\src",
+      "G:\\youhegaojian\\macro-mind-engine\\tests",
+      "G:\\youhegaojian\\macro-mind-engine\\scripts\\verify_phase1_4.py"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "ruff_check",
+    "stderr": "phase1/phase1_4_evidence/run_002/ruff_check.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/ruff_check.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "--config",
+      "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+      "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\compatibility",
+      "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\cli\\main.py",
+      "G:\\youhegaojian\\macro-mind-engine\\tests\\compatibility",
+      "G:\\youhegaojian\\macro-mind-engine\\scripts\\verify_phase1_4.py"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "ruff_format",
+    "stderr": "phase1/phase1_4_evidence/run_002/ruff_format.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/ruff_format.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "contract",
+      "verify",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_contract",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_contract.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_contract.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "registry",
+      "verify",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_registry",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_registry.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_registry.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_canonical.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_validate",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_validate.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_validate.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_legacy.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 2,
+    "name": "cli_raw_rejected",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_raw_rejected.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_raw_rejected.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "compatibility",
+      "detect",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_legacy.json"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_detect",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_detect.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_detect.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "compatibility",
+      "adapt",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_legacy.json",
+      "--output",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_result.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_adapt",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_adapt.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_adapt.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "compatibility",
+      "adapt",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_unknown.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 1,
+    "name": "cli_unsupported",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_unsupported.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_unsupported.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "compatibility",
+      "adapt",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_legacy.json",
+      "--output",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_legacy.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 2,
+    "name": "cli_inplace",
+    "stderr": "phase1/phase1_4_evidence/run_002/cli_inplace.stderr.txt",
+    "stdout": "phase1/phase1_4_evidence/run_002/cli_inplace.stdout.txt"
+  }
+]

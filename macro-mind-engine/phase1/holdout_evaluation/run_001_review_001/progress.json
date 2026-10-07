@@ -1,0 +1,16 @@
+{
+  "status": "R02_REVISED_PENDING_CONFIRMATION",
+  "completed": [
+    "submission identity and sealed files verified",
+    "original bytes archived",
+    "R01/R03 approval recorded",
+    "R02 expanded into role, event, attitude and motive layers"
+  ],
+  "pending": [
+    "confirm revised R02 comparison",
+    "decide whether application checklist needs a separate tested revision",
+    "14 remaining holdouts not started"
+  ],
+  "framework_change": "NONE",
+  "pre_exposure_answer_change": "NONE"
+}

@@ -1,0 +1,91 @@
+{
+  "executed_at": "2026-09-26T16:26:47+08:00",
+  "completed": true,
+  "input_sha256": "c0ba112804c455e345f3664300e5cec1cffb94dc444477f8778410ae52480bce",
+  "output_sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+  "validator_sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7",
+  "prompt_sha256": "b90d6bd4cc7212de0bc44a2c6b2938455f427c770a264141d4fd4db443052e66",
+  "validation": {
+    "ERROR": 0,
+    "WARNING": 69,
+    "PASS": 1805
+  },
+  "integrity_checks": {
+    "original_finalization_metadata_unchanged": true,
+    "protected_artifacts_and_validator_unchanged": true,
+    "all_other_claims_unchanged": true,
+    "C005_historical_semantics_unchanged": true,
+    "three_resolved_reviews_unchanged": true,
+    "scenarios_forecasts_arguments_method_signals_unchanged": true,
+    "governance_flags_unchanged": true
+  },
+  "finalization_1_history_preserved": true,
+  "changes": [
+    {
+      "path": "/08_CLAIMS/4/comparison_basis/baseline_source_ref",
+      "before_present": false,
+      "after": null
+    },
+    {
+      "path": "/08_CLAIMS/4/comparison_basis/comparison_type",
+      "before": null,
+      "after": "unknown"
+    },
+    {
+      "path": "/08_CLAIMS/4/recognition_stage",
+      "before_present": false,
+      "after": "unknown"
+    },
+    {
+      "path": "/08_CLAIMS/4/semantic_role",
+      "before": null,
+      "after": "unknown"
+    },
+    {
+      "path": "/finalization_hotfix_1_1",
+      "before_present": false,
+      "after": {
+        "version": "GS005-MA1-FINALIZATION-HOTFIX-1.1",
+        "executed_at": "2026-09-26T16:26:47+08:00",
+        "completed": true,
+        "validation_passed": true,
+        "semantic_objects_regenerated": false,
+        "decisions_readjudicated": false,
+        "prompt_path": "G:\\youhegaojian\\prompt\\GS005-MA1 Finalization Hotfix 1.1.md",
+        "prompt_sha256": "b90d6bd4cc7212de0bc44a2c6b2938455f427c770a264141d4fd4db443052e66",
+        "prompt_truncated": true,
+        "truncation_handling": "Only complete instructions executed; empty immutable_review_exceptions retained as {}.",
+        "prior_finalization_metadata": "finalization: historical Finalization-1 outcome, retained unchanged",
+        "backup": "golden_sample_005.ma1_accepted.pre_hotfix_1_1.json",
+        "validator_sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7",
+        "validation": {
+          "status": "WARNING",
+          "ERROR": 0,
+          "WARNING": 69,
+          "PASS": 1805
+        },
+        "validation_output": "finalization/hotfix_1_1/validation_after_hotfix_1_1.json"
+      }
+    },
+    {
+      "path": "/ma1_migration/immutable_review_exceptions/C005",
+      "before": "C005 unchanged per Finalization Prompt; forecast admission review resolved as keep_scenario_only. Canonical fields remain incomplete; unchanged validator only recognizes an open-review exemption.",
+      "after_present": false
+    },
+    {
+      "path": "/ma1_migration/validation/ERROR",
+      "before": 4,
+      "after": 0
+    },
+    {
+      "path": "/ma1_migration/validation/PASS",
+      "before": 1801,
+      "after": 1805
+    },
+    {
+      "path": "/ma1_migration/validation/status",
+      "before": "FAIL",
+      "after": "WARNING"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/framework_review/v03_draft_001/REVIEW.html",
+  "browser": "Edge/Playwright; Browser plugin not available",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    "identity, nonblank, six cards, twelve separate decisions, no overlay",
+    "next pending navigation",
+    "expand source evidence",
+    "revision needs explanation and then counts complete",
+    "local draft restored",
+    "partial export retains all six records and not activated",
+    "complete does not mean all accepted or activated",
+    "roundtrip restore",
+    "version rejected atomically",
+    "duplicate rejected atomically",
+    "invalid_decision rejected atomically",
+    "mobile layout and navigation",
+    "no runtime or console errors"
+  ],
+  "errors": [],
+  "untested": [
+    "native OS save picker",
+    "other browsers"
+  ],
+  "command": "node G:/youhegaojian/review-ui-qa/framework-v03/check.cjs"
+}

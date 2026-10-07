@@ -1,0 +1,2336 @@
+{
+  "auxiliary_exact": true,
+  "auxiliary_models": [
+    "AnalystMethodSignal",
+    "ClaimOccurrence",
+    "ExpectationSnapshot",
+    "IndicatorObservation",
+    "InformationSet",
+    "MechanismUsage",
+    "ReviewQueueItem",
+    "Scenario",
+    "SourceFamily",
+    "SourceSegment",
+    "SourceVersion",
+    "TranscriptCorrection"
+  ],
+  "core_exact": true,
+  "core_models": [
+    "Actor",
+    "Argument",
+    "Assessment",
+    "Claim",
+    "Contradiction",
+    "Event",
+    "Forecast",
+    "Heuristic",
+    "Indicator",
+    "Mechanism",
+    "Policy",
+    "Source",
+    "StructuralProcess",
+    "Thesis"
+  ],
+  "created_during_acceptance_evidence_completion": true,
+  "fresh_schema_testcases": [
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S001_models",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Source]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Claim]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Event]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[StructuralProcess]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Actor]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Indicator]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Policy]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Mechanism]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Argument]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Thesis]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Forecast]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Contradiction]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Assessment]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Heuristic]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceVersion]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceSegment]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceFamily]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ClaimOccurrence]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[TranscriptCorrection]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[IndicatorObservation]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[InformationSet]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ExpectationSnapshot]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Scenario]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ReviewQueueItem]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[AnalystMethodSignal]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[MechanismUsage]",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S004_S005_unknown_and_invalid_enum",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S006_S007_S008_separation",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S009_claim_dimensions",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S010_forecast_unknowns_and_resolution",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S011_assessment_no_truth_mutation",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S012_argument_per_edge_attribution",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S014_export_deterministic",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_comparison_never_calculates_delta",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_fields_document_origins",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_S015_frozen_unchanged",
+      "status": "PASSED"
+    },
+    {
+      "class": "tests.schema.test_schema",
+      "name": "test_mapping_covers_core_models",
+      "status": "PASSED"
+    }
+  ],
+  "models": [
+    {
+      "docstring": "Frozen object definition: core_objects.json#Source; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "title",
+        "locator",
+        "publisher",
+        "published_at",
+        "version_refs",
+        "segment_refs",
+        "family_ref"
+      ],
+      "fields_with_origin": {
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "family_ref": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "locator": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "published_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "publisher": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "segment_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "title": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        },
+        "version_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Source; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 23,
+      "name": "Source",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Claim; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "statement",
+        "claimant",
+        "asserted_at",
+        "reference_time",
+        "population",
+        "quantifier",
+        "modal_strength",
+        "scope",
+        "source_refs",
+        "reasoner_id",
+        "analysis_context",
+        "annotation_observer"
+      ],
+      "fields_with_origin": {
+        "analysis_context": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "annotation_observer": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "asserted_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "claimant": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "modal_strength": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "population": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "quantifier": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "reasoner_id": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "reference_time": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "scope": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        },
+        "statement": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Claim; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 52,
+      "name": "Claim",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Event; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "description",
+        "announced_at",
+        "decided_at",
+        "scheduled_at",
+        "effective_at",
+        "occurred_at",
+        "occurrence_status",
+        "evidence_refs",
+        "actor_refs",
+        "policy_refs",
+        "subtype"
+      ],
+      "fields_with_origin": {
+        "actor_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "announced_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "decided_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "description": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "effective_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "evidence_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "occurred_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "occurrence_status": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "policy_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "scheduled_at": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Event; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "subtype": {
+          "field_origin": "implementation_extension"
+        }
+      },
+      "kind": "core",
+      "line": 97,
+      "name": "Event",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#StructuralProcess; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "description",
+        "period",
+        "event_refs",
+        "observation_refs",
+        "policy_refs",
+        "evidence_refs"
+      ],
+      "fields_with_origin": {
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "description": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "event_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "evidence_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observation_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "period": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "policy_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#StructuralProcess; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        }
+      },
+      "kind": "core",
+      "line": 135,
+      "name": "StructuralProcess",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Actor; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "display_name",
+        "identity_evidence_refs",
+        "aliases",
+        "location",
+        "roles"
+      ],
+      "fields_with_origin": {
+        "aliases": {
+          "field_origin": "implementation_extension"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "display_name": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Actor; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "identity_evidence_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Actor; core_principles.json"
+        },
+        "location": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Actor; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "roles": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Actor; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        }
+      },
+      "kind": "core",
+      "line": 164,
+      "name": "Actor",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Indicator; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "name",
+        "definition",
+        "measurement_scope",
+        "unit",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "definition": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Indicator; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "measurement_scope": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Indicator; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "name": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Indicator; core_principles.json"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Indicator; core_principles.json"
+        },
+        "unit": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Indicator; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 186,
+      "name": "Indicator",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Policy; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "description",
+        "effective_period",
+        "actor_refs",
+        "event_refs",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "actor_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Policy; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "description": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Policy; core_principles.json"
+        },
+        "effective_period": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Policy; core_principles.json"
+        },
+        "event_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Policy; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Policy; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 207,
+      "name": "Policy",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Mechanism; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "statement",
+        "causal_structure",
+        "applicability_conditions",
+        "domain_scope",
+        "reasoner_id",
+        "analysis_context",
+        "annotation_observer",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "analysis_context": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "annotation_observer": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "applicability_conditions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "causal_structure": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "domain_scope": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reasoner_id": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        },
+        "statement": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Mechanism; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 229,
+      "name": "Mechanism",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Argument; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "premises",
+        "steps",
+        "intermediate_conclusions",
+        "final_conclusion",
+        "expression_level",
+        "reasoner_id",
+        "analysis_context",
+        "inferential_distance",
+        "creator_shortcuts",
+        "most_fragile_step",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "analysis_context": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "creator_shortcuts": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "expression_level": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "final_conclusion": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "inferential_distance": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "intermediate_conclusions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "most_fragile_step": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "premises": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reasoner_id": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        },
+        "steps": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Argument; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 260,
+      "name": "Argument",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Thesis; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "statement",
+        "scope",
+        "argument_refs",
+        "event_refs",
+        "process_refs",
+        "indicator_refs",
+        "supporting_evidence_refs",
+        "counterevidence_refs"
+      ],
+      "fields_with_origin": {
+        "argument_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "counterevidence_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "event_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "indicator_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "process_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "scope": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "statement": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        },
+        "supporting_evidence_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Thesis; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 303,
+      "name": "Thesis",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Forecast; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "claim_ref",
+        "knowledge_cutoff",
+        "prediction_window",
+        "modal_strength",
+        "resolution_criteria",
+        "claimant",
+        "conditions",
+        "branch_selection",
+        "resolution_status",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "branch_selection": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "claim_ref": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "claimant": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "conditions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "knowledge_cutoff": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "modal_strength": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "prediction_window": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "resolution_criteria": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "resolution_status": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Forecast; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 334,
+      "name": "Forecast",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Contradiction; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "description",
+        "period",
+        "conflicting_goals",
+        "constraints",
+        "event_refs",
+        "thesis_refs",
+        "interactions"
+      ],
+      "fields_with_origin": {
+        "conflicting_goals": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "constraints": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "description": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "event_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "interactions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "period": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "thesis_refs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Contradiction; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 372,
+      "name": "Contradiction",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Assessment; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "observer",
+        "target_ref",
+        "assessment_kind",
+        "criteria",
+        "information_set_ref",
+        "assessment_time",
+        "verification_status",
+        "detail"
+      ],
+      "fields_with_origin": {
+        "assessment_kind": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "assessment_time": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "criteria": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "detail": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "information_set_ref": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observer": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "target_ref": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        },
+        "verification_status": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Assessment; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 403,
+      "name": "Assessment",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Frozen object definition: core_objects.json#Heuristic; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "statement",
+        "scope",
+        "trigger_conditions",
+        "required_inputs",
+        "analytical_action",
+        "allowed_outputs",
+        "forbidden_leaps",
+        "counterexamples",
+        "failure_conditions",
+        "status",
+        "provenance"
+      ],
+      "fields_with_origin": {
+        "allowed_outputs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "analytical_action": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "counterexamples": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "failure_conditions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "forbidden_leaps": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "required_inputs": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "scope": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "statement": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "status": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        },
+        "trigger_conditions": {
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "core_objects.json#Heuristic; core_principles.json"
+        }
+      },
+      "kind": "core",
+      "line": 435,
+      "name": "Heuristic",
+      "path": "src/macromind/schema/core/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "source_ref",
+        "version_label",
+        "content_time",
+        "published_at",
+        "captured_at",
+        "content_sha256",
+        "revision_status",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "captured_at": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "content_sha256": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "content_time": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "published_at": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "revision_status": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "version_label": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 29,
+      "name": "SourceVersion",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "source_ref",
+        "source_version_ref",
+        "locator",
+        "text",
+        "content_time"
+      ],
+      "fields_with_origin": {
+        "content_time": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "locator": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_version_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "text": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 63,
+      "name": "SourceSegment",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "description",
+        "source_refs",
+        "evidence_refs"
+      ],
+      "fields_with_origin": {
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "description": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "evidence_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 89,
+      "name": "SourceFamily",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "claim_ref",
+        "source_segment_ref",
+        "source_version_ref",
+        "origin_family_ref",
+        "asserted_at"
+      ],
+      "fields_with_origin": {
+        "asserted_at": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "claim_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "origin_family_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_segment_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_version_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 109,
+      "name": "ClaimOccurrence",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "source_segment_ref",
+        "original_text",
+        "corrected_text",
+        "reason",
+        "observer",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "corrected_text": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observer": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "original_text": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reason": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_segment_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 136,
+      "name": "TranscriptCorrection",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "indicator_ref",
+        "value",
+        "unit",
+        "period",
+        "value_kind",
+        "comparison_basis",
+        "semantic_role",
+        "semantic_role_detail",
+        "recognition_stage",
+        "storage_role",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "comparison_basis": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "indicator_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "period": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "recognition_stage": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "semantic_role": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "semantic_role_detail": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "storage_role": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "unit": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "value": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "value_kind": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 164,
+      "name": "IndicatorObservation",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "knowledge_cutoff",
+        "purpose",
+        "source_version_refs",
+        "content_refs",
+        "observer"
+      ],
+      "fields_with_origin": {
+        "content_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "knowledge_cutoff": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observer": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "purpose": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_version_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 213,
+      "name": "InformationSet",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "population",
+        "reference_time",
+        "captured_at",
+        "statement",
+        "source_refs"
+      ],
+      "fields_with_origin": {
+        "captured_at": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "population": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reference_time": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "statement": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 240,
+      "name": "ExpectationSnapshot",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "claim_refs",
+        "branches",
+        "source_refs",
+        "reasoner_id"
+      ],
+      "fields_with_origin": {
+        "branches": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "claim_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reasoner_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 266,
+      "name": "Scenario",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "target_ref",
+        "field_path",
+        "reason",
+        "status",
+        "observer",
+        "decision_origin",
+        "resolved_at"
+      ],
+      "fields_with_origin": {
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "decision_origin": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "field_path": {
+          "field_origin": "implementation_extension"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observer": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reason": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "resolved_at": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "status": {
+          "field_origin": "implementation_extension"
+        },
+        "target_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 286,
+      "name": "ReviewQueueItem",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "analyst_id",
+        "signal_type",
+        "statement",
+        "source_segment_refs",
+        "argument_refs",
+        "claim_refs",
+        "domain",
+        "expression_level",
+        "transferability",
+        "recurrence_status",
+        "recurrence_match",
+        "matched_prior_signal_refs",
+        "matched_scope",
+        "recurrence_evidence",
+        "reasoner_id",
+        "analysis_context",
+        "annotation_observer",
+        "observed_reasoner_id",
+        "observed_action",
+        "failure_assessment",
+        "failure_type",
+        "assessment_confidence"
+      ],
+      "fields_with_origin": {
+        "analysis_context": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "analyst_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "annotation_observer": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "argument_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "assessment_confidence": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "claim_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "domain": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "expression_level": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "failure_assessment": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "failure_type": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "matched_prior_signal_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "matched_scope": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "observed_action": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "observed_reasoner_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reasoner_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "recurrence_evidence": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "recurrence_match": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "recurrence_status": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "signal_type": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "source_segment_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "statement": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "transferability": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 311,
+      "name": "AnalystMethodSignal",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    },
+    {
+      "docstring": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+      "fields": [
+        "id",
+        "object_type",
+        "schema_version",
+        "ontology_version",
+        "created_at",
+        "provenance_refs",
+        "metadata",
+        "mechanism_ref",
+        "analyst_id",
+        "reasoner_id",
+        "usage_context",
+        "expression_level",
+        "source_refs",
+        "argument_refs",
+        "domain_scope",
+        "confidence"
+      ],
+      "fields_with_origin": {
+        "analyst_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "argument_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "confidence": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "created_at": {
+          "field_origin": "implementation_extension"
+        },
+        "domain_scope": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "expression_level": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "id": {
+          "field_origin": "implementation_extension"
+        },
+        "mechanism_ref": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "metadata": {
+          "field_origin": "implementation_extension"
+        },
+        "object_type": {
+          "field_origin": "implementation_extension"
+        },
+        "ontology_version": {
+          "field_origin": "implementation_extension"
+        },
+        "provenance_refs": {
+          "field_origin": "implementation_extension"
+        },
+        "reasoner_id": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "schema_version": {
+          "field_origin": "implementation_extension"
+        },
+        "source_refs": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        },
+        "usage_context": {
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+        }
+      },
+      "kind": "auxiliary",
+      "line": 398,
+      "name": "MechanismUsage",
+      "path": "src/macromind/schema/auxiliary/__init__.py"
+    }
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "required_auxiliary_models": [
+    "AnalystMethodSignal",
+    "ClaimOccurrence",
+    "ExpectationSnapshot",
+    "IndicatorObservation",
+    "InformationSet",
+    "MechanismUsage",
+    "ReviewQueueItem",
+    "Scenario",
+    "SourceFamily",
+    "SourceSegment",
+    "SourceVersion",
+    "TranscriptCorrection"
+  ],
+  "required_core_models": [
+    "Actor",
+    "Argument",
+    "Assessment",
+    "Claim",
+    "Contradiction",
+    "Event",
+    "Forecast",
+    "Heuristic",
+    "Indicator",
+    "Mechanism",
+    "Policy",
+    "Source",
+    "StructuralProcess",
+    "Thesis"
+  ],
+  "separation": {
+    "IndicatorObservation_is_Indicator": false,
+    "MechanismUsage_is_Mechanism": false,
+    "Scenario_is_Forecast": false
+  },
+  "started_at": "2026-09-27T14:09:06.462553+00:00",
+  "unknown_null_missing": {
+    "PASS": true,
+    "explicit_unknown_value": {
+      "state": "unknown"
+    },
+    "fixture_origin": "Synthetic acceptance structural data only; no Golden modified",
+    "missing_required_rejected": true,
+    "null_value": null,
+    "validation_errors": [
+      {
+        "input": {
+          "comparison_basis": {
+            "baseline_period": null,
+            "baseline_source_ref": null,
+            "baseline_value": null,
+            "comparison_type": "unknown",
+            "delta_unit": null,
+            "delta_value": null
+          },
+          "id": "acceptance-structural-fixture",
+          "indicator_ref": "indicator-fixture",
+          "period": null,
+          "recognition_stage": "unknown",
+          "semantic_role": "unknown",
+          "semantic_role_detail": null,
+          "source_refs": [],
+          "storage_role": null,
+          "unit": null,
+          "value_kind": "unknown"
+        },
+        "loc": [
+          "value"
+        ],
+        "msg": "Field required",
+        "type": "missing",
+        "url": "https://errors.pydantic.dev/2.13/v/missing"
+      }
+    ]
+  }
+}

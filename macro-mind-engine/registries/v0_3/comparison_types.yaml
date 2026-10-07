@@ -1,0 +1,124 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "ComparisonType",
+  "requires_unknown": true,
+  "source_refs": [
+    "Phase 1.0-1.2 Execution Prompt",
+    "GS004/GS005 accepted auxiliary fields; MA.1 schema_contract.json"
+  ],
+  "entries": [
+    {
+      "value": "none",
+      "description": "ComparisonType: none; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "yoy",
+      "description": "ComparisonType: yoy; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "qoq",
+      "description": "ComparisonType: qoq; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "mom",
+      "description": "ComparisonType: mom; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "sequential",
+      "description": "ComparisonType: sequential; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "versus_consensus",
+      "description": "ComparisonType: versus consensus; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "versus_guidance",
+      "description": "ComparisonType: versus guidance; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "versus_baseline",
+      "description": "ComparisonType: versus baseline; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "versus_prior_period",
+      "description": "ComparisonType: versus prior period; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "percentage_point_change",
+      "description": "ComparisonType: percentage point change; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "absolute_delta",
+      "description": "ComparisonType: absolute delta; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "indexed_to",
+      "description": "ComparisonType: indexed to; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "other",
+      "description": "ComparisonType: other; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

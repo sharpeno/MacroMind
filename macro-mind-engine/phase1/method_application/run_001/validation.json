@@ -1,0 +1,62 @@
+{
+  "positive_contract": true,
+  "negative_cases": [
+    {
+      "name": "unknown_fact_ref",
+      "rejected": true
+    },
+    {
+      "name": "future_source",
+      "rejected": true
+    },
+    {
+      "name": "method_omitted",
+      "rejected": true
+    },
+    {
+      "name": "framework_substituted",
+      "rejected": true
+    },
+    {
+      "name": "blogger_attribution",
+      "rejected": true
+    },
+    {
+      "name": "false_blind_mode",
+      "rejected": true
+    },
+    {
+      "name": "score_eligible",
+      "rejected": true
+    },
+    {
+      "name": "fact_promoted",
+      "rejected": true
+    },
+    {
+      "name": "baseline_promoted",
+      "rejected": true
+    },
+    {
+      "name": "unverified_news_promoted",
+      "rejected": true
+    },
+    {
+      "name": "missing_withdrawal",
+      "rejected": true
+    },
+    {
+      "name": "broken_reasoning_ref",
+      "rejected": true
+    }
+  ],
+  "method_count": 5,
+  "reasoning_steps": 9,
+  "judgment_count": 2,
+  "protected_files_unchanged": 498,
+  "framework_and_case_locks_intact": true,
+  "semantic_accuracy": "NOT_SCORED",
+  "blogger_case_comparison": "NOT_PERFORMED",
+  "forecast_result": "NOT_EVALUATED",
+  "external_events": "NOT_INDEPENDENTLY_CORROBORATED"
+}

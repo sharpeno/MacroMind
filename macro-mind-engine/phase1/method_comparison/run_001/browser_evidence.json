@@ -1,0 +1,15 @@
+{
+  "report": "G:\\youhegaojian\\review-ui-qa\\comparison001\\REPORT.md",
+  "artifacts": {
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\browser.command.json": "c638eeaa5220a0606cf3466972ed3aa27b1329df114f64de9d97556bd3eb2193",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\browser.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\browser.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\browser.stdout.txt": "79ca931b214cf1ea3ef6f8e3f56eb2973d6b6c9a2cce32a8b8a8d554c7e372ad",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\check.cjs": "1b4e365a9df97a91a868976593894b9864ec3a4a19de75387e60d69184d396b2",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\desktop.png": "2bbba5e04125551781938ec08d3fa4d4a8d044aa708fd51785e57d79d06ff3ae",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\evidence.png": "02d97940f414e480a7e519aba106640a068fafd96a9e17cbb32c37e4d84bbe69",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\mobile.png": "e542454f2494816d6a46c55bdfe2522305403b4683c89f2e9a1adc929240f55c",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\REPORT.md": "fec3d146f945b1d5223f95acc067dccac122f20f154caf5b0fe3549d8b3327f9",
+    "G:\\youhegaojian\\review-ui-qa\\comparison001\\result.json": "39fb88b1ae71401adbc1c8d85f57944a4da40be4d312d1dc6646f0263afa4cba"
+  }
+}

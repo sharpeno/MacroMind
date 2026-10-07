@@ -1,0 +1,32 @@
+{
+  "semantic_revisions": {
+    "status": "USER_FAITHFUL",
+    "ids": [
+      "EP001/A01",
+      "EP002/A01",
+      "EP004/A03",
+      "EP005/A01"
+    ],
+    "scope": "Only displayed revisions; not objective truth or full-system acceptance"
+  },
+  "prior_faithful_chains_retained": 6,
+  "first10_chain_fidelity": "10 of 10 have user faithful decisions across original and delta review",
+  "transcription": {
+    "status": "PENDING_USER_CLARIFICATION",
+    "ids": [
+      "EP002/A02/revision",
+      "EP003/A01/revision"
+    ],
+    "raw_decision": "audio_ok",
+    "ui_label": "已核听：原转写可保留",
+    "reason": "Previous user correction suggestions conflict with literal retain-original label; do not infer adoption or withdrawal."
+  },
+  "duration": {
+    "raw_decision": "audio_ok",
+    "status": "USER_REPORTS_ORIGINAL_TRANSCRIPTION_RETAINABLE",
+    "precise_duration": "UNRESOLVED; no selected duration or explanation supplied; generalized claim remains accepted"
+  },
+  "assistant_audio_verified": false,
+  "external_sources": "SUPPLEMENT_ONLY; historical version, attribution and timing unresolved",
+  "audit_status": "INDETERMINATE unchanged"
+}

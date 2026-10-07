@@ -1,0 +1,13 @@
+{
+  "input_integrity": "PASS",
+  "attempts": [
+    {
+      "attempt": "attempt_001",
+      "integrity": "PASS"
+    }
+  ],
+  "dataset_version": "synthetic-runtime-fixture-v1",
+  "method_version": "synthetic-method-v1",
+  "semantic_acceptance": false,
+  "scope": "local_integrity_not_external_signature"
+}

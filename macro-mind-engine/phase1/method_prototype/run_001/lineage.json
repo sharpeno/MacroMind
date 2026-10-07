@@ -1,0 +1,9 @@
+{
+  "canonical_data": "phase1/batch_pilot/run_005",
+  "method_source": "EP002/C23",
+  "existing_application": "EP002/C16 is hypothetical, not a real central bank speech",
+  "source_sidecar_sha256": "56eb15d39a88bf8a81437714253101595dac54c6d7f0fbb82f2f4a94f57ef31f",
+  "human_receipt": "phase1/batch_pilot/human_reviews/semantic_pilot_001/batch_001/receipt.json",
+  "public_case_mode": "Retrospective transfer using a later extracted method, not a point-in-time forecast",
+  "newspaper_or_full_text_downloaded": false
+}

@@ -1,0 +1,15 @@
+{
+  "bidirectional_index": true,
+  "bundle_unchanged": true,
+  "dispositions_complete": true,
+  "dynamic_eligible_expected": 7311,
+  "eligible_conserved": true,
+  "eligible_count_matches_source": true,
+  "exactly_once": true,
+  "input_order_invariant": true,
+  "pattern_ids_verified": true,
+  "records_unchanged": true,
+  "semantic_hash_verified": true,
+  "source_bytes_unchanged": true,
+  "three_runs_byte_stable": true
+}

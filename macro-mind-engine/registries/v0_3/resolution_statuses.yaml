@@ -1,0 +1,52 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "ResolutionStatus",
+  "requires_unknown": true,
+  "source_refs": [
+    "Phase 1.0-1.2 Execution Prompt",
+    "GS004/GS005 accepted auxiliary fields; MA.1 schema_contract.json"
+  ],
+  "entries": [
+    {
+      "value": "not_applicable",
+      "description": "ResolutionStatus: not applicable; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "not_evaluated",
+      "description": "ResolutionStatus: not evaluated; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "not_yet_evaluated",
+      "description": "ResolutionStatus: not yet evaluated; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "pending_review",
+      "description": "ResolutionStatus: pending review; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

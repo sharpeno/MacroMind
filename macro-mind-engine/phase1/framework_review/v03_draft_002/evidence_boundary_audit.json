@@ -1,0 +1,165 @@
+[
+  {
+    "id": "C01",
+    "old_ranges": [
+      {
+        "episode": "456",
+        "from": 14,
+        "to": 28
+      },
+      {
+        "episode": "465",
+        "from": 65,
+        "to": 87
+      }
+    ],
+    "new_ranges": [
+      [
+        "456",
+        0,
+        95
+      ],
+      [
+        "465",
+        62,
+        128
+      ]
+    ],
+    "rule_changed": false
+  },
+  {
+    "id": "C02",
+    "old_ranges": [
+      {
+        "episode": "460",
+        "from": 499,
+        "to": 510
+      },
+      {
+        "episode": "470",
+        "from": 120,
+        "to": 132
+      }
+    ],
+    "new_ranges": [
+      [
+        "460",
+        390,
+        549
+      ],
+      [
+        "470",
+        72,
+        145
+      ]
+    ],
+    "rule_changed": false
+  },
+  {
+    "id": "C03",
+    "old_ranges": [
+      {
+        "episode": "460",
+        "from": 76,
+        "to": 95
+      },
+      {
+        "episode": "460",
+        "from": 35,
+        "to": 43
+      }
+    ],
+    "new_ranges": [
+      [
+        "460",
+        35,
+        106
+      ]
+    ],
+    "rule_changed": true
+  },
+  {
+    "id": "C04",
+    "old_ranges": [
+      {
+        "episode": "468",
+        "from": 180,
+        "to": 193
+      },
+      {
+        "episode": "465",
+        "from": 525,
+        "to": 548
+      }
+    ],
+    "new_ranges": [
+      [
+        "465",
+        390,
+        579
+      ],
+      [
+        "468",
+        110,
+        229
+      ]
+    ],
+    "rule_changed": true
+  },
+  {
+    "id": "C05",
+    "old_ranges": [
+      {
+        "episode": "469",
+        "from": 16,
+        "to": 40
+      },
+      {
+        "episode": "470",
+        "from": 541,
+        "to": 553
+      }
+    ],
+    "new_ranges": [
+      [
+        "469",
+        0,
+        42
+      ],
+      [
+        "470",
+        541,
+        689
+      ]
+    ],
+    "rule_changed": false
+  },
+  {
+    "id": "C06",
+    "old_ranges": [
+      {
+        "episode": "456",
+        "from": 210,
+        "to": 230
+      },
+      {
+        "episode": "464",
+        "from": 316,
+        "to": 341
+      }
+    ],
+    "new_ranges": [
+      [
+        "456",
+        198,
+        241
+      ],
+      [
+        "464",
+        316,
+        382
+      ]
+    ],
+    "rule_changed": false
+  }
+]

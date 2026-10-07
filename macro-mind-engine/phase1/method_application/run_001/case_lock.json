@@ -1,0 +1,9 @@
+{
+  "sequence": 3,
+  "framework_lock_sha256": "f6c896f1c8e0f42473b4c814e3055eff5d7ef415b418f2b09b9794af7d9f257d",
+  "files": {
+    "case.json": "5af4cdf4630e220ace0312451ed0cbfe113160e5aff632365c4139531f8a88ab",
+    "news_source.json": "f8eeb6cc3c33a7fb7b857ec85212a02a3007c7cc2cdf3b2fbc56f135a7454043",
+    "source_selection.json": "3df1f6468848101581c3ebcb5ac67e63d1b04658f51ca3b95dbcabc12e5d2ed4"
+  }
+}

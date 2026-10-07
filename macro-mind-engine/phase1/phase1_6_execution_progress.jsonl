@@ -1,0 +1,32 @@
+{"stage": "baseline_and_plan_review", "completed": ["Phase 1.6 scope read", "1.5C manifest verified", "532 existing identities recorded"], "unfinished": ["Golden semantic fixture mapping", "Regression suite", "Five real Runner replays", "G01-G20 final gate", "Debt and coverage report"], "next_step": "Inspect actual accepted Golden structures and preserved historical decisions"}
+{"completed":[],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"real Golden validation","stage":"FOUNDATION","unfinished":["real Golden validation","Runner replay","tests and gate"]}
+
+{"completed":["GS001"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining Runner replays","stage":"GS001_INSPECTED","unfinished":["remaining Runner replays","tests and gate"]}
+
+{"completed":["GS001","GS002"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining Runner replays","stage":"GS002_INSPECTED","unfinished":["remaining Runner replays","tests and gate"]}
+
+{"completed":["GS001","GS002","GS003"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining Runner replays","stage":"GS003_INSPECTED","unfinished":["remaining Runner replays","tests and gate"]}
+
+{"completed":["GS001","GS002","GS003","GS004"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining Runner replays","stage":"GS004_INSPECTED","unfinished":["remaining Runner replays","tests and gate"]}
+
+{"completed":["GS001","GS002","GS003","GS004","GS005"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining Runner replays","stage":"GS005_INSPECTED","unfinished":["remaining Runner replays","tests and gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS001_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS002_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002","GS003"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS003_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002","GS003","GS004"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS004_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002","GS003","GS004","GS005"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS005_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002","GS003","GS004","GS005","GS005_repeat2"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS005_repeat2_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","GS001","GS002","GS003","GS004","GS005","GS005_repeat2","GS005_repeat3"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"remaining replays","stage":"GS005_repeat3_AUDITED","unfinished":["remaining replays","full tests and final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","five real CLI replays and three GS005 repetitions with package integrity checks"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"full pytest","stage":"TESTING","unfinished":["full pytest","lint and formatting","final gate"]}
+
+{"completed":["foundation and five real Golden validations in both context modes","five real CLI replays and three GS005 repetitions with package integrity checks","full regression and G01-G20 evaluated"],"evidence_run":"G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001","next_step":"resolve reference contract and closure blockers with explicit policy","stage":"GATE_EVALUATED","unfinished":["resolve reference contract and closure blockers with explicit policy","rerun affected acceptance; batch pilot remains blocked"]}
+
+{"completed": ["foundation and five real Golden validations in both context modes", "five real CLI replays and three GS005 repetitions with package integrity checks", "full regression and G01-G20 evaluated", "coverage/debt documentation", "reference diagnosis: 12 wrong types + 156 unresolved positions", "acceptance report with 16 PASS/4 FAIL"], "evidence_run": "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6_evidence\\run_001", "next_step": "Read docs/PHASE1_6_BLOCKERS.md; implement an explicitly scoped compatibility repair, preserving accepted originals", "stage": "ACCEPTANCE_REPORTED_BLOCKED", "unfinished": ["Decide reference-granularity compatibility policy without rewriting originals", "Resolve or explicitly govern incomplete/cross-sample references", "Rerun affected checks and achieve final gate; no Batch Pilot yet"], "verification": {"existing_pass": 532, "new_pass": 34, "new_fail": 1, "lint_exit": 0, "format_exit": 0, "gate": "NOT_READY_ENGINEERING_BLOCKER"}}

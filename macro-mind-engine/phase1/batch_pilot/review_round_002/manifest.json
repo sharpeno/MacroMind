@@ -1,0 +1,27 @@
+{
+  "artifacts": {
+    "HUMAN_REVIEW.html": "1bb3fbc1909e875fd5a72b863e9b6ba2d8aa3a86ee5ccd6cd4d69112bf131262",
+    "progress.json": "ab598464fdf63f98673f482413e3087ad753bd5a8594c239b0c3f02f410e3a21",
+    "REPORT.md": "029d2c8800ddebec6ae7635d2bc0f86c31dbf8fa8beb3b6b27a1c7d8031f99a1",
+    "review_data.json": "ec72828a8c30d7c5ee20bc78eca7f3839acb385ec1c509006e9a7035ebc03e7d",
+    "selection_plan.json": "f24d1b82af6619b0a3a5ca9a3dad693cf72fae846803d5c90d1a373288743300",
+    "template.html": "b4f0d20430070432737929831b920316a019b073b97530eab4d1b3548564f051",
+    "verification.json": "918f4f8b68a84d76192a2a542edf0f157a903053c4f4b619f3ca169eb596d8a1",
+    "browser_qa\\command.json": "ceeb153650298fbeb4c24d48ddad3965728e3aff3237298807f3a1d0e1c4da7b",
+    "browser_qa\\desktop.png": "41c53c823a22039796635e289c22e8e14e1996e974f88159dffa7adde2b26cc6",
+    "browser_qa\\mobile.png": "0b430e98cd81a7d024e3532177f596447800769fcd347ffe2f5214f6d00ba059",
+    "browser_qa\\results.json": "9cb7dc4f3bf7b2806b64424b3852cef13085ddfa658fd409e0bad63680d8c2d5",
+    "browser_qa\\test.cjs": "90ff6aabc8bbefbd06a2cb7bb325ab24bfa120ab1877b2d6cab0d2025b8e1b7a"
+  },
+  "builder": {
+    "path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\build_review_round002.py",
+    "sha256": "c718b7c02b2dfef22adf1be5134c17f4a688e997064c920204f1932c71cc501d"
+  },
+  "content_revision": {
+    "date": "2026-10-04",
+    "item_id": "R02/EP002/gap223_235",
+    "items_sha256": "f2a1b6e826c5be58aa3c72a92c56be922d307d864e2971dc987e223bdf39bfdd",
+    "dataset_identity_preserved_for_existing_review_drafts": true,
+    "validation": "HTML embedded data equals JSON; other seven cards unchanged; evidence cues 205–235; builder syntax checked. Existing browser screenshots predate this text correction."
+  }
+}

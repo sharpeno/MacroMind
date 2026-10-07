@@ -1,0 +1,37 @@
+{
+  "artifacts": {
+    "approval.json": "ce516bbe40fc38a045f702bb3d3a39e5b049747c5ecbf6c0f069887e6571f5ef",
+    "baselines.json": "147f1e620036cff85f70f5a31b644c2af331e8fe53ff0d0e373d942c37e1bbfd",
+    "browser.command.json": "0ae565d0b8f09f8ee85aea655e80a8dd2facd16bd318d184b4263aacd8e9946f",
+    "browser.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "browser.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "browser.stdout.txt": "82f6eb1a9d81cbbeecc93d3c78c009a2ae7cced76163d8af173cb302ba170719",
+    "build.py": "c959d5f8f6a2267d30094c9692818c0a02cb028555093e208a5f3e332047c56c",
+    "changes.json": "612af681cf9e925cce09a3b172f8451728744854d53a5f3a150de20c90b0ea96",
+    "current_README.before.md": "f96a925f190b99b78ba6b03d5b2d57815bb2817d33ba327f2dd4543816ac0dbb",
+    "format.command.json": "54a62b7f5660019ac3f0d6329807897b3a07bb6023120a0a60e848afd7e052c4",
+    "format.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "format.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "format.stdout.txt": "3bc53bf3e981a98a34a852e175bf9b77af841edea74fca595d9aedcbaf9a4938",
+    "inference.json": "37bf8752ad4b4ab3c3e3860e296de9478421ef3cd4f4f0256493a28cb44723f7",
+    "integrity.json": "53e8da53c08532b28a56e4caa0f715ca3236fb056da6c82b1bf2d201c99ba6c6",
+    "latest.before.json": "f4b20a52d1e2639f6018c28721dc228a6971000d217459c16e195f1f5c981f13",
+    "lint.command.json": "5aba2d2700683f90d9407268fe860e8041fbd87c93da388845a24bc7856ce8e7",
+    "lint.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "lint.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lint.stdout.txt": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "PROGRESS.md": "fd5e6f3ed052dfe933eb49537ee98f821c83418ac5e5584cca477f35a3e7b584",
+    "REPORT.md": "4a8872814f9bff29fadf42c70b9731f0b445bb230959373b8436516d14ef9a68",
+    "tests.command.json": "ba918134e7e71ee8272e1344f9d7fd339d1b3e34a6de4f778d3fb8dddd2a5084",
+    "tests.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "tests.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests.stdout.txt": "76f5634e9e38d05f718d92b8e7f5d4370c4402fb1bff231ed42899373dfba3dc",
+    "TRACE.html": "fa909c2d6193b362b819a490e972d7999fe20923009d9de387025c65b31599d8",
+    "verify.py": "969334943bb38ec65684bd6f57a1fd273bf264e6401d5c9f7d86d53ba5ac9724"
+  },
+  "implementation": {
+    "src/macromind/methods/baseline.py": "2adf9f578fde54eff8218a3df35d387419d3ae8a05c19f8ec900fdc5cc0c16f6",
+    "tests/methods/test_baseline.py": "ce2c160e57aa1a98edce533d39cffc6e8487eadce38231361a76b95932f8e546"
+  },
+  "status": "USER_APPROVAL_RECORDED_BASELINES_IMPLEMENTED"
+}

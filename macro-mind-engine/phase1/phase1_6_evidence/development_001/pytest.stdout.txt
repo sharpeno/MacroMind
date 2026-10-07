@@ -1,0 +1,164 @@
+......F..........F.FFFF..........                                        [100%]
+================================== FAILURES ===================================
+_____ test_legacy_missing_objects_not_promoted_to_process_or_skill[GS002] _____
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+name = 'GS002'
+
+    @pytest.mark.parametrize("name", ["GS002", "GS003"])
+    def test_legacy_missing_objects_not_promoted_to_process_or_skill(goldens, name):
+        result = goldens[name]
+        assert not objects(result, "StructuralProcess")
+        heuristics = objects(result, "Heuristic")
+>       assert heuristics and all(x["status"] == "candidate" for x in heuristics)
+E       AssertionError: assert ([{'id': 'HC01', 'object_type': 'Heuristic', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, {'id': 'HC02', 'object_type': 'Heuristic', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}] and False)
+E        +  where False = all(<generator object test_legacy_missing_objects_not_promoted_to_process_or_skill.<locals>.<genexpr> at 0x00000214B584AC20>)
+
+tests\golden_regression\test_golden_semantic_regression.py:38: AssertionError
+____________ test_accepted_golden_passes_current_validator[GS004] _____________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+golden_engine = <macromind.compatibility.engine.CompatibilityEngine object at 0x00000214B5760470>
+name = 'GS004'
+
+    @pytest.mark.parametrize("name", ["GS004", "GS005"])
+    def test_accepted_golden_passes_current_validator(goldens, golden_engine, name):
+        report = golden_engine.validator.validate(
+            goldens[name].canonical_bundle, {"validation_mode": "partial_bundle"}
+        )
+>       assert not report.errors, [
+            (e.rule_id, e.object_ref, e.field_path, e.related_refs) for e in report.errors
+        ]
+E       AssertionError: [('V-REF003', 'MU01', '/source_refs/0', ['SS-C026']), ('V-REF003', 'MU01', '/source_refs/1', ['SS-C027']), ('V-REF003'...C066']), ('V-REF003', 'MU02', '/source_refs/2', ['SS-C073']), ('V-REF003', 'MU03', '/source_refs/0', ['SS-C062']), ...]
+E       assert not [ValidationIssue(rule_id='V-REF003', rule_name='Allowed reference target type', category='Reference', severity='ERROR'...ked.', related_refs=['SS-C062'], evidence_refs=[], review_required=False, details={'allowed_types': ('Source',)}), ...]
+E        +  where [ValidationIssue(rule_id='V-REF003', rule_name='Allowed reference target type', category='Reference', severity='ERROR'...ked.', related_refs=['SS-C062'], evidence_refs=[], review_required=False, details={'allowed_types': ('Source',)}), ...] = ValidationReport(validator_version='0.1.0', ontology_version='0.3', schema_version='0.1.0', mode='partial_bundle', obj...eb711ea0c3b37f0bf52fa4e33d38ee59db3d', context_hash='bd4f336d86de2b5feb2ad8b6cad61813b6cc344eb94a6209246414ce968493e3').errors
+
+tests\golden_regression\test_golden_semantic_regression.py:168: AssertionError
+________ test_adaptation_mapping_and_quarantine_are_reversible[GS002] _________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+name = 'GS002'
+
+    @pytest.mark.parametrize("name", ["GS002", "GS003", "GS004", "GS005"])
+    def test_adaptation_mapping_and_quarantine_are_reversible(goldens, name):
+        from macromind.compatibility.engine import pointer
+    
+        result = goldens[name]
+        for entry in result.mapping_ledger:
+>           target = pointer(result.canonical_bundle, entry.target_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\golden_regression\test_golden_semantic_regression.py:179: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+value = {'objects': [{'id': 'A001', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, {'id':...: '0.3', ...}, {'id': 'A006', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, ...]}
+path = '/canonical_bundle/objects/0/aliases/0'
+
+    def pointer(value, path):
+        if not path:
+            return value
+        for part in path.split("/")[1:]:
+            key = part.replace("~1", "/").replace("~0", "~")
+>           value = value[int(key)] if isinstance(value, list) else value[key]
+                                                                    ^^^^^^^^^^
+E           KeyError: 'canonical_bundle'
+
+src\macromind\compatibility\engine.py:29: KeyError
+________ test_adaptation_mapping_and_quarantine_are_reversible[GS003] _________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+name = 'GS003'
+
+    @pytest.mark.parametrize("name", ["GS002", "GS003", "GS004", "GS005"])
+    def test_adaptation_mapping_and_quarantine_are_reversible(goldens, name):
+        from macromind.compatibility.engine import pointer
+    
+        result = goldens[name]
+        for entry in result.mapping_ledger:
+>           target = pointer(result.canonical_bundle, entry.target_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\golden_regression\test_golden_semantic_regression.py:179: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+value = {'objects': [{'id': 'A9527', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, {'id'...: '0.3', ...}, {'id': 'AEIA', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, ...]}
+path = '/canonical_bundle/objects/0/aliases'
+
+    def pointer(value, path):
+        if not path:
+            return value
+        for part in path.split("/")[1:]:
+            key = part.replace("~1", "/").replace("~0", "~")
+>           value = value[int(key)] if isinstance(value, list) else value[key]
+                                                                    ^^^^^^^^^^
+E           KeyError: 'canonical_bundle'
+
+src\macromind\compatibility\engine.py:29: KeyError
+________ test_adaptation_mapping_and_quarantine_are_reversible[GS004] _________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+name = 'GS004'
+
+    @pytest.mark.parametrize("name", ["GS002", "GS003", "GS004", "GS005"])
+    def test_adaptation_mapping_and_quarantine_are_reversible(goldens, name):
+        from macromind.compatibility.engine import pointer
+    
+        result = goldens[name]
+        for entry in result.mapping_ledger:
+>           target = pointer(result.canonical_bundle, entry.target_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\golden_regression\test_golden_semantic_regression.py:179: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+value = {'objects': [{'id': 'alphabet', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, {'...3', ...}, {'id': 'anthropic', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, ...]}
+path = '/canonical_bundle/objects/0/aliases'
+
+    def pointer(value, path):
+        if not path:
+            return value
+        for part in path.split("/")[1:]:
+            key = part.replace("~1", "/").replace("~0", "~")
+>           value = value[int(key)] if isinstance(value, list) else value[key]
+                                                                    ^^^^^^^^^^
+E           KeyError: 'canonical_bundle'
+
+src\macromind\compatibility\engine.py:29: KeyError
+________ test_adaptation_mapping_and_quarantine_are_reversible[GS005] _________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+name = 'GS005'
+
+    @pytest.mark.parametrize("name", ["GS002", "GS003", "GS004", "GS005"])
+    def test_adaptation_mapping_and_quarantine_are_reversible(goldens, name):
+        from macromind.compatibility.engine import pointer
+    
+        result = goldens[name]
+        for entry in result.mapping_ledger:
+>           target = pointer(result.canonical_bundle, entry.target_path)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\golden_regression\test_golden_semantic_regression.py:179: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+value = {'objects': [{'id': 'A01', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, {'id': ...': '0.3', ...}, {'id': 'A06', 'object_type': 'Actor', 'schema_version': '0.1.0', 'ontology_version': '0.3', ...}, ...]}
+path = '/canonical_bundle/objects/0/aliases'
+
+    def pointer(value, path):
+        if not path:
+            return value
+        for part in path.split("/")[1:]:
+            key = part.replace("~1", "/").replace("~0", "~")
+>           value = value[int(key)] if isinstance(value, list) else value[key]
+                                                                    ^^^^^^^^^^
+E           KeyError: 'canonical_bundle'
+
+src\macromind\compatibility\engine.py:29: KeyError
+=========================== short test summary info ===========================
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_legacy_missing_objects_not_promoted_to_process_or_skill[GS002]
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_accepted_golden_passes_current_validator[GS004]
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_adaptation_mapping_and_quarantine_are_reversible[GS002]
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_adaptation_mapping_and_quarantine_are_reversible[GS003]
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_adaptation_mapping_and_quarantine_are_reversible[GS004]
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_adaptation_mapping_and_quarantine_are_reversible[GS005]
+6 failed, 27 passed in 12.62s

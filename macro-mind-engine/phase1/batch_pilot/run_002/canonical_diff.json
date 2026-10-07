@@ -1,0 +1,2051 @@
+{
+  "EP001": [
+    {
+      "id": "EP001/A01",
+      "before": {
+        "id": "EP001/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        "premises": [
+          "EP001/C03"
+        ],
+        "steps": [
+          {
+            "id": "EP001/A01/step1",
+            "premises": [
+              "EP001/C03"
+            ],
+            "conclusion_ref": "EP001/C04",
+            "statement": "企业盈利与估值错配使题材切换难持续，资金回到原热点。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP001/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP001/C04",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP001/source"
+        ]
+      },
+      "after": {
+        "id": "EP001/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        "premises": [
+          "EP001/C22",
+          "EP001/C03"
+        ],
+        "steps": [
+          {
+            "id": "EP001/A01/step1",
+            "premises": [
+              "EP001/C22",
+              "EP001/C03"
+            ],
+            "conclusion_ref": "EP001/C04",
+            "statement": "以博主转述的投行题材转换为背景，将基本面与估值错配连接到题材转换未持续、回流AI等热点；不据此认定投行建议已被外部证实。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP001/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP001/C04",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP001/source"
+        ]
+      }
+    },
+    {
+      "id": "EP001/C03",
+      "before": {
+        "id": "EP001/C03",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP001/cue/0058",
+            "EP001/cue/0059",
+            "EP001/cue/0060",
+            "EP001/cue/0061",
+            "EP001/cue/0062",
+            "EP001/cue/0063",
+            "EP001/cue/0064",
+            "EP001/cue/0065",
+            "EP001/cue/0066",
+            "EP001/cue/0067",
+            "EP001/cue/0068",
+            "EP001/cue/0069",
+            "EP001/cue/0070"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为一些实体消费相关企业营收受损，但估值仍维持过去较高水平，存在错配。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP001/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP001/C03",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP001/cue/0046",
+            "EP001/cue/0047",
+            "EP001/cue/0048",
+            "EP001/cue/0049",
+            "EP001/cue/0050",
+            "EP001/cue/0051",
+            "EP001/cue/0052",
+            "EP001/cue/0053",
+            "EP001/cue/0054",
+            "EP001/cue/0055",
+            "EP001/cue/0056",
+            "EP001/cue/0057",
+            "EP001/cue/0058",
+            "EP001/cue/0059",
+            "EP001/cue/0060",
+            "EP001/cue/0061",
+            "EP001/cue/0062",
+            "EP001/cue/0063",
+            "EP001/cue/0064",
+            "EP001/cue/0065",
+            "EP001/cue/0066",
+            "EP001/cue/0067",
+            "EP001/cue/0068",
+            "EP001/cue/0069",
+            "EP001/cue/0070"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，一些非热门消费及中小企业盈利表现不佳、估值仍高，基本面难以支撑题材炒作。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP001/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0046",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0046",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0046",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0047",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0047",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0047",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0048",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0048",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0048",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0049",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0049",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0049",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0050",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0050",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0050",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0051",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0051",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0051",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0052",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0052",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0052",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0053",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0053",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0053",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0054",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0054",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0054",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0055",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0055",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0055",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0056",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0056",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0056",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C03/occurrence/0057",
+      "before": null,
+      "after": {
+        "id": "EP001/C03/occurrence/0057",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C03",
+        "source_segment_ref": "EP001/cue/0057",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C04",
+      "before": {
+        "id": "EP001/C04",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP001/cue/0072",
+            "EP001/cue/0073",
+            "EP001/cue/0074",
+            "EP001/cue/0075",
+            "EP001/cue/0076",
+            "EP001/cue/0077",
+            "EP001/cue/0078",
+            "EP001/cue/0079",
+            "EP001/cue/0080",
+            "EP001/cue/0081",
+            "EP001/cue/0082",
+            "EP001/cue/0083"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主把题材切换后又回流AI等热点，解释为被切换到的企业基本面难以支撑炒作。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP001/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP001/C04",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP001/cue/0072",
+            "EP001/cue/0073",
+            "EP001/cue/0074",
+            "EP001/cue/0075",
+            "EP001/cue/0076",
+            "EP001/cue/0077",
+            "EP001/cue/0078",
+            "EP001/cue/0079",
+            "EP001/cue/0080",
+            "EP001/cue/0081",
+            "EP001/cue/0082",
+            "EP001/cue/0083"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，题材切换使这些企业的基本面问题受到关注，转换未能持续，资金又回流AI、存储芯片等热点。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP001/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP001/C22",
+      "before": null,
+      "after": {
+        "id": "EP001/C22",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP001/cue/0043",
+            "EP001/cue/0044",
+            "EP001/cue/0045"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主转述：高盛、瑞银此前推动过题材转换；这是博主对投行观点的归述，尚未核实对应研报。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP001/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP001/C22/occurrence/0043",
+      "before": null,
+      "after": {
+        "id": "EP001/C22/occurrence/0043",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C22",
+        "source_segment_ref": "EP001/cue/0043",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C22/occurrence/0044",
+      "before": null,
+      "after": {
+        "id": "EP001/C22/occurrence/0044",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C22",
+        "source_segment_ref": "EP001/cue/0044",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP001/C22/occurrence/0045",
+      "before": null,
+      "after": {
+        "id": "EP001/C22/occurrence/0045",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP001/C22",
+        "source_segment_ref": "EP001/cue/0045",
+        "source_version_ref": "EP001/version/78c786a5db7b5e17",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    }
+  ],
+  "EP002": [
+    {
+      "id": "EP002/A01",
+      "before": {
+        "id": "EP002/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150
+          ]
+        },
+        "premises": [
+          "EP002/C04"
+        ],
+        "steps": [
+          {
+            "id": "EP002/A01/step1",
+            "premises": [
+              "EP002/C04"
+            ],
+            "conclusion_ref": "EP002/C06",
+            "statement": "需求替代是作者下调油价上限设想的理由之一。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP002/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP002/C06",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP002/source"
+        ]
+      },
+      "after": {
+        "id": "EP002/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150
+          ]
+        },
+        "premises": [
+          "EP002/C04"
+        ],
+        "steps": [
+          {
+            "id": "EP002/A01/step1",
+            "premises": [
+              "EP002/C04"
+            ],
+            "conclusion_ref": "EP002/C06",
+            "statement": "需求替代是作者下调油价上限设想的理由之一。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP002/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP002/C06",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP002/source"
+        ]
+      }
+    },
+    {
+      "id": "EP002/C04",
+      "before": {
+        "id": "EP002/C04",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0092",
+            "EP002/cue/0093",
+            "EP002/cue/0094",
+            "EP002/cue/0095",
+            "EP002/cue/0096",
+            "EP002/cue/0097",
+            "EP002/cue/0098",
+            "EP002/cue/0099",
+            "EP002/cue/0100",
+            "EP002/cue/0101",
+            "EP002/cue/0102"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为电动车等替代减少原油需求，影响油价上升空间。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP002/C04",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0092",
+            "EP002/cue/0093",
+            "EP002/cue/0094",
+            "EP002/cue/0095",
+            "EP002/cue/0096",
+            "EP002/cue/0097"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为电动车等替代减少原油需求，影响油价上升空间。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP002/C04/occurrence/0098",
+      "before": {
+        "id": "EP002/C04/occurrence/0098",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C04",
+        "source_segment_ref": "EP002/cue/0098",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C04/occurrence/0099",
+      "before": {
+        "id": "EP002/C04/occurrence/0099",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C04",
+        "source_segment_ref": "EP002/cue/0099",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C04/occurrence/0100",
+      "before": {
+        "id": "EP002/C04/occurrence/0100",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C04",
+        "source_segment_ref": "EP002/cue/0100",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C04/occurrence/0101",
+      "before": {
+        "id": "EP002/C04/occurrence/0101",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C04",
+        "source_segment_ref": "EP002/cue/0101",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C04/occurrence/0102",
+      "before": {
+        "id": "EP002/C04/occurrence/0102",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C04",
+        "source_segment_ref": "EP002/cue/0102",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C21",
+      "before": null,
+      "after": {
+        "id": "EP002/C21",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0098",
+            "EP002/cue/0099",
+            "EP002/cue/0100",
+            "EP002/cue/0101",
+            "EP002/cue/0102"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主另提到，与俄罗斯等渠道商谈，并通过俄罗斯、拉美、美国等渠道进口石油以补充库存；这是与需求替代并列的补充路径。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP002/C21/occurrence/0098",
+      "before": null,
+      "after": {
+        "id": "EP002/C21/occurrence/0098",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C21",
+        "source_segment_ref": "EP002/cue/0098",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C21/occurrence/0099",
+      "before": null,
+      "after": {
+        "id": "EP002/C21/occurrence/0099",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C21",
+        "source_segment_ref": "EP002/cue/0099",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C21/occurrence/0100",
+      "before": null,
+      "after": {
+        "id": "EP002/C21/occurrence/0100",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C21",
+        "source_segment_ref": "EP002/cue/0100",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C21/occurrence/0101",
+      "before": null,
+      "after": {
+        "id": "EP002/C21/occurrence/0101",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C21",
+        "source_segment_ref": "EP002/cue/0101",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C21/occurrence/0102",
+      "before": null,
+      "after": {
+        "id": "EP002/C21/occurrence/0102",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C21",
+        "source_segment_ref": "EP002/cue/0102",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    }
+  ],
+  "EP003": [],
+  "EP004": [
+    {
+      "id": "EP004/A03",
+      "before": {
+        "id": "EP004/A03",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            289,
+            290,
+            291,
+            292,
+            293,
+            294,
+            295,
+            296,
+            297,
+            298,
+            303,
+            304,
+            305,
+            306
+          ]
+        },
+        "premises": [
+          "EP004/C19",
+          "EP004/C21"
+        ],
+        "steps": [
+          {
+            "id": "EP004/A03/step1",
+            "premises": [
+              "EP004/C19",
+              "EP004/C21"
+            ],
+            "conclusion_ref": "EP004/C20",
+            "statement": "当前采购收益与未来竞争压力构成两条盈利路径的比较。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP004/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP004/C20",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP004/source"
+        ]
+      },
+      "after": {
+        "id": "EP004/A03",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            303,
+            304,
+            305,
+            306
+          ]
+        },
+        "premises": [
+          "EP004/C20",
+          "EP004/C21"
+        ],
+        "steps": [
+          {
+            "id": "EP004/A03/step1",
+            "premises": [
+              "EP004/C20",
+              "EP004/C21"
+            ],
+            "conclusion_ref": "EP004/C23",
+            "statement": "将两类商业模式及后一类的集采、竞争压力，连接到博主对原创且出海有望企业的长期相对价值判断；保留长期与出海条件。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP004/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP004/C23",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP004/source"
+        ]
+      }
+    },
+    {
+      "id": "EP004/C20",
+      "before": {
+        "id": "EP004/C20",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP004/cue/0303",
+            "EP004/cue/0304",
+            "EP004/cue/0305"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主区分原创出海的长期潜力与眼下低研发负担带来的分红收益。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP004/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP004/C20",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP004/cue/0303",
+            "EP004/cue/0304"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主区分两类企业：药品百分之百原创且出海有望的企业，以及眼下能盈利、研发负担较低并可向股东分红的企业。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP004/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP004/C20/occurrence/0305",
+      "before": {
+        "id": "EP004/C20/occurrence/0305",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP004/C20",
+        "source_segment_ref": "EP004/cue/0305",
+        "source_version_ref": "EP004/version/24db0a1c52311fc8",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP004/C23",
+      "before": null,
+      "after": {
+        "id": "EP004/C23",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP004/cue/0303",
+            "EP004/cue/0304",
+            "EP004/cue/0305",
+            "EP004/cue/0306"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，两类企业在一段时间内都可能有回报；但从长期持有角度，药品百分之百原创且出海有望的前一类更有价值，相比之下后一类面临集采逐年谈判、边际收益下降及竞争增加的压力。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP004/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP004/C23/occurrence/0303",
+      "before": null,
+      "after": {
+        "id": "EP004/C23/occurrence/0303",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP004/C23",
+        "source_segment_ref": "EP004/cue/0303",
+        "source_version_ref": "EP004/version/24db0a1c52311fc8",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP004/C23/occurrence/0304",
+      "before": null,
+      "after": {
+        "id": "EP004/C23/occurrence/0304",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP004/C23",
+        "source_segment_ref": "EP004/cue/0304",
+        "source_version_ref": "EP004/version/24db0a1c52311fc8",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP004/C23/occurrence/0305",
+      "before": null,
+      "after": {
+        "id": "EP004/C23/occurrence/0305",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP004/C23",
+        "source_segment_ref": "EP004/cue/0305",
+        "source_version_ref": "EP004/version/24db0a1c52311fc8",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP004/C23/occurrence/0306",
+      "before": null,
+      "after": {
+        "id": "EP004/C23/occurrence/0306",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP004/C23",
+        "source_segment_ref": "EP004/cue/0306",
+        "source_version_ref": "EP004/version/24db0a1c52311fc8",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    }
+  ],
+  "EP005": [
+    {
+      "id": "EP005/A01",
+      "before": {
+        "id": "EP005/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117
+          ]
+        },
+        "premises": [
+          "EP005/C05"
+        ],
+        "steps": [
+          {
+            "id": "EP005/A01/step1",
+            "premises": [
+              "EP005/C05"
+            ],
+            "conclusion_ref": "EP005/C06",
+            "statement": "租金和融资成本差异通过市场参与影响租售关系，仍属作者分析。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP005/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP005/C06",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP005/source"
+        ]
+      },
+      "after": {
+        "id": "EP005/A01",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            114,
+            115,
+            116,
+            117
+          ]
+        },
+        "premises": [
+          "EP005/C05"
+        ],
+        "steps": [
+          {
+            "id": "EP005/A01/step1",
+            "premises": [
+              "EP005/C05"
+            ],
+            "conclusion_ref": "EP005/C06",
+            "statement": "从租金与购房成本的比较，连接到租售关系的两种可能调整方向；保留市场力量决定方向的条件，不新增单一价格低估判定。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP005/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP005/C06",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP005/source"
+        ]
+      }
+    },
+    {
+      "id": "EP005/A07",
+      "before": null,
+      "after": {
+        "id": "EP005/A07",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            114,
+            115,
+            116,
+            117
+          ]
+        },
+        "premises": [
+          "EP005/C06"
+        ],
+        "steps": [
+          {
+            "id": "EP005/A07/step1",
+            "premises": [
+              "EP005/C06"
+            ],
+            "conclusion_ref": "EP005/C27",
+            "statement": "区分租金上涨与房价下降的调整方向，再记录博主提出的观察租售比趋势判断地段价格的方法；这是方法主张而非效果验证。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP005/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP005/C27",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP005/source"
+        ]
+      }
+    },
+    {
+      "id": "EP005/C06",
+      "before": {
+        "id": "EP005/C06",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP005/cue/0106",
+            "EP005/cue/0107",
+            "EP005/cue/0108",
+            "EP005/cue/0109",
+            "EP005/cue/0110",
+            "EP005/cue/0111",
+            "EP005/cue/0112",
+            "EP005/cue/0114",
+            "EP005/cue/0115",
+            "EP005/cue/0116",
+            "EP005/cue/0117"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为租售关系会受市场议价权调节，可观察其变化判断地段价格。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP005/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP005/C06",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP005/cue/0106",
+            "EP005/cue/0107",
+            "EP005/cue/0108",
+            "EP005/cue/0109",
+            "EP005/cue/0114",
+            "EP005/cue/0115",
+            "EP005/cue/0116",
+            "EP005/cue/0117"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，当买房贵而租房便宜、租售关系偏离合理范围时，调整可能通过租金上涨，也可能通过房价下降实现；具体方向取决于市场力量与议价权。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP005/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP005/C06/occurrence/0110",
+      "before": {
+        "id": "EP005/C06/occurrence/0110",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C06",
+        "source_segment_ref": "EP005/cue/0110",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP005/C06/occurrence/0111",
+      "before": {
+        "id": "EP005/C06/occurrence/0111",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C06",
+        "source_segment_ref": "EP005/cue/0111",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP005/C06/occurrence/0112",
+      "before": {
+        "id": "EP005/C06/occurrence/0112",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C06",
+        "source_segment_ref": "EP005/cue/0112",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP005/C27",
+      "before": null,
+      "after": {
+        "id": "EP005/C27",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP005/cue/0110",
+            "EP005/cue/0111",
+            "EP005/cue/0112"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主提出，观察租售比变化趋势，可作为判断不同地段房价是否名副其实的指标。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP005/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP005/C27/occurrence/0110",
+      "before": null,
+      "after": {
+        "id": "EP005/C27/occurrence/0110",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C27",
+        "source_segment_ref": "EP005/cue/0110",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP005/C27/occurrence/0111",
+      "before": null,
+      "after": {
+        "id": "EP005/C27/occurrence/0111",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C27",
+        "source_segment_ref": "EP005/cue/0111",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP005/C27/occurrence/0112",
+      "before": null,
+      "after": {
+        "id": "EP005/C27/occurrence/0112",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP005/C27",
+        "source_segment_ref": "EP005/cue/0112",
+        "source_version_ref": "EP005/version/3beb7b302f9848ac",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    }
+  ]
+}

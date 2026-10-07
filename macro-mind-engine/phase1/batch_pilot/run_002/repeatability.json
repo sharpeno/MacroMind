@@ -1,0 +1,6 @@
+{
+  "canonical_view.json": true,
+  "normalized_audit.json": true,
+  "semantic_summary.json": true,
+  "pattern_aggregation.json": true
+}

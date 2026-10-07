@@ -1,0 +1,342 @@
+[
+  {
+    "scenario_id": "SC01",
+    "claim_refs": [
+      "C021"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "维持相同估值增长叙事",
+    "outcome": "下季需要更多超预期收入",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C021"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "数值断裂；是必要条件论述非未来收入预测"
+  },
+  {
+    "scenario_id": "SC02",
+    "claim_refs": [
+      "C023"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "税惠取消且设备采购适用约7%销售税",
+    "outcome": "每GW设备成本增加约30亿美元",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C023"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "外部成本测算，非全行业已发生值"
+  },
+  {
+    "scenario_id": "SC03",
+    "claim_refs": [
+      "C026"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "数据中心业务持续增长",
+    "outcome": "额外运营/电网平衡收费",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C026"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "强情态但州、时间和收费标准未明确；候选预测不入正式ledger"
+  },
+  {
+    "scenario_id": "SC04",
+    "claim_refs": [
+      "C027"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "项目获利吸引收费且不能转嫁",
+    "outcome": "盈利受挤压",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C027"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "机制性IF-THEN"
+  },
+  {
+    "scenario_id": "SC05",
+    "claim_refs": [
+      "C029"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "成本无法维持",
+    "outcome": "采用更便宜模型",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C029"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "唯一选择断言需审计"
+  },
+  {
+    "scenario_id": "SC06",
+    "claim_refs": [
+      "C030"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "采用廉价替代且需求不补偿",
+    "outcome": "量价及既有收益受压",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C030"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "原话未控制弹性；净方向未定"
+  },
+  {
+    "scenario_id": "SC07",
+    "claim_refs": [
+      "C048"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "继续维持炒作节奏",
+    "outcome": "超预期幅度从5变10",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C048"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "不是下季收入将增长10%的预测"
+  },
+  {
+    "scenario_id": "SC08",
+    "claim_refs": [
+      "C057"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "需求增三份且只投资两份",
+    "outcome": "未来萎缩时降低过投风险",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C057"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "举例"
+  },
+  {
+    "scenario_id": "SC09",
+    "claim_refs": [
+      "C063"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "追涨者跑早/碰巧成功/跑晚",
+    "outcome": "各分支都可能增加下次风险",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C063"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "分支讨论不当成逐项未来事件"
+  },
+  {
+    "scenario_id": "SC10",
+    "claim_refs": [
+      "C065"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "周期收入大于或小于折旧",
+    "outcome": "赚或赔",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C065"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "利润简化遗漏其他成本"
+  },
+  {
+    "scenario_id": "SC11",
+    "claim_refs": [
+      "C068"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "延长会计评估年限",
+    "outcome": "当前折旧费用降低",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C068"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "方法举例不是已发生公司政策"
+  },
+  {
+    "scenario_id": "SC12",
+    "claim_refs": [
+      "C069"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "旧卡可兼容补损",
+    "outcome": "报表与支出压力暂缓",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C069"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "物理可行性未证"
+  },
+  {
+    "scenario_id": "SC13",
+    "claim_refs": [
+      "C070"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "年限反复延长",
+    "outcome": "最终仍有淘汰极限",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C070"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "边界讨论"
+  },
+  {
+    "scenario_id": "SC14",
+    "claim_refs": [
+      "C072"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "七至十年技术差距累积",
+    "outcome": "必须确认部分损失",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C072"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "不是指定年份必然巨亏"
+  },
+  {
+    "scenario_id": "SC15",
+    "claim_refs": [
+      "C073"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "旧设备不可用且需按新品价补足",
+    "outcome": "资本支出/成本上升",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C073"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "合约及采购价未知"
+  },
+  {
+    "scenario_id": "SC16",
+    "claim_refs": [
+      "C075"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "发生折旧跳升",
+    "outcome": "可能数倍或十倍",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C075"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "无概率/窗口测算；不建十倍预测"
+  },
+  {
+    "scenario_id": "SC17",
+    "claim_refs": [
+      "C078"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "缺乏赚钱效应",
+    "outcome": "吸引力下降及踩踏风险",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C078"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "不能视为无条件崩盘"
+  },
+  {
+    "scenario_id": "SC18",
+    "claim_refs": [
+      "C095"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "反感者中包含竞争品牌用户",
+    "outcome": "仍可分层争取",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C095"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "规范性反事实"
+  },
+  {
+    "scenario_id": "SC19",
+    "claim_refs": [
+      "C107"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "观众不认可价值",
+    "outcome": "可能能力不足或高于主播",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C107"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "二分并不穷尽其他原因"
+  },
+  {
+    "scenario_id": "SC20",
+    "claim_refs": [
+      "C111"
+    ],
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "condition_expression": "受众识破不当比例比较",
+    "outcome": "公关效果变差",
+    "branch_probability": null,
+    "branch_selected": false,
+    "source_segment_refs": [
+      "SS-C111"
+    ],
+    "forecast_admission": "not_admitted",
+    "reason": "未测受众反应"
+  }
+]

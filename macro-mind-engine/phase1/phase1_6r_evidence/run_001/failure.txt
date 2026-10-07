@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "G:\youhegaojian\macro-mind-engine\scripts\verify_phase1_6r.py", line 129, in main
+    c["active_types"].get("Argument", 0)
+AssertionError

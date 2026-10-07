@@ -1,0 +1,9 @@
+{
+  "artifacts": {
+    "latest_resolution.json": "d32e6df016f2e63eb0b59abe9d8bbbe554bf239449f3d482298c669b7eae96d1",
+    "receipt.json": "2335a1ef0515eb4029c6f0561793e8945bc430c13dec9a37342bd74f0a1c2670",
+    "resolution.json": "b2cddbc7a4578dc75b10723537e6ed45ae791ca6a7b28f1f4feaea879fe759cd",
+    "reviewed_records.json": "7e8b33ee3f2fad8daa819c9787b303f770a478fa00fe83952dbd66ec4bde2c55",
+    "raw\\MacroMind_holdout001_2026-10-04_042318_CST_5of5_full_d6ed493a.json": "b8d3bb004eb9f94f643e064013d36a59ef427bffec30066a949f7dcc9bf16d27"
+  }
+}

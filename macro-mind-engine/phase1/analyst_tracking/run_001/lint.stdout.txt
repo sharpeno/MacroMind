@@ -1,0 +1,24 @@
+B023 Function definition does not bind loop variable `info`
+  --> phase1\analyst_tracking\run_001\build.py:79:52
+   |
+78 |     def get(field):
+79 |         return re.search(r"^" + field + r"：(.+)$", info, re.M).group(1).strip()
+   |                                                     ^^^^
+80 |
+81 |     episodes[ep] = dict(
+   |
+
+B905 `zip()` without an explicit `strict=` parameter
+   --> phase1\analyst_tracking\run_001\build.py:124:47
+    |
+122 |         float(json.loads(probe.stdout)["format"]["duration"]) if probe.returncode == 0 else None
+123 |     )
+124 |     gaps = [b["start"] - a["end"] for a, b in zip(cues, cues[1:])]
+    |                                               ^^^^^^^^^^^^^^^^^^^
+125 |     text = (folder / "转写稿.txt").read_text(encoding="utf-8-sig")
+126 |     txt_matches = all(c["quote"] in text for c in cues)
+    |
+help: Add explicit value for parameter `strict=`
+
+Found 2 errors.
+No fixes available (1 hidden fix can be enabled with the `--unsafe-fixes` option).

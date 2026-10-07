@@ -1,0 +1,88 @@
+Articles | Artificial Analysis (https://artificialanalysis.ai/articles?page=3)
+citeturn20search0 [wordlim: 200] Crawled: today; Muse Spark 1.2: Benchmarks and analysis August 5, 2026 Launching the Endpoint Accuracy Index: Same Model, Different Accuracy August 4, 2026 DeepSeek V4 Flash 0731 scores 50 on the Artificial Analysis Intelligence Index, 10 points above previous DeepSeek V4 Flash July 31, 2026 Inkling Small lands within a point of Inkling on the Artificial Analysis Intelligence Index with less than a third of the parameters July 30, 2026 Agnes AI releases Agnes 2.5 Pro Alpha July 29, 2026 Claude Opus 5: the new leader in agentic knowledge work July 24, 2026 Opus 5: Fable 5 level intelligence at a lower cost per task July 24, 2026 How Thinking Machines Lab’s Inkling performs on agentic knowledge work July 22, 2026 Kimi K3: second only to Fable 5 on AA-Briefcase July 21, 2026 Gemini 3.6 Flash and Gemini 3.5 Flash-Lite: Halving Time per Task July 21, 2026 Four frontier launches in eight days: six labs now field a model above 50 on the Artificial Analysis Intelligence Index July 17, 2026 Kimi K3 achieves #3 in the Artificial Analysis Intelligence Index, comparable to Opus 4.8 and GPT-5.5 July 17, 2026
+--------------------------------------------------------------------------------
+ (https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm)
+citeturn20search1 [wordlim: 200] Published: 2 months ago; Crawled: 2 months ago; Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions. ... In July 2026, the company's Board of Directors declared a quarterly cash dividend of $12.15 per share on each of our Series A and Series B mandatory convertible preferred stock (equivalent to approximately $0.60 per each of our Series A and Series B Depositary Shares) and a quarterly cash dividend of $0.22 per share on our Class A, Class B, and Class C stock. ... The potential risks and uncertainties that could cause actual results to differ from the results predicted include, among others, those risks and uncertainties included under the captions “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2025 and our most recent Quarterly Report on Form 10-Q for the quarter ended March 31, 2026, which are on file with the SEC and are available on our investor relations website at http://abc.xyz/investor and on the SEC website at www.sec.gov.
+--------------------------------------------------------------------------------
+This transcript is provided for the convenience of investors only, for a full recording (https://abc.xyz/assets/bc/0f/01ca2b344c3b8a4efaa3783f9fdf/2025-q2-earnings-transcript.pdf)
+citeturn20search12 [wordlim: 200] Published: last year; for both Q1 and Q2. ... Turning to segment results, Google Services revenues increased 12% to $82.5 billion, ... was flat year-on-year at 40.1%, as healthy revenue growth and continued efficiency in ... Turning to the Google Cloud segment, which delivered very strong results this quarter.Revenues increased by 32% to $13.6 billion in the second quarter, reflecting growth in
+--------------------------------------------------------------------------------
+Alphabet Investor Relations - Investors (https://abc.xyz/investor/)
+citeturn20search2 [wordlim: 200] Crawled: 5 months ago; ## EarningsSelect Year
+--------------------------------------------------------------------------------
+Alphabet Announces Second Quarter 2025 Results (https://abc.xyz/assets/cc/27/3ada14014efbadd7a58472f1f3f4/2025q2-alphabet-earnings-release.pdf)
+citeturn20search13 [wordlim: 200] Published: last year; MOUNTAIN VIEW, Calif. – July 23, 2025 – Alphabet Inc. ... Consolidated Alphabet revenues in Q2 2025 increased 14%, or 13% in constant currency, year over year to ... Google Services revenues increased 12% to $82.5 billion, reflecting strong performance across Google ... Google Cloud revenues increased 32% to $13.6 billion, led by growth in Google Cloud Platform (GCP) ... strong revenue growth and continued efficiencies in the expense base, partially offset by a charge related to
+--------------------------------------------------------------------------------
+0001193125-25-315925 (https://s23.q4cdn.com/440135859/files/doc_financials/2026/q2/Q2FY2026_10Q.pdf)
+citeturn20search14 [wordlim: 200] Published: 9 months ago;   <th>2025</th><th colspan="2">Percent Change</th><th>2024</th> ... Our cloud and software business’ total revenues increased by $1.9 billion and $3.4 billion in reported currency in the second quarter and the first half of fiscal 2026, respectively, relative to the corresponding prior year periods, primarily due to an increase in cloud revenues as customers purchased our applications and infrastructure technologies and renewed their related cloud contracts. ... The Americas region contributed 80% and 82%, the EMEA region contributed 12% and 11% and the Asia Pacific region contributed 8% and 7% to the constant currency revenue growth for this business during the second quarter and the first half of fiscal 2026, respectively.
+--------------------------------------------------------------------------------
+Alphabet Investor Relations - 2025 Q2 Earnings Call (https://abc.xyz/investor/events/event-details/2025/2025-Q2-Earnings-Call/)
+citeturn20search3 [wordlim: 200] Published: 1.2 years ago; Crawled: 5 months ago; ### 2025 Q2 Earnings CallJuly 23, 2025 1:30 PM | America/Los Angeles ... A reconciliation of non-GAAP to GAAP measures is included in today’s earnings press release, which is distributed and available to the public through our Investor Relations website located at abc.xyz/investor. ... Revenues increased by 32% to $13.6 billion in the second quarter, reflecting growth in GCP across Core and AI products, at the rate that was much higher than Cloud’s overall revenue growth, and growth in Google Workspace driven by an increase in average revenue per seat and the number of seats.
+--------------------------------------------------------------------------------
+DeepSeek V4 Flash Benchmarks: 0731 Scores, Tests & Caveats (https://v4flash.com/benchmarks/)
+citeturn20search4 [wordlim: 200] Crawled: today; As of 2026-07-31, almost every number you will see for DeepSeek-V4-Flash-0731 is vendor-reported: DeepSeek's own table lists Terminal Bench 2.1 at 82.7, NL2Repo at 54.2, Cybergym at 76.7, and DeepSWE at 54.4, produced with DeepSeek's not-yet-released Harness in minimal mode at maximum reasoning effort (changelog, 0731 model card). ... Second, one independent evaluator confirms a real jump: Artificial Analysis reran its own nine-benchmark harness on 2026-07-31 and measured Intelligence Index 50 versus 40 for the prior Flash, with the agentic GDPval-AA v2 Elo rising from 1189 to 1559 (source).
+--------------------------------------------------------------------------------
+ (https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+citeturn20search5 [wordlim: 200] Published: last month; Crawled: last month; SEATTLE—(BUSINESS WIRE) July 30, 2026—Amazon.com, Inc. ... •Net income increased to $62.6 billion in the second quarter, or $5.75 per diluted share, compared with $18.2 billion, or $1.68 per diluted share, in second quarter 2025. ... “AWS is booming, growing 36.7% year-over-year in Q2—our fastest growth in 18 quarters—and our AI and Chips businesses each eclipsed run rates of more than $25 billion,” said Andy Jassy, President and CEO, Amazon. ... Graviton is used by 98% of the top 1,000 EC2 customers, revenue commitments have increased nearly 3x quarter-over-quarter, and Graviton5 is growing nearly 2x faster than Graviton4 did.
+--------------------------------------------------------------------------------
+Alphabet Q2 2026 earnings: revenue up 24%, Cloud surges 82% (https://finance.yahoo.com/markets/stocks/articles/alphabet-q2-2026-earnings-revenue-203058727.html)
+citeturn20search6 [wordlim: 200] Published: 2 months ago; Crawled: today; # Alphabet Q2 2026 earnings: revenue up 24%, Cloud surges 82% ... July 22, 2026 2 min read
+--------------------------------------------------------------------------------
+Google Earnings Thread (Unofficial) (https://www.reddit.com/r/MU_Stock/comments/1v3qyz6/google_earnings_thread_unofficial/)
+citeturn20reddit15 [wordlim: 200] Published: 2 months ago; Call starts at 4:30pm EST: https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx ... [Wednesday July 22 2026] [+2 votes] ...     The cloud revenue is what a lot of people were looking for - growth was estimated at 63-65% - (with street whisper # hoping 75%) but instead increased at 82% -  that's positive news for the sector.
+--------------------------------------------------------------------------------
+DeepSeek Gained 10 Points on the Top AI Benchmark Overnight, for Free. Part of the Score Is 0% Smarter. | MegaBrain (https://api.getmegabrain.com/blog/deepseek-v4-flash-0731-benchmark-jump-2026)
+citeturn20search7 [wordlim: 200] Published: last month; Crawled: 2 weeks ago; Artificial Analysis's write-up, published July 31, 2026, confirms the new release “shares identical architecture and pricing with the earlier DeepSeek V4 Flash.”
+--------------------------------------------------------------------------------
+Google Cloud's record results can't quiet concerns on AI spending and model release timelines (https://www.itpro.com/business/business-strategy/google-clouds-record-results-cant-quiet-concerns-on-ai-spending-and-model-release-timelines)
+citeturn20news27 [wordlim: 100] Published: 2 months ago; Date: Thu Jul 23 10:04:47 2026 UTCGoogle Cloud has recorded its best quarterly growth to date, with earnings reports showing revenue surging 82% to $24.8bn. ... "Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions," said CEO Sundar Pichai in a statement.
+Google Cloud's record results can't quiet concerns on AI spending and model release timelines
+Date: Thu Jul 23 10:04:47 2026 UTC
+
+Google Cloud has recorded its best quarterly growth to date, with earnings reports showing revenue surging 82% to $24.8bn. 
+Across the wider company, Google-owner Alphabet saw revenue climb 24% to $119.8bn, with income up 30%. 
+Despite such gains, Google was still on the back foot, with share prices falling 3% after revealing a big boost in capital expenditure and being forced to defend delays to its top-end AI model. 
+"Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions," said CEO Sundar Pichai in a statement. "It's great to see wide adoption of Gemini Enterprise, with nearly 90% of the Fortune 100 using it."
+"Our AI investments are redefining what's possible across every part of our business."
+
+Continued capex concerns
+
+After the results were announced, Google admitted in a conference call it will increase its capital expenditure this year, which is largely focused on AI infrastructure spending such as data centers. 
+--------------------------------------------------------------------------------
+Amazon to boost spending on AI and other technology by $20 billion after strong Q2 results (https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee)
+citeturn20news28 [wordlim: 100] Published: last month; "I believe this dynamic will also be true in 2027 too," he added. ... Google parent Alphabet reported better-than-expected revenue for the second quarter last week, fueled by an 82% increase in its cloud business.
+Jassy cited the higher cost of memory chips as the main reason for the increase. 
+Jassy told investors that even at the $220 billion level, Amazon will not have enough capacity to meet all of the demand it has this year. 
+"I believe this dynamic will also be true in 2027 too," he added. "In fact, the demand we already have for 2028 is striking."
+Still, shares rose more than 9% in after-hours trading. 
+Investors had been closely watching Amazon's quarterly earnings to see if the company's big spending on AI is starting to pay off. 
+The Seattle-based company offered a cautious sales outlook for the current quarter. 
+Amazon was among the last of the tech giants to report its earnings results covering the latest three-month period. The reports offer investors a read on AI spending and cloud computing growth across the industry.
+Google parent Alphabet reported better-than-expected revenue for the second quarter last week, fueled by an 82% increase in its cloud business. But the stock tumbled as the tech giant increased its full-year forecast for capital expenditures to a range of $195 billion to $205 billion. --------------------------------------------------------------------------------
+Amazon.com, Inc. - Amazon.com Announces Second Quarter Results (https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light)
+citeturn20view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn19view2","pattern":"AWS segment sales"}); Total lines: 445
+L52:     * AWS segment sales increased 37% year-over-year to $42.2 billion.
+L53:   * Operating income increased to $27.5 billion in the second quarter, compared with $19.2 billion in second quarter 2025.
+L54:     * North America segment operating income was $9.1 billion, compared with $7.5 billion in second quarter 2025.
+L55:     * International segment operating income was $1.7 billion, compared with $1.5 billion in second quarter 2025.
+--------------------------------------------------------------------------------
+Amazon.com, Inc. - Amazon.com Announces Second Quarter Results (https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light)
+citeturn20view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn19view2","pattern":"42,2"}); Total lines: 445
+L52:     * AWS segment sales increased 37% year-over-year to $42.2 billion.
+L53:   * Operating income increased to $27.5 billion in the second quarter, compared with $19.2 billion in second quarter 2025.
+L54:     * North America segment operating income was $9.1 billion, compared with $7.5 billion in second quarter 2025.
+L55:     * International segment operating income was $1.7 billion, compared with $1.5 billion in second quarter 2025.
+--------------------------------------------------------------------------------
+Amazon.com, Inc. - Amazon.com Announces Second Quarter Results (https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light)
+citeturn20view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({"ref_id":"turn19view2","pattern":"July 30"}); Total lines: 445
+L40: ## Amazon.com Announces Second Quarter Results
+L41: 
+L42: July 30, 2026
+L43: 
+L44: Net sales increased 20% year-over-year
+L45: Operating income was $27.5 billion, up 43% year-over-year
+L46: AWS net sales increased 37%—its fastest growth in 18 quarters—to a $169 billion annualized revenue run rate
+L47: 
+L48: SEATTLE--(BUSINESS WIRE)-- Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its second quarter ended June 30, 2026.
+L100: The following forward-looking statements reflect Amazon.com’s expectations as of July 30, 2026, and are subject to substantial uncertainty.
+

@@ -1,0 +1,217 @@
+{
+  "additional_checks": {
+    "format_exit": 0,
+    "pytest_exit": 0,
+    "ruff_exit": 0
+  },
+  "evidence_run": "phase1/phase1_5b1_evidence/run_001",
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "phase1_5b2": "NOT_STARTED",
+    "phase1_5c": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production": "NOT_READY"
+  },
+  "gates": [
+    {
+      "description": "Phase 1.5A remains accepted",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/phase1_5a_verification.json",
+      "gate_id": "B101",
+      "status": "PASS"
+    },
+    {
+      "description": "Existing tests all PASS",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/test_report.json",
+      "gate_id": "B102",
+      "status": "PASS"
+    },
+    {
+      "description": "New pattern tests all PASS",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/test_report.json",
+      "gate_id": "B103",
+      "status": "PASS"
+    },
+    {
+      "description": "Every AuditRecord has exactly one disposition",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B104",
+      "status": "PASS"
+    },
+    {
+      "description": "Eligible record types exact",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B105",
+      "status": "PASS"
+    },
+    {
+      "description": "Trace-only records excluded",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B106",
+      "status": "PASS"
+    },
+    {
+      "description": "Summary-only records excluded",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B107",
+      "status": "PASS"
+    },
+    {
+      "description": "Opaque records not semantically interpreted",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B108",
+      "status": "PASS"
+    },
+    {
+      "description": "Pattern signature structural only",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B109",
+      "status": "PASS"
+    },
+    {
+      "description": "Message metamorphism invariant",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B110",
+      "status": "PASS"
+    },
+    {
+      "description": "Numeric path-index metamorphism invariant",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B111",
+      "status": "PASS"
+    },
+    {
+      "description": "Different reason_code separates patterns",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B112",
+      "status": "PASS"
+    },
+    {
+      "description": "Different rule_id separates patterns",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B113",
+      "status": "PASS"
+    },
+    {
+      "description": "Different record_type separates patterns",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B114",
+      "status": "PASS"
+    },
+    {
+      "description": "Severity does not split structural pattern",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B115",
+      "status": "PASS"
+    },
+    {
+      "description": "Outcome does not split structural pattern",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B116",
+      "status": "PASS"
+    },
+    {
+      "description": "Eligible occurrence count conserved",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B117",
+      "status": "PASS"
+    },
+    {
+      "description": "Every eligible occurrence assigned exactly once",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B118",
+      "status": "PASS"
+    },
+    {
+      "description": "Bidirectional index consistent",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B119",
+      "status": "PASS"
+    },
+    {
+      "description": "Pattern IDs deterministic",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B120",
+      "status": "PASS"
+    },
+    {
+      "description": "Pattern output deterministic",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B121",
+      "status": "PASS"
+    },
+    {
+      "description": "Input order invariant",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/real_aggregation_checks.json",
+      "gate_id": "B122",
+      "status": "PASS"
+    },
+    {
+      "description": "NormalizedAuditBundle unchanged",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/immutability_report.json",
+      "gate_id": "B123",
+      "status": "PASS"
+    },
+    {
+      "description": "No new AuditRecords created",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B124",
+      "status": "PASS"
+    },
+    {
+      "description": "No Pattern to Debt promotion",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/tests.xml",
+      "gate_id": "B125",
+      "status": "PASS"
+    },
+    {
+      "description": "No LLM/network/NLP/fuzzy clustering",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/runtime_scope.json",
+      "gate_id": "B126",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5A existing source unchanged",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/immutability_report.json",
+      "gate_id": "B127",
+      "status": "PASS"
+    },
+    {
+      "description": "Continuity Hook unchanged",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/immutability_report.json",
+      "gate_id": "B128",
+      "status": "PASS"
+    },
+    {
+      "description": "Frozen/Golden/Schema/Registry/Validator/Compatibility unchanged",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/immutability_report.json",
+      "gate_id": "B129",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5B-2 NOT_STARTED",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/runtime_scope.json",
+      "gate_id": "B130",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5C NOT_STARTED",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/runtime_scope.json",
+      "gate_id": "B131",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.6 NOT_STARTED",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/runtime_scope.json",
+      "gate_id": "B132",
+      "status": "PASS"
+    },
+    {
+      "description": "Analyst Model/Skill NOT_READY",
+      "evidence": "phase1/phase1_5b1_evidence/run_001/runtime_scope.json",
+      "gate_id": "B133",
+      "status": "PASS"
+    }
+  ],
+  "status": "READY_FOR_PHASE_1_5B_2"
+}

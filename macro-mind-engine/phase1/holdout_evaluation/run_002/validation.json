@@ -1,0 +1,45 @@
+{
+  "engineering_pass": true,
+  "checks": [
+    "answer and input hashes unchanged; freeze before exposure verified",
+    "prior comparison, review revision and v0.3 sealed files unchanged",
+    "approval recorded; 551 cues complete; review quotes continuous and exact",
+    "473 exposed; 13 reserved remain; new comparison hash bound, no human pass inferred",
+    "source snapshots and displayed dates checked; missing NYT input disclosed",
+    "negative guards detect changed answer and truncated evidence"
+  ],
+  "ui": {
+    "pass": true,
+    "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/holdout_evaluation/run_002/TRACE.html",
+    "flow": "load -> next pending -> expand evidence -> review -> refresh -> export/import",
+    "browser": "Edge via Playwright; Browser plugin not available",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "checks": [
+      "identity, nonblank, no overlay",
+      "next pending, continuous quote expansion and full episode link",
+      "revision note validation and refresh persistence",
+      "partial/full export and import roundtrip; completed does not mean accepted",
+      "version rejected without mutation",
+      "duplicate rejected without mutation",
+      "unknown rejected without mutation",
+      "choice rejected without mutation",
+      "desktop/mobile, no overflow, console clean"
+    ],
+    "errors": [],
+    "limitations": [
+      "other browsers untested",
+      "isolated test choices are not human review"
+    ]
+  },
+  "semantic_status": "partial transfer, material inference gaps; human review pending",
+  "factual_accuracy": "NOT_TESTED",
+  "forecast_accuracy": "NOT_SCORED",
+  "limits": [
+    "adaptive process after472; no pooled fixed-policy accuracy",
+    "unequal input sources",
+    "timestamps local, not independent attestation"
+  ]
+}

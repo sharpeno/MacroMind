@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "src/macromind/methods/inference.py",
+    "tests/methods/test_inference.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

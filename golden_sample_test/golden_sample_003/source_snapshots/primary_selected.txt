@@ -1,0 +1,357 @@
+Amid regional conflict, the Strait of Hormuz remains critical oil chokepoint - U.S. Energy Information Administration (EIA) (https://www.eia.gov/todayinenergy/detail.php?id=65504)
+citeturn13view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.eia.gov/todayinenergy/detail.php?id=65504","lineno":null}); Total lines: 315
+L0: cite0†Image: U.S. Energy Information Administration logo L1: 
+L2: cite1†Skip to sub-navigation cite2†U.S. Energy Information Administration - EIA - Independent Statistics and Analysis L3: 
+L4: Menu
+L5: 
+L6:   * Statistics
+L7: 
+L8:   * Analysis
+L9: 
+L10:   * Tools
+L11: 
+L12:   * Education
+L13: 
+L14:   * News
+L15: 
+L16:   * [Input] [Input] [Input: Search eia.gov] [Button: Search]
+L17: 
+L18: cite3†Skip to page content L19: 
+L20:   * cite4†Recent articles L21:   * cite5†Browse by tag L22:     * cite6†liquid fuels L23:     * cite7†natural gas L24:     * cite8†electricity L25:     * cite9†oil/petroleum L26:     * cite10†production/supply L27:     * cite11†crude oil L28:     * cite12†consumption/demand L29:     * cite13†generation L30:     * cite14†prices L31:     * cite15†map L32:     * cite16†states L33:     * cite17†exports/imports L34:     * cite18†international L35:     * cite19†coal L36:     * cite20†renewables L37:     * cite21†weather L38:     * cite22†forecasts/projections L39:     * cite23†gasoline L40:     * cite24†capacity L41:     * cite25†steo (short-term energy outlook) L42:   * cite26†Prices L43:   * cite27†Archive L44:   * cite28†About L45: 
+L46: cite29†Glossary cite30†FAQS L47: 
+L48: In-brief analysis
+L49: 
+L50: June 16, 2025
+L51: # cite31†Amid regional conflict, the Strait of Hormuz remains critical oil chokepoint L52: 
+L53: The TIE was reposted to correct a data label and provide the figure data.
+L54: 
+L55: cite32†Image: volume of petroleum transported through the Strait of Hormuz L56: 
+L57: Data source: U.S. Energy Information Administration analysis based on Vortexa tanker tracking
+L58: Note: 1Q25=first quarter of 2025. cite33†figure data L59: 
+L60: * * *
+L61: The Strait of Hormuz, located between Oman and Iran, connects the Persian Gulf with the Gulf of Oman and the Arabian Sea. The strait is deep enough and wide enough to handle the world's largest crude oil tankers, and it is one of the world's most important oil chokepoints. Large volumes of oil flow through the strait, and very few alternative options exist to move oil out of the strait if it is closed.
+L62: In 2024, oil flow through the strait averaged 20 million barrels per day (b/d), or the equivalent of about 20% of global petroleum liquids consumption. In the first quarter of 2025, total oil flows through the Strait of Hormuz remained relatively flat compared with 2024.
+L63: Although we have not seen maritime traffic through the Strait of Hormuz blocked following recent tensions in the region, the cite34†price of Brent crude oil†www.ice.com (a global benchmark) increased from $69 per barrel (b) on June 12 to $74/b on June 13. This piece highlights the importance of the strait to global oil supplies.
+L64: Chokepoints are narrow channels along widely used global sea routes that are critical to global energy security. The inability of oil to transit a major chokepoint, even temporarily, can create substantial supply delays and raise shipping costs, potentially increasing world energy prices. Although most chokepoints can be circumvented by using other routes—often adding significantly to transit time—some chokepoints have no practical alternatives.
+L65: Most volumes that transit the strait have no alternative means of exiting the region, although there are some pipeline alternatives that can avoid the Strait of Hormuz.
+L66: Between 2022 and 2024, volumes of crude oil and condensate transiting the Strait of Hormuz declined by 1.6 million b/d, which were only partially offset by a 0.5-million b/d increase in petroleum product cargoes. The decline in oil transit through the strait partially reflects the OPEC+ decision to voluntarily cut crude oil production several times starting in November 2022, which lowered exports from Saudi Arabia, Kuwait, and the United Arab Emirates (UAE).
+L67: In addition, cite35†disruptions in 2024 to oil flows around the Bab al-Mandeb Strait, which connects the Arabian Sea to the Red Sea, led Saudi Arabia’s national oil company Aramco to shift seaborne crude oil flows from the Strait of Hormuz, instead sending it over land through its East-West pipeline to ports on the Red Sea. Also, more refining capacity in the Persian Gulf states increased regional demand for crude oil and shifted some flows to local markets within the Persian Gulf.
+L68: Flows through the Strait of Hormuz in 2024 and the first quarter of 2025 made up more than one-quarter of total global seaborne oil trade and about one-fifth of global oil and petroleum product consumption. In addition, around one-fifth of global liquefied natural gas trade also transited the Strait of Hormuz in 2024, primarily from Qatar.
+L69: 
+L70: cite36†Image: volume of crude oil, condensate, and petroleum products transported through the Strait of Hormuz L71: Data source: U.S. Energy Information Administration, cite37†Short-Term Energy Outlook , June 2025, and U.S. Energy Information Administration analysis based on Vortexa tanker tracking
+L72: Note: World maritime oil trade excludes intra-country volumes except those volumes that transit the Strait of Hormuz. LNG=liquefied natural gas. 1Q25=first quarter of 2025
+L73: 
+L74: * * *
+L75: Based on tanker tracking data published by Vortexa, Saudi Arabia moves more crude oil and condensate through the Strait of Hormuz than any other country. In 2024, exports of crude and condensate from Saudi Arabia accounted for 38% of total Hormuz crude flows (5.5 million b/d).
+L76: Alternative routes
+L77: Saudi Arabia and the UAE have some infrastructure in place that can bypass the Strait of Hormuz, which may somewhat mitigate any transit disruptions through the strait. The pipelines do not typically operate at full capacity, and we estimate that about 2.6 million b/d of capacity from the Saudi and UAE pipelines could be available to bypass the Strait of Hormuz in the event of a supply disruption.
+L78: Saudi Aramco operates the 5 million-b/d East-West crude oil pipeline, which runs from the Abqaiq oil processing center near the Persian Gulf to the Yanbu port on the Red Sea. Aramco temporarily expanded the pipeline’s capacity to 7.0 million b/d in 2019 when it converted some natural gas liquids pipelines to accept crude oil. In 2024, Saudi Arabia pumped more crude oil through the East-West pipeline to avoid the shipping disruptions around the Bab al-Mandeb.
+L79: The UAE also operates a pipeline that bypasses the Strait of Hormuz. This 1.8 million-b/d pipeline links onshore oil fields to the Fujairah export terminal in the Gulf of Oman. In 2024, crude oil and condensate volumes originating in the UAE and traversing Hormuz were 0.4 million b/d less than in 2022 because refinery upgrades allowed more heavy crude oil to be refined locally.
+L80: These upgrades also allowed the UAE to increase exports of its lighter crude oil grades, and use of the pipeline to the Fujairah export terminal increased. Increased use of the pipeline for day-to-day operations has limited the excess capacity available to reroute additional volumes around the Strait of Hormuz.
+L81: Iran inaugurated the Goreh-Jask pipeline and the Jask export terminal on the Gulf of Oman (avoiding the Strait of Hormuz) with a single export cargo in July 2021. The pipeline’s effective capacity remains around 300,000 b/d. However, during the summer of 2024 Iran exported less than 70,000 b/d from ports (Bandar-e-Jask and Kooh Mobarak) using the Goreh-Jask pipeline and stopped loading cargoes after September 2024.
+L82: Destination markets
+L83: We estimate that 84% of the crude oil and condensate and 83% of the liquefied natural gas that moved through the Strait of Hormuz went to Asian markets in 2024. China, India, Japan, and South Korea were the top destinations for crude oil moving through the Strait of Hormuz to Asia, accounting for a combined 69% of all Hormuz crude oil and condensate flows in 2024. These markets would likely be most affected by supply disruptions at Hormuz.
+L84: cite38†Image: volume of crude oil and condensate transported through the Strait of Hormuz L85: 
+L86: Data source: U.S. Energy Information Administration analysis based on Vortexa tanker tracking
+L87: Note: 1Q25=first quarter of 2025. cite39†figure data L88: 
+L89: * * *
+L90: In 2024, the United States imported about 0.5 million b/d of crude oil and condensate from Persian Gulf countries through the Strait of Hormuz, accounting for about 7% of total U.S. crude oil and condensate imports and 2% of U.S. petroleum liquids consumption. In 2024, U.S. crude oil imports from countries in the Persian Gulf were at the lowest level in nearly 40 years as domestic production and imports from Canada have increased.
+L91: 
+L92: Principal contributors: Candace Dunn, Justine Barden
+L93: Tags: cite18†international , cite40†disruption , cite41†Saudi Arabia , cite42†liquid fuels , cite43†crude oil , cite44†oil/petroleum , cite45†map , cite46†chokepoints L94: 
+L95: cite47†More recent articles › L96: 
+L97:   * cite48†About EIA L98:   * cite49†Open Data L99:   * cite50†Legacy L100:   * cite51†Contact Us L101: 
+L102: U.S. Energy Information Administration
+L103: 
+L104: 1000 Independence Ave., SW
+L105: 
+L106: Washington, DC 20585
+L107: 
+L108: Policies
+L109: 
+L110: cite52†Privacy/Security L111: 
+L112: cite53†Copyright & Reuse L113: 
+L114: cite54†Accessibility L115: 
+L116: cite55†Information Quality L117: 
+L118: cite56†Freedom of Information Act (FOIA) L119: 
+L120: Related Sites
+L121: cite57†usa.gov†www.usa.gov L122: 
+L123: cite58†U.S. Department of Energy†www.energy.gov L124: 
+L125: Stay Connected
+L126: 
+L127: cite59†Facebook†facebook.com L128: 
+L129: cite60†X†x.com L130: 
+L131: cite61†Youtube†youtube.com L132: 
+L133: cite62†LinkedIn†linkedin.com L134: 
+L135: cite63†Email Updates L136: 
+L137: cite64†RSS Feeds L138: 
+L139: Statistics
+L140: 
+L141: Analysis
+L142: 
+L143: Tools
+L144: 
+L145: Education
+L146: 
+L147: News
+L148: ### cite65†Petroleum & Other Liquids L149: 
+L150: Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+L151: 
+L152: ### cite66†Natural Gas L153: 
+L154: Exploration and reserves, storage, imports and exports, production, prices, sales.
+L155: 
+L156: ### cite67†Electricity L157: 
+L158: Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+L159: 
+L160: ### cite68†Coal L161: 
+L162: Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+L163: ### cite69†Nuclear & Uranium L164: 
+L165: Uranium fuel, nuclear reactors, generation, spent fuel.
+L166: 
+L167: ### cite70†Renewable & Alternative Fuels L168: 
+L169: Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+L170: 
+L171: ### cite71†EIA Survey Forms L172: 
+L173: Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+L174: 
+L175: ### cite72†Total Energy L176: 
+L177: Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+L178: 
+L179:   * cite73†Monthly Energy Review L180: ### cite74†Consumption & Efficiency L181: 
+L182: Energy use in homes, commercial buildings, manufacturing, and transportation.
+L183: 
+L184:   * cite75†Residential Energy Consumption Survey (RECS) L185:   * cite76†Commercial Buildings Energy Consumption Survey (CBECS) L186:   * cite77†Manufacturing Energy Consumption Survey (MECS) L187: 
+L188: ### cite78†U.S. States L189: 
+L190: State energy information, including overviews, rankings, data, and analyses.
+L191: 
+L192: ### cite79†International L193: 
+L194: International energy information, including overviews, rankings, data, and analyses.
+L195: ### cite80†Environment L196: 
+L197: Greenhouse gas data, voluntary reporting, electric power plant emissions.
+L198: 
+L199:   * cite81†U.S. Energy-Related Carbon Dioxide Emissions L200:   * cite82†Energy-Related Carbon Dioxide Emissions at the State Level L201: 
+L202: ### cite83†Analysis and Projections L203: 
+L204: Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+L205: 
+L206:   * cite37†Short-Term Energy Outlook L207:   * cite84†Annual Energy Outlook L208: ### cite85†Special Reports L209: 
+L210: Special market analysis and/or data requests.
+L211: 
+L212:   * cite86†EIA-112 Residential Utility Disconnections L213:   * cite87†SHIP Act L214:   * cite88†Energy & Financial Markets: What Drives Crude Oil Prices? L215: 
+L216: ### cite79†International L217: 
+L218: International energy analyses.
+L219: 
+L220:   * cite89†Regional Analysis Briefs L221:   * cite89†Country Analysis Briefs L222:   * cite90†World Oil Transit Chokepoints L223:   * cite91†OPEC Revenue L224:   * cite92†Global Energy Security Data L225: ### cite93†Data Tools, Apps, & Maps L226: 
+L227: Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+L228: 
+L229: ### cite94†Open Data L230: 
+L231: EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+L232: 
+L233: ### cite95†EIA Beta L234: 
+L235: Come test out some of the products still in development and let us know what you think!
+L236: 
+L237: ### cite96†Open Source Code L238: 
+L239: EIA's open source code, available on GitHub.
+L240: ### cite97†All Reports & Products L241: 
+L242: [Input: Enter tags. Tags should be separated with the + character]
+L243: 
+L244: ### cite63†Email Updates L245: 
+L246: Sign up for email subscriptions to receive messages about specific EIA products
+L247: 
+L248: ### cite64†RSS Feeds L249: 
+L250: Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+L251: 
+L252: ### Follow us. . .
+L253: ### cite98†A-Z Index L254: 
+L255: cite99†A | cite100†B | cite101†C | cite102†D | cite103†E | cite104†F | cite105†G | cite106†H | cite107†I | cite108†J | cite109†K | cite110†L | cite111†M | cite112†N | cite113†O | cite114†P | cite115†Q | cite116†R | cite117†S | cite118†T | cite119†U | cite120†V | cite121†W | cite122†XYZ L256: ### cite123†Energy Explained L257: 
+L258:   * cite124†What is Energy? L259:   * cite125†Units & Calculators L260:   * cite126†U.S. Energy Facts L261:   * cite127†Use of Energy L262:   * cite128†Energy & Environment L263:   * cite129†Petroleum L264:   * cite130†Hydrocarbon Gas Liquids L265:   * cite131†Natural Gas L266: 
+L267:   * cite132†Coal L268:   * cite133†Nuclear L269:   * cite134†Electricity L270:   * cite135†Hydrogen L271:   * cite136†Hydropower L272:   * cite137†Biofuels L273:   * cite138†Biomass L274:   * cite139†Wind L275:   * cite140†Geothermal L276:   * cite141†Solar L277: ### cite142†For Teachers L278: 
+L279: Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+L280: 
+L281: ### cite143†Glossary L282: 
+L283: [Input: Search the glossary]
+L284: 
+L285: ### cite30†FAQs L286: 
+L287:   * cite144†Coal L288:   * cite145†Conversion & Equivalents L289:   * cite146†Oil/Petroleum L290:   * cite147†Diesel L291:   * cite148†Electricity L292:   * cite149†Environment L293: 
+L294:   * cite150†Gasoline L295:   * cite151†General Energy L296:   * cite152†Natural Gas L297:   * cite153†Nuclear L298:   * cite154†Prices L299:   * cite155†Renewables L300: ### cite156†What's New? L301: 
+L302:   * cite157†U.S. Biofuels Plant Production Capacity Report L303:   * Sep 24, 2026
+L304:   * cite158†Electric Power Monthly L305:   * Sep 24, 2026
+L306:   * cite159†Wholesale Electricity Market Data L307:   * Sep 17, 2026
+L308: 
+L309: ### cite160†Press Room L310: 
+L311:   * cite161†Press Releases L312:   * cite162†Congressional Testimony L313:   * cite163†Presentations L314:   * cite164†Events --------------------------------------------------------------------------------
+Platts reviewing Mideast crude pricing mechanism amid US, Israel attacks on Iran - Markets - Business Recorder (https://www.brecorder.com/news/40409686/platts-reviewing-mideast-crude-pricing-mechanism-amid-us-israel-attacks-on-iran)
+citeturn13view1 [wordlim: 200] Crawled: 3 months ago; Content type: text/html; Source: open({"ref_id":"https://www.brecorder.com/news/40409686/platts-reviewing-mideast-crude-pricing-mechanism-amid-us-israel-attacks-on-iran","lineno":null}); Total lines: 698
+L0: 
+L1: MARKETS
+L2: 
+L3: BR100 19,069 Increased By 332.4 (1.77%)
+L4: 
+L5: BR30 69,194 Increased By 1330.4 (1.96%)
+L6: 
+L7: KSE100 172,400 Increased By 2696.3 (1.59%)
+L8: 
+L9: KSE30 51,428 Increased By 836.8 (1.65%)
+L10: 
+L11: cite0† User ►  cite0†  L12: 
+L13: cite1†BECO†markets.brecorder.com 5.62 Increased By ▲ 0.04 (0.72%)
+L14: 
+L15: cite2†BML†markets.brecorder.com 59.51 Decreased By ▼ -1.71 (-2.79%)
+L16: 
+L17: cite3†BOP†markets.brecorder.com 34.61 Increased By ▲ 0.93 (2.76%)
+L18: 
+L19: cite4†CNERGY†markets.brecorder.com 8.08 No Change ▼ 0.00 (0%)
+L20: cite5†DCL†markets.brecorder.com 12.05 Increased By ▲ 0.41 (3.52%)
+L21: 
+L22: cite6†FCCL†markets.brecorder.com 54.40 Increased By ▲ 2.26 (4.33%)
+L23: 
+L24: cite7†FCSC†markets.brecorder.com 5.52 Decreased By ▼ -0.11 (-1.95%)
+L25: 
+L26: cite8†FFL†markets.brecorder.com 18.05 Increased By ▲ 0.04 (0.22%)
+L27: 
+L28: cite9†FNEL†markets.brecorder.com 1.33 Decreased By ▼ -0.02 (-1.48%)
+L29: 
+L30: cite10†HUMNL†markets.brecorder.com 11.07 Increased By ▲ 0.03 (0.27%)
+L31: 
+L32: cite11†KEL†markets.brecorder.com 8.05 Increased By ▲ 0.21 (2.68%)
+L33: cite12†KOSM†markets.brecorder.com 5.88 Increased By ▲ 0.15 (2.62%)
+L34: 
+L35: cite13†MLCF†markets.brecorder.com 90.52 Increased By ▲ 4.01 (4.64%)
+L36: 
+L37: cite14†NBP†markets.brecorder.com 190.17 Increased By ▲ 5.87 (3.19%)
+L38: 
+L39: cite15†PACE†markets.brecorder.com 11.53 Decreased By ▼ -0.12 (-1.03%)
+L40: 
+L41: cite16†PAEL†markets.brecorder.com 41.07 Increased By ▲ 1.11 (2.78%)
+L42: 
+L43: cite17†PIAHCLA†markets.brecorder.com 25.84 Increased By ▲ 0.17 (0.66%)
+L44: 
+L45: cite18†PIBTL†markets.brecorder.com 17.51 Increased By ▲ 0.24 (1.39%)
+L46: cite19†PPL†markets.brecorder.com 225.84 Increased By ▲ 3.17 (1.42%)
+L47: 
+L48: cite20†PRL†markets.brecorder.com 34.63 Increased By ▲ 0.17 (0.49%)
+L49: 
+L50: cite21†PTC†markets.brecorder.com 64.62 Increased By ▲ 0.88 (1.38%)
+L51: 
+L52: cite22†SEARL†markets.brecorder.com 91.38 Increased By ▲ 0.92 (1.02%)
+L53: 
+L54: cite23†SSGC†markets.brecorder.com 26.97 Increased By ▲ 0.30 (1.12%)
+L55: 
+L56: cite24†TELE†markets.brecorder.com 8.93 Increased By ▲ 0.02 (0.22%)
+L57: 
+L58: cite25†THCCL†markets.brecorder.com 69.16 Increased By ▲ 0.69 (1.01%)
+L59: cite26†TPLP†markets.brecorder.com 10.90 Decreased By ▼ -0.30 (-2.68%)
+L60: 
+L61: cite27†TREET†markets.brecorder.com 24.64 Decreased By ▼ -0.06 (-0.24%)
+L62: 
+L63: cite28†TRG†markets.brecorder.com 69.78 Decreased By ▼ -0.81 (-1.15%)
+L64: 
+L65: cite29†WAVES†markets.brecorder.com 11.16 Increased By ▲ 0.05 (0.45%)
+L66: 
+L67: cite30†WTL†markets.brecorder.com 1.27 No Change ▼ 0.00 (0%)
+L68: 
+L69: cite31†اردو†urdu.brecorder.com L70: 
+L71: cite32† Brecorder  L72: 
+L73: Jun 15, 2026 cite31†اردو†urdu.brecorder.com L74: 
+L75: cite33† †play.google.com L76: cite34†Print Edition†epaper.brecorder.com cite35†BR Markets†markets.brecorder.com cite36†Dollar to PKR L77: 
+L78: cite191†Image L79: ###  Don't Miss the Latest News
+L80: 
+L81: Subscribing is the best way to get our best stories immediately.
+L82: 
+L83: Maybe later  Allow Notifications
+L84: 
+L85: cite37† Home  cite38† Latest  cite39† BR Research  cite40† Markets  cite41† Business & Finance  cite42† World  cite43† Editorials  cite44† Opinion  cite45† MENA  cite46† Technology  cite47† Life & Style  cite48† Sports  cite49† Perspectives  cite50† Pakistan  cite51† Supplements  cite52† Print  L86: 
+L87: Search
+L88: 
+L89: Search
+L90: cite37†Home cite53†Budget 2026-27 cite54†Iran-US war cite55†Petrol Prices cite56†Gold Rates cite57†Podcasts cite58†PSX Notices L91: 
+L92: cite38†Latest L93: 
+L94: cite39†BR Research L95: 
+L96: cite40†Markets cite59†Stocks cite60†Commodities cite61†Forex cite62†Mutual Funds cite63†Energy cite64†Financial cite65†Rates cite66†Paper cite67†Grains cite68†Cotton & Textile cite69†Yarn Prices L97: 
+L98: cite41†Business & Finance cite70†Interest Rates cite71†Taxes cite72†Industry cite73†Money & Banking cite74†Companies cite75†Tenders cite76†Budgets cite77†Real Estate L99: cite42†World cite78†Asia cite79†USA cite80†Europe cite81†China cite82†Africa cite83†Middle East cite84†South Asia L100: 
+L101: cite43†Editorials L102: 
+L103: cite44†Opinion L104: 
+L105: cite45†MENA L106: 
+L107: cite46†Technology L108: 
+L109: cite47†Life & Style L110: 
+L111: cite48†Sports L112: 
+L113: cite49†Perspectives L114: 
+L115: cite50†Pakistan L116: 
+L117: cite51†Supplements L118: 
+L119: cite52†Print L120: 
+L121: cite53† Budget 2026-27  cite54† Iran-US war  cite55† Petrol Prices  cite56† Gold Rates  cite57† Podcasts  cite58† PSX Notices  L122: 
+L123: cite40†Markets L124: # cite85†Platts reviewing Mideast crude pricing mechanism amid US, Israel attacks on Iran L125: 
+L126:   * S&P Global Platts is reviewing the deliverability of Middle East crude from ports within the Gulf
+L127: 
+L128: Published March 2, 2026 Updated March 2, 2026 11:33am
+L129: 
+L130: Save
+L131: 
+L132: Saved
+L133: 
+L134: 1 min
+L135: 
+L136: cite86† †www.facebook.com cite87† †twitter.com cite88† †api.whatsapp.com cite89†  cite90†  comment Comments  L137: 
+L138: cite192†Image: Photo: Reuters†www.brecorder.com L139: 
+L140: Photo: Reuters
+L141: 
+L142: By cite91†Reuters L143: cite92† Add BRecorder as a trusted source on Google †www.google.com L144: 
+L145: SINGAPORE: S&P Global Platts is reviewing the deliverability of Middle East crude from ports within the Gulf amid heightened safety concerns amid the cite93†US and Israeli attacks on Iran , according to a note from the global pricing agency reviewed by Reuters on Monday.
+L146: “This review has been initiated because market participants have notified Platts that major shipping companies have halted transit through the Strait of Hormuz amid heightened safety concerns after Israel and the US launched air strikes on Iran on Feb. 28, 2026,” Platts said in the note.
+L147: Platts will given further guidance in another subscriber note at 2 p.m. in Singapore (0600 GMT) on how it will assess Dubai partials and performance expectations around bids and offers in the Platts Market on Close assessment process for Middle East crude, it said.
+L148: 
+L149: Read Also
+L150: 
+L151: cite193†Image: Ayatollah Khamenei assassinated in US-Israeli airstrikes: state media†www.brecorder.com L152: ## cite94†Ayatollah Khamenei assassinated in US-Israeli airstrikes: state media L153: 
+L154: cite194†Image: Oil, gas surge as Iran conflict disrupts Middle Eastern flows†www.brecorder.com L155: 
+L156: ## cite95†Oil, gas surge as Iran conflict disrupts Middle Eastern flows L157: 
+L158: cite96†Iran cite97†S&P Global Platts cite98†Iran Israel war cite99†Iran missiles L159: 
+L160: ### Comments
+L161: 
+L162: 200 characters remaining
+L163: 
+L164: More Stories
+L165: 
+L166: cite195†Image: Trump insists Iran deal 'hours' away, despite Israeli strike on Beirut†www.brecorder.com L167: ## cite100†Trump insists Iran deal 'hours' away, despite Israeli strike on Beirut L168: 
+L169: ## cite101†Shehbaz hopes for US-Iran peace deal within 24 hours L170: 
+L171: ## cite102†Iran says draft US deal includes oil sanctions waiver, nuclear limits and asset release L172: 
+L173: ## cite103†Seven killed, 33 injured as rainstorm hits Khyber Pakhtunkhwa L174: 
+L175: ## cite104†Rs1.56bn Azeempura Flyover inaugurated to ease access to Karachi airport, Shahrah-e-Bhutto L176: 
+L177: ## cite105†Minimum tax for certain traders doubled L178: ## cite106†Refineries’ upgradation: Sales tax waived on capital goods imports L179: 
+L180: ## cite107†Israeli fire kills six in Gaza despite new effort to salvage truce L181: 
+L182: ## cite108†Iran says limited cyberattack disrupts services at four banks, state media says L183: 
+L184: ## cite109†Textile body welcomes FY27 budget measures, seeks final tax regime for exporters L185: 
+L186: ## cite110†NA panel concerned at fixed tax scheme for traders L187: ## cite40†Browse all stories L188: 
+L189:   * BR100
+L190:   * BR30
+L191:   * KSE100
+L192:   * KSE30
+L193:   * KMI30
+L194: 
+L195: 1D 5D 3M 6M 1Y
+L196: 
+L197:   * cite111†Forex L198:   * cite112†World L199:   * cite113†Commodity L200: 
+L201: cite196†Image†www.brecorder.com L202: 
+L203:   Currency Rate
+L204: 
+L205: USD PKR Interbank Selling / Jun 12
+L206: 
+L207: 278.52
+L208: 
+L209: USD PKR Interbank Buying / Jun 12
+L210: 
+L211: 278.32
+L212: 
+L213: USD to Japanese Yen / Jun 12
+L214: 
+L215: 160.24
+L216: 
+L217: USD to Swiss Franc / Jun 12
+L218: 
+L219: 0.80
+L220: 
+L221: Pound Sterling to USD / Jun 12
+L222: 
+--------------------------------------------------------------------------------
+Platts suspends bids and offers for Persian Gulf ports within Strait of Hormuz in Middle East refined products MOC assessment process | S&P Global (https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/030226-platts-suspends-bids-and-offers-for-persian-gulf-ports-within-strait-of-hormuz-in-middle-east-refined-products-moc-assessment-process)
+citeturn13view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.spglobal.com/energy/en/pricing-benchmarks/our-methodology/subscriber-notes/030226-platts-suspends-bids-and-offers-for-persian-gulf-ports-within-strait-of-hormuz-in-middle-east-refined-products-moc-assessment-process","lineno":null}); Total lines: 1334
+

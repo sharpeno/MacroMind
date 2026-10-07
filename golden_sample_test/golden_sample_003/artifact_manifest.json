@@ -1,0 +1,92 @@
+[
+  {
+    "path": "claim_occurrences.json",
+    "sha256": "006f2bde20c2cec95df981bea78146b51934491d0d2a1fdefeb4da12976cf7bf",
+    "bytes": 74181
+  },
+  {
+    "path": "claims.json",
+    "sha256": "7e91ac0e605cb73691278717acef9422f68311f116cd8bc25270643e7332faad",
+    "bytes": 130707
+  },
+  {
+    "path": "golden_sample_003.json",
+    "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+    "bytes": 587765
+  },
+  {
+    "path": "golden_sample_003_report.md",
+    "sha256": "cc479728e1ab04d53481deba0678e631427edeacb21e77e9419470254e722cbb",
+    "bytes": 553617
+  },
+  {
+    "path": "normalization_candidates.json",
+    "sha256": "2817544414955bac8809b74d94f76a4e5cb24e9f99f896b5bb21306416463d49",
+    "bytes": 10720
+  },
+  {
+    "path": "raw_cues.json",
+    "sha256": "5c28c00cbc821f61522705ba6d9afcf16b820991d6d19ac3c08adf8c5b38d027",
+    "bytes": 137248
+  },
+  {
+    "path": "README.md",
+    "sha256": "fe5039324d69c4d688361b3cda2b6f19de39b8b5c0b4b882a3bfc41abdac0a2d",
+    "bytes": 4557
+  },
+  {
+    "path": "review_queue.json",
+    "sha256": "99c6f5a255dc15a55c212918bd10818e73bcbcfcaa500a8cfe8e50f500893bf7",
+    "bytes": 14357
+  },
+  {
+    "path": "scenario_tree.json",
+    "sha256": "c1b201bf467ff8ecd78b08cf3721f2c6c2441c50b2380753901f5b051378290c",
+    "bytes": 71758
+  },
+  {
+    "path": "source_segments.json",
+    "sha256": "ce0e8238da0cf6ea33262f74ada823ddb8a345d13685a5970cde17e08e264a5c",
+    "bytes": 65238
+  },
+  {
+    "path": "source_snapshots\\capture_log.json",
+    "sha256": "506d16025ef2742096e4da1f548c098cb8ecf3a168917233bd165a809884dcac",
+    "bytes": 816
+  },
+  {
+    "path": "source_snapshots\\initial_web.txt",
+    "sha256": "2559316088ba810eefe476d3a1e7f3add74027e5f735a2e5b7fcdc5ebf9a3cab",
+    "bytes": 13220
+  },
+  {
+    "path": "source_snapshots\\live_selected.txt",
+    "sha256": "05ea42ffb59e63a155a25757620080508ab6113a9f285dde6ff30751acfa10a3",
+    "bytes": 26764
+  },
+  {
+    "path": "source_snapshots\\platts_notices.txt",
+    "sha256": "5601508f41ab2a53b95b0524c2782b4d429c8450c6acea984e112cade1db5935",
+    "bytes": 27387
+  },
+  {
+    "path": "source_snapshots\\primary_selected.txt",
+    "sha256": "7b37644770bf5390650a0d353e73ddafca765937f3b88a6b2f25c7a22cafce95",
+    "bytes": 29501
+  },
+  {
+    "path": "source_versions.json",
+    "sha256": "2d4433fadf99c55ecd9cb981d250a1cc93a93ad4c411c6f9035db9807c7a4249",
+    "bytes": 3740
+  },
+  {
+    "path": "sources.json",
+    "sha256": "08099708d5c6f586bc72690a93435cb53dba62cac85bad1e37ad201a81130a5e",
+    "bytes": 8290
+  },
+  {
+    "path": "validation.json",
+    "sha256": "9e8f0c0a9ad8f711a45be94a6b61ac8a33111f53cb331b2a20f8d110e974f42c",
+    "bytes": 580
+  }
+]

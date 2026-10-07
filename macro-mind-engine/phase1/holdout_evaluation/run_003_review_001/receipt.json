@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-10-07T12:11:10.500139+00:00",
+  "submission": "MacroMind_holdout474001_2026-10-07T12-09-46-936Z_3of3.json",
+  "submission_sha256": "c1dfdde43c5c6d4d94fe0597b0ba3ee72127bb6b1ab4b91308f048604701f5d2",
+  "review_id": "holdout474_001",
+  "comparison_sha256": "f9daf09290cc4c945a862dec0a58cf0865a25f503c47b4cace03d1cf55c11f60",
+  "accepted": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "revision_requested": [],
+  "scope": "human approval of three comparison descriptions; not approval of original answer completeness, factual claims or forecast accuracy",
+  "framework_change": "NONE"
+}

@@ -1,0 +1,555 @@
+{
+  "analyst_id": "analyst_youhegaojian9527",
+  "signals": [
+    {
+      "signal_id": "MS01",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "attention_pattern",
+      "statement": "首先选择相对竞争位置和话语权，而非复飞统计。",
+      "claim_refs": [
+        "C002",
+        "C003",
+        "C004",
+        "C012"
+      ],
+      "argument_refs": [
+        "AR01",
+        "AR03"
+      ],
+      "source_segment_refs": [
+        "SS-C002",
+        "SS-C003",
+        "SS-C004",
+        "SS-C012"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "记录面对同一新闻的变量选择顺序。",
+      "limitations": "单期开头不证明长期固定排序；C012作为旁证不承担算法。",
+      "recurrence_status": "first_observation_in_available_registry",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": []
+    },
+    {
+      "signal_id": "MS02",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "question_pattern",
+      "statement": "追问扩容的真实需求、付款者以及资本从哪里来。",
+      "claim_refs": [
+        "C050",
+        "C053",
+        "C054",
+        "C058"
+      ],
+      "argument_refs": [
+        "AR07",
+        "AR08"
+      ],
+      "source_segment_refs": [
+        "SS-C050",
+        "SS-C053",
+        "SS-C054",
+        "SS-C058"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "把市场形成与资金供给拆开追问，可跨行业操作。",
+      "limitations": "不能把他对军方动机和融资无门的答案当事实。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR01",
+        "MR03",
+        "MR04",
+        "MR06"
+      ]
+    },
+    {
+      "signal_id": "MS03",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "mechanism_usage",
+      "statement": "通过芯片寿命、替换与运输成本检验太空算力经济性。",
+      "claim_refs": [
+        "C036",
+        "C037",
+        "C038",
+        "C039",
+        "C040"
+      ],
+      "argument_refs": [
+        "AR05"
+      ],
+      "source_segment_refs": [
+        "SS-C036",
+        "SS-C037",
+        "SS-C038",
+        "SS-C039",
+        "SS-C040"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "观察如何审查单位服务成本与资产寿命。",
+      "limitations": "本期数字与轨道假设不足；没有完整算过回报率。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR04",
+        "MR06",
+        "MR07"
+      ]
+    },
+    {
+      "signal_id": "MS04",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "judgment_pattern",
+      "statement": "拒绝把单次药物突破或高估值直接作为可持续盈利的充分证据。",
+      "claim_refs": [
+        "C110",
+        "C111",
+        "C112",
+        "C103"
+      ],
+      "argument_refs": [
+        "AR15",
+        "AR14"
+      ],
+      "source_segment_refs": [
+        "SS-C110",
+        "SS-C111",
+        "SS-C112",
+        "SS-C103"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "识别拒绝门槛而非某家公司涨跌结论。",
+      "limitations": "仅恢复拒绝门槛；价格昂贵→利润低的中间推断本身有缺陷。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR08"
+      ]
+    },
+    {
+      "signal_id": "MS05",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "judgment_pattern",
+      "statement": "对国内航天，以技术里程碑、国家任务、产业规模潜力和资本人才循环作正向机会判断。",
+      "claim_refs": [
+        "C026",
+        "C058",
+        "C060",
+        "C117",
+        "C120"
+      ],
+      "argument_refs": [
+        "AR04",
+        "AR08",
+        "AR16"
+      ],
+      "source_segment_refs": [
+        "SS-C026",
+        "SS-C058",
+        "SS-C060",
+        "SS-C117",
+        "SS-C120"
+      ],
+      "expression_level": "strongly_implied",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "尝试恢复把技术新闻升级为产业机会的观察门槛。",
+      "limitations": "这是本期实际采用的非量化门槛；未观察到稳定复飞、客户订单、现金流的强制验证规则。",
+      "recurrence_status": "first_observation_in_available_registry",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": []
+    },
+    {
+      "signal_id": "MS06",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "analogy_pattern",
+      "statement": "用已发生的开发热潮和金融集资模式推想新领域融资空间。",
+      "claim_refs": [
+        "C076",
+        "C077",
+        "C079"
+      ],
+      "argument_refs": [
+        "AR11"
+      ],
+      "source_segment_refs": [
+        "SS-C076",
+        "SS-C077",
+        "SS-C079"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "可复用的跨案例融资机制寻找动作。",
+      "limitations": "海南与月球工程条件不同，不能从相似叙事推出同回报。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR09"
+      ]
+    },
+    {
+      "signal_id": "MS07",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "failure_pattern",
+      "statement": "由单次回收直接推已经低成本，再把成本优势推到全球全部需求集中。",
+      "claim_refs": [
+        "C001",
+        "C026",
+        "C056",
+        "C061"
+      ],
+      "argument_refs": [
+        "AR04",
+        "AR08"
+      ],
+      "source_segment_refs": [
+        "SS-C001",
+        "SS-C026",
+        "SS-C056",
+        "SS-C061"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "存在明确证据台阶跳过，未来可检查是否重复。",
+      "limitations": "模型观察到的是推理缺口；不能证明最终预测一定错误。",
+      "recurrence_status": "first_observation_in_available_registry",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": []
+    },
+    {
+      "signal_id": "MS08",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "failure_pattern",
+      "statement": "把数量倍数直接传给带宽、网速和成本，缺少系统约束。",
+      "claim_refs": [
+        "C045",
+        "C046",
+        "C047",
+        "C048",
+        "C049"
+      ],
+      "argument_refs": [
+        "AR07"
+      ],
+      "source_segment_refs": [
+        "SS-C045",
+        "SS-C046",
+        "SS-C047",
+        "SS-C048",
+        "SS-C049"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "相同数量变换动作可跨案例检验。",
+      "limitations": "在轨数本身待听音；即使数字修正，线性比例推理也需机制证据。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR10"
+      ]
+    },
+    {
+      "signal_id": "MS09",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "failure_pattern",
+      "statement": "把患者治疗价格高直接推为药企盈利空间小。",
+      "claim_refs": [
+        "C110",
+        "C111",
+        "C112"
+      ],
+      "argument_refs": [
+        "AR15"
+      ],
+      "source_segment_refs": [
+        "SS-C110",
+        "SS-C111",
+        "SS-C112"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "Semantic Role转换错误候选，可在其他成本利润推断中检验。",
+      "limitations": "价格高也可能反映成本高或支付困难，但本期未提供这些证据。",
+      "recurrence_status": "first_observation_in_available_registry",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": []
+    },
+    {
+      "signal_id": "MS10",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "branching_pattern",
+      "statement": "区分私营风险资本狂热期与退潮后的国家信用融资情景。",
+      "claim_refs": [
+        "C068",
+        "C069",
+        "C070"
+      ],
+      "argument_refs": [
+        "AR09"
+      ],
+      "source_segment_refs": [
+        "SS-C068",
+        "SS-C069",
+        "SS-C070"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "依据融资环境改变支持主体的情景组织方式。",
+      "limitations": "没有预测AI泡沫何时破裂，不是完整周期模型。",
+      "recurrence_status": "limited_match",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": [
+        "MR05"
+      ]
+    },
+    {
+      "signal_id": "MS11",
+      "analyst_id": "analyst_youhegaojian9527",
+      "observed_reasoner_id": "analyst_youhegaojian9527",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "evidence_preference",
+      "statement": "在美国AI/药物话题中偏重成本盈利而不接受估值作为技术与利润的充分证据。",
+      "claim_refs": [
+        "C103",
+        "C110",
+        "C112"
+      ],
+      "argument_refs": [
+        "AR14",
+        "AR15"
+      ],
+      "source_segment_refs": [
+        "SS-C103",
+        "SS-C110",
+        "SS-C112"
+      ],
+      "expression_level": "explicit",
+      "analysis_context": "method_observation_after_argument_extraction",
+      "why_this_is_method_not_conclusion": "本期有明确比较两种证据的动作。",
+      "limitations": "局部、单期偏好信号；中国上市高估值被正面引用C033，是适用范围边界，不能升级普遍偏好。",
+      "recurrence_status": "first_observation_in_available_registry",
+      "promotion_status": "candidate_not_stable_skill",
+      "confidence": "textual_support_not_method_validity",
+      "recurrence_refs": []
+    }
+  ],
+  "method_recurrence": [
+    {
+      "recurrence_id": "MR01",
+      "prior_ref": "GS001/summary:结构力量优先于政治人物",
+      "current_signal_refs": [
+        "MS02"
+      ],
+      "match_type": "analogous",
+      "match_status": "matched",
+      "shared_operation": "资金与任务约束被用来解释主体行为",
+      "not_shared_or_unknown": "GS001只有摘要；不能验证具体判断步骤或原句。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR02",
+      "prior_ref": "GS002/HC01",
+      "current_signal_refs": [],
+      "match_type": null,
+      "match_status": "not_observed",
+      "shared_operation": "未观察到增量看趋势、存量看空间的完整动作",
+      "not_shared_or_unknown": "星链规模讨论不能冒充同一增量/存量方法；GS002较晚。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR03",
+      "prior_ref": "GS002/HC02",
+      "current_signal_refs": [
+        "MS02"
+      ],
+      "match_type": "analogous",
+      "match_status": "matched",
+      "shared_operation": "追问结果背后的执行条件",
+      "not_shared_or_unknown": "本期不是确权、债权人谈判或化债成本；不可判exact。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR04",
+      "prior_ref": "GS003/HC01",
+      "current_signal_refs": [
+        "MS02",
+        "MS03"
+      ],
+      "match_type": "partial",
+      "match_status": "matched",
+      "shared_operation": "追问叙事的实际执行能力和约束",
+      "not_shared_or_unknown": "本期不含海峡实际控制标准，也未统一核验国内经济复用。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR05",
+      "prior_ref": "GS003/HC02",
+      "current_signal_refs": [
+        "MS10"
+      ],
+      "match_type": "partial",
+      "match_status": "matched",
+      "shared_operation": "按资金环境分阶段比较支持能力",
+      "not_shared_or_unknown": "未使用冲突阶段划分和双方持续成本计算。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR06",
+      "prior_ref": "GS004/MS01",
+      "current_signal_refs": [
+        "MS02",
+        "MS03"
+      ],
+      "match_type": "partial",
+      "match_status": "matched",
+      "shared_operation": "资金与持续成本约束复现",
+      "not_shared_or_unknown": "没有完整重现GS004组织执行边界的全部操作。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR07",
+      "prior_ref": "GS004/MS03",
+      "current_signal_refs": [
+        "MS03"
+      ],
+      "match_type": "partial",
+      "match_status": "matched",
+      "shared_operation": "资本硬件寿命影响持续成本",
+      "not_shared_or_unknown": "本期没有明确完整周期回报比较，不能把寿命子动作判exact。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR08",
+      "prior_ref": "GS004/MS04",
+      "current_signal_refs": [
+        "MS04"
+      ],
+      "match_type": "partial",
+      "match_status": "matched",
+      "shared_operation": "拒绝价格/单点消息作为充分证据",
+      "not_shared_or_unknown": "本期对象、正向接受条件不同。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR09",
+      "prior_ref": "GS004/MS05",
+      "current_signal_refs": [
+        "MS06"
+      ],
+      "match_type": "analogous",
+      "match_status": "matched",
+      "shared_operation": "跨案例找可迁移机制",
+      "not_shared_or_unknown": "手机习惯或折旧与月球融资不是同一共享机制。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR10",
+      "prior_ref": "GS004/MS06",
+      "current_signal_refs": [
+        "MS08"
+      ],
+      "match_type": "analogous",
+      "match_status": "matched",
+      "shared_operation": "从一个比例跳到另一个结论量",
+      "not_shared_or_unknown": "时间比→泡沫倍数与卫星数→网速成本变量不同；不能叫同一错误已复现。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR11",
+      "prior_ref": "GS004/MS02",
+      "current_signal_refs": [],
+      "match_type": null,
+      "match_status": "not_observed",
+      "shared_operation": "无明确同口径分母审查复现",
+      "not_shared_or_unknown": "本期数字口径多处未澄清，不能借模型纠错补出方法。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR12",
+      "prior_ref": "GS004/MS07",
+      "current_signal_refs": [],
+      "match_type": null,
+      "match_status": "not_observed",
+      "shared_operation": "未观察到非粉丝视角与转化对象审查",
+      "not_shared_or_unknown": "资本客户话题不等于公关人群方法。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    },
+    {
+      "recurrence_id": "MR13",
+      "prior_ref": "GS004/MS08",
+      "current_signal_refs": [],
+      "match_type": null,
+      "match_status": "not_observed",
+      "shared_operation": "未观察到跑早/跑晚分支全导向同结果的模式",
+      "not_shared_or_unknown": "本期AI融资分支不同。",
+      "evaluation_time": "2026-09-26T05:30:44+08:00",
+      "historical_evidence_use": false,
+      "stable_skill_promotion": false
+    }
+  ],
+  "exact_match_count": 0,
+  "stable_method_count": 0,
+  "falsification_patterns": [],
+  "negative_findings": [
+    "未观察到要求稳定重复回收、实际复飞、翻修成本的必经审查。",
+    "没有把20次设计能力当实飞的主播证据，不能创建此Failure。",
+    "未观察到以订单优先于技术参数的明确偏好。"
+  ],
+  "judgment_gate_answer": "本期正向判断依靠技术赶超、国家任务与工业潜力；完整可操作接受规则仍insufficient evidence。"
+}

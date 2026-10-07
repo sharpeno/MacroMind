@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/holdout_evaluation/run_003/TRACE.html",
+  "flow": "load -> next pending -> expand evidence -> review -> refresh -> export/import",
+  "browser": "Edge via Playwright; Browser plugin not available",
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "checks": [
+    "identity, nonblank, no overlay",
+    "next pending, continuous quote expansion and full episode link",
+    "revision note validation and refresh persistence",
+    "partial/full export and import roundtrip; completed does not mean accepted",
+    "version rejected without mutation",
+    "duplicate rejected without mutation",
+    "unknown rejected without mutation",
+    "choice rejected without mutation",
+    "desktop/mobile, no overflow, console clean"
+  ],
+  "errors": [],
+  "limitations": [
+    "other browsers untested",
+    "isolated test choices are not human review"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/framework_review/v03_draft_002/REVIEW.html",
+  "browser": "Edge/Playwright; Browser plugin unavailable",
+  "checks": [
+    "six cards; four approvals inherited; only two editable",
+    "next pending C03",
+    "previous review readable",
+    "continuous 468 evidence plus full episode context anchored at cue 110",
+    "note requirement, partial export and reload persistence",
+    "full export/import; completion is not approval or activation",
+    "version rejected atomically",
+    "duplicate rejected atomically",
+    "unknown rejected atomically",
+    "inherited rejected atomically",
+    "invalid_decision rejected atomically",
+    "desktop/mobile layout and navigation",
+    "no page or console errors"
+  ],
+  "errors": [],
+  "untested": [
+    "native OS save picker",
+    "other browsers"
+  ],
+  "test_data": "isolated browser context; test exports are not user reviews"
+}

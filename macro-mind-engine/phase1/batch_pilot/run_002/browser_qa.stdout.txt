@@ -1,0 +1,8 @@
+PASS Correct page with seven review groups
+PASS Decision and note survive save/reload
+PASS JSON export uses run002 name and seven records
+PASS Readable text export
+PASS Import restores round-trip feedback
+PASS Old dataset rejected without replacing feedback
+PASS Mobile viewport has no horizontal overflow
+PASS No console or page errors

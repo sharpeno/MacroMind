@@ -1,0 +1,52 @@
+const {chromium}=require('C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),assert=require('assert');
+const dir='G:/youhegaojian/review-ui-qa/framework-v03';
+(async()=>{
+ const browser=await chromium.launch({channel:'msedge',headless:true});
+ const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});
+ const page=await context.newPage(),errors=[],checks=[];
+ page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ const url='file:///G:/youhegaojian/macro-mind-engine/phase1/framework_review/v03_draft_001/REVIEW.html';
+ await page.goto(url);assert.equal(page.url(),url);assert.equal(await page.title(),'MacroMind · v0.3 六项规则审阅');
+ assert.equal(await page.locator('article').count(),6);assert.equal(await page.locator('select').count(),12);checks.push('identity, nonblank, six cards, twelve separate decisions, no overlay');
+ await page.locator('#next').click();assert(page.url().endsWith('#C01'));checks.push('next pending navigation');
+ await page.locator('#C01 details summary').click();assert(await page.locator('#C01 blockquote').first().isVisible());checks.push('expand source evidence');
+ await page.locator('#C01 [data-field=fidelity]').selectOption('revise');
+ await page.locator('#C01 [data-field=boundary]').selectOption('accept');
+ assert((await page.locator('#progress').textContent()).includes('0 / 6'));
+ await page.locator('#C01 [data-field=notes]').fill('需要保留基础判断，不要求信息齐全才推演。');
+ assert((await page.locator('#progress').textContent()).includes('1 / 6'));checks.push('revision needs explanation and then counts complete');
+ await page.reload();assert.equal(await page.locator('#C01 [data-field=fidelity]').inputValue(),'revise');
+ assert((await page.locator('#C01 [data-field=notes]').inputValue()).includes('基础判断'));checks.push('local draft restored');
+ let wait=page.waitForEvent('download');await page.locator('#download').click();let d=await wait;await d.saveAs(dir+'/partial.json');
+ let packet=JSON.parse(fs.readFileSync(dir+'/partial.json','utf8'));assert.equal(packet.completed,1);assert.equal(packet.activation,'NOT_ACTIVATED');checks.push('partial export retains all six records and not activated');
+ for(let i=2;i<=6;i++){await page.locator('#C0'+i+' [data-field=fidelity]').selectOption('accept');await page.locator('#C0'+i+' [data-field=boundary]').selectOption('accept')}
+ assert((await page.locator('#progress').textContent()).includes('6 / 6'));
+ wait=page.waitForEvent('download');await page.locator('#download').click();d=await wait;await d.saveAs(dir+'/full.json');
+ packet=JSON.parse(fs.readFileSync(dir+'/full.json','utf8'));assert.equal(packet.completed,6);assert.equal(packet.records[0].fidelity,'revise');assert.equal(packet.activation,'NOT_ACTIVATED');checks.push('complete does not mean all accepted or activated');
+ page.on('dialog',dialog=>dialog.accept());
+ await page.locator('#C01 [data-field=notes]').fill('changed');
+ await page.locator('#file').setInputFiles(dir+'/full.json');
+ await page.waitForFunction(()=>document.getElementById('status').textContent.includes('已导入'));
+ assert((await page.locator('#C01 [data-field=notes]').inputValue()).includes('基础判断'));checks.push('roundtrip restore');
+ for(const kind of ['version','duplicate','invalid_decision']){
+ const bad=structuredClone(packet);
+ if(kind==='version')bad.draft_sha256='other';
+ if(kind==='duplicate')bad.records[1].id=bad.records[0].id;
+ if(kind==='invalid_decision')bad.records[0].fidelity='automatic_pass';
+ fs.writeFileSync(dir+'/'+kind+'.json',JSON.stringify(bad));
+ await page.locator('#file').setInputFiles(dir+'/'+kind+'.json');
+ await page.waitForFunction(()=>document.getElementById('status').textContent.includes('导入失败'));
+ assert((await page.locator('#C01 [data-field=notes]').inputValue()).includes('基础判断'));checks.push(kind+' rejected atomically');
+ }
+ await page.evaluate(()=>localStorage.clear());await page.goto(url);
+ assert((await page.locator('#progress').textContent()).includes('0 / 6'));
+ await page.screenshot({path:dir+'/desktop.png'});
+ await page.locator('#C01').scrollIntoViewIfNeeded();await page.screenshot({path:dir+'/card.png'});
+ await page.setViewportSize({width:390,height:844});await page.evaluate(()=>scrollTo(0,0));
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:dir+'/mobile.png'});
+ await page.locator('#next').click();assert(page.url().endsWith('#C01'));checks.push('mobile layout and navigation');
+ assert.deepEqual(errors,[]);checks.push('no runtime or console errors');
+ const result={pass:true,url,browser:'Edge/Playwright; Browser plugin not available',viewports:['1440x1000','390x844'],checks,errors,untested:['native OS save picker','other browsers'],command:'node G:/youhegaojian/review-ui-qa/framework-v03/check.cjs'};
+ fs.writeFileSync(dir+'/result.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

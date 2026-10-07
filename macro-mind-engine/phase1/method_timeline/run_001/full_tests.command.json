@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp=G:\\youhegaojian\\macro-mind-engine\\phase1\\method_timeline\\run_001\\test_tmp"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

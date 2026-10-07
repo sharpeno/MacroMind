@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "evidence": {
+        "excerpt": "The authoritative frozen contract is `../golden_sample_test/core_ontology/v0.3/`",
+        "line": 3,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Frozen Contract unique semantic authority",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "The loader reads all ten artifacts as data, verifies nine output SHA-256 records,",
+        "line": 16,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Contract Loader responsibilities",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "Pydantic uses extra=forbid. Required semantic fields may explicitly contain null",
+        "line": 25,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Executable Schema responsibilities",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "YAML generates Python enums; schemas consume generated enums. Registry integrity",
+        "line": 11,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Registry responsibilities",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "The engineering progression is Contract → Schema → Registry. The code dependency",
+        "line": 9,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Contract -> Schema -> Registry and actual import direction",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "checks pass. Schema changes do not imply an ontology version change.",
+        "line": 14,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Ontology and Schema versions separated",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "or unknown where evidence can be absent. Missing a required key fails. Enum unknown",
+        "line": 26,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Unknown/null/missing separated",
+      "verified": true
+    },
+    {
+      "evidence": [
+        {
+          "excerpt": "The engineering progression is Contract → Schema → Registry. The code dependency",
+          "line": 9,
+          "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+        },
+        {
+          "excerpt": "`registries/v0_3/*.yaml` is the single source of vocabulary authority. The files use",
+          "line": 3,
+          "path": "docs/REGISTRY_POLICY.md"
+        }
+      ],
+      "requirement": "Registry YAML vocabulary authority",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "YAML generates Python enums; schemas consume generated enums. Registry integrity",
+        "line": 11,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Generated enums not second authority",
+      "verified": true
+    },
+    {
+      "evidence": {
+        "excerpt": "Phase 1.3 or later. No Golden migration or production import is implemented.",
+        "line": 41,
+        "path": "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      },
+      "requirement": "Phase 1.3 semantic validator deferred",
+      "verified": true
+    }
+  ],
+  "created_during_acceptance_evidence_completion": true,
+  "document_created_during_acceptance_evidence_completion": false,
+  "old_gate_used_as_premise": false,
+  "path": "G:\\youhegaojian\\macro-mind-engine\\docs\\PHASE1_0_1_2_ARCHITECTURE.md",
+  "phase1_3_executed": false,
+  "sha256": "bd4e0058e26571385b9f33c83f5536c8c4f9a8fa4332e826ebe7a115e3ba1653",
+  "started_at": "2026-09-27T14:08:54.904186+00:00",
+  "status": "verified"
+}

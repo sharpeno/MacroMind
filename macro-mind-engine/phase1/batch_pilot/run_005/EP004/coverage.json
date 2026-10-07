@@ -1,0 +1,5969 @@
+[
+  {
+    "cue_id": 1,
+    "time_range": "00:00:00,210 --> 00:00:20,210",
+    "quote": "大家好，今天跟大家聊聊创新药啊，这个话题已经答应大家做已经两个星期了。今天呢终于有时间把这个话题好好的聊一聊了。在聊具体内容之前呢，先做个免责声明啊。首先呢什么是创新药这件事情本身就很有争议啊，有的说呢过去的这个没有的，现在新创作出。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 2,
+    "time_range": "00:00:20,210 --> 00:00:40,210",
+    "quote": "来的这个药就叫创新药。有的说呢是用新的技法啊生产出来的药叫创新药。有的说候呢是经过不同的这种啊这个原理啊，生产出来的这个药就叫创新药。还有的呢从这个利润的角度来说，能够卖到高溢价的药，叫创新药是吧？不一而足。，咱们今天呢就简单的从我的角度来说啊，。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 3,
+    "time_range": "00:00:40,210 --> 00:01:00,210",
+    "quote": "我的理解的创新药就是在市场上面有投资机会的这些药可以为药企带来丰厚利润的这些药，通通归到创新药啊，那如果是按照这样的思路去看，就是不看这个药本身就看这个市场的反馈的话，其实这个创新药有两条盈利的路子啊，一条是啥呢？一条就。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 4,
+    "time_range": "00:01:00,210 --> 00:01:02,130",
+    "quote": "是搞那个啊高精尖。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 5,
+    "time_range": "00:01:02,130 --> 00:01:02,960",
+    "quote": "啊，就是。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 6,
+    "time_range": "00:01:02,960 --> 00:01:09,030",
+    "quote": "这个病只有我这个药能治。最明显的例子呢就是前段时间那个渐冻症啊，那个渐动症那个蔡磊。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        8,
+        "渐冻症相关转写"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 7,
+    "time_range": "00:01:09,030 --> 00:01:10,810",
+    "quote": "那他不是砸了巨资。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        8,
+        "渐冻症相关转写"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 8,
+    "time_range": "00:01:10,810 --> 00:01:15,230",
+    "quote": "去研发一个健动证专用的这些药嘛。实际上目前来说的话也没啥进展。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        8,
+        "渐冻症相关转写"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 9,
+    "time_range": "00:01:15,230 --> 00:01:17,250",
+    "quote": "但这个过程你可以理解为是吧？",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 10,
+    "time_range": "00:01:17,250 --> 00:01:20,560",
+    "quote": "我为了针对一个非常小众的病病症。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 11,
+    "time_range": "00:01:20,560 --> 00:01:24,790",
+    "quote": "啊，生产出来一些特定的药。其实这个病症其实还挺多的，因为。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 12,
+    "time_range": "00:01:24,790 --> 00:01:26,410",
+    "quote": "癌症是吧，这是。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 13,
+    "time_range": "00:01:26,410 --> 00:01:32,380",
+    "quote": "啊，就普发的这个比比例非常高的一个人疾病啊，这个全社会的这个问题。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 14,
+    "time_range": "00:01:32,380 --> 00:01:36,570",
+    "quote": "而癌症呢又分型那么多不同的部位啊，不同的细胞，不同的这个。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 15,
+    "time_range": "00:01:36,570 --> 00:01:38,690",
+    "quote": "这个类型的癌就分了那么多。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 16,
+    "time_range": "00:01:38,690 --> 00:01:40,960",
+    "quote": "那就是创新要广大的这个。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        16,
+        17,
+        "75等不可解释词"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 17,
+    "time_range": "00:01:40,960 --> 00:01:42,610",
+    "quote": "啊，75的这个空间呢。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        16,
+        17,
+        "75等不可解释词"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 18,
+    "time_range": "00:01:42,610 --> 00:01:43,160",
+    "quote": "那。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 19,
+    "time_range": "00:01:43,160 --> 00:01:47,720",
+    "quote": "类似的这种健康的病，癌症是一方面，肥胖是一方面，糖尿病是一方面，对吧？",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 20,
+    "time_range": "00:01:47,720 --> 00:01:48,990",
+    "quote": "这些东西都是慢性病。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 21,
+    "time_range": "00:01:48,990 --> 00:01:50,180",
+    "quote": "他长期要服用的。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 22,
+    "time_range": "00:01:50,180 --> 00:01:53,330",
+    "quote": "那这个领域里面可以创造大量的这个需求。而且。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 23,
+    "time_range": "00:01:53,330 --> 00:01:57,090",
+    "quote": "他这每个每个需求之间那还有足够的这个护城河。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 24,
+    "time_range": "00:01:57,090 --> 00:01:58,670",
+    "quote": "这是非常非常好的。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 25,
+    "time_range": "00:01:58,670 --> 00:02:00,220",
+    "quote": "啊，这个盈利的场景。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 26,
+    "time_range": "00:02:00,480 --> 00:02:04,780",
+    "quote": "而且生病呢人生老病死，谁也投不掉。所以呢所以。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 27,
+    "time_range": "00:02:04,780 --> 00:02:09,060",
+    "quote": "呃个，生产药物那绝对是啊这个一本万利的这个生意。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 28,
+    "time_range": "00:02:09,060 --> 00:02:16,070",
+    "quote": "所以从这个角度上来说啊，瞄准着这种小的立即市场的这种特质的这种药啊，创新药。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 29,
+    "time_range": "00:02:16,070 --> 00:02:19,810",
+    "quote": "这是一个非常非常引人遐想的空间，这是一部分。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C02"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 30,
+    "time_range": "00:02:19,810 --> 00:02:21,080",
+    "quote": "还有一部分呢。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 31,
+    "time_range": "00:02:21,080 --> 00:02:22,250",
+    "quote": "还有一部分就是。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 32,
+    "time_range": "00:02:22,250 --> 00:02:23,980",
+    "quote": "虽然治的是同样的病。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 33,
+    "time_range": "00:02:24,050 --> 00:02:27,290",
+    "quote": "只不过呢我现在现在这个药呢疗效特别的好。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 34,
+    "time_range": "00:02:27,290 --> 00:02:28,060",
+    "quote": "而且呢。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 35,
+    "time_range": "00:02:28,060 --> 00:02:30,110",
+    "quote": "这个稳定特别的高。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 36,
+    "time_range": "00:02:30,110 --> 00:02:32,000",
+    "quote": "啊，嗯就是具备了。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 37,
+    "time_range": "00:02:32,000 --> 00:02:37,940",
+    "quote": "大规模采购的这个基础，而现在呢又有这个集采啊，国国国药的这个集采。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 38,
+    "time_range": "00:02:37,940 --> 00:02:39,490",
+    "quote": "那有了这样的配合的话。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 39,
+    "time_range": "00:02:39,490 --> 00:02:41,120",
+    "quote": "如果我能够。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 40,
+    "time_range": "00:02:41,120 --> 00:02:46,510",
+    "quote": "通过改进我的技术啊，改进我的生产的技术，改进我这个药品的专利。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 41,
+    "time_range": "00:02:46,510 --> 00:02:48,890",
+    "quote": "生产出来可以进集采的。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 42,
+    "time_range": "00:02:48,890 --> 00:02:50,940",
+    "quote": "专门采购单列的药的话。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 43,
+    "time_range": "00:02:50,940 --> 00:02:52,000",
+    "quote": "那我也可以。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 44,
+    "time_range": "00:02:52,000 --> 00:02:55,440",
+    "quote": "在保证规模的同时，保证相对的风口的利润。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 45,
+    "time_range": "00:02:55,440 --> 00:03:00,090",
+    "quote": "那我这个制药的话，它也算是创新药啊，这是两种不同的这个思路啊。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 46,
+    "time_range": "00:03:00,090 --> 00:03:01,760",
+    "quote": "这两种不同的思路。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 47,
+    "time_range": "00:03:01,760 --> 00:03:06,190",
+    "quote": "那就带来了后边的很多很多的做法的不同啊，对这个行业的分析。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 48,
+    "time_range": "00:03:06,190 --> 00:03:08,060",
+    "quote": "就开始进入了差别。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 49,
+    "time_range": "00:03:08,130 --> 00:03:10,970",
+    "quote": "这是关于这个创新药的一个基础。那前提。",
+    "topic_block": [
+      1,
+      49,
+      "自定投资口径与两类盈利路径"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 50,
+    "time_range": "00:03:10,970 --> 00:03:12,890",
+    "quote": "那接下来第二个问题就是。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 51,
+    "time_range": "00:03:12,890 --> 00:03:15,130",
+    "quote": "那今天这个局面是怎么产生的呢？",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 52,
+    "time_range": "00:03:15,130 --> 00:03:19,130",
+    "quote": "那不得不归功于现在的这种靶点技术的推进了，是吧？",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 53,
+    "time_range": "00:03:19,130 --> 00:03:27,050",
+    "quote": "曾经的那个药呢是跟化学相关的啊，这是上个世纪啊19世纪的时候啊药制药跟化学是相关的。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 54,
+    "time_range": "00:03:27,050 --> 00:03:28,710",
+    "quote": "现在制药的巨头。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 55,
+    "time_range": "00:03:28,710 --> 00:03:31,760",
+    "quote": "那有一个说一个啊当年的话像拜尔啥的。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 56,
+    "time_range": "00:03:31,760 --> 00:03:33,960",
+    "quote": "当年都是化工出身的对吧？",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 57,
+    "time_range": "00:03:33,960 --> 00:03:36,360",
+    "quote": "那有一个他踩中了这个风口了哎。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 58,
+    "time_range": "00:03:36,360 --> 00:03:39,040",
+    "quote": "通过合成法合成出来这种东西从来没见过的。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 59,
+    "time_range": "00:03:39,040 --> 00:03:43,040",
+    "quote": "那一下子有了疗效了，然后一试哎，有了疗效了，马上的话应用。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 60,
+    "time_range": "00:03:43,040 --> 00:03:45,110",
+    "quote": "这一下子就可以赚到盆满钵满了。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 61,
+    "time_range": "00:03:45,110 --> 00:03:48,980",
+    "quote": "然后它这个合成的这些东西呢话，它可以非常非常简单的申请专利。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 62,
+    "time_range": "00:03:48,980 --> 00:03:50,360",
+    "quote": "而且呢他可以通过。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 63,
+    "time_range": "00:03:50,360 --> 00:03:52,390",
+    "quote": "啊，这种公益的这个保密。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 64,
+    "time_range": "00:03:52,390 --> 00:03:58,500",
+    "quote": "把他的这个啊这个独占权延迟很长时间啊，这样的话他可以攫取超额的利润。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 65,
+    "time_range": "00:03:58,500 --> 00:04:00,340",
+    "quote": "啊，这是当年的这个玩法。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 66,
+    "time_range": "00:04:00,340 --> 00:04:04,170",
+    "quote": "但是进入了21世纪，现在是生物的世纪了，是吧？",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 67,
+    "time_range": "00:04:04,170 --> 00:04:06,670",
+    "quote": "骗人去学石化还财，都会这么说，是吧？",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        53,
+        67,
+        "年代与工艺术语"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 68,
+    "time_range": "00:04:06,670 --> 00:04:08,710",
+    "quote": "这21世纪是生物的世纪了。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 69,
+    "time_range": "00:04:08,710 --> 00:04:10,150",
+    "quote": "有一部分的道理嘛。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 70,
+    "time_range": "00:04:10,310 --> 00:04:17,210",
+    "quote": "而且呢现在的制药跟我刚才说的是拜尔的那个年代不一样了啊，现在的这个制药的话。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 71,
+    "time_range": "00:04:17,210 --> 00:04:21,860",
+    "quote": "跟大数据的结合是非常紧密的，跟生物工程的这个。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 72,
+    "time_range": "00:04:21,860 --> 00:04:22,850",
+    "quote": "这个技术。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 73,
+    "time_range": "00:04:22,850 --> 00:04:24,270",
+    "quote": "结合是非常紧密的。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 74,
+    "time_range": "00:04:24,270 --> 00:04:29,390",
+    "quote": "大数据解决了啥呢？解决是我们要造什么药，生物工程解决是。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 75,
+    "time_range": "00:04:29,390 --> 00:04:34,360",
+    "quote": "怎么样用低廉的成本把你想要的要把它造出来，这是两个缺一不可的。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 76,
+    "time_range": "00:04:34,360 --> 00:04:38,250",
+    "quote": "啊，这里边又涉涉及到了很多很多的这种试验呢。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 77,
+    "time_range": "00:04:38,250 --> 00:04:39,800",
+    "quote": "试验品的制备啊。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 78,
+    "time_range": "00:04:39,800 --> 00:04:43,080",
+    "quote": "啊，验证啊动物实验啊这些支动物实验的支配啊。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 79,
+    "time_range": "00:04:43,200 --> 00:04:44,550",
+    "quote": "这些东西。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 80,
+    "time_range": "00:04:44,870 --> 00:04:50,650",
+    "quote": "在欧美，他们那套是吧，这个基本的生产水平越来越低的这个环境里面。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 81,
+    "time_range": "00:04:50,650 --> 00:04:52,240",
+    "quote": "成本是越来越高了。",
+    "topic_block": [
+      50,
+      81,
+      "制药技术变化的作者叙述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 82,
+    "time_range": "00:04:52,240 --> 00:04:53,380",
+    "quote": "但反过来呢。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 83,
+    "time_range": "00:04:53,380 --> 00:04:54,520",
+    "quote": "在咱们这边。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 84,
+    "time_range": "00:04:54,520 --> 00:04:56,730",
+    "quote": "就成熟的产业链配套，而且。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 85,
+    "time_range": "00:04:56,730 --> 00:05:01,100",
+    "quote": "肉眼可见的，未来这个需求它是多多方面的复合性的需求。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 86,
+    "time_range": "00:05:01,100 --> 00:05:02,990",
+    "quote": "那复合型的需求一多的话。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 87,
+    "time_range": "00:05:03,400 --> 00:05:04,640",
+    "quote": "就那个例子嘛。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 88,
+    "time_range": "00:05:04,640 --> 00:05:05,170",
+    "quote": "是吧。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 89,
+    "time_range": "00:05:05,170 --> 00:05:10,690",
+    "quote": "你为什么能够在街头吃到5块钱的烤鸭？不是因为那个鸭子只值5块钱，而是因为啥呢？",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 90,
+    "time_range": "00:05:10,690 --> 00:05:15,850",
+    "quote": "因为他体内的很多很多的部件啊，经济的这个成本已经全部收回来了。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 91,
+    "time_range": "00:05:16,050 --> 00:05:18,230",
+    "quote": "挂在那个烤炉那烤鸭。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 92,
+    "time_range": "00:05:18,230 --> 00:05:21,030",
+    "quote": "是这里面实在没办法其他的方方式利用了。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 93,
+    "time_range": "00:05:21,030 --> 00:05:22,610",
+    "quote": "最后拿出来卖的。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 94,
+    "time_range": "00:05:22,610 --> 00:05:23,460",
+    "quote": "属于是。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 95,
+    "time_range": "00:05:23,460 --> 00:05:27,500",
+    "quote": "他的成本已经养育他的成本，早早已经被他的羽毛。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 96,
+    "time_range": "00:05:27,500 --> 00:05:28,610",
+    "quote": "被他的内脏。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 97,
+    "time_range": "00:05:28,610 --> 00:05:33,210",
+    "quote": "被他的很多很多的那些小的器官全部都已经啊就已经覆盖掉了。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 98,
+    "time_range": "00:05:33,270 --> 00:05:35,470",
+    "quote": "啊，剩下那块肉，实际上呢。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 99,
+    "time_range": "00:05:35,470 --> 00:05:38,880",
+    "quote": "你卖5块钱他也得有的有的赚的，是通过这种方式。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 100,
+    "time_range": "00:05:38,880 --> 00:05:40,270",
+    "quote": "把这个成本降下来的。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 101,
+    "time_range": "00:05:40,360 --> 00:05:43,290",
+    "quote": "到了呃到了这个创新药这块也是一样的。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 102,
+    "time_range": "00:05:43,290 --> 00:05:43,820",
+    "quote": "Yeah.",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 103,
+    "time_range": "00:05:43,820 --> 00:05:47,270",
+    "quote": "整个的生产药的这个这个流程里边。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 104,
+    "time_range": "00:05:47,270 --> 00:05:49,250",
+    "quote": "从一开始预测是吧，这个。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 105,
+    "time_range": "00:05:49,250 --> 00:05:51,370",
+    "quote": "这个药应该怎么往哪个方向去做？",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 106,
+    "time_range": "00:05:51,370 --> 00:05:52,510",
+    "quote": "然后到验证。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 107,
+    "time_range": "00:05:52,510 --> 00:05:54,800",
+    "quote": "然后到验证完了以后，大规模的生产。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 108,
+    "time_range": "00:05:54,830 --> 00:05:57,550",
+    "quote": "在咱们这块成本是非常非常低的。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 109,
+    "time_range": "00:05:57,550 --> 00:05:58,320",
+    "quote": "所以呢。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 110,
+    "time_range": "00:05:58,320 --> 00:06:03,130",
+    "quote": "在新的21世纪是吧？这个创新要有了非常非常好的发展的土壤。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 111,
+    "time_range": "00:06:03,200 --> 00:06:06,970",
+    "quote": "这是前提条件，这是咱们讨论这一切的基础啊。",
+    "topic_block": [
+      82,
+      111,
+      "产业链和成本类比"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 112,
+    "time_range": "00:06:06,970 --> 00:06:10,020",
+    "quote": "那创新药这个事儿的话，到底怎么就突然之间就。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 113,
+    "time_range": "00:06:10,020 --> 00:06:11,530",
+    "quote": "变成了显学呢。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 114,
+    "time_range": "00:06:11,530 --> 00:06:16,280",
+    "quote": "因为21世纪新的这个制药的方式发生了根本的改变。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 115,
+    "time_range": "00:06:16,350 --> 00:06:21,440",
+    "quote": "前面说的啊，以前的时候是通过化学合成的方式，你只要把这个流程工艺把它保密。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 116,
+    "time_range": "00:06:21,590 --> 00:06:26,040",
+    "quote": "你就可以啊这个就是保证自己的利润了，现在不一样了。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 117,
+    "time_range": "00:06:26,040 --> 00:06:32,660",
+    "quote": "现在我记得是之前的时候是吧，跟大家聊过啊大大概几年前最早聊AI的时候，是不是跟大家提过我说。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 118,
+    "time_range": "00:06:32,660 --> 00:06:36,020",
+    "quote": "最开始使用AI的是谁啊？是个化学家。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 119,
+    "time_range": "00:06:36,020 --> 00:06:36,410",
+    "quote": "是。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 120,
+    "time_range": "00:06:36,410 --> 00:06:39,300",
+    "quote": "他那个拿AI干嘛呢？他拿AI预测。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 121,
+    "time_range": "00:06:39,300 --> 00:06:43,870",
+    "quote": "那些可能的还没有被发现的化合物啊吧，通过通过这个方式。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 122,
+    "time_range": "00:06:43,870 --> 00:06:45,560",
+    "quote": "啊，基本上是属于是。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 123,
+    "time_range": "00:06:45,560 --> 00:06:51,860",
+    "quote": "别人的话都是一个一个的去发现啊，一个一个的去老老实实做实验，他呢乱枪打鸟是吧，也一网打尽。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 124,
+    "time_range": "00:06:51,860 --> 00:06:55,660",
+    "quote": "把化学家未来几十年的工作，一口气，通过AI就全部跑完了。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C07"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 125,
+    "time_range": "00:06:55,660 --> 00:06:57,060",
+    "quote": "是吧降维打击。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 126,
+    "time_range": "00:06:57,060 --> 00:06:59,380",
+    "quote": "啊，是专门的那个AI的模型。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 127,
+    "time_range": "00:06:59,380 --> 00:07:00,240",
+    "quote": "这叫啥呢？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 128,
+    "time_range": "00:07:00,240 --> 00:07:03,860",
+    "quote": "这叫预测有可能有用的这些化合物。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 129,
+    "time_range": "00:07:03,860 --> 00:07:07,740",
+    "quote": "这是制药的第一步是吧？我们先把有可能的有潜力的这化合物。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 130,
+    "time_range": "00:07:07,740 --> 00:07:08,980",
+    "quote": "把它筛出来。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 131,
+    "time_range": "00:07:08,980 --> 00:07:15,860",
+    "quote": "筛出来以后呢，就进入到实验阶段啊，进行一个轮番的实验。实验这些化合物到底能够产生什么样的作用？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 132,
+    "time_range": "00:07:15,860 --> 00:07:19,010",
+    "quote": "啊，到底药效是不是跟我们的想想法是一样的？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 133,
+    "time_range": "00:07:19,010 --> 00:07:20,530",
+    "quote": "如果不一样的话，怎么办呢？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 134,
+    "time_range": "00:07:20,530 --> 00:07:22,200",
+    "quote": "就进行一个修改啊。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 135,
+    "time_range": "00:07:22,200 --> 00:07:29,370",
+    "quote": "在这里边改吧改吧是吧，这个功能团给它替换掉，那个功能团给它替换掉，看能不能产生一些新的这个效果。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 136,
+    "time_range": "00:07:29,370 --> 00:07:32,740",
+    "quote": "这就是现在新一代的制药，就是这么治的。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 137,
+    "time_range": "00:07:32,740 --> 00:07:34,140",
+    "quote": "啊，一开始的这个方式。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 138,
+    "time_range": "00:07:34,140 --> 00:07:39,370",
+    "quote": "治完了以后呢，等着选出来了稳定的这个方向了。哎，这个这个东西确实是可以治病的。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 139,
+    "time_range": "00:07:39,370 --> 00:07:41,670",
+    "quote": "然后就要涉及到生物工程。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 140,
+    "time_range": "00:07:41,670 --> 00:07:42,990",
+    "quote": "啊，通过什么样的方式？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 141,
+    "time_range": "00:07:42,990 --> 00:07:48,690",
+    "quote": "在哎这个细菌的体内进行大大规模的培养，然非常非常低廉的成本把这个药生产出来。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 142,
+    "time_range": "00:07:48,690 --> 00:07:50,270",
+    "quote": "把这个化合物生产出来。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 143,
+    "time_range": "00:07:50,270 --> 00:07:50,640",
+    "quote": "Yeah。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 144,
+    "time_range": "00:07:50,640 --> 00:07:52,670",
+    "quote": "否则的话，这么复杂的大分子。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 145,
+    "time_range": "00:07:52,670 --> 00:07:56,640",
+    "quote": "你没有其他的方式可以把它生产出来，你通过啥方方式来生产呢？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 146,
+    "time_range": "00:07:56,640 --> 00:07:57,370",
+    "quote": "你通过。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 147,
+    "time_range": "00:07:57,370 --> 00:08:00,070",
+    "quote": "那么简单的化学合成能生产？生产不出来了。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 148,
+    "time_range": "00:08:00,070 --> 00:08:00,640",
+    "quote": "对吧。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 149,
+    "time_range": "00:08:01,040 --> 00:08:02,360",
+    "quote": "那是对于那种。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 150,
+    "time_range": "00:08:02,360 --> 00:08:05,910",
+    "quote": "啊，无机的药是吧，可以这么做。但是现在呢你看到。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 151,
+    "time_range": "00:08:06,020 --> 00:08:09,210",
+    "quote": "啊，稍微有点名气的好的新的药全部是。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 152,
+    "time_range": "00:08:09,210 --> 00:08:15,840",
+    "quote": "啊，月字旁那个结尾的什么什么肽什么什么肽那什么什么肽什么什么肽，那都是生物制药出来的产物，对吧？",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 153,
+    "time_range": "00:08:15,840 --> 00:08:17,490",
+    "quote": "这些东西的话都是生物制品。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C09"
+    ],
+    "audio_flags": [
+      [
+        144,
+        153,
+        "化学及生物制品概括待核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 154,
+    "time_range": "00:08:17,490 --> 00:08:20,720",
+    "quote": "那这个东西啊这是现在这个现代的这个。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 155,
+    "time_range": "00:08:20,720 --> 00:08:22,420",
+    "quote": "呃，制药是吧。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 156,
+    "time_range": "00:08:22,420 --> 00:08:24,100",
+    "quote": "整个的流程是这么回事。",
+    "topic_block": [
+      112,
+      156,
+      "筛选、验证和生产流程"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 157,
+    "time_range": "00:08:24,100 --> 00:08:28,200",
+    "quote": "你明白这个流程了以后，回过来在这里边的诀窍在哪里呢？",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 158,
+    "time_range": "00:08:28,240 --> 00:08:30,740",
+    "quote": "如果说我能够有一个方法。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 159,
+    "time_range": "00:08:30,830 --> 00:08:35,180",
+    "quote": "把前面的那个啊这个海选这个步骤把它跳过去。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 160,
+    "time_range": "00:08:35,360 --> 00:08:39,460",
+    "quote": "把那些已经选好的非常非常有潜力的这些。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 161,
+    "time_range": "00:08:39,460 --> 00:08:40,410",
+    "quote": "种子选手。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 162,
+    "time_range": "00:08:40,410 --> 00:08:41,370",
+    "quote": "给他。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 163,
+    "time_range": "00:08:41,370 --> 00:08:43,490",
+    "quote": "你们这边不是公布了你们的专利吗？",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 164,
+    "time_range": "00:08:43,490 --> 00:08:44,780",
+    "quote": "我如果有办法。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 165,
+    "time_range": "00:08:44,780 --> 00:08:46,210",
+    "quote": "把他这个种子选手。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 166,
+    "time_range": "00:08:46,210 --> 00:08:47,400",
+    "quote": "改头换面。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 167,
+    "time_range": "00:08:47,410 --> 00:08:48,970",
+    "quote": "在你的这个基础上。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 168,
+    "time_range": "00:08:48,970 --> 00:08:51,860",
+    "quote": "95%都用你原来的这个编机。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 169,
+    "time_range": "00:08:51,860 --> 00:08:56,440",
+    "quote": "然后我把他的一些无关紧要的修饰功能团给他替换掉。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 170,
+    "time_range": "00:08:56,440 --> 00:08:56,990",
+    "quote": "Right.",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 171,
+    "time_range": "00:08:56,990 --> 00:08:59,980",
+    "quote": "啊，加一个枪击，加一个。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 172,
+    "time_range": "00:08:59,980 --> 00:09:19,980",
+    "quote": "这个羧机是吧，类似的这种方式，反正我就最后的时候给你做一点点非常非常细小的无关痛痒的改变，它确实是可能会改变疗效，但是它不会改变治病的这个就是治就是治疗的这个这个这个能力。它只会这个能力有高有低，或者呢疗程有长有短，甚至呢有可能我这个改变的效果会更好。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 173,
+    "time_range": "00:09:19,980 --> 00:09:39,980",
+    "quote": "对吧这样的话，我是不是就绕过了前面大量的基础工作，直接就摘果子了。这样的话，我前面这个投入是不是成本就变得很低了。曾经的制药呢其实是广鼓励规模的，刚才说了嘛，是吧？你这个研发的流程这么的长，前面就投入这么的多，那谁的规模越大，谁能支撑起来，并行的。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 174,
+    "time_range": "00:09:39,980 --> 00:09:59,980",
+    "quote": "这种研发链越多，它是不是就有越有可能生产出来真正垄断市场那种神药。那一个药它可能回报的话就可以支撑你这个烧钱的机器继续的运转。所以在过去的那套规则游戏之下的话，诞生的全部是制药巨头啊，那些制药巨头基本上一个个的巨无霸，其他的小的制药工。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 175,
+    "time_range": "00:09:59,980 --> 00:10:19,980",
+    "quote": "只能够出仿制药，只能够做模仿。你没资格在这种啊这种原钞药上面跟他们去竞争的是吧？曾经是不是有这样的说法是吧，这中国是做不出原钞药来的啊，你只能做仿制药，为啥呢？因为规模是这样的，这个游戏本来这个底层的逻辑是这么写的是吧。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 176,
+    "time_range": "00:10:19,980 --> 00:10:39,980",
+    "quote": "现在呢刚才说了是吧，新的技术应用了新的这个这个这个玩法改变了那给那些制造公司小的制造公司一个可乘之机啊，那这个可乘机是一个双刃剑，对吧？你用了别人已经研发好的一个机底，95%的这个大的这个机体，你只是个用的取巧的方式绕过了那个。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 177,
+    "time_range": "00:10:39,980 --> 00:10:59,980",
+    "quote": "管理把它这里边一些工能团队它修改了，然后达到类似的这个效果啊。总的来说的话，你在自己的一亩三分地里边勉强的能够说自己的这个是没毛病的。就好像印度啊不承认什么仿制药物，反正我只要不出国门啊，就我就可以随便瞎搞，国际社会的话，也捏也别子认了，他代价。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 178,
+    "time_range": "00:10:59,980 --> 00:11:19,980",
+    "quote": "啥呢？代价就是你自己的药出不了你自己的国门的啊，咱们也是一样的啊，中国的很多很多的药，你自己国内里面可以用，其实呢全部都是海外那些成熟药的仿制药。只不过呢你通过一些去巧的手段绕过了这些啊这些这些这些版权的这种追索吧嗯。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 179,
+    "time_range": "00:11:19,980 --> 00:11:39,980",
+    "quote": "这个知识产权的这个这个罚款吧。但是你想要把这个东西拿到国外去卖，到其其他的市场去卖，那不好意思，你做不到哈，别人不允不允许你进去。通过直接的这个行政的手段上面，你封锁封锁在外面了。那这个场景的话要改变了。你整个国家的形象要变了，所以呢这就给了仿织要第二个升级。",
+    "topic_block": [
+      157,
+      179,
+      "小改动与专利出海障碍"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C10"
+    ],
+    "audio_flags": [
+      [
+        168,
+        179,
+        "官能团/95%/专利法律归属需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 180,
+    "time_range": "00:11:39,980 --> 00:11:59,980",
+    "quote": "的一个很关键的机会，就从过去的单纯的模仿变成了现在呢要进行创新了。那前面说了嘛，那前面的是这几个环节是吧，在这个筛选的环节里面，有有了现在更先进的AI那更好用的这个AI成本更低了，然后在后面的这些验证环节是吧？这个动物实验的环节。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 181,
+    "time_range": "00:11:59,980 --> 00:12:19,980",
+    "quote": "临床实验的环节，包括验证好定型了以后啊，批量生产这个环节，其实我们这边都是有显著的成本优势的，物料优势、成本优势都在我们这边。因为整个的产业链都在我们这块啊，无论是培养那些啊那些有缺陷的那些小老鼠，小白鼠是吧？在那一个一个的那个小白鼠。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 182,
+    "time_range": "00:12:19,980 --> 00:12:39,980",
+    "quote": "成本很高的啊，几万块钱打几10万块钱都有的对吧？那一一用一批，那几百万就没了，一用一批几百万就没了，这个烧钱在国外呢是烧不起的，而且国派那边呢，还有各种的那个动宝啊什么的那些怪乱七八糟的来阻挠这些事情，就导致呢他们的研发进度经常会受到影响的那咱们这块呢不存在这个风险。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 183,
+    "time_range": "00:12:39,980 --> 00:12:59,980",
+    "quote": "因为直接一开始的时候给你说的很清楚了，法律给你制定的很清楚了，对吧？哪些是用的哪些用途的，哪些是可以的，法律允许的都是OK的。这样的话就带来了一个效率的提升，这样的效率的提升，成本的下降，就导致呢只要有一个比较明确的方向。那后续的这个落成落地的这个过程，在国内落地肯定是效。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 184,
+    "time_range": "00:12:59,980 --> 00:13:19,980",
+    "quote": "我最好的成本最低的反应最快的这个事儿其实从疫情的研发疫苗就看得非常的清楚。咱们先不说这个疫苗的效果如何哈。咱们就说疫情研发疫苗的时候，当时是中国是唯一一个是吧？不同的路线，不同的技术路线一起演进的。你看无论是美国那边穆德娜还是。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 185,
+    "time_range": "00:13:19,980 --> 00:13:39,980",
+    "quote": "还是什么是吧？他们一开始的时候就是RNA疫苗嘛，就搞了RNA，后面的话就没有了，就基本上就不再去去继续投入了，不再就从其他的方向去去去去去去搞了。一方面呢确确实实是吧，受到了很多很多的这个怀疑论疫苗怀疑论的这个影响。另一方面呢也确实证明了。在那些。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 186,
+    "time_range": "00:13:39,980 --> 00:13:59,980",
+    "quote": "他的领域里边去研发，它不占任何的优势吧啊，这个在创新药这个方面上面展现的是通过那个一个镜子，你就看得出来，你优势是非常明显的。所以呢现在国内的创新药就已经从过去单纯的模仿抄袭，在别人的基础上做小修小改。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C11"
+    ],
+    "audio_flags": [
+      [
+        181,
+        186,
+        "实验价格、名称、疫苗及法规陈述待证"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 187,
+    "time_range": "00:13:59,980 --> 00:14:19,980",
+    "quote": "照过这种专利，变成了有一定的有一定的原创性了。而且这个原创的比例也是越来越高了。那同样呢因为你之前的时候有那么一个阶段是通过模仿抄袭修改，所以呢国内的很多很多的药被国外呢是带上有色眼镜在看的。所以。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 188,
+    "time_range": "00:14:19,980 --> 00:14:39,980",
+    "quote": "很多的药呢，你想出海其实是很困难的。这个呢就是很多的市场的机会蕴藏所在了，为啥呢？人要这个东西是很简单的是吧？你说它要复杂也复杂，说简单也简单，因为啥呢？它是很容易得到验证到底有效没效的，而且呢这个东西验证的有效没效。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 189,
+    "time_range": "00:14:39,980 --> 00:14:59,980",
+    "quote": "以后如果真的有效，真的能解决问题。那无论这个药在海外得不得到那些官方的审批，它都有能力去把它弄出去，都有能力把它的药卖出去，对吧？这就是创新药这一轮创新药的热潮，背后，为什么会突然之间一下子有了热点。为什么一下子引身他。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 190,
+    "time_range": "00:14:59,980 --> 00:15:19,980",
+    "quote": "是为什么这个炒作的方向经久不衰，背后的原因在这里。经过我前面的这种基础知识的介绍，大家应该也能够看得明白了。创新药里面的水深在哪个方向。第一，这些企业到底做的这些药是不是原研的药，这个原研到底要不要打引号，这个事儿你不是一线的。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 191,
+    "time_range": "00:15:19,980 --> 00:15:39,980",
+    "quote": "工作人员你很难说的清楚。第二，你生产这个药到底有没有海外市场的潜力？一方面你有没有海外销售的渠道，有没有靠谱的海外的合作伙伴，你跟海外那些合作伙伴互相之间的合作关系到底融不融洽？你出的这个药到底会不会在海外上市上出现很多的矛。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 192,
+    "time_range": "00:15:39,980 --> 00:15:59,980",
+    "quote": "并出现很多的挑战，药的药效是一方面，另一方面那个法律的挑战，另一方面销售的挑战，历史的纠纷，这些东西都会影响到你海外这个药在海外上市的这个步伐。而大家都知道药这个东西你想要收回成本，用的人越多，你肯定是潜在的收益越高的对吧？",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 193,
+    "time_range": "00:15:59,980 --> 00:16:19,980",
+    "quote": "如果你不能够保证中国就14亿人，海外有多少亿人，海外有啊七十几亿人，那么这两个哪个市场大，哪个市场小，那不是一万可知吗？就算只有消费能力的人，你买的药肯定创新药肯定贵嘛。那中国的潜在的消费能力，那也绝对比不上欧美他那边的潜在的消费能力，所以。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 194,
+    "time_range": "00:16:20,070 --> 00:16:40,070",
+    "quote": "这个药未来的话有没有前途，特别是你自己的原因药在海外去卖有没有前途。这实际上是一个赢的一个大门槛。很多市场上那些优质的标的，标榜自己是优质标的，其实都在炒作的是这些这方面引人遐想的都在这方面，但是坑也恰恰都在这方面。因为这些事情你不做。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 195,
+    "time_range": "00:16:40,070 --> 00:17:00,070",
+    "quote": "是不知道答案的。所以这里边的水深深在这些方面啊，所以不是行业的资深的人士，对这个里边的情况有着深刻的了解，或者我做的这个方向恰好就是啊就是非常非常确定的啊你非常了解这里边的前因后果，不建议普通人去碰。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 196,
+    "time_range": "00:17:00,070 --> 00:17:04,310",
+    "quote": "因为你没有那个调研的能力，也没有那么庞大的行业资源。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 197,
+    "time_range": "00:17:04,310 --> 00:17:07,250",
+    "quote": "去真正的摸清楚谁是李逵，谁是李鬼。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 198,
+    "time_range": "00:17:07,250 --> 00:17:08,270",
+    "quote": "啊，这是他的。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 199,
+    "time_range": "00:17:08,270 --> 00:17:09,860",
+    "quote": "潜在的门槛在这儿。",
+    "topic_block": [
+      180,
+      199,
+      "成本优势及尽调门槛"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 200,
+    "time_range": "00:17:09,860 --> 00:17:10,870",
+    "quote": "啊，第3个。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 201,
+    "time_range": "00:17:10,870 --> 00:17:12,620",
+    "quote": "就创新药的前途。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 202,
+    "time_range": "00:17:12,620 --> 00:17:14,080",
+    "quote": "前面已经介绍了吗？",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 203,
+    "time_range": "00:17:14,080 --> 00:17:18,680",
+    "quote": "现在的这样的一个环境来说的话，实际上呢创新药是非常在中国这边的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 204,
+    "time_range": "00:17:18,680 --> 00:17:20,520",
+    "quote": "前途是非常非常确定的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 205,
+    "time_range": "00:17:20,520 --> 00:17:24,850",
+    "quote": "未来的药的这个开发一定只落在中国这边。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 206,
+    "time_range": "00:17:24,850 --> 00:17:28,340",
+    "quote": "啊，不仅仅是成本的优势，成本的优势只是第一点。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 207,
+    "time_range": "00:17:28,350 --> 00:17:32,590",
+    "quote": "由于成本的优势带来的一系列的整合优势才是关键。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 208,
+    "time_range": "00:17:32,610 --> 00:17:36,760",
+    "quote": "啊，这个未来的这个滚雪球会越滚越明显，越滚越明显。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 209,
+    "time_range": "00:17:36,760 --> 00:17:41,370",
+    "quote": "越滚越明显的就越来越把这个集中的资源往你这边来集中。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 210,
+    "time_range": "00:17:41,370 --> 00:17:43,390",
+    "quote": "而且随着技术的推进。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 211,
+    "time_range": "00:17:43,390 --> 00:17:46,020",
+    "quote": "随着很多很多预测功能的推进。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 212,
+    "time_range": "00:17:46,020 --> 00:17:47,660",
+    "quote": "随着生物工程的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 213,
+    "time_range": "00:17:47,660 --> 00:17:48,950",
+    "quote": "越来越的发达。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 214,
+    "time_range": "00:17:48,950 --> 00:17:53,010",
+    "quote": "其实医药的能力其实是越来越强的，不是越来越弱的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 215,
+    "time_range": "00:17:53,020 --> 00:17:56,530",
+    "quote": "啊，药的研发的周期是越来越短的，不是越来越长的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 216,
+    "time_range": "00:17:56,530 --> 00:17:58,450",
+    "quote": "在这样的背景之下的话。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 217,
+    "time_range": "00:17:58,550 --> 00:18:03,150",
+    "quote": "中国的这个制药产产业未来的成长空间是非常非常之大的。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 218,
+    "time_range": "00:18:03,820 --> 00:18:04,910",
+    "quote": "现在呢。",
+    "topic_block": [
+      200,
+      218,
+      "产业集中趋势预测"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 219,
+    "time_range": "00:18:04,910 --> 00:18:07,450",
+    "quote": "这这个制架特别像杀手候呢？",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 220,
+    "time_range": "00:18:07,450 --> 00:18:11,160",
+    "quote": "特别像08年到13年这期间。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 221,
+    "time_range": "00:18:11,170 --> 00:18:13,430",
+    "quote": "中国的电动车行业。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 222,
+    "time_range": "00:18:13,430 --> 00:18:14,520",
+    "quote": "鱼龙混杂。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 223,
+    "time_range": "00:18:14,520 --> 00:18:17,540",
+    "quote": "那水变油的那加加水就能跑的。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 224,
+    "time_range": "00:18:17,540 --> 00:18:18,400",
+    "quote": "新能源。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 225,
+    "time_range": "00:18:18,400 --> 00:18:20,170",
+    "quote": "那种骗子项目也很多。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 226,
+    "time_range": "00:18:20,170 --> 00:18:21,730",
+    "quote": "但是你不妨碍。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 227,
+    "time_range": "00:18:21,730 --> 00:18:28,040",
+    "quote": "这样的行业里面卷了十几20年，最后终于中国的电动车行业卷成世界第一了，公认的世界第一。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 228,
+    "time_range": "00:18:28,090 --> 00:18:32,510",
+    "quote": "现在这个阶段就像08年以前或者是08年左右的时候。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 229,
+    "time_range": "00:18:32,510 --> 00:18:33,860",
+    "quote": "电动车行业一样。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 230,
+    "time_range": "00:18:33,860 --> 00:18:36,280",
+    "quote": "比亚迪08年的时候就有电动车。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 231,
+    "time_range": "00:18:36,280 --> 00:18:38,020",
+    "quote": "是啊，服务奥运了。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 232,
+    "time_range": "00:18:38,020 --> 00:18:41,560",
+    "quote": "但是那个时候你能够确定说比亚迪如何如何吗？",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 233,
+    "time_range": "00:18:41,560 --> 00:18:43,440",
+    "quote": "就好像那个时候一样的啊吧。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 234,
+    "time_range": "00:18:43,440 --> 00:18:47,730",
+    "quote": "如果你有那这个先见之明啊，有事儿早知道。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C15"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 235,
+    "time_range": "00:18:48,260 --> 00:18:49,960",
+    "quote": "十年以后回过头来看。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C15"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 236,
+    "time_range": "00:18:49,990 --> 00:18:53,750",
+    "quote": "那某些企业，某些制药企业，那绝对是大黑马。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C15"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 237,
+    "time_range": "00:18:53,750 --> 00:18:58,080",
+    "quote": "那你现在如果能够买得中的话，那后边千倍的回报不是不是梦想。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C15"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 238,
+    "time_range": "00:18:58,080 --> 00:18:58,440",
+    "quote": "Yeah.",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 239,
+    "time_range": "00:18:58,440 --> 00:19:01,280",
+    "quote": "未来的方向肯定在中国，那毫无疑问的。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 240,
+    "time_range": "00:19:01,280 --> 00:19:02,090",
+    "quote": "无论是。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 241,
+    "time_range": "00:19:02,090 --> 00:19:09,310",
+    "quote": "使用的场景还是真正能消费起来这些药，那是形成良性循环，还是生产的这个成本，还是研发的成本。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 242,
+    "time_range": "00:19:09,310 --> 00:19:11,040",
+    "quote": "还是整个的这些配套。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 243,
+    "time_range": "00:19:11,040 --> 00:19:12,470",
+    "quote": "中国这边的话都是。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 244,
+    "time_range": "00:19:12,470 --> 00:19:13,420",
+    "quote": "得天独厚的。",
+    "topic_block": [
+      219,
+      244,
+      "电动车类比及投资回报设想"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 245,
+    "time_range": "00:19:13,420 --> 00:19:14,030",
+    "quote": "而且。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 246,
+    "time_range": "00:19:14,030 --> 00:19:18,910",
+    "quote": "随着中国的影响力啊，美国这边影响力的萎缩嘛，中国的影响力提升。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 247,
+    "time_range": "00:19:18,910 --> 00:19:20,660",
+    "quote": "你中国产的这些东西。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 248,
+    "time_range": "00:19:20,660 --> 00:19:22,120",
+    "quote": "药品属于是。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 249,
+    "time_range": "00:19:22,120 --> 00:19:26,140",
+    "quote": "高这个知知识产权，高这个品牌附加值的东西。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 250,
+    "time_range": "00:19:26,140 --> 00:19:28,640",
+    "quote": "同样的就就就拿这个疫苗来说嘛。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 251,
+    "time_range": "00:19:28,700 --> 00:19:32,490",
+    "quote": "国产的疫苗跟就进口的疫苗，同样的疫苗是吧？",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 252,
+    "time_range": "00:19:32,490 --> 00:19:35,560",
+    "quote": "国产内猫卖200块钱，进口的鱼猫卖800块钱。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 253,
+    "time_range": "00:19:35,560 --> 00:19:38,690",
+    "quote": "你有能力的话，你想都不想你会买那个进口的，为啥呢？",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 254,
+    "time_range": "00:19:38,690 --> 00:19:40,970",
+    "quote": "那跟自己生命有关的对吧？",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 255,
+    "time_range": "00:19:41,570 --> 00:19:46,200",
+    "quote": "你也不知道这个对你作为一个普通消费者，你知道200到800的到底差在哪了？",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 256,
+    "time_range": "00:19:46,440 --> 00:19:47,960",
+    "quote": "没办法知道。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 257,
+    "time_range": "00:19:47,960 --> 00:19:48,610",
+    "quote": "但是。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 258,
+    "time_range": "00:19:48,610 --> 00:19:50,330",
+    "quote": "他就是有一个光环在这儿。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 259,
+    "time_range": "00:19:50,330 --> 00:19:52,640",
+    "quote": "啊，这是没有办法的，人性如此的。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C16"
+    ],
+    "audio_flags": [
+      [
+        250,
+        259,
+        "疫苗名称价格疑点"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 260,
+    "time_range": "00:19:52,640 --> 00:19:53,690",
+    "quote": "但是你要知道。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 261,
+    "time_range": "00:19:53,690 --> 00:19:57,860",
+    "quote": "未来这个区别这个光环慢慢的会套在中国产品上，为啥呢？",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 262,
+    "time_range": "00:19:57,860 --> 00:20:01,910",
+    "quote": "你中国的工业品都这么的泛滥了，工业品都已经这么的杰出了。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 263,
+    "time_range": "00:20:01,910 --> 00:20:06,290",
+    "quote": "啊，工业就是中国的这个科技技术慢慢的走向世界，变成世界的高地了。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 264,
+    "time_range": "00:20:06,290 --> 00:20:10,890",
+    "quote": "那你中国产的这些制药企业出的这些东西的品牌溢价，那还能少得了。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 265,
+    "time_range": "00:20:10,890 --> 00:20:13,660",
+    "quote": "这都是有过程的，就我之前的举个例子嘛。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 266,
+    "time_range": "00:20:13,660 --> 00:20:18,040",
+    "quote": "当初无论是德国也好，还是美国也好，还是日本也好。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 267,
+    "time_range": "00:20:18,040 --> 00:20:22,630",
+    "quote": "一开始都是纺制优先的，一开始都是粗粗制滥造的这个代名词。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 268,
+    "time_range": "00:20:22,760 --> 00:20:25,840",
+    "quote": "那经过他的工业革命，经过他成熟的产品。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 269,
+    "time_range": "00:20:25,840 --> 00:20:27,640",
+    "quote": "经过了反复的迭代以后。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 270,
+    "time_range": "00:20:27,640 --> 00:20:31,500",
+    "quote": "只要出来了一些让大家眼前一亮的品牌形象一建立。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 271,
+    "time_range": "00:20:31,500 --> 00:20:34,890",
+    "quote": "那变成了高精尖的代名词了，它就可以卖到议价了。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 272,
+    "time_range": "00:20:34,890 --> 00:20:37,160",
+    "quote": "中国产品也会走这个过程的。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 273,
+    "time_range": "00:20:37,230 --> 00:20:39,460",
+    "quote": "到时候中国产的这个药品。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 274,
+    "time_range": "00:20:39,460 --> 00:20:42,090",
+    "quote": "未来这个溢价的光环会落在这个身上的。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C17"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 275,
+    "time_range": "00:20:42,090 --> 00:20:44,150",
+    "quote": "那这个溢价光环落到身上了以后。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 276,
+    "time_range": "00:20:44,150 --> 00:20:47,840",
+    "quote": "那些已经成熟那些制药公司，呢绝对是非常非常强大的。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 277,
+    "time_range": "00:20:47,840 --> 00:20:49,000",
+    "quote": "现在的话。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 278,
+    "time_range": "00:20:49,000 --> 00:20:51,350",
+    "quote": "磨沙东是吧，那些那些企业。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C18"
+    ],
+    "audio_flags": [
+      [
+        278,
+        282,
+        "公司及针剂名称"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 279,
+    "time_range": "00:20:51,350 --> 00:20:53,120",
+    "quote": "啊，稍微拿出来一个。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C18"
+    ],
+    "audio_flags": [
+      [
+        278,
+        282,
+        "公司及针剂名称"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 280,
+    "time_range": "00:20:53,120 --> 00:20:56,250",
+    "quote": "所谓的治疗癌症的那个针剂RNAA的这个。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C18"
+    ],
+    "audio_flags": [
+      [
+        278,
+        282,
+        "公司及针剂名称"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 281,
+    "time_range": "00:20:56,250 --> 00:20:56,960",
+    "quote": "这个真绩。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C18"
+    ],
+    "audio_flags": [
+      [
+        278,
+        282,
+        "公司及针剂名称"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 282,
+    "time_range": "00:20:56,960 --> 00:21:01,390",
+    "quote": "就一下子股股价可以涨那么多，那是他那边成熟的结果。",
+    "topic_block": [
+      245,
+      282,
+      "品牌溢价及产品例子"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C18"
+    ],
+    "audio_flags": [
+      [
+        278,
+        282,
+        "公司及针剂名称"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 283,
+    "time_range": "00:21:01,590 --> 00:21:04,380",
+    "quote": "那介绍完这个呢，回过头来再说啊。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 284,
+    "time_range": "00:21:04,380 --> 00:21:08,290",
+    "quote": "前面介绍了这个辉煌的前景啊，未来想想的空间。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 285,
+    "time_range": "00:21:08,330 --> 00:21:12,200",
+    "quote": "那那个国彩对于这些原因药对于这些创新药。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 286,
+    "time_range": "00:21:12,200 --> 00:21:14,160",
+    "quote": "有什么样的直接的影响呢？",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 287,
+    "time_range": "00:21:14,160 --> 00:21:15,470",
+    "quote": "那太明显了嘛。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 288,
+    "time_range": "00:21:15,470 --> 00:21:16,740",
+    "quote": "刚才不是说了吗？",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 289,
+    "time_range": "00:21:16,740 --> 00:21:20,470",
+    "quote": "有很多很多的药，它是挂着羊头卖着狗肉的。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 290,
+    "time_range": "00:21:20,630 --> 00:21:22,980",
+    "quote": "那这些药的话，它唯一的。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 291,
+    "time_range": "00:21:22,980 --> 00:21:25,690",
+    "quote": "生生命线就是能够进国彩的名单。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 292,
+    "time_range": "00:21:26,010 --> 00:21:28,820",
+    "quote": "他本来这个药没办法在海外卖。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 293,
+    "time_range": "00:21:28,820 --> 00:21:32,730",
+    "quote": "因为啥呢？因为他拿到海外去的话，就是李逵碰碰上李逵了。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 294,
+    "time_range": "00:21:32,770 --> 00:21:33,590",
+    "quote": "对吧。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 295,
+    "time_range": "00:21:33,590 --> 00:21:35,930",
+    "quote": "别人自有正主，那他怎么办呢？",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 296,
+    "time_range": "00:21:35,930 --> 00:21:39,910",
+    "quote": "他只能够进国产的名单，进了国产的名单，他少赚一点儿。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 297,
+    "time_range": "00:21:39,910 --> 00:21:43,410",
+    "quote": "但是它能够保证一个庞大的采购量。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 298,
+    "time_range": "00:21:43,410 --> 00:21:45,820",
+    "quote": "他能够把他这个游戏继续玩下去。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C19"
+    ],
+    "audio_flags": [
+      [
+        285,
+        298,
+        "“国彩/国产”疑似采购术语，原文保留"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 299,
+    "time_range": "00:21:45,820 --> 00:21:46,510",
+    "quote": "所以。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 300,
+    "time_range": "00:21:46,510 --> 00:21:49,410",
+    "quote": "这个市场就会走出目前资本市场是吧？",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 301,
+    "time_range": "00:21:49,410 --> 00:21:50,410",
+    "quote": "在对。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 302,
+    "time_range": "00:21:50,410 --> 00:21:54,780",
+    "quote": "这个创新药这块的话，就走出两个截然不同的判断方向。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 303,
+    "time_range": "00:21:54,890 --> 00:21:59,810",
+    "quote": "一条呢就是认为你在有你这个药品确认是是百分之百全原创的。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C20",
+      "EP004/C23"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 304,
+    "time_range": "00:21:59,810 --> 00:22:19,810",
+    "quote": "出海有望，那绝对是明星企业。那未来都在你们的身上了。另外一条呢另外一条是你们确确实实眼下能挣钱。那既然能挣钱，而且呢因为你研发成本很低，那基本上没有什么研发的包袱，你挣了钱就可以分给股东。那你的这个收益率就会很高，那自然而然的资本市场也收钱。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C20",
+      "EP004/C23"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 305,
+    "time_range": "00:22:19,810 --> 00:22:39,810",
+    "quote": "来就这两条踩中这两条啊，这个市场上面，你通过这两个方向去筛筛出来的优质标的。那在一段时间之内，那绝对是非常有前途的有回报的。但是如果从这个长权的眼光来看的话，长期持有的角度来看的话，那肯定是前者是更有价值的。后者。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C23"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 306,
+    "time_range": "00:22:39,810 --> 00:22:59,810",
+    "quote": "的随着这个规则的变变化。因为这个钱你通过像这种方式集采的方式，那集采每年每年都要谈的，每年每年都要改的通过这个方式的话，你的编辑收益是越来越少的，你的竞争对手是越来越多的那未来的话，这个路肯定是越来越不好走的。这个赛道上挤的人是越来越多的，竞争会越来越激烈的对吧？所以这样的话就。",
+    "topic_block": [
+      283,
+      306,
+      "集采与出海路径差异"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP004/C21",
+      "EP004/C23"
+    ],
+    "audio_flags": [
+      [
+        306,
+        306,
+        "“编辑收益”疑似边际收益，不直接修正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 307,
+    "time_range": "00:22:59,810 --> 00:23:00,600",
+    "quote": "可以帮助你。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 308,
+    "time_range": "00:23:00,600 --> 00:23:01,970",
+    "quote": "把这个市场上面。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 309,
+    "time_range": "00:23:01,970 --> 00:23:03,350",
+    "quote": "啊，创新药里边。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 310,
+    "time_range": "00:23:03,350 --> 00:23:05,210",
+    "quote": "到底应该怎么去分析它？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 311,
+    "time_range": "00:23:05,210 --> 00:23:06,040",
+    "quote": "怎么去看他？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 312,
+    "time_range": "00:23:06,040 --> 00:23:07,150",
+    "quote": "看哪些点。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 313,
+    "time_range": "00:23:07,150 --> 00:23:08,360",
+    "quote": "跟你说清楚啊。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 314,
+    "time_range": "00:23:08,360 --> 00:23:12,310",
+    "quote": "有了这个东西，你回过头来看，这里边实际上蕴藏的市场机会。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 315,
+    "time_range": "00:23:12,310 --> 00:23:13,820",
+    "quote": "是非常非常之大的。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 316,
+    "time_range": "00:23:13,820 --> 00:23:15,040",
+    "quote": "啊，今天呢就。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 317,
+    "time_range": "00:23:15,040 --> 00:23:17,260",
+    "quote": "拿着创新药这个事儿的话，跟大家来。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 318,
+    "time_range": "00:23:17,260 --> 00:23:19,350",
+    "quote": "简单的分析一下啊。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 319,
+    "time_range": "00:23:19,350 --> 00:23:23,420",
+    "quote": "还是那句话，你想了解一个行业，得从它的底层逻辑入手。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 320,
+    "time_range": "00:23:23,420 --> 00:23:25,770",
+    "quote": "他是怎么演化到今天这一步的？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 321,
+    "time_range": "00:23:25,770 --> 00:23:27,610",
+    "quote": "中间他做对了哪些事儿？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 322,
+    "time_range": "00:23:27,610 --> 00:23:29,950",
+    "quote": "啊，这个东西才是最关键的重眼点。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 323,
+    "time_range": "00:23:29,950 --> 00:23:31,700",
+    "quote": "你看清楚这个以后。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 324,
+    "time_range": "00:23:31,700 --> 00:23:33,930",
+    "quote": "通过他成功的这个方式。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 325,
+    "time_range": "00:23:33,930 --> 00:23:37,450",
+    "quote": "你就大概能判断出来他成功的路到底能走多远。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 326,
+    "time_range": "00:23:37,450 --> 00:23:39,720",
+    "quote": "它潜在的想象空间到底有多大？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 327,
+    "time_range": "00:23:39,720 --> 00:23:42,380",
+    "quote": "然后你再对比这市场上对它的炒作看。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 328,
+    "time_range": "00:23:42,380 --> 00:23:44,680",
+    "quote": "这中间的差到底有多大？",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 329,
+    "time_range": "00:23:44,680 --> 00:23:46,830",
+    "quote": "出现了这种正向的差就是。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 330,
+    "time_range": "00:23:46,830 --> 00:23:52,470",
+    "quote": "他的表现跟他本来应该有的表现中间有很大的这个落差，他没有表现那么好。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 331,
+    "time_range": "00:23:52,470 --> 00:23:54,180",
+    "quote": "那你就得仔细研究究为什么。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 332,
+    "time_range": "00:23:54,180 --> 00:23:58,170",
+    "quote": "如果这里边很多很多的原因是因为大家对他的认识不足的话。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 333,
+    "time_range": "00:23:58,170 --> 00:23:59,480",
+    "quote": "那这就是市场机会。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 334,
+    "time_range": "00:23:59,490 --> 00:24:03,050",
+    "quote": "如果他确确实实盛名之下，其实难副的话。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 335,
+    "time_range": "00:24:03,050 --> 00:24:04,270",
+    "quote": "你就提前得避雷。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP004/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 336,
+    "time_range": "00:24:04,270 --> 00:24:04,810",
+    "quote": "对吧。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 337,
+    "time_range": "00:24:04,810 --> 00:24:06,860",
+    "quote": "这就是帮你筛选市场上。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 338,
+    "time_range": "00:24:07,000 --> 00:24:09,030",
+    "quote": "你如果对这个方向感兴趣的话。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 339,
+    "time_range": "00:24:09,030 --> 00:24:10,730",
+    "quote": "这是一个很好的一个。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 340,
+    "time_range": "00:24:10,730 --> 00:24:11,640",
+    "quote": "呃。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 341,
+    "time_range": "00:24:11,640 --> 00:24:13,610",
+    "quote": "滚动筛选的一个方法。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 342,
+    "time_range": "00:24:13,610 --> 00:24:15,690",
+    "quote": "好吧，今天的节目到这里，感谢大家观看。",
+    "topic_block": [
+      307,
+      342,
+      "行业分析及结束"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  }
+]

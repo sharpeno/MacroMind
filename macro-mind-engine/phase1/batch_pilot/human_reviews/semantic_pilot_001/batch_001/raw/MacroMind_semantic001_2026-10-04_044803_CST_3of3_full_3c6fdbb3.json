@@ -1,0 +1,46 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "153d8ec08751bcde57707d55d7c53e3dbe3a22c67a734af5aed4f4d4152e7396",
+  "exported_at": "2026-10-03T20:48:03.742Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "S01/EP002/C16",
+      "episode": "EP002",
+      "kind": "语义自检校准",
+      "decision": "change",
+      "note": "自检补充有价值，但新增内容主要是政策情境细节，尚未充分提取原话中的领导与纠错方法。建议补充“提前识别并准备—与群众同行及引导—择机提出方案—带领纠错”的逻辑，将假想央行政策作为应用例证单列。原提取属于关键方法遗漏，不宜仅按摘要长短判断。",
+      "correction": "补提取方法论：博主认为，当群众犯错时，领导者应提前识别问题、准备纠错方案，同时先与群众站在一起、共同经历这一错误，在过程中引导大家认识问题，再于适当时机提出预先准备的方案，带领大家纠错。假想央行讲话作为这一方法的应用例证单列，并保留其并非已发表讲话的说明。",
+      "evidence": "cue 387–389（00:18:39,950—00:19:39,950）支持与群众一起犯错、引导认识错误及提前识别问题；“预先准备方案”和具体提出时机需补充对应前后文。",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:46:41.426Z"
+    },
+    {
+      "id": "S01/EP003/C16",
+      "episode": "EP003",
+      "kind": "语义自检校准",
+      "decision": "adopt_proposal",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:47:13.537Z"
+    },
+    {
+      "id": "S01/EP005/C20",
+      "episode": "EP005",
+      "kind": "语义自检校准",
+      "decision": "keep_original",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:47:59.029Z"
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

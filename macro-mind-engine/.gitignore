@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local model task outputs and private endpoint configuration
+runtime_runs/
+runtime_demo_runs/
+model.local.json

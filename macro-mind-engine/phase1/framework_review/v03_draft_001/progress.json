@@ -1,0 +1,19 @@
+{
+  "completed": [
+    "v0.3 additive draft with v0.2 parent lineage",
+    "6 review cards and 12 source groups",
+    "separate fidelity and evidence-boundary decisions",
+    "browser draft/download/import/version validation",
+    "desktop and mobile QA"
+  ],
+  "pending": [
+    "用户语义审阅",
+    "校验导出并解决需修改项目",
+    "另行冻结版本后才开展留出检验"
+  ],
+  "active_framework_changed": false,
+  "holdout_transcripts_read": [],
+  "validation": "validation.json",
+  "ui_stdout": "G:/youhegaojian/review-ui-qa/framework-v03/stdout.log",
+  "ui_stderr": "G:/youhegaojian/review-ui-qa/framework-v03/stderr.log"
+}

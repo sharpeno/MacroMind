@@ -1,0 +1,18 @@
+{
+  "mode": "as_of_analysis",
+  "method_sha256": "d75cd87c5c46684bc76e0d5a49695737f525c2b4102d455c857c4a498007388f",
+  "dataset_version": "synthetic-runtime-fixture-v1",
+  "as_of": "2026-10-07",
+  "method_version": "synthetic-method-v1",
+  "method_available_on": "2026-10-07",
+  "documents": [
+    {
+      "sha256": "3a570abd7d12dba4d59d40d42c9289ea3d03c9b644c96c535c54c6d7426a94a7",
+      "path": "news.txt",
+      "id": "news",
+      "published_at": "2026-10-07"
+    }
+  ],
+  "method_path": "method.md",
+  "question": "请区分这份材料中的计划和已经实现的结果，并说明信息缺口。"
+}

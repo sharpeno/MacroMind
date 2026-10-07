@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 6,
+  "real_human_import": true,
+  "native_file_system_write": true,
+  "picker": "Replaced OS picker with native browser-private directory handle for automated testing; actual user path selection remains user action",
+  "test_directory": "Isolated browser context OPFS; not user review archive",
+  "errors": []
+}

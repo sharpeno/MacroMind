@@ -1,0 +1,17 @@
+{
+  "status": "V03_FROZEN_READY_FOR_HOLDOUT_PREPARATION",
+  "completed": [
+    "conversation approval archived",
+    "all six rule cards approved",
+    "displayed contexts approved",
+    "v0.3 candidate frozen",
+    "hash, text, context link and method reference checks passed"
+  ],
+  "pending": [
+    "prepare staged holdout case protocol and inputs",
+    "freeze each answer before target transcript exposure",
+    "evaluate fidelity separately from factual and forecast accuracy"
+  ],
+  "global_runner_activation": "NOT_PERFORMED",
+  "holdout_transcripts": "UNREAD"
+}

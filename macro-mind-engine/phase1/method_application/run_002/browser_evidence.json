@@ -1,0 +1,14 @@
+{
+  "report": "G:\\youhegaojian\\review-ui-qa\\application002\\REPORT.md",
+  "artifacts": {
+    "G:\\youhegaojian\\review-ui-qa\\application002\\browser.command.json": "3810cad969ab7bb37c3ad1a23c262d6f7fc964f8096dbeeed06d9180976323f4",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\browser.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\browser.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\browser.stdout.txt": "3132898bdb04dd46d26bbaefb818ca95134df44c12addab57b4cfdc9ca734aaf",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\check.cjs": "f44737e805d2ae0587d4fda0a509062b55d4447d744f1f1bec244360ea4a68fd",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\desktop.png": "09da8ed97bc39d59d04844241b563b09f1cdbebfc67d348418b8f0381baa7740",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\mobile.png": "c2b7e657ff4c5fb14c0483b135bdde1a1e2a373acb20f8cbcaa97a2c3502af1f",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\REPORT.md": "58a2ee82de9ae792ad3679b87d87f52cce514faa1f4188a1c397e22dca13aec1",
+    "G:\\youhegaojian\\review-ui-qa\\application002\\result.json": "f0a0b61dd8c86487dce2c2b77f643c316ee26dbc1419d02c27f1c18c71723427"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "EP001/A01",
+    "fields": {
+      "evidence": {
+        "before": "00:04:47,280 --> 00:04:55,630：录入namemo应为lululemon，tart应为target（TGT）\n00:03:45,000 --> 00:04:11,000：描述了题材转换的消费股，以及一些中小企业，这些企业本身PE就很高的情况。\n\n\n",
+        "after": "00:04:47,280 --> 00:04:55,630：录入namemo应为lululemon，tart应为target（TGT）\n00:03:45,000 --> 00:04:11,000：描述了题材转换的消费股，以及一些中小企业，这些企业本身PE就很高的情况。\n补充材料：\n1. 高盛：消费股可能成为年底前的意外赢家\n日期：2026年9月11日\n标题：What a Fed Rate Hike Could Mean for US Stocks\n链接：https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks?utm_source=chatgpt.com\n2. 瑞银：在AI保持强势时，把视线扩展到科技之外\n日期：2026年9月3日\n标题：Look beyond tech as AI strength persists\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html?utm_source=chatgpt.com\n3. 瑞银：油价上涨下，AI仓位应向电力、资源和医疗扩散\n标题：Brent tops 100: A milestone, not a turning point\n日期：2026年9月9日\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html?utm_source=chatgpt.com\n\n"
+      },
+      "updated_at": {
+        "before": "2026-10-03T07:56:52.726Z",
+        "after": "2026-10-03T08:48:55.910Z"
+      }
+    }
+  },
+  {
+    "id": "EP002/A01",
+    "fields": {
+      "evidence": {
+        "before": "cue 98–102，00:05:13,460–00:05:24,450；“另外一方面呢”明确提示话题转入第二个因素\n补充材料：\n1. 高盛：消费股可能成为年底前的意外赢家\n日期：2026年9月11日\n标题：What a Fed Rate Hike Could Mean for US Stocks\n链接：https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks?utm_source=chatgpt.com\n2. 瑞银：在AI保持强势时，把视线扩展到科技之外\n日期：2026年9月3日\n标题：Look beyond tech as AI strength persists\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html?utm_source=chatgpt.com\n3. 瑞银：油价上涨下，AI仓位应向电力、资源和医疗扩散\n标题：Brent tops 100: A milestone, not a turning point\n日期：2026年9月9日\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html?utm_source=chatgpt.com",
+        "after": "cue 98–102，00:05:13,460–00:05:24,450；“另外一方面呢”明确提示话题转入第二个因素"
+      },
+      "updated_at": {
+        "before": "2026-10-03T08:23:27.397Z",
+        "after": "2026-10-03T08:48:48.388Z"
+      }
+    }
+  }
+]

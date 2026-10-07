@@ -1,0 +1,28 @@
+{
+  "verification": "LOCAL_HTTP_FIXTURE_ONLY",
+  "state": {
+    "id": "task_22c8c048731042a3b0c2428318b956c2",
+    "status": "succeeded",
+    "created_at": "2026-10-07T13:04:24.581242+00:00",
+    "attempts": [
+      {
+        "name": "attempt_001",
+        "status": "succeeded",
+        "started_at": "2026-10-07T13:04:24.587241+00:00",
+        "finished_at": "2026-10-07T13:04:24.632241+00:00",
+        "elapsed_ms": 44
+      }
+    ]
+  },
+  "requests": 2,
+  "report": "C:\\Users\\\u65e0\u8bed\\AppData\\Local\\Temp\\macromind-runtime-demo-d003ca84c96e4fdeac36d8c38331cdc0\\task_22c8c048731042a3b0c2428318b956c2\\attempts\\attempt_001\\report.md",
+  "usage": {
+    "reported_input_tokens": 0,
+    "reported_output_tokens": 0,
+    "reported_total_tokens": 0,
+    "calls_with_missing_usage": 2,
+    "failed_requests_with_unknown_billing": 0,
+    "successful_requests": 2,
+    "billing_verified": false
+  }
+}

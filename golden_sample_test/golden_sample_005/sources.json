@@ -1,0 +1,445 @@
+[
+  {
+    "source_id": "S01",
+    "title": "自动转写文本",
+    "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百四五期》朱雀三号成功陆上回收，航空航天的好时代来了吗？-p01-16.自动转写.txt",
+    "role": [
+      "creator_used",
+      "primary_corpus"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-S01",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "creator_used_status": "primary_utterance_derivative",
+    "historical_information_set_eligible": false,
+    "sha256": "8517df7f718b1a369581885d9b1f9cee894ab864ee582e37e5020b083f506d3b",
+    "independence": "same_ASR_origin_not_two_witnesses",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "S02",
+    "title": "SRT时间锚",
+    "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百四五期》朱雀三号成功陆上回收，航空航天的好时代来了吗？-p01-16.srt",
+    "role": [
+      "creator_used",
+      "primary_corpus"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-S02",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "creator_used_status": "primary_utterance_derivative",
+    "historical_information_set_eligible": false,
+    "sha256": "a4969172c9ce028cdcaec3648039c360447b95a92a52f95e9aa161b02dce7342",
+    "independence": "same_ASR_origin_not_two_witnesses",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "P01",
+    "title": "V0.3.1-minor / MA.1任务指令",
+    "location": "G:\\youhegaojian\\prompt\\V0.3.1-minor.md",
+    "role": [
+      "user_authorized_instruction"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-P01",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "P01"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "sha256": "ab3ba4541a6fa25da714e1f5b2814cf0bccaf02b1220d8ae9fc947cee47a346c",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "SRC-A",
+    "title": "朱雀三号遥二回收报道",
+    "location": "https://www.cls.cn/detail/2457733",
+    "role": [
+      "user_supplied_reference",
+      "verification_source"
+    ],
+    "published_at": "2026-08-19T08:01:00+08:00",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-SRC-A",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FLANDSPACE"
+    ],
+    "creator_used_status": "topic_overlap_only_exact_article_use_not_proven",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_initial_1.txt",
+      "source_snapshots/GS005sources.txt"
+    ]
+  },
+  {
+    "source_id": "SRC-B",
+    "title": "着陆腿与20次复用能力报道",
+    "location": "https://www.cls.cn/detail/2458013",
+    "role": [
+      "user_supplied_reference",
+      "verification_source"
+    ],
+    "published_at": "2026-08-19T12:59:09+08:00",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-SRC-B",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FCCTV"
+    ],
+    "creator_used_status": "topic_overlap_only_exact_article_use_not_proven",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/GS005sources3.txt",
+      "source_snapshots/article_2458013.json"
+    ]
+  },
+  {
+    "source_id": "SRC-C",
+    "title": "Moderna盘前行情与试验报道",
+    "location": "https://www.cls.cn/detail/2458597",
+    "role": [
+      "user_supplied_reference",
+      "verification_source"
+    ],
+    "published_at": "2026-08-19T19:50:00+08:00",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-SRC-C",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FMODERNA_MERCK",
+      "FMARKET_UNKNOWN"
+    ],
+    "creator_used_status": "topic_overlap_only_exact_article_use_not_proven",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_finalweb.txt",
+      "source_snapshots/GS005sources3.txt"
+    ]
+  },
+  {
+    "source_id": "SRC-D",
+    "title": "贝森特回购与OT类比报道",
+    "location": "https://www.cls.cn/detail/2458977",
+    "role": [
+      "user_supplied_reference",
+      "verification_source"
+    ],
+    "published_at": "2026-08-20T08:42:00+08:00",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-SRC-D",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FTREASURY",
+      "FMARKET_COMMENT"
+    ],
+    "creator_used_status": "topic_overlap_only_exact_article_use_not_proven",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_finalweb.txt",
+      "source_snapshots/GS005sources3.txt"
+    ]
+  },
+  {
+    "source_id": "SRC-E",
+    "title": "Reuters空间文化专题（用户指定原URL）",
+    "location": "https://www.reuters.com/investigates/special-report/space-exploration-china-culture/",
+    "role": [
+      "user_supplied_reference",
+      "unused_reference"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-SRC-E",
+    "read_status": "original_fetch_failed",
+    "origin_family_ids": [
+      "FREUTERS"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "snapshot_refs": [
+      "source_snapshots/gs005_primary_search.txt",
+      "source_snapshots/gs005_initial_1.txt"
+    ]
+  },
+  {
+    "source_id": "V01",
+    "title": "国家航天局转载蓝箭任务通报",
+    "location": "https://www.cnsa.gov.cn/n6758823/n6758838/c10768762/content.html",
+    "role": [
+      "verification_source",
+      "model_supplement"
+    ],
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V01",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FLANDSPACE"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_verified.txt"
+    ]
+  },
+  {
+    "source_id": "V02",
+    "title": "Moderna CEO试验公告",
+    "location": "https://www.modernatx.com/ir-insights-phase-3-intesmeran",
+    "role": [
+      "verification_source",
+      "model_supplement"
+    ],
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V02",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FMODERNA_MERCK"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_verified.txt"
+    ]
+  },
+  {
+    "source_id": "V03",
+    "title": "美国财政部回购公告",
+    "location": "https://home.treasury.gov/news/press-releases/sb0607",
+    "role": [
+      "verification_source",
+      "model_supplement"
+    ],
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V03",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FTREASURY"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_timecheck.txt"
+    ]
+  },
+  {
+    "source_id": "V04",
+    "title": "FCC 2026年1月Gen2授权公告",
+    "location": "https://docs.fcc.gov/public/attachments/DOC-417881A1.pdf",
+    "role": [
+      "verification_source",
+      "model_supplement"
+    ],
+    "published_at": "2026-01-09",
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V04",
+    "read_status": "search_full_announcement_return_read",
+    "origin_family_ids": [
+      "FFCC"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": true,
+    "snapshot_refs": [
+      "source_snapshots/gs005_primary_search.txt"
+    ]
+  },
+  {
+    "source_id": "V05",
+    "title": "FCC勘误中的卫星数量（只读搜索片段）",
+    "location": "https://docs.fcc.gov/public/attachments/DOC-424235A1.pdf",
+    "role": [
+      "model_supplement",
+      "unused_reference"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V05",
+    "read_status": "snippet_read_pdf_403",
+    "origin_family_ids": [
+      "FFCC",
+      "FSPACEX"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "snapshot_refs": [
+      "source_snapshots/gs005_primary_search.txt",
+      "source_snapshots/gs005_verified.txt"
+    ]
+  },
+  {
+    "source_id": "V06",
+    "title": "Reuters同题Investing转载",
+    "location": "https://www.investing.com/news/world-news/in-china-rocket-launches-fuel-tourism-and-spaceage-dreams-4868434",
+    "role": [
+      "model_supplement",
+      "unused_reference"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V06",
+    "read_status": "body_read",
+    "origin_family_ids": [
+      "FREUTERS"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "displayed_published_at": "Aug 19, 2026, 07:02 PM",
+    "displayed_updated_at": "Aug 19, 2026, 09:00 PM",
+    "display_timezone": null,
+    "snapshot_refs": [
+      "source_snapshots/gs005_timecheck.txt"
+    ]
+  },
+  {
+    "source_id": "V07",
+    "title": "Reuters Connect同题图片",
+    "location": "https://www.reutersconnect.com/item/the-wider-image-in-china-rocket-launches-fuel-tourism-and-space-age-dreams/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkhWTUFUREpMNQ",
+    "role": [
+      "model_supplement",
+      "unused_reference"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V07",
+    "read_status": "caption_and_metadata_read",
+    "origin_family_ids": [
+      "FREUTERS"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "snapshot_refs": [
+      "source_snapshots/gs005_verified.txt"
+    ]
+  },
+  {
+    "source_id": "V08",
+    "title": "TimesLIVE同题Reuters转载",
+    "location": "https://www.timeslive.co.za/news/world/2026-08-20-in-china-rocket-launches-fuel-tourism-and-space-age-dreams/",
+    "role": [
+      "model_supplement",
+      "unused_reference"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-V08",
+    "read_status": "search_return_read",
+    "origin_family_ids": [
+      "FREUTERS"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "displayed_published_at": "August 20, 2026 at 8:55 am; timezone not shown",
+    "snapshot_refs": [
+      "source_snapshots/gs005_primary_search.txt"
+    ]
+  },
+  {
+    "source_id": "R01",
+    "title": "Golden #001 方法/Thesis目录",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_report.md",
+    "role": [
+      "method_registry_only"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-R01",
+    "read_status": "summary_only",
+    "origin_family_ids": [
+      "R01"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "R02",
+    "title": "Golden #002 方法/Thesis目录",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_002\\golden_sample_002.json",
+    "role": [
+      "method_registry_only"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-R02",
+    "read_status": "method_and_thesis_sections_read",
+    "origin_family_ids": [
+      "R02"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "R03",
+    "title": "Golden #003 方法/Thesis目录",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_003\\golden_sample_003.json",
+    "role": [
+      "method_registry_only"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-R03",
+    "read_status": "method_and_thesis_sections_read",
+    "origin_family_ids": [
+      "R03"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+    "snapshot_refs": []
+  },
+  {
+    "source_id": "R04",
+    "title": "Golden #004 方法/Thesis目录",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004.json",
+    "role": [
+      "method_registry_only"
+    ],
+    "published_at": null,
+    "updated_at": null,
+    "captured_at": "2026-09-26T05:30:44+08:00",
+    "source_version_ref": "V-R04",
+    "read_status": "method_and_thesis_sections_read",
+    "origin_family_ids": [
+      "R04"
+    ],
+    "creator_used_status": "not_established",
+    "historical_information_set_eligible": false,
+    "sha256": "3d3fe899b3cd82c667857cccd1e340dc5be0451e28b9ff602c7a7c4e52b19163",
+    "snapshot_refs": []
+  }
+]

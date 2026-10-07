@@ -1,0 +1,70 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "63745e29e8c095322cdbcf3375676d43bea92221826b0985b321e7749df62a1f",
+  "exported_at": "2026-10-03T20:11:13.217Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "H01/EP001/C02",
+      "episode": "EP001",
+      "kind": "留出校准",
+      "content_status": "pending",
+      "decision": "keep_original",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:11:13.057Z"
+    },
+    {
+      "id": "H01/EP002/C05",
+      "episode": "EP002",
+      "kind": "留出校准",
+      "content_status": "pending",
+      "decision": "adopt_proposal",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:11:13.062Z"
+    },
+    {
+      "id": "H01/EP003/C18",
+      "episode": "EP003",
+      "kind": "留出校准",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "Synthetic QA, not human approval",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T20:11:13.069Z"
+    },
+    {
+      "id": "H01/EP004/C08",
+      "episode": "EP004",
+      "kind": "留出校准",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "H01/EP005/C21",
+      "episode": "EP005",
+      "kind": "留出校准",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

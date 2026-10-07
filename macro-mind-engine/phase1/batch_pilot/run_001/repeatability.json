@@ -1,0 +1,25 @@
+{
+  "scope": "Persisted annotation replay; does not claim a fresh independent semantic extraction produces identical annotations",
+  "artifacts": {
+    "semantic_summary.json": {
+      "first": "503978bc664d9f2a0f058659dca0bcf4269f4a105e614bbec4c9595f2bc530e1",
+      "repeat": "503978bc664d9f2a0f058659dca0bcf4269f4a105e614bbec4c9595f2bc530e1",
+      "equal": true
+    },
+    "validation.json": {
+      "first": "7508655220d1caa5a6dee89c2a8588f6727fde111ea334fe7ece8c52ff1521c0",
+      "repeat": "7508655220d1caa5a6dee89c2a8588f6727fde111ea334fe7ece8c52ff1521c0",
+      "equal": true
+    },
+    "normalized_audit.json": {
+      "first": "3afc61e2738fd159d26a6ec27fe4043edcc07f97e395d069aa73a193d691625f",
+      "repeat": "3afc61e2738fd159d26a6ec27fe4043edcc07f97e395d069aa73a193d691625f",
+      "equal": true
+    },
+    "pattern_aggregation.json": {
+      "first": "350ea6f55164f003a6606632dd19667223ba3ca67d2a3044aa517288d335320f",
+      "repeat": "350ea6f55164f003a6606632dd19667223ba3ca67d2a3044aa517288d335320f",
+      "equal": true
+    }
+  }
+}

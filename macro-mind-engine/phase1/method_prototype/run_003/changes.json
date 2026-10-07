@@ -1,0 +1,5 @@
+{
+  "unchanged_inference_sha256": "37bf8752ad4b4ab3c3e3860e296de9478421ef3cd4f4f0256493a28cb44723f7",
+  "only_html_change": "Insert two working baseline cards; original HTML recoverable exactly by removing added section",
+  "added_baselines": 2
+}

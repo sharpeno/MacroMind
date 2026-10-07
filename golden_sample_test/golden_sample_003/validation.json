@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "errors": [],
+  "checked_at": "2026-09-25T18:21:18+08:00",
+  "claims": 130,
+  "forecasts": 46,
+  "raw_files_unchanged": true,
+  "all_899_cues_segmented": true,
+  "thesis_traceability": true,
+  "scope": "structural_validation_not_audio_or_factual_verification",
+  "known_limitations": [
+    "未听音，专名/数值纠错均未接受",
+    "JPM储油原研报、海峡流量和价格基准不足",
+    "滚动网页缺历史版本，既有条目也有后改风险",
+    "60天上限、航道控制到定价权和AI资金路径缺证"
+  ]
+}

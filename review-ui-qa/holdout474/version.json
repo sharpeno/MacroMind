@@ -1,0 +1,1 @@
+{"schema":"macromind.holdout-comparison-review.v1","review_id":"holdout474_001","comparison_sha256":"bad","ids":["R01","R02","R03"],"records":[{"id":"R01","decision":"revise","notes":"测试：需保留不确定性。"},{"id":"R02","decision":"accept","notes":""},{"id":"R03","decision":"uncertain","notes":""}],"completed":3,"exported_at":"2026-10-06T12:52:51.152Z","framework_change":"NONE"}

@@ -1,0 +1,452 @@
+{
+  "checks": [
+    {
+      "id": "20_links_attempted",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_quotes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_complete_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_conservation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_unique_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_full_mapping",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_attribution",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_no_forecast_skill",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_no_cross_episode_refs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_unknown_assertion_time",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_positive_and_negative",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_isolation_propagates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_quotes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_complete_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_conservation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_unique_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_full_mapping",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_attribution",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_no_forecast_skill",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_no_cross_episode_refs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_unknown_assertion_time",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_positive_and_negative",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_isolation_propagates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_quotes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_complete_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_conservation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_unique_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_full_mapping",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_attribution",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_no_forecast_skill",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_no_cross_episode_refs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_unknown_assertion_time",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_positive_and_negative",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_isolation_propagates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_quotes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_complete_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_conservation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_unique_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_full_mapping",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_attribution",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_no_forecast_skill",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_no_cross_episode_refs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_unknown_assertion_time",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_positive_and_negative",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_isolation_propagates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_coverage",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_quotes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_complete_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_conservation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_unique_ids",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_full_mapping",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_attribution",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_no_forecast_skill",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_no_cross_episode_refs",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_unknown_assertion_time",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_positive_and_negative",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_isolation_propagates",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "old_artifacts_unchanged",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "raw_materials_unchanged",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "runtime_and_contract_unchanged",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_repeat_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_repeat_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP001_repeat_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP002_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP003_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP004_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_audit_integrity",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_audit_completed",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "EP005_audit_matches_validation",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "repeat_semantic_summary.json",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "repeat_validation.json",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "repeat_normalized_audit.json",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "repeat_pattern_aggregation.json",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "review_ten_chains",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "review_not_fabricated",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "id": "review_local_links",
+      "status": "PASS",
+      "details": []
+    }
+  ],
+  "passed": 89,
+  "failed": 0,
+  "scope": "Artifact invariants and real-run replay; not semantic correctness score or a new584-test run"
+}

@@ -1,0 +1,331 @@
+[
+  {
+    "source_version_id": "V-S01",
+    "source_id": "S01",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "same_video_derivative",
+    "historical_snapshot_available": false,
+    "content_hash": "8517df7f718b1a369581885d9b1f9cee894ab864ee582e37e5020b083f506d3b",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-S02",
+    "source_id": "S02",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "same_video_derivative",
+    "historical_snapshot_available": false,
+    "content_hash": "a4969172c9ce028cdcaec3648039c360447b95a92a52f95e9aa161b02dce7342",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-P01",
+    "source_id": "P01",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "instruction_not_evidence",
+    "historical_snapshot_available": false,
+    "content_hash": "ab3ba4541a6fa25da714e1f5b2814cf0bccaf02b1220d8ae9fc947cee47a346c",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-SRC-A",
+    "source_id": "SRC-A",
+    "published_at": "2026-08-19T08:01:00+08:00",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_initial_1.txt",
+        "sha256": "17a6d1be2e14a6fed78e1074ed8bd43cf96c4bc25bf9daf534a13739fb8aa598"
+      },
+      {
+        "path": "source_snapshots/GS005sources.txt",
+        "sha256": "c0deeb9c3e1b7030a27e8ec8de22d1a8e8b04049728e91eb06fd2378ab0e7ccf"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-SRC-B",
+    "source_id": "SRC-B",
+    "published_at": "2026-08-19T12:59:09+08:00",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/GS005sources3.txt",
+        "sha256": "91bf9544fc662ec67cd3fe677bf6a6bea77e8f82240dfa7c200f77bfcdb3dec6"
+      },
+      {
+        "path": "source_snapshots/article_2458013.json",
+        "sha256": "119b1fb60057a6258556edc0eca83a4bad5ff892d9e61c853ebff99545a2c468"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-SRC-C",
+    "source_id": "SRC-C",
+    "published_at": "2026-08-19T19:50:00+08:00",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_finalweb.txt",
+        "sha256": "968d8461943f8c2cc50d4e86b969dfe51f00dd61b0f370d954aa0f739db525fe"
+      },
+      {
+        "path": "source_snapshots/GS005sources3.txt",
+        "sha256": "91bf9544fc662ec67cd3fe677bf6a6bea77e8f82240dfa7c200f77bfcdb3dec6"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-SRC-D",
+    "source_id": "SRC-D",
+    "published_at": "2026-08-20T08:42:00+08:00",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_finalweb.txt",
+        "sha256": "968d8461943f8c2cc50d4e86b969dfe51f00dd61b0f370d954aa0f739db525fe"
+      },
+      {
+        "path": "source_snapshots/GS005sources3.txt",
+        "sha256": "91bf9544fc662ec67cd3fe677bf6a6bea77e8f82240dfa7c200f77bfcdb3dec6"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-SRC-E",
+    "source_id": "SRC-E",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "unknown_quarantined",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_primary_search.txt",
+        "sha256": "cdbe50ce5d8b1091e3d76332f2550693d3b41e23c6400268f7e3e5fb76642424"
+      },
+      {
+        "path": "source_snapshots/gs005_initial_1.txt",
+        "sha256": "17a6d1be2e14a6fed78e1074ed8bd43cf96c4bc25bf9daf534a13739fb8aa598"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V01",
+    "source_id": "V01",
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_verified.txt",
+        "sha256": "c9a78f046d0f3e0b76c43970599d46ece78a87794d3441226b52ca1d525da2ba"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V02",
+    "source_id": "V02",
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_verified.txt",
+        "sha256": "c9a78f046d0f3e0b76c43970599d46ece78a87794d3441226b52ca1d525da2ba"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V03",
+    "source_id": "V03",
+    "published_at": "2026-08-19",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_timecheck.txt",
+        "sha256": "e41b93bd20fd9bf8c3ffb56088264668ba38a9848930085e9a3bf587c4586e3b"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V04",
+    "source_id": "V04",
+    "published_at": "2026-01-09",
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "eligible_by_displayed_date",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_primary_search.txt",
+        "sha256": "cdbe50ce5d8b1091e3d76332f2550693d3b41e23c6400268f7e3e5fb76642424"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V05",
+    "source_id": "V05",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "unknown_quarantined",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_primary_search.txt",
+        "sha256": "cdbe50ce5d8b1091e3d76332f2550693d3b41e23c6400268f7e3e5fb76642424"
+      },
+      {
+        "path": "source_snapshots/gs005_verified.txt",
+        "sha256": "c9a78f046d0f3e0b76c43970599d46ece78a87794d3441226b52ca1d525da2ba"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V06",
+    "source_id": "V06",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "timezone_and_version_unknown_quarantined",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_timecheck.txt",
+        "sha256": "e41b93bd20fd9bf8c3ffb56088264668ba38a9848930085e9a3bf587c4586e3b"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V07",
+    "source_id": "V07",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "publication_unknown_photo_date_not_publication",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_verified.txt",
+        "sha256": "c9a78f046d0f3e0b76c43970599d46ece78a87794d3441226b52ca1d525da2ba"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-V08",
+    "source_id": "V08",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "timezone_unknown_quarantined",
+    "historical_snapshot_available": false,
+    "content_hash": null,
+    "version_caveat": "现在读取的版本；发布日期不等于已取得截止时存档",
+    "capture_hashes": [
+      {
+        "path": "source_snapshots/gs005_primary_search.txt",
+        "sha256": "cdbe50ce5d8b1091e3d76332f2550693d3b41e23c6400268f7e3e5fb76642424"
+      }
+    ]
+  },
+  {
+    "source_version_id": "V-R01",
+    "source_id": "R01",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "excluded_from_historical_evidence",
+    "historical_snapshot_available": false,
+    "content_hash": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-R02",
+    "source_id": "R02",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "excluded_from_historical_evidence",
+    "historical_snapshot_available": false,
+    "content_hash": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-R03",
+    "source_id": "R03",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "excluded_from_historical_evidence",
+    "historical_snapshot_available": false,
+    "content_hash": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  },
+  {
+    "source_version_id": "V-R04",
+    "source_id": "R04",
+    "published_at": null,
+    "updated_at": null,
+    "retrieved_at": "2026-09-26T05:30:44+08:00",
+    "cutoff_status": "excluded_from_historical_evidence",
+    "historical_snapshot_available": false,
+    "content_hash": "3d3fe899b3cd82c667857cccd1e340dc5be0451e28b9ff602c7a7c4e52b19163",
+    "version_caveat": "本地输入按SHA256固定",
+    "capture_hashes": []
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "REC474-iran",
+    "task_mode": "reconstruction",
+    "evidence_ref": "D474B",
+    "claim": "作者认为伊朗既已发出这种表态，未来一定会下场。",
+    "force_label": "STRONG_ASSERTION",
+    "force_evidence": [
+      {
+        "cue": 567,
+        "time": "00:20:38.58 --> 00:20:41.74",
+        "text": "所以的话你不用担心伊朗会不会在这里下场"
+      },
+      {
+        "cue": 568,
+        "time": "00:20:41.74 --> 00:20:43.57",
+        "text": "伊朗既然亮了车马了是吧"
+      },
+      {
+        "cue": 569,
+        "time": "00:20:43.57 --> 00:20:44.35",
+        "text": "说这种话了"
+      },
+      {
+        "cue": 570,
+        "time": "00:20:44.35 --> 00:20:45.85",
+        "text": "这拱火的话说出来了"
+      },
+      {
+        "cue": 571,
+        "time": "00:20:45.85 --> 00:20:47.17",
+        "text": "那他未来一定会下场"
+      }
+    ],
+    "reasoning_summary": "角色与对手选择约束→停止要求的策略用途→为介入铺垫→未来行动。",
+    "reasoning_attribution": "ASSISTANT_RECONSTRUCTION_FROM_SUBTITLE_AND_LATEST_REVIEW",
+    "system_verification": "这是作者强判断；介入方式、时限和现实结果未核验。",
+    "semantic_review": "NOT_NEWLY_HUMAN_REVIEWED"
+  },
+  {
+    "id": "REC474-intent",
+    "task_mode": "reconstruction",
+    "evidence_ref": "D474B",
+    "claim": "给拜登上眼药是作者提出的一种猜测。",
+    "force_label": "EXPLICIT_HYPOTHESIS",
+    "force_evidence": [
+      {
+        "cue": 579,
+        "time": "00:21:0.71 --> 00:21:1.79",
+        "text": "以色列都敢给你"
+      },
+      {
+        "cue": 580,
+        "time": "00:21:1.79 --> 00:21:3.35",
+        "text": "直接在你来之前上眼药"
+      },
+      {
+        "cue": 581,
+        "time": "00:21:3.35 --> 00:21:3.89",
+        "text": "当然了"
+      },
+      {
+        "cue": 582,
+        "time": "00:21:3.89 --> 00:21:4.85",
+        "text": "这是我的猜测"
+      },
+      {
+        "cue": 583,
+        "time": "00:21:4.85 --> 00:21:6.32",
+        "text": "这是一种可能性之一啊"
+      }
+    ],
+    "reasoning_summary": "以事发时点及施压作用解释可能动机；不得由同段对伊朗的强断言升格此判断。",
+    "reasoning_attribution": "ASSISTANT_RECONSTRUCTION_FROM_SUBTITLE_AND_LATEST_REVIEW",
+    "system_verification": "事件责任和意图未独立核验；与伊朗未来行动是不同命题。",
+    "semantic_review": "NOT_NEWLY_HUMAN_REVIEWED"
+  },
+  {
+    "id": "REC475-channel",
+    "task_mode": "reconstruction",
+    "evidence_ref": "D475B",
+    "claim": "作者将消费上涨视为此前政府注水判断获证实，同时承认具体管道看不到。",
+    "force_label": "CLAIMED_CONFIRMATION_WITH_MECHANISM_UNKNOWN",
+    "force_evidence": [
+      {
+        "cue": 467,
+        "time": "00:16:43.61 --> 00:16:45.59",
+        "text": "这个钱额外的钱哪来的呢"
+      },
+      {
+        "cue": 468,
+        "time": "00:16:45.59 --> 00:16:47.66",
+        "text": "那不就是拜登政府发出来的吗"
+      },
+      {
+        "cue": 469,
+        "time": "00:16:47.66 --> 00:16:48.26",
+        "text": "对吧"
+      },
+      {
+        "cue": 470,
+        "time": "00:16:48.26 --> 00:16:50.30",
+        "text": "这就证实了咱们之前的说法嘛"
+      },
+      {
+        "cue": 490,
+        "time": "00:17:37.31 --> 00:17:39.93",
+        "text": "现在呢呃虽然管道咱们看不到"
+      },
+      {
+        "cue": 491,
+        "time": "00:17:39.93 --> 00:17:42.21",
+        "text": "但是注水的效果咱们观察到了"
+      },
+      {
+        "cue": 492,
+        "time": "00:17:42.21 --> 00:17:45.03",
+        "text": "那你体现出来就是这个零售的数据上涨"
+      },
+      {
+        "cue": 493,
+        "time": "00:17:45.03 --> 00:17:47.36",
+        "text": "出乎预期的上涨对吧"
+      }
+    ],
+    "reasoning_summary": "收紧背景下消费超预期→作者追问额外资金来源→归因政府注水→认为旧判断获支持。",
+    "reasoning_attribution": "ASSISTANT_RECONSTRUCTION_FROM_SUBTITLE_AND_LATEST_REVIEW",
+    "system_verification": "具体资金管道未知；此处证实属于作者的认识状态。",
+    "semantic_review": "NOT_NEWLY_HUMAN_REVIEWED"
+  },
+  {
+    "id": "REC475-priority",
+    "task_mode": "reconstruction",
+    "evidence_ref": "D475C",
+    "claim": "作者强烈判断美国不会被以色列绑上战车。",
+    "force_label": "STRONG_ASSERTION",
+    "force_evidence": [
+      {
+        "cue": 639,
+        "time": "00:22:34.92 --> 00:22:36.58",
+        "text": "真的我们不信的话"
+      },
+      {
+        "cue": 640,
+        "time": "00:22:36.58 --> 00:22:37.12",
+        "text": "拭目以待"
+      },
+      {
+        "cue": 641,
+        "time": "00:22:37.12 --> 00:22:38.14",
+        "text": "这届这个局啊"
+      },
+      {
+        "cue": 642,
+        "time": "00:22:38.14 --> 00:22:39.94",
+        "text": "真的以色列人自己打了个算盘"
+      },
+      {
+        "cue": 643,
+        "time": "00:22:39.94 --> 00:22:42.16",
+        "text": "绝对是希望通过自己的行为"
+      },
+      {
+        "cue": 644,
+        "time": "00:22:42.16 --> 00:22:43.66",
+        "text": "把美国绑架了他的车上"
+      },
+      {
+        "cue": 645,
+        "time": "00:22:43.66 --> 00:22:45.58",
+        "text": "但是这件事情美国一定不会绑他"
+      },
+      {
+        "cue": 646,
+        "time": "00:22:45.58 --> 00:22:46.96",
+        "text": "你看到美国的经济数据"
+      },
+      {
+        "cue": 647,
+        "time": "00:22:46.96 --> 00:22:48.76",
+        "text": "你就知道这是板上钉钉的事"
+      }
+    ],
+    "reasoning_summary": "国内调整未完与资源有限→以方等待失去窗口→双方优先事项冲突→作者形成不被绑定的主倾向。",
+    "reasoning_attribution": "ASSISTANT_RECONSTRUCTION_FROM_SUBTITLE_AND_LATEST_REVIEW",
+    "system_verification": "主要矛盾排序采用最新用户修订；原字幕强度保留；不扩大为所有援助终止。",
+    "semantic_review": "NOT_NEWLY_HUMAN_REVIEWED"
+  }
+]

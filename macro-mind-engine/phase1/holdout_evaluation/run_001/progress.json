@@ -1,0 +1,32 @@
+{
+  "status": "WAITING_FOR_THREE_COMPARISON_REVIEWS",
+  "completed": [
+    "answer frozen before exposure",
+    "472 fully read 643 cues",
+    "six rule comparison recorded",
+    "three human review questions prepared",
+    "integrity checks and two negative checks passed",
+    "desktop/mobile interaction QA passed and visually inspected"
+  ],
+  "pending": [
+    "human comparison review R01/R02/R03",
+    "separate factual/outcome evaluation not performed",
+    "14 subsequent holdouts not started"
+  ],
+  "remaining_unread": [
+    "473",
+    "474",
+    "475",
+    "476",
+    "478",
+    "479",
+    "480",
+    "482",
+    "484",
+    "493",
+    "495",
+    "496",
+    "509",
+    "601"
+  ]
+}

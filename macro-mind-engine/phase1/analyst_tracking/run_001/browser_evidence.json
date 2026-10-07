@@ -1,0 +1,16 @@
+{
+  "report": "G:\\youhegaojian\\review-ui-qa\\analyst001\\REPORT.md",
+  "artifacts": {
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\browser.command.json": "8a1bcb0fa965d693fbca13281ec64686419a89fb8f7b9f3f8633a9b91b84243c",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\browser.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\browser.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\browser.stdout.txt": "fbc9b06eb71eb113532a31bdc3a1a7fb623f6365f147eab9c9250fec8cb69a52",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\check.cjs": "24da346166562a67081b50351ecc7cf8026130191423d96e8fdf5a192f190d8f",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\desktop.png": "66887597100c1ac90a98101689749c752c610668b7426fc2f74bfba0669b6fda",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\evidence.png": "a95e50d1d843ffe6592d2141f1ada2ffcf54213db889ef67a1c244f05ebec8b3",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\FIRST_ATTEMPT.md": "930cff86dd011a289d266d50da1fa732abdb19cf2142a5d151c7913e16889cb7",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\mobile.png": "50da4f52b35751f5599977a1fb3beb2cc49258407d4bca427909b75025ed5a70",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\REPORT.md": "68761d7e4fc25f7f6c2ec40e04d974606792a11d1da585d3ed01b71ec1c55b7c",
+    "G:\\youhegaojian\\review-ui-qa\\analyst001\\result.json": "33e909327d2bb49efc6dbd148fc632283a9652c3a7dfa9715f710cf627e88255"
+  }
+}

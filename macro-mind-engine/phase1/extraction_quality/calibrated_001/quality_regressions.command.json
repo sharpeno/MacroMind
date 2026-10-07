@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/quality",
+    "-q"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine",
+  "exit_code": 0
+}

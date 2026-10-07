@@ -1,0 +1,1030 @@
+[
+  {
+    "review_id": "RQ01",
+    "priority": "Critical",
+    "category": "Data/ASR",
+    "object_refs": [
+      "C044",
+      "C045",
+      "C046",
+      "C047",
+      "C048",
+      "C049",
+      "C051"
+    ],
+    "issue": "20万、200万、180万及十倍推导影响整条星链论证。",
+    "required_action": "逐句听252—270；分开在轨、许可、计划、客户数量；找当时公司披露，不猜修正数。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ02",
+    "priority": "Critical",
+    "category": "Data/ASR",
+    "object_refs": [
+      "C038"
+    ],
+    "issue": "每克大几百美元的质量单位、数字和成本/报价高风险。",
+    "required_action": "回听227并找同轨道同载荷报价与成本，不自动改千克。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ03",
+    "priority": "Critical",
+    "category": "Reasoning",
+    "object_refs": [
+      "AR04",
+      "AR08",
+      "TH01"
+    ],
+    "issue": "成功回收→已低成本→全球全部需求，跨层级。",
+    "required_action": "补DA01明确列出的经济复用和商业需求证据，保留原Shortcut。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ04",
+    "priority": "Critical",
+    "category": "Attribution",
+    "object_refs": [
+      "C105"
+    ],
+    "issue": "针对特朗普私人公司的牟利指控没有可审计来源。",
+    "required_action": "定位原新闻、公司、许可文件及交易；在此之前只作attributed allegation。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ05",
+    "priority": "High",
+    "category": "Source/time",
+    "object_refs": [
+      "SRC-E",
+      "V06",
+      "V07",
+      "V08"
+    ],
+    "issue": "原Reuters页失败；转载时区与原版发布时间未知。",
+    "required_action": "核原页JSON-LD或可信存档，确认首次发稿和更新时间；不能因照片8月10日推文章可知。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ06",
+    "priority": "High",
+    "category": "Source/version",
+    "object_refs": [
+      "SRC-A",
+      "SRC-B",
+      "SRC-C",
+      "SRC-D",
+      "V01",
+      "V02",
+      "V03"
+    ],
+    "issue": "当前网页版本不等于2026-08-20截止时版本。",
+    "required_action": "取得历史存档或修订记录；SRC-D虽08:42早于10:37，录制是否早于发稿仍未知。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ07",
+    "priority": "High",
+    "category": "Data/semantic_role",
+    "object_refs": [
+      "X03",
+      "O10"
+    ],
+    "issue": "20次是着陆腿能力，目标/估计依据未区分。",
+    "required_action": "查原工程说明和部件测试；拒绝写成整箭实际20次复飞。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ08",
+    "priority": "High",
+    "category": "Data/comparison",
+    "object_refs": [
+      "X10"
+    ],
+    "issue": "降低到70%以上可能应为下降70%以上，且基期未知。",
+    "required_action": "核央视原稿或视频；保留两解释，不自行订正。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ09",
+    "priority": "High",
+    "category": "Data/comparison",
+    "object_refs": [
+      "C066",
+      "C109",
+      "X04"
+    ],
+    "issue": "190%多、翻两倍、涨三倍与盘前80%时间/对象混淆。",
+    "required_action": "回听并核同一日盘前、盘中、收盘价格及股本；区分价格和市值。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ10",
+    "priority": "High",
+    "category": "ASR/Policy",
+    "object_refs": [
+      "C072",
+      "SA04"
+    ],
+    "issue": "QT与Operation Twist并列。",
+    "required_action": "听音判ASR或口误；核财政部操作而非套美联储工具。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ11",
+    "priority": "High",
+    "category": "Reasoning",
+    "object_refs": [
+      "C071",
+      "C073",
+      "AR10"
+    ],
+    "issue": "回购推无人买、再推信用破产。",
+    "required_action": "查拍卖投标倍数、尾差、期限溢价及回购券种；债券流动性不等于偿付能力。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ12",
+    "priority": "High",
+    "category": "Data/time",
+    "object_refs": [
+      "C090",
+      "C091",
+      "C092"
+    ],
+    "issue": "30/40万亿美元未读到原始历史日表。",
+    "required_action": "获取Treasury历史日表，统一total public debt outstanding与debt held by public。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ13",
+    "priority": "High",
+    "category": "Source",
+    "object_refs": [
+      "C093",
+      "C094"
+    ],
+    "issue": "耶伦2023预测2028达40万亿原话未定位。",
+    "required_action": "查听证稿与同期CBO口径，不能用2026报道回填2023信息。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ14",
+    "priority": "High",
+    "category": "Forecast",
+    "object_refs": [
+      "C095",
+      "C096"
+    ],
+    "issue": "历史四年增量不足推出未来两年；相互嵌套时间承诺。",
+    "required_action": "核赤字/利息模型；两预测按同一dependency_group计评价，勿双计命中。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ15",
+    "priority": "High",
+    "category": "Forecast/ASR",
+    "object_refs": [
+      "C120",
+      "C121"
+    ],
+    "issue": "结尾35年疑似3—5年，财富/富豪阈值模糊。",
+    "required_action": "回听636后定时间窗口，并与人工协商指标；不靠语感归一。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ16",
+    "priority": "High",
+    "category": "Reasoning",
+    "object_refs": [
+      "C110",
+      "C111",
+      "C112"
+    ],
+    "issue": "个性化治疗昂贵→利润小缺价格/成本区分。",
+    "required_action": "核单位成本、支付能力、定价、患者规模；不能把患者花费当企业成本。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ17",
+    "priority": "High",
+    "category": "Source/medical",
+    "object_refs": [
+      "C065",
+      "X05"
+    ],
+    "issue": "公司topline不等于完整临床证据、治愈或商业化。",
+    "required_action": "查试验注册、预设终点、效应量、随访和监管状态；本期仅公告级。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ18",
+    "priority": "High",
+    "category": "Source",
+    "object_refs": [
+      "C104",
+      "C106",
+      "C107",
+      "C108"
+    ],
+    "issue": "禁用范围、AI能力和成本可比性未核。",
+    "required_action": "定位政策主体与适用场景，基准同模型任务、硬件、定价/成本分开。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ19",
+    "priority": "High",
+    "category": "Data/Forecast",
+    "object_refs": [
+      "C084",
+      "C085",
+      "C087"
+    ],
+    "issue": "连续升值表述及6.7x/6.5报价口径不明。",
+    "required_action": "核截止前CNY/CNH、中间价/即期及观察窗，预测不可无限期等待。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ20",
+    "priority": "High",
+    "category": "Source",
+    "object_refs": [
+      "C043",
+      "C053",
+      "C054",
+      "C057"
+    ],
+    "issue": "唯一盈利项目、军方无动力、无财源均缺财务与合同证据。",
+    "required_action": "读同期财报、募资及采购；去除Starlink/Starshield/商业客户混同。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ35",
+    "priority": "High",
+    "category": "StructuralProcess",
+    "object_refs": [
+      "EV01",
+      "EV02",
+      "TH01"
+    ],
+    "issue": "两个不同技术任务是跨期事件，但还不足以形成商业产业结构过程。",
+    "required_action": "观察同一指标跨期序列；不能只因为满足多Event字面条件就升级Reality。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ21",
+    "priority": "Medium",
+    "category": "ASR/entity",
+    "object_refs": [
+      "C028",
+      "C029",
+      "C030",
+      "C032"
+    ],
+    "issue": "长鑫/长江/宇树名称与上市/产线状态。",
+    "required_action": "校名字并独立核交易所文件与特斯拉披露。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ22",
+    "priority": "Medium",
+    "category": "ASR/entity",
+    "object_refs": [
+      "C059"
+    ],
+    "issue": "蓝天候选蓝箭；产业链主体可能涉及关联公司。",
+    "required_action": "核雄安项目签约、出资、主体与已建产能，不能用集团关系代替。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ23",
+    "priority": "Medium",
+    "category": "ASR/entity",
+    "object_refs": [
+      "C100"
+    ],
+    "issue": "失败火箭型号未知。",
+    "required_action": "回听531定位，不能拿Reuters同题长征7A直接补。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ24",
+    "priority": "Medium",
+    "category": "ASR/entity",
+    "object_refs": [
+      "C041"
+    ],
+    "issue": "六网升级不明确。",
+    "required_action": "回听244并确认政策/工程名称。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ25",
+    "priority": "Medium",
+    "category": "Source/Attribution",
+    "object_refs": [
+      "C062",
+      "C063"
+    ],
+    "issue": "马斯克仅中美原话未核，煮酒论英雄是动机类比。",
+    "required_action": "原始访谈定位，禁止把类比当真实心理证据。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ26",
+    "priority": "Medium",
+    "category": "Reasoning",
+    "object_refs": [
+      "C003",
+      "C004",
+      "C011"
+    ],
+    "issue": "无重大进步/仅数据差距缺同指标技术比较。",
+    "required_action": "分产品版本、载荷、复用、可靠性、频次和价格比较。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ27",
+    "priority": "Medium",
+    "category": "Reasoning",
+    "object_refs": [
+      "C020",
+      "C021",
+      "C022",
+      "C023",
+      "C036",
+      "C037",
+      "C039",
+      "C040"
+    ],
+    "issue": "太空与地面算力对比缺任务轨道和全生命周期口径。",
+    "required_action": "技术原始资料核辐射寿命、散热、能源、通信和维护。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ28",
+    "priority": "Medium",
+    "category": "Historical analogy",
+    "object_refs": [
+      "AR03",
+      "AR06",
+      "AR11",
+      "AR17"
+    ],
+    "issue": "生物演化、上市示范、海南月球及曹刘的类比边界。",
+    "required_action": "分别核源案例，不将相似当同一。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ29",
+    "priority": "Medium",
+    "category": "Forecast",
+    "object_refs": [
+      "C060",
+      "C061",
+      "C064",
+      "C115",
+      "C118"
+    ],
+    "issue": "方向明确但规模、时间、条件与对象弱可结算。",
+    "required_action": "保留低resolvability，不补伪精确窗口。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ30",
+    "priority": "Medium",
+    "category": "Ontology",
+    "object_refs": [
+      "DA01",
+      "method_recurrence",
+      "comparison_basis"
+    ],
+    "issue": "本地未提供机器Schema；声明自定义字段需映射。",
+    "required_action": "审核扩展清单后导入，不能称生产Schema验证通过。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ31",
+    "priority": "Medium",
+    "category": "Ontology/temporal",
+    "object_refs": [
+      "R02",
+      "TH02"
+    ],
+    "issue": "GS002较晚样本只能事后注册表/方法匹配。",
+    "required_action": "禁止创建指向本期历史信息集的evidence边。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ32",
+    "priority": "Medium",
+    "category": "Method",
+    "object_refs": [
+      "MS05",
+      "MS07",
+      "MS11"
+    ],
+    "issue": "正向门槛与负向门槛不对称是模型观察，非稳定心理解释。",
+    "required_action": "跨期盲审对称案例；Failure必须保留双observer字段。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ36",
+    "priority": "Medium",
+    "category": "Source",
+    "object_refs": [
+      "V05"
+    ],
+    "issue": "FCC勘误PDF403且发文日未知，片段中10,200不是本期可安全采用的即时值。",
+    "required_action": "取得原PDF及SEC原披露并核截止资格；不参与当前事实纠正。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ37",
+    "priority": "Medium",
+    "category": "Source/version",
+    "object_refs": [
+      "V01"
+    ],
+    "issue": "通报末段使用复飞任务措辞，但没有硬件序列号与前次飞行履历。",
+    "required_action": "核复飞是型号第二次还是同一级重飞；不从单词推Operational Reusability。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ33",
+    "priority": "Low",
+    "category": "Attribution",
+    "object_refs": [
+      "C113"
+    ],
+    "issue": "林肯名言归属未核。",
+    "required_action": "查可靠原始文献，保留自纠，不从名言推出泡沫期限。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "RQ34",
+    "priority": "Low",
+    "category": "Coverage/audio",
+    "object_refs": [
+      "S01",
+      "S02"
+    ],
+    "issue": "639个字幕块来自同一ASR，没有独立听音；并非两个独立证人。",
+    "required_action": "优先回听Critical/High时间段；其余不能称人工逐句校对。",
+    "status": "open",
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-C005",
+    "object_refs": [
+      "C005"
+    ],
+    "category": "forecast_admission",
+    "question": "C005虽然低可结算，但是否存在真正的未来方向承诺，因此应同时进入Forecast Ledger？",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-MR01",
+    "object_refs": [
+      "MR01"
+    ],
+    "category": "recurrence_evidence",
+    "question": "GS001只有摘要；不能验证具体判断步骤或原句。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-MR03",
+    "object_refs": [
+      "MR03"
+    ],
+    "category": "recurrence_evidence",
+    "question": "本期不是确权、债权人谈判或化债成本；不可判exact。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR01",
+    "object_refs": [
+      "AR01",
+      "AR01/steps/0",
+      "AR01/steps/1",
+      "AR01/steps/2",
+      "AR01/steps/3"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR02",
+    "object_refs": [
+      "AR02"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR02",
+    "object_refs": [
+      "AR02",
+      "AR02/steps/0",
+      "AR02/steps/1",
+      "AR02/steps/2",
+      "AR02/steps/3",
+      "AR02/steps/4",
+      "AR02/steps/5"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR03",
+    "object_refs": [
+      "AR03"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR03",
+    "object_refs": [
+      "AR03",
+      "AR03/steps/0",
+      "AR03/steps/1",
+      "AR03/steps/2",
+      "AR03/steps/3"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR04",
+    "object_refs": [
+      "AR04",
+      "AR04/steps/0",
+      "AR04/steps/1",
+      "AR04/steps/2",
+      "AR04/steps/3"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR05",
+    "object_refs": [
+      "AR05"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR05",
+    "object_refs": [
+      "AR05",
+      "AR05/steps/0",
+      "AR05/steps/1",
+      "AR05/steps/2",
+      "AR05/steps/3",
+      "AR05/steps/4",
+      "AR05/steps/5",
+      "AR05/steps/6",
+      "AR05/steps/7",
+      "AR05/steps/8",
+      "AR05/steps/9"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR06",
+    "object_refs": [
+      "AR06"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR06",
+    "object_refs": [
+      "AR06",
+      "AR06/steps/0",
+      "AR06/steps/1",
+      "AR06/steps/2",
+      "AR06/steps/3",
+      "AR06/steps/4",
+      "AR06/steps/5"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR07",
+    "object_refs": [
+      "AR07"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR07",
+    "object_refs": [
+      "AR07",
+      "AR07/steps/1",
+      "AR07/steps/2",
+      "AR07/steps/3",
+      "AR07/steps/4",
+      "AR07/steps/5",
+      "AR07/steps/6",
+      "AR07/steps/7",
+      "AR07/steps/8",
+      "AR07/steps/9",
+      "AR07/steps/10",
+      "AR07/steps/11",
+      "AR07/steps/12"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR08",
+    "object_refs": [
+      "AR08",
+      "AR08/steps/0",
+      "AR08/steps/1",
+      "AR08/steps/2",
+      "AR08/steps/4",
+      "AR08/steps/5"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR09",
+    "object_refs": [
+      "AR09"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR09",
+    "object_refs": [
+      "AR09",
+      "AR09/steps/0",
+      "AR09/steps/1",
+      "AR09/steps/2",
+      "AR09/steps/3"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR10",
+    "object_refs": [
+      "AR10"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR10",
+    "object_refs": [
+      "AR10",
+      "AR10/steps/0",
+      "AR10/steps/1",
+      "AR10/steps/2",
+      "AR10/steps/3"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR11",
+    "object_refs": [
+      "AR11"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR11",
+    "object_refs": [
+      "AR11",
+      "AR11/steps/0",
+      "AR11/steps/1",
+      "AR11/steps/2",
+      "AR11/steps/3",
+      "AR11/steps/4"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR12",
+    "object_refs": [
+      "AR12",
+      "AR12/steps/0",
+      "AR12/steps/1",
+      "AR12/steps/2",
+      "AR12/steps/3",
+      "AR12/steps/4",
+      "AR12/steps/5",
+      "AR12/steps/6",
+      "AR12/steps/7",
+      "AR12/steps/8",
+      "AR12/steps/9",
+      "AR12/steps/10",
+      "AR12/steps/11"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR13",
+    "object_refs": [
+      "AR13"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR13",
+    "object_refs": [
+      "AR13",
+      "AR13/steps/0",
+      "AR13/steps/1",
+      "AR13/steps/2",
+      "AR13/steps/3",
+      "AR13/steps/4",
+      "AR13/steps/5",
+      "AR13/steps/6",
+      "AR13/steps/7"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR14",
+    "object_refs": [
+      "AR14"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR14",
+    "object_refs": [
+      "AR14",
+      "AR14/steps/0",
+      "AR14/steps/1",
+      "AR14/steps/2",
+      "AR14/steps/3",
+      "AR14/steps/4",
+      "AR14/steps/5",
+      "AR14/steps/6"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR15",
+    "object_refs": [
+      "AR15",
+      "AR15/steps/0",
+      "AR15/steps/4"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR16",
+    "object_refs": [
+      "AR16",
+      "AR16/steps/0",
+      "AR16/steps/1",
+      "AR16/steps/2",
+      "AR16/steps/3",
+      "AR16/steps/4",
+      "AR16/steps/5",
+      "AR16/steps/6",
+      "AR16/steps/7"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-AR17",
+    "object_refs": [
+      "AR17"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR17",
+    "object_refs": [
+      "AR17",
+      "AR17/steps/0"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FRAGILE-DA01",
+    "object_refs": [
+      "DA01"
+    ],
+    "category": "fragile_step",
+    "question": "原limitations未唯一指定最脆弱边；保留文字，人工选择具体step，迁移不猜。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-DA01",
+    "object_refs": [
+      "DA01",
+      "DA01/steps/0",
+      "DA01/steps/1",
+      "DA01/steps/2",
+      "DA01/steps/3",
+      "DA01/steps/4"
+    ],
+    "category": "role_scope",
+    "question": "逐边核对未知/专用semantic_role及跨案例范围；既有边不代表转换已获验证。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-C003-OCCURRENCE",
+    "object_refs": [
+      "C003",
+      "OC130",
+      "SS-OC130"
+    ],
+    "category": "occurrence_mapping",
+    "question": "213—218字幕谈故事空间，C003重复映射待人工核对；保留原映射但禁止当作新增支持。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  }
+]

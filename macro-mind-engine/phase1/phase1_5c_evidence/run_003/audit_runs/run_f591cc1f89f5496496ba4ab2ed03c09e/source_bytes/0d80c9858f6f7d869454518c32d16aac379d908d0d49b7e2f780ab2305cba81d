@@ -1,0 +1,427 @@
+{
+  "additional_checks": {
+    "format_exit": 0,
+    "installed_cli_pass": true,
+    "mapping_verification": true,
+    "no_forbidden_imports": true,
+    "no_unexpected_changes": true,
+    "pytest_exit": 0,
+    "ruff_exit": 0
+  },
+  "evidence_run": "phase1/phase1_4_evidence/run_002",
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "batch_pilot": "NOT_STARTED",
+    "macromind_core_skill": "NOT_READY",
+    "phase1_5": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production_import_ready": false
+  },
+  "gates": [
+    {
+      "description": "Frozen Contract still PASS",
+      "evidence": "phase1/phase1_4_evidence/run_002/contract_integrity.json",
+      "gate_id": "G01",
+      "status": "PASS"
+    },
+    {
+      "description": "Existing tests all PASS; actual collection retained",
+      "evidence": "phase1/phase1_4_test_report.json",
+      "gate_id": "G02",
+      "status": "PASS"
+    },
+    {
+      "description": "Inventory from actual historical assets",
+      "evidence": "phase1/phase1_4_legacy_inventory.json",
+      "gate_id": "G03",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic artifact lineage",
+      "evidence": "phase1/phase1_4_artifact_lineage.json",
+      "gate_id": "G04",
+      "status": "PASS"
+    },
+    {
+      "description": "Detector deterministic",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_markers_and_shape[False-STRONG-V0_3_LEGACY]",
+          "test_markers_and_shape[True-EXACT-MA1_COMPAT]",
+          "test_three_runs_identical"
+        ]
+      },
+      "gate_id": "G05",
+      "status": "PASS"
+    },
+    {
+      "description": "Detector ignores filename",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_labels_not_format",
+          "test_filename_directory_metamorphism"
+        ]
+      },
+      "gate_id": "G06",
+      "status": "PASS"
+    },
+    {
+      "description": "Golden number is not format",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_labels_not_format"
+        ]
+      },
+      "gate_id": "G07",
+      "status": "PASS"
+    },
+    {
+      "description": "Ambiguous shape not selected",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_ambiguous_not_selected"
+        ]
+      },
+      "gate_id": "G08",
+      "status": "PASS"
+    },
+    {
+      "description": "Unknown shape unsupported",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_unknown_is_unsupported[value0]",
+          "test_unknown_is_unsupported[42]",
+          "test_unknown_is_unsupported[value2]",
+          "test_unknown_is_unsupported[value3]",
+          "test_unknown_explicit_version"
+        ]
+      },
+      "gate_id": "G09",
+      "status": "PASS"
+    },
+    {
+      "description": "Adapter Registry deterministic",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_registry_deterministic_selection"
+        ]
+      },
+      "gate_id": "G10",
+      "status": "PASS"
+    },
+    {
+      "description": "Family plus target selects adapter",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_registry_deterministic_selection"
+        ]
+      },
+      "gate_id": "G11",
+      "status": "PASS"
+    },
+    {
+      "description": "Original artifact unchanged",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_copy_rename_unknown_immutable",
+          "test_filename_directory_metamorphism"
+        ]
+      },
+      "gate_id": "G12",
+      "status": "PASS"
+    },
+    {
+      "description": "No in-place mode",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_adapt_cli_codes_and_no_inplace",
+          "test_in_place_and_overwrite_forbidden"
+        ]
+      },
+      "gate_id": "G13",
+      "status": "PASS"
+    },
+    {
+      "description": "No semantic re-extraction",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_scenario_not_forecast",
+          "test_no_temporal_parsing_or_claim_source_fabrication"
+        ]
+      },
+      "gate_id": "G14",
+      "status": "PASS"
+    },
+    {
+      "description": "Unknown before guess",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_copy_rename_unknown_immutable",
+          "test_null_unknown_missing_remain_distinct",
+          "test_required_claim_statement_is_never_fabricated"
+        ]
+      },
+      "gate_id": "G15",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic ids",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_cross_type_ids_and_refs",
+          "test_missing_ids_stable_and_order_permutation"
+        ]
+      },
+      "gate_id": "G16",
+      "status": "PASS"
+    },
+    {
+      "description": "Complete mapping ledger",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_mapping_covers_all_canonical_leaves",
+          "test_real_mapping_hashes_and_coverage"
+        ]
+      },
+      "gate_id": "G17",
+      "status": "PASS"
+    },
+    {
+      "description": "Explicit losses",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_enum_map_and_unknown_enum",
+          "test_unknown_fields_preserved_and_loss_reported"
+        ]
+      },
+      "gate_id": "G18",
+      "status": "PASS"
+    },
+    {
+      "description": "Meaningful unsupported fields preserved",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_unknown_fields_preserved_and_loss_reported"
+        ]
+      },
+      "gate_id": "G19",
+      "status": "PASS"
+    },
+    {
+      "description": "Quarantine works",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_required_semantics_quarantine",
+          "test_ambiguous_duplicate_identity_quarantined"
+        ]
+      },
+      "gate_id": "G20",
+      "status": "PASS"
+    },
+    {
+      "description": "Summary-only remains partial",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_summary_only_no_reconstruction"
+        ]
+      },
+      "gate_id": "G21",
+      "status": "PASS"
+    },
+    {
+      "description": "Pre-MA/V0.3 conservative adaptation",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_actual_pre_ma_v03_families"
+        ]
+      },
+      "gate_id": "G22",
+      "status": "PASS"
+    },
+    {
+      "description": "Accepted MA.1 adaptation",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_every_emitted_object_is_canonical",
+          "test_actual_accepted_ma1"
+        ]
+      },
+      "gate_id": "G23",
+      "status": "PASS"
+    },
+    {
+      "description": "GS004 accepted decisions preserved",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_gs004_decisions_not_reinterpreted"
+        ]
+      },
+      "gate_id": "G24",
+      "status": "PASS"
+    },
+    {
+      "description": "GS005 accepted decisions preserved",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_gs005_accepted_scenario_decision",
+          "test_lineage_uses_completion_hashes"
+        ]
+      },
+      "gate_id": "G25",
+      "status": "PASS"
+    },
+    {
+      "description": "Canonical transport accepted by Validator",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_transport_only_integration",
+          "test_validator_errors_not_repaired"
+        ]
+      },
+      "gate_id": "G26",
+      "status": "PASS"
+    },
+    {
+      "description": "Raw Legacy still rejected",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_transport_only_integration"
+        ]
+      },
+      "gate_id": "G27",
+      "status": "PASS"
+    },
+    {
+      "description": "Adaptation deterministic",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_three_runs_identical",
+          "test_adaptation_manifest"
+        ]
+      },
+      "gate_id": "G28",
+      "status": "PASS"
+    },
+    {
+      "description": "Filename/directory metamorphism",
+      "evidence": {
+        "junit": "phase1/phase1_4_evidence/run_002/tests.xml",
+        "tests": [
+          "test_filename_directory_metamorphism"
+        ]
+      },
+      "gate_id": "G29",
+      "status": "PASS"
+    },
+    {
+      "description": "Validator source unchanged",
+      "evidence": "phase1/phase1_4_immutability_report.json",
+      "gate_id": "G30",
+      "status": "PASS"
+    },
+    {
+      "description": "Schema unchanged",
+      "evidence": "phase1/phase1_4_immutability_report.json",
+      "gate_id": "G31",
+      "status": "PASS"
+    },
+    {
+      "description": "Registry unchanged",
+      "evidence": "phase1/phase1_4_immutability_report.json",
+      "gate_id": "G32",
+      "status": "PASS"
+    },
+    {
+      "description": "Frozen unchanged",
+      "evidence": "phase1/phase1_4_immutability_report.json",
+      "gate_id": "G33",
+      "status": "PASS"
+    },
+    {
+      "description": "Golden originals unchanged",
+      "evidence": "phase1/phase1_4_immutability_report.json",
+      "gate_id": "G34",
+      "status": "PASS"
+    },
+    {
+      "description": "No Audit Runner",
+      "evidence": "phase1/phase1_4_scope_check.json",
+      "gate_id": "G35",
+      "status": "PASS"
+    },
+    {
+      "description": "No Golden Regression",
+      "evidence": "phase1/phase1_4_scope_check.json",
+      "gate_id": "G36",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5 NOT_STARTED",
+      "evidence": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "batch_pilot": "NOT_STARTED",
+        "macromind_core_skill": "NOT_READY",
+        "phase1_5": "NOT_STARTED",
+        "phase1_6": "NOT_STARTED",
+        "production_import_ready": false
+      },
+      "gate_id": "G37",
+      "status": "PASS"
+    },
+    {
+      "description": "Production Import false",
+      "evidence": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "batch_pilot": "NOT_STARTED",
+        "macromind_core_skill": "NOT_READY",
+        "phase1_5": "NOT_STARTED",
+        "phase1_6": "NOT_STARTED",
+        "production_import_ready": false
+      },
+      "gate_id": "G38",
+      "status": "PASS"
+    },
+    {
+      "description": "Analyst/Skills NOT_READY",
+      "evidence": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "batch_pilot": "NOT_STARTED",
+        "macromind_core_skill": "NOT_READY",
+        "phase1_5": "NOT_STARTED",
+        "phase1_6": "NOT_STARTED",
+        "production_import_ready": false
+      },
+      "gate_id": "G39",
+      "status": "PASS"
+    }
+  ],
+  "status": "READY_FOR_PHASE_1_5"
+}

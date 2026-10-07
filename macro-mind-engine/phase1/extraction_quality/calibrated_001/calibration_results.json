@@ -1,0 +1,45 @@
+{
+  "sample_size": 5,
+  "labels": [
+    {
+      "id": "EP001/C02",
+      "assistant_flagged": false,
+      "human_action": "keep_original",
+      "outcome": "UNFLAGGED_RETAINED"
+    },
+    {
+      "id": "EP002/C05",
+      "assistant_flagged": true,
+      "human_action": "change",
+      "outcome": "ISSUE_CONFIRMED_WITH_USER_REFINEMENT",
+      "refinement": "Official calculation is a hypothesized premise of the blogger interpretation, not merely a missing external citation."
+    },
+    {
+      "id": "EP003/C18",
+      "assistant_flagged": true,
+      "human_action": "adopt_proposal",
+      "outcome": "ISSUE_CONFIRMED"
+    },
+    {
+      "id": "EP004/C08",
+      "assistant_flagged": true,
+      "human_action": "keep_original",
+      "outcome": "FLAG_NOT_ADOPTED_BY_USER"
+    },
+    {
+      "id": "EP005/C21",
+      "assistant_flagged": false,
+      "human_action": "keep_original",
+      "outcome": "UNFLAGGED_RETAINED"
+    }
+  ],
+  "assistant_flags": 3,
+  "flags_confirmed_for_revision": 2,
+  "flags_not_adopted": 1,
+  "unflagged_retained": 2,
+  "machine_guard_detected_semantic_errors_in_frozen_baseline": 0,
+  "all_five_machine_guards_passed": true,
+  "generalization_proven": false,
+  "sample_retired_from_holdout": true,
+  "reason": "Two human-confirmed cases are now incorporated into a separate calibrated policy version; frozen evaluation remains unchanged."
+}

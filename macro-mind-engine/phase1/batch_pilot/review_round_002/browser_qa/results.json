@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "Eight new cards display review text and focused question before evidence",
+    "All three review categories can be answered; drafts survive reload",
+    "Export uses round002 name and correct 8-item dataset",
+    "Readable text export contains feedback",
+    "Import round trip restores fields",
+    "Previous 7-item export rejected without changing new draft",
+    "Mobile review card fits 390px viewport",
+    "No application runtime errors"
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ],
+  "environment": "Edge headless, fresh isolated context, HTTP localhost serving only new review_round_002 artifacts; no access to user browser state",
+  "browser_plugin": "Not available",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "limitations": [
+    "Native directory picker not tested",
+    "Existing user browser drafts not accessed",
+    "Synthetic test feedback is not human approval"
+  ]
+}

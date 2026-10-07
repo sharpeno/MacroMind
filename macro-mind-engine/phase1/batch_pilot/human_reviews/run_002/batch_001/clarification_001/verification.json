@@ -1,0 +1,22 @@
+{
+  "corrections": 6,
+  "changed_cues": 6,
+  "immutable_checks": [
+    {
+      "name": "run001",
+      "count": 347,
+      "mismatches": []
+    },
+    {
+      "name": "run002",
+      "count": 301,
+      "mismatches": []
+    },
+    {
+      "name": "received_review",
+      "count": 6,
+      "mismatches": []
+    }
+  ],
+  "original_export_sha256": "df7b11f5f90a1e059976c12822fe3e7f00dd64bb073bb0e2f66bb50ad1ddce3f"
+}

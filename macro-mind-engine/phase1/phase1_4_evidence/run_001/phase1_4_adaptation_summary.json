@@ -1,0 +1,93 @@
+{
+  "canonical_objects": 1850,
+  "canonical_view_count": 5,
+  "losses": 30496,
+  "mapping_entries": 60209,
+  "mapping_hashes_and_coverage_passed": true,
+  "quarantined_objects": 1074,
+  "representatives": [
+    {
+      "artifact_path": "golden_sample_test/golden_report.md",
+      "authority": "Evidence catalog explicitly identifies summary-only historical carrier.",
+      "canonical_object_count": 0,
+      "deterministic_hash": "c547e3eaae62e85f88c4c9233c792a3b02419e6065f34a309d200731e247e754",
+      "label": "summary",
+      "losses": 1,
+      "mapping_entries": 0,
+      "output": "phase1/phase1_4_evidence/run_001/summary.adaptation.json",
+      "quarantined_object_count": 0,
+      "source_family": "SUMMARY_ONLY_LEGACY",
+      "source_sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+      "status": "PARTIAL",
+      "unknown_defaults": 0
+    },
+    {
+      "artifact_path": "golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "authority": "Unique inventoried section shape.",
+      "canonical_object_count": 228,
+      "deterministic_hash": "7d19af3e41d078922d1f66ddd9a32842be9b91d0de67d37a5a018fa975ac3347",
+      "label": "pre",
+      "losses": 6442,
+      "mapping_entries": 9102,
+      "output": "phase1/phase1_4_evidence/run_001/pre.adaptation.json",
+      "quarantined_object_count": 345,
+      "source_family": "LEGACY_PRE_MA",
+      "source_sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+      "status": "PARTIAL",
+      "unknown_defaults": 4195
+    },
+    {
+      "artifact_path": "golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "authority": "Unique inventoried section shape.",
+      "canonical_object_count": 378,
+      "deterministic_hash": "e8fef113f96f8f90f35ccbb80f468ce89464b23b12a445df8e46b06ef08622cc",
+      "label": "v03",
+      "losses": 7400,
+      "mapping_entries": 14038,
+      "output": "phase1/phase1_4_evidence/run_001/v03.adaptation.json",
+      "quarantined_object_count": 342,
+      "source_family": "V0_3_LEGACY",
+      "source_sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+      "status": "PARTIAL",
+      "unknown_defaults": 4536
+    },
+    {
+      "artifact_path": "golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "authority": "Accepted metadata plus output-hash-linked completed finalization/hotfix.",
+      "canonical_object_count": 563,
+      "deterministic_hash": "d91fe87ad7dad2f002b63ec257107df30f185414e86ba22864a99bace1b3c865",
+      "label": "accepted_1",
+      "losses": 9458,
+      "mapping_entries": 18862,
+      "output": "phase1/phase1_4_evidence/run_001/accepted_1.adaptation.json",
+      "quarantined_object_count": 247,
+      "source_family": "MA1_COMPAT",
+      "source_sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+      "status": "PARTIAL",
+      "unknown_defaults": 4066
+    },
+    {
+      "artifact_path": "golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "authority": "Accepted metadata plus output-hash-linked completed finalization/hotfix.",
+      "canonical_object_count": 681,
+      "deterministic_hash": "c724e3a1086e3c7dd52774d76c0431a8ecf600a2f8dcded1b5b77c606e6c4a63",
+      "label": "accepted_2",
+      "losses": 7195,
+      "mapping_entries": 18207,
+      "output": "phase1/phase1_4_evidence/run_001/accepted_2.adaptation.json",
+      "quarantined_object_count": 140,
+      "source_family": "MA1_COMPAT",
+      "source_sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "status": "PARTIAL",
+      "unknown_defaults": 3980
+    }
+  ],
+  "scope": "Five targeted compatibility representatives, not full Golden semantic regression.",
+  "status_counts": {
+    "LOSSLESS": 0,
+    "LOSSY_BUT_SAFE": 0,
+    "PARTIAL": 5,
+    "UNSUPPORTED": 0
+  },
+  "unknown_defaults": 16777
+}

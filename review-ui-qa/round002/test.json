@@ -1,0 +1,106 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "f47493193e04617f6e9be8feb84f05a2eeb519dce67c55df659ed6577aff1043",
+  "exported_at": "2026-10-03T09:25:48.068Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "R02/EP001/A03",
+      "episode": "EP001",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "faithful",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:25:47.939Z"
+    },
+    {
+      "id": "R02/EP002/gap223_235",
+      "episode": "EP002",
+      "kind": "字幕覆盖",
+      "content_status": "pending",
+      "decision": "extract",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:25:47.945Z"
+    },
+    {
+      "id": "R02/EP003/C23",
+      "episode": "EP003",
+      "kind": "条件与范围",
+      "content_status": "pending",
+      "decision": "change",
+      "note": "QA only 非人工认可",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:25:47.954Z"
+    },
+    {
+      "id": "R02/EP004/C15",
+      "episode": "EP004",
+      "kind": "条件与范围",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "R02/EP004/C22",
+      "episode": "EP004",
+      "kind": "条件与范围",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "R02/EP005/A03",
+      "episode": "EP005",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "R02/EP005/gap230",
+      "episode": "EP005",
+      "kind": "字幕覆盖",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "R02/EP005/A06",
+      "episode": "EP005",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

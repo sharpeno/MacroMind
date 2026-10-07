@@ -1,0 +1,62 @@
+{
+  "positive": true,
+  "negative_cases": [
+    {
+      "name": "beneficiary_to_planner",
+      "rejected": true
+    },
+    {
+      "name": "missing_to_absent",
+      "rejected": true
+    },
+    {
+      "name": "hidden_motive_proven",
+      "rejected": true
+    },
+    {
+      "name": "announcement_to_execution",
+      "rejected": true
+    },
+    {
+      "name": "action_to_effect",
+      "rejected": true
+    },
+    {
+      "name": "omit_method",
+      "rejected": true
+    },
+    {
+      "name": "missing_dependency",
+      "rejected": true
+    },
+    {
+      "name": "sole_motive",
+      "rejected": true
+    },
+    {
+      "name": "unconditional_link",
+      "rejected": true
+    },
+    {
+      "name": "no_retraction",
+      "rejected": true
+    },
+    {
+      "name": "fake_reference",
+      "rejected": true
+    },
+    {
+      "name": "false_blind",
+      "rejected": true
+    }
+  ],
+  "protected_files_unchanged": 650,
+  "frozen_files_unchanged": true,
+  "unchanged_methods": [
+    "M03",
+    "M05"
+  ],
+  "semantic_accuracy": "NOT_SCORED",
+  "long_term_effectiveness": "NOT_TESTED",
+  "test_scope": "Structured guard checks; cannot detect all misleading natural-language statements"
+}

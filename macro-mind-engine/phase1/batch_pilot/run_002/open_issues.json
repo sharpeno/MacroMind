@@ -1,0 +1,21 @@
+[
+  {
+    "id": "EP001/duration",
+    "evidence_cues": [
+      45,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83
+    ],
+    "issue": "题材转换持续时长有不到一个星期与一个多星期两种说法；修订主张不选定精确时长。",
+    "status": "UNRESOLVED_AUDIO_OR_CONTEXT_REVIEW"
+  },
+  {
+    "id": "EP001/bank_sources",
+    "issue": "网页可读不等于作者引用、事前可得或已证明题材转换失败；高盛文章与视频CPI前后顺序有疑问。",
+    "status": "SUPPLEMENT_ONLY_NOT_ADMITTED"
+  }
+]

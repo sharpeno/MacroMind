@@ -1,0 +1,1794 @@
+[
+  {
+    "source_segment_id": "SS-C001",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "大家好，今天跟大家聊聊朱雀3号这个回收成功啊，非常非常重要的里程碑事件。而且这个意义是非凡的。首先第一个啊，这个技术上面的这个追赶啊，通过这个事儿都告诉你，我们花了10年时间追上了美国10年前的水平。听这个话听起来好像咱们跟之前美国的这个差距。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 1,
+    "cue_end": 1,
+    "start": "00:00:00,240",
+    "end": "00:00:20,240"
+  },
+  {
+    "source_segment_id": "SS-C002",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "大家好，今天跟大家聊聊朱雀3号这个回收成功啊，非常非常重要的里程碑事件。而且这个意义是非凡的。首先第一个啊，这个技术上面的这个追赶啊，通过这个事儿都告诉你，我们花了10年时间追上了美国10年前的水平。听这个话听起来好像咱们跟之前美国的这个差距。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 1,
+    "cue_end": 1,
+    "start": "00:00:00,240",
+    "end": "00:00:20,240"
+  },
+  {
+    "source_segment_id": "SS-C003",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "还遥不可及。但是你仔细分析下来的话，这个其实是非常非常厉害的一个一个一个一个进步了。首先呢splay X10年前到今天没有什么技术上的更大的突破，小的更新肯定是有小的进步肯定是有。但是你说那种跨越式的变化没有特别的明显，没有特别的大。那证明。\n啥呢？就是话说的好听点，叫做咱们今天追上了美国10年前的水平。话说的难听点，就是咱们今天追上的这个水平，跟当今美国的主流水平相大差不差，缺的只是数据的积累，对吧？那十年美国其实是特别是航空航天这个领域里面sweX的进步，其实。\n是非常非常有限的。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 2,
+    "cue_end": 4,
+    "start": "00:00:20,240",
+    "end": "00:01:01,670"
+  },
+  {
+    "source_segment_id": "SS-C004",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "啥呢？就是话说的好听点，叫做咱们今天追上了美国10年前的水平。话说的难听点，就是咱们今天追上的这个水平，跟当今美国的主流水平相大差不差，缺的只是数据的积累，对吧？那十年美国其实是特别是航空航天这个领域里面sweX的进步，其实。\n是非常非常有限的。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 3,
+    "cue_end": 4,
+    "start": "00:00:40,240",
+    "end": "00:01:01,670"
+  },
+  {
+    "source_segment_id": "SS-C005",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "在这段时间里边的话，咱们的进步的速度可以得到保持的话。\n很快就会超过美国了。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 10,
+    "cue_end": 11,
+    "start": "00:01:15,630",
+    "end": "00:01:22,020"
+  },
+  {
+    "source_segment_id": "SS-C006",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你我们绝对不是因为你马斯克开源了，所以我们得到了中文的这个。\n这个这个开发的计划书了，我们可以开发。如果真是这样的话，那其他国家为啥不去找马斯克找开源的资料？\n去发展到自己的可服用的。\n这个火箭呢。\n对吧。\n这里边肯定是有门槛的，而且这个门槛肯定是我们自己独立攻克的。",
+    "semantic_segment_refs": [
+      "SEG01"
+    ],
+    "cue_start": 16,
+    "cue_end": 21,
+    "start": "00:01:29,330",
+    "end": "00:01:49,180"
+  },
+  {
+    "source_segment_id": "SS-C007",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "咱们这边的话明显的通过这个行为验证了。\n举国体制是饱和式研发，它确实是有用的。",
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "cue_start": 29,
+    "cue_end": 30,
+    "start": "00:02:02,130",
+    "end": "00:02:08,940"
+  },
+  {
+    "source_segment_id": "SS-C008",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你看前段时间。\n海上的信往回舟。\n那这是你美国都没有实现的。\n啊，我们实现了。\n现在呢路上的支架回收，这是你马斯克用过的对吧？",
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "cue_start": 31,
+    "cue_end": 35,
+    "start": "00:02:08,940",
+    "end": "00:02:17,660"
+  },
+  {
+    "source_segment_id": "SS-C009",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后呢，一个是国家队，一个是商业商业航天。\n啊，不同的体质。\n同样的这个方向一起努力。\n实现了这种是吧？\n官方跟。\n这个。\n民间的这张的这样的一个互补。\n不管是场景的互补，商业它更更多讲的是。\n能不能赚钱嘛？这里边有没有商业的价值嘛？\n对吧。\n海上那个风险大，研究的风险大。所以呢国家队担纲。\n那相当于就是创举嘛。\n这样的话打开这样的有人在前面开拓这个空间，有人在后边跟跟进。",
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "cue_start": 36,
+    "cue_end": 48,
+    "start": "00:02:17,680",
+    "end": "00:02:48,940"
+  },
+  {
+    "source_segment_id": "SS-C010",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "比竟美国那个航空航天的那个一直独秒s倍X是吧？完全靠着它。\n那可能要更加的靠谱一点吧。",
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "cue_start": 53,
+    "cue_end": 54,
+    "start": "00:02:54,060",
+    "end": "00:03:01,210"
+  },
+  {
+    "source_segment_id": "SS-C011",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "包括呢你看到。\n美国那边的什么蓝色起源的那些东西。\n啊，龙飞船的那些东西是吧？吹的挺厉害的。当时的时候也是希望他们能够。\n啊，这个。\n呃，百花争鸣的。\n但是结果到今天是吧，时隔这几年了，发现这里边儿。\n啊，不管是这个啊这个亚马逊。\n呃，贝索斯搞的那个蓝色起源还是。\n买那些欧空局搞那些东西，还是美国那些。\n啊，那些小的那些航空的机构。\n真正拿出来的东西，真正拿出来能够大规模使用的东西，真正靠谱的。\n发射了。\n能够安全一点的啊，能够。\n让大家放心一点的。\n说句心里话。\n这么长时间了。\n没有很大的进展。\n当时出来的时候很惊艳。\n但是也就是出来那一项经验。\n后边的话反复的拉垮，反复的赶不上进度。\n已经把后继无力这事直接写在脸上了。",
+    "semantic_segment_refs": [
+      "SEG02"
+    ],
+    "cue_start": 55,
+    "cue_end": 75,
+    "start": "00:03:01,250",
+    "end": "00:03:54,570"
+  },
+  {
+    "source_segment_id": "SS-C012",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "而且呢从这个航空航天的重要性来说的话，当今这个时代的话。\n可能比之前的话更加的重要。它更多的是一个话语权的争取。\n所以。\n2030年登月这个事儿的话，很重要很重要的，为啥啊？",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 86,
+    "cue_end": 89,
+    "start": "00:04:21,450",
+    "end": "00:04:34,940"
+  },
+  {
+    "source_segment_id": "SS-C013",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "人类作为发展的方向来说的话，可能就两个大的方向。\n一个呢就是向内求是吧？所谓的脑机接口。\n虚拟化。\n把意识呢上传。\n这个呢就是相当于是用很低的能耗。\n就能够在地球上面展望未来可以想象的空间。因为。\n那个时候的话就是制约你的就是算力和能源了。\n算力和能源这个事儿的话，其实都好解决对吧？算力的话就提高自自己的这个芯片的这个密度。\n提高这个制造芯片的能力。\n能源的话就带森球计划是吧？\n你能够搞定核聚变，你就搞定核聚变，搞不定核聚变，天上有个现成的核聚变。\n啊。\n等你把意识都虚拟化了以后的话，其实。\n啊，太阳是不是完全被罩在戴森球里边已经不重要了，对吧？\n这个的话是一个所谓的向内求的未来。\n几十万年几几几几百万年的一个发展的路径。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 96,
+    "cue_end": 111,
+    "start": "00:04:53,390",
+    "end": "00:05:45,260"
+  },
+  {
+    "source_segment_id": "SS-C014",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "另外一条呢就是向着太空走去。\n对吧。\n太空能能的广阔。\n就像那个。\n水里面的鱼。\n完成了这种。\n退这个这个月迁。\n呃，从水里面跳到岸上来。从。\n水生动物变成两栖动物一样的。\n那以前的话是叫做。\n啊，地球生命未来的话可能就叫做太空生命，中间可能有个过渡阶段。\n是吧太工人的阶段。\n可能有一个太空战的阶段。\n啊，这未来的话可能也是。\n发展。\n几万年几十万年的一个发展路径，就是两个路径啊，一个像内求。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 112,
+    "cue_end": 127,
+    "start": "00:05:45,380",
+    "end": "00:06:19,010"
+  },
+  {
+    "source_segment_id": "SS-C015",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "就像那个。\n水里面的鱼。\n完成了这种。\n退这个这个月迁。\n呃，从水里面跳到岸上来。从。\n水生动物变成两栖动物一样的。\n那以前的话是叫做。\n啊，地球生命未来的话可能就叫做太空生命，中间可能有个过渡阶段。\n是吧太工人的阶段。\n可能有一个太空战的阶段。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 115,
+    "cue_end": 124,
+    "start": "00:05:51,000",
+    "end": "00:06:12,290"
+  },
+  {
+    "source_segment_id": "SS-C016",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "向外走的话，最关键就是怎么样把物质。\n用最低的成本运到太空中去。\n啊，那这个可复用的火箭。\n就是实现这些拼图的第一步。\n实现完了以后，就想方设法怎么造台空电梯。\n把台空那机造造起来了以后，这个运输的成本又可以降低一大截。\n这样的话。\n有非常非常低廉的成本。\n能够把这个建筑材料，把这些设备运到太空中去。\n然后在太空中设计一个。\n新的发射。\n站啊，从太空中再出发。\n然后的话再去开发月球，再开发其他的太阳系的其他行星。\n然后开发完了以后呢。\n然后再从太阳系为基础，然后开始星机的远航，未来可以想象的空间很大很大。\n但是所有这些。\n那都是0。\n前面有一个一是啥呢？就是。\n要实现这种可复用的火箭。\n这是一切的基础。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 131,
+    "cue_end": 150,
+    "start": "00:06:25,350",
+    "end": "00:07:14,350"
+  },
+  {
+    "source_segment_id": "SS-C017",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "实现完了以后，就想方设法怎么造台空电梯。\n把台空那机造造起来了以后，这个运输的成本又可以降低一大截。\n这样的话。\n有非常非常低廉的成本。\n能够把这个建筑材料，把这些设备运到太空中去。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 135,
+    "cue_end": 139,
+    "start": "00:06:35,860",
+    "end": "00:06:49,960"
+  },
+  {
+    "source_segment_id": "SS-C018",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后在太空中设计一个。\n新的发射。\n站啊，从太空中再出发。\n然后的话再去开发月球，再开发其他的太阳系的其他行星。\n然后开发完了以后呢。\n然后再从太阳系为基础，然后开始星机的远航，未来可以想象的空间很大很大。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 140,
+    "cue_end": 145,
+    "start": "00:06:49,960",
+    "end": "00:07:06,630"
+  },
+  {
+    "source_segment_id": "SS-C019",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那现在之前的时候，这个故事呢一直是美国那边讲的是吧？一直是space讲的马斯克讲的。\n包括马斯克。\nspaceex上市。\n讲的也是类似的故事。\n对吧只是把这个故事给你结合了一下，跟恩I结合了一下。\n跟太空算力结合了一下。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 151,
+    "cue_end": 156,
+    "start": "00:07:14,350",
+    "end": "00:07:29,350"
+  },
+  {
+    "source_segment_id": "SS-C020",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那太空算力上面，你说。\n它散热散热没什么优势。\n你说他这个运输的成本成本啊没什么优势。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 159,
+    "cue_end": 161,
+    "start": "00:07:37,300",
+    "end": "00:07:44,620"
+  },
+  {
+    "source_segment_id": "SS-C021",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你说他这个运输的成本成本啊没什么优势。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 161,
+    "cue_end": 161,
+    "start": "00:07:41,320",
+    "end": "00:07:44,620"
+  },
+  {
+    "source_segment_id": "SS-C022",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那太空太空上面唯一的优势的话，可能就是太空太空发电可能会好一点。\n但是。\n在太空发电里边，你虽然说发电是吧，太阳太阳能发电的折损小一点。\n但它不稳定性也更强呀。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 162,
+    "cue_end": 165,
+    "start": "00:07:44,620",
+    "end": "00:07:57,030"
+  },
+  {
+    "source_segment_id": "SS-C023",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "但它不稳定性也更强呀。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 165,
+    "cue_end": 165,
+    "start": "00:07:55,180",
+    "end": "00:07:57,030"
+  },
+  {
+    "source_segment_id": "SS-C024",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这种所谓的这个太空算力，我认为就是个噱头。\n就是因为当时的时候spaceaks有这么一个。\n人无我有的一个优势，我可以非常低廉的成本把地上的物资放运到太空中去。\n跟所有其他竞争对手之间有着代差。那我的成本是他们10分之1。\n所以我就借着这个赶紧的吹我自己擅长的东西，在上面赶赶紧的贴金吧。\n赶紧讲故事嘛。\n才有的太用算力这个东西。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 167,
+    "cue_end": 173,
+    "start": "00:07:57,650",
+    "end": "00:08:21,900"
+  },
+  {
+    "source_segment_id": "SS-C025",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "人无我有的一个优势，我可以非常低廉的成本把地上的物资放运到太空中去。\n跟所有其他竞争对手之间有着代差。那我的成本是他们10分之1。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 169,
+    "cue_end": 170,
+    "start": "00:08:04,550",
+    "end": "00:08:14,130"
+  },
+  {
+    "source_segment_id": "SS-C026",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那现在呢现在中国也掌握这个技术了，也可以用非常低廉的成本。\n把物质送到太空上去了。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 174,
+    "cue_end": 175,
+    "start": "00:08:22,000",
+    "end": "00:08:28,250"
+  },
+  {
+    "source_segment_id": "SS-C027",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这太空算律的故事还能吹不吹得下去，我觉得是一个非常非常值得怀疑的事，是吧？\n因为从常识来说的话。\n我从来就不看好太空三类这个说法。\n啊。\n太空的算计中心，想想他觉得脱骨子放屁是吧？\n那现在呢不管是不是脱骨子放品，那咱们有这个能力长成闲道了。",
+    "semantic_segment_refs": [
+      "SEG04"
+    ],
+    "cue_start": 176,
+    "cue_end": 181,
+    "start": "00:08:28,250",
+    "end": "00:08:45,940"
+  },
+  {
+    "source_segment_id": "SS-C028",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你美国那边炒炒内存，咱们这边就。\n开始长新上市，长江要准备上市了。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 184,
+    "cue_end": 185,
+    "start": "00:08:51,950",
+    "end": "00:08:58,330"
+  },
+  {
+    "source_segment_id": "SS-C029",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "开始长新上市，长江要准备上市了。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 185,
+    "cue_end": 185,
+    "start": "00:08:54,690",
+    "end": "00:08:58,330"
+  },
+  {
+    "source_segment_id": "SS-C030",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后这个机器人这块也是的语速上市。\n对吧。\n因美国还没有相相相关的这种企业呢。\n美国人自己。\n那个思维呃，就这个马斯克前面吹的那个擎天柱那个机器人。\n吹的山呼海叫的，吹的天花乱坠的。\n说是把你加州这边生产那个。\n就是特斯拉model X的。\n那个这个产线都拿来做这个autoppress这这个擎天柱机器人了。\n结果呢语数上市了。\n以上是这个贵估值这么的高。\n你美国的公司看到了这个东西，实际上是一个打破。\n之前华尔街才能募资的这个神话的一个很重要的一个里程碑事件呢。\n中国的企业是吧，率先的上市机器人的企业，美国都没有的题材，咱们这边上了。\n上了以后的话就得到了这么好的市场的反响估值。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 188,
+    "cue_end": 202,
+    "start": "00:09:04,890",
+    "end": "00:09:49,070"
+  },
+  {
+    "source_segment_id": "SS-C031",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "因美国还没有相相相关的这种企业呢。\n美国人自己。\n那个思维呃，就这个马斯克前面吹的那个擎天柱那个机器人。\n吹的山呼海叫的，吹的天花乱坠的。\n说是把你加州这边生产那个。\n就是特斯拉model X的。\n那个这个产线都拿来做这个autoppress这这个擎天柱机器人了。\n结果呢语数上市了。\n以上是这个贵估值这么的高。\n你美国的公司看到了这个东西，实际上是一个打破。\n之前华尔街才能募资的这个神话的一个很重要的一个里程碑事件呢。\n中国的企业是吧，率先的上市机器人的企业，美国都没有的题材，咱们这边上了。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 190,
+    "cue_end": 201,
+    "start": "00:09:08,240",
+    "end": "00:09:45,730"
+  },
+  {
+    "source_segment_id": "SS-C032",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "说是把你加州这边生产那个。\n就是特斯拉model X的。\n那个这个产线都拿来做这个autoppress这这个擎天柱机器人了。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 194,
+    "cue_end": 196,
+    "start": "00:09:19,330",
+    "end": "00:09:28,500"
+  },
+  {
+    "source_segment_id": "SS-C033",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "结果呢语数上市了。\n以上是这个贵估值这么的高。\n你美国的公司看到了这个东西，实际上是一个打破。\n之前华尔街才能募资的这个神话的一个很重要的一个里程碑事件呢。\n中国的企业是吧，率先的上市机器人的企业，美国都没有的题材，咱们这边上了。\n上了以后的话就得到了这么好的市场的反响估值。",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 197,
+    "cue_end": 202,
+    "start": "00:09:28,520",
+    "end": "00:09:49,070"
+  },
+  {
+    "source_segment_id": "SS-C034",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那起码可以这么想嘛，这是一个很关键的一个技术突破。\n按照这样的思路来看的话，你说这个技术突破了以后。\n面对这个商业空间有多大？",
+    "semantic_segment_refs": [
+      "SEG05"
+    ],
+    "cue_start": 208,
+    "cue_end": 210,
+    "start": "00:10:05,830",
+    "end": "00:10:14,700"
+  },
+  {
+    "source_segment_id": "SS-C035",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "其实对于spaceX来说的话，现在最头疼的是啥呢？他未来讲故事的空间其实很有限。\n你从spaces上市讲的那个故事就看得出来。\n他上市质量跟你讲啥呢？\n只想跟你讲什么。\n这个火星移民啊，这个火星移民这事儿的话也快穿帮了，是吧？快追不下去了。\n现在呢给你讲的就是太空的算例。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 213,
+    "cue_end": 218,
+    "start": "00:10:16,530",
+    "end": "00:10:37,080"
+  },
+  {
+    "source_segment_id": "SS-C036",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "太空的那个辐射的强度很高的啊。\n你那些精密的那些芯片，在这个太空高强度的辐射面前的话。\n那损坏的速度是很快的。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 221,
+    "cue_end": 223,
+    "start": "00:10:43,820",
+    "end": "00:10:53,140"
+  },
+  {
+    "source_segment_id": "SS-C037",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "啊，那损坏的速度快就代表着你折旧的成本可能会比。\n其他的更高，更何况你还要承担一个。\n把它从地上发射到太空中的这个运输的成本。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 224,
+    "cue_end": 226,
+    "start": "00:10:53,210",
+    "end": "00:11:02,680"
+  },
+  {
+    "source_segment_id": "SS-C038",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那一克物质发上去的话，就算spaceX把成本降了10分之1了，那也得要大几百美元才能把它发上去嘛。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 227,
+    "cue_end": 227,
+    "start": "00:11:02,910",
+    "end": "00:11:10,210"
+  },
+  {
+    "source_segment_id": "SS-C039",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后他用个几节这一段时间，可能一两年3四年。\n他被那个太空射线照的就烂掉了。\n用不了了，不停的报错，又得换。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 230,
+    "cue_end": 232,
+    "start": "00:11:12,270",
+    "end": "00:11:21,640"
+  },
+  {
+    "source_segment_id": "SS-C040",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "如果是按照这个思路来看的话，我就在地面上你把太阳能的。\n但。\n密度铺的高一点，把那面积铺的大一点。\n也同样能解决问题。\n甚至呢你各种的能源一起用是吧？风能、水能、太阳能综合能源一起用。\n可能成本可以降的更低一点。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 237,
+    "cue_end": 242,
+    "start": "00:11:31,110",
+    "end": "00:11:47,720"
+  },
+  {
+    "source_segment_id": "SS-C041",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "哎，这个事儿不好意思，提醒一下你，中国这边已经开始实践了。\n六网升级升级的就这个方向嘛。",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 243,
+    "cue_end": 244,
+    "start": "00:11:47,720",
+    "end": "00:11:53,360"
+  },
+  {
+    "source_segment_id": "SS-C042",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那你sx脱离了。\n在太空中铺置算力的这个说辞，这个噱头以外的话。\n你的估值凭什么维持这么高呢？",
+    "semantic_segment_refs": [
+      "SEG06"
+    ],
+    "cue_start": 246,
+    "cue_end": 248,
+    "start": "00:11:54,100",
+    "end": "00:12:01,900"
+  },
+  {
+    "source_segment_id": "SS-C043",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那剩下的一个就是唯一现在还赚钱的新练项目了。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 249,
+    "cue_end": 249,
+    "start": "00:12:01,900",
+    "end": "00:12:05,540"
+  },
+  {
+    "source_segment_id": "SS-C044",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "他现在的这个规模已经饱和了嘛？\n他现在20万颗星链。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 251,
+    "cue_end": 252,
+    "start": "00:12:07,380",
+    "end": "00:12:11,660"
+  },
+  {
+    "source_segment_id": "SS-C045",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这个他如果想要再继续按照马斯克之前的设想是吧？训练第一阶段一期工程完成二0核载网。\n提供。\n经店1.0的这个服务。\n然后呢，就要进入新店的二期阶段就是。\n发射200万颗星练。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 254,
+    "cue_end": 258,
+    "start": "00:12:14,790",
+    "end": "00:12:30,060"
+  },
+  {
+    "source_segment_id": "SS-C046",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后这样的话，你卫星多10个呃，多10倍。\n带宽多10倍，网速多10倍，对吧？",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 259,
+    "cue_end": 260,
+    "start": "00:12:30,070",
+    "end": "00:12:35,990"
+  },
+  {
+    "source_segment_id": "SS-C047",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "带宽多10倍，网速多10倍，对吧？",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 260,
+    "cue_end": 260,
+    "start": "00:12:32,950",
+    "end": "00:12:35,990"
+  },
+  {
+    "source_segment_id": "SS-C048",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这样的话你可以替代的。\n这个可以覆盖的人群就更多。\n这规模相应上来的话，你成本就可以降10倍。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 261,
+    "cue_end": 263,
+    "start": "00:12:36,370",
+    "end": "00:12:42,960"
+  },
+  {
+    "source_segment_id": "SS-C049",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这样的话这个这个飞轮就转起来了，然后那个芯片就完全替代了。\n地面上的这个这个网络了是吧？这个地面面上的光纤网络啊，这些都可以替代了。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 264,
+    "cue_end": 265,
+    "start": "00:12:42,960",
+    "end": "00:12:52,400"
+  },
+  {
+    "source_segment_id": "SS-C050",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你得先到市场上融资，让你把这202把这200万颗，剩下的这180万颗卫星打上去，让这个网络真正的建起来，让这个好用的网络真正的在这个市面上产生这种渗透覆盖。你可能才有这样的一个可能性。但是之前你从0到20万的时候，因美国军方在背后源源不断的支持你。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 268,
+    "cue_end": 268,
+    "start": "00:12:59,830",
+    "end": "00:13:19,830"
+  },
+  {
+    "source_segment_id": "SS-C051",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你得先到市场上融资，让你把这202把这200万颗，剩下的这180万颗卫星打上去，让这个网络真正的建起来，让这个好用的网络真正的在这个市面上产生这种渗透覆盖。你可能才有这样的一个可能性。但是之前你从0到20万的时候，因美国军方在背后源源不断的支持你。\n因为它既是一个民用的网络，它也是个军事的一个威胁，对吧？你在俄乌冲突上面，你就看得很很清楚，动辄就威胁乌克兰，你不听话，我给你把星电给你掐了。你战场上没有这个星电网络用是吧？让你头疼。但是对于军方来说的话，20万颗足够了，你把20万颗再打到200万颗，我没这个动力赔。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 268,
+    "cue_end": 269,
+    "start": "00:12:59,830",
+    "end": "00:13:39,830"
+  },
+  {
+    "source_segment_id": "SS-C052",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "因为它既是一个民用的网络，它也是个军事的一个威胁，对吧？你在俄乌冲突上面，你就看得很很清楚，动辄就威胁乌克兰，你不听话，我给你把星电给你掐了。你战场上没有这个星电网络用是吧？让你头疼。但是对于军方来说的话，20万颗足够了，你把20万颗再打到200万颗，我没这个动力赔。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 269,
+    "cue_end": 269,
+    "start": "00:13:19,830",
+    "end": "00:13:39,830"
+  },
+  {
+    "source_segment_id": "SS-C053",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "因为它既是一个民用的网络，它也是个军事的一个威胁，对吧？你在俄乌冲突上面，你就看得很很清楚，动辄就威胁乌克兰，你不听话，我给你把星电给你掐了。你战场上没有这个星电网络用是吧？让你头疼。但是对于军方来说的话，20万颗足够了，你把20万颗再打到200万颗，我没这个动力赔。\n你玩，我没这个钱陪你玩。那么尼马斯克现在也找不到更多的这个裁源，甚至呢在市场上融资融到更多的钱来支持你这个宏伟的壮举。而且呢你没有完成这种从20万到200万的这种这种需求的这个提升。你背后的这个产业链，它升级它的能力也非常非常的有限。你把这个量。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 269,
+    "cue_end": 270,
+    "start": "00:13:19,830",
+    "end": "00:13:59,830"
+  },
+  {
+    "source_segment_id": "SS-C054",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你玩，我没这个钱陪你玩。那么尼马斯克现在也找不到更多的这个裁源，甚至呢在市场上融资融到更多的钱来支持你这个宏伟的壮举。而且呢你没有完成这种从20万到200万的这种这种需求的这个提升。你背后的这个产业链，它升级它的能力也非常非常的有限。你把这个量。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 270,
+    "cue_end": 270,
+    "start": "00:13:39,830",
+    "end": "00:13:59,830"
+  },
+  {
+    "source_segment_id": "SS-C055",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你玩，我没这个钱陪你玩。那么尼马斯克现在也找不到更多的这个裁源，甚至呢在市场上融资融到更多的钱来支持你这个宏伟的壮举。而且呢你没有完成这种从20万到200万的这种这种需求的这个提升。你背后的这个产业链，它升级它的能力也非常非常的有限。你把这个量。\n上去了以后，他的这个产业的链的产业链的规模上去了以后。\n他对于其他的竞争对手的这种。\n竞争马太效应才会更加的出现。\n才会让别人没有这个产业跟你竞争。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 270,
+    "cue_end": 274,
+    "start": "00:13:39,830",
+    "end": "00:14:12,180"
+  },
+  {
+    "source_segment_id": "SS-C056",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "中国庞大的工业产能。\n如果在这个方向上有这个需求的话，它可以源源不断的写产生出。\n咱们这边在竞争上面，成本竞争上面的非常非常优质的这个竞争力。\n这种优势。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 278,
+    "cue_end": 281,
+    "start": "00:14:16,800",
+    "end": "00:14:30,460"
+  },
+  {
+    "source_segment_id": "SS-C057",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这个东西就相当于是马斯克那边。\n它本来有的这个黄金的窗口期。\n啊，从一开始的复用火箭到现在这十年。\n他应该弥补的这个空间，没有及时的补上。\n现在竞争对手进到他的。\n啊，这个甜天区来了，这就是它的这个。\n啊，舒适去来跟他竞争的。\n就头疼的事情开始。\n慢慢的变多起来了。",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 282,
+    "cue_end": 290,
+    "start": "00:14:30,530",
+    "end": "00:14:53,090"
+  },
+  {
+    "source_segment_id": "SS-C058",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "但对我们来说的话，不仅仅是只有这一条腿。咱们还有另外一条腿是吧？\n月球计划。\n啊，太空开发计划。\n这些计划的话，既有现实的这种需求，也有呢这个。\n国家的任务的这个要求。\n所以呢他是一个。\n从国家投资的角度。\n去拉动了整个这个循环。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 297,
+    "cue_end": 304,
+    "start": "00:15:09,510",
+    "end": "00:15:29,990"
+  },
+  {
+    "source_segment_id": "SS-C059",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这就不奇怪，为啥行啊这个咱们这个朱雀3号。\n背后的这个蓝天航天。\n他准备呢在雄安这边搞一个是吧，这个太空的这个产业链了，这个卫星的产业链是吧这个。\n那个复用火箭那个产业链了。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 305,
+    "cue_end": 308,
+    "start": "00:15:30,080",
+    "end": "00:15:43,600"
+  },
+  {
+    "source_segment_id": "SS-C060",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "到时候的话，由国家出面。\n对吧在这个里边结合着这种商业的发布。\n有着这种国家带头的这个投资。\n把整个的这个闭环把它搞起来。\n把这个闭环搞起来了以后，把整个的这个跟火箭相关的这个供应链。\n把它打造的更加的强大了以后，由他们展示出来的这种成本的竞争。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 311,
+    "cue_end": 316,
+    "start": "00:15:48,920",
+    "end": "00:16:08,740"
+  },
+  {
+    "source_segment_id": "SS-C061",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "把这个闭环搞起来了以后，把整个的这个跟火箭相关的这个供应链。\n把它打造的更加的强大了以后，由他们展示出来的这种成本的竞争。\n把世界上所有的火箭发射的需求全部统合在这边。\n因为你没法跟他竞争嘛，就跟当年。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 315,
+    "cue_end": 318,
+    "start": "00:15:58,860",
+    "end": "00:16:13,990"
+  },
+  {
+    "source_segment_id": "SS-C062",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "马斯克实现的这种火箭。\n回收以后的话，那发出的豪言壮语。\n说的啥呢？\n说的是这个世界上唯一的能够跟美国竞争的就只有中国了。\n是吧，其他国家都不值一提了。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 319,
+    "cue_end": 323,
+    "start": "00:16:13,990",
+    "end": "00:16:25,540"
+  },
+  {
+    "source_segment_id": "SS-C063",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这话就跟当年三国的时候，曹操跟着这个。\n啊，刘u Bei。\n搞这个呃为这天下英雄，为使君与曹耳，说这话是一样的。\n啊，这青梅煮酒嘛。\n当时曹操说这话的时候，对着刘备，刘备是啥的？\n刘备是寄人篱下的。\n曹操手下的。\n对吧。\n曹操这边高抬一句是吧，天下英雄为史君与曹耳。\n实际上呢实际上这潜台子就是只有我有你不行，你还在我手下讨饭吃呢。\n我捧你是英雄，不捧你，你路边一条。\n对吧。\n当时马斯克说这话也是一样的啊，只有我有复用的这个技术。那我说。\n未来这个商业竞争里面只有中美能够竞争得了，其他国家都路边一条。\n实际上呢。\n我成功了，你还在成功的路上呢，你能不能成功还不好说呢？\n所以呢我现在起码是说话说话的，你是不是录边一条，得你自己证明自己。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 325,
+    "cue_end": 341,
+    "start": "00:16:27,170",
+    "end": "00:17:18,730"
+  },
+  {
+    "source_segment_id": "SS-C064",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "咱们这边表现出来的潜力就很有可能在。\n航空航天这个领域相关的产业链可能由于产能的需求。\n啊，未来的这种啊国家带头投资的这样的一个需求。\n啊.\n可能这个规模会比你美国那边进展的更快一点。",
+    "semantic_segment_refs": [
+      "SEG08"
+    ],
+    "cue_start": 344,
+    "cue_end": 348,
+    "start": "00:17:23,230",
+    "end": "00:17:39,260"
+  },
+  {
+    "source_segment_id": "SS-C065",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那莫德娜那边刚刚有一个莫沙东沙，莫莫德娜那边刚刚有一个。\n好的消息嗯。\n这个黑色素流的这个功课马上市值给你翻了两倍，190%多是吧？翻了两倍市值。这市场呢不缺流动性。但你想没想过，当AI的泡沫破裂了以后，破裂了以后，就相当于是这个创造出来的这些流动性消失了嘛。那大家没有这个想要再继续举债。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 355,
+    "cue_end": 357,
+    "start": "00:17:53,710",
+    "end": "00:18:19,940"
+  },
+  {
+    "source_segment_id": "SS-C066",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这个黑色素流的这个功课马上市值给你翻了两倍，190%多是吧？翻了两倍市值。这市场呢不缺流动性。但你想没想过，当AI的泡沫破裂了以后，破裂了以后，就相当于是这个创造出来的这些流动性消失了嘛。那大家没有这个想要再继续举债。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 357,
+    "cue_end": 357,
+    "start": "00:17:59,940",
+    "end": "00:18:19,940"
+  },
+  {
+    "source_segment_id": "SS-C067",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "AI这边创造出来的这种流动性。\n那莫德娜那边刚刚有一个莫沙东沙，莫莫德娜那边刚刚有一个。\n好的消息嗯。\n这个黑色素流的这个功课马上市值给你翻了两倍，190%多是吧？翻了两倍市值。这市场呢不缺流动性。但你想没想过，当AI的泡沫破裂了以后，破裂了以后，就相当于是这个创造出来的这些流动性消失了嘛。那大家没有这个想要再继续举债。\n想要疯狂的借债来去搞投资的这样的勇气了，或者这样的狂热了。没有这些流动性了以后，你靠什么来支撑你那些天马行空的面向未来的这些产业呢？像是经济周期嘛，在狂热的时候讲面向未来的故事。当进入下行周期的时候，你讲啥大家都提不起兴趣了。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 354,
+    "cue_end": 358,
+    "start": "00:17:50,980",
+    "end": "00:18:39,940"
+  },
+  {
+    "source_segment_id": "SS-C068",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这个黑色素流的这个功课马上市值给你翻了两倍，190%多是吧？翻了两倍市值。这市场呢不缺流动性。但你想没想过，当AI的泡沫破裂了以后，破裂了以后，就相当于是这个创造出来的这些流动性消失了嘛。那大家没有这个想要再继续举债。\n想要疯狂的借债来去搞投资的这样的勇气了，或者这样的狂热了。没有这些流动性了以后，你靠什么来支撑你那些天马行空的面向未来的这些产业呢？像是经济周期嘛，在狂热的时候讲面向未来的故事。当进入下行周期的时候，你讲啥大家都提不起兴趣了。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 357,
+    "cue_end": 358,
+    "start": "00:17:59,940",
+    "end": "00:18:39,940"
+  },
+  {
+    "source_segment_id": "SS-C069",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "想要疯狂的借债来去搞投资的这样的勇气了，或者这样的狂热了。没有这些流动性了以后，你靠什么来支撑你那些天马行空的面向未来的这些产业呢？像是经济周期嘛，在狂热的时候讲面向未来的故事。当进入下行周期的时候，你讲啥大家都提不起兴趣了。\n那个时候唯有靠国家背呃信用的背书，国家能投得起的，然后能够证实这个东西确实是靠谱的那大家出于稳妥，通过国债这么一个转换器来完成这种相应的这种间接的投资，对吧？我对这你说的这些项目我没有信心，但是我对你国家的债务有信。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 358,
+    "cue_end": 359,
+    "start": "00:18:19,940",
+    "end": "00:19:00,170"
+  },
+  {
+    "source_segment_id": "SS-C070",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那个时候唯有靠国家背呃信用的背书，国家能投得起的，然后能够证实这个东西确实是靠谱的那大家出于稳妥，通过国债这么一个转换器来完成这种相应的这种间接的投资，对吧？我对这你说的这些项目我没有信心，但是我对你国家的债务有信。\nYeah。\n你国债发出来，我就肯肯买。\n你国债能发出来，然后通过国家的这个行为体。\n把整个的这个投资那效率给它提升起来。",
+    "semantic_segment_refs": [
+      "SEG09"
+    ],
+    "cue_start": 359,
+    "cue_end": 363,
+    "start": "00:18:40,170",
+    "end": "00:19:09,300"
+  },
+  {
+    "source_segment_id": "SS-C071",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这条路美国不是失败了吗？\n美国国债现在那么长期国债这么的糟糕，不就是说明了大家对于美国的。\n长期信用破产啊，不相信你美国长期信用的。\n那些承诺嘛。",
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "cue_start": 364,
+    "cue_end": 367,
+    "start": "00:19:09,440",
+    "end": "00:19:21,350"
+  },
+  {
+    "source_segment_id": "SS-C072",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那个财政部长贝森特出来。\n短债换长债。\n对么搞了1个这个QT。\n啊这个叫做。\n这个operation twist。\n是吧这个叫扭曲操作QT。",
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "cue_start": 371,
+    "cue_end": 376,
+    "start": "00:19:25,370",
+    "end": "00:19:37,230"
+  },
+  {
+    "source_segment_id": "SS-C073",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那这个操作的话本身的话就告诉大家，咱们通过正常的手续已经解决不了这个眼前的问题了。\n我们通过正常的购债续债的这种销债的这种流程。\n已经卖不掉这些厂债，没人买了。\n所以呢只能自己下场买了。",
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "cue_start": 379,
+    "cue_end": 382,
+    "start": "00:19:41,330",
+    "end": "00:19:56,040"
+  },
+  {
+    "source_segment_id": "SS-C074",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "在大家都对你的这个政府长期不信任的时候。\n大家对于这种长期信任的需求并不会消失。\n他只会转移。\n转移到哪去啊？转移到更加有为、更加有能力的政府面前嘛。",
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "cue_start": 384,
+    "cue_end": 387,
+    "start": "00:19:58,190",
+    "end": "00:20:10,290"
+  },
+  {
+    "source_segment_id": "SS-C075",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那在这个时候的话，政府勇于对未来提出自己的设想。\n对未来加紧自己的投资。\n作为自做出自己的投资规划。\n这是不是有担当的表现呢？\n这个时候的话，再适时的把这个可复用的火箭。\n这个拼图拿出来告诉你，未来就是这个方向。\n这是一个很重要的投资方向。\n这是不是从投资的角度上来说，从造梦的角度来说。\n从制造话题的角度来说，就比你美国的那套。\nss苦苦支撑着现在的这样的一个可复用火箭的。\n有效的使用场景。\n要更加的有吸引力，一些，更加的可落地一些。",
+    "semantic_segment_refs": [
+      "SEG10"
+    ],
+    "cue_start": 388,
+    "cue_end": 399,
+    "start": "00:20:10,290",
+    "end": "00:20:45,240"
+  },
+  {
+    "source_segment_id": "SS-C076",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "当年开发海南都可以吸引很多很多的钱，是吧？虽然最后烂尾了。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 401,
+    "cue_end": 401,
+    "start": "00:20:49,480",
+    "end": "00:20:54,740"
+  },
+  {
+    "source_segment_id": "SS-C077",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "当年开发海南都可以吸引很多很多的钱，是吧？虽然最后烂尾了。\n但你想没想过，如果中国人登月了以后打出来。\n开发粤球这是招牌。\n在世界上吸引各种的投资能够吸引多少啊？",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 401,
+    "cue_end": 404,
+    "start": "00:20:49,480",
+    "end": "00:21:03,730"
+  },
+  {
+    "source_segment_id": "SS-C078",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "是吧中国的这个产能这么爆炸了以后，全世界都在给中国这边贡贡献钱，供中国的这个产品行销全世界以后。\n在全世界的其他国家去挣钱，别人呢肯定会。\n对你非常非常的不耐烦。\n对吧怎么平衡这种不耐烦呢？\n就是让你在中国这边来投资未来嘛。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 406,
+    "cue_end": 410,
+    "start": "00:21:06,180",
+    "end": "00:21:25,010"
+  },
+  {
+    "source_segment_id": "SS-C079",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "美国人采取的方法是搞个华尔街，搞个大赌场。\n大家一起有钱赚到这个华尔街来。在我这体系以来，大家一起在华尔街里面。\n生产些虚拟的财富。\n通过这些虚拟的财富锁定你的阶层。\n对吧。\n中国同样的游戏可以在太空故事上继续玩吗？\n这道理是相通的。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 413,
+    "cue_end": 419,
+    "start": "00:21:31,590",
+    "end": "00:21:49,350"
+  },
+  {
+    "source_segment_id": "SS-C080",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "而且呢这个互相之间，中国有自己的华尔街，有自己的金融的故事。\n同时再给你加一个航天的故事。\n并不矛盾啊。\n并不是非此即彼，只有这个不能有那个可以同时进行的。\n包括中美在金融领域的投资都可以同时进行的。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 421,
+    "cue_end": 425,
+    "start": "00:21:50,050",
+    "end": "00:22:05,080"
+  },
+  {
+    "source_segment_id": "SS-C081",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "同样的题材，我讲你讲谁的吸引力更大吗？\n谁对大家的这个。\n就谁更加相信呃哪哪家嘛？\n更加相信哪家哪家的成本就低嘛。\n不相信你的话，成本就高嘛。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 427,
+    "cue_end": 431,
+    "start": "00:22:06,210",
+    "end": "00:22:17,840"
+  },
+  {
+    "source_segment_id": "SS-C082",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "成本高的话，也不是把你的路就彻底走死了。\n恰恰相反，给你了一个突破的动力嘛。\n让你赶紧的调动你自己的积极性，提高你的生产效率，提高你的分配效率。\n提高你的执政效率来跟我竞争吧，良心竞争吧。\n那你说你要竞争不过呢，那不是该活该嘛？\n那就体制争嘛，你的效率比我低，那自然而然被我淘汰嘛。",
+    "semantic_segment_refs": [
+      "SEG11"
+    ],
+    "cue_start": 432,
+    "cue_end": 437,
+    "start": "00:22:17,840",
+    "end": "00:22:38,170"
+  },
+  {
+    "source_segment_id": "SS-C083",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "中国的这些资本的故事啊，要上个台面，对吧？得有讲的，大家愿意听，要实现这种题材的转换，实现这种话语权的转换。\n否则的话，中国这边讲啥的话，别人不相信。\n那怎么实现这种转换嘛？\n不就是通过这些具体的案例来吗？\n随着。\n美国那边有的我们也有，我们有了以后，我们做的比美国那边做的更好。\n随着这些事情越来越多。\n随着这些肉眼可见的无法辩驳的事实，陈列的越来越多。\n带领一起发财致富的国家越来越多。\n最后你慢慢的话语权就建立了嘛。\n随着你的话语权建立了，你的资产，自然而然会被人高开一截嘛。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 443,
+    "cue_end": 453,
+    "start": "00:22:48,360",
+    "end": "00:23:26,670"
+  },
+  {
+    "source_segment_id": "SS-C084",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你看到了这几年。\n啊中美的这个货币的这个坚定程度。\n啊，美元在不停的贬值，人民币在不停的升值。\n这升值的这个节奏。\n还一直的话都还是很强劲的对吧？",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 458,
+    "cue_end": 462,
+    "start": "00:23:34,950",
+    "end": "00:23:46,310"
+  },
+  {
+    "source_segment_id": "SS-C085",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "眼睛眨不眨吧，现在已经6点7几了。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 464,
+    "cue_end": 464,
+    "start": "00:23:47,010",
+    "end": "00:23:49,640"
+  },
+  {
+    "source_segment_id": "SS-C086",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "随着美元现在一下子垮，你看到日元的被动的升值了。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 465,
+    "cue_end": 465,
+    "start": "00:23:49,640",
+    "end": "00:23:53,520"
+  },
+  {
+    "source_segment_id": "SS-C087",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那接下来的话呢，人民币继续升升到6.5，我觉得。\n问题不大。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 466,
+    "cue_end": 467,
+    "start": "00:23:53,520",
+    "end": "00:23:58,410"
+  },
+  {
+    "source_segment_id": "SS-C088",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "我年初的时候是不是跟大家说了是吧？这个人必生值，今年。\n是一个大概率的事情，而且这个升值的这个趋势是会非常强劲的。\n这是被动的。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 470,
+    "cue_end": 472,
+    "start": "00:24:03,180",
+    "end": "00:24:11,300"
+  },
+  {
+    "source_segment_id": "SS-C089",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "随着你在技术上的突破越来越多，这样的势头是不是越来越猛？\n这些势头越来越猛，是不是又在拆美国的台？\n美国越是这个资源慢慢的萎缩。\n他受迫性失误就越会发生的越多。\n特朗普很多时候做的这种捉襟见肘的事儿，或者说这种。\n啊，固头估不定的呃不固定的事儿。\n都是被钱。\n被没钱逼出来的。",
+    "semantic_segment_refs": [
+      "SEG12"
+    ],
+    "cue_start": 473,
+    "cue_end": 480,
+    "start": "00:24:11,300",
+    "end": "00:24:33,190"
+  },
+  {
+    "source_segment_id": "SS-C090",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "美债现在正式的官方正式的宣布突破40万亿了。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 482,
+    "cue_end": 482,
+    "start": "00:24:36,390",
+    "end": "00:24:40,710"
+  },
+  {
+    "source_segment_id": "SS-C091",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "上一次突破30万，也是2022年。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 483,
+    "cue_end": 483,
+    "start": "00:24:40,950",
+    "end": "00:24:43,560"
+  },
+  {
+    "source_segment_id": "SS-C092",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这是2026年。\n时隔4年，美债增加了10万亿。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 484,
+    "cue_end": 485,
+    "start": "00:24:43,600",
+    "end": "00:24:48,290"
+  },
+  {
+    "source_segment_id": "SS-C093",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "2023年的时候。\n美国的国会当时是耶伦这这个做财政部长听证。\n给出的这个计划表。\n是到2028年。\n预计啊到2028年美债规模上到40万亿。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 486,
+    "cue_end": 490,
+    "start": "00:24:48,530",
+    "end": "00:25:04,150"
+  },
+  {
+    "source_segment_id": "SS-C094",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "结果今年2026年提前了一年半时间。\n提前超额完成任务。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 491,
+    "cue_end": 492,
+    "start": "00:25:04,320",
+    "end": "00:25:09,410"
+  },
+  {
+    "source_segment_id": "SS-C095",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "按照4年。\n从30万亿到40万亿。\n那40万亿到50万亿绝对不要4年，可能只要去一半的时间，一年啊两年的时间。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 494,
+    "cue_end": 496,
+    "start": "00:25:10,590",
+    "end": "00:25:19,060"
+  },
+  {
+    "source_segment_id": "SS-C096",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "那40万亿到50万亿绝对不要4年，可能只要去一半的时间，一年啊两年的时间。\n如果是两年的时间的话，很有可能到2028年美债的规模要突破50万亿。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 496,
+    "cue_end": 497,
+    "start": "00:25:13,980",
+    "end": "00:25:24,430"
+  },
+  {
+    "source_segment_id": "SS-C097",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "大家可能容许你美国这么肆无忌惮的贬值自己的货币。\n疯狂的印钱在。\n，在在这个上面去谋利嘛，不可能的事情。\n这引发的震动。\n他得有一些具体的事件。\n来作为引子。\n而朱雀3号这种事件。\n把你美国那边为数不多的技术领先的东西一个一个敲掉。\n实际上就是在把你美元维持坚挺的根基。",
+    "semantic_segment_refs": [
+      "SEG13"
+    ],
+    "cue_start": 499,
+    "cue_end": 507,
+    "start": "00:25:26,390",
+    "end": "00:25:52,350"
+  },
+  {
+    "source_segment_id": "SS-C098",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你就看看年初的时候，那pes上市。\n那就这前段时间啊不是年初啊，前段时间space上市。\n一下子啊这个市场为之狂欢。\n一下子市值涨了这么的多。",
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "cue_start": 514,
+    "cue_end": 517,
+    "start": "00:26:06,880",
+    "end": "00:26:18,250"
+  },
+  {
+    "source_segment_id": "SS-C099",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "其实这个市面上需要的是这种非常非常精彩的故事。\n他需要的不是事实，是需要故事。为啥呢？要把高潮不退的AI泡沫。\n吹起来的这些疯狂的流动性，找一个宣泄的去处。\n现在呢。\n那这个问题已经解决不了了。\n然后现在有强劲的竞争对手给你拆你的台。\n那你这个维持故市的成本是不是骤然的上升啊？",
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "cue_start": 519,
+    "cue_end": 525,
+    "start": "00:26:19,370",
+    "end": "00:26:40,890"
+  },
+  {
+    "source_segment_id": "SS-C100",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这也就不难解释，为啥前几天。\n那个。\n那个长长试仪是吧，发射失败。\n啊，真的是群魔乱舞啊，全网狂欢啊，各种的嘲讽啊。",
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "cue_start": 529,
+    "cue_end": 532,
+    "start": "00:26:47,600",
+    "end": "00:26:59,230"
+  },
+  {
+    "source_segment_id": "SS-C101",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "火箭发射有成功，有失败，我觉得很正常啊，包括。\n那spacex不是经常发射也回收失败吗？\n失败完了还强行给自己脸上提金，我们是故意的。\n我们故意的。\n那个。\n那个那个那个飞船是吧，那个。\n那个大的那个飞船，那个我故意的。\n啊，我们每次每次在失败的过程中，我们都要进步一步，要进步一些。\n我也做过节目跟大家聊是吧？失败不可怕。\n反复的失败反复的失败，他总有成功的时候。\n那为啥对美国的这些发射失败都这么的宽容，对自己的发射失败稍微有一点点。\n就这么的着急跳角了。\n不就是知道你对他叙事领先叙事的一个威胁吗？",
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "cue_start": 533,
+    "cue_end": 545,
+    "start": "00:26:59,430",
+    "end": "00:27:37,870"
+  },
+  {
+    "source_segment_id": "SS-C102",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你看现在世界上，你美国那边能拿出来的领先的故事还有几个？\n除了芯片以外，就航天这边还有一点可以说到的，大家能看得见的东西。\n其他你能还讲得出来吗？\n讲不出来了吧。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 546,
+    "cue_end": 549,
+    "start": "00:27:38,200",
+    "end": "00:27:50,110"
+  },
+  {
+    "source_segment_id": "SS-C103",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "AI你只能够讲一些似是而非的故事，通过估值的方式证明你是对的嘛？\n那我的AI是吧？\n一年的估值多少多少，我这稍微吹个牛皮，那星际之门计划就可以融了多少多少钱。\n以此来证明你的AI领域还是领先的嘛。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 550,
+    "cue_end": 553,
+    "start": "00:27:50,110",
+    "end": "00:28:04,670"
+  },
+  {
+    "source_segment_id": "SS-C104",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "美国那边官方的。\n禁止了中国的AI模型。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 556,
+    "cue_end": 557,
+    "start": "00:28:08,060",
+    "end": "00:28:11,900"
+  },
+  {
+    "source_segment_id": "SS-C105",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "结果呢私下呢特朗普搞了一个特许经营权，自己的公司在这里边向美国这边售卖。\n这个中国的模型的访问权。\n啊明面上禁止，然后给自己捞钱，给史密斯专员这边捞钱，制造变异法门。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 558,
+    "cue_end": 560,
+    "start": "00:28:11,900",
+    "end": "00:28:25,050"
+  },
+  {
+    "source_segment_id": "SS-C106",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "客观的上来告诉你，就是AI这个领域体里面，其实中美之间大差误差。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 561,
+    "cue_end": 561,
+    "start": "00:28:25,350",
+    "end": "00:28:29,900"
+  },
+  {
+    "source_segment_id": "SS-C107",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "甚至如果考虑到成本的话，中国这边领先的优势。\n非常非常的明显。\n但是这个明显并没有在估值上得到体现的。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 562,
+    "cue_end": 564,
+    "start": "00:28:29,900",
+    "end": "00:28:37,670"
+  },
+  {
+    "source_segment_id": "SS-C108",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "股票市场上关于AI的题材已经被炒得很高了。但是。\n这个跟美国的比泡呃这个泡沫比较起来的话，也是小巫见大巫啊，这客观的事实嘛，对吧？",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 566,
+    "cue_end": 567,
+    "start": "00:28:38,960",
+    "end": "00:28:47,990"
+  },
+  {
+    "source_segment_id": "SS-C109",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "这不是联手造就了一天时间穆德纳。\n一个黑色素瘤的突破，一下子甚至涨三倍的这个神话故事吧。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 571,
+    "cue_end": 572,
+    "start": "00:29:02,000",
+    "end": "00:29:09,160"
+  },
+  {
+    "source_segment_id": "SS-C110",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "说的那个啊黑色素流的什么这个。\n个性化诊疗手段。\n听起来这个东西就不便宜吧。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 575,
+    "cue_end": 577,
+    "start": "00:29:13,620",
+    "end": "00:29:20,730"
+  },
+  {
+    "source_segment_id": "SS-C111",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "他不便宜，他怎么盈利呢？\n他盈利的空间那么的小，他怎么可能支撑这么高的市值的这种奢奢望呢？",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 578,
+    "cue_end": 579,
+    "start": "00:29:20,730",
+    "end": "00:29:27,790"
+  },
+  {
+    "source_segment_id": "SS-C112",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "他盈利的空间那么的小，他怎么可能支撑这么高的市值的这种奢奢望呢？\n啊，指望着这一个小小的突破，就代表了一个范式的革新。\n就算是真的。\n范式的革新也有得新的技术不停的把这个坑填起来。\n他才能支撑起来这么大的市值。\n你觉得这些事儿完全靠着莫啥东一个公司搞定，搞得动吗？\n我觉得搞不动啊。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 579,
+    "cue_end": 585,
+    "start": "00:29:22,610",
+    "end": "00:29:45,690"
+  },
+  {
+    "source_segment_id": "SS-C113",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "借用当年里根的那个名言啊，林肯的名言。\n是吧。\n你可以欺骗一个人很长时间，也可以欺骗很多人一段时间。\n但是你做不到欺骗很多人很长时间。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 589,
+    "cue_end": 592,
+    "start": "00:29:52,690",
+    "end": "00:30:04,520"
+  },
+  {
+    "source_segment_id": "SS-C114",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "对于泡沫也是一样的。\n你可以造神一段时间。\n你可以。\n在一个小的领域里面持续的造成很长一段时间。\n但是你准备把大家的骗钱都疯狂的骗到一个领域里面骗很长时间，这是做不到的事儿。",
+    "semantic_segment_refs": [
+      "SEG15"
+    ],
+    "cue_start": 593,
+    "cue_end": 597,
+    "start": "00:30:04,650",
+    "end": "00:30:19,420"
+  },
+  {
+    "source_segment_id": "SS-C115",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "而且呢我相信呢以我们对未来的规划，这里面的题材可以做的。\n文章会很多很多，而且这个方面的投资。\n从国家的层面来说的话，它肯定是要控制它的节奏的啊，你不能一下子疯涨，一下子把大家。\n本来好好的这个领域边投入的。\n结果呢一下子这个市值的暴涨。\n大家都无心去做自己，实际上做的突破的事情，反而去炒股了。\n这个也不健康，也不现实。\n所以中间会有平衡的。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 601,
+    "cue_end": 608,
+    "start": "00:30:29,500",
+    "end": "00:30:58,180"
+  },
+  {
+    "source_segment_id": "SS-C116",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "官方这块待遇跟不上。\n所以这个制约了航空航天这个领域里面。\n市值的估值它会受到影响，但是这个不影不要紧的。\n这只是暂时的现象。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 611,
+    "cue_end": 614,
+    "start": "00:31:01,890",
+    "end": "00:31:12,490"
+  },
+  {
+    "source_segment_id": "SS-C117",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "有了成功的商业公司。\n对于航空航天领域的人太提高他的待遇。\n得到这个市场上额外的这个关注。\n啊，是有非常非常好的好处的。\n这是一个正向循环的开始啊。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 616,
+    "cue_end": 620,
+    "start": "00:31:15,010",
+    "end": "00:31:28,330"
+  },
+  {
+    "source_segment_id": "SS-C118",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "面对着新技术突发的这种技术的高低，年轻人投入到这个方向上去。\n反而有可能挣钱。\n这是一个真理。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 623,
+    "cue_end": 625,
+    "start": "00:31:31,820",
+    "end": "00:31:40,240"
+  },
+  {
+    "source_segment_id": "SS-C119",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你别看着是吧，航空航天过去。\n全人学航天就跟全人学一样，天打雷劈。\n别看着是这样子。\n那是过去几十年。\n你话语权不在你手上，那航空航天这是赚不到钱的。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 626,
+    "cue_end": 630,
+    "start": "00:31:40,320",
+    "end": "00:31:52,120"
+  },
+  {
+    "source_segment_id": "SS-C120",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "但是随着未来。\n这个领域里边会有很大的财富。\n进行这个财富的创造。\n进行这种。\n啊，这个这个新勤的这个富豪的这个产生，不信咱们就走着瞧。\n不用太长时间，35年的时间。\n这个趋势就会越来越明显。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 631,
+    "cue_end": 637,
+    "start": "00:31:52,120",
+    "end": "00:32:07,300"
+  },
+  {
+    "source_segment_id": "SS-C121",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "进行这种。\n啊，这个这个新勤的这个富豪的这个产生，不信咱们就走着瞧。",
+    "semantic_segment_refs": [
+      "SEG16"
+    ],
+    "cue_start": 634,
+    "cue_end": 635,
+    "start": "00:31:58,370",
+    "end": "00:32:03,610"
+  },
+  {
+    "source_segment_id": "SS-C122",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "整个的行业都在洗牌，各个行业都在洗牌。\n越是尖端的行业洗牌就越猛烈。\n那这样的时候，跟美国这边终于赶上了他们之前的吹的牛牛鼻的进度。\n那未来的话其实不可限量。",
+    "semantic_segment_refs": [
+      "SEG03"
+    ],
+    "cue_start": 82,
+    "cue_end": 85,
+    "start": "00:04:09,040",
+    "end": "00:04:21,320"
+  },
+  {
+    "source_segment_id": "SS-C123",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "啊，我们每次每次在失败的过程中，我们都要进步一步，要进步一些。\n我也做过节目跟大家聊是吧？失败不可怕。\n反复的失败反复的失败，他总有成功的时候。",
+    "semantic_segment_refs": [
+      "SEG14"
+    ],
+    "cue_start": 540,
+    "cue_end": 542,
+    "start": "00:27:16,050",
+    "end": "00:27:25,330"
+  },
+  {
+    "source_segment_id": "SS-X01",
+    "source_id": "V01",
+    "source_version_ref": "V-V01",
+    "locator": "L12",
+    "raw_text": null,
+    "evidence_paraphrase": "官方转载蓝箭通报：8月19日07:35发射。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X02",
+    "source_id": "V01",
+    "source_version_ref": "V-V01",
+    "locator": "L12",
+    "raw_text": null,
+    "evidence_paraphrase": "官方转载蓝箭通报：8月19日07:41一级陆地回收。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X03",
+    "source_id": "SRC-B",
+    "source_version_ref": "V-SRC-B",
+    "locator": "L8",
+    "raw_text": null,
+    "evidence_paraphrase": "央视报道所称20次复用能力的对象是着陆腿。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X04",
+    "source_id": "SRC-C",
+    "source_version_ref": "V-SRC-C",
+    "locator": "L2",
+    "raw_text": null,
+    "evidence_paraphrase": "财联社报道Moderna盘前股价上涨超过80%。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X05",
+    "source_id": "V02",
+    "source_version_ref": "V-V02",
+    "locator": "L120",
+    "raw_text": null,
+    "evidence_paraphrase": "Moderna公告其与Merck合作的III期联合疗法取得积极主要结果。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X06",
+    "source_id": "V03",
+    "source_version_ref": "V-V03",
+    "locator": "L335",
+    "raw_text": null,
+    "evidence_paraphrase": "财政部宣布长期债流动性支持回购每次上限从20亿美元提高至至少40亿美元。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X07",
+    "source_id": "V03",
+    "source_version_ref": "V-V03",
+    "locator": "L336",
+    "raw_text": null,
+    "evidence_paraphrase": "回购调整计划9月9日生效，持续至11月4日。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X08",
+    "source_id": "V04",
+    "source_version_ref": "V-V04",
+    "locator": "search full announcement",
+    "raw_text": null,
+    "evidence_paraphrase": "FCC一月授权Gen2总量15,000颗，授权不等于已在轨。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X09",
+    "source_id": "SRC-A",
+    "source_version_ref": "V-SRC-A",
+    "locator": "L11",
+    "raw_text": null,
+    "evidence_paraphrase": "蓝箭称一级硬件多次复用可摊薄发射成本。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-X10",
+    "source_id": "SRC-B",
+    "source_version_ref": "V-SRC-B",
+    "locator": "L15",
+    "raw_text": null,
+    "evidence_paraphrase": "报道预期成本将降低到70%以上，降到与下降的口径存在歧义。",
+    "quotation_status": "paraphrase_not_verbatim",
+    "snapshot_directory": "source_snapshots"
+  },
+  {
+    "source_segment_id": "SS-OC124",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "前面说了嘛，碳们算力在我看来就是很扯淡的一个。\n你没没没病了，你把这些东西放到太空上去。",
+    "cue_start": 219,
+    "cue_end": 220,
+    "start": "00:10:37,080",
+    "end": "00:10:43,640"
+  },
+  {
+    "source_segment_id": "SS-OC125",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "结果呢语数上市了。\n以上是这个贵估值这么的高。\n你美国的公司看到了这个东西，实际上是一个打破。\n之前华尔街才能募资的这个神话的一个很重要的一个里程碑事件呢。\n中国的企业是吧，率先的上市机器人的企业，美国都没有的题材，咱们这边上了。\n上了以后的话就得到了这么好的市场的反响估值。",
+    "cue_start": 197,
+    "cue_end": 202,
+    "start": "00:09:28,520",
+    "end": "00:09:49,070"
+  },
+  {
+    "source_segment_id": "SS-OC126",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "再结合着语树这边的上市。",
+    "cue_start": 621,
+    "cue_end": 621,
+    "start": "00:31:28,360",
+    "end": "00:31:30,750"
+  },
+  {
+    "source_segment_id": "SS-OC127",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "但是显然到了20万颗这个水平，你想再突破200万颗，你现在没这个动力了。\n那先有机还是现有的？\n你得先到市场上融资，让你把这202把这200万颗，剩下的这180万颗卫星打上去，让这个网络真正的建起来，让这个好用的网络真正的在这个市面上产生这种渗透覆盖。你可能才有这样的一个可能性。但是之前你从0到20万的时候，因美国军方在背后源源不断的支持你。\n因为它既是一个民用的网络，它也是个军事的一个威胁，对吧？你在俄乌冲突上面，你就看得很很清楚，动辄就威胁乌克兰，你不听话，我给你把星电给你掐了。你战场上没有这个星电网络用是吧？让你头疼。但是对于军方来说的话，20万颗足够了，你把20万颗再打到200万颗，我没这个动力赔。",
+    "cue_start": 266,
+    "cue_end": 269,
+    "start": "00:12:52,570",
+    "end": "00:13:39,830"
+  },
+  {
+    "source_segment_id": "SS-OC128",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "你得先到市场上融资，让你把这202把这200万颗，剩下的这180万颗卫星打上去，让这个网络真正的建起来，让这个好用的网络真正的在这个市面上产生这种渗透覆盖。你可能才有这样的一个可能性。但是之前你从0到20万的时候，因美国军方在背后源源不断的支持你。\n因为它既是一个民用的网络，它也是个军事的一个威胁，对吧？你在俄乌冲突上面，你就看得很很清楚，动辄就威胁乌克兰，你不听话，我给你把星电给你掐了。你战场上没有这个星电网络用是吧？让你头疼。但是对于军方来说的话，20万颗足够了，你把20万颗再打到200万颗，我没这个动力赔。\n你玩，我没这个钱陪你玩。那么尼马斯克现在也找不到更多的这个裁源，甚至呢在市场上融资融到更多的钱来支持你这个宏伟的壮举。而且呢你没有完成这种从20万到200万的这种这种需求的这个提升。你背后的这个产业链，它升级它的能力也非常非常的有限。你把这个量。",
+    "cue_start": 268,
+    "cue_end": 270,
+    "start": "00:12:59,830",
+    "end": "00:13:59,830"
+  },
+  {
+    "source_segment_id": "SS-OC129",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "然后现在有强劲的竞争对手给你拆你的台。\n那你这个维持故市的成本是不是骤然的上升啊？\n对吧。\n这些事情才是朱雀3号这个时间节点上回收火箭。\n真正打破的叙式循环。",
+    "cue_start": 524,
+    "cue_end": 528,
+    "start": "00:26:35,090",
+    "end": "00:26:47,600"
+  },
+  {
+    "source_segment_id": "SS-OC130",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "其实对于spaceX来说的话，现在最头疼的是啥呢？他未来讲故事的空间其实很有限。\n你从spaces上市讲的那个故事就看得出来。\n他上市质量跟你讲啥呢？\n只想跟你讲什么。\n这个火星移民啊，这个火星移民这事儿的话也快穿帮了，是吧？快追不下去了。\n现在呢给你讲的就是太空的算例。",
+    "cue_start": 213,
+    "cue_end": 218,
+    "start": "00:10:16,530",
+    "end": "00:10:37,080"
+  },
+  {
+    "source_segment_id": "SS-OC131",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "啊，指望着这一个小小的突破，就代表了一个范式的革新。\n就算是真的。\n范式的革新也有得新的技术不停的把这个坑填起来。\n他才能支撑起来这么大的市值。\n你觉得这些事儿完全靠着莫啥东一个公司搞定，搞得动吗？\n我觉得搞不动啊。",
+    "cue_start": 580,
+    "cue_end": 585,
+    "start": "00:29:27,840",
+    "end": "00:29:45,690"
+  },
+  {
+    "source_segment_id": "SS-C124",
+    "source_id": "S02",
+    "source_version_ref": "V-S02",
+    "raw_text": "他现在的这个规模已经饱和了嘛？",
+    "semantic_segment_refs": [
+      "SEG07"
+    ],
+    "cue_start": 251,
+    "cue_end": 251,
+    "start": "00:12:07,380",
+    "end": "00:12:09,880"
+  }
+]

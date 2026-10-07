@@ -1,0 +1,253 @@
+{
+  "$defs": {
+    "HeuristicStatus": {
+      "enum": [
+        "candidate",
+        "unknown"
+      ],
+      "title": "HeuristicStatus",
+      "type": "string"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Heuristic",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Heuristic; ontology_version=0.3.",
+  "properties": {
+    "allowed_outputs": {
+      "description": "Permitted results",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Allowed Outputs",
+      "type": "array"
+    },
+    "analytical_action": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Action to perform",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Analytical Action"
+    },
+    "counterexamples": {
+      "description": "Counterexample evidence",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Counterexamples",
+      "type": "array"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "failure_conditions": {
+      "description": "Failure conditions",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Failure Conditions",
+      "type": "array"
+    },
+    "forbidden_leaps": {
+      "description": "Unsupported leaps to avoid",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Forbidden Leaps",
+      "type": "array"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "Heuristic",
+      "default": "Heuristic",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance": {
+      "description": "Evidence and attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Provenance",
+      "type": "array"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "required_inputs": {
+      "description": "Inputs needed",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Required Inputs",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Applicability scope",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Scope"
+    },
+    "statement": {
+      "description": "Reusable analytical action or check",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Statement",
+      "type": "string"
+    },
+    "status": {
+      "$ref": "#/$defs/HeuristicStatus",
+      "description": "Recorded candidate status; no Skill promotion",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Heuristic; core_principles.json"
+    },
+    "trigger_conditions": {
+      "description": "Conditions triggering the action",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Heuristic; core_principles.json",
+      "title": "Trigger Conditions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "statement",
+    "scope",
+    "trigger_conditions",
+    "required_inputs",
+    "analytical_action",
+    "allowed_outputs",
+    "forbidden_leaps",
+    "counterexamples",
+    "failure_conditions",
+    "status",
+    "provenance"
+  ],
+  "title": "Heuristic",
+  "type": "object"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "cls_oil",
+    "url": "https://www.cls.cn/detail/2300559",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  },
+  {
+    "key": "cls_live",
+    "url": "https://www.cls.cn/detail/2298102",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  },
+  {
+    "key": "reuters_platts",
+    "url": "https://www.reuters.com/world/middle-east/platts-reviewing-mideast-crude-pricing-mechanism-amid-us-israel-attacks-iran-2026-03-02/",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>"
+  }
+]

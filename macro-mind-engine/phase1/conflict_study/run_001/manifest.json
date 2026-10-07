@@ -1,0 +1,15 @@
+{
+  "accepted_registry.json": "16a7407c776ce5482329ba4c6304c5583012b9e193fbe580639f1f4db861636e",
+  "analysis.json": "ecb59ad017e86df0fbbe931adea5ffc09195442a76017bd51b83d4114088a453",
+  "development_transcripts.json": "76ba82dbf3a08c4c9d96afe59f6aedd2536785ab45aba3c144ca7d27bca1c55e",
+  "news_baseline.json": "23cd57cb96ae1d579d032fdf4b43018401fc2bda944c626b85db6835e228b233",
+  "news_baseline_lock.json": "de8702ab115d565ccaa82552a58ffab5daf841c7ec48c449ce2e295beceb7fc0",
+  "progress.json": "16c0f8b38159c6b08abf9a40a1adf3366ccdf399290fbb91cc21f7db8ff0bbef",
+  "REPORT.md": "86cc06227f286b9797530f2ae0fa0f7b64771bc7b610e4cc006c1c88d4fb0446",
+  "split_lock.json": "ec0df62051ec7e7fe1eecffdf70799e50c7831e5c04e411beff84fa9cfd96e82",
+  "submitted_metadata.json": "d744ca8f60baccaa2570688235b05a900feed9365735ee0de8a09e2de7cf32de",
+  "validation.json": "a2003ca57857fff7d5c9f944d12ef1d1fe19990047b218753f52e6ea9f5a7465",
+  "validation.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "validation.stdout.log": "b8651c922835924f92eb2465f0b1d65d8c644ce307a044a1fb7ad8f0573e1648",
+  "verify.py": "f4b7dade9aedb7ffde2278af3be553a98583a11bdfbdb578645c2622882af922"
+}

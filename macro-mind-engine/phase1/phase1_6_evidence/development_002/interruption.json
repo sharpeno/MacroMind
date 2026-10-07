@@ -1,0 +1,6 @@
+{
+  "status": "INTERRUPTED",
+  "acceptance_claimed": false,
+  "reason": "Development mapping test repeatedly serialized the full envelope for every ledger entry. Stopped redundant slow development run after caching envelope once in final test. Formal run_001 completed with 566 PASS and 1 real FAIL.",
+  "original_output_retained": true
+}

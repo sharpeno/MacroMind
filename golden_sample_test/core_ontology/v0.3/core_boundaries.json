@@ -1,0 +1,387 @@
+{
+  "ontology_version": "0.3",
+  "freeze_status": "FROZEN",
+  "boundaries": [
+    {
+      "boundary_id": "B01",
+      "boundary": "Source ↔ Claim",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "Source→片段/版本→Claim；独立 Assessment；按命题 origin 去重。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D07",
+        "D20"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/0",
+          "evidence_refs": [
+            "E02",
+            "E10",
+            "E41"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B02",
+      "boundary": "Claim ↔ Event",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "Claim 保存说法；Event 的状态和发生证据单列。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D20"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/1",
+          "evidence_refs": [
+            "E05",
+            "E12",
+            "E25"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B03",
+      "boundary": "Event ↔ StructuralProcess",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "跨期证据门槛；证据不足保留 Claim/Thesis。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D12"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/2",
+          "evidence_refs": [
+            "E03",
+            "E25",
+            "E32"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B04",
+      "boundary": "Actor ↔ Geography",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "主体身份与 location/role 关系分开。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "registry",
+      "core_change_required": false,
+      "debt_refs": [
+        "D07",
+        "D20"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/3",
+          "evidence_refs": [
+            "E05",
+            "E14"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B05",
+      "boundary": "Indicator ↔ IndicatorObservation",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "指标定义稳定，观测带 value_kind、period、comparison、role/stage。",
+      "implementation_status": "needs_field",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "field",
+      "core_change_required": false,
+      "debt_refs": [
+        "D16"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/4",
+          "evidence_refs": [
+            "E05",
+            "E13",
+            "E20",
+            "E27"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B06",
+      "boundary": "Policy ↔ Policy Event",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "政策持久状态与宣布/实施事件分别记录并关联。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "field",
+      "core_change_required": false,
+      "debt_refs": [
+        "D05"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/5",
+          "evidence_refs": [
+            "E05",
+            "E12"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B07",
+      "boundary": "Mechanism ↔ Argument",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "机制保留可复用因果结构，Argument 保存本次前提和实际推理边。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "relation",
+      "core_change_required": false,
+      "debt_refs": [
+        "D10",
+        "D11"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/6",
+          "evidence_refs": [
+            "E06",
+            "E16",
+            "E18",
+            "E26"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B08",
+      "boundary": "Thesis ↔ Forecast",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "持久结构解释与带时间/条件的未来判断分别引用。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D03",
+        "D15"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/7",
+          "evidence_refs": [
+            "E01",
+            "E08",
+            "E25",
+            "E34"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B09",
+      "boundary": "Scenario ↔ Forecast",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "Scenario 保留分支；Forecast 必须满足主体判断准入；不以 resolvability 单独替代准入。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D03"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/8",
+          "evidence_refs": [
+            "E08",
+            "E09",
+            "E24",
+            "E34"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B10",
+      "boundary": "Assessment ↔ Claim",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "Assessment 指向目标/标准/观察者；不改写原 Claim。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "field",
+      "core_change_required": false,
+      "debt_refs": [
+        "D20"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/9",
+          "evidence_refs": [
+            "E01",
+            "E41",
+            "E42"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B11",
+      "boundary": "Assessment ↔ Reality",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "评价作用范围和真值不传播原则。",
+      "implementation_status": "needs_validator",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "validator",
+      "core_change_required": false,
+      "debt_refs": [
+        "D20"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/10",
+          "evidence_refs": [
+            "E10",
+            "E41",
+            "E42"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B12",
+      "boundary": "Heuristic ↔ AnalystMethodSignal",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "局部行为观察→候选模式→规则，保留失败与匹配范围。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "auxiliary_object",
+      "core_change_required": false,
+      "debt_refs": [
+        "D14",
+        "D17"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/11",
+          "evidence_refs": [
+            "E04",
+            "E15",
+            "E17",
+            "E40"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B13",
+      "boundary": "Heuristic ↔ Skill Rule",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "Core Heuristic 可候选；Skill 需跨案稳定性、反例与验证。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "review",
+      "core_change_required": false,
+      "debt_refs": [
+        "D14"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/12",
+          "evidence_refs": [
+            "E01",
+            "E04",
+            "E40"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B14",
+      "boundary": "Mechanism ↔ MechanismUsage",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "共享机制和使用实例分别 attribution。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "auxiliary_object",
+      "core_change_required": false,
+      "debt_refs": [
+        "D10"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/13",
+          "evidence_refs": [
+            "E18",
+            "E19",
+            "E26"
+          ]
+        }
+      ]
+    },
+    {
+      "boundary_id": "B15",
+      "boundary": "Event ↔ Market Infrastructure Event subtype",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "frozen_semantic_rule": "以 Event subtype 和 registry 扩展表示通知动作。",
+      "implementation_status": "stable",
+      "implementation_status_note": "Inherited audit status, not implementation certification; even stable requires Phase 1 implementation as applicable.",
+      "resolution_layer": "registry",
+      "core_change_required": false,
+      "debt_refs": [
+        "D07"
+      ],
+      "source_audit_refs": [
+        {
+          "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+          "json_pointer": "/boundaries/14",
+          "evidence_refs": [
+            "E12"
+          ]
+        }
+      ]
+    }
+  ]
+}

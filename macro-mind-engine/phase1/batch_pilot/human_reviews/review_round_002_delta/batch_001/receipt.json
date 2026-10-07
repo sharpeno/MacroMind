@@ -1,0 +1,34 @@
+{
+  "received_at": "2026-10-03T19:27:51.583241+00:00",
+  "source_path": "C:\\Users\\无语\\Downloads\\MacroMind_round002delta_2026-10-04_032543_CST_2of2_full_a4f6f675.json",
+  "raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\raw\\MacroMind_round002delta_2026-10-04_032543_CST_2of2_full_a4f6f675.json",
+  "sha256": "525be7aa35781894701371ad9a26a9f7382353e7451cf408ce4cce1f5e8faa02",
+  "dataset": "447b8cfd58e3e791acb0fd1c13c95048f6a51e5468ebef9e5988d3b2c4c2726d",
+  "records": 2,
+  "accepted_revisions": 2,
+  "reviewer": "User-submitted in current chat; name blank",
+  "exported_at_utc": "2026-10-03T19:25:43.826Z",
+  "exported_at_shanghai": "2026-10-04 03:25:43 +08:00",
+  "validation": [
+    {
+      "package": "run_001",
+      "checked": 347,
+      "mismatches": []
+    },
+    {
+      "package": "run_002",
+      "checked": 301,
+      "mismatches": []
+    },
+    {
+      "package": "run_003",
+      "checked": 288,
+      "mismatches": []
+    },
+    {
+      "package": "review_round_002_delta",
+      "checked": 12,
+      "mismatches": []
+    }
+  ]
+}

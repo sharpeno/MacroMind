@@ -1,0 +1,18 @@
+--- before/main.py
++++ after/main.py
+@@ -6,6 +6,7 @@
+ 
+ import typer
+ 
++from macromind.cli.audit import audit_app
+ from macromind.contract.loader import load_frozen_contract
+ from macromind.errors import ContractIntegrityError, MacroMindError
+ from macromind.registry.loader import load_registry
+@@ -14,6 +15,7 @@
+ contract_app = typer.Typer()
+ schema_app = typer.Typer()
+ registry_app = typer.Typer()
++app.add_typer(audit_app, name="audit")
+ app.add_typer(contract_app, name="contract")
+ app.add_typer(schema_app, name="schema")
+ app.add_typer(registry_app, name="registry")

@@ -1,0 +1,30 @@
+[
+  {
+    "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\golden_sample_005.json",
+    "sha256": "5faa6de981de98ab2a5b2bb230572ee04a2de43a577ad6d7c77dd216c4459324"
+  },
+  {
+    "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\golden_sample_005_ma1_supplement.md",
+    "sha256": "42673793885a5233052858e2c51d86e0f625d7a3cfee45b6f5f7ef2e18307bc6"
+  },
+  {
+    "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\ma1_compliance_audit.json",
+    "sha256": "8cf22d3c0afbf175ba29bfcc99ce41370dc69c6f3aa2ed8564f97e56ff62c2db"
+  },
+  {
+    "path": "G:\\youhegaojian\\迭代\\MacroMind V0.3.1-MA.1 Minor Patch.md",
+    "sha256": "549bc9e0d524aead8048e57f2d6121288ff3e19ddda918b30e30e46909334bca"
+  },
+  {
+    "path": "G:\\youhegaojian\\prompt\\MacroMind GS005 → V0.3.1-MA.1 数据迁移.md",
+    "sha256": "043747e96a341c4e40ac54ef470db5624ef52a9d9de6dc78b202874d79ae575b"
+  },
+  {
+    "path": "C:\\Users\\无语\\.codex\\attachments\\547bb087-d209-4712-91fd-b6663b41b53a\\已粘贴的文本.txt",
+    "sha256": "3120a847198c5ecac69e3a29cee48fba9de61ebda5c5310cffea7825a8182733"
+  },
+  {
+    "path": "G:\\youhegaojian\\golden_sample_test\\migrate_gs005_ma1.py",
+    "sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7"
+  }
+]

@@ -1,0 +1,3406 @@
+{
+  "canonical_source_unchanged": true,
+  "assistant_audio_verified": false,
+  "segments": [
+    {
+      "cue_id": 1,
+      "time_range": "00:00:00,280 --> 00:00:20,280",
+      "quote": "大家好，今天跟大家聊聊美联储加息的预期哈。按照目前市场交易的结果的话，现在市场基本上默认了星期四的凌晨2点钟，美联储这边会宣布加息25个BP啊啊这个加息的决策呢，其实我在今年的年初就跟大家提前的预计过了。",
+      "original_quote": "大家好，今天跟大家聊聊美联储加息的预期哈。按照目前市场交易的结果的话，现在市场基本上默认了星期四的凌晨2点钟，美联储这边会宣布加息25个BP啊啊这个加息的决策呢，其实我在今年的年初就跟大家提前的预计过了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 2,
+      "time_range": "00:00:20,340 --> 00:00:40,340",
+      "quote": "啊，大家不妨回想一下，7月份的时候，我跟大家说，美联储9月份会加息，当时评论区有多少小伙伴说，你说错了。虽然我认可你的分析，但是我认为最后美联储会退缩的，给的理由呢，大概就是在特朗普的淫威之下，我是会退缩的。",
+      "original_quote": "啊，大家不妨回想一下，7月份的时候，我跟大家说，美联储9月份会加息，当时评论区有多少小伙伴说，你说错了。虽然我认可你的分析，但是我认为最后美联储会退缩的，给的理由呢，大概就是在特朗普的淫威之下，我是会退缩的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 3,
+      "time_range": "00:00:40,340 --> 00:01:00,340",
+      "quote": "但是大家仔细的想想看啊，特朗普在中东栽跟头，是今年的2月底3月初，到了7月份的时候，实际上你已经看得很清楚了。特朗普美国在中东这边讨不了好，那为什么到那个时候还会有人相信特朗普能够把加息的这个时间拖到了。",
+      "original_quote": "但是大家仔细的想想看啊，特朗普在中东栽跟头，是今年的2月底3月初，到了7月份的时候，实际上你已经看得很清楚了。特朗普美国在中东这边讨不了好，那为什么到那个时候还会有人相信特朗普能够把加息的这个时间拖到了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 4,
+      "time_range": "00:01:00,340 --> 00:01:02,560",
+      "quote": "11月份以后就终期选举以后呢。",
+      "original_quote": "11月份以后就终期选举以后呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 5,
+      "time_range": "00:01:02,600 --> 00:01:04,350",
+      "quote": "那大概率就是认为。",
+      "original_quote": "那大概率就是认为。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 6,
+      "time_range": "00:01:04,350 --> 00:01:07,360",
+      "quote": "特朗普中期选举的这个威势还在。",
+      "original_quote": "特朗普中期选举的这个威势还在。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 7,
+      "time_range": "00:01:07,360 --> 00:01:08,140",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 8,
+      "time_range": "00:01:08,140 --> 00:01:09,380",
+      "quote": "那同样的道理。",
+      "original_quote": "那同样的道理。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 9,
+      "time_range": "00:01:09,380 --> 00:01:13,790",
+      "quote": "现在市场交易的方向绑架着卧室，现在结果还没出来啊。",
+      "original_quote": "现在市场交易的方向绑架着卧室，现在结果还没出来啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 10,
+      "time_range": "00:01:13,790 --> 00:01:18,350",
+      "quote": "卧实会不会加息，还是两说啊，但是大概率它是胳膊拧不过大腿的，因为。",
+      "original_quote": "卧实会不会加息，还是两说啊，但是大概率它是胳膊拧不过大腿的，因为。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 11,
+      "time_range": "00:01:18,350 --> 00:01:19,150",
+      "quote": "毕竟。",
+      "original_quote": "毕竟。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 12,
+      "time_range": "00:01:19,220 --> 00:01:21,320",
+      "quote": "美联储的票尾有12位。",
+      "original_quote": "美联储的票尾有12位。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 13,
+      "time_range": "00:01:21,660 --> 00:01:25,990",
+      "quote": "你非要强行的说，这12位票尾，其他11位的意见我都不听。",
+      "original_quote": "你非要强行的说，这12位票尾，其他11位的意见我都不听。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 14,
+      "time_range": "00:01:25,990 --> 00:01:28,240",
+      "quote": "我就按照我的想法来，可不可行呢？",
+      "original_quote": "我就按照我的想法来，可不可行呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 15,
+      "time_range": "00:01:28,240 --> 00:01:32,640",
+      "quote": "啊，理论上来说是可行的。因为卧室上来以后，不是搞了5个工作组嘛。",
+      "original_quote": "啊，理论上来说是可行的。因为卧室上来以后，不是搞了5个工作组嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 16,
+      "time_range": "00:01:32,640 --> 00:01:34,660",
+      "quote": "这无庸勒组的意思呢就是。",
+      "original_quote": "这无庸勒组的意思呢就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 17,
+      "time_range": "00:01:34,660 --> 00:01:39,600",
+      "quote": "啊，其他的事儿的话，你们这些票尾的话意见都不重要，我的意见才重要，因为啥？",
+      "original_quote": "啊，其他的事儿的话，你们这些票尾的话意见都不重要，我的意见才重要，因为啥？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 18,
+      "time_range": "00:01:39,600 --> 00:01:43,310",
+      "quote": "因为我有5个大的后背后的这个智能团给我提供。",
+      "original_quote": "因为我有5个大的后背后的这个智能团给我提供。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 19,
+      "time_range": "00:01:43,310 --> 00:01:46,670",
+      "quote": "你们都没有的这个思考的维度啊，意思就是这个意思。",
+      "original_quote": "你们都没有的这个思考的维度啊，意思就是这个意思。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 20,
+      "time_range": "00:01:46,670 --> 00:01:48,180",
+      "quote": "但是他敢不敢。",
+      "original_quote": "但是他敢不敢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 21,
+      "time_range": "00:01:48,230 --> 00:01:52,730",
+      "quote": "呃，7月份的时候啊9月份的时候就把这个态度亮出来。",
+      "original_quote": "呃，7月份的时候啊9月份的时候就把这个态度亮出来。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 22,
+      "time_range": "00:01:52,730 --> 00:01:55,310",
+      "quote": "啊，跟着整个市场进行一个对着干的。",
+      "original_quote": "啊，跟着整个市场进行一个对着干的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 23,
+      "time_range": "00:01:55,310 --> 00:02:00,850",
+      "quote": "我的分析啊7月份的时候跟大家分析的，我认为呢它没有这个胆量，也没有这个一必要。",
+      "original_quote": "我的分析啊7月份的时候跟大家分析的，我认为呢它没有这个胆量，也没有这个一必要。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 24,
+      "time_range": "00:02:00,850 --> 00:02:02,710",
+      "quote": "为啥呢？来日方长嘛。",
+      "original_quote": "为啥呢？来日方长嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 25,
+      "time_range": "00:02:02,710 --> 00:02:04,950",
+      "quote": "他刚上任才多长时间呢？",
+      "original_quote": "他刚上任才多长时间呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 26,
+      "time_range": "00:02:04,950 --> 00:02:07,050",
+      "quote": "他未来任期有10年呢。",
+      "original_quote": "他未来任期有10年呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 27,
+      "time_range": "00:02:07,050 --> 00:02:07,830",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 28,
+      "time_range": "00:02:07,830 --> 00:02:08,970",
+      "quote": "你把自己的。",
+      "original_quote": "你把自己的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 29,
+      "time_range": "00:02:08,970 --> 00:02:12,810",
+      "quote": "整个的这个利益全部绑定在特朗普身上。",
+      "original_quote": "整个的这个利益全部绑定在特朗普身上。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 30,
+      "time_range": "00:02:12,820 --> 00:02:15,350",
+      "quote": "这是非常非常不智的。如果特朗普。",
+      "original_quote": "这是非常非常不智的。如果特朗普。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 31,
+      "time_range": "00:02:15,350 --> 00:02:16,940",
+      "quote": "明显的有冠军项。",
+      "original_quote": "明显的有冠军项。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 32,
+      "time_range": "00:02:16,940 --> 00:02:19,340",
+      "quote": "未来特朗普王朝在美国。",
+      "original_quote": "未来特朗普王朝在美国。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 33,
+      "time_range": "00:02:19,340 --> 00:02:20,880",
+      "quote": "对政治的把持。",
+      "original_quote": "对政治的把持。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 34,
+      "time_range": "00:02:20,880 --> 00:02:21,660",
+      "quote": "会。",
+      "original_quote": "会。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 35,
+      "time_range": "00:02:21,660 --> 00:02:24,170",
+      "quote": "长期肉眼可见的，咱们不说多久了。",
+      "original_quote": "长期肉眼可见的，咱们不说多久了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 36,
+      "time_range": "00:02:24,170 --> 00:02:25,990",
+      "quote": "就任期剩下这段时间。",
+      "original_quote": "就任期剩下这段时间。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 37,
+      "time_range": "00:02:25,990 --> 00:02:29,010",
+      "quote": "都还是非常非常有强力的把持能力的话。",
+      "original_quote": "都还是非常非常有强力的把持能力的话。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 38,
+      "time_range": "00:02:29,010 --> 00:02:31,260",
+      "quote": "那你卧实鸡蛋鸡蛋特朗普是可以的。",
+      "original_quote": "那你卧实鸡蛋鸡蛋特朗普是可以的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 39,
+      "time_range": "00:02:31,260 --> 00:02:33,160",
+      "quote": "毕竟嘛谁也不好说。",
+      "original_quote": "毕竟嘛谁也不好说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 40,
+      "time_range": "00:02:33,340 --> 00:02:38,720",
+      "quote": "到了明年啊，到了下一次选的时候，2028年选的时候，特朗普会不会耍赖，是不是？",
+      "original_quote": "到了明年啊，到了下一次选的时候，2028年选的时候，特朗普会不会耍赖，是不是？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 41,
+      "time_range": "00:02:38,720 --> 00:02:42,570",
+      "quote": "大家再耍赖的话，那整个美国的这个秩序就破坏了。那个时候。",
+      "original_quote": "大家再耍赖的话，那整个美国的这个秩序就破坏了。那个时候。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 42,
+      "time_range": "00:02:42,570 --> 00:02:46,110",
+      "quote": "啊，一个坚定的美联储站在特朗普背后。",
+      "original_quote": "啊，一个坚定的美联储站在特朗普背后。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 43,
+      "time_range": "00:02:46,110 --> 00:02:48,580",
+      "quote": "是一个很重要团结的标志，对吧？",
+      "original_quote": "是一个很重要团结的标志，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 44,
+      "time_range": "00:02:48,580 --> 00:02:51,680",
+      "quote": "但显然这个剧情不是按照这个剧本走的呀。",
+      "original_quote": "但显然这个剧情不是按照这个剧本走的呀。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 45,
+      "time_range": "00:02:51,680 --> 00:02:54,680",
+      "quote": "特朗普早早的就把自己的政治信誉透支了呀。",
+      "original_quote": "特朗普早早的就把自己的政治信誉透支了呀。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 46,
+      "time_range": "00:02:54,680 --> 00:02:56,430",
+      "quote": "让所有人都看出来他的。",
+      "original_quote": "让所有人都看出来他的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 47,
+      "time_range": "00:02:56,430 --> 00:02:57,250",
+      "quote": "角色了呀。",
+      "original_quote": "角色了呀。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 48,
+      "time_range": "00:02:57,290 --> 00:03:02,180",
+      "quote": "昨天出了一个最搞笑的一幕，这个我今天下午会好好的讲啊。",
+      "original_quote": "昨天出了一个最搞笑的一幕，这个我今天下午会好好的讲啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 49,
+      "time_range": "00:03:02,180 --> 00:03:03,000",
+      "quote": "那啥呢？",
+      "original_quote": "那啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 50,
+      "time_range": "00:03:03,030 --> 00:03:05,100",
+      "quote": "特朗普突然之间憋不住了。",
+      "original_quote": "特朗普突然之间憋不住了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 51,
+      "time_range": "00:03:05,100 --> 00:03:06,820",
+      "quote": "出来说伊朗要谈判。",
+      "original_quote": "出来说伊朗要谈判。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 52,
+      "time_range": "00:03:06,980 --> 00:03:12,390",
+      "quote": "啊，伊朗这个衰弱的伊朗帝国是吧？要赶紧的跟我来谈判了。",
+      "original_quote": "啊，伊朗这个衰弱的伊朗帝国是吧？要赶紧的跟我来谈判了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 53,
+      "time_range": "00:03:12,390 --> 00:03:17,840",
+      "quote": "我对谈判保持着开放的意见是吧？你朗找我谈可以谈呢，没关系，可以谈的。",
+      "original_quote": "我对谈判保持着开放的意见是吧？你朗找我谈可以谈呢，没关系，可以谈的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 54,
+      "time_range": "00:03:17,840 --> 00:03:19,500",
+      "quote": "他释放完了以后呢。",
+      "original_quote": "他释放完了以后呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 55,
+      "time_range": "00:03:19,500 --> 00:03:24,980",
+      "quote": "十年期美债的收益率当时一破呀一度的话是突破了5%啊5%的。",
+      "original_quote": "十年期美债的收益率当时一破呀一度的话是突破了5%啊5%的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 56,
+      "time_range": "00:03:25,130 --> 00:03:28,430",
+      "quote": "结果特朗普一说，伊朗要找到美国谈判。",
+      "original_quote": "结果特朗普一说，伊朗要找到美国谈判。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 57,
+      "time_range": "00:03:28,430 --> 00:03:31,910",
+      "quote": "1年去美债收益率应声而跌，跌到4.9%。",
+      "original_quote": "1年去美债收益率应声而跌，跌到4.9%。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 58,
+      "time_range": "00:03:31,910 --> 00:03:32,740",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 59,
+      "time_range": "00:03:32,740 --> 00:03:33,440",
+      "quote": "然后呢。",
+      "original_quote": "然后呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 60,
+      "time_range": "00:03:33,440 --> 00:03:36,710",
+      "quote": "伊朗这边特朗普这边说了，前脚说了。",
+      "original_quote": "伊朗这边特朗普这边说了，前脚说了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 61,
+      "time_range": "00:03:36,710 --> 00:03:40,660",
+      "quote": "不到5分钟，伊朗这边就反驳伊特朗普驳斥伊特朗普。",
+      "original_quote": "不到5分钟，伊朗这边就反驳伊特朗普驳斥伊特朗普。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 62,
+      "time_range": "00:03:40,660 --> 00:03:42,880",
+      "quote": "官方出来说说没有的事儿。",
+      "original_quote": "官方出来说说没有的事儿。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 63,
+      "time_range": "00:03:42,880 --> 00:03:45,830",
+      "quote": "伊朗根本就没有跟美国有任何官方的沟通。",
+      "original_quote": "伊朗根本就没有跟美国有任何官方的沟通。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 64,
+      "time_range": "00:03:45,830 --> 00:03:46,110",
+      "quote": "あ？",
+      "original_quote": "あ？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 65,
+      "time_range": "00:03:46,110 --> 00:03:47,600",
+      "quote": "那说明两个问题嘛。",
+      "original_quote": "那说明两个问题嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 66,
+      "time_range": "00:03:47,600 --> 00:03:53,010",
+      "quote": "伊朗这边刚高强度的在搜特朗普的发言嘛，一直在盯着特朗普在说啥吧。",
+      "original_quote": "伊朗这边刚高强度的在搜特朗普的发言嘛，一直在盯着特朗普在说啥吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 67,
+      "time_range": "00:03:53,010 --> 00:03:57,060",
+      "quote": "另外一个的话，伊朗这边早就防止特朗普在这边搞这个事情嘛。",
+      "original_quote": "另外一个的话，伊朗这边早就防止特朗普在这边搞这个事情嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 68,
+      "time_range": "00:03:57,060 --> 00:04:00,010",
+      "quote": "假这个假假他人之口。",
+      "original_quote": "假这个假假他人之口。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 69,
+      "time_range": "00:04:00,010 --> 00:04:02,120",
+      "quote": "说啊，伊朗要跟美国谈。",
+      "original_quote": "说啊，伊朗要跟美国谈。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 70,
+      "time_range": "00:04:02,120 --> 00:04:08,900",
+      "quote": "实际上呢就是拆台告诉你，实际上真正想谈的是美国嘛。那为啥美国想谈这答案不是摆明摆着呢吗？",
+      "original_quote": "实际上呢就是拆台告诉你，实际上真正想谈的是美国嘛。那为啥美国想谈这答案不是摆明摆着呢吗？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 71,
+      "time_range": "00:04:08,900 --> 00:04:10,300",
+      "quote": "油价涨成这样了。",
+      "original_quote": "油价涨成这样了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 72,
+      "time_range": "00:04:10,300 --> 00:04:11,670",
+      "quote": "那柴油价格。",
+      "original_quote": "那柴油价格。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 73,
+      "time_range": "00:04:11,670 --> 00:04:14,020",
+      "quote": "6美元一加仑6.2美元一加仑啊。",
+      "original_quote": "6美元一加仑6.2美元一加仑啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 74,
+      "time_range": "00:04:14,020 --> 00:04:15,930",
+      "quote": "这价格还要继续继续涨呢。",
+      "original_quote": "这价格还要继续继续涨呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 75,
+      "time_range": "00:04:16,300 --> 00:04:18,910",
+      "quote": "而且现在你看到的这些东西。",
+      "original_quote": "而且现在你看到的这些东西。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 76,
+      "time_range": "00:04:18,910 --> 00:04:19,630",
+      "quote": "但是。",
+      "original_quote": "但是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 77,
+      "time_range": "00:04:19,630 --> 00:04:22,250",
+      "quote": "正在反映红海这边市场。",
+      "original_quote": "正在反映红海这边市场。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 78,
+      "time_range": "00:04:22,250 --> 00:04:23,500",
+      "quote": "啊，出现了波动。",
+      "original_quote": "啊，出现了波动。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 79,
+      "time_range": "00:04:23,500 --> 00:04:28,020",
+      "quote": "啊，阿联酋啊这个这个沙特的这个石油管的啊遭到了攻击。",
+      "original_quote": "啊，阿联酋啊这个这个沙特的这个石油管的啊遭到了攻击。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 80,
+      "time_range": "00:04:28,140 --> 00:04:31,370",
+      "quote": "但这是现在真正的问题嘛，真正的问题是。",
+      "original_quote": "但这是现在真正的问题嘛，真正的问题是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 81,
+      "time_range": "00:04:31,370 --> 00:04:34,530",
+      "quote": "之前的释放出来的库存。",
+      "original_quote": "之前的释放出来的库存。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 82,
+      "time_range": "00:04:34,530 --> 00:04:37,150",
+      "quote": "啊，已经出现了影响了。",
+      "original_quote": "啊，已经出现了影响了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 83,
+      "time_range": "00:04:37,470 --> 00:04:40,250",
+      "quote": "中国这边都开始补库动作了。",
+      "original_quote": "中国这边都开始补库动作了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 84,
+      "time_range": "00:04:40,250 --> 00:04:42,040",
+      "quote": "你就可想而知了是吧？",
+      "original_quote": "你就可想而知了是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 85,
+      "time_range": "00:04:42,040 --> 00:04:43,990",
+      "quote": "这实际上过去这半年。",
+      "original_quote": "这实际上过去这半年。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 86,
+      "time_range": "00:04:43,990 --> 00:04:45,910",
+      "quote": "对库存的消耗是挺厉害的。",
+      "original_quote": "对库存的消耗是挺厉害的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 87,
+      "time_range": "00:04:45,910 --> 00:04:52,170",
+      "quote": "中国进口中东这边的石油只占我们整体的石油占比不到30%。",
+      "original_quote": "中国进口中东这边的石油只占我们整体的石油占比不到30%。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 88,
+      "time_range": "00:04:52,240 --> 00:04:53,120",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 89,
+      "time_range": "00:04:53,120 --> 00:04:56,800",
+      "quote": "有一说的话是3%22%几，有一说是34%，反正。",
+      "original_quote": "有一说的话是3%22%几，有一说是34%，反正。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 90,
+      "time_range": "00:04:56,800 --> 00:04:58,970",
+      "quote": "就大概这个水平3分之1的水平。",
+      "original_quote": "就大概这个水平3分之1的水平。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 91,
+      "time_range": "00:04:59,210 --> 00:05:00,070",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 92,
+      "time_range": "00:05:00,070 --> 00:05:03,080",
+      "quote": "那这边受到影响了以后，我们这边一方面呢。",
+      "original_quote": "那这边受到影响了以后，我们这边一方面呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 93,
+      "time_range": "00:05:03,080 --> 00:05:04,300",
+      "quote": "新能源推广。",
+      "original_quote": "新能源推广。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 94,
+      "time_range": "00:05:04,320 --> 00:05:06,450",
+      "quote": "把需求这边降了很多，对吧？",
+      "original_quote": "把需求这边降了很多，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 95,
+      "time_range": "00:05:06,450 --> 00:05:10,820",
+      "quote": "你油价上来了以后，市场动态平衡嘛，油价涨了以后，新能源就车就卖的好嘛。",
+      "original_quote": "你油价上来了以后，市场动态平衡嘛，油价涨了以后，新能源就车就卖的好嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 96,
+      "time_range": "00:05:10,820 --> 00:05:12,040",
+      "quote": "那加油的就少嘛。",
+      "original_quote": "那加油的就少嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 97,
+      "time_range": "00:05:12,040 --> 00:05:13,460",
+      "quote": "需求就变少了嘛。",
+      "original_quote": "需求就变少了嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 98,
+      "time_range": "00:05:13,460 --> 00:05:14,550",
+      "quote": "另外一方面呢。",
+      "original_quote": "另外一方面呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 99,
+      "time_range": "00:05:14,550 --> 00:05:16,300",
+      "quote": "积极的跟俄罗斯这边谈。",
+      "original_quote": "积极的跟俄罗斯这边谈。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 100,
+      "time_range": "00:05:16,300 --> 00:05:19,460",
+      "quote": "啊，其他渠道的这个石油的进口啊，俄罗斯啊。",
+      "original_quote": "啊，其他渠道的这个石油的进口啊，俄罗斯啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 101,
+      "time_range": "00:05:19,460 --> 00:05:22,670",
+      "quote": "拉美呀，包括美国是吧？这石油的进口。",
+      "original_quote": "拉美呀，包括美国是吧？这石油的进口。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 102,
+      "time_range": "00:05:22,670 --> 00:05:24,450",
+      "quote": "啊，就进行一个库存的补充。",
+      "original_quote": "啊，就进行一个库存的补充。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 103,
+      "time_range": "00:05:24,450 --> 00:05:27,040",
+      "quote": "如果说这个世界上有一家。",
+      "original_quote": "如果说这个世界上有一家。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 104,
+      "time_range": "00:05:27,040 --> 00:05:27,850",
+      "quote": "国家。",
+      "original_quote": "国家。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 105,
+      "time_range": "00:05:27,850 --> 00:05:30,490",
+      "quote": "未雨绸缪，提前做了这种多。",
+      "original_quote": "未雨绸缪，提前做了这种多。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 106,
+      "time_range": "00:05:30,490 --> 00:05:34,830",
+      "quote": "啊，方案的这种防止就防止突然之间出现一场。",
+      "original_quote": "啊，方案的这种防止就防止突然之间出现一场。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 107,
+      "time_range": "00:05:34,830 --> 00:05:36,030",
+      "quote": "啊，战争。",
+      "original_quote": "啊，战争。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 108,
+      "time_range": "00:05:36,030 --> 00:05:39,380",
+      "quote": "然后自己从中东这边运游的这种可能性被断绝了。",
+      "original_quote": "然后自己从中东这边运游的这种可能性被断绝了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 109,
+      "time_range": "00:05:39,380 --> 00:05:43,150",
+      "quote": "这从中国的战略出发是非常非常现实的考量，为啥呢？",
+      "original_quote": "这从中国的战略出发是非常非常现实的考量，为啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 110,
+      "time_range": "00:05:43,150 --> 00:05:45,400",
+      "quote": "因为当时中东是美国人的中东嘛？",
+      "original_quote": "因为当时中东是美国人的中东嘛？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 111,
+      "time_range": "00:05:45,400 --> 00:05:51,950",
+      "quote": "那中美之间围绕着台海问题要对峙了以后，第一时间美国要断的就是霍尔木兹亚对中国的禁禁运嘛。",
+      "original_quote": "那中美之间围绕着台海问题要对峙了以后，第一时间美国要断的就是霍尔木兹亚对中国的禁禁运嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 112,
+      "time_range": "00:05:51,950 --> 00:05:52,660",
+      "quote": "就是。",
+      "original_quote": "就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 113,
+      "time_range": "00:05:52,660 --> 00:05:56,090",
+      "quote": "石油对中国的禁运嘛，就是沙特对石油对呃就对中国的敬运嘛。",
+      "original_quote": "石油对中国的禁运嘛，就是沙特对石油对呃就对中国的敬运嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 114,
+      "time_range": "00:05:56,090 --> 00:05:59,410",
+      "quote": "沙特肯定会听美国的呀，沙特阿美在美国上市啊。",
+      "original_quote": "沙特肯定会听美国的呀，沙特阿美在美国上市啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 115,
+      "time_range": "00:05:59,530 --> 00:06:00,550",
+      "quote": "那个时候。",
+      "original_quote": "那个时候。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 116,
+      "time_range": "00:06:00,550 --> 00:06:02,510",
+      "quote": "中美之间如果真的翻脸了以后。",
+      "original_quote": "中美之间如果真的翻脸了以后。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 117,
+      "time_range": "00:06:02,510 --> 00:06:05,000",
+      "quote": "美国要求沙特不准给中国共有。",
+      "original_quote": "美国要求沙特不准给中国共有。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 118,
+      "time_range": "00:06:05,000 --> 00:06:07,790",
+      "quote": "那沙特也只敢偷偷摸摸的给中国工友嘛。",
+      "original_quote": "那沙特也只敢偷偷摸摸的给中国工友嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 119,
+      "time_range": "00:06:07,790 --> 00:06:08,400",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 120,
+      "time_range": "00:06:08,400 --> 00:06:12,120",
+      "quote": "那既然这种直接的威胁，直接就比在咽喉上的。",
+      "original_quote": "那既然这种直接的威胁，直接就比在咽喉上的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 121,
+      "time_range": "00:06:12,120 --> 00:06:16,370",
+      "quote": "那中国肯定是做了多手准备，防止霍尔木斯惨峡这边的石油中断嘛。",
+      "original_quote": "那中国肯定是做了多手准备，防止霍尔木斯惨峡这边的石油中断嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 122,
+      "time_range": "00:06:16,370 --> 00:06:17,790",
+      "quote": "那现在石油中断了。",
+      "original_quote": "那现在石油中断了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 123,
+      "time_range": "00:06:17,790 --> 00:06:20,790",
+      "quote": "中国这边经过了这半年时间，现在也开开始。",
+      "original_quote": "中国这边经过了这半年时间，现在也开开始。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 124,
+      "time_range": "00:06:20,790 --> 00:06:22,900",
+      "quote": "告诉你开始进行一个库存补充了。",
+      "original_quote": "告诉你开始进行一个库存补充了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 125,
+      "time_range": "00:06:22,900 --> 00:06:23,530",
+      "quote": "那就。",
+      "original_quote": "那就。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 126,
+      "time_range": "00:06:23,530 --> 00:06:26,110",
+      "quote": "实际上是提前的宣告大家。",
+      "original_quote": "实际上是提前的宣告大家。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 127,
+      "time_range": "00:06:26,110 --> 00:06:27,960",
+      "quote": "经过我们的官方测算。",
+      "original_quote": "经过我们的官方测算。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 128,
+      "time_range": "00:06:27,960 --> 00:06:32,620",
+      "quote": "全世界其他的国家，这个石油的这个库库存也基本上快见底了。",
+      "original_quote": "全世界其他的国家，这个石油的这个库库存也基本上快见底了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 129,
+      "time_range": "00:06:32,630 --> 00:06:33,430",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 130,
+      "time_range": "00:06:33,430 --> 00:06:35,170",
+      "quote": "这才是真正的威胁。",
+      "original_quote": "这才是真正的威胁。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 131,
+      "time_range": "00:06:35,170 --> 00:06:37,380",
+      "quote": "石油的价格现在涨。",
+      "original_quote": "石油的价格现在涨。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 132,
+      "time_range": "00:06:37,380 --> 00:06:39,230",
+      "quote": "只是长的这么一段。",
+      "original_quote": "只是长的这么一段。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 133,
+      "time_range": "00:06:39,230 --> 00:06:42,030",
+      "quote": "后边还有继续的上涨的这个空间。",
+      "original_quote": "后边还有继续的上涨的这个空间。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 134,
+      "time_range": "00:06:42,030 --> 00:06:43,930",
+      "quote": "我前面的节目跟大家说了，我说。",
+      "original_quote": "我前面的节目跟大家说了，我说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 135,
+      "time_range": "00:06:43,930 --> 00:06:46,220",
+      "quote": "之前我觉得石油会涨到200。",
+      "original_quote": "之前我觉得石油会涨到200。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 136,
+      "time_range": "00:06:46,220 --> 00:06:46,520",
+      "quote": "あ。",
+      "original_quote": "あ。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 137,
+      "time_range": "00:06:46,520 --> 00:06:51,440",
+      "quote": "但目前来看的话，200不太可能，为啥呢？毕竟有新能源这么一个积极的因素。",
+      "original_quote": "但目前来看的话，200不太可能，为啥呢？毕竟有新能源这么一个积极的因素。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 138,
+      "time_range": "00:06:51,440 --> 00:06:52,610",
+      "quote": "我认为呢是由。",
+      "original_quote": "我认为呢是由。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 139,
+      "time_range": "00:06:52,610 --> 00:06:55,350",
+      "quote": "现在是100左右嘛，对吧？100110嘛。",
+      "original_quote": "现在是100左右嘛，对吧？100110嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 140,
+      "time_range": "00:06:55,350 --> 00:06:58,740",
+      "quote": "我认为的话，他最多最多的话可能就涨到120左右。",
+      "original_quote": "我认为的话，他最多最多的话可能就涨到120左右。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 141,
+      "time_range": "00:06:58,740 --> 00:07:00,320",
+      "quote": "再往上高了的话，其实。",
+      "original_quote": "再往上高了的话，其实。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 142,
+      "time_range": "00:07:00,320 --> 00:07:02,720",
+      "quote": "对新能源来说的话，马上就会把它。",
+      "original_quote": "对新能源来说的话，马上就会把它。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 143,
+      "time_range": "00:07:02,720 --> 00:07:05,330",
+      "quote": "从现在小透明的状态提到显学的状态。",
+      "original_quote": "从现在小透明的状态提到显学的状态。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 144,
+      "time_range": "00:07:05,490 --> 00:07:07,150",
+      "quote": "等到那个时候。",
+      "original_quote": "等到那个时候。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 145,
+      "time_range": "00:07:07,160 --> 00:07:09,540",
+      "quote": "中国的新能源产业就是。",
+      "original_quote": "中国的新能源产业就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 146,
+      "time_range": "00:07:09,540 --> 00:07:12,980",
+      "quote": "屋子里的大象谁也没办法忽视了。",
+      "original_quote": "屋子里的大象谁也没办法忽视了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 147,
+      "time_range": "00:07:12,980 --> 00:07:13,420",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 148,
+      "time_range": "00:07:13,420 --> 00:07:16,640",
+      "quote": "那时候才是真正的从幕后走向台前的时候。",
+      "original_quote": "那时候才是真正的从幕后走向台前的时候。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 149,
+      "time_range": "00:07:16,640 --> 00:07:17,400",
+      "quote": "估值。",
+      "original_quote": "估值。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 150,
+      "time_range": "00:07:17,400 --> 00:07:21,580",
+      "quote": "得到一个重塑的时候，现在这个时机越来越近了，但是还没到啊。",
+      "original_quote": "得到一个重塑的时候，现在这个时机越来越近了，但是还没到啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 151,
+      "time_range": "00:07:21,580 --> 00:07:23,480",
+      "quote": "稍安勿躁是吧，不要着急。",
+      "original_quote": "稍安勿躁是吧，不要着急。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 152,
+      "time_range": "00:07:23,480 --> 00:07:26,280",
+      "quote": "大的这个趋势呢正在向这个方向去发展。",
+      "original_quote": "大的这个趋势呢正在向这个方向去发展。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 153,
+      "time_range": "00:07:26,370 --> 00:07:27,200",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 154,
+      "time_range": "00:07:27,200 --> 00:07:30,160",
+      "quote": "另外的话就是现在这个美股是吧？",
+      "original_quote": "另外的话就是现在这个美股是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 155,
+      "time_range": "00:07:30,160 --> 00:07:34,950",
+      "quote": "美股最近呢对美国的这个流动性抽取是越发的变本加厉了。",
+      "original_quote": "美股最近呢对美国的这个流动性抽取是越发的变本加厉了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 156,
+      "time_range": "00:07:34,990 --> 00:07:38,090",
+      "quote": "这几天的话不是传出来那个asthropic是吧？",
+      "original_quote": "这几天的话不是传出来那个asthropic是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 157,
+      "time_range": "00:07:38,090 --> 00:07:40,260",
+      "quote": "跟那个open air打嘴炮。",
+      "original_quote": "跟那个open air打嘴炮。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 158,
+      "time_range": "00:07:40,260 --> 00:07:41,730",
+      "quote": "我们还不是出来说。",
+      "original_quote": "我们还不是出来说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 159,
+      "time_range": "00:07:41,730 --> 00:07:43,200",
+      "quote": "啊，科技要卖。",
+      "original_quote": "啊，科技要卖。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 160,
+      "time_range": "00:07:43,770 --> 00:07:49,350",
+      "quote": "然后然后在ropic时候，我马上就要OIPO了。你跟我说科技要卖。",
+      "original_quote": "然后然后在ropic时候，我马上就要OIPO了。你跟我说科技要卖。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 161,
+      "time_range": "00:07:49,610 --> 00:07:52,250",
+      "quote": "那你这出来拆我的台。",
+      "original_quote": "那你这出来拆我的台。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 162,
+      "time_range": "00:07:52,250 --> 00:07:54,330",
+      "quote": "那AI这个发展还要不要了？",
+      "original_quote": "那AI这个发展还要不要了？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 163,
+      "time_range": "00:07:54,330 --> 00:07:54,910",
+      "quote": "啊。",
+      "original_quote": "啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 164,
+      "time_range": "00:07:54,910 --> 00:07:57,160",
+      "quote": "然后那个呃。",
+      "original_quote": "然后那个呃。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 165,
+      "time_range": "00:07:57,160 --> 00:08:00,100",
+      "quote": "美国副总统万斯出来说啊，你看。",
+      "original_quote": "美国副总统万斯出来说啊，你看。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 166,
+      "time_range": "00:08:00,110 --> 00:08:02,100",
+      "quote": "那个op布莱奥特曼。",
+      "original_quote": "那个op布莱奥特曼。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 167,
+      "time_range": "00:08:02,100 --> 00:08:05,640",
+      "quote": "啊，他们这帮人突然之间说AI这边发展的要慢。",
+      "original_quote": "啊，他们这帮人突然之间说AI这边发展的要慢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 168,
+      "time_range": "00:08:05,640 --> 00:08:09,430",
+      "quote": "他们是特洛伊木马是吧？他们主动的要求政府的监管。",
+      "original_quote": "他们是特洛伊木马是吧？他们主动的要求政府的监管。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 169,
+      "time_range": "00:08:09,430 --> 00:08:11,230",
+      "quote": "他们是出了用吧，为啥呢？",
+      "original_quote": "他们是出了用吧，为啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 170,
+      "time_range": "00:08:11,330 --> 00:08:13,920",
+      "quote": "很简单嘛，你要是IPO了。",
+      "original_quote": "很简单嘛，你要是IPO了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 171,
+      "time_range": "00:08:13,920 --> 00:08:16,420",
+      "quote": "这个你这个Anthropic要是IPO了。",
+      "original_quote": "这个你这个Sop要是IPO了。",
+      "text_layer": "USER_CORRECTED_TRANSCRIPT",
+      "correction_ref": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\clarification_001\\adopted_transcription_corrections.json"
+    },
+    {
+      "cue_id": 172,
+      "time_range": "00:08:16,420 --> 00:08:17,820",
+      "quote": "那你不是一下子吧。",
+      "original_quote": "那你不是一下子吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 173,
+      "time_range": "00:08:17,820 --> 00:08:22,270",
+      "quote": "这个市面上的这个资金全部吸到你那边去了，先发效应吧。",
+      "original_quote": "这个市面上的这个资金全部吸到你那边去了，先发效应吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 174,
+      "time_range": "00:08:22,270 --> 00:08:24,180",
+      "quote": "同样题材的那其他的。",
+      "original_quote": "同样题材的那其他的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 175,
+      "time_range": "00:08:24,180 --> 00:08:27,640",
+      "quote": "IPO的话，那肯定除非你有真正的亮眼的东西。",
+      "original_quote": "IPO的话，那肯定除非你有真正的亮眼的东西。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 176,
+      "time_range": "00:08:27,640 --> 00:08:29,340",
+      "quote": "能够实打实的比他厉害。",
+      "original_quote": "能够实打实的比他厉害。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 177,
+      "time_range": "00:08:29,340 --> 00:08:30,910",
+      "quote": "否则的话，那你。",
+      "original_quote": "否则的话，那你。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 178,
+      "time_range": "00:08:30,910 --> 00:08:32,310",
+      "quote": "发令枪晚了。",
+      "original_quote": "然法令讲完了。",
+      "text_layer": "USER_CORRECTED_TRANSCRIPT",
+      "correction_ref": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\clarification_001\\adopted_transcription_corrections.json"
+    },
+    {
+      "cue_id": 179,
+      "time_range": "00:08:32,310 --> 00:08:35,180",
+      "quote": "那你就彻底就完蛋了啊，你就融不到钱了。",
+      "original_quote": "那你就彻底就完蛋了啊，你就融不到钱了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 180,
+      "time_range": "00:08:35,180 --> 00:08:38,320",
+      "quote": "那可能能到融到的钱，呢可能是指数级的差别。",
+      "original_quote": "那可能能到融到的钱，呢可能是指数级的差别。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 181,
+      "time_range": "00:08:38,320 --> 00:08:40,440",
+      "quote": "他能融10万，你只能融1万了。",
+      "original_quote": "他能融10万，你只能融1万了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 182,
+      "time_range": "00:08:40,440 --> 00:08:44,170",
+      "quote": "这后边过着这么大的庞大的利益呢，那肯定是不能够放过你的。",
+      "original_quote": "这后边过着这么大的庞大的利益呢，那肯定是不能够放过你的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 183,
+      "time_range": "00:08:44,510 --> 00:08:52,200",
+      "quote": "美国的AI出现这样的狗咬狗，其实在通过一个侧面告诉你，这个题材已经发展不下去了。",
+      "original_quote": "美国的AI出现这样的狗咬狗，其实在通过一个侧面告诉你，这个题材已经发展不下去了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 184,
+      "time_range": "00:08:52,200 --> 00:08:56,310",
+      "quote": "就是你已经没有办法通过实打实的成绩来证明自己的优秀了。",
+      "original_quote": "就是你已经没有办法通过实打实的成绩来证明自己的优秀了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 185,
+      "time_range": "00:08:56,310 --> 00:08:59,130",
+      "quote": "只能通过盘外轴拉着对方的腿。",
+      "original_quote": "只能通过盘外轴拉着对方的腿。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 186,
+      "time_range": "00:08:59,300 --> 00:09:00,070",
+      "quote": "",
+      "original_quote": "No。",
+      "text_layer": "USER_CORRECTED_TRANSCRIPT",
+      "correction_ref": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\clarification_001\\adopted_transcription_corrections.json"
+    },
+    {
+      "cue_id": 187,
+      "time_range": "00:09:00,070 --> 00:09:02,040",
+      "quote": "证明不了我比你跑得快。",
+      "original_quote": "证明不了我比你跑得快。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 188,
+      "time_range": "00:09:02,040 --> 00:09:04,710",
+      "quote": "我还不能通过盘外招让你比我跑得慢吗？",
+      "original_quote": "我还不能通过盘外招让你比我跑得慢吗？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 189,
+      "time_range": "00:09:04,710 --> 00:09:06,230",
+      "quote": "是吧通过这种方式。",
+      "original_quote": "是吧通过这种方式。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 190,
+      "time_range": "00:09:06,230 --> 00:09:08,260",
+      "quote": "来让这个竞争继续下去。",
+      "original_quote": "来让这个竞争继续下去。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 191,
+      "time_range": "00:09:08,260 --> 00:09:10,020",
+      "quote": "来获得一些竞争的优势。",
+      "original_quote": "来获得一些竞争的优势。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 192,
+      "time_range": "00:09:10,020 --> 00:09:12,940",
+      "quote": "这不是充分说明了这个泡沫已经吹到极限了吗？",
+      "original_quote": "这不是充分说明了这个泡沫已经吹到极限了吗？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 193,
+      "time_range": "00:09:12,940 --> 00:09:15,020",
+      "quote": "从技术上吹不吹不下去了。",
+      "original_quote": "从技术上吹不吹不下去了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 194,
+      "time_range": "00:09:15,020 --> 00:09:17,770",
+      "quote": "从资金流的方向也吹不下去了，对吧？",
+      "original_quote": "从资金流的方向也吹不下去了，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 195,
+      "time_range": "00:09:17,810 --> 00:09:20,810",
+      "quote": "美债之所以现在这么的难卖。",
+      "original_quote": "美债之所以现在这么的难卖。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 196,
+      "time_range": "00:09:20,810 --> 00:09:23,710",
+      "quote": "不就是公司债充斥在这个市场上面。",
+      "original_quote": "不就是公司债充斥在这个市场上面。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 197,
+      "time_range": "00:09:23,710 --> 00:09:27,140",
+      "quote": "把很多很多潜在的美债买家吸引走了嘛。",
+      "original_quote": "把很多很多潜在的美债买家吸引走了嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 198,
+      "time_range": "00:09:27,150 --> 00:09:29,780",
+      "quote": "买家没有了，那自然而然就难卖了嘛。",
+      "original_quote": "买家没有了，那自然而然就难卖了嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 199,
+      "time_range": "00:09:29,780 --> 00:09:33,890",
+      "quote": "本来过去是一个交易，双方平衡的买卖双方平衡的市场。",
+      "original_quote": "本来过去是一个交易，双方平衡的买卖双方平衡的市场。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 200,
+      "time_range": "00:09:33,890 --> 00:09:36,430",
+      "quote": "现在突然之间买房减少了很多。",
+      "original_quote": "现在突然之间买房减少了很多。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 201,
+      "time_range": "00:09:36,430 --> 00:09:38,440",
+      "quote": "那卖方可不就得自己打折呗。",
+      "original_quote": "那卖方可不就得自己打折呗。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 202,
+      "time_range": "00:09:38,440 --> 00:09:38,960",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 203,
+      "time_range": "00:09:38,960 --> 00:09:42,340",
+      "quote": "这些事情其实都在告诉大家非常清晰的符号。",
+      "original_quote": "这些事情其实都在告诉大家非常清晰的符号。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 204,
+      "time_range": "00:09:42,340 --> 00:09:44,580",
+      "quote": "泡沫即将要崩溃了。",
+      "original_quote": "泡沫即将要崩溃了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 205,
+      "time_range": "00:09:44,580 --> 00:09:46,340",
+      "quote": "在这个时间节点上。",
+      "original_quote": "在这个时间节点上。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 206,
+      "time_range": "00:09:46,340 --> 00:09:48,510",
+      "quote": "美联储突然之现出来说。",
+      "original_quote": "美联储突然之现出来说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 207,
+      "time_range": "00:09:48,510 --> 00:09:50,250",
+      "quote": "那我打算进行加息了。",
+      "original_quote": "那我打算进行加息了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 208,
+      "time_range": "00:09:50,250 --> 00:09:52,490",
+      "quote": "那你不由得就得问两个问题吧。",
+      "original_quote": "那你不由得就得问两个问题吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 209,
+      "time_range": "00:09:52,490 --> 00:09:53,250",
+      "quote": "第一呢。",
+      "original_quote": "第一呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 210,
+      "time_range": "00:09:53,250 --> 00:09:55,850",
+      "quote": "这次的这个加息到底是暂时的。",
+      "original_quote": "这次的这个加息到底是暂时的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 211,
+      "time_range": "00:09:55,850 --> 00:09:56,960",
+      "quote": "偶而为之的。",
+      "original_quote": "偶而为之的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 212,
+      "time_range": "00:09:57,070 --> 00:09:59,710",
+      "quote": "还是说呢这是一个态度的转变。",
+      "original_quote": "还是说呢这是一个态度的转变。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 213,
+      "time_range": "00:09:59,710 --> 00:10:00,550",
+      "quote": "第二个。",
+      "original_quote": "第二个。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 214,
+      "time_range": "00:10:00,550 --> 00:10:04,610",
+      "quote": "如果是态度的转变，它持续的时间会有多久，对吧？",
+      "original_quote": "如果是态度的转变，它持续的时间会有多久，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 215,
+      "time_range": "00:10:04,610 --> 00:10:05,480",
+      "quote": "一个就是。",
+      "original_quote": "一个就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 216,
+      "time_range": "00:10:05,480 --> 00:10:08,740",
+      "quote": "他这个加息到底是一次性的，还是未来还有很多次的加息？",
+      "original_quote": "他这个加息到底是一次性的，还是未来还有很多次的加息？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 217,
+      "time_range": "00:10:08,740 --> 00:10:11,560",
+      "quote": "第二个的话，他这次加息的周期决心。",
+      "original_quote": "第二个的话，他这次加息的周期决心。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 218,
+      "time_range": "00:10:11,560 --> 00:10:13,860",
+      "quote": "以及呢如果真正走向了。",
+      "original_quote": "以及呢如果真正走向了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 219,
+      "time_range": "00:10:13,860 --> 00:10:17,010",
+      "quote": "嗯，这个僵持的话，它这个持续的时间到底会有多久？",
+      "original_quote": "嗯，这个僵持的话，它这个持续的时间到底会有多久？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 220,
+      "time_range": "00:10:17,050 --> 00:10:19,640",
+      "quote": "还有有没有那么长的时间？",
+      "original_quote": "还有有没有那么长的时间？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 221,
+      "time_range": "00:10:19,640 --> 00:10:20,410",
+      "quote": "给你。",
+      "original_quote": "给你。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 222,
+      "time_range": "00:10:20,410 --> 00:10:22,630",
+      "quote": "你还能不能支撑那么长时间的泡沫？",
+      "original_quote": "你还能不能支撑那么长时间的泡沫？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 223,
+      "time_range": "00:10:22,630 --> 00:10:24,580",
+      "quote": "当然是显而见的，不能。",
+      "original_quote": "当然是显而见的，不能。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 224,
+      "time_range": "00:10:24,580 --> 00:10:25,300",
+      "quote": "所以。",
+      "original_quote": "所以。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 225,
+      "time_range": "00:10:25,390 --> 00:10:27,350",
+      "quote": "这次9月份的这个假息。",
+      "original_quote": "这次9月份的这个假息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 226,
+      "time_range": "00:10:27,350 --> 00:10:29,320",
+      "quote": "你别看着加息之前呢。",
+      "original_quote": "你别看着加息之前呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 227,
+      "time_range": "00:10:29,320 --> 00:10:31,880",
+      "quote": "一系列的情况告诉你是吧？",
+      "original_quote": "一系列的情况告诉你是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 228,
+      "time_range": "00:10:31,880 --> 00:10:33,430",
+      "quote": "该吃吃该喝喝。",
+      "original_quote": "该吃吃该喝喝。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 229,
+      "time_range": "00:10:33,430 --> 00:10:37,020",
+      "quote": "该跳舞的跳舞，该唱歌的唱歌啊，大家不要担心。",
+      "original_quote": "该跳舞的跳舞，该唱歌的唱歌啊，大家不要担心。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 230,
+      "time_range": "00:10:37,020 --> 00:10:38,560",
+      "quote": "加息是暂时的。",
+      "original_quote": "加息是暂时的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 231,
+      "time_range": "00:10:38,560 --> 00:10:40,490",
+      "quote": "不会影响大家的交易方向的。",
+      "original_quote": "不会影响大家的交易方向的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 232,
+      "time_range": "00:10:40,490 --> 00:10:41,860",
+      "quote": "但实际上呢。",
+      "original_quote": "但实际上呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 233,
+      "time_range": "00:10:41,860 --> 00:10:44,610",
+      "quote": "这次美联储9月份的加息只要一落地。",
+      "original_quote": "这次美联储9月份的加息只要一落地。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 234,
+      "time_range": "00:10:44,610 --> 00:10:46,590",
+      "quote": "整个市场的叙势。",
+      "original_quote": "整个市场的叙势。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 235,
+      "time_range": "00:10:46,590 --> 00:10:49,060",
+      "quote": "都会发生严重的改变。",
+      "original_quote": "都会发生严重的改变。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 236,
+      "time_range": "00:10:49,150 --> 00:10:50,510",
+      "quote": "大家回想一下。",
+      "original_quote": "大家回想一下。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 237,
+      "time_range": "00:10:50,510 --> 00:10:53,150",
+      "quote": "今年7月份的时候，当时美联储。",
+      "original_quote": "今年7月份的时候，当时美联储。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 238,
+      "time_range": "00:10:53,150 --> 00:10:54,480",
+      "quote": "告诉大家按鸣不动。",
+      "original_quote": "告诉大家按鸣不动。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 239,
+      "time_range": "00:10:54,480 --> 00:10:57,280",
+      "quote": "我是不是就提前跟大家说，我说9月份要加息。",
+      "original_quote": "我是不是就提前跟大家说，我说9月份要加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 240,
+      "time_range": "00:10:57,740 --> 00:11:00,410",
+      "quote": "当时有多少，你自己就回回去翻。",
+      "original_quote": "当时有多少，你自己就回回去翻。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 241,
+      "time_range": "00:11:00,410 --> 00:11:02,670",
+      "quote": "不仅仅是7月份，包括5月份的节目。",
+      "original_quote": "不仅仅是7月份，包括5月份的节目。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 242,
+      "time_range": "00:11:02,670 --> 00:11:07,090",
+      "quote": "我一直在跟大家聊，我说美联储9月份加息的逻辑，对吧？",
+      "original_quote": "我一直在跟大家聊，我说美联储9月份加息的逻辑，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 243,
+      "time_range": "00:11:07,090 --> 00:11:10,310",
+      "quote": "我说卧室上来的时候，当时的时候还卧室还没上来呢。",
+      "original_quote": "我说卧室上来的时候，当时的时候还卧室还没上来呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 244,
+      "time_range": "00:11:10,310 --> 00:11:12,790",
+      "quote": "啊，3月份4月份的时候，当时。",
+      "original_quote": "啊，3月份4月份的时候，当时。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 245,
+      "time_range": "00:11:12,790 --> 00:11:13,490",
+      "quote": "Overever。",
+      "original_quote": "Overever。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 246,
+      "time_range": "00:11:13,490 --> 00:11:16,920",
+      "quote": "啊，准备传这跟务室交接班的时候，我就跟他说。",
+      "original_quote": "啊，准备传这跟务室交接班的时候，我就跟他说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 247,
+      "time_range": "00:11:16,920 --> 00:11:19,410",
+      "quote": "卧室上来的时候，报本尔那段时间。",
+      "original_quote": "卧室上来的时候，报本尔那段时间。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 248,
+      "time_range": "00:11:19,410 --> 00:11:20,610",
+      "quote": "啊，一直按兵不动。",
+      "original_quote": "啊，一直按兵不动。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 249,
+      "time_range": "00:11:20,610 --> 00:11:23,020",
+      "quote": "其实就是在啊扶上马送一程。",
+      "original_quote": "其实就是在啊扶上马送一程。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 250,
+      "time_range": "00:11:23,020 --> 00:11:27,220",
+      "quote": "卧室上来了以后的话，可能啊一开始的时候会按鸣不动。",
+      "original_quote": "卧室上来了以后的话，可能啊一开始的时候会按鸣不动。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 251,
+      "time_range": "00:11:27,220 --> 00:11:29,660",
+      "quote": "但是后面的话，这个形式会逼着他。",
+      "original_quote": "但是后面的话，这个形式会逼着他。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 252,
+      "time_range": "00:11:29,680 --> 00:11:31,770",
+      "quote": "啊，而且呢最可笑的是啥呢？就是。",
+      "original_quote": "啊，而且呢最可笑的是啥呢？就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 253,
+      "time_range": "00:11:31,880 --> 00:11:35,420",
+      "quote": "大家都知道加息没用，那这通胀是战争导致的。",
+      "original_quote": "大家都知道加息没用，那这通胀是战争导致的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 254,
+      "time_range": "00:11:35,420 --> 00:11:37,820",
+      "quote": "是由于石油的价格涨价导致的。",
+      "original_quote": "是由于石油的价格涨价导致的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 255,
+      "time_range": "00:11:37,820 --> 00:11:40,370",
+      "quote": "是由于石油的运输出现了问题导致的。",
+      "original_quote": "是由于石油的运输出现了问题导致的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 256,
+      "time_range": "00:11:40,580 --> 00:11:43,990",
+      "quote": "你通过加息这事儿的话是解决不了，运输不畅。",
+      "original_quote": "你通过加息这事儿的话是解决不了，运输不畅。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 257,
+      "time_range": "00:11:43,990 --> 00:11:46,530",
+      "quote": "啊，没有犹运不出来的这些问题的。",
+      "original_quote": "啊，没有犹运不出来的这些问题的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 258,
+      "time_range": "00:11:46,530 --> 00:11:47,300",
+      "quote": "但是呢。",
+      "original_quote": "但是呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 259,
+      "time_range": "00:11:47,300 --> 00:11:49,280",
+      "quote": "环境逼着你必须得。",
+      "original_quote": "环境逼着你必须得。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 260,
+      "time_range": "00:11:49,360 --> 00:11:52,460",
+      "quote": "就算是你知道没用，但是你还必须得有所动作。",
+      "original_quote": "就算是你知道没用，但是你还必须得有所动作。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 261,
+      "time_range": "00:11:52,520 --> 00:11:53,980",
+      "quote": "这表现的是啥呢？",
+      "original_quote": "这表现的是啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 262,
+      "time_range": "00:11:53,980 --> 00:11:57,820",
+      "quote": "表现的是你的担当，你到底每天组织为谁在服务的？",
+      "original_quote": "表现的是你的担当，你到底每天组织为谁在服务的？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 263,
+      "time_range": "00:11:58,090 --> 00:12:01,730",
+      "quote": "那这次如果呃9月份那个加息。",
+      "original_quote": "那这次如果呃9月份那个加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 264,
+      "time_range": "00:12:01,730 --> 00:12:05,630",
+      "quote": "啊，宣布了那星期四的时候，然后然宣布9月份加息了。",
+      "original_quote": "啊，宣布了那星期四的时候，然后然宣布9月份加息了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 265,
+      "time_range": "00:12:05,710 --> 00:12:07,630",
+      "quote": "当然现在还没有这个结果啊。",
+      "original_quote": "当然现在还没有这个结果啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 266,
+      "time_range": "00:12:07,630 --> 00:12:10,430",
+      "quote": "我相信呢那个时候大家再去回看。",
+      "original_quote": "我相信呢那个时候大家再去回看。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 267,
+      "time_range": "00:12:10,930 --> 00:12:11,940",
+      "quote": "今天。",
+      "original_quote": "今天。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 268,
+      "time_range": "00:12:11,940 --> 00:12:13,870",
+      "quote": "啊，这9月15号。",
+      "original_quote": "啊，这9月15号。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 269,
+      "time_range": "00:12:13,870 --> 00:12:16,930",
+      "quote": "9月17号出结果，9月15号两天之前。",
+      "original_quote": "9月17号出结果，9月15号两天之前。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 270,
+      "time_range": "00:12:17,180 --> 00:12:20,010",
+      "quote": "啊，大家目前的这个讨论是啥呢？",
+      "original_quote": "啊，大家目前的这个讨论是啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 271,
+      "time_range": "00:12:20,010 --> 00:12:23,280",
+      "quote": "就算是美联储9月1几号加息了。",
+      "original_quote": "就算是美联储9月1几号加息了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 272,
+      "time_range": "00:12:23,280 --> 00:12:25,370",
+      "quote": "他也就是个一次性的加息。",
+      "original_quote": "他也就是个一次性的加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 273,
+      "time_range": "00:12:25,540 --> 00:12:27,510",
+      "quote": "该吃吃该喝喝。",
+      "original_quote": "该吃吃该喝喝。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 274,
+      "time_range": "00:12:27,510 --> 00:12:32,900",
+      "quote": "该唱歌跳舞的就唱歌跳舞啊，大家不要任何的担心，美联储是假的。",
+      "original_quote": "该唱歌跳舞的就唱歌跳舞啊，大家不要任何的担心，美联储是假的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 275,
+      "time_range": "00:12:32,900 --> 00:12:34,960",
+      "quote": "是吧他是这个。",
+      "original_quote": "是吧他是这个。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 276,
+      "time_range": "00:12:34,960 --> 00:12:36,040",
+      "quote": "呃，纸老虎。",
+      "original_quote": "呃，纸老虎。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 277,
+      "time_range": "00:12:36,040 --> 00:12:37,540",
+      "quote": "他是硬气不起来的。",
+      "original_quote": "他是硬气不起来的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 278,
+      "time_range": "00:12:37,700 --> 00:12:40,490",
+      "quote": "他加息还能怎么着，它还能一直加下去。",
+      "original_quote": "他加息还能怎么着，它还能一直加下去。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 279,
+      "time_range": "00:12:40,490 --> 00:12:41,850",
+      "quote": "他能一直强行下去。",
+      "original_quote": "他能一直强行下去。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 280,
+      "time_range": "00:12:41,850 --> 00:12:43,590",
+      "quote": "他真的能够跟市场为敌。",
+      "original_quote": "他真的能够跟市场为敌。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 281,
+      "time_range": "00:12:43,590 --> 00:12:44,300",
+      "quote": "是吧。",
+      "original_quote": "是吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 282,
+      "time_range": "00:12:44,300 --> 00:12:45,160",
+      "quote": "现在。",
+      "original_quote": "现在。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 283,
+      "time_range": "00:12:45,160 --> 00:12:46,670",
+      "quote": "在加息前两天。",
+      "original_quote": "在加息前两天。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 284,
+      "time_range": "00:12:46,670 --> 00:12:48,960",
+      "quote": "加息预期已经达到90%了。",
+      "original_quote": "加息预期已经达到90%了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 285,
+      "time_range": "00:12:48,960 --> 00:12:53,770",
+      "quote": "市面上有多少乐观呢？这不是少数啊，起码是一半以上啊。",
+      "original_quote": "市面上有多少乐观呢？这不是少数啊，起码是一半以上啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 286,
+      "time_range": "00:12:53,770 --> 00:12:54,720",
+      "quote": "认为的。",
+      "original_quote": "认为的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 287,
+      "time_range": "00:12:55,020 --> 00:12:58,280",
+      "quote": "几个月前还认为美联储绝对不会加息的人。",
+      "original_quote": "几个月前还认为美联储绝对不会加息的人。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 288,
+      "time_range": "00:12:58,280 --> 00:13:01,660",
+      "quote": "现在呢依然是把这次加戏当做一个儿戏。",
+      "original_quote": "现在呢依然是把这次加戏当做一个儿戏。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 289,
+      "time_range": "00:13:01,660 --> 00:13:05,790",
+      "quote": "啊，一次性的加息不用太过大惊小怪的，它支撑不了多久的。",
+      "original_quote": "啊，一次性的加息不用太过大惊小怪的，它支撑不了多久的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 290,
+      "time_range": "00:13:05,800 --> 00:13:08,500",
+      "quote": "他这次加完了，后边话再加不动了。",
+      "original_quote": "他这次加完了，后边话再加不动了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 291,
+      "time_range": "00:13:08,500 --> 00:13:11,560",
+      "quote": "后边的话它该降还是降，但该放水还是放水，对吧？",
+      "original_quote": "后边的话它该降还是降，但该放水还是放水，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 292,
+      "time_range": "00:13:12,140 --> 00:13:14,360",
+      "quote": "但是等着就是两天时间。",
+      "original_quote": "但是等着就是两天时间。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 293,
+      "time_range": "00:13:14,360 --> 00:13:16,290",
+      "quote": "等着到了9月17号。",
+      "original_quote": "等着到了9月17号。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 294,
+      "time_range": "00:13:16,290 --> 00:13:19,240",
+      "quote": "美联储的这个加息的靴子落地了以后。",
+      "original_quote": "美联储的这个加息的靴子落地了以后。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 295,
+      "time_range": "00:13:19,240 --> 00:13:22,380",
+      "quote": "市场的叙述会完全的变化。",
+      "original_quote": "市场的叙述会完全的变化。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 296,
+      "time_range": "00:13:22,380 --> 00:13:25,900",
+      "quote": "当然现在还宣在还没落地，还有变数的可能性啊，我就说的是。",
+      "original_quote": "当然现在还宣在还没落地，还有变数的可能性啊，我就说的是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 297,
+      "time_range": "00:13:25,900 --> 00:13:27,970",
+      "quote": "如果落地了，确确实实加息。",
+      "original_quote": "如果落地了，确确实实加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 298,
+      "time_range": "00:13:27,970 --> 00:13:30,530",
+      "quote": "市场马上就会换一种说法。",
+      "original_quote": "市场马上就会换一种说法。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 299,
+      "time_range": "00:13:30,530 --> 00:13:33,900",
+      "quote": "讨论就不再是什么，这只是一次性的加息了。",
+      "original_quote": "讨论就不再是什么，这只是一次性的加息了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 300,
+      "time_range": "00:13:33,900 --> 00:13:34,950",
+      "quote": "那就会变成啥呢？",
+      "original_quote": "那就会变成啥呢？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 301,
+      "time_range": "00:13:34,950 --> 00:13:36,250",
+      "quote": "变成这一次。",
+      "original_quote": "变成这一次。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 302,
+      "time_range": "00:13:36,290 --> 00:13:38,400",
+      "quote": "呃，美国、日本。",
+      "original_quote": "呃，美国、日本。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 303,
+      "time_range": "00:13:38,400 --> 00:13:39,090",
+      "quote": "欧洲。",
+      "original_quote": "欧洲。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 304,
+      "time_range": "00:13:39,090 --> 00:13:40,700",
+      "quote": "联合起来的。",
+      "original_quote": "联合起来的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 305,
+      "time_range": "00:13:40,700 --> 00:13:42,470",
+      "quote": "整个的这个。",
+      "original_quote": "整个的这个。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 306,
+      "time_range": "00:13:42,470 --> 00:13:44,670",
+      "quote": "呃，流动性的这个紧缩方向。",
+      "original_quote": "呃，流动性的这个紧缩方向。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 307,
+      "time_range": "00:13:44,670 --> 00:13:46,650",
+      "quote": "到底持续和持续多久？",
+      "original_quote": "到底持续和持续多久？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 308,
+      "time_range": "00:13:47,200 --> 00:13:49,830",
+      "quote": "到那个时候一讨论的时候，发现问题很大。",
+      "original_quote": "到那个时候一讨论的时候，发现问题很大。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 309,
+      "time_range": "00:13:49,830 --> 00:13:50,590",
+      "quote": "A.",
+      "original_quote": "A.",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 310,
+      "time_range": "00:13:50,590 --> 00:13:53,140",
+      "quote": "这个一家的话一次可能不够。",
+      "original_quote": "这个一家的话一次可能不够。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 311,
+      "time_range": "00:13:53,140 --> 00:13:55,310",
+      "quote": "可能会多几次的加息。",
+      "original_quote": "可能会多几次的加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 312,
+      "time_range": "00:13:55,310 --> 00:13:59,120",
+      "quote": "这个我在前面跟大家聊日元的时候说过这个问题，对吧？",
+      "original_quote": "这个我在前面跟大家聊日元的时候说过这个问题，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 313,
+      "time_range": "00:13:59,120 --> 00:14:01,020",
+      "quote": "有兴趣的可以翻一下，我是不是说了。",
+      "original_quote": "有兴趣的可以翻一下，我是不是说了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 314,
+      "time_range": "00:14:01,020 --> 00:14:05,830",
+      "quote": "对于日本9月份加息，最大的困难不是说9月份这一次加息。",
+      "original_quote": "对于日本9月份加息，最大的困难不是说9月份这一次加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 315,
+      "time_range": "00:14:05,870 --> 00:14:10,340",
+      "quote": "而是你9月份加息了以后的话，接下来还要不要继续加息？",
+      "original_quote": "而是你9月份加息了以后的话，接下来还要不要继续加息？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 316,
+      "time_range": "00:14:10,680 --> 00:14:11,430",
+      "quote": "对不对？",
+      "original_quote": "对不对？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 317,
+      "time_range": "00:14:11,570 --> 00:14:13,420",
+      "quote": "如果你还要继续加薪呢。",
+      "original_quote": "如果你还要继续加薪呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 318,
+      "time_range": "00:14:13,490 --> 00:14:14,950",
+      "quote": "哪一次不够呢。",
+      "original_quote": "哪一次不够呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 319,
+      "time_range": "00:14:14,950 --> 00:14:16,500",
+      "quote": "25个BB不够呢。",
+      "original_quote": "25个BB不够呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 320,
+      "time_range": "00:14:16,500 --> 00:14:21,080",
+      "quote": "甚至一次性只加25个BP满足不了市场提前的这个胃口呢。",
+      "original_quote": "甚至一次性只加25个BP满足不了市场提前的这个胃口呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 321,
+      "time_range": "00:14:21,240 --> 00:14:23,430",
+      "quote": "那后边你是不是会越加越快？",
+      "original_quote": "那后边你是不是会越加越快？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 322,
+      "time_range": "00:14:23,570 --> 00:14:24,460",
+      "quote": "而且你。",
+      "original_quote": "而且你。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 323,
+      "time_range": "00:14:24,460 --> 00:14:29,670",
+      "quote": "当你已经亮了这个态度了以后，你就没有办法退回去了。手术两端是最要不得的对吧？",
+      "original_quote": "当你已经亮了这个态度了以后，你就没有办法退回去了。手术两端是最要不得的对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 324,
+      "time_range": "00:14:29,670 --> 00:14:33,980",
+      "quote": "一个政策选择了就得一条就路走到黑，一这一竿子查到底。",
+      "original_quote": "一个政策选择了就得一条就路走到黑，一这一竿子查到底。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 325,
+      "time_range": "00:14:33,980 --> 00:14:36,200",
+      "quote": "否则的话，行百里者半就是。",
+      "original_quote": "否则的话，行百里者半就是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 326,
+      "time_range": "00:14:36,200 --> 00:14:39,610",
+      "quote": "所有的这个啊这个这个皮肉之苦你吃了。",
+      "original_quote": "所有的这个啊这个这个皮肉之苦你吃了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 327,
+      "time_range": "00:14:39,610 --> 00:14:41,900",
+      "quote": "啊，结果呢结果目的没达到。",
+      "original_quote": "啊，结果呢结果目的没达到。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 328,
+      "time_range": "00:14:41,900 --> 00:14:43,330",
+      "quote": "最后呢又回过头去。",
+      "original_quote": "最后呢又回过头去。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 329,
+      "time_range": "00:14:43,330 --> 00:14:45,200",
+      "quote": "呃，换其他的套路。",
+      "original_quote": "呃，换其他的套路。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 330,
+      "time_range": "00:14:45,200 --> 00:14:49,010",
+      "quote": "就是两边的伤害拉满好处的话，彻底什么都得不到啊。",
+      "original_quote": "就是两边的伤害拉满好处的话，彻底什么都得不到啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 331,
+      "time_range": "00:14:49,010 --> 00:14:50,330",
+      "quote": "这样摇摆的。",
+      "original_quote": "这样摇摆的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 332,
+      "time_range": "00:14:50,330 --> 00:14:53,060",
+      "quote": "然后就是那个比较恶心的这个例子是吧？",
+      "original_quote": "然后就是那个比较恶心的这个例子是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 333,
+      "time_range": "00:14:53,060 --> 00:14:55,240",
+      "quote": "选择挨打还是选择吃粑粑？",
+      "original_quote": "选择挨打还是选择吃粑粑？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 334,
+      "time_range": "00:14:55,240 --> 00:14:58,880",
+      "quote": "哈结果呢结果一开始的时候是吧，我选择了。",
+      "original_quote": "哈结果呢结果一开始的时候是吧，我选择了。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 335,
+      "time_range": "00:14:58,880 --> 00:15:00,130",
+      "quote": "这个挨打。",
+      "original_quote": "这个挨打。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 336,
+      "time_range": "00:15:00,130 --> 00:15:04,160",
+      "quote": "就打着打打的实在受不了，太疼了，受不了了，是吧？我还是选择吃粑吧。",
+      "original_quote": "就打着打打的实在受不了，太疼了，受不了了，是吧？我还是选择吃粑吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 337,
+      "time_range": "00:15:04,160 --> 00:15:07,340",
+      "quote": "吃了一半的话，实在吃不下去了，我还是选择挨打。结果呢。",
+      "original_quote": "吃了一半的话，实在吃不下去了，我还是选择挨打。结果呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 338,
+      "time_range": "00:15:07,340 --> 00:15:09,780",
+      "quote": "你打也挨满了，宝宝也吃饱了，对吧？",
+      "original_quote": "你打也挨满了，宝宝也吃饱了，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 339,
+      "time_range": "00:15:09,780 --> 00:15:12,340",
+      "quote": "这个这这个是剧情如果是这样子的话，那。",
+      "original_quote": "这个这这个是剧情如果是这样子的话，那。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 340,
+      "time_range": "00:15:12,340 --> 00:15:15,070",
+      "quote": "那真的是日美联合有福了是吧？",
+      "original_quote": "那真的是日美联合有福了是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 341,
+      "time_range": "00:15:15,070 --> 00:15:16,510",
+      "quote": "那如果不是呢。",
+      "original_quote": "那如果不是呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 342,
+      "time_range": "00:15:16,510 --> 00:15:19,370",
+      "quote": "如果他这边的转向，他就是一个是吧？",
+      "original_quote": "如果他这边的转向，他就是一个是吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 343,
+      "time_range": "00:15:19,370 --> 00:15:21,560",
+      "quote": "选择了一个方向，一条道走到黑的。",
+      "original_quote": "选择了一个方向，一条道走到黑的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 344,
+      "time_range": "00:15:21,560 --> 00:15:23,110",
+      "quote": "这个对于卧室也好。",
+      "original_quote": "这个对于卧室也好。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 345,
+      "time_range": "00:15:23,110 --> 00:15:26,440",
+      "quote": "对于美国收割日本也好，都是非常非常有意义的。",
+      "original_quote": "对于美国收割日本也好，都是非常非常有意义的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 346,
+      "time_range": "00:15:26,440 --> 00:15:27,870",
+      "quote": "买卧室表示的强硬。",
+      "original_quote": "买卧室表示的强硬。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 347,
+      "time_range": "00:15:27,870 --> 00:15:29,720",
+      "quote": "说我跟特朗普不是一挂的。",
+      "original_quote": "说我跟特朗普不是一挂的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 348,
+      "time_range": "00:15:29,720 --> 00:15:32,790",
+      "quote": "你别把我跟特朗普妈混为一谈，这两回事儿。",
+      "original_quote": "你别把我跟特朗普妈混为一谈，这两回事儿。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 349,
+      "time_range": "00:15:32,840 --> 00:15:35,930",
+      "quote": "你们市场上怎么去传我们之间的关系，什么。",
+      "original_quote": "你们市场上怎么去传我们之间的关系，什么。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 350,
+      "time_range": "00:15:35,930 --> 00:15:37,180",
+      "quote": "我我是。",
+      "original_quote": "我我是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 351,
+      "time_range": "00:15:37,180 --> 00:15:40,010",
+      "quote": "那雅诗兰黛集团的总裁的女婿。",
+      "original_quote": "那雅诗兰黛集团的总裁的女婿。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 352,
+      "time_range": "00:15:40,010 --> 00:15:42,610",
+      "quote": "让雅诗兰黛的老板跟特朗普私交甚密。",
+      "original_quote": "让雅诗兰黛的老板跟特朗普私交甚密。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 353,
+      "time_range": "00:15:42,610 --> 00:15:47,950",
+      "quote": "嗯，这都是坊间的传闻，咱们最终最终呢还是要看到这个岗位上面，这个工作干的怎么样的。",
+      "original_quote": "嗯，这都是坊间的传闻，咱们最终最终呢还是要看到这个岗位上面，这个工作干的怎么样的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 354,
+      "time_range": "00:15:47,950 --> 00:15:49,760",
+      "quote": "别跟我穿什么私下的那些。",
+      "original_quote": "别跟我穿什么私下的那些。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 355,
+      "time_range": "00:15:49,760 --> 00:15:51,840",
+      "quote": "私人关系怎么怎么样的啊。",
+      "original_quote": "私人关系怎么怎么样的啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 356,
+      "time_range": "00:15:51,840 --> 00:15:53,450",
+      "quote": "我不会因公费私的。",
+      "original_quote": "我不会因公费私的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 357,
+      "time_range": "00:15:53,450 --> 00:15:55,140",
+      "quote": "如何这样的态度表出来。",
+      "original_quote": "如何这样的态度表出来。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 358,
+      "time_range": "00:15:56,290 --> 00:15:59,800",
+      "quote": "特朗普的政治生涯啊，他想要降息。",
+      "original_quote": "特朗普的政治生涯啊，他想要降息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 359,
+      "time_range": "00:15:59,800 --> 00:16:03,550",
+      "quote": "这是他自己从政治的角度来需要的东西，他需要的是知识度。",
+      "original_quote": "这是他自己从政治的角度来需要的东西，他需要的是知识度。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 360,
+      "time_range": "00:16:03,550 --> 00:16:05,870",
+      "quote": "但是我从美国经济的专业判断。",
+      "original_quote": "但是我从美国经济的专业判断。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 361,
+      "time_range": "00:16:05,870 --> 00:16:07,720",
+      "quote": "那美国需要的是一波。",
+      "original_quote": "那美国需要的是一波。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 362,
+      "time_range": "00:16:07,720 --> 00:16:10,640",
+      "quote": "非常非常严厉的加息，这是有前车之鉴的。",
+      "original_quote": "非常非常严厉的加息，这是有前车之鉴的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 363,
+      "time_range": "00:16:10,640 --> 00:16:12,650",
+      "quote": "我反复的跟大家提过，对吧？",
+      "original_quote": "我反复的跟大家提过，对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 364,
+      "time_range": "00:16:12,650 --> 00:16:14,180",
+      "quote": "上个世纪80年代。",
+      "original_quote": "上个世纪80年代。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 365,
+      "time_range": "00:16:14,180 --> 00:16:17,980",
+      "quote": "面对着滞障，现在的美国经济是不是已经进入滞障了？",
+      "original_quote": "面对着滞障，现在的美国经济是不是已经进入滞障了？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 366,
+      "time_range": "00:16:17,980 --> 00:16:20,360",
+      "quote": "智障这个话题是不是我两年前说的？",
+      "original_quote": "智障这个话题是不是我两年前说的？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 367,
+      "time_range": "00:16:20,360 --> 00:16:25,200",
+      "quote": "当时的时候大家是不是矢口否认，现在给你编出来一个新的解释，叫K型分化。",
+      "original_quote": "当时的时候大家是不是矢口否认，现在给你编出来一个新的解释，叫K型分化。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 368,
+      "time_range": "00:16:25,200 --> 00:16:27,610",
+      "quote": "K型分化是不是智商，你告诉我。",
+      "original_quote": "K型分化是不是智商，你告诉我。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 369,
+      "time_range": "00:16:27,650 --> 00:16:28,510",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 370,
+      "time_range": "00:16:28,510 --> 00:16:31,140",
+      "quote": "啥叫可分化？那么就是通货膨胀。",
+      "original_quote": "啥叫可分化？那么就是通货膨胀。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 371,
+      "time_range": "00:16:31,140 --> 00:16:34,090",
+      "quote": "跟市场的这个情滞发生在一起嘛。",
+      "original_quote": "跟市场的这个情滞发生在一起嘛。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 372,
+      "time_range": "00:16:34,090 --> 00:16:35,680",
+      "quote": "停止性的通货膨胀。",
+      "original_quote": "停止性的通货膨胀。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 373,
+      "time_range": "00:16:36,060 --> 00:16:40,990",
+      "quote": "这些东西它不会以你到底起了个什么名字而有任何的变化的。",
+      "original_quote": "这些东西它不会以你到底起了个什么名字而有任何的变化的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 374,
+      "time_range": "00:16:41,030 --> 00:16:42,490",
+      "quote": "只不过呢告诉你。",
+      "original_quote": "只不过呢告诉你。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 375,
+      "time_range": "00:16:42,490 --> 00:16:45,550",
+      "quote": "这曾经的历史经验，现在是能够用的。",
+      "original_quote": "这曾经的历史经验，现在是能够用的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 376,
+      "time_range": "00:16:45,550 --> 00:16:48,720",
+      "quote": "到时候卧室展现出来自己独立的一面。",
+      "original_quote": "到时候卧室展现出来自己独立的一面。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 377,
+      "time_range": "00:16:48,830 --> 00:16:50,330",
+      "quote": "那这次的这个。",
+      "original_quote": "那这次的这个。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 378,
+      "time_range": "00:16:50,350 --> 00:16:55,790",
+      "quote": "看起来单独的偶发性的加息，它可能变成一个事件反转的一个基石。",
+      "original_quote": "看起来单独的偶发性的加息，它可能变成一个事件反转的一个基石。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 379,
+      "time_range": "00:16:55,870 --> 00:16:56,670",
+      "quote": "对吧。",
+      "original_quote": "对吧。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 380,
+      "time_range": "00:16:56,710 --> 00:16:57,930",
+      "quote": "这个加息。",
+      "original_quote": "这个加息。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 381,
+      "time_range": "00:16:57,930 --> 00:16:59,950",
+      "quote": "直接导致的影响是啥呀？",
+      "original_quote": "直接导致的影响是啥呀？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 382,
+      "time_range": "00:16:59,950 --> 00:17:19,950",
+      "quote": "流动性紧缩嘛，加息那所有的对应的目标最直接的影响就是影响流动性嘛。现在美国的AI正在资本市场上疯狂的骗钱，疯狂的发公司债是吧？那你现在突然之间把流动性缩紧了。那你说AI的下场会怎么样？啊，所以这一系列牵一发而动。",
+      "original_quote": "流动性紧缩嘛，加息那所有的对应的目标最直接的影响就是影响流动性嘛。现在美国的AI正在资本市场上疯狂的骗钱，疯狂的发公司债是吧？那你现在突然之间把流动性缩紧了。那你说AI的下场会怎么样？啊，所以这一系列牵一发而动。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 383,
+      "time_range": "00:17:19,950 --> 00:17:39,950",
+      "quote": "全身都不需要美联储9月份那加息了以后，12月份再次加息强化这个意识。现在是没有这个靴子落地之前，大家还是处于那种不加息的幻想之中，还有这种幻想，等着这个靴子落地了以后，蓄势会迅速的退化。而跟着蓄势退化。",
+      "original_quote": "全身都不需要美联储9月份那加息了以后，12月份再次加息强化这个意识。现在是没有这个靴子落地之前，大家还是处于那种不加息的幻想之中，还有这种幻想，等着这个靴子落地了以后，蓄势会迅速的退化。而跟着蓄势退化。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 384,
+      "time_range": "00:17:39,950 --> 00:17:59,950",
+      "quote": "直接的影响就是AI的泡沫破裂，这些事情都发生在特朗普11月份终期选举之前，是不是把很多很多人认为特朗普的政治任务大于一切，高于一切，压倒一切。在这个幻想就给打破了？我之前的时候是不是反复提醒过大家，我7月份的时候跟大家。",
+      "original_quote": "直接的影响就是AI的泡沫破裂，这些事情都发生在特朗普11月份终期选举之前，是不是把很多很多人认为特朗普的政治任务大于一切，高于一切，压倒一切。在这个幻想就给打破了？我之前的时候是不是反复提醒过大家，我7月份的时候跟大家。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 385,
+      "time_range": "00:17:59,950 --> 00:18:19,950",
+      "quote": "说9月份会加息，当时有多少小伙伴跟我说，9月份不会，为啥呢？因理由就是特朗普11月份和终级选举，你终级选举之前怎么可能加息呢？卧什是特朗普自己人，那现在市场已经走到这一步了，就看看沃什是不是真正能够秉持自己跟特朗普之间的私交，然因私废功了。如果不是的话，那是不是之前的判。",
+      "original_quote": "说9月份会加息，当时有多少小伙伴跟我说，9月份不会，为啥呢？因理由就是特朗普11月份和终级选举，你终级选举之前怎么可能加息呢？卧什是特朗普自己人，那现在市场已经走到这一步了，就看看沃什是不是真正能够秉持自己跟特朗普之间的私交，然因私废功了。如果不是的话，那是不是之前的判。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 386,
+      "time_range": "00:18:19,950 --> 00:18:39,950",
+      "quote": "所有的的推翻推翻了以后，你看的更清楚了。那这次加息是一次性的嘛，答案显然不是一次性的，而这不是一次性的这种加，因为一次性加息解决不了问题嘛。你既然选择了加息，你肯定是要选择通过加息来解决问题。而这个问题通过加息就解决不了，那意味着啥呢？意味着药量不够，继续加大药量嘛。那这是。",
+      "original_quote": "所有的的推翻推翻了以后，你看的更清楚了。那这次加息是一次性的嘛，答案显然不是一次性的，而这不是一次性的这种加，因为一次性加息解决不了问题嘛。你既然选择了加息，你肯定是要选择通过加息来解决问题。而这个问题通过加息就解决不了，那意味着啥呢？意味着药量不够，继续加大药量嘛。那这是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 387,
+      "time_range": "00:18:39,950 --> 00:18:59,950",
+      "quote": "这个逻辑是非常非常通畅的，否则你当初就不会被市场绑架那市场就不会认为你应该通过加息来解决问题，或者换成啊更加有名的一句话，叫啥呢？叫做啊人民群众犯了错误，作为领导者应该怎么办？应该跟人民群众站在一起，跟人。",
+      "original_quote": "这个逻辑是非常非常通畅的，否则你当初就不会被市场绑架那市场就不会认为你应该通过加息来解决问题，或者换成啊更加有名的一句话，叫啥呢？叫做啊人民群众犯了错误，作为领导者应该怎么办？应该跟人民群众站在一起，跟人。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 388,
+      "time_range": "00:18:59,950 --> 00:19:19,950",
+      "quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。",
+      "original_quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 389,
+      "time_range": "00:19:19,950 --> 00:19:39,950",
+      "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。",
+      "original_quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 390,
+      "time_range": "00:19:39,950 --> 00:19:59,950",
+      "quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。",
+      "original_quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 391,
+      "time_range": "00:19:59,950 --> 00:20:19,950",
+      "quote": "否则的话是否则的话，你就要求人人就变成一个玩人，不会犯错误的人，人既然会犯错误，那提早的清醒的认识到自己在干嘛，比不犯错误更重要，对吧？现在呢每天出现在做同样的事情。那会不会按照这种方式去发展，那就看美国人还有没有救嘛。那如果说他不按照我。",
+      "original_quote": "否则的话是否则的话，你就要求人人就变成一个玩人，不会犯错误的人，人既然会犯错误，那提早的清醒的认识到自己在干嘛，比不犯错误更重要，对吧？现在呢每天出现在做同样的事情。那会不会按照这种方式去发展，那就看美国人还有没有救嘛。那如果说他不按照我。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 392,
+      "time_range": "00:20:19,950 --> 00:20:39,950",
+      "quote": "说到这个方式来呢，他提前没有准备好plan B呢，他没有发现自己的这个局势如此的被动，没有提前做好引导大家改出这个错误的准备呢。那不好意思，那美联储就是在行啊，脚踩西瓜皮划到哪里算哪里的祖祖训嘛。那鲍贝尔就这么过来的嘛，我之前跟大家说过的对吧？",
+      "original_quote": "说到这个方式来呢，他提前没有准备好plan B呢，他没有发现自己的这个局势如此的被动，没有提前做好引导大家改出这个错误的准备呢。那不好意思，那美联储就是在行啊，脚踩西瓜皮划到哪里算哪里的祖祖训嘛。那鲍贝尔就这么过来的嘛，我之前跟大家说过的对吧？",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 393,
+      "time_range": "00:20:39,950 --> 00:20:59,950",
+      "quote": "我说报菲尔不引导市场，不引导这个市场的这个舆论。跟着这个市场的舆论推波助澜的想到哪里走到哪里。最后的结果的话就会让自己的处境越来越被动。沃室上来时候，是不是通过自己的说法印证了我的这个说法？他说，美联储现在所有的这个想法都公布在大众面前。",
+      "original_quote": "我说报菲尔不引导市场，不引导这个市场的这个舆论。跟着这个市场的舆论推波助澜的想到哪里走到哪里。最后的结果的话就会让自己的处境越来越被动。沃室上来时候，是不是通过自己的说法印证了我的这个说法？他说，美联储现在所有的这个想法都公布在大众面前。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 394,
+      "time_range": "00:20:59,950 --> 00:21:19,950",
+      "quote": "那大众提提前的把美联储的想法猜的透透的，那美联储就失去了引导市场的一个重要的抓手和机会。所以呢所以我们要维持美联储的神秘感，对吧？这我是不是在23年24年批评啊这个包er的时候就说过包er天天就是市场这边说要加了，他就加，市场这边说要减了，它就减。",
+      "original_quote": "那大众提提前的把美联储的想法猜的透透的，那美联储就失去了引导市场的一个重要的抓手和机会。所以呢所以我们要维持美联储的神秘感，对吧？这我是不是在23年24年批评啊这个包er的时候就说过包er天天就是市场这边说要加了，他就加，市场这边说要减了，它就减。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 395,
+      "time_range": "00:21:19,950 --> 00:21:39,950",
+      "quote": "啊，市场说暗民不动他就不动啊，提前的积极的跟市场沟通，完全被市场牵着鼻子走。你作为美联储来说的话，你本来是一个利率决策机构，变成了市场服务机构，这样肯定是要不得的对吧？我时是不是改正这个错误了，但是现在呢它改正错误的同时也犯了其他的错误嘛，那独立性受到了质疑嘛？那现在。",
+      "original_quote": "啊，市场说暗民不动他就不动啊，提前的积极的跟市场沟通，完全被市场牵着鼻子走。你作为美联储来说的话，你本来是一个利率决策机构，变成了市场服务机构，这样肯定是要不得的对吧？我时是不是改正这个错误了，但是现在呢它改正错误的同时也犯了其他的错误嘛，那独立性受到了质疑嘛？那现在。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 396,
+      "time_range": "00:21:39,950 --> 00:21:59,950",
+      "quote": "我提出来的新的就是他得通过这个事儿来证明他自己是独立的。但是他如果通过这个事儿，他证明自己是独立的，他就得准备好改出来的planlan B。而这个planlan B绝对不是市场只需要你加息一次，而是非常非常啊英明的在果断的选择一个好的时间节点选。",
+      "original_quote": "我提出来的新的就是他得通过这个事儿来证明他自己是独立的。但是他如果通过这个事儿，他证明自己是独立的，他就得准备好改出来的planlan B。而这个planlan B绝对不是市场只需要你加息一次，而是非常非常啊英明的在果断的选择一个好的时间节点选。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 397,
+      "time_range": "00:21:59,950 --> 00:22:19,950",
+      "quote": "我们面对的这个问题啊，不是简单的货币政策能解决的问题，是货币政策加财政注策一起两手抓两手对要硬的问题。我们面临的问题呢是高通胀低啊低增长，以及呢整个的这个美国的信用受到挑战的这个多重的严苛的这种环境。",
+      "original_quote": "我们面对的这个问题啊，不是简单的货币政策能解决的问题，是货币政策加财政注策一起两手抓两手对要硬的问题。我们面临的问题呢是高通胀低啊低增长，以及呢整个的这个美国的信用受到挑战的这个多重的严苛的这种环境。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 398,
+      "time_range": "00:22:19,950 --> 00:22:39,950",
+      "quote": "那我有没有办法呢？我有办法，那我的办法是啥呢？希望大家能忍受一段时间的阵痛。加息不会短时间的结束，加息会持续一个相当长的时间，相对长的时间，而且呢加息的目标不再是面对着这种啊这种通胀的抬头。啊，我要根据这个通胀的抬头，如何。",
+      "original_quote": "那我有没有办法呢？我有办法，那我的办法是啥呢？希望大家能忍受一段时间的阵痛。加息不会短时间的结束，加息会持续一个相当长的时间，相对长的时间，而且呢加息的目标不再是面对着这种啊这种通胀的抬头。啊，我要根据这个通胀的抬头，如何。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 399,
+      "time_range": "00:22:39,950 --> 00:22:59,950",
+      "quote": "合而是啥呢？而是防御性的预见性的，提前看到了有可能出现的这种滞障带来的这种深重的对经济的影响。所以在长痛和短痛之间，我们选择了短痛啊，短期的疼痛，要更加暴力的加息。这是接下来有可能卧室会借着。",
+      "original_quote": "合而是啥呢？而是防御性的预见性的，提前看到了有可能出现的这种滞障带来的这种深重的对经济的影响。所以在长痛和短痛之间，我们选择了短痛啊，短期的疼痛，要更加暴力的加息。这是接下来有可能卧室会借着。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 400,
+      "time_range": "00:22:59,950 --> 00:23:19,950",
+      "quote": "接佛下律宣布的事儿，大家提前的得做好心理准备。这是我之前跟大家说的，如果出现这个事的话，那AI的泡沫是绝对不可能幸免的。你想嘛，世界上所有的主要经济体除了中国以外是吧？主要经济体全部都是在。",
+      "original_quote": "接佛下律宣布的事儿，大家提前的得做好心理准备。这是我之前跟大家说的，如果出现这个事的话，那AI的泡沫是绝对不可能幸免的。你想嘛，世界上所有的主要经济体除了中国以外是吧？主要经济体全部都是在。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 401,
+      "time_range": "00:23:19,950 --> 00:23:39,950",
+      "quote": "收紧这个流动性，中国这边的流动性它放出来，它是到不了你们炒作的题材里面去的。中国自己在炒作题材，包括这几天围绕着AI美国现在是不是在尝试说着另外一种话，说中国的AI和美国的AI不一样。嗯，我们没有否认呢，那确确实实不一样啊。你看这几天呢开的那个会。",
+      "original_quote": "收紧这个流动性，中国这边的流动性它放出来，它是到不了你们炒作的题材里面去的。中国自己在炒作题材，包括这几天围绕着AI美国现在是不是在尝试说着另外一种话，说中国的AI和美国的AI不一样。嗯，我们没有否认呢，那确确实实不一样啊。你看这几天呢开的那个会。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 402,
+      "time_range": "00:23:39,950 --> 00:23:59,950",
+      "quote": "对然后那个token的那个成本已经降到什么了啊，新出的这个十五规划的2030年，整个那个磁源的那个量要达到什么样的层级。磁源的这个成本，中美之间差异是非常非常之巨大的？这个词源成本背后就是生产资源的这个工具嘛，美国人一边呢。",
+      "original_quote": "对然后那个token的那个成本已经降到什么了啊，新出的这个十五规划的2030年，整个那个磁源的那个量要达到什么样的层级。磁源的这个成本，中美之间差异是非常非常之巨大的？这个词源成本背后就是生产资源的这个工具嘛，美国人一边呢。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 403,
+      "time_range": "00:23:59,950 --> 00:24:19,950",
+      "quote": "说着自己的AI独步天下，一边说着呢说是对中国的这个AI卡脖子是吧？把这个芯片禁运了。但是客观的事实就是中国的磁源token占据这个市面上资源消耗的70%以上。而且这个比例还在继续的放大。随着你美国那边能源成本的上升，油价上升就能。",
+      "original_quote": "说着自己的AI独步天下，一边说着呢说是对中国的这个AI卡脖子是吧？把这个芯片禁运了。但是客观的事实就是中国的磁源token占据这个市面上资源消耗的70%以上。而且这个比例还在继续的放大。随着你美国那边能源成本的上升，油价上升就能。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 404,
+      "time_range": "00:24:19,950 --> 00:24:39,950",
+      "quote": "成本的上升吧，你是越发的用不起这个token了，对吧？美国那块很多很多的那个数据中心的这个实施就是建设计划受到了阻碍。前段时间那个铜的价格暴跌，不就是他这边落地不畅嘛，很多很多的这个啊这个数据中心的这。",
+      "original_quote": "成本的上升吧，你是越发的用不起这个token了，对吧？美国那块很多很多的那个数据中心的这个实施就是建设计划受到了阻碍。前段时间那个铜的价格暴跌，不就是他这边落地不畅嘛，很多很多的这个啊这个数据中心的这。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 405,
+      "time_range": "00:24:39,950 --> 00:24:59,950",
+      "quote": "这个建设计划本来是准备大干快上的，结果到了最关键的那设备落地的环节啊，卡住了落不了地，最后呢又要不然的话就推脱成当地的政府啊，刁难了，不愿意当地的这个州政府是吧？不愿意这个数据中心落地了。这些词儿全部都是事后着补。",
+      "original_quote": "这个建设计划本来是准备大干快上的，结果到了最关键的那设备落地的环节啊，卡住了落不了地，最后呢又要不然的话就推脱成当地的政府啊，刁难了，不愿意当地的这个州政府是吧？不愿意这个数据中心落地了。这些词儿全部都是事后着补。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 406,
+      "time_range": "00:24:59,950 --> 00:25:19,950",
+      "quote": "为啥呢？道理很简单，因为这些数据中心一开始能够在这些州选址，能够宣布这些计划，提前早早的就做好了分账的准备。那作为州政府来说的话，什么合规环保，什么这个用电的紧张，这全部都是抬价的手段，全部都是。",
+      "original_quote": "为啥呢？道理很简单，因为这些数据中心一开始能够在这些州选址，能够宣布这些计划，提前早早的就做好了分账的准备。那作为州政府来说的话，什么合规环保，什么这个用电的紧张，这全部都是抬价的手段，全部都是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 407,
+      "time_range": "00:25:19,950 --> 00:25:39,950",
+      "quote": "涨家的手段，那绝对不是说真的要把这个事儿给你搅黄的那因为这些手段上了强度，那本来就是啊兵来将挡，水来土掩，大家是吧？啊，在台面上大战300回合给地下人演着看的，结果突然这演着演着的话，这把这事儿演真了，那边一出牌，这边不接了，突然之间就把事儿停下来。",
+      "original_quote": "涨家的手段，那绝对不是说真的要把这个事儿给你搅黄的那因为这些手段上了强度，那本来就是啊兵来将挡，水来土掩，大家是吧？啊，在台面上大战300回合给地下人演着看的，结果突然这演着演着的话，这把这事儿演真了，那边一出牌，这边不接了，突然之间就把事儿停下来。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 408,
+      "time_range": "00:25:39,950 --> 00:25:59,950",
+      "quote": "了，这互相之间撂挑子，这是代表啥呢？代表着一开始的规划出现了意外，是这么回事儿。所以这叫做啊根据你们这么闹闹了以后，本来这个东西就搞不下去了，那我就顺水推终，就说哎就是因为你们阻止搞不下去。实际上呢没有州政府的阻止他也搞不下去啊。",
+      "original_quote": "了，这互相之间撂挑子，这是代表啥呢？代表着一开始的规划出现了意外，是这么回事儿。所以这叫做啊根据你们这么闹闹了以后，本来这个东西就搞不下去了，那我就顺水推终，就说哎就是因为你们阻止搞不下去。实际上呢没有州政府的阻止他也搞不下去啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 409,
+      "time_range": "00:25:59,970 --> 00:26:19,970",
+      "quote": "最大的问题在哪儿呢？最大的问题就是在成本竞争上竞争不过。同样的道理，如果说中国能够提供比你美国那边只有10分之1的磁源的这个token的这个成本的话？那既然AI的训练需要的是磁源，那中国产的资源难道说用中国的光电啊，这个太阳能电跟。",
+      "original_quote": "最大的问题在哪儿呢？最大的问题就是在成本竞争上竞争不过。同样的道理，如果说中国能够提供比你美国那边只有10分之1的磁源的这个token的这个成本的话？那既然AI的训练需要的是磁源，那中国产的资源难道说用中国的光电啊，这个太阳能电跟。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 410,
+      "time_range": "00:26:19,970 --> 00:26:39,970",
+      "quote": "美国的这个呃燃油发电站的这个油电，这电和电的不同，还能导致这个资源的性质出现差别，用着啊，这个核电煤，这水电柔是吧？这这个光电的话这有点暴躁是吧？有点这个烟火气啊，比比我美国这边烧着德克萨斯产的石油烧呃发出来的电没有。",
+      "original_quote": "美国的这个呃燃油发电站的这个油电，这电和电的不同，还能导致这个资源的性质出现差别，用着啊，这个核电煤，这水电柔是吧？这这个光电的话这有点暴躁是吧？有点这个烟火气啊，比比我美国这边烧着德克萨斯产的石油烧呃发出来的电没有。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 411,
+      "time_range": "00:26:39,970 --> 00:26:59,970",
+      "quote": "美国的这种美式的自由气息有这样的区别吗？如果没有的话，通过这个token在市面上面的这个成本的差异，其实就告诉大家，美国人自己捏在手里边，想给他自己讲那个AI这个市场上面独一的唯一性的这些准备的这些托词全部都破工了嘛。这。",
+      "original_quote": "美国的这种美式的自由气息有这样的区别吗？如果没有的话，通过这个token在市面上面的这个成本的差异，其实就告诉大家，美国人自己捏在手里边，想给他自己讲那个AI这个市场上面独一的唯一性的这些准备的这些托词全部都破工了嘛。这。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 412,
+      "time_range": "00:26:59,970 --> 00:27:19,970",
+      "quote": "也比较的符合当前这个世界上中美竞争的态势。美国但凡的有主动出击的这个本钱，他至于拖到现在这么唯唯诺诺这么这么猥琐嘛，这么的受气嘛，对吧？所以通过这些事儿，其实告诉大家的，就是这个市场未来接下来一定会发生的这种交易方。",
+      "original_quote": "也比较的符合当前这个世界上中美竞争的态势。美国但凡的有主动出击的这个本钱，他至于拖到现在这么唯唯诺诺这么这么猥琐嘛，这么的受气嘛，对吧？所以通过这些事儿，其实告诉大家的，就是这个市场未来接下来一定会发生的这种交易方。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 413,
+      "time_range": "00:27:19,970 --> 00:27:39,970",
+      "quote": "转变提前的要未雨绸缪，反复的提醒大家，AI这个泡沫这已经支撑不下去了，绝对不可能撑到很很久以后的，我是不是之前跟大家说了，9月份这个时间节点。每年注一加息，AI泡沫就应声而破。这基本上是板上钉钉的事儿，嗯，如果说。",
+      "original_quote": "转变提前的要未雨绸缪，反复的提醒大家，AI这个泡沫这已经支撑不下去了，绝对不可能撑到很很久以后的，我是不是之前跟大家说了，9月份这个时间节点。每年注一加息，AI泡沫就应声而破。这基本上是板上钉钉的事儿，嗯，如果说。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 414,
+      "time_range": "00:27:39,970 --> 00:27:59,970",
+      "quote": "你说9月份加息完了以后，市场上没有任何的反应的。给大家补充一个小小小的观察，就是上周的上周五上周四除了这个PPI的数据，我做了节目，对吧？星期五的上午做了节目，当时我就跟大家预计，我说啊星期五啊公布的这个CPI的数据，跟PPI的数。",
+      "original_quote": "你说9月份加息完了以后，市场上没有任何的反应的。给大家补充一个小小小的观察，就是上周的上周五上周四除了这个PPI的数据，我做了节目，对吧？星期五的上午做了节目，当时我就跟大家预计，我说啊星期五啊公布的这个CPI的数据，跟PPI的数。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 415,
+      "time_range": "00:27:59,970 --> 00:28:19,970",
+      "quote": "如出一辙，不会有太大的变化，它会加强加息的这个预期的啊，当时PPI数据出来了以后，美联储加息的概率是70%。那CPI数据出来了以后，美联储加息的概率是90%，对吧？但是巧在巧在哪儿呢？奇怪奇怪在哪呢？就是CPI数据出来了以后，星期五市场上我相信如果。",
+      "original_quote": "如出一辙，不会有太大的变化，它会加强加息的这个预期的啊，当时PPI数据出来了以后，美联储加息的概率是70%。那CPI数据出来了以后，美联储加息的概率是90%，对吧？但是巧在巧在哪儿呢？奇怪奇怪在哪呢？就是CPI数据出来了以后，星期五市场上我相信如果。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 416,
+      "time_range": "00:28:19,970 --> 00:28:39,970",
+      "quote": "盯盘的话，观察这个市场变化的话，你会感觉到非常非常的诡异。星期五CPI数据出来了以后，按理说的话，大家的反应该跟今年哎跟这周的星期一一样，是吧？这美元的指数上涨，因为你加息啊啊加息预期起来了嘛，然后日元下跌对吧？然后是黄金下跌，然后。",
+      "original_quote": "盯盘的话，观察这个市场变化的话，你会感觉到非常非常的诡异。星期五CPI数据出来了以后，按理说的话，大家的反应该跟今年哎跟这周的星期一一样，是吧？这美元的指数上涨，因为你加息啊啊加息预期起来了嘛，然后日元下跌对吧？然后是黄金下跌，然后。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 417,
+      "time_range": "00:28:39,970 --> 00:28:59,970",
+      "quote": "是这个美债啊，这个呃上涨，对吧？这正常的这个交易应该是这样子的，但是星期五恰恰我刚才提到这些方向，包括美股是吧？美股应该下跌，恰恰呢我提到的方向全部是反的，星期五没股涨，特别是科技股涨啊，给的理由是啥呢？给的理由是这个呃甲骨文啊。",
+      "original_quote": "是这个美债啊，这个呃上涨，对吧？这正常的这个交易应该是这样子的，但是星期五恰恰我刚才提到这些方向，包括美股是吧？美股应该下跌，恰恰呢我提到的方向全部是反的，星期五没股涨，特别是科技股涨啊，给的理由是啥呢？给的理由是这个呃甲骨文啊。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 418,
+      "time_range": "00:28:59,970 --> 00:29:19,970",
+      "quote": "这个财报非常非常的好看，甲骨文这他有星弟之门计划的这个表外的这个这个这个合作在那个在这里边撑着在他那个财报到底有几分可信，真的是要打问号的对吧？他能不能支撑起来AI题材还能够继续的啊这个风风光无限，这是非常。",
+      "original_quote": "这个财报非常非常的好看，甲骨文这他有星弟之门计划的这个表外的这个这个这个合作在那个在这里边撑着在他那个财报到底有几分可信，真的是要打问号的对吧？他能不能支撑起来AI题材还能够继续的啊这个风风光无限，这是非常。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 419,
+      "time_range": "00:29:19,970 --> 00:29:39,970",
+      "quote": "非常大的一个质疑。然后呢，然后就是这个美元啊吧，美元指数呢啊不降啊不升反降，然后是日元突然之间制动起来了。因为这个呢还有啊各种捧臭角的分析说啥呢？说这是贝森特的阴谋啊，这是贝森特高瞻原瞩，提前呢跟市场说了，我是。",
+      "original_quote": "非常大的一个质疑。然后呢，然后就是这个美元啊吧，美元指数呢啊不降啊不升反降，然后是日元突然之间制动起来了。因为这个呢还有啊各种捧臭角的分析说啥呢？说这是贝森特的阴谋啊，这是贝森特高瞻原瞩，提前呢跟市场说了，我是。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 420,
+      "time_range": "00:29:39,970 --> 00:29:59,970",
+      "quote": "日元最大的多头，那你们这些空头不要跟我作对，为啥呢？因为他要通过让日元升值打开美元加息的空间，这句话单独看的话是对的，这没毛病的，逻辑是通顺的，但是区别在哪儿呢？区别是日元，它也得加息，对吧？这件事情如果建立在日元也得。",
+      "original_quote": "日元最大的多头，那你们这些空头不要跟我作对，为啥呢？因为他要通过让日元升值打开美元加息的空间，这句话单独看的话是对的，这没毛病的，逻辑是通顺的，但是区别在哪儿呢？区别是日元，它也得加息，对吧？这件事情如果建立在日元也得。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 421,
+      "time_range": "00:29:59,970 --> 00:30:19,970",
+      "quote": "加息上面的话，这个本身的话就是有问题的。为啥呢？因为日元走强，日本这边加息面临的问题。我前面说过了，日本这次加息是一次还是多次啊，加息的节奏是快还是慢呢？市场能不能买单呢，对吧？得等到9月18号了以后，日元这边宣布了以后才有正常的市场的。",
+      "original_quote": "加息上面的话，这个本身的话就是有问题的。为啥呢？因为日元走强，日本这边加息面临的问题。我前面说过了，日本这次加息是一次还是多次啊，加息的节奏是快还是慢呢？市场能不能买单呢，对吧？得等到9月18号了以后，日元这边宣布了以后才有正常的市场的。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 422,
+      "time_range": "00:30:19,970 --> 00:30:39,970",
+      "quote": "交易提前不会有那么明显的交易方向的，因为大家都看不清楚啊，这是具体的事件出来之前，大家要互相看大家的反应来决定下一步怎么走啊，这些具体事件呢没出来之前，提前的做出反应，这些东西都是假招子，没用的。所以这些道理都是能够到。",
+      "original_quote": "交易提前不会有那么明显的交易方向的，因为大家都看不清楚啊，这是具体的事件出来之前，大家要互相看大家的反应来决定下一步怎么走啊，这些具体事件呢没出来之前，提前的做出反应，这些东西都是假招子，没用的。所以这些道理都是能够到。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 423,
+      "time_range": "00:30:39,970 --> 00:30:59,970",
+      "quote": "听起来似是而非的，但是仔细推敲啊都有太大太大的问题了啊，这就是典型的给你营造一个领导先走的空间。华尔街呢都是人情世故啊，星期五的时候已经告诉你了，什么叫做歌舞盛平背后真正的交易，那总会到来的，只是提前给你营造出来不会。",
+      "original_quote": "听起来似是而非的，但是仔细推敲啊都有太大太大的问题了啊，这就是典型的给你营造一个领导先走的空间。华尔街呢都是人情世故啊，星期五的时候已经告诉你了，什么叫做歌舞盛平背后真正的交易，那总会到来的，只是提前给你营造出来不会。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 424,
+      "time_range": "00:30:59,970 --> 00:31:19,970",
+      "quote": "来的这种幻想，让你这个针打的稍微不疼一点。到时候美联储这边开始加息了，日元那边开始加息了，市面上给你出现类似的这种安抚的这种声音的时候，千万千万别上当啊，机灵一点，任直接发生的这种现实的交易逻辑的变化。",
+      "original_quote": "来的这种幻想，让你这个针打的稍微不疼一点。到时候美联储这边开始加息了，日元那边开始加息了，市面上给你出现类似的这种安抚的这种声音的时候，千万千万别上当啊，机灵一点，任直接发生的这种现实的交易逻辑的变化。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    },
+    {
+      "cue_id": 425,
+      "time_range": "00:31:19,970 --> 00:31:34,800",
+      "quote": "好吧，今天节目呢就在星期四的节目之前，提前跟大家先做了一期啊，等着美联储卧实宣布了9月份是吧？美联储的这个一期会议结果以后呢，咱们再做一期节目跟大家聊。今天节目这里，感谢大家观看。",
+      "original_quote": "好吧，今天节目呢就在星期四的节目之前，提前跟大家先做了一期啊，等着美联储卧实宣布了9月份是吧？美联储的这个一期会议结果以后呢，咱们再做一期节目跟大家聊。今天节目这里，感谢大家观看。",
+      "text_layer": "ORIGINAL_ASR",
+      "correction_ref": null
+    }
+  ]
+}

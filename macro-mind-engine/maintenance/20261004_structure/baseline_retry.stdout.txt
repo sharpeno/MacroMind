@@ -1,0 +1,16 @@
+........................................................................ [ 11%]
+........................................................................ [ 23%]
+........................................................................ [ 34%]
+........................................................................ [ 46%]
+........................................................................ [ 57%]
+........................................................................ [ 69%]
+........................................................................ [ 80%]
+........................................................................ [ 92%]
+................................................                         [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\_pytest\cacheprovider.py:469
+  G:\youhegaojian\macro-mind-engine\.venv\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path G:\youhegaojian\macro-mind-engine\.pytest_cache\v\cache\nodeids: [WinError 5] 拒绝访问。: 'G:\\youhegaojian\\macro-mind-engine\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+624 passed, 1 warning in 81.29s (0:01:21)

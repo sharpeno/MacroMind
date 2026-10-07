@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "G:\\youhegaojian\\macro-mind-engine\\scripts\\compile_reviewed_episode.py",
+    "--annotation",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\semantic_calibrated_001\\inputs\\EP005.annotation.json",
+    "--segments",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_004\\EP005\\segments.json",
+    "--policy",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\semantic_calibrated_001\\policies\\EP005.json",
+    "--policy-sha256",
+    "edeba3bc94da0cd37d0c18ad6bc73a97aab723f5ebaece6a4043305c2cb11a64",
+    "--report",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\semantic_calibrated_001\\EP005.guard.json"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine",
+  "exit_code": 0
+}

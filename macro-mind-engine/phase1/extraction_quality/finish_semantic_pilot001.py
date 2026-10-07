@@ -1,0 +1,66 @@
+import json,hashlib
+from pathlib import Path
+from datetime import datetime,timezone
+ROOT=Path('G:/youhegaojian/macro-mind-engine');Q=ROOT/'phase1/extraction_quality';O=Q/'semantic_pilot_001';B=ROOT/'phase1/batch_pilot'
+def rd(p):return json.loads(p.read_bytes())
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def wr(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+assert '624 passed' in (O/'full_tests.stdout.txt').read_text()
+for name in ['quality_tests','full_tests','changed_lint','changed_format']:assert rd(O/(name+'.command.json'))['exit_code']==0
+report='''# 九项语义自检流程试用
+
+本阶段完成可复用流程、结构化自检记录及验证器，并实际用于3条此前未参与人工审核的片段。形成2条可选补充和1条保留建议；候选文字未写入canonical数据，尚无人工质量结论。
+
+## 与上一阶段的区别
+
+固定规则用于防止已知错误回退。本次把检查提前到提取初稿阶段，由助手逐项说明作者角色、判断强度、条件、时间、对象、假设前提、关系类型、其他分支和外部证据，并为每项判断绑定原字幕。它不是只给旧案例继续添加关键词。
+
+规则检查不了自然语言是否真正忠实，因此本次程序仅检查自检记录完整、证据可定位、原文未过期，以及不能伪造人工认可。完整记录返回READY_FOR_HUMAN_REVIEW，不返回内容通过，也不授权编译。
+
+## 实际应用
+
+- EP002/C16：原提取正确标明假想讲话。候选补充其备用方案的内容和可能政策路径，仍明确未发生；是否有必要扩写由用户判断。
+- EP003/C16：原提取保留猜想性质。候选补充AI期待未消失、美国市场叙事受挫与新市场承接之间的前提和关系，未指定未经原文支持的承接市场或时间。
+- EP005/C20：九项自检后建议保留原提取，不为了补齐细节强迫改写。道路追加投入等细节记录在自检依据中。
+
+三个样本原结果先冻结，再读具体证据并自检；与前两轮及holdout001人工审阅卡的证据cue无交集。但它们出自已有五期素材，仍由同一助手复核，不是随机抽样、独立人员盲评或全新素材评测。
+
+## 实现与使用
+
+- docs/SEMANTIC_SELF_REVIEW_WORKFLOW.md：可复用九项检查要求和使用边界。
+- src/macromind/quality/semantic_review.py：记录模型及validate_packet，不调用模型或自动作语义判决。
+- scripts/validate_semantic_review.py：命令行入口，参数--packet、--annotation、--segments、--report；报告必须为新路径。
+- 三份EPxxx.packet.json：本轮实际填写的自检记录，均绑定原annotation及segments内容指纹。
+- 确认后的新注释仍须按原compile_reviewed_episode.py流程处理；本流程不绕过原门禁。旧受控编译器代码未变，尚未强制所有调用先提供自检包，应按工作流程顺序使用两入口。
+
+## 验证
+
+新增14项记录验证测试，覆盖缺维度、假cue、无证据锚点、虚假人工批准、过期输入、重复记录、保留但改文、错原句及越界引用。另专门确认：写出错误语义解释仍可能通过结构检查，所以程序不能自称语义正确。
+
+40项质量测试及全量624项测试通过；3份真实自检包均通过CLI记录验证。本轮新增文件lint与格式检查通过。之前记录的全库26项导入排序问题未处理、未重跑为通过。
+
+页面8项检查通过：3项数量及2个候选选项、保存刷新、JSON/TXT导出、导入恢复、拒绝无候选的采用判定、手机宽度和无JavaScript错误。Edge headless/Playwright，1440×1000及390×844，独立测试上下文；原用户草稿未访问。原生目录选择和Codex下载界面未实测。
+
+原run004、holdout001与calibrated001封存产物哈希一致。新的模块独立添加，旧注释质量门禁、旧规则及历史检验结果保持不变。
+
+## 接下来怎么用
+
+打开HUMAN_REVIEW.html，仅评估3条：可保留原提取、采用候选修订、另作修改或无法确认。没有候选的保留项不提供“采用候选”。导出前缀MacroMind_semantic001，推荐目录G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/human_reviews/semantic_pilot_001/exports，未选择时仍走浏览器默认下载。
+
+收到反馈后按实际判定收尾这3条，并判断自检流程是否产生有用改进。不能用记录填写完整、624项工程测试通过或候选更长来证明提取准确率提升。未经新的具体质量问题，不反复要求审同一批已确认文字。
+
+尚未完成：人工校准、自动语义提取服务、框架有效性验证；原53项非引用未决与投行来源问题依然存在。未批准全库、规模扩样或Skill。
+
+## 原始证据
+
+frozen_sample.json及freeze_manifest.json为冻结基线；EPxxx.packet.json和cli_result.json为实际自检及入口输出；comparison.json为前后动作，human标签仍pending；测试命令、stdout和stderr均在本目录，browser_qa保存原始UI结果、脚本和截图；immutability.json记录历史包核验。
+'''
+(O/'REPORT.md').write_text(report,encoding='utf-8')
+v={'time':datetime.now(timezone.utc).isoformat(),'stage':'SEMANTIC_SELF_REVIEW_IMPLEMENTED_AWAITING_CALIBRATION','completed':['Reusable nine-axis workflow implemented and applied to 3 frozen samples','14 new tests; 40 quality and 624 full tests passed','3 packet CLI validations; changed lint and format passed','8 browser checks passed; canonical data unchanged'],'unfinished':['Human calibration of 3 self-review outcomes','No semantic accuracy improvement established','Original uncertainty/source findings remain'],'next_step':'Collect MacroMind_semantic001 review JSON; preserve user choice to retain original','semantic_acceptance':False,'scale_up_approved':False}
+wr(O/'progress.json',v)
+with (O/'progress.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(v,ensure_ascii=False)+'\n')
+wr(Q/'latest.json',{'run':'semantic_pilot_001','report':str(O/'REPORT.md'),'page':str(O/'HUMAN_REVIEW.html'),'progress':str(O/'progress.json'),'status':v['stage']})
+wr(B/'review_latest.json',{'round':'semantic_pilot_001','page':str(O/'HUMAN_REVIEW.html'),'report':str(O/'REPORT.md'),'status':v['stage']})
+impl=[ROOT/'src/macromind/quality/semantic_review.py',ROOT/'scripts/validate_semantic_review.py',ROOT/'tests/quality/test_semantic_review.py',ROOT/'docs/SEMANTIC_SELF_REVIEW_WORKFLOW.md']
+wr(O/'manifest.json',{'artifacts':{str(p.relative_to(O)):sha(p) for p in O.rglob('*') if p.is_file() and p.name!='manifest.json'},'implementation':{str(p):sha(p) for p in impl}})
+print('Semantic pilot sealed: 624 tests, 8 UI checks, 3 human calibration items pending.')

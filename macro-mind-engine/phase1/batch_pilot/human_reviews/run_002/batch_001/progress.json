@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-03T09:19:21.468293+00:00",
+  "stage": "SEMANTIC_DELTA_USER_ACCEPTED_TRANSCRIPTION_CLARIFICATION_PENDING",
+  "completed": [
+    "Original 7-record export archived byte-for-byte",
+    "Dataset, IDs, episode, kind and timestamps checked",
+    "347 run001 and 301 run002 artifact hashes verified",
+    "Four semantic revisions marked user-faithful in sidecar; six unchanged faithful chains retained"
+  ],
+  "unfinished": [
+    "Clarify whether EP002/A02 and EP003/A01 audio_ok confirms earlier corrections or withdraws them",
+    "Preserve duration variants without selecting exact duration",
+    "Historical bank-source attribution/timing remain unverified",
+    "Assess next quality sample after clarification; no automatic scale-up or Skill"
+  ],
+  "next_step": "Clarify whether EP002/A02 and EP003/A01 audio_ok confirms earlier corrections or withdraws them"
+}

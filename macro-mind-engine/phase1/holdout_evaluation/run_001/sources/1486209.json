@@ -1,0 +1,77 @@
+{
+  "props": {
+    "pageProps": {
+      "query": {
+        "id": "1486209"
+      },
+      "articleDetail": {
+        "id": 1486209,
+        "column": {
+          "columnID": -1,
+          "columnName": "文章"
+        },
+        "isFree": true,
+        "title": "以色列官方否认“临时停火”传闻 拉法口岸目前仍处于关闭状态",
+        "brief": "①距离此前报道中“重启拉法口岸”的时间点已经过去两个小时，该口岸目前仍处于关闭状态；\n②目前并不清楚重启口岸和向加沙地区输送人道主义援助物资能否在周一进行；\n③内塔尼亚胡办公室在周一公开否认达成停火协议。",
+        "content": "<p><strong>财联社10月16日讯（编辑 史正丞）</strong>经历了整个周末的僵持，在周一欧美市场即将开始前夕，巴以局势又出现了新的发展。与过去几天一样，一系列消息同样充满了曲折。</p>\n<p>首先，当地时间周日，有消息称，备受关注的埃及-加沙拉法（Rafah）口岸，有望在北京时间周一下午14点（当地时间早9点）恢复开放。<strong>不过截至下午16点，现场直播显示，拉法口岸仍处于关闭的状态。</strong></p>\n<p><img src=\"https://img.cls.cn/images/20231016/y8E7z3P66p.png\" alt=\"image\"></p>\n<h3>（拉法口岸，来源：阿拉比亚电视台）</h3>\n<p>根据此前半岛电视台等多家中东媒体报道，<strong>美国、埃及和以色列达成协议，将允许加沙地区的外国公民从该口岸离境，同时在口岸处等待至今的上百辆援助物资卡车将得以进入加沙</strong>。另外来自埃及的消息称，<strong>以色列和哈马斯达成了5个小时的停火协议</strong>。</p>\n<p>不过以色列总理内塔尼亚胡的办公室对该报道回应称，“<strong>目前没有以停火和人道主义援助换取外国人离开加沙的协议</strong>”。另外，包括以色列能源部长Israel Katz、文化部长Miki Zohar均在社交媒体上公开<strong>反对开放拉法口岸，允许物资进入加沙地区</strong>。</p>\n<p><img src=\"https://img.cls.cn/images/20231016/n0pgZh2a8Z.png\" alt=\"image\"></p>\n<h3>（来源：内塔尼亚胡办公室官方账号）</h3>\n<p>由于以色列官方的措辞只是否认了停火协议，所以目前并不确定今天晚些时候拉法口岸是否仍有机会开放。</p>\n<p>美国国务院领事事务局也在周一的公告中提醒称，<strong>拉法口岸的情况时刻在变化且难以预料</strong>。目前并不知道口岸会不会开放，此外这个口岸有可能只会在非常有限的时间里开放。</p>\n<p><img src=\"https://img.cls.cn/images/20231016/HQr9G4s6TB.png\" alt=\"image\"></p>\n<h3>（来源：美国驻以色列大使馆）</h3>\n<p>此前据阿拉比亚电视台援引知情人士报道称，拉法口岸可能只会在周一开放数个小时，然后在晚间重新关闭。</p>\n<p>除了加沙外，以色列与黎巴嫩边境也有新动向。以色列国防部紧急应变机关（NEMA）与以色列国防军周一发布联合声明称，<strong>将紧急疏散距黎巴嫩边境至多2公里的居民。以色列国防部长加兰特在周一批准了这一计划，总共有28个村庄的村民将被转移至政府提供的安置点。</strong></p>\n<p><img src=\"https://img.cls.cn/images/20231016/Jp6N2cyo1Q.png\" alt=\"image\"></p>\n<h3>（来源：以色列国防军）</h3>\n<p>自从本轮巴以冲突爆发后，以色列国防军与黎巴嫩真主党的交火也时有发生。金融市场也普遍将以黎局势作为战争扩大化风险定价的关键因素。</p>\n<p>以色列国防部长加兰特也曾在周日确认以黎边境存在交火的情况，但也表示“不希望激化北面的局势”。加兰特也表示，如果真主党保持克制，以色列将尊重这一点，并保持现有局势不变。</p>",
+        "ctime": 1697445026,
+        "readingNum": 814784,
+        "images": [
+          "https://img.cls.cn/images/20231016/a55kvvXw09.png"
+        ],
+        "author": {
+          "name": "财联社 史正丞"
+        },
+        "commentNum": 3,
+        "status": 1,
+        "visibleTags": [
+          {
+            "id": 8,
+            "name": "原创",
+            "visible": true,
+            "color": "#DE0723"
+          }
+        ],
+        "notes": "{\"reviewer\":\"林琦\"}",
+        "subject": [
+          {
+            "id": 1556,
+            "name": "环球市场情报",
+            "attentionNum": 171094
+          },
+          {
+            "id": 10986,
+            "name": "中东冲突",
+            "attentionNum": 52711
+          }
+        ],
+        "level": "C",
+        "secReviewer": "林琦",
+        "associatedFastFact": {},
+        "assocArticleUrl": "",
+        "assocVideoTitle": "",
+        "assocVideoUrl": "",
+        "gray_share": 0
+      },
+      "error": {
+        "errno": 200,
+        "errorMessage": ""
+      },
+      "columnDetail": {},
+      "initialState": {
+        "chooseNav": "other"
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/detail/[id]",
+  "query": {
+    "id": "1486209"
+  },
+  "buildId": "vZmpFhRkte4FqlTlJ1huC",
+  "assetPrefix": "https://wwwjs.cls.cn",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

@@ -1,0 +1,9 @@
+{
+  "reported_input_tokens": 0,
+  "reported_output_tokens": 0,
+  "reported_total_tokens": 0,
+  "calls_with_missing_usage": 2,
+  "failed_requests_with_unknown_billing": 0,
+  "successful_requests": 2,
+  "billing_verified": false
+}

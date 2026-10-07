@@ -1,0 +1,8 @@
+{
+  "episode": "473",
+  "recorded_before_read_at": "2026-10-06T12:23:16.331046+00:00",
+  "answer_lock_sha256": "99dd44c090b8b80e809e77a3537eceb15cb3d92930c2944e611cf31d0995fd63",
+  "answer_sha256": "7dafd020c16a5f583df0b0bbad7f9ae6bba7b9563302e954b9749fe6092c3df8",
+  "status": "EXPOSED_FOR_EVALUATION_NOT_UNREAD_HOLDOUT",
+  "other_reserved_episodes_accessed": []
+}

@@ -1,0 +1,35 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "ReviewStatus",
+  "requires_unknown": true,
+  "source_refs": [
+    "implementation_extension: review tracking"
+  ],
+  "entries": [
+    {
+      "value": "open",
+      "description": "ReviewStatus: open; records the supplied category, without inference.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "resolved",
+      "description": "ReviewStatus: resolved; records the supplied category, without inference.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

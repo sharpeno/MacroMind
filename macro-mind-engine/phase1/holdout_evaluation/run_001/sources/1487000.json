@@ -1,0 +1,29 @@
+{
+  "props": {
+    "pageProps": {
+      "query": {
+        "id": "1487000"
+      },
+      "articleDetail": {},
+      "error": {
+        "errno": 404,
+        "errorMessage": "文章不存在"
+      },
+      "columnDetail": {},
+      "initialState": {
+        "chooseNav": "other"
+      }
+    },
+    "__N_SSP": true
+  },
+  "page": "/detail/[id]",
+  "query": {
+    "id": "1487000"
+  },
+  "buildId": "vZmpFhRkte4FqlTlJ1huC",
+  "assetPrefix": "https://wwwjs.cls.cn",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

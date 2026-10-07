@@ -1,0 +1,139 @@
+{
+  "adaptation_manifest": {
+    "adapter_id": null,
+    "adapter_version": "0.1.0",
+    "canonical_bundle_hash": "736520c9db846d6eb9b018e064d7db14c108b04d27d92032fe34dd4a34710741",
+    "canonical_object_count": 0,
+    "detection_status": "UNKNOWN",
+    "loss_count": 2,
+    "mapping_ledger_hash": "1a9361336019c8df01c9d8f6c60985a645748c90737dcc83d9d3751fc33e734b",
+    "quarantined_object_count": 1,
+    "source_family": "UNKNOWN_LEGACY",
+    "source_object_count": 0,
+    "source_sha256": "e631e68e7973b747cbbf88003e1934fb066032b7937ccb4101c67ce4e1d303ff",
+    "source_unchanged": true,
+    "status": "UNSUPPORTED",
+    "target_ontology_version": "0.3",
+    "target_schema_version": "0.1.0",
+    "unknown_count": 0,
+    "validator_summary": {
+      "deterministic_hash": "f78d7e519481c3a7029ed8540f690ffa3b8d9f28993eeedae9a0c916d654ee5d",
+      "errors": [],
+      "mode": "partial_bundle",
+      "object_count": 0,
+      "outcome_counts": {
+        "ERROR": 0,
+        "INDETERMINATE": 0,
+        "NOT_APPLICABLE": 36,
+        "PASS": 1,
+        "WARNING": 0
+      },
+      "validator_version": "0.1.0"
+    }
+  },
+  "adapter_id": null,
+  "adapter_version": "0.1.0",
+  "canonical_bundle": {
+    "objects": []
+  },
+  "canonical_object_count": 0,
+  "canonical_reconstruction_forbidden": false,
+  "detection_status": "UNKNOWN",
+  "deterministic_hash": "12c72d5689234048182f4651261967048c0735ec17e9b7dd468740c86ff852a4",
+  "losses": [
+    {
+      "canonical_effect": "Canonical mappings are explicit; raw remainder is not activated as evidence.",
+      "category": "STRUCTURAL_LOSS",
+      "description": "Original section layout and unsupported nested history retained separately.",
+      "loss_id": "loss:3b88cd9c5d0ba8798546719b",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/unknown"
+    },
+    {
+      "canonical_effect": "Object quarantined, raw retained.",
+      "category": "REQUIRED_FIELD_UNAVAILABLE",
+      "description": "unsupported_or_ambiguous_family_or_target",
+      "loss_id": "loss:9bdefcd2214c4cd77abc7e1c",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "BLOCKING",
+      "source_path": ""
+    }
+  ],
+  "mapping_ledger": [
+    {
+      "evidence": [],
+      "operation": "QUARANTINE",
+      "reason": "unsupported_or_ambiguous_family_or_target",
+      "semantic_change": false,
+      "source_path": "",
+      "source_value_hash": "46c6296d9e8cae1c8d1dc32b71379884f313205c2dac7787583fd82afa13d2ed",
+      "target_path": "/quarantined_items/0/raw_payload",
+      "target_value_hash": "46c6296d9e8cae1c8d1dc32b71379884f313205c2dac7787583fd82afa13d2ed"
+    },
+    {
+      "evidence": [],
+      "operation": "PRESERVE_RAW",
+      "reason": "Unrepresented historical value retained verbatim.",
+      "semantic_change": false,
+      "source_path": "/unknown",
+      "source_value_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+      "target_path": "/raw_document/unknown",
+      "target_value_hash": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    }
+  ],
+  "quarantined_items": [
+    {
+      "candidate_target_type": null,
+      "message": "No canonical object invented for unsupported semantics.",
+      "missing_semantics": [],
+      "raw_payload": {
+        "unknown": true
+      },
+      "raw_payload_hash": "46c6296d9e8cae1c8d1dc32b71379884f313205c2dac7787583fd82afa13d2ed",
+      "reason_code": "unsupported_or_ambiguous_family_or_target",
+      "source_object_type": null,
+      "source_path": "",
+      "suggested_future_action": "Human review or separately versioned compatibility policy; never infer missing facts."
+    }
+  ],
+  "quarantined_object_count": 1,
+  "raw_document": {
+    "unknown": true
+  },
+  "recommended_validation_mode": "partial_bundle",
+  "source_family": "UNKNOWN_LEGACY",
+  "source_object_count": 0,
+  "source_sha256": "e631e68e7973b747cbbf88003e1934fb066032b7937ccb4101c67ce4e1d303ff",
+  "status": "UNSUPPORTED",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknowns": [],
+  "unsupported_fields": [
+    {
+      "classification": "historical_section_snapshot",
+      "operation": "PRESERVE_RAW",
+      "source_path": "/unknown",
+      "value": true
+    }
+  ],
+  "validator_report_summary": {
+    "deterministic_hash": "f78d7e519481c3a7029ed8540f690ffa3b8d9f28993eeedae9a0c916d654ee5d",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 0,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 0,
+      "NOT_APPLICABLE": 36,
+      "PASS": 1,
+      "WARNING": 0
+    },
+    "validator_version": "0.1.0"
+  },
+  "warnings": [
+    "Raw historical sections are preserved, not active canonical evidence."
+  ]
+}

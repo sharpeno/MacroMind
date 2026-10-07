@@ -1,0 +1,125 @@
+[
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "G:\\youhegaojian\\macro-mind-engine\\tests",
+      "-q",
+      "-W",
+      "error",
+      "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\tests.xml"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "pytest",
+    "stderr": "phase1/phase1_3_evidence/run_001/pytest.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/pytest.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "check",
+      "G:\\youhegaojian\\macro-mind-engine\\src",
+      "G:\\youhegaojian\\macro-mind-engine\\tests",
+      "G:\\youhegaojian\\macro-mind-engine\\scripts\\verify_phase1_3.py"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 1,
+    "name": "ruff_check",
+    "stderr": "phase1/phase1_3_evidence/run_001/ruff_check.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/ruff_check.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-m",
+      "ruff",
+      "format",
+      "--check",
+      "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\validation",
+      "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\cli\\main.py",
+      "G:\\youhegaojian\\macro-mind-engine\\tests\\validation",
+      "G:\\youhegaojian\\macro-mind-engine\\scripts\\verify_phase1_3.py"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "ruff_format",
+    "stderr": "phase1/phase1_3_evidence/run_001/ruff_format.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/ruff_format.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\empty_bundle.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_empty",
+    "stderr": "phase1/phase1_3_evidence/run_001/cli_empty.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/cli_empty.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\legacy_bundle.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 1,
+    "name": "cli_semantic_error",
+    "stderr": "phase1/phase1_3_evidence/run_001/cli_semantic_error.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/cli_semantic_error.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\bad_transport.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 2,
+    "name": "cli_input_error",
+    "stderr": "phase1/phase1_3_evidence/run_001/cli_input_error.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/cli_input_error.stdout.txt"
+  },
+  {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+      "validate",
+      "--input",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\partial_bundle.json",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3",
+      "--context",
+      "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_3_evidence\\run_001\\context.json"
+    ],
+    "cwd": "G:\\youhegaojian",
+    "exit_code": 0,
+    "name": "cli_partial",
+    "stderr": "phase1/phase1_3_evidence/run_001/cli_partial.stderr.txt",
+    "stdout": "phase1/phase1_3_evidence/run_001/cli_partial.stdout.txt"
+  }
+]

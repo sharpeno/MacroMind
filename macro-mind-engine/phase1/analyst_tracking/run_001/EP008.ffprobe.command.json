@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "C:\\Users\\无语\\AppData\\Local\\ffmpeg\\bin\\ffprobe.EXE",
+    "-v",
+    "error",
+    "-show_entries",
+    "format=duration",
+    "-of",
+    "json",
+    "G:\\youhegaojian\\batch_pilot_materials\\EP008\\《第七百五七期》美国八月非农传喜报，大幅超出预期是否会影响美联储9月加息预期？-p01-16.mp4"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

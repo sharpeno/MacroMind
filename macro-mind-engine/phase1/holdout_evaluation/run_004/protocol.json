@@ -1,0 +1,16 @@
+{
+  "episode": "475",
+  "selected_at": "2026-10-07T12:13:42.417158+00:00",
+  "framework_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "target_status": "UNREAD",
+  "application_checklist": [
+    "role/event/attitude distinct from inferred motive",
+    "interpret actions in context",
+    "separate price observation, mechanism and long-term extrapolation",
+    "state competing hypotheses, evidence, discriminating observations and update direction",
+    "consider execution chain and control constraints"
+  ],
+  "design": "adaptive qualitative case after human feedback on472-474; not fixed-policy accuracy",
+  "cutoff": "2023-10-18 day-level per accepted title-date policy; exact video time unknown",
+  "leakage": "titles known; previous cases and historical knowledge exposed"
+}

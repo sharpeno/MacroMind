@@ -1,0 +1,2516 @@
+# GS004 MA.1 Lightweight Migration Diff
+
+## added_fields
+
+- `C001` `/08_CLAIMS/0/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C001` `/08_CLAIMS/0/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C001` `/08_CLAIMS/0/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C002` `/08_CLAIMS/1/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C002` `/08_CLAIMS/1/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C002` `/08_CLAIMS/1/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C003` `/08_CLAIMS/2/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C003` `/08_CLAIMS/2/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C003` `/08_CLAIMS/2/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C004` `/08_CLAIMS/3/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C004` `/08_CLAIMS/3/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C004` `/08_CLAIMS/3/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C005` `/08_CLAIMS/4/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C005` `/08_CLAIMS/4/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C005` `/08_CLAIMS/4/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C006` `/08_CLAIMS/5/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C006` `/08_CLAIMS/5/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C006` `/08_CLAIMS/5/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C007` `/08_CLAIMS/6/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C007` `/08_CLAIMS/6/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C007` `/08_CLAIMS/6/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C008` `/08_CLAIMS/7/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C008` `/08_CLAIMS/7/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C008` `/08_CLAIMS/7/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C009` `/08_CLAIMS/8/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C009` `/08_CLAIMS/8/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C009` `/08_CLAIMS/8/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C010` `/08_CLAIMS/9/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C010` `/08_CLAIMS/9/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C010` `/08_CLAIMS/9/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C011` `/08_CLAIMS/10/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C011` `/08_CLAIMS/10/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C011` `/08_CLAIMS/10/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C012` `/08_CLAIMS/11/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C012` `/08_CLAIMS/11/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C012` `/08_CLAIMS/11/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C013` `/08_CLAIMS/12/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C013` `/08_CLAIMS/12/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C013` `/08_CLAIMS/12/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C014` `/08_CLAIMS/13/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C014` `/08_CLAIMS/13/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C014` `/08_CLAIMS/13/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C015` `/08_CLAIMS/14/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C015` `/08_CLAIMS/14/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C015` `/08_CLAIMS/14/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C016` `/08_CLAIMS/15/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C016` `/08_CLAIMS/15/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C016` `/08_CLAIMS/15/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C017` `/08_CLAIMS/16/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C017` `/08_CLAIMS/16/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C017` `/08_CLAIMS/16/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C018` `/08_CLAIMS/17/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C018` `/08_CLAIMS/17/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C018` `/08_CLAIMS/17/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C019` `/08_CLAIMS/18/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C019` `/08_CLAIMS/18/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C019` `/08_CLAIMS/18/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C020` `/08_CLAIMS/19/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C020` `/08_CLAIMS/19/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C020` `/08_CLAIMS/19/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C021` `/08_CLAIMS/20/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C021` `/08_CLAIMS/20/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C021` `/08_CLAIMS/20/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C022` `/08_CLAIMS/21/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C022` `/08_CLAIMS/21/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C022` `/08_CLAIMS/21/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C023` `/08_CLAIMS/22/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C023` `/08_CLAIMS/22/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C023` `/08_CLAIMS/22/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C024` `/08_CLAIMS/23/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C024` `/08_CLAIMS/23/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C024` `/08_CLAIMS/23/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C025` `/08_CLAIMS/24/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C025` `/08_CLAIMS/24/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C025` `/08_CLAIMS/24/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C026` `/08_CLAIMS/25/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C026` `/08_CLAIMS/25/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C026` `/08_CLAIMS/25/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C027` `/08_CLAIMS/26/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C027` `/08_CLAIMS/26/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C027` `/08_CLAIMS/26/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C028` `/08_CLAIMS/27/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C028` `/08_CLAIMS/27/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C028` `/08_CLAIMS/27/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C029` `/08_CLAIMS/28/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C029` `/08_CLAIMS/28/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C029` `/08_CLAIMS/28/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C030` `/08_CLAIMS/29/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C030` `/08_CLAIMS/29/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C030` `/08_CLAIMS/29/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C031` `/08_CLAIMS/30/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C031` `/08_CLAIMS/30/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C031` `/08_CLAIMS/30/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C032` `/08_CLAIMS/31/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C032` `/08_CLAIMS/31/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C032` `/08_CLAIMS/31/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C033` `/08_CLAIMS/32/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C033` `/08_CLAIMS/32/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C033` `/08_CLAIMS/32/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C034` `/08_CLAIMS/33/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C034` `/08_CLAIMS/33/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C034` `/08_CLAIMS/33/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C035` `/08_CLAIMS/34/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C035` `/08_CLAIMS/34/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C035` `/08_CLAIMS/34/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C036` `/08_CLAIMS/35/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C036` `/08_CLAIMS/35/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C036` `/08_CLAIMS/35/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C037` `/08_CLAIMS/36/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C037` `/08_CLAIMS/36/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C037` `/08_CLAIMS/36/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C038` `/08_CLAIMS/37/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C038` `/08_CLAIMS/37/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C038` `/08_CLAIMS/37/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C039` `/08_CLAIMS/38/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C039` `/08_CLAIMS/38/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C039` `/08_CLAIMS/38/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C040` `/08_CLAIMS/39/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C040` `/08_CLAIMS/39/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C040` `/08_CLAIMS/39/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C041` `/08_CLAIMS/40/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C041` `/08_CLAIMS/40/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C041` `/08_CLAIMS/40/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C042` `/08_CLAIMS/41/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C042` `/08_CLAIMS/41/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C042` `/08_CLAIMS/41/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C043` `/08_CLAIMS/42/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C043` `/08_CLAIMS/42/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C043` `/08_CLAIMS/42/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C044` `/08_CLAIMS/43/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C044` `/08_CLAIMS/43/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C044` `/08_CLAIMS/43/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C045` `/08_CLAIMS/44/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C045` `/08_CLAIMS/44/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C045` `/08_CLAIMS/44/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C046` `/08_CLAIMS/45/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C046` `/08_CLAIMS/45/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C046` `/08_CLAIMS/45/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C047` `/08_CLAIMS/46/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C047` `/08_CLAIMS/46/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C047` `/08_CLAIMS/46/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C048` `/08_CLAIMS/47/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C048` `/08_CLAIMS/47/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C048` `/08_CLAIMS/47/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C049` `/08_CLAIMS/48/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C049` `/08_CLAIMS/48/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C049` `/08_CLAIMS/48/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C050` `/08_CLAIMS/49/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C050` `/08_CLAIMS/49/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C050` `/08_CLAIMS/49/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C051` `/08_CLAIMS/50/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C051` `/08_CLAIMS/50/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C051` `/08_CLAIMS/50/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C052` `/08_CLAIMS/51/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C052` `/08_CLAIMS/51/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C052` `/08_CLAIMS/51/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C053` `/08_CLAIMS/52/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C053` `/08_CLAIMS/52/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C053` `/08_CLAIMS/52/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C054` `/08_CLAIMS/53/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C054` `/08_CLAIMS/53/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C054` `/08_CLAIMS/53/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C055` `/08_CLAIMS/54/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C055` `/08_CLAIMS/54/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C055` `/08_CLAIMS/54/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C056` `/08_CLAIMS/55/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C056` `/08_CLAIMS/55/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C056` `/08_CLAIMS/55/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C057` `/08_CLAIMS/56/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C057` `/08_CLAIMS/56/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C057` `/08_CLAIMS/56/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C058` `/08_CLAIMS/57/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C058` `/08_CLAIMS/57/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C058` `/08_CLAIMS/57/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C059` `/08_CLAIMS/58/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C059` `/08_CLAIMS/58/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C059` `/08_CLAIMS/58/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C060` `/08_CLAIMS/59/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C060` `/08_CLAIMS/59/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C060` `/08_CLAIMS/59/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C061` `/08_CLAIMS/60/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C061` `/08_CLAIMS/60/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C061` `/08_CLAIMS/60/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C062` `/08_CLAIMS/61/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C062` `/08_CLAIMS/61/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C062` `/08_CLAIMS/61/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C063` `/08_CLAIMS/62/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C063` `/08_CLAIMS/62/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C063` `/08_CLAIMS/62/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C064` `/08_CLAIMS/63/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C064` `/08_CLAIMS/63/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C064` `/08_CLAIMS/63/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C065` `/08_CLAIMS/64/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C065` `/08_CLAIMS/64/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C065` `/08_CLAIMS/64/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C066` `/08_CLAIMS/65/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C066` `/08_CLAIMS/65/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C066` `/08_CLAIMS/65/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C067` `/08_CLAIMS/66/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C067` `/08_CLAIMS/66/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C067` `/08_CLAIMS/66/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C068` `/08_CLAIMS/67/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C068` `/08_CLAIMS/67/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C068` `/08_CLAIMS/67/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C069` `/08_CLAIMS/68/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C069` `/08_CLAIMS/68/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C069` `/08_CLAIMS/68/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C070` `/08_CLAIMS/69/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C070` `/08_CLAIMS/69/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C070` `/08_CLAIMS/69/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C071` `/08_CLAIMS/70/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C071` `/08_CLAIMS/70/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C071` `/08_CLAIMS/70/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C072` `/08_CLAIMS/71/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C072` `/08_CLAIMS/71/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C072` `/08_CLAIMS/71/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C073` `/08_CLAIMS/72/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C073` `/08_CLAIMS/72/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C073` `/08_CLAIMS/72/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C074` `/08_CLAIMS/73/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C074` `/08_CLAIMS/73/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C074` `/08_CLAIMS/73/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C075` `/08_CLAIMS/74/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C075` `/08_CLAIMS/74/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C075` `/08_CLAIMS/74/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C076` `/08_CLAIMS/75/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C076` `/08_CLAIMS/75/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C076` `/08_CLAIMS/75/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C077` `/08_CLAIMS/76/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C077` `/08_CLAIMS/76/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C077` `/08_CLAIMS/76/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C078` `/08_CLAIMS/77/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C078` `/08_CLAIMS/77/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C078` `/08_CLAIMS/77/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C079` `/08_CLAIMS/78/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C079` `/08_CLAIMS/78/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C079` `/08_CLAIMS/78/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C080` `/08_CLAIMS/79/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C080` `/08_CLAIMS/79/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C080` `/08_CLAIMS/79/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C081` `/08_CLAIMS/80/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C081` `/08_CLAIMS/80/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C081` `/08_CLAIMS/80/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C082` `/08_CLAIMS/81/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C082` `/08_CLAIMS/81/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C082` `/08_CLAIMS/81/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C083` `/08_CLAIMS/82/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C083` `/08_CLAIMS/82/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C083` `/08_CLAIMS/82/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C084` `/08_CLAIMS/83/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C084` `/08_CLAIMS/83/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C084` `/08_CLAIMS/83/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C085` `/08_CLAIMS/84/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C085` `/08_CLAIMS/84/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C085` `/08_CLAIMS/84/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C086` `/08_CLAIMS/85/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C086` `/08_CLAIMS/85/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C086` `/08_CLAIMS/85/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C087` `/08_CLAIMS/86/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C087` `/08_CLAIMS/86/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C087` `/08_CLAIMS/86/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C088` `/08_CLAIMS/87/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C088` `/08_CLAIMS/87/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C088` `/08_CLAIMS/87/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C089` `/08_CLAIMS/88/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C089` `/08_CLAIMS/88/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C089` `/08_CLAIMS/88/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C090` `/08_CLAIMS/89/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C090` `/08_CLAIMS/89/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C090` `/08_CLAIMS/89/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C091` `/08_CLAIMS/90/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C091` `/08_CLAIMS/90/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C091` `/08_CLAIMS/90/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C092` `/08_CLAIMS/91/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C092` `/08_CLAIMS/91/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C092` `/08_CLAIMS/91/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C093` `/08_CLAIMS/92/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C093` `/08_CLAIMS/92/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C093` `/08_CLAIMS/92/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C094` `/08_CLAIMS/93/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C094` `/08_CLAIMS/93/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C094` `/08_CLAIMS/93/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C095` `/08_CLAIMS/94/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C095` `/08_CLAIMS/94/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C095` `/08_CLAIMS/94/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C096` `/08_CLAIMS/95/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C096` `/08_CLAIMS/95/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C096` `/08_CLAIMS/95/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C097` `/08_CLAIMS/96/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C097` `/08_CLAIMS/96/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C097` `/08_CLAIMS/96/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C098` `/08_CLAIMS/97/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C098` `/08_CLAIMS/97/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C098` `/08_CLAIMS/97/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C099` `/08_CLAIMS/98/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C099` `/08_CLAIMS/98/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C099` `/08_CLAIMS/98/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C100` `/08_CLAIMS/99/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C100` `/08_CLAIMS/99/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C100` `/08_CLAIMS/99/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C101` `/08_CLAIMS/100/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C101` `/08_CLAIMS/100/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C101` `/08_CLAIMS/100/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C102` `/08_CLAIMS/101/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C102` `/08_CLAIMS/101/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C102` `/08_CLAIMS/101/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C103` `/08_CLAIMS/102/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C103` `/08_CLAIMS/102/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C103` `/08_CLAIMS/102/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C104` `/08_CLAIMS/103/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C104` `/08_CLAIMS/103/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C104` `/08_CLAIMS/103/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C105` `/08_CLAIMS/104/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C105` `/08_CLAIMS/104/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C105` `/08_CLAIMS/104/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C106` `/08_CLAIMS/105/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C106` `/08_CLAIMS/105/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C106` `/08_CLAIMS/105/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C107` `/08_CLAIMS/106/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C107` `/08_CLAIMS/106/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C107` `/08_CLAIMS/106/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C108` `/08_CLAIMS/107/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C108` `/08_CLAIMS/107/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C108` `/08_CLAIMS/107/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C109` `/08_CLAIMS/108/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C109` `/08_CLAIMS/108/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C109` `/08_CLAIMS/108/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C110` `/08_CLAIMS/109/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C110` `/08_CLAIMS/109/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C110` `/08_CLAIMS/109/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C111` `/08_CLAIMS/110/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C111` `/08_CLAIMS/110/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C111` `/08_CLAIMS/110/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C112` `/08_CLAIMS/111/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C112` `/08_CLAIMS/111/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `C112` `/08_CLAIMS/111/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X01` `/08_CLAIMS/112/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X01` `/08_CLAIMS/112/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X01` `/08_CLAIMS/112/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X02` `/08_CLAIMS/113/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X02` `/08_CLAIMS/113/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X02` `/08_CLAIMS/113/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X03` `/08_CLAIMS/114/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X03` `/08_CLAIMS/114/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X03` `/08_CLAIMS/114/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X04` `/08_CLAIMS/115/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X04` `/08_CLAIMS/115/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X04` `/08_CLAIMS/115/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X05` `/08_CLAIMS/116/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X05` `/08_CLAIMS/116/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X05` `/08_CLAIMS/116/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X06` `/08_CLAIMS/117/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X06` `/08_CLAIMS/117/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X06` `/08_CLAIMS/117/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X07` `/08_CLAIMS/118/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X07` `/08_CLAIMS/118/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X07` `/08_CLAIMS/118/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X08` `/08_CLAIMS/119/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X08` `/08_CLAIMS/119/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X08` `/08_CLAIMS/119/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X09` `/08_CLAIMS/120/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X09` `/08_CLAIMS/120/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X09` `/08_CLAIMS/120/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X10` `/08_CLAIMS/121/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X10` `/08_CLAIMS/121/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X10` `/08_CLAIMS/121/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X11` `/08_CLAIMS/122/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X11` `/08_CLAIMS/122/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `X11` `/08_CLAIMS/122/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M01` `/08_CLAIMS/123/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M01` `/08_CLAIMS/123/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M01` `/08_CLAIMS/123/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M02` `/08_CLAIMS/124/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M02` `/08_CLAIMS/124/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M02` `/08_CLAIMS/124/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M03` `/08_CLAIMS/125/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M03` `/08_CLAIMS/125/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M03` `/08_CLAIMS/125/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M04` `/08_CLAIMS/126/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M04` `/08_CLAIMS/126/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M04` `/08_CLAIMS/126/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M05` `/08_CLAIMS/127/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M05` `/08_CLAIMS/127/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M05` `/08_CLAIMS/127/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M06` `/08_CLAIMS/128/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M06` `/08_CLAIMS/128/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M06` `/08_CLAIMS/128/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M07` `/08_CLAIMS/129/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M07` `/08_CLAIMS/129/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M07` `/08_CLAIMS/129/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M08` `/08_CLAIMS/130/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M08` `/08_CLAIMS/130/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `M08` `/08_CLAIMS/130/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN01` `/13_INDICATORS_OBSERVATIONS/indicators/0/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN01` `/13_INDICATORS_OBSERVATIONS/indicators/0/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN01` `/13_INDICATORS_OBSERVATIONS/indicators/0/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN02` `/13_INDICATORS_OBSERVATIONS/indicators/1/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN02` `/13_INDICATORS_OBSERVATIONS/indicators/1/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN02` `/13_INDICATORS_OBSERVATIONS/indicators/1/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN03` `/13_INDICATORS_OBSERVATIONS/indicators/2/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN03` `/13_INDICATORS_OBSERVATIONS/indicators/2/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN03` `/13_INDICATORS_OBSERVATIONS/indicators/2/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN04` `/13_INDICATORS_OBSERVATIONS/indicators/3/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN04` `/13_INDICATORS_OBSERVATIONS/indicators/3/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN04` `/13_INDICATORS_OBSERVATIONS/indicators/3/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN05` `/13_INDICATORS_OBSERVATIONS/indicators/4/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN05` `/13_INDICATORS_OBSERVATIONS/indicators/4/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN05` `/13_INDICATORS_OBSERVATIONS/indicators/4/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN06` `/13_INDICATORS_OBSERVATIONS/indicators/5/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN06` `/13_INDICATORS_OBSERVATIONS/indicators/5/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN06` `/13_INDICATORS_OBSERVATIONS/indicators/5/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN07` `/13_INDICATORS_OBSERVATIONS/indicators/6/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN07` `/13_INDICATORS_OBSERVATIONS/indicators/6/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN07` `/13_INDICATORS_OBSERVATIONS/indicators/6/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN08` `/13_INDICATORS_OBSERVATIONS/indicators/7/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN08` `/13_INDICATORS_OBSERVATIONS/indicators/7/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN08` `/13_INDICATORS_OBSERVATIONS/indicators/7/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN09` `/13_INDICATORS_OBSERVATIONS/indicators/8/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN09` `/13_INDICATORS_OBSERVATIONS/indicators/8/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN09` `/13_INDICATORS_OBSERVATIONS/indicators/8/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN10` `/13_INDICATORS_OBSERVATIONS/indicators/9/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN10` `/13_INDICATORS_OBSERVATIONS/indicators/9/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN10` `/13_INDICATORS_OBSERVATIONS/indicators/9/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN11` `/13_INDICATORS_OBSERVATIONS/indicators/10/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN11` `/13_INDICATORS_OBSERVATIONS/indicators/10/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN11` `/13_INDICATORS_OBSERVATIONS/indicators/10/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN12` `/13_INDICATORS_OBSERVATIONS/indicators/11/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN12` `/13_INDICATORS_OBSERVATIONS/indicators/11/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN12` `/13_INDICATORS_OBSERVATIONS/indicators/11/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN13` `/13_INDICATORS_OBSERVATIONS/indicators/12/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN13` `/13_INDICATORS_OBSERVATIONS/indicators/12/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN13` `/13_INDICATORS_OBSERVATIONS/indicators/12/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN14` `/13_INDICATORS_OBSERVATIONS/indicators/13/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN14` `/13_INDICATORS_OBSERVATIONS/indicators/13/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN14` `/13_INDICATORS_OBSERVATIONS/indicators/13/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN15` `/13_INDICATORS_OBSERVATIONS/indicators/14/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN15` `/13_INDICATORS_OBSERVATIONS/indicators/14/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN15` `/13_INDICATORS_OBSERVATIONS/indicators/14/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN16` `/13_INDICATORS_OBSERVATIONS/indicators/15/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN16` `/13_INDICATORS_OBSERVATIONS/indicators/15/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN16` `/13_INDICATORS_OBSERVATIONS/indicators/15/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN17` `/13_INDICATORS_OBSERVATIONS/indicators/16/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN17` `/13_INDICATORS_OBSERVATIONS/indicators/16/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN17` `/13_INDICATORS_OBSERVATIONS/indicators/16/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN18` `/13_INDICATORS_OBSERVATIONS/indicators/17/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN18` `/13_INDICATORS_OBSERVATIONS/indicators/17/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN18` `/13_INDICATORS_OBSERVATIONS/indicators/17/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN19` `/13_INDICATORS_OBSERVATIONS/indicators/18/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN19` `/13_INDICATORS_OBSERVATIONS/indicators/18/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN19` `/13_INDICATORS_OBSERVATIONS/indicators/18/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN20` `/13_INDICATORS_OBSERVATIONS/indicators/19/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN20` `/13_INDICATORS_OBSERVATIONS/indicators/19/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN20` `/13_INDICATORS_OBSERVATIONS/indicators/19/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN_RPO` `/13_INDICATORS_OBSERVATIONS/indicators/20/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN_RPO` `/13_INDICATORS_OBSERVATIONS/indicators/20/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN_RPO` `/13_INDICATORS_OBSERVATIONS/indicators/20/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN22` `/13_INDICATORS_OBSERVATIONS/indicators/21/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN22` `/13_INDICATORS_OBSERVATIONS/indicators/21/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN22` `/13_INDICATORS_OBSERVATIONS/indicators/21/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN23` `/13_INDICATORS_OBSERVATIONS/indicators/22/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN23` `/13_INDICATORS_OBSERVATIONS/indicators/22/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN23` `/13_INDICATORS_OBSERVATIONS/indicators/22/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN24` `/13_INDICATORS_OBSERVATIONS/indicators/23/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN24` `/13_INDICATORS_OBSERVATIONS/indicators/23/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN24` `/13_INDICATORS_OBSERVATIONS/indicators/23/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN25` `/13_INDICATORS_OBSERVATIONS/indicators/24/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN25` `/13_INDICATORS_OBSERVATIONS/indicators/24/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN25` `/13_INDICATORS_OBSERVATIONS/indicators/24/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN26` `/13_INDICATORS_OBSERVATIONS/indicators/25/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN26` `/13_INDICATORS_OBSERVATIONS/indicators/25/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN26` `/13_INDICATORS_OBSERVATIONS/indicators/25/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN27` `/13_INDICATORS_OBSERVATIONS/indicators/26/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN27` `/13_INDICATORS_OBSERVATIONS/indicators/26/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN27` `/13_INDICATORS_OBSERVATIONS/indicators/26/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN28` `/13_INDICATORS_OBSERVATIONS/indicators/27/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN28` `/13_INDICATORS_OBSERVATIONS/indicators/27/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN28` `/13_INDICATORS_OBSERVATIONS/indicators/27/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN29` `/13_INDICATORS_OBSERVATIONS/indicators/28/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN29` `/13_INDICATORS_OBSERVATIONS/indicators/28/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `IN29` `/13_INDICATORS_OBSERVATIONS/indicators/28/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB01` `/13_INDICATORS_OBSERVATIONS/observations/0/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB01` `/13_INDICATORS_OBSERVATIONS/observations/0/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB01` `/13_INDICATORS_OBSERVATIONS/observations/0/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB02` `/13_INDICATORS_OBSERVATIONS/observations/1/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB02` `/13_INDICATORS_OBSERVATIONS/observations/1/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB02` `/13_INDICATORS_OBSERVATIONS/observations/1/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB03` `/13_INDICATORS_OBSERVATIONS/observations/2/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB03` `/13_INDICATORS_OBSERVATIONS/observations/2/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB03` `/13_INDICATORS_OBSERVATIONS/observations/2/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB04` `/13_INDICATORS_OBSERVATIONS/observations/3/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB04` `/13_INDICATORS_OBSERVATIONS/observations/3/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB04` `/13_INDICATORS_OBSERVATIONS/observations/3/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB05` `/13_INDICATORS_OBSERVATIONS/observations/4/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB05` `/13_INDICATORS_OBSERVATIONS/observations/4/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB05` `/13_INDICATORS_OBSERVATIONS/observations/4/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB06` `/13_INDICATORS_OBSERVATIONS/observations/5/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB06` `/13_INDICATORS_OBSERVATIONS/observations/5/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB06` `/13_INDICATORS_OBSERVATIONS/observations/5/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB07` `/13_INDICATORS_OBSERVATIONS/observations/6/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB07` `/13_INDICATORS_OBSERVATIONS/observations/6/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB07` `/13_INDICATORS_OBSERVATIONS/observations/6/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB08` `/13_INDICATORS_OBSERVATIONS/observations/7/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB08` `/13_INDICATORS_OBSERVATIONS/observations/7/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB08` `/13_INDICATORS_OBSERVATIONS/observations/7/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB09` `/13_INDICATORS_OBSERVATIONS/observations/8/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB09` `/13_INDICATORS_OBSERVATIONS/observations/8/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB09` `/13_INDICATORS_OBSERVATIONS/observations/8/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB10` `/13_INDICATORS_OBSERVATIONS/observations/9/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB10` `/13_INDICATORS_OBSERVATIONS/observations/9/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB10` `/13_INDICATORS_OBSERVATIONS/observations/9/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB11` `/13_INDICATORS_OBSERVATIONS/observations/10/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB11` `/13_INDICATORS_OBSERVATIONS/observations/10/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB11` `/13_INDICATORS_OBSERVATIONS/observations/10/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB12` `/13_INDICATORS_OBSERVATIONS/observations/11/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB12` `/13_INDICATORS_OBSERVATIONS/observations/11/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB12` `/13_INDICATORS_OBSERVATIONS/observations/11/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB13` `/13_INDICATORS_OBSERVATIONS/observations/12/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB13` `/13_INDICATORS_OBSERVATIONS/observations/12/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB13` `/13_INDICATORS_OBSERVATIONS/observations/12/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB14` `/13_INDICATORS_OBSERVATIONS/observations/13/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB14` `/13_INDICATORS_OBSERVATIONS/observations/13/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB14` `/13_INDICATORS_OBSERVATIONS/observations/13/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB15` `/13_INDICATORS_OBSERVATIONS/observations/14/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB15` `/13_INDICATORS_OBSERVATIONS/observations/14/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB15` `/13_INDICATORS_OBSERVATIONS/observations/14/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB16` `/13_INDICATORS_OBSERVATIONS/observations/15/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB16` `/13_INDICATORS_OBSERVATIONS/observations/15/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB16` `/13_INDICATORS_OBSERVATIONS/observations/15/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB17` `/13_INDICATORS_OBSERVATIONS/observations/16/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB17` `/13_INDICATORS_OBSERVATIONS/observations/16/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB17` `/13_INDICATORS_OBSERVATIONS/observations/16/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB18` `/13_INDICATORS_OBSERVATIONS/observations/17/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB18` `/13_INDICATORS_OBSERVATIONS/observations/17/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB18` `/13_INDICATORS_OBSERVATIONS/observations/17/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB19` `/13_INDICATORS_OBSERVATIONS/observations/18/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB19` `/13_INDICATORS_OBSERVATIONS/observations/18/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB19` `/13_INDICATORS_OBSERVATIONS/observations/18/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB20` `/13_INDICATORS_OBSERVATIONS/observations/19/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB20` `/13_INDICATORS_OBSERVATIONS/observations/19/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB20` `/13_INDICATORS_OBSERVATIONS/observations/19/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB21` `/13_INDICATORS_OBSERVATIONS/observations/20/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB21` `/13_INDICATORS_OBSERVATIONS/observations/20/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB21` `/13_INDICATORS_OBSERVATIONS/observations/20/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB22` `/13_INDICATORS_OBSERVATIONS/observations/21/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB22` `/13_INDICATORS_OBSERVATIONS/observations/21/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB22` `/13_INDICATORS_OBSERVATIONS/observations/21/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB23` `/13_INDICATORS_OBSERVATIONS/observations/22/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB23` `/13_INDICATORS_OBSERVATIONS/observations/22/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB23` `/13_INDICATORS_OBSERVATIONS/observations/22/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB24` `/13_INDICATORS_OBSERVATIONS/observations/23/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB24` `/13_INDICATORS_OBSERVATIONS/observations/23/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB24` `/13_INDICATORS_OBSERVATIONS/observations/23/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB25` `/13_INDICATORS_OBSERVATIONS/observations/24/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB25` `/13_INDICATORS_OBSERVATIONS/observations/24/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB25` `/13_INDICATORS_OBSERVATIONS/observations/24/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB26` `/13_INDICATORS_OBSERVATIONS/observations/25/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB26` `/13_INDICATORS_OBSERVATIONS/observations/25/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB26` `/13_INDICATORS_OBSERVATIONS/observations/25/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB27` `/13_INDICATORS_OBSERVATIONS/observations/26/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB27` `/13_INDICATORS_OBSERVATIONS/observations/26/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB27` `/13_INDICATORS_OBSERVATIONS/observations/26/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB28` `/13_INDICATORS_OBSERVATIONS/observations/27/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB28` `/13_INDICATORS_OBSERVATIONS/observations/27/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB28` `/13_INDICATORS_OBSERVATIONS/observations/27/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB29` `/13_INDICATORS_OBSERVATIONS/observations/28/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB29` `/13_INDICATORS_OBSERVATIONS/observations/28/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB29` `/13_INDICATORS_OBSERVATIONS/observations/28/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB30` `/13_INDICATORS_OBSERVATIONS/observations/29/comparison_basis` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB30` `/13_INDICATORS_OBSERVATIONS/observations/29/recognition_stage` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `OB30` `/13_INDICATORS_OBSERVATIONS/observations/29/semantic_role` — MA.1 canonical comparison/role/stage; retain raw values, unknown instead of semantic inference.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/derivation_validity_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/verification_scope` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA01` `/17_NARRATIVE_ASSESSMENTS/0/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA02` `/17_NARRATIVE_ASSESSMENTS/1/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA03` `/17_NARRATIVE_ASSESSMENTS/2/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/analysis_context` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/annotation_observer` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/assessment_kind` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/detail` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/reasoner_id` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/resolution_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `NA04` `/17_NARRATIVE_ASSESSMENTS/3/verification_status` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `AR01` `/18_ARGUMENTS/0/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR01` `/18_ARGUMENTS/0/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR01` `/18_ARGUMENTS/0/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/distance_counting_rule` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/expression_levels` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/inference_modes` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `ME01` `/19_MECHANISMS/0/analysis_context` — Existing usage only; no new mechanism or inferred attribution.
+- `ME01` `/19_MECHANISMS/0/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `ME01` `/19_MECHANISMS/0/reasoner_id` — Existing usage only; no new mechanism or inferred attribution.
+- `ME02` `/19_MECHANISMS/1/analysis_context` — Existing usage only; no new mechanism or inferred attribution.
+- `ME02` `/19_MECHANISMS/1/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `ME02` `/19_MECHANISMS/1/reasoner_id` — Existing usage only; no new mechanism or inferred attribution.
+- `ME03` `/19_MECHANISMS/2/analysis_context` — Existing usage only; no new mechanism or inferred attribution.
+- `ME03` `/19_MECHANISMS/2/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `ME03` `/19_MECHANISMS/2/reasoner_id` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/confidence` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/domain_scope` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/first_observed_at` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/observed_count` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/source_refs` — Existing usage only; no new mechanism or inferred attribution.
+- `MU01` `/20_MECHANISM_USAGE/0/usage_context` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/confidence` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/domain_scope` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/first_observed_at` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/observed_count` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/source_refs` — Existing usage only; no new mechanism or inferred attribution.
+- `MU02` `/20_MECHANISM_USAGE/1/usage_context` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/annotation_observer` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/confidence` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/domain_scope` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/first_observed_at` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/observed_count` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/source_refs` — Existing usage only; no new mechanism or inferred attribution.
+- `MU03` `/20_MECHANISM_USAGE/2/usage_context` — Existing usage only; no new mechanism or inferred attribution.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/assessment_confidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/failure_assessment` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/failure_type` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/observed_action` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/observed_reasoner_id` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/matched_scope` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/method_evidence_step_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/recurrence_evidence` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/recurrence_match` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `GS004` `/auxiliary/method_recurrence/0/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/0/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/0/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/evidence_use` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/evidence_use` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/matched_scope` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/recurrence_evidence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/recurrence_match` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/ma1_migration` — Future evidence quarantine, reviews and auditable migration metadata.
+
+## changed_values
+
+- `AR01` `/18_ARGUMENTS/0/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `GS004` `/auxiliary/method_recurrence/0/prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+
+## normalized_enums
+
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `GS004` `/auxiliary/method_recurrence/0/status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/status` — Future evidence quarantine, reviews and auditable migration metadata.
+
+## legacy_fields_preserved
+
+- `VA-C001` `/16_VERACITY_ASSESSMENTS/0/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C002` `/16_VERACITY_ASSESSMENTS/1/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C003` `/16_VERACITY_ASSESSMENTS/2/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C004` `/16_VERACITY_ASSESSMENTS/3/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C005` `/16_VERACITY_ASSESSMENTS/4/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C006` `/16_VERACITY_ASSESSMENTS/5/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C007` `/16_VERACITY_ASSESSMENTS/6/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C008` `/16_VERACITY_ASSESSMENTS/7/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C009` `/16_VERACITY_ASSESSMENTS/8/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C010` `/16_VERACITY_ASSESSMENTS/9/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C011` `/16_VERACITY_ASSESSMENTS/10/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C012` `/16_VERACITY_ASSESSMENTS/11/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C013` `/16_VERACITY_ASSESSMENTS/12/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C014` `/16_VERACITY_ASSESSMENTS/13/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C015` `/16_VERACITY_ASSESSMENTS/14/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C016` `/16_VERACITY_ASSESSMENTS/15/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C017` `/16_VERACITY_ASSESSMENTS/16/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C018` `/16_VERACITY_ASSESSMENTS/17/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C019` `/16_VERACITY_ASSESSMENTS/18/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C020` `/16_VERACITY_ASSESSMENTS/19/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C021` `/16_VERACITY_ASSESSMENTS/20/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C022` `/16_VERACITY_ASSESSMENTS/21/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C023` `/16_VERACITY_ASSESSMENTS/22/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C024` `/16_VERACITY_ASSESSMENTS/23/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C025` `/16_VERACITY_ASSESSMENTS/24/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C026` `/16_VERACITY_ASSESSMENTS/25/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C027` `/16_VERACITY_ASSESSMENTS/26/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C028` `/16_VERACITY_ASSESSMENTS/27/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C029` `/16_VERACITY_ASSESSMENTS/28/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C030` `/16_VERACITY_ASSESSMENTS/29/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C031` `/16_VERACITY_ASSESSMENTS/30/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C032` `/16_VERACITY_ASSESSMENTS/31/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C033` `/16_VERACITY_ASSESSMENTS/32/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C034` `/16_VERACITY_ASSESSMENTS/33/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C035` `/16_VERACITY_ASSESSMENTS/34/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C036` `/16_VERACITY_ASSESSMENTS/35/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C037` `/16_VERACITY_ASSESSMENTS/36/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C038` `/16_VERACITY_ASSESSMENTS/37/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C039` `/16_VERACITY_ASSESSMENTS/38/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C040` `/16_VERACITY_ASSESSMENTS/39/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C041` `/16_VERACITY_ASSESSMENTS/40/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C042` `/16_VERACITY_ASSESSMENTS/41/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C043` `/16_VERACITY_ASSESSMENTS/42/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C044` `/16_VERACITY_ASSESSMENTS/43/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C045` `/16_VERACITY_ASSESSMENTS/44/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C046` `/16_VERACITY_ASSESSMENTS/45/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C047` `/16_VERACITY_ASSESSMENTS/46/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C048` `/16_VERACITY_ASSESSMENTS/47/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C049` `/16_VERACITY_ASSESSMENTS/48/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C050` `/16_VERACITY_ASSESSMENTS/49/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C051` `/16_VERACITY_ASSESSMENTS/50/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C052` `/16_VERACITY_ASSESSMENTS/51/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C053` `/16_VERACITY_ASSESSMENTS/52/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C054` `/16_VERACITY_ASSESSMENTS/53/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C055` `/16_VERACITY_ASSESSMENTS/54/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C056` `/16_VERACITY_ASSESSMENTS/55/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C057` `/16_VERACITY_ASSESSMENTS/56/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C058` `/16_VERACITY_ASSESSMENTS/57/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C059` `/16_VERACITY_ASSESSMENTS/58/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C060` `/16_VERACITY_ASSESSMENTS/59/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C061` `/16_VERACITY_ASSESSMENTS/60/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C062` `/16_VERACITY_ASSESSMENTS/61/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C063` `/16_VERACITY_ASSESSMENTS/62/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C064` `/16_VERACITY_ASSESSMENTS/63/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C065` `/16_VERACITY_ASSESSMENTS/64/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C066` `/16_VERACITY_ASSESSMENTS/65/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C067` `/16_VERACITY_ASSESSMENTS/66/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C068` `/16_VERACITY_ASSESSMENTS/67/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C069` `/16_VERACITY_ASSESSMENTS/68/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C070` `/16_VERACITY_ASSESSMENTS/69/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C071` `/16_VERACITY_ASSESSMENTS/70/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C072` `/16_VERACITY_ASSESSMENTS/71/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C073` `/16_VERACITY_ASSESSMENTS/72/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C074` `/16_VERACITY_ASSESSMENTS/73/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C075` `/16_VERACITY_ASSESSMENTS/74/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C076` `/16_VERACITY_ASSESSMENTS/75/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C077` `/16_VERACITY_ASSESSMENTS/76/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C078` `/16_VERACITY_ASSESSMENTS/77/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C079` `/16_VERACITY_ASSESSMENTS/78/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C080` `/16_VERACITY_ASSESSMENTS/79/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C081` `/16_VERACITY_ASSESSMENTS/80/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C082` `/16_VERACITY_ASSESSMENTS/81/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C083` `/16_VERACITY_ASSESSMENTS/82/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C084` `/16_VERACITY_ASSESSMENTS/83/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C085` `/16_VERACITY_ASSESSMENTS/84/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C086` `/16_VERACITY_ASSESSMENTS/85/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C087` `/16_VERACITY_ASSESSMENTS/86/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C088` `/16_VERACITY_ASSESSMENTS/87/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C089` `/16_VERACITY_ASSESSMENTS/88/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C090` `/16_VERACITY_ASSESSMENTS/89/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C091` `/16_VERACITY_ASSESSMENTS/90/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C092` `/16_VERACITY_ASSESSMENTS/91/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C093` `/16_VERACITY_ASSESSMENTS/92/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C094` `/16_VERACITY_ASSESSMENTS/93/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C095` `/16_VERACITY_ASSESSMENTS/94/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C096` `/16_VERACITY_ASSESSMENTS/95/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C097` `/16_VERACITY_ASSESSMENTS/96/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C098` `/16_VERACITY_ASSESSMENTS/97/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C099` `/16_VERACITY_ASSESSMENTS/98/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C100` `/16_VERACITY_ASSESSMENTS/99/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C101` `/16_VERACITY_ASSESSMENTS/100/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C102` `/16_VERACITY_ASSESSMENTS/101/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C103` `/16_VERACITY_ASSESSMENTS/102/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C104` `/16_VERACITY_ASSESSMENTS/103/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C105` `/16_VERACITY_ASSESSMENTS/104/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C106` `/16_VERACITY_ASSESSMENTS/105/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C107` `/16_VERACITY_ASSESSMENTS/106/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C108` `/16_VERACITY_ASSESSMENTS/107/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C109` `/16_VERACITY_ASSESSMENTS/108/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C110` `/16_VERACITY_ASSESSMENTS/109/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C111` `/16_VERACITY_ASSESSMENTS/110/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-C112` `/16_VERACITY_ASSESSMENTS/111/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X01` `/16_VERACITY_ASSESSMENTS/112/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X02` `/16_VERACITY_ASSESSMENTS/113/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X03` `/16_VERACITY_ASSESSMENTS/114/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X04` `/16_VERACITY_ASSESSMENTS/115/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X05` `/16_VERACITY_ASSESSMENTS/116/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X06` `/16_VERACITY_ASSESSMENTS/117/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X07` `/16_VERACITY_ASSESSMENTS/118/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X08` `/16_VERACITY_ASSESSMENTS/119/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X09` `/16_VERACITY_ASSESSMENTS/120/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X10` `/16_VERACITY_ASSESSMENTS/121/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-X11` `/16_VERACITY_ASSESSMENTS/122/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M01` `/16_VERACITY_ASSESSMENTS/123/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M02` `/16_VERACITY_ASSESSMENTS/124/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M03` `/16_VERACITY_ASSESSMENTS/125/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M04` `/16_VERACITY_ASSESSMENTS/126/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M05` `/16_VERACITY_ASSESSMENTS/127/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M06` `/16_VERACITY_ASSESSMENTS/128/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M07` `/16_VERACITY_ASSESSMENTS/129/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `VA-M08` `/16_VERACITY_ASSESSMENTS/130/legacy_veracity` — Separate assessment kind/scope, verification and resolution; no truth promotion.
+- `AR01` `/18_ARGUMENTS/0/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR01` `/18_ARGUMENTS/0/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR02` `/18_ARGUMENTS/1/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR03` `/18_ARGUMENTS/2/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR04` `/18_ARGUMENTS/3/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR05` `/18_ARGUMENTS/4/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR06` `/18_ARGUMENTS/5/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR07` `/18_ARGUMENTS/6/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR08` `/18_ARGUMENTS/7/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR09` `/18_ARGUMENTS/8/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR10` `/18_ARGUMENTS/9/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR11` `/18_ARGUMENTS/10/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `DA01` `/18_ARGUMENTS/11/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR12` `/18_ARGUMENTS/12/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR13` `/18_ARGUMENTS/13/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR14` `/18_ARGUMENTS/14/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR15` `/18_ARGUMENTS/15/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/legacy_inferential_distance` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `AR16` `/18_ARGUMENTS/16/legacy_most_fragile_step` — Copy existing step metadata, map fragile step IDs, recompute distance without changing edges.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS05` `/26_ANALYST_METHOD_SIGNALS/analogy_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS01` `/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS08` `/26_ANALYST_METHOD_SIGNALS/branching_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS06` `/26_ANALYST_METHOD_SIGNALS/failure_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS04` `/26_ANALYST_METHOD_SIGNALS/judgment_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS03` `/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS02` `/26_ANALYST_METHOD_SIGNALS/question_patterns/0/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/legacy_matched_prior_signal_refs` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/legacy_promotion_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `MS07` `/26_ANALYST_METHOD_SIGNALS/question_patterns/1/legacy_recurrence_status` — Separate recurrence precision/frequency and failure observer; preserve old states.
+- `GS004` `/auxiliary/legacy_method_recurrence` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/0/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/0/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/1/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/auxiliary/method_recurrence/2/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/0/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/1/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/legacy_prior_refs` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/J 复现性/2/legacy_status` — Future evidence quarantine, reviews and auditable migration metadata.
+- `GS004` `/final_questions/legacy_J_recurrence` — Future evidence quarantine, reviews and auditable migration metadata.
+
+## manual_review_required
+
+- MA1-COMPARISON-OB01 / OB01,C003 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB02 / OB02,C004 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB03 / OB03,C005 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB04 / OB04,C006 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB05 / OB05,C007 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB06 / OB06,C008 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB07 / OB07,C009 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB08 / OB08,C010 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB09 / OB09,C016 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB10 / OB10,C017 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB11 / OB11,C019 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB12 / OB12,C109 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB13 / OB13,C020 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB14 / OB14,C022 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB15 / OB15,C023 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB16 / OB16,C028 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB17 / OB17,C039 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB18 / OB18,C041 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB19 / OB19,C042 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB20 / OB20,C043 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=True
+- MA1-COMPARISON-OB21 / OB21,C044 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB22 / OB22,C045 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB23 / OB23,C046 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB24 / OB24,C047 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB25 / OB25,C049 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB26 / OB26,C053 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB27 / OB27,C075 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB28 / OB28,C089 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB29 / OB29,C090 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-COMPARISON-OB30 / OB30,C091 — 原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。 blocking=False
+- MA1-ROLE-AR01 / AR01 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR02 / AR02 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR03 / AR03 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR04 / AR04 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR05 / AR05 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR06 / AR06 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR07 / AR07 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR08 / AR08 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR09 / AR09 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR10 / AR10 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR11 / AR11 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-DA01 / DA01 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR12 / AR12 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR13 / AR13 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR14 / AR14 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR15 / AR15 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-ROLE-AR16 / AR16 — Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。 blocking=True
+- MA1-RECURRENCE-MS01 / MS01 — 旧repeated只给一般执行约束/摘要相似性，暂归uncertain；补具体变量和步骤后由人工定匹配精度。 blocking=True
+- MA1-FUTURE-LEAK-MS02 / MS02 — 旧候选B使用GS002/HC01，GS002内容日期2026-09-21晚于GS004的2026-08-05。仅保留Legacy，不作历史prior；人工确认样本序号与内容时间边界。 blocking=True
+- MA1-ATTRIBUTION-ME01 / ME01 — 共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。 blocking=True
+- MA1-ATTRIBUTION-ME02 / ME02 — 共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。 blocking=True
+- MA1-ATTRIBUTION-ME03 / ME03 — 共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。 blocking=True
+
+## future_sample_leakage_checks
+
+GS005/GS006+ prior: none. Existing GS002/HC01 is chronologically later; removed from active prior_refs and preserved in legacy + MA1-FUTURE-LEAK-MS02. GS001 summary-only remains uncertain.
+
+## untouched_objects
+
+- `S01` `/02_SOURCES/0` — not in migration scope; content/provenance unchanged.
+- `S02` `/02_SOURCES/1` — not in migration scope; content/provenance unchanged.
+- `S03` `/02_SOURCES/2` — not in migration scope; content/provenance unchanged.
+- `S04` `/02_SOURCES/3` — not in migration scope; content/provenance unchanged.
+- `S05` `/02_SOURCES/4` — not in migration scope; content/provenance unchanged.
+- `S06` `/02_SOURCES/5` — not in migration scope; content/provenance unchanged.
+- `S07` `/02_SOURCES/6` — not in migration scope; content/provenance unchanged.
+- `S08` `/02_SOURCES/7` — not in migration scope; content/provenance unchanged.
+- `S09` `/02_SOURCES/8` — not in migration scope; content/provenance unchanged.
+- `S10` `/02_SOURCES/9` — not in migration scope; content/provenance unchanged.
+- `S11` `/02_SOURCES/10` — not in migration scope; content/provenance unchanged.
+- `S12` `/02_SOURCES/11` — not in migration scope; content/provenance unchanged.
+- `S13` `/02_SOURCES/12` — not in migration scope; content/provenance unchanged.
+- `S14` `/02_SOURCES/13` — not in migration scope; content/provenance unchanged.
+- `S15` `/02_SOURCES/14` — not in migration scope; content/provenance unchanged.
+- `S16` `/02_SOURCES/15` — not in migration scope; content/provenance unchanged.
+- `S17` `/02_SOURCES/16` — not in migration scope; content/provenance unchanged.
+- `V-S01` `/03_SOURCE_VERSIONS/0` — not in migration scope; content/provenance unchanged.
+- `V-S02` `/03_SOURCE_VERSIONS/1` — not in migration scope; content/provenance unchanged.
+- `V-S03` `/03_SOURCE_VERSIONS/2` — not in migration scope; content/provenance unchanged.
+- `V-S04` `/03_SOURCE_VERSIONS/3` — not in migration scope; content/provenance unchanged.
+- `V-S05` `/03_SOURCE_VERSIONS/4` — not in migration scope; content/provenance unchanged.
+- `V-S06` `/03_SOURCE_VERSIONS/5` — not in migration scope; content/provenance unchanged.
+- `V-S07` `/03_SOURCE_VERSIONS/6` — not in migration scope; content/provenance unchanged.
+- `V-S08` `/03_SOURCE_VERSIONS/7` — not in migration scope; content/provenance unchanged.
+- `V-S09` `/03_SOURCE_VERSIONS/8` — not in migration scope; content/provenance unchanged.
+- `V-S10` `/03_SOURCE_VERSIONS/9` — not in migration scope; content/provenance unchanged.
+- `V-S11` `/03_SOURCE_VERSIONS/10` — not in migration scope; content/provenance unchanged.
+- `V-S12` `/03_SOURCE_VERSIONS/11` — not in migration scope; content/provenance unchanged.
+- `V-S13` `/03_SOURCE_VERSIONS/12` — not in migration scope; content/provenance unchanged.
+- `V-S14` `/03_SOURCE_VERSIONS/13` — not in migration scope; content/provenance unchanged.
+- `V-S15` `/03_SOURCE_VERSIONS/14` — not in migration scope; content/provenance unchanged.
+- `V-S16` `/03_SOURCE_VERSIONS/15` — not in migration scope; content/provenance unchanged.
+- `V-S17` `/03_SOURCE_VERSIONS/16` — not in migration scope; content/provenance unchanged.
+- `F9527` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/0` — not in migration scope; content/provenance unchanged.
+- `FCLS_A` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/1` — not in migration scope; content/provenance unchanged.
+- `FAMZN` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/2` — not in migration scope; content/provenance unchanged.
+- `FMSFT` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/3` — not in migration scope; content/provenance unchanged.
+- `FGOOG` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/4` — not in migration scope; content/provenance unchanged.
+- `FBROKER` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/5` — not in migration scope; content/provenance unchanged.
+- `FMARKET_UNKNOWN` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/6` — not in migration scope; content/provenance unchanged.
+- `FCLS_B` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/7` — not in migration scope; content/provenance unchanged.
+- `FAA` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/8` — not in migration scope; content/provenance unchanged.
+- `FDEEPSEEK` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/9` — not in migration scope; content/provenance unchanged.
+- `FWSCN` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/10` — not in migration scope; content/provenance unchanged.
+- `FTHEINFORMATION` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/11` — not in migration scope; content/provenance unchanged.
+- `FSTATE_POLICY_UNRESOLVED` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/12` — not in migration scope; content/provenance unchanged.
+- `FCLS_D` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/13` — not in migration scope; content/provenance unchanged.
+- `FBOND_DATA_UNKNOWN` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/14` — not in migration scope; content/provenance unchanged.
+- `FQIUSHI` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/15` — not in migration scope; content/provenance unchanged.
+- `FPROMPT` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/16` — not in migration scope; content/provenance unchanged.
+- `FREGISTRY_GS001` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/17` — not in migration scope; content/provenance unchanged.
+- `FREGISTRY_GS002` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/18` — not in migration scope; content/provenance unchanged.
+- `FREGISTRY_GS003` `/04_SOURCE_FAMILIES_ORIGIN_FAMILIES/19` — not in migration scope; content/provenance unchanged.
+- `TC01` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/0` — not in migration scope; content/provenance unchanged.
+- `TC02` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/1` — not in migration scope; content/provenance unchanged.
+- `TC03` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/2` — not in migration scope; content/provenance unchanged.
+- `TC04` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/3` — not in migration scope; content/provenance unchanged.
+- `TC05` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/4` — not in migration scope; content/provenance unchanged.
+- `TC06` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/5` — not in migration scope; content/provenance unchanged.
+- `TC07` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/6` — not in migration scope; content/provenance unchanged.
+- `TC08` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/7` — not in migration scope; content/provenance unchanged.
+- `TC09` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/8` — not in migration scope; content/provenance unchanged.
+- `TC10` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/9` — not in migration scope; content/provenance unchanged.
+- `TC11` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/10` — not in migration scope; content/provenance unchanged.
+- `TC12` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/11` — not in migration scope; content/provenance unchanged.
+- `TC13` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/12` — not in migration scope; content/provenance unchanged.
+- `TC14` `/05_TRANSCRIPT_CORRECTIONS/candidate_corrections/13` — not in migration scope; content/provenance unchanged.
+- `AN01` `/06_SOURCE_SEGMENT_ANNOTATIONS/0` — not in migration scope; content/provenance unchanged.
+- `AN02` `/06_SOURCE_SEGMENT_ANNOTATIONS/1` — not in migration scope; content/provenance unchanged.
+- `AN03` `/06_SOURCE_SEGMENT_ANNOTATIONS/2` — not in migration scope; content/provenance unchanged.
+- `AN04` `/06_SOURCE_SEGMENT_ANNOTATIONS/3` — not in migration scope; content/provenance unchanged.
+- `AN05` `/06_SOURCE_SEGMENT_ANNOTATIONS/4` — not in migration scope; content/provenance unchanged.
+- `AN06` `/06_SOURCE_SEGMENT_ANNOTATIONS/5` — not in migration scope; content/provenance unchanged.
+- `AN07` `/06_SOURCE_SEGMENT_ANNOTATIONS/6` — not in migration scope; content/provenance unchanged.
+- `AN08` `/06_SOURCE_SEGMENT_ANNOTATIONS/7` — not in migration scope; content/provenance unchanged.
+- `SEG01` `/07_SEMANTIC_SEGMENTS/0` — not in migration scope; content/provenance unchanged.
+- `SEG02` `/07_SEMANTIC_SEGMENTS/1` — not in migration scope; content/provenance unchanged.
+- `SEG03` `/07_SEMANTIC_SEGMENTS/2` — not in migration scope; content/provenance unchanged.
+- `SEG04` `/07_SEMANTIC_SEGMENTS/3` — not in migration scope; content/provenance unchanged.
+- `SEG05` `/07_SEMANTIC_SEGMENTS/4` — not in migration scope; content/provenance unchanged.
+- `SEG06` `/07_SEMANTIC_SEGMENTS/5` — not in migration scope; content/provenance unchanged.
+- `SEG07` `/07_SEMANTIC_SEGMENTS/6` — not in migration scope; content/provenance unchanged.
+- `SEG08` `/07_SEMANTIC_SEGMENTS/7` — not in migration scope; content/provenance unchanged.
+- `SEG09` `/07_SEMANTIC_SEGMENTS/8` — not in migration scope; content/provenance unchanged.
+- `SEG10` `/07_SEMANTIC_SEGMENTS/9` — not in migration scope; content/provenance unchanged.
+- `SEG11` `/07_SEMANTIC_SEGMENTS/10` — not in migration scope; content/provenance unchanged.
+- `SEG12` `/07_SEMANTIC_SEGMENTS/11` — not in migration scope; content/provenance unchanged.
+- `SEG13` `/07_SEMANTIC_SEGMENTS/12` — not in migration scope; content/provenance unchanged.
+- `SEG14` `/07_SEMANTIC_SEGMENTS/13` — not in migration scope; content/provenance unchanged.
+- `SEG15` `/07_SEMANTIC_SEGMENTS/14` — not in migration scope; content/provenance unchanged.
+- `SEG16` `/07_SEMANTIC_SEGMENTS/15` — not in migration scope; content/provenance unchanged.
+- `SEG17` `/07_SEMANTIC_SEGMENTS/16` — not in migration scope; content/provenance unchanged.
+- `SEG18` `/07_SEMANTIC_SEGMENTS/17` — not in migration scope; content/provenance unchanged.
+- `SEG19` `/07_SEMANTIC_SEGMENTS/18` — not in migration scope; content/provenance unchanged.
+- `OC001` `/09_CLAIM_OCCURRENCES/0` — not in migration scope; content/provenance unchanged.
+- `OC002` `/09_CLAIM_OCCURRENCES/1` — not in migration scope; content/provenance unchanged.
+- `OC003` `/09_CLAIM_OCCURRENCES/2` — not in migration scope; content/provenance unchanged.
+- `OC004` `/09_CLAIM_OCCURRENCES/3` — not in migration scope; content/provenance unchanged.
+- `OC005` `/09_CLAIM_OCCURRENCES/4` — not in migration scope; content/provenance unchanged.
+- `OC006` `/09_CLAIM_OCCURRENCES/5` — not in migration scope; content/provenance unchanged.
+- `OC007` `/09_CLAIM_OCCURRENCES/6` — not in migration scope; content/provenance unchanged.
+- `OC008` `/09_CLAIM_OCCURRENCES/7` — not in migration scope; content/provenance unchanged.
+- `OC009` `/09_CLAIM_OCCURRENCES/8` — not in migration scope; content/provenance unchanged.
+- `OC010` `/09_CLAIM_OCCURRENCES/9` — not in migration scope; content/provenance unchanged.
+- `OC011` `/09_CLAIM_OCCURRENCES/10` — not in migration scope; content/provenance unchanged.
+- `OC012` `/09_CLAIM_OCCURRENCES/11` — not in migration scope; content/provenance unchanged.
+- `OC013` `/09_CLAIM_OCCURRENCES/12` — not in migration scope; content/provenance unchanged.
+- `OC014` `/09_CLAIM_OCCURRENCES/13` — not in migration scope; content/provenance unchanged.
+- `OC015` `/09_CLAIM_OCCURRENCES/14` — not in migration scope; content/provenance unchanged.
+- `OC016` `/09_CLAIM_OCCURRENCES/15` — not in migration scope; content/provenance unchanged.
+- `OC017` `/09_CLAIM_OCCURRENCES/16` — not in migration scope; content/provenance unchanged.
+- `OC018` `/09_CLAIM_OCCURRENCES/17` — not in migration scope; content/provenance unchanged.
+- `OC019` `/09_CLAIM_OCCURRENCES/18` — not in migration scope; content/provenance unchanged.
+- `OC020` `/09_CLAIM_OCCURRENCES/19` — not in migration scope; content/provenance unchanged.
+- `OC021` `/09_CLAIM_OCCURRENCES/20` — not in migration scope; content/provenance unchanged.
+- `OC022` `/09_CLAIM_OCCURRENCES/21` — not in migration scope; content/provenance unchanged.
+- `OC023` `/09_CLAIM_OCCURRENCES/22` — not in migration scope; content/provenance unchanged.
+- `OC024` `/09_CLAIM_OCCURRENCES/23` — not in migration scope; content/provenance unchanged.
+- `OC025` `/09_CLAIM_OCCURRENCES/24` — not in migration scope; content/provenance unchanged.
+- `OC026` `/09_CLAIM_OCCURRENCES/25` — not in migration scope; content/provenance unchanged.
+- `OC027` `/09_CLAIM_OCCURRENCES/26` — not in migration scope; content/provenance unchanged.
+- `OC028` `/09_CLAIM_OCCURRENCES/27` — not in migration scope; content/provenance unchanged.
+- `OC029` `/09_CLAIM_OCCURRENCES/28` — not in migration scope; content/provenance unchanged.
+- `OC030` `/09_CLAIM_OCCURRENCES/29` — not in migration scope; content/provenance unchanged.
+- `OC031` `/09_CLAIM_OCCURRENCES/30` — not in migration scope; content/provenance unchanged.
+- `OC032` `/09_CLAIM_OCCURRENCES/31` — not in migration scope; content/provenance unchanged.
+- `OC033` `/09_CLAIM_OCCURRENCES/32` — not in migration scope; content/provenance unchanged.
+- `OC034` `/09_CLAIM_OCCURRENCES/33` — not in migration scope; content/provenance unchanged.
+- `OC035` `/09_CLAIM_OCCURRENCES/34` — not in migration scope; content/provenance unchanged.
+- `OC036` `/09_CLAIM_OCCURRENCES/35` — not in migration scope; content/provenance unchanged.
+- `OC037` `/09_CLAIM_OCCURRENCES/36` — not in migration scope; content/provenance unchanged.
+- `OC038` `/09_CLAIM_OCCURRENCES/37` — not in migration scope; content/provenance unchanged.
+- `OC039` `/09_CLAIM_OCCURRENCES/38` — not in migration scope; content/provenance unchanged.
+- `OC040` `/09_CLAIM_OCCURRENCES/39` — not in migration scope; content/provenance unchanged.
+- `OC041` `/09_CLAIM_OCCURRENCES/40` — not in migration scope; content/provenance unchanged.
+- `OC042` `/09_CLAIM_OCCURRENCES/41` — not in migration scope; content/provenance unchanged.
+- `OC043` `/09_CLAIM_OCCURRENCES/42` — not in migration scope; content/provenance unchanged.
+- `OC044` `/09_CLAIM_OCCURRENCES/43` — not in migration scope; content/provenance unchanged.
+- `OC045` `/09_CLAIM_OCCURRENCES/44` — not in migration scope; content/provenance unchanged.
+- `OC046` `/09_CLAIM_OCCURRENCES/45` — not in migration scope; content/provenance unchanged.
+- `OC047` `/09_CLAIM_OCCURRENCES/46` — not in migration scope; content/provenance unchanged.
+- `OC048` `/09_CLAIM_OCCURRENCES/47` — not in migration scope; content/provenance unchanged.
+- `OC049` `/09_CLAIM_OCCURRENCES/48` — not in migration scope; content/provenance unchanged.
+- `OC050` `/09_CLAIM_OCCURRENCES/49` — not in migration scope; content/provenance unchanged.
+- `OC051` `/09_CLAIM_OCCURRENCES/50` — not in migration scope; content/provenance unchanged.
+- `OC052` `/09_CLAIM_OCCURRENCES/51` — not in migration scope; content/provenance unchanged.
+- `OC053` `/09_CLAIM_OCCURRENCES/52` — not in migration scope; content/provenance unchanged.
+- `OC054` `/09_CLAIM_OCCURRENCES/53` — not in migration scope; content/provenance unchanged.
+- `OC055` `/09_CLAIM_OCCURRENCES/54` — not in migration scope; content/provenance unchanged.
+- `OC056` `/09_CLAIM_OCCURRENCES/55` — not in migration scope; content/provenance unchanged.
+- `OC057` `/09_CLAIM_OCCURRENCES/56` — not in migration scope; content/provenance unchanged.
+- `OC058` `/09_CLAIM_OCCURRENCES/57` — not in migration scope; content/provenance unchanged.
+- `OC059` `/09_CLAIM_OCCURRENCES/58` — not in migration scope; content/provenance unchanged.
+- `OC060` `/09_CLAIM_OCCURRENCES/59` — not in migration scope; content/provenance unchanged.
+- `OC061` `/09_CLAIM_OCCURRENCES/60` — not in migration scope; content/provenance unchanged.
+- `OC062` `/09_CLAIM_OCCURRENCES/61` — not in migration scope; content/provenance unchanged.
+- `OC063` `/09_CLAIM_OCCURRENCES/62` — not in migration scope; content/provenance unchanged.
+- `OC064` `/09_CLAIM_OCCURRENCES/63` — not in migration scope; content/provenance unchanged.
+- `OC065` `/09_CLAIM_OCCURRENCES/64` — not in migration scope; content/provenance unchanged.
+- `OC066` `/09_CLAIM_OCCURRENCES/65` — not in migration scope; content/provenance unchanged.
+- `OC067` `/09_CLAIM_OCCURRENCES/66` — not in migration scope; content/provenance unchanged.
+- `OC068` `/09_CLAIM_OCCURRENCES/67` — not in migration scope; content/provenance unchanged.
+- `OC069` `/09_CLAIM_OCCURRENCES/68` — not in migration scope; content/provenance unchanged.
+- `OC070` `/09_CLAIM_OCCURRENCES/69` — not in migration scope; content/provenance unchanged.
+- `OC071` `/09_CLAIM_OCCURRENCES/70` — not in migration scope; content/provenance unchanged.
+- `OC072` `/09_CLAIM_OCCURRENCES/71` — not in migration scope; content/provenance unchanged.
+- `OC073` `/09_CLAIM_OCCURRENCES/72` — not in migration scope; content/provenance unchanged.
+- `OC074` `/09_CLAIM_OCCURRENCES/73` — not in migration scope; content/provenance unchanged.
+- `OC075` `/09_CLAIM_OCCURRENCES/74` — not in migration scope; content/provenance unchanged.
+- `OC076` `/09_CLAIM_OCCURRENCES/75` — not in migration scope; content/provenance unchanged.
+- `OC077` `/09_CLAIM_OCCURRENCES/76` — not in migration scope; content/provenance unchanged.
+- `OC078` `/09_CLAIM_OCCURRENCES/77` — not in migration scope; content/provenance unchanged.
+- `OC079` `/09_CLAIM_OCCURRENCES/78` — not in migration scope; content/provenance unchanged.
+- `OC080` `/09_CLAIM_OCCURRENCES/79` — not in migration scope; content/provenance unchanged.
+- `OC081` `/09_CLAIM_OCCURRENCES/80` — not in migration scope; content/provenance unchanged.
+- `OC082` `/09_CLAIM_OCCURRENCES/81` — not in migration scope; content/provenance unchanged.
+- `OC083` `/09_CLAIM_OCCURRENCES/82` — not in migration scope; content/provenance unchanged.
+- `OC084` `/09_CLAIM_OCCURRENCES/83` — not in migration scope; content/provenance unchanged.
+- `OC085` `/09_CLAIM_OCCURRENCES/84` — not in migration scope; content/provenance unchanged.
+- `OC086` `/09_CLAIM_OCCURRENCES/85` — not in migration scope; content/provenance unchanged.
+- `OC087` `/09_CLAIM_OCCURRENCES/86` — not in migration scope; content/provenance unchanged.
+- `OC088` `/09_CLAIM_OCCURRENCES/87` — not in migration scope; content/provenance unchanged.
+- `OC089` `/09_CLAIM_OCCURRENCES/88` — not in migration scope; content/provenance unchanged.
+- `OC090` `/09_CLAIM_OCCURRENCES/89` — not in migration scope; content/provenance unchanged.
+- `OC091` `/09_CLAIM_OCCURRENCES/90` — not in migration scope; content/provenance unchanged.
+- `OC092` `/09_CLAIM_OCCURRENCES/91` — not in migration scope; content/provenance unchanged.
+- `OC093` `/09_CLAIM_OCCURRENCES/92` — not in migration scope; content/provenance unchanged.
+- `OC094` `/09_CLAIM_OCCURRENCES/93` — not in migration scope; content/provenance unchanged.
+- `OC095` `/09_CLAIM_OCCURRENCES/94` — not in migration scope; content/provenance unchanged.
+- `OC096` `/09_CLAIM_OCCURRENCES/95` — not in migration scope; content/provenance unchanged.
+- `OC097` `/09_CLAIM_OCCURRENCES/96` — not in migration scope; content/provenance unchanged.
+- `OC098` `/09_CLAIM_OCCURRENCES/97` — not in migration scope; content/provenance unchanged.
+- `OC099` `/09_CLAIM_OCCURRENCES/98` — not in migration scope; content/provenance unchanged.
+- `OC100` `/09_CLAIM_OCCURRENCES/99` — not in migration scope; content/provenance unchanged.
+- `OC101` `/09_CLAIM_OCCURRENCES/100` — not in migration scope; content/provenance unchanged.
+- `OC102` `/09_CLAIM_OCCURRENCES/101` — not in migration scope; content/provenance unchanged.
+- `OC103` `/09_CLAIM_OCCURRENCES/102` — not in migration scope; content/provenance unchanged.
+- `OC104` `/09_CLAIM_OCCURRENCES/103` — not in migration scope; content/provenance unchanged.
+- `OC105` `/09_CLAIM_OCCURRENCES/104` — not in migration scope; content/provenance unchanged.
+- `OC106` `/09_CLAIM_OCCURRENCES/105` — not in migration scope; content/provenance unchanged.
+- `OC107` `/09_CLAIM_OCCURRENCES/106` — not in migration scope; content/provenance unchanged.
+- `OC108` `/09_CLAIM_OCCURRENCES/107` — not in migration scope; content/provenance unchanged.
+- `OC109` `/09_CLAIM_OCCURRENCES/108` — not in migration scope; content/provenance unchanged.
+- `OC110` `/09_CLAIM_OCCURRENCES/109` — not in migration scope; content/provenance unchanged.
+- `OC111` `/09_CLAIM_OCCURRENCES/110` — not in migration scope; content/provenance unchanged.
+- `OC112` `/09_CLAIM_OCCURRENCES/111` — not in migration scope; content/provenance unchanged.
+- `OC113` `/09_CLAIM_OCCURRENCES/112` — not in migration scope; content/provenance unchanged.
+- `OC114` `/09_CLAIM_OCCURRENCES/113` — not in migration scope; content/provenance unchanged.
+- `OC115` `/09_CLAIM_OCCURRENCES/114` — not in migration scope; content/provenance unchanged.
+- `OC116` `/09_CLAIM_OCCURRENCES/115` — not in migration scope; content/provenance unchanged.
+- `OC117` `/09_CLAIM_OCCURRENCES/116` — not in migration scope; content/provenance unchanged.
+- `OC118` `/09_CLAIM_OCCURRENCES/117` — not in migration scope; content/provenance unchanged.
+- `OC119` `/09_CLAIM_OCCURRENCES/118` — not in migration scope; content/provenance unchanged.
+- `OC120` `/09_CLAIM_OCCURRENCES/119` — not in migration scope; content/provenance unchanged.
+- `OC121` `/09_CLAIM_OCCURRENCES/120` — not in migration scope; content/provenance unchanged.
+- `OC122` `/09_CLAIM_OCCURRENCES/121` — not in migration scope; content/provenance unchanged.
+- `OC123` `/09_CLAIM_OCCURRENCES/122` — not in migration scope; content/provenance unchanged.
+- `OC124` `/09_CLAIM_OCCURRENCES/123` — not in migration scope; content/provenance unchanged.
+- `OC125` `/09_CLAIM_OCCURRENCES/124` — not in migration scope; content/provenance unchanged.
+- `OC126` `/09_CLAIM_OCCURRENCES/125` — not in migration scope; content/provenance unchanged.
+- `OC127` `/09_CLAIM_OCCURRENCES/126` — not in migration scope; content/provenance unchanged.
+- `OC128` `/09_CLAIM_OCCURRENCES/127` — not in migration scope; content/provenance unchanged.
+- `OC129` `/09_CLAIM_OCCURRENCES/128` — not in migration scope; content/provenance unchanged.
+- `OC130` `/09_CLAIM_OCCURRENCES/129` — not in migration scope; content/provenance unchanged.
+- `analyst_youhegaojian9527` `/10_ACTORS/0` — not in migration scope; content/provenance unchanged.
+- `model_gpt6` `/10_ACTORS/1` — not in migration scope; content/provenance unchanged.
+- `amazon` `/10_ACTORS/2` — not in migration scope; content/provenance unchanged.
+- `andy_jassy` `/10_ACTORS/3` — not in migration scope; content/provenance unchanged.
+- `microsoft` `/10_ACTORS/4` — not in migration scope; content/provenance unchanged.
+- `alphabet` `/10_ACTORS/5` — not in migration scope; content/provenance unchanged.
+- `meta` `/10_ACTORS/6` — not in migration scope; content/provenance unchanged.
+- `oracle` `/10_ACTORS/7` — not in migration scope; content/provenance unchanged.
+- `nvidia` `/10_ACTORS/8` — not in migration scope; content/provenance unchanged.
+- `spacex` `/10_ACTORS/9` — not in migration scope; content/provenance unchanged.
+- `bezos` `/10_ACTORS/10` — not in migration scope; content/provenance unchanged.
+- `artificial_analysis` `/10_ACTORS/11` — not in migration scope; content/provenance unchanged.
+- `deepseek` `/10_ACTORS/12` — not in migration scope; content/provenance unchanged.
+- `anthropic` `/10_ACTORS/13` — not in migration scope; content/provenance unchanged.
+- `huawei` `/10_ACTORS/14` — not in migration scope; content/provenance unchanged.
+- `hima` `/10_ACTORS/15` — not in migration scope; content/provenance unchanged.
+- `yu_chengdong` `/10_ACTORS/16` — not in migration scope; content/provenance unchanged.
+- `xiaomi` `/10_ACTORS/17` — not in migration scope; content/provenance unchanged.
+- `analysts_unknown` `/10_ACTORS/18` — not in migration scope; content/provenance unchanged.
+- `commenters_unknown` `/10_ACTORS/19` — not in migration scope; content/provenance unchanged.
+- `the_information` `/10_ACTORS/20` — not in migration scope; content/provenance unchanged.
+- `wscn` `/10_ACTORS/21` — not in migration scope; content/provenance unchanged.
+- `cls_editor` `/10_ACTORS/22` — not in migration scope; content/provenance unchanged.
+- `qiushi_author` `/10_ACTORS/23` — not in migration scope; content/provenance unchanged.
+- `us_states` `/10_ACTORS/24` — not in migration scope; content/provenance unchanged.
+- `EV01` `/11_EVENTS/0` — not in migration scope; content/provenance unchanged.
+- `EV02` `/11_EVENTS/1` — not in migration scope; content/provenance unchanged.
+- `EV03` `/11_EVENTS/2` — not in migration scope; content/provenance unchanged.
+- `EV04` `/11_EVENTS/3` — not in migration scope; content/provenance unchanged.
+- `EV05` `/11_EVENTS/4` — not in migration scope; content/provenance unchanged.
+- `EV06` `/11_EVENTS/5` — not in migration scope; content/provenance unchanged.
+- `EV07` `/11_EVENTS/6` — not in migration scope; content/provenance unchanged.
+- `CAL01` `/13_INDICATORS_OBSERVATIONS/model_calculations/0` — not in migration scope; content/provenance unchanged.
+- `CAL02` `/13_INDICATORS_OBSERVATIONS/model_calculations/1` — not in migration scope; content/provenance unchanged.
+- `CAL03` `/13_INDICATORS_OBSERVATIONS/model_calculations/2` — not in migration scope; content/provenance unchanged.
+- `CAL04` `/13_INDICATORS_OBSERVATIONS/model_calculations/3` — not in migration scope; content/provenance unchanged.
+- `PO01` `/14_POLICIES/0` — not in migration scope; content/provenance unchanged.
+- `SC01` `/21_SCENARIOS/0` — not in migration scope; content/provenance unchanged.
+- `SC02` `/21_SCENARIOS/1` — not in migration scope; content/provenance unchanged.
+- `SC03` `/21_SCENARIOS/2` — not in migration scope; content/provenance unchanged.
+- `SC04` `/21_SCENARIOS/3` — not in migration scope; content/provenance unchanged.
+- `SC05` `/21_SCENARIOS/4` — not in migration scope; content/provenance unchanged.
+- `SC06` `/21_SCENARIOS/5` — not in migration scope; content/provenance unchanged.
+- `SC07` `/21_SCENARIOS/6` — not in migration scope; content/provenance unchanged.
+- `SC08` `/21_SCENARIOS/7` — not in migration scope; content/provenance unchanged.
+- `SC09` `/21_SCENARIOS/8` — not in migration scope; content/provenance unchanged.
+- `SC10` `/21_SCENARIOS/9` — not in migration scope; content/provenance unchanged.
+- `SC11` `/21_SCENARIOS/10` — not in migration scope; content/provenance unchanged.
+- `SC12` `/21_SCENARIOS/11` — not in migration scope; content/provenance unchanged.
+- `SC13` `/21_SCENARIOS/12` — not in migration scope; content/provenance unchanged.
+- `SC14` `/21_SCENARIOS/13` — not in migration scope; content/provenance unchanged.
+- `SC15` `/21_SCENARIOS/14` — not in migration scope; content/provenance unchanged.
+- `SC16` `/21_SCENARIOS/15` — not in migration scope; content/provenance unchanged.
+- `SC17` `/21_SCENARIOS/16` — not in migration scope; content/provenance unchanged.
+- `SC18` `/21_SCENARIOS/17` — not in migration scope; content/provenance unchanged.
+- `SC19` `/21_SCENARIOS/18` — not in migration scope; content/provenance unchanged.
+- `SC20` `/21_SCENARIOS/19` — not in migration scope; content/provenance unchanged.
+- `TH01` `/22_THESES/0` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/0` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/1` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/2` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/3` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/4` — not in migration scope; content/provenance unchanged.
+- `AR01` `/22_THESES/0/traceability/5` — not in migration scope; content/provenance unchanged.
+- `AR03` `/22_THESES/0/traceability/6` — not in migration scope; content/provenance unchanged.
+- `AR03` `/22_THESES/0/traceability/7` — not in migration scope; content/provenance unchanged.
+- `AR03` `/22_THESES/0/traceability/8` — not in migration scope; content/provenance unchanged.
+- `AR03` `/22_THESES/0/traceability/9` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/10` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/11` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/12` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/13` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/14` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/15` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/16` — not in migration scope; content/provenance unchanged.
+- `AR04` `/22_THESES/0/traceability/17` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/18` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/19` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/20` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/21` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/22` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/23` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/24` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/25` — not in migration scope; content/provenance unchanged.
+- `AR05` `/22_THESES/0/traceability/26` — not in migration scope; content/provenance unchanged.
+- `AR07` `/22_THESES/0/traceability/27` — not in migration scope; content/provenance unchanged.
+- `AR07` `/22_THESES/0/traceability/28` — not in migration scope; content/provenance unchanged.
+- `AR07` `/22_THESES/0/traceability/29` — not in migration scope; content/provenance unchanged.
+- `AR07` `/22_THESES/0/traceability/30` — not in migration scope; content/provenance unchanged.
+- `TH02` `/22_THESES/1` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/0` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/1` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/2` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/3` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/4` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/5` — not in migration scope; content/provenance unchanged.
+- `AR08` `/22_THESES/1/traceability/6` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/7` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/8` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/9` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/10` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/11` — not in migration scope; content/provenance unchanged.
+- `AR09` `/22_THESES/1/traceability/12` — not in migration scope; content/provenance unchanged.
+- `AR10` `/22_THESES/1/traceability/13` — not in migration scope; content/provenance unchanged.
+- `AR10` `/22_THESES/1/traceability/14` — not in migration scope; content/provenance unchanged.
+- `AR10` `/22_THESES/1/traceability/15` — not in migration scope; content/provenance unchanged.
+- `AR10` `/22_THESES/1/traceability/16` — not in migration scope; content/provenance unchanged.
+- `AR10` `/22_THESES/1/traceability/17` — not in migration scope; content/provenance unchanged.
+- `FC-C035` `/23_FORECASTS/0` — not in migration scope; content/provenance unchanged.
+- `FC-C039` `/23_FORECASTS/1` — not in migration scope; content/provenance unchanged.
+- `FC-C064` `/23_FORECASTS/2` — not in migration scope; content/provenance unchanged.
+- `FC-C074` `/23_FORECASTS/3` — not in migration scope; content/provenance unchanged.
+- `FC-C081` `/23_FORECASTS/4` — not in migration scope; content/provenance unchanged.
+- `FC-C108` `/23_FORECASTS/5` — not in migration scope; content/provenance unchanged.
+- `RQ001` `/27_REVIEW_QUEUE/0` — not in migration scope; content/provenance unchanged.
+- `RQ002` `/27_REVIEW_QUEUE/1` — not in migration scope; content/provenance unchanged.
+- `RQ003` `/27_REVIEW_QUEUE/2` — not in migration scope; content/provenance unchanged.
+- `RQ004` `/27_REVIEW_QUEUE/3` — not in migration scope; content/provenance unchanged.
+- `RQ005` `/27_REVIEW_QUEUE/4` — not in migration scope; content/provenance unchanged.
+- `RQ006` `/27_REVIEW_QUEUE/5` — not in migration scope; content/provenance unchanged.
+- `RQ007` `/27_REVIEW_QUEUE/6` — not in migration scope; content/provenance unchanged.
+- `RQ008` `/27_REVIEW_QUEUE/7` — not in migration scope; content/provenance unchanged.
+- `RQ009` `/27_REVIEW_QUEUE/8` — not in migration scope; content/provenance unchanged.
+- `RQ010` `/27_REVIEW_QUEUE/9` — not in migration scope; content/provenance unchanged.
+- `RQ011` `/27_REVIEW_QUEUE/10` — not in migration scope; content/provenance unchanged.
+- `RQ012` `/27_REVIEW_QUEUE/11` — not in migration scope; content/provenance unchanged.
+- `RQ013` `/27_REVIEW_QUEUE/12` — not in migration scope; content/provenance unchanged.
+- `RQ014` `/27_REVIEW_QUEUE/13` — not in migration scope; content/provenance unchanged.
+- `RQ015` `/27_REVIEW_QUEUE/14` — not in migration scope; content/provenance unchanged.
+- `RQ016` `/27_REVIEW_QUEUE/15` — not in migration scope; content/provenance unchanged.
+- `RQ017` `/27_REVIEW_QUEUE/16` — not in migration scope; content/provenance unchanged.
+- `RQ018` `/27_REVIEW_QUEUE/17` — not in migration scope; content/provenance unchanged.
+- `RQ019` `/27_REVIEW_QUEUE/18` — not in migration scope; content/provenance unchanged.
+- `RQ020` `/27_REVIEW_QUEUE/19` — not in migration scope; content/provenance unchanged.
+- `RQ021` `/27_REVIEW_QUEUE/20` — not in migration scope; content/provenance unchanged.
+- `RQ022` `/27_REVIEW_QUEUE/21` — not in migration scope; content/provenance unchanged.
+- `RQ023` `/27_REVIEW_QUEUE/22` — not in migration scope; content/provenance unchanged.
+- `RQ024` `/27_REVIEW_QUEUE/23` — not in migration scope; content/provenance unchanged.
+- `RQ025` `/27_REVIEW_QUEUE/24` — not in migration scope; content/provenance unchanged.
+- `RQ026` `/27_REVIEW_QUEUE/25` — not in migration scope; content/provenance unchanged.
+- `RQ027` `/27_REVIEW_QUEUE/26` — not in migration scope; content/provenance unchanged.
+- `RQ028` `/27_REVIEW_QUEUE/27` — not in migration scope; content/provenance unchanged.
+- `RQ029` `/27_REVIEW_QUEUE/28` — not in migration scope; content/provenance unchanged.
+- `RQ030` `/27_REVIEW_QUEUE/29` — not in migration scope; content/provenance unchanged.
+- `RQ031` `/27_REVIEW_QUEUE/30` — not in migration scope; content/provenance unchanged.
+- `RQ032` `/27_REVIEW_QUEUE/31` — not in migration scope; content/provenance unchanged.
+- `IS01` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/0` — not in migration scope; content/provenance unchanged.
+- `IS02` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/1` — not in migration scope; content/provenance unchanged.
+- `IS03` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/2` — not in migration scope; content/provenance unchanged.
+- `IS04` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/3` — not in migration scope; content/provenance unchanged.
+- `IS05` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/4` — not in migration scope; content/provenance unchanged.
+- `IS06` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/5` — not in migration scope; content/provenance unchanged.
+- `IS07` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/6` — not in migration scope; content/provenance unchanged.
+- `IS08` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/7` — not in migration scope; content/provenance unchanged.
+- `IS09` `/28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/8` — not in migration scope; content/provenance unchanged.
+- `SS-C001` `/auxiliary/source_segments/0` — not in migration scope; content/provenance unchanged.
+- `SS-C002` `/auxiliary/source_segments/1` — not in migration scope; content/provenance unchanged.
+- `SS-C003` `/auxiliary/source_segments/2` — not in migration scope; content/provenance unchanged.
+- `SS-C004` `/auxiliary/source_segments/3` — not in migration scope; content/provenance unchanged.
+- `SS-C005` `/auxiliary/source_segments/4` — not in migration scope; content/provenance unchanged.
+- `SS-C006` `/auxiliary/source_segments/5` — not in migration scope; content/provenance unchanged.
+- `SS-C007` `/auxiliary/source_segments/6` — not in migration scope; content/provenance unchanged.
+- `SS-C008` `/auxiliary/source_segments/7` — not in migration scope; content/provenance unchanged.
+- `SS-C009` `/auxiliary/source_segments/8` — not in migration scope; content/provenance unchanged.
+- `SS-C010` `/auxiliary/source_segments/9` — not in migration scope; content/provenance unchanged.
+- `SS-C011` `/auxiliary/source_segments/10` — not in migration scope; content/provenance unchanged.
+- `SS-C012` `/auxiliary/source_segments/11` — not in migration scope; content/provenance unchanged.
+- `SS-C013` `/auxiliary/source_segments/12` — not in migration scope; content/provenance unchanged.
+- `SS-C014` `/auxiliary/source_segments/13` — not in migration scope; content/provenance unchanged.
+- `SS-C015` `/auxiliary/source_segments/14` — not in migration scope; content/provenance unchanged.
+- `SS-C016` `/auxiliary/source_segments/15` — not in migration scope; content/provenance unchanged.
+- `SS-C017` `/auxiliary/source_segments/16` — not in migration scope; content/provenance unchanged.
+- `SS-C018` `/auxiliary/source_segments/17` — not in migration scope; content/provenance unchanged.
+- `SS-C019` `/auxiliary/source_segments/18` — not in migration scope; content/provenance unchanged.
+- `SS-C020` `/auxiliary/source_segments/19` — not in migration scope; content/provenance unchanged.
+- `SS-C021` `/auxiliary/source_segments/20` — not in migration scope; content/provenance unchanged.
+- `SS-C022` `/auxiliary/source_segments/21` — not in migration scope; content/provenance unchanged.
+- `SS-C023` `/auxiliary/source_segments/22` — not in migration scope; content/provenance unchanged.
+- `SS-C024` `/auxiliary/source_segments/23` — not in migration scope; content/provenance unchanged.
+- `SS-C025` `/auxiliary/source_segments/24` — not in migration scope; content/provenance unchanged.
+- `SS-C026` `/auxiliary/source_segments/25` — not in migration scope; content/provenance unchanged.
+- `SS-C027` `/auxiliary/source_segments/26` — not in migration scope; content/provenance unchanged.
+- `SS-C028` `/auxiliary/source_segments/27` — not in migration scope; content/provenance unchanged.
+- `SS-C029` `/auxiliary/source_segments/28` — not in migration scope; content/provenance unchanged.
+- `SS-C030` `/auxiliary/source_segments/29` — not in migration scope; content/provenance unchanged.
+- `SS-C031` `/auxiliary/source_segments/30` — not in migration scope; content/provenance unchanged.
+- `SS-C032` `/auxiliary/source_segments/31` — not in migration scope; content/provenance unchanged.
+- `SS-C033` `/auxiliary/source_segments/32` — not in migration scope; content/provenance unchanged.
+- `SS-C034` `/auxiliary/source_segments/33` — not in migration scope; content/provenance unchanged.
+- `SS-C035` `/auxiliary/source_segments/34` — not in migration scope; content/provenance unchanged.
+- `SS-C036` `/auxiliary/source_segments/35` — not in migration scope; content/provenance unchanged.
+- `SS-C037` `/auxiliary/source_segments/36` — not in migration scope; content/provenance unchanged.
+- `SS-C038` `/auxiliary/source_segments/37` — not in migration scope; content/provenance unchanged.
+- `SS-C039` `/auxiliary/source_segments/38` — not in migration scope; content/provenance unchanged.
+- `SS-C040` `/auxiliary/source_segments/39` — not in migration scope; content/provenance unchanged.
+- `SS-C041` `/auxiliary/source_segments/40` — not in migration scope; content/provenance unchanged.
+- `SS-C042` `/auxiliary/source_segments/41` — not in migration scope; content/provenance unchanged.
+- `SS-C043` `/auxiliary/source_segments/42` — not in migration scope; content/provenance unchanged.
+- `SS-C044` `/auxiliary/source_segments/43` — not in migration scope; content/provenance unchanged.
+- `SS-C045` `/auxiliary/source_segments/44` — not in migration scope; content/provenance unchanged.
+- `SS-C046` `/auxiliary/source_segments/45` — not in migration scope; content/provenance unchanged.
+- `SS-C047` `/auxiliary/source_segments/46` — not in migration scope; content/provenance unchanged.
+- `SS-C048` `/auxiliary/source_segments/47` — not in migration scope; content/provenance unchanged.
+- `SS-C049` `/auxiliary/source_segments/48` — not in migration scope; content/provenance unchanged.
+- `SS-C050` `/auxiliary/source_segments/49` — not in migration scope; content/provenance unchanged.
+- `SS-C051` `/auxiliary/source_segments/50` — not in migration scope; content/provenance unchanged.
+- `SS-C052` `/auxiliary/source_segments/51` — not in migration scope; content/provenance unchanged.
+- `SS-C053` `/auxiliary/source_segments/52` — not in migration scope; content/provenance unchanged.
+- `SS-C054` `/auxiliary/source_segments/53` — not in migration scope; content/provenance unchanged.
+- `SS-C055` `/auxiliary/source_segments/54` — not in migration scope; content/provenance unchanged.
+- `SS-C056` `/auxiliary/source_segments/55` — not in migration scope; content/provenance unchanged.
+- `SS-C057` `/auxiliary/source_segments/56` — not in migration scope; content/provenance unchanged.
+- `SS-C058` `/auxiliary/source_segments/57` — not in migration scope; content/provenance unchanged.
+- `SS-C059` `/auxiliary/source_segments/58` — not in migration scope; content/provenance unchanged.
+- `SS-C060` `/auxiliary/source_segments/59` — not in migration scope; content/provenance unchanged.
+- `SS-C061` `/auxiliary/source_segments/60` — not in migration scope; content/provenance unchanged.
+- `SS-C062` `/auxiliary/source_segments/61` — not in migration scope; content/provenance unchanged.
+- `SS-C063` `/auxiliary/source_segments/62` — not in migration scope; content/provenance unchanged.
+- `SS-C064` `/auxiliary/source_segments/63` — not in migration scope; content/provenance unchanged.
+- `SS-C065` `/auxiliary/source_segments/64` — not in migration scope; content/provenance unchanged.
+- `SS-C066` `/auxiliary/source_segments/65` — not in migration scope; content/provenance unchanged.
+- `SS-C067` `/auxiliary/source_segments/66` — not in migration scope; content/provenance unchanged.
+- `SS-C068` `/auxiliary/source_segments/67` — not in migration scope; content/provenance unchanged.
+- `SS-C069` `/auxiliary/source_segments/68` — not in migration scope; content/provenance unchanged.
+- `SS-C070` `/auxiliary/source_segments/69` — not in migration scope; content/provenance unchanged.
+- `SS-C071` `/auxiliary/source_segments/70` — not in migration scope; content/provenance unchanged.
+- `SS-C072` `/auxiliary/source_segments/71` — not in migration scope; content/provenance unchanged.
+- `SS-C073` `/auxiliary/source_segments/72` — not in migration scope; content/provenance unchanged.
+- `SS-C074` `/auxiliary/source_segments/73` — not in migration scope; content/provenance unchanged.
+- `SS-C075` `/auxiliary/source_segments/74` — not in migration scope; content/provenance unchanged.
+- `SS-C076` `/auxiliary/source_segments/75` — not in migration scope; content/provenance unchanged.
+- `SS-C077` `/auxiliary/source_segments/76` — not in migration scope; content/provenance unchanged.
+- `SS-C078` `/auxiliary/source_segments/77` — not in migration scope; content/provenance unchanged.
+- `SS-C079` `/auxiliary/source_segments/78` — not in migration scope; content/provenance unchanged.
+- `SS-C080` `/auxiliary/source_segments/79` — not in migration scope; content/provenance unchanged.
+- `SS-C081` `/auxiliary/source_segments/80` — not in migration scope; content/provenance unchanged.
+- `SS-C082` `/auxiliary/source_segments/81` — not in migration scope; content/provenance unchanged.
+- `SS-C083` `/auxiliary/source_segments/82` — not in migration scope; content/provenance unchanged.
+- `SS-C084` `/auxiliary/source_segments/83` — not in migration scope; content/provenance unchanged.
+- `SS-C085` `/auxiliary/source_segments/84` — not in migration scope; content/provenance unchanged.
+- `SS-C086` `/auxiliary/source_segments/85` — not in migration scope; content/provenance unchanged.
+- `SS-C087` `/auxiliary/source_segments/86` — not in migration scope; content/provenance unchanged.
+- `SS-C088` `/auxiliary/source_segments/87` — not in migration scope; content/provenance unchanged.
+- `SS-C089` `/auxiliary/source_segments/88` — not in migration scope; content/provenance unchanged.
+- `SS-C090` `/auxiliary/source_segments/89` — not in migration scope; content/provenance unchanged.
+- `SS-C091` `/auxiliary/source_segments/90` — not in migration scope; content/provenance unchanged.
+- `SS-C092` `/auxiliary/source_segments/91` — not in migration scope; content/provenance unchanged.
+- `SS-C093` `/auxiliary/source_segments/92` — not in migration scope; content/provenance unchanged.
+- `SS-C094` `/auxiliary/source_segments/93` — not in migration scope; content/provenance unchanged.
+- `SS-C095` `/auxiliary/source_segments/94` — not in migration scope; content/provenance unchanged.
+- `SS-C096` `/auxiliary/source_segments/95` — not in migration scope; content/provenance unchanged.
+- `SS-C097` `/auxiliary/source_segments/96` — not in migration scope; content/provenance unchanged.
+- `SS-C098` `/auxiliary/source_segments/97` — not in migration scope; content/provenance unchanged.
+- `SS-C099` `/auxiliary/source_segments/98` — not in migration scope; content/provenance unchanged.
+- `SS-C100` `/auxiliary/source_segments/99` — not in migration scope; content/provenance unchanged.
+- `SS-C101` `/auxiliary/source_segments/100` — not in migration scope; content/provenance unchanged.
+- `SS-C102` `/auxiliary/source_segments/101` — not in migration scope; content/provenance unchanged.
+- `SS-C103` `/auxiliary/source_segments/102` — not in migration scope; content/provenance unchanged.
+- `SS-C104` `/auxiliary/source_segments/103` — not in migration scope; content/provenance unchanged.
+- `SS-C105` `/auxiliary/source_segments/104` — not in migration scope; content/provenance unchanged.
+- `SS-C106` `/auxiliary/source_segments/105` — not in migration scope; content/provenance unchanged.
+- `SS-C107` `/auxiliary/source_segments/106` — not in migration scope; content/provenance unchanged.
+- `SS-C108` `/auxiliary/source_segments/107` — not in migration scope; content/provenance unchanged.
+- `SS-C109` `/auxiliary/source_segments/108` — not in migration scope; content/provenance unchanged.
+- `SS-C110` `/auxiliary/source_segments/109` — not in migration scope; content/provenance unchanged.
+- `SS-C111` `/auxiliary/source_segments/110` — not in migration scope; content/provenance unchanged.
+- `SS-C112` `/auxiliary/source_segments/111` — not in migration scope; content/provenance unchanged.
+- `SS-X01` `/auxiliary/source_segments/112` — not in migration scope; content/provenance unchanged.
+- `SS-X02` `/auxiliary/source_segments/113` — not in migration scope; content/provenance unchanged.
+- `SS-X03` `/auxiliary/source_segments/114` — not in migration scope; content/provenance unchanged.
+- `SS-X04` `/auxiliary/source_segments/115` — not in migration scope; content/provenance unchanged.
+- `SS-X05` `/auxiliary/source_segments/116` — not in migration scope; content/provenance unchanged.
+- `SS-X06` `/auxiliary/source_segments/117` — not in migration scope; content/provenance unchanged.
+- `SS-X07` `/auxiliary/source_segments/118` — not in migration scope; content/provenance unchanged.
+- `SS-X08` `/auxiliary/source_segments/119` — not in migration scope; content/provenance unchanged.
+- `SS-X09` `/auxiliary/source_segments/120` — not in migration scope; content/provenance unchanged.
+- `SS-X10` `/auxiliary/source_segments/121` — not in migration scope; content/provenance unchanged.
+- `SS-X11` `/auxiliary/source_segments/122` — not in migration scope; content/provenance unchanged.
+
+## object_count_before_after
+
+|Collection|Before|After|
+|---|---:|---:|
+|02_SOURCES|17|17|
+|03_SOURCE_VERSIONS|17|17|
+|04_SOURCE_FAMILIES_ORIGIN_FAMILIES|20|20|
+|06_SOURCE_SEGMENT_ANNOTATIONS|8|8|
+|07_SEMANTIC_SEGMENTS|19|19|
+|08_CLAIMS|131|131|
+|09_CLAIM_OCCURRENCES|130|130|
+|10_ACTORS|25|25|
+|11_EVENTS|7|7|
+|12_STRUCTURAL_PROCESSES|0|0|
+|14_POLICIES|1|1|
+|15_EXPECTATION_SNAPSHOTS|2|2|
+|16_VERACITY_ASSESSMENTS|131|131|
+|17_NARRATIVE_ASSESSMENTS|4|4|
+|18_ARGUMENTS|17|17|
+|19_MECHANISMS|3|3|
+|20_MECHANISM_USAGE|3|3|
+|21_SCENARIOS|20|20|
+|22_THESES|2|2|
+|23_FORECASTS|6|6|
+|24_CONTRADICTIONS|0|0|
+|25_CANDIDATE_HEURISTICS|0|0|
+|27_REVIEW_QUEUE|32|32|
+|28_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND|9|9|
+|indicators|29|29|
+|observations|30|30|
+|calculations|4|4|
+|signals|8|8|
+|source_segments|123|123|
+|transcript_corrections|14|14|
+
+New Claims: no. New Arguments: no. New MethodSignals: no. Regenerated IDs: no.

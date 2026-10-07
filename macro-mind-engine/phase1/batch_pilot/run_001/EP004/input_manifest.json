@@ -1,0 +1,54 @@
+{
+  "files": {
+    "batch_pilot_materials/EP004/《第七百六〇期》创新药潜力看什么？-p01-16.mp4": {
+      "sha256": "3dca6600420666b74da097b7c78c3e3694a2bbeefab63ece37efb1b6016079e5",
+      "bytes": 72241084
+    },
+    "batch_pilot_materials/EP004/《第七百六〇期》创新药潜力看什么？-p01-16.自动转写.txt": {
+      "sha256": "58bb9c2ee5dc4de541d5057b01c6b3f683c7380eaaf63f3558ae5006d9f676a3",
+      "bytes": 26335
+    },
+    "batch_pilot_materials/EP004/信息说明.md": {
+      "sha256": "74944daa860ba50eb13e2c08ab4f27c6dafd62479916ebf3cc0916c8a7026513",
+      "bytes": 1663
+    },
+    "batch_pilot_materials/EP004/原始字幕.srt": {
+      "sha256": "24db0a1c52311fc81b11775f51c8b60bb9877f99fc627766ab2233db907884a6",
+      "bytes": 39251
+    },
+    "batch_pilot_materials/EP004/补充材料/引用清单.md": {
+      "sha256": "a60eedef952232044df7a1f901709c8780221a57e9b806ed2790da846b0f7522",
+      "bytes": 331
+    }
+  },
+  "extraction_primary": "原始字幕.srt",
+  "audio_checked": false,
+  "source_version": {
+    "id": "EP004/version/24db0a1c52311fc8",
+    "object_type": "SourceVersion",
+    "schema_version": "0.1.0",
+    "ontology_version": "0.3",
+    "created_at": null,
+    "provenance_refs": [],
+    "metadata": {},
+    "source_ref": "EP004/source",
+    "version_label": "user-supplied ASR subtitle bytes",
+    "content_time": {
+      "state": "unknown"
+    },
+    "published_at": {
+      "text": "2026-09-10 09:59:13",
+      "start": null,
+      "end": null,
+      "source_ref": null
+    },
+    "captured_at": {
+      "state": "unknown"
+    },
+    "content_sha256": "24db0a1c52311fc81b11775f51c8b60bb9877f99fc627766ab2233db907884a6",
+    "revision_status": "Original preserved; no audio correction",
+    "source_refs": [
+      "EP004/source"
+    ]
+  }
+}

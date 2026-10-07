@@ -1,0 +1,18 @@
+{
+  "status": "READY_FOR_REVIEW_INPUT",
+  "original_artifacts_verified": 347,
+  "original_mismatches": [],
+  "qa_result": "G:\\youhegaojian\\review-ui-qa\\results.json",
+  "qa_passed": 16,
+  "human_reviews_created": 0,
+  "remaining": [
+    "Actual user review",
+    "In-app browser-specific download behavior not tested"
+  ],
+  "files": {
+    "build.py": "41d1c9506d7e69e47d64f141a3e1ca5ea221c6362c86b48049f24a24f089c7f4",
+    "HUMAN_REVIEW.html": "c79d7c13753c5a0524cf0da63120e2db0a0298e6dca188f2e32bb469dd79588a",
+    "review_data.json": "06d713f35538d96739bcf66aa95a2a77662baa612f94f76c3d7287b9a37907a7",
+    "template.html": "81dfa4ee585d3435b20bdfe0ca42cb8a11b2619c4cd462f37292e01dd775b254"
+  }
+}

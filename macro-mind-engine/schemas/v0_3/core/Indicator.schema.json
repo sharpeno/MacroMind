@@ -1,0 +1,170 @@
+{
+  "$defs": {
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Indicator",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Indicator; ontology_version=0.3.",
+  "properties": {
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "definition": {
+      "description": "Variable definition",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Indicator; core_principles.json",
+      "title": "Definition",
+      "type": "string"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "measurement_scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Measurement population and basis",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Indicator; core_principles.json",
+      "title": "Measurement Scope"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "name": {
+      "description": "Reusable variable name",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Indicator; core_principles.json",
+      "title": "Name",
+      "type": "string"
+    },
+    "object_type": {
+      "const": "Indicator",
+      "default": "Indicator",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_refs": {
+      "description": "Definition sources",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Indicator; core_principles.json",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Defined measurement unit",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Indicator; core_principles.json",
+      "title": "Unit"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "definition",
+    "measurement_scope",
+    "unit",
+    "source_refs"
+  ],
+  "title": "Indicator",
+  "type": "object"
+}

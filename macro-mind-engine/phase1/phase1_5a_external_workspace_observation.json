@@ -1,0 +1,15 @@
+{
+  "approval": "User explicitly confirmed preserving the external concurrent Harness prompt and excluding it from Phase 1.5A additions. It was externally renamed from 1.md to hermes_phase1_5a_pilot.md while the question was pending.",
+  "classification": "external non-runtime Harness task prompt, not created by this task operations; file was renamed/edited externally during verification",
+  "decision": "APPROVED_BY_USER",
+  "detected_in": "phase1/phase1_5a_evidence/run_002/immutability_report.json",
+  "observed_files": [
+    {
+      "bytes": 5995,
+      "path": ".hermes/macromind/hermes_phase1_5a_pilot.md",
+      "sha256": "ac4d753cbe8dd1373b9e97b1e5d60a0add440715ad6e6f20cdc717c00e53ed23"
+    }
+  ],
+  "original_detected_path": ".hermes/macromind/1.md",
+  "treatment": "Exclude only the exact observed path and SHA-256 from new-file scope checking; preserve it unchanged. Other external additions or changes are not exempt."
+}

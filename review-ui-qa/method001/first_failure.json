@@ -1,0 +1,1 @@
+{"status":"FAIL","check":"no runtime errors","cause":"GET /favicon.ico returned 404; all preceding interaction checks completed","resolution":"Added inline favicon to renderer; generated a new trace_v2, preserving the first output."}

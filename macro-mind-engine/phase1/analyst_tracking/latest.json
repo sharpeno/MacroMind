@@ -1,0 +1,7 @@
+{
+  "run": "run_001",
+  "report": "phase1/analyst_tracking/run_001/REPORT.md",
+  "trace": "phase1/analyst_tracking/run_001/TRACE.html",
+  "status": "CANDIDATE_NOT_HUMAN_REVIEWED",
+  "canonical_run_unchanged": "run_005"
+}

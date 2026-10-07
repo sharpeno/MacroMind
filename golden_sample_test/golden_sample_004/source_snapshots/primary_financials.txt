@@ -1,0 +1,268 @@
+FY26 Q4 - Metrics - Investor Relations - Microsoft (https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics)
+citeturn19view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics","lineno":null}); Total lines: 85
+L0: This is the Trace Id: 77c80cf14439557924574b784a6219fa
+L1: 
+L2: cite0†Investor Relations L3: 
+L4: Earnings Release FY26 Q4
+L5: ## Investor Metrics
+L6: Investor Metrics
+L7: (in billions, except for percentages)  | Q425  | FY25  | Q126  | Q226  | Q326  | Q426  | FY26
+L8: --- | --- | --- | --- | --- | --- | --- | ---
+L9: Commercial (Includes commercial portion of LinkedIn) Commercial (Includes commercial portion of LinkedIn)  |  |  |  |  |  |  |
+L10: Commercial bookings growth (y/y)* For commercial products and cloud services, sum of revenue growth, plus change in balance of unearned revenue plus the change in contracted not billed balance  | 37% / 30%  | 38%  | 112% / 111%  | 230% / 228%  | -4% / -6%  | 10% / 11%  | 83%
+L11: Commercial remaining performance obligation Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods  | $368  | $368  | $392  | $625  | $627  | $678  | $678
+L12: Microsoft Cloud revenue Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365  | $46.7  | $168.9  | $49.1  | $51.5  | $54.5  | $59.3  | $214.4
+L13: Microsoft Cloud revenue growth (y/y)* Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365  | 27% / 25%  | 23% / 23%  | 26% / 25%  | 26% / 24%  | 29% / 25%  | 27% / 27%  | 27% / 25%
+L14: Microsoft Cloud gross margin percentage Gross margin percentage for our Microsoft Cloud business  | 68%  | 69%  | 68%  | 67%  | 66%  | 65%  | 66%
+L15: Productivity & Business Processes and Intelligent Cloud Productivity & Business Processes and Intelligent Cloud  |  |  |  |  |  |  |
+L16: Microsoft 365 Commercial cloud revenue growth (y/y)* Revenue from Microsoft 365 Commercial subscriptions, comprising Microsoft 365 Commercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI, Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot  | 18% / 16%  | 15% / 15%  | 17% / 15%  | 17% / 14%  | 19% / 15%  | 14% / 14%  | 17% / 14%
+L17: Microsoft 365 Commercial seat growth (y/y) Microsoft 365 Commercial seat growth: the number of Microsoft 365 Commercial seats at end of period where seats are paid users covered by a Microsoft 365 Commercial subscription  | 6%  | 6%  | 6%  | 6%  | 6%  | 6%  | 6%
+L18: Microsoft 365 Consumer cloud revenue growth (y/y)* Revenue from Microsoft 365 Consumer subscriptions and other consumer services  | 20% / 20%  | 11% / 12%  | 26% / 25%  | 29% / 27%  | 33% / 29%  | 24% / 22%  | 28% / 26%
+L19: LinkedIn revenue growth (y/y)* Revenue from LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions  | 9% / 8%  | 9% / 9%  | 10%/ 9%  | 11% / 10%  | 12% / 9%  | 12% / 10%  | 11% / 9%
+L20: Dynamics 365 revenue growth (y/y)* Revenue from Dynamics 365, including a set of intelligent, cloud-based applications across ERP, CRM, Power Apps, and Power Automate  | 23% / 21%  | 19% / 19%  | 18% / 16%  | 19% / 17%  | 22% / 17%  | 13% / 12%  | 18% / 15%
+L21: Azure and other cloud services revenue growth (y/y)* Revenue from Azure and other cloud services, including cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services  | 39% / 39%  | 34% / 35%  | 40% / 39%  | 39% / 38%  | 40% / 39%  | 43% / 43%  | 41% / 40%
+L22: More Personal Computing More Personal Computing  |  |  |  |  |  |  |
+L23: Windows OEM and Devices revenue growth (y/y)* Revenue from sales of Windows Pro and non-Pro licenses sold through the OEM channel and sales of first-party Devices, including Surface and PC accessories  | 3% / 3%  | 3% / 3%  | 6% / 6%  | 1% / 0%  | -2% / -3%  | -7% / -7%  | -1% / -1%
+L24: XBOX content and services revenue growth (y/y)* Revenue from XBOX content and services, comprising first- and third-party content (including games and in-game content), XBOX Game Pass and other subscriptions, XBOX Cloud Gaming, advertising, and other cloud services  | 13% / 12%  | 16% / 16%  | 1% / 0%  | -5% / -6%  | -5% / -7%  | -10% / -10%  | -5% / -6%
+L25: Search advertising revenue (ex TAC) growth (y/y)* Revenue from search advertising excluding traffic acquisition costs ("TAC") paid to Bing Ads network publishers and content partners  | 21% / 20%  | 20% / 21%  | 16% / 15%  | 10% / 9%  | 12% / 9%  | 10% / 9%  | 12% / 10%
+L26: * Includes non-GAAP constant currency growth (GAAP% / Constant Currency%)
+L27: 
+L28: Certain amounts have been rounded for presentation purposes
+L29: 
+L30: Reconciliation of GAAP and non-GAAP financial measures are available in the cite1†Earnings Release Slides†view.officeapps.live.com (https://view.officeapps.live.com/op/view.aspx?src=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26Q4.pptx)
+L31: IMPORTANT NOTICE TO USERS (summary only, cite2†click here for full text of notice); All information is unaudited unless otherwise noted or accompanied by an audit opinion and is subject to the more comprehensive information contained in our SEC reports and filings. We do not endorse third-party information. All information speaks as of the last fiscal quarter or year for which we have filed a Form 10-K or 10-Q, or for historical information the date or period expressly indicated in or with such information.
+L32: We undertake no duty to update the information. Forward-looking statements are subject to risks and uncertainties described in our  cite3†Forms 10-Q and 10-K. L33: ### Download Earnings Related Files
+L34: 
+L35: Information contained in these documents is current as of the earnings date, and not restated for new accounting standards
+L36: 
+L37: * Earnings Call Slides
+L38: * Earnings Call Transcript
+L39: * Financial Statements
+L40: * Outlook
+L41: * Press Release
+L42: * 10K
+L43: ASSET PACKAGE
+L44: 
+L45: ####
+L46: Earnings Release Pages
+L47: 
+L48:   * cite4†Metrics L49: 
+L50:   * cite5†Press Release & Webcast L51: 
+L52:   * cite6†Customer & Partner Highlights†aka.ms L53: 
+L54: 
+L55: ####
+L56: Related Information
+L57: 
+L58:   * cite7†Webcast L59: 
+L60:   * cite8†SEC Filings L61: 
+L62:   * cite9†XBRL L63: ## Microsoft Corp (MSFT)
+L64: ######
+L65: 2025 ANNUAL REPORT
+L66: 
+L67: cite10†VIEW ONLINE  L68: 
+L69: cite11†DOWNLOAD NOW L70: 
+L71: 
+L72: 
+L73: Follow us
+L74: 
+L75:   *   *   *   * Share this page
+L76: 
+L77:   *   *   * cite12†Image: Email†cdn-dynmedia-1.microsoft.com L78: cite13†Surface Pro cite14†Surface Laptop cite15†Surface Laptop Ultra cite16†Surface RTX Spark Dev Box cite17†Explore Copilot cite18†Explore Microsoft products cite19†Windows 11 apps cite20†Account profile†account.microsoft.com cite21†Download Center cite22†Microsoft Store support†go.microsoft.com cite23†Returns cite24†Order tracking cite25†Certified Refurbished cite26†Microsoft Store Promise cite27†Flexible Payments cite28†Microsoft in education cite29†Devices for education cite30†Microsoft Teams for Education cite31†Microsoft 365 Education cite32†How to buy for your school cite33†Educator training and development†education.microsoft.com cite34†Deals for students and parents cite35†AI for education L79: cite36†Microsoft AI cite37†Microsoft Security cite38†Dynamics 365 cite39†Microsoft 365 cite40†Microsoft Power Platform cite41†Microsoft Teams cite42†Microsoft Copilot cite43†Small Business cite44†Azure†azure.microsoft.com cite45†Microsoft Developer†developer.microsoft.com cite46†Microsoft Learn†learn.microsoft.com cite47†Support for AI marketplace apps cite48†Microsoft Tech Community†techcommunity.microsoft.com cite49†Microsoft Marketplace†marketplace.microsoft.com cite50†Software companies cite51†Visual Studio†visualstudio.microsoft.com cite52†Careers†careers.microsoft.com cite53†About Microsoft cite54†Company news†news.microsoft.com cite55†Privacy at Microsoft cite56†Investors cite57†Diversity and inclusion cite58†Accessibility cite59†Sustainability L80: cite60†English (United States) L81: 
+L82: cite61†Your Privacy Choices†aka.ms cite61†Your Privacy Choices†aka.ms L83: 
+L84: cite62†Consumer Health Privacy†go.microsoft.com cite63†Sitemap cite64†Contact Microsoft†support.microsoft.com cite65†Privacy†go.microsoft.com cite66†Manage cookies cite67†Terms of use†go.microsoft.com cite68†Trademarks†go.microsoft.com cite69†Safety & eco†go.microsoft.com cite70†Recycling cite71†About our ads†choice.microsoft.com --------------------------------------------------------------------------------
+FY26 Q4 - Press Releases - Investor Relations - Microsoft (https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast)
+citeturn19view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast","lineno":null}); Total lines: 455
+L0: This is the Trace Id: 274c516152f09f7b100f7c34f23ba864
+L1: 
+L2: cite0†Investor Relations L3: 
+L4: # Press Release & Webcast
+L5: ## Earnings Release FY26 Q4
+L6: 
+L7: Microsoft Cloud and AI Strength Fuels Fourth Quarter Results
+L8: 
+L9: REDMOND, Wash. — July 29, 2026 — Microsoft Corp. today announced the following results for the quarter ended June 30, 2026, as compared to the corresponding period of last fiscal year:
+L10: 
+L11: ·        Revenue was $90.0 billion and increased 18% (up 17% in constant currency)
+L12: 
+L13: ·        Operating income was $40.6 billion and increased 18%
+L14: ·        Net income was $35.8 billion and increased 31% on a GAAP basis, and was $35.3 billion and increased 22% on a non-GAAP basis
+L15: 
+L16: ·        Diluted earnings per share was $4.81 and increased 32% on a GAAP basis, and was $4.74 and increased 23% on a non-GAAP basis
+L17: 
+L18: ·        Non-GAAP results exclude the impact from investments in OpenAI, explained in the Non-GAAP Definition section below
+L19: Several discrete items impacted our financial results in the quarter when compared to our forward-looking guidance provided on April 29, 2026, resulting in a benefit of $0.27 on diluted earnings per share. These include a $3.2 billion gain from our investment in Anthropic and lower-than-expected expenses related to the Voluntary Retirement Program which were partially offset by severance expense and impairment charges in XBOX.
+L20: When adjusting for these items, we exceeded expectations across revenue, operating income, and diluted earnings per share.
+L21: “We are advancing the frontier on the cost-to-outcome curve, ensuring every customer can turn tokens into business results," said Satya Nadella, chairman and chief executive officer of Microsoft. “This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation.”
+L22:  “We delivered a strong quarter to close out the fiscal year, highlighted by Microsoft Cloud revenue of $59.3 billion, up 27% year-over-year,” said Amy Hood, executive vice president and chief financial officer of Microsoft.
+L23: The following table adjusts for the impact from investments in OpenAI and reconciles our financial results reported in accordance with generally accepted accounting principles (GAAP) to non-GAAP financial results. Additional information regarding our non-GAAP definition is provided below. All growth comparisons relate to the corresponding period in the last fiscal year.
+L24: Three Months Ended June 30,
+L25: ---
+L26:  | 2026  |  | 2025  |  | Percentage Change Y/Y  |    | Percentage Change Y/Y
+L27: ($ in millions, except per share amounts)  | As
+L28: Reported (GAAP)  | Impact from OpenAI*  | As
+L29: Adjusted (non-GAAP)  |  | As
+L30: Reported (GAAP)  | Impact from OpenAI*  | As
+L31: Adjusted (non-GAAP)  |  | GAAP  | Constant Currency  | Net Impact from OpenAI*  | Non-GAAP  | Non-GAAP Constant Currency
+L32: Net
+L33: Income  | $35,766  | $(480)  | $35,286  |  | $27,233  | $1,575  | $28,808  |  | 31%  | 31%  | $(2,055)  | 22%  | 22%
+L34: Diluted
+L35: Earnings
+L36: per Share  | $4.81  | $(0.07)  | $4.74  |  | $3.65  | $0.21  | $3.86  |  | 32%  | 32%  | $(0.28)  | 23%  | 23%
+L37:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L38: *Impact from OpenAI adjusts for the impact from investments in OpenAI
+L39: 
+L40: 
+L41: 
+L42: Business Highlights
+L43: 
+L44: Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion.
+L45: 
+L46: Revenue in Productivity and Business Processes was $37.8 billion and increased 14%, with the following business highlights:
+L47: ·        Microsoft 365 Commercial cloud revenue increased 16% when adjusted for the prior year comparable that benefited from 2 points of in-period revenue recognition. On a reported basis, Microsoft 365 Commercial cloud revenue increased 14%.
+L48: 
+L49: ·        Microsoft 365 Consumer cloud revenue increased 24% (up 22% in constant currency)
+L50: 
+L51: ·        LinkedIn revenue increased 12% (up 10% in constant currency)
+L52: 
+L53: ·        Dynamics 365 revenue increased 13% (up 12% in constant currency)
+L54: Revenue in Intelligent Cloud was $39.3 billion and increased 32% (up 31% in constant currency), with the following business highlights:
+L55: 
+L56: ·        Azure and other cloud services revenue increased 43%
+L57: 
+L58: Revenue in More Personal Computing was $12.9 billion and decreased 4% (down 5% in constant currency), with the following business highlights:
+L59: 
+L60: ·        Windows OEM and Devices revenue decreased 7%
+L61: 
+L62: ·        XBOX content and services revenue decreased 10%
+L63: ·        Search advertising revenue excluding traffic acquisition costs increased 10% (up 9% in constant currency)
+L64: 
+L65: Microsoft returned $10.2 billion to shareholders in the form of dividends and share repurchases in the fourth quarter of fiscal year 2026.
+L66: 
+L67: Fiscal Year 2026 Results
+L68: 
+L69: Microsoft Corp. today announced the following results for the fiscal year ended June 30, 2026, as compared to the corresponding period of last fiscal year:
+L70: ·        Revenue was $331.8 billion and increased 18% (up 16% in constant currency)
+L71: 
+L72: ·        Operating income was $155.2 billion and increased 21% (up 19% in constant currency)
+L73: 
+L74: ·        Net income was $133.7 billion and increased 31% on a GAAP basis, and increased 22% (up 20% in constant currency) on a non-GAAP basis
+L75: 
+L76: ·        Diluted earnings per share was $17.95 and increased 32% on a GAAP basis, and increased 22% (up 21% in constant currency) on a non-GAAP basis
+L77: ·        Non-GAAP results exclude the impact from investments in OpenAI, explained in the Non-GAAP Definition section below
+L78: 
+L79: The following table adjusts for the impact from investments in OpenAI and reconciles our financial results reported in accordance with GAAP to non-GAAP financial results. Additional information regarding our non-GAAP definition is provided below. All growth comparisons relate to the corresponding period in the last fiscal year.
+L80: Twelve Months Ended June 30,
+L81: ---
+L82:  | 2026  |  | 2025  |  | Percentage Change Y/Y  |    | Percentage Change Y/Y
+L83: ($ in millions, except per share amounts)  | As
+L84: Reported (GAAP)  | Impact from OpenAI*  | As
+L85: Adjusted (non-GAAP)  |  | As
+L86: Reported (GAAP)  | Impact from OpenAI*  | As
+L87: Adjusted (non-GAAP)  |  | GAAP  | Constant Currency  | Net Impact from OpenAI*  | Non-GAAP  | Non-GAAP Constant Currency
+L88: Net
+L89: Income  | $133,749  | $(4,963)  | $128,786  |  | $101,832  | $3,620  | $105,452  |  | 31%  | 30%  | $(8,583)  | 22%  | 20%
+L90: Diluted
+L91: Earnings
+L92: per Share  | $17.95  | $(0.67)  | $17.28  |  | $13.64  | $0.49  | $14.13  |  | 32%  | 30%  | $(1.16)  | 22%  | 21%
+L93:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+L94: *Impact from OpenAI adjusts for the impact from investments in OpenAI
+L95: 
+L96: Business Outlook
+L97: 
+L98: Microsoft will provide forward-looking guidance in connection with this quarterly earnings announcement on its earnings conference call and webcast.
+L99: 
+L100: Quarterly Highlights, Product Releases, and Customer Stories
+L101: Every quarter Microsoft delivers hundreds of products, services, and enhancements. These releases are driven by years of significant research and development investments, to empower customers with greater productivity, security, and differentiated value.
+L102: This momentum is reflected in stories that showcase how our technology is cite1†shaping industries and driving customer success†blogs.microsoft.com . We share innovation updates on our product blogs across cite2†Azure†azure.microsoft.com , cite3†Microsoft 365 , and more on our cite4†Official Microsoft blog†blogs.microsoft.com .
+L103: 
+L104: Webcast Details
+L105: Satya Nadella, chairman and chief executive officer, Amy Hood, executive vice president and chief financial officer, Alice Jolla, chief accounting officer, Brian DeFoe, deputy general counsel and corporate secretary, and Jonathan Neilson, vice president of investor relations, will host a conference call and webcast at 2:30 p.m. Pacific time (5:30 p.m. Eastern time) today to discuss details of the company’s performance for the quarter and certain forward-looking information.
+L106: The session may be accessed at cite5†http://www.microsoft.com/en-us/investor . Participants can also dial into the conference call at (877) 407-0666 or +1 (201) 689-8023 for international, no password required. The webcast will be available for replay through the close of business on July 29, 2027.
+L107: Non-GAAP Definition
+L108: Impact from investments in OpenAI. In fiscal year 2026, net income and diluted earnings per share were impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted earnings per share of $480 million and $0.07, respectively, in the fourth quarter, and $4,963 million and $0.67, respectively, for the full fiscal year.
+L109: In fiscal year 2025, net income and diluted earnings per share were impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted earnings per share of $1,575 million and $0.21, respectively, in the fourth quarter, and $3,620 million and $0.49, respectively, for the full fiscal year.
+L110: Microsoft has provided non-GAAP financial measures related to the impact from investments in OpenAI to aid investors in better understanding our performance. Microsoft believes these non-GAAP measures assist investors by providing additional insight into its operational performance and help clarify trends affecting its business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance.
+L111: The non-GAAP financial measures presented in this release should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+L112: Constant Currency
+L113: Microsoft presents constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods.
+L114: All growth comparisons relate to the corresponding period in the last fiscal year. Microsoft has provided this non-GAAP financial information to aid investors in better understanding our performance. The non-GAAP financial measures presented in this release should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+L115: Financial Performance Constant Currency Reconciliation
+L116: Three Months Ended June 30,
+L117: ---
+L118: ($ in millions, except per share amounts)  | 2026  |    | 2025  |    | Percentage Change Y/Y  |    | Percentage Change Y/Y
+L119: --- | --- | --- | --- | --- | --- | --- | ---
+L120: As Reported (GAAP)  | As Adjusted (non-GAAP)  |    | As Reported (GAAP)  | As Adjusted (non-GAAP)  |    | GAAP  | Non-
+L121: GAAP  | Constant Currency Impact  | Constant Currency  | Non-GAAP Constant
+L122: Currency
+L123: --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
+L124: Revenue  | $90,007    | -    |     | $76,441    | -    |     | 18%   | -   | $391    | 17%   | -
+L125: Operating
+L126: Income  | $40,603    | -    |     | $34,323    | -    |     | 18%   | -   | $269    | 18%   | -
+L127: Net Income  | $35,766    | $35,286    |     | $27,233    | $28,808    |     | 31%   | 22%   | $40    | 31%   | 22%
+L128: Diluted
+L129: Earnings
+--------------------------------------------------------------------------------
+Amazon.com, Inc. - Amazon.com Announces Second Quarter Results (https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light)
+citeturn19view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light","lineno":null}); Total lines: 445
+--------------------------------------------------------------------------------
+美国13州推进取消数据中心税收优惠，每千兆瓦AI算力成本或增加30亿美元 - 华尔街见闻 (https://wallstreetcn.com/articles/3778569)
+citeturn19view3 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"https://wallstreetcn.com/articles/3778569","lineno":0}); Total lines: 64
+L0: [Input: 搜索]
+L1: 
+L2: ### 大家都在搜
+L3: # 美国13州推进取消数据中心税收优惠，每千兆瓦AI算力成本或增加30亿美元
+L4: 
+L5: cite0†李佳 L6: 
+L7: 08/03 16:40
+L8: 
+L9: 截至8月初，美国已有四州取消或暂停数据中心税收优惠，另有九州正研究类似政策。以7%销售税计，单座1GW级AI数据中心设备采购成本将增加约30亿美元。德州等关键市场政策转向，叠加电力与水资源约束，正使税收优惠从"默认红利"转变为AI基础设施的"硬成本"。
+L10: 
+L11: 美国各州正掀起一轮撤销数据中心税收优惠的浪潮，这一政策转向正推高AI基础设施建设成本，并对科技巨头的大规模扩张计划形成新的不确定性。
+L12: 
+L13: 8月2日，据The Information报道，今年夏天以来，美国已有四个州取消或暂停数据中心税收激励措施，另有九个州正在研究类似政策。对于依赖大规模资本投入建设AI算力的企业而言，这意味着过去被视为理所当然的税收优惠正逐渐松动。
+L14: 
+L15: 税收变化带来的影响并不小。IT设备是数据中心最大的资本开支，以7%的州销售税计算，单个1GW级AI数据中心的设备采购成本将由约400亿美元增至430亿美元，增加数十亿美元。
+L16: 由于服务器和AI芯片通常每五年左右就需要更新，销售税也将持续推高未来的运营和扩容成本，并已开始影响部分数据中心项目的融资条款。
+L17: ## 两党态度转向：AI热潮削弱税收优惠必要性
+L18: 
+L19: 推动政策转向的原因并不复杂。
+L20: 
+L21: 近年来，各州为了争夺微软、谷歌、Meta、亚马逊、甲骨文等科技公司的AI投资，相继推出销售税减免等优惠政策。但随着AI投资持续升温，越来越多州政府开始认为，这类激励措施正在侵蚀财政收入，而科技公司即使没有税收优惠，也不会轻易放弃当地投资。
+L22: 
+L23: 与此同时，舆论环境也在发生变化。越来越多选民开始质疑大型数据中心对电力、水资源及就业的实际贡献，并要求科技企业承担与其他企业相同的税负。这一议题已逐渐形成跨党派共识。
+L24: ## 德州成为行业关注焦点
+L25: 
+L26: 目前市场最关注的是德克萨斯州。
+L27: 
+L28: 根据房地产服务公司JLL预测，到2030年，德州数据中心总电力容量有望超过弗吉尼亚州，成为全球最大的数据中心市场。然而，今年6月，州长Greg Abbott要求州议会研究取消数据中心销售税豁免及其他"过时或不必要"的激励政策。
+L29: 
+L30: 这一表态格外敏感。
+L31: 
+L32: 目前德州已有数十GW AI园区在建或已宣布，当地电网收到的数据中心并网申请更高达数百GW。数据中心联盟（Data Center Coalition）执行副总裁Dan Diorio近期专程赴奥斯汀参加听证会，希望保留自2013年以来实施的税收优惠。德州议会预计将在2027年重新审议相关法案。
+L33: 
+L34: Diorio表示："如果这些优惠突然消失，你整个商业计划都会被打乱。"
+L35: ## 更多州开始重新计算"补贴账"
+L36: 
+L37: 除德州外，多个州已经开始行动。
+L38: 
+L39: 华盛顿州上月取消数据中心设备更新和翻新的销售税豁免，州政府预计到2029年前可增加约2.07亿美元财政收入；亚利桑那州暂停数据中心销售税豁免三年。
+L40: 
+L41: 路易斯安那州则没有直接取消优惠，而是提高获得优惠的门槛。当地Meta正在建设一座可扩展至5GW的数据中心，州长Jeff Landry要求数据中心企业必须自行承担全部新增电力需求，才能继续享受税收优惠。
+L42: 
+L43: 弗吉尼亚州采取了更折中的方案。州政府最终没有取消销售税豁免，而是改为向数据中心征收电力消费税。据Diorio估算，这将使行业每年新增约6亿美元税负；若直接取消销售税豁免，每年新增税负将超过10亿美元。
+L44: ## AI基础设施成本模型正在改变
+L45: 
+L46: 面对各州政策收紧，行业正寻求新的妥协方案。
+L47: 
+L48: Diorio表示，行业愿意接受更多附加条件，例如将税收优惠与就业创造、本地投资等指标挂钩。他认为，全美已有40个州对制造业资本设备提供税收豁免，数据中心同样属于资本密集型产业，应获得类似待遇。数据中心联盟委托普华永道开展的研究以及弗吉尼亚州议会审计机构的独立报告均认为，数据中心创造的税收和经济效益超过了政府放弃的销售税收入。
+L49: 
+L50: 全国州议会会议（National Conference of State Legislatures）政策研究员Nicholas Miller预计，未来会有更多州采取类似路易斯安那州的做法，在保留税收优惠的同时附加更多条件，而非直接取消项目。
+L51: 
+L52: 不过，也有州开始采取更强硬立场。纽约州近期已通过数据中心开发暂停令。
+L53: 
+L54: 对于仍在竞相建设AI基础设施的科技巨头而言，税收优惠不再是可以默认享有的政策红利。随着各州重新评估补贴成本，税收政策正与电力供应、输电能力和水资源一样，成为影响AI数据中心选址和投资回报的重要变量。
+L55: 
+L56: 相关文章
+L57:   * cite1†甲骨文电话会：单季交付850兆瓦算力，GPU续约溢价20%，RPO将大规模转化为真实收入 龙玥 09/11 08:37 L58:   * cite2†美国制造业与建筑业就业增长超越服务业，AI基建是主因 杨宸 09/05 05:42 L59:   * cite3†数据中心越建越多，但美国大学生的岗位却越来越少 龙玥 09/02 08:39 L60:   * cite4†知名科技投资人Gavin Baker：数据中心正创造大量高薪蓝领就业 龙玥 09/01 10:03 L61:   * cite5†认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到” 赵颖 08/28 10:22 L62: 
+L63: 打开APP阅读
+

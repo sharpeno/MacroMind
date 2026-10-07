@@ -1,0 +1,1 @@
+{"snapshots": 3, "sources": 6, "changes": [{"T0": ["INITIAL", "INITIAL", "INITIAL", "INITIAL"]}, {"T1": ["UPDATE", "UPDATE", "HOLD", "HOLD"]}, {"T2": ["HOLD", "UPDATE", "WITHDRAW", "HOLD"]}]}

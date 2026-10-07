@@ -1,0 +1,10 @@
+PASS positive packet: cue binding, chronology, references, inherited claims, provenance, intake.
+PASS rejected: wrong_quote
+PASS rejected: wrong_chronology
+PASS rejected: changed_inherited
+PASS rejected: unreviewed_promoted
+PASS rejected: method_promoted
+PASS rejected: future_evidence
+PASS rejected: missing_reference
+PASS rejected: fact_verified_without_evidence
+PASS 16 input files unchanged; 553 protected files unchanged; copied sources identical.

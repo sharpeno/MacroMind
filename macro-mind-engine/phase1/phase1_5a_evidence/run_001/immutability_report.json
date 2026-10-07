@@ -1,0 +1,31 @@
+{
+  "all_protected_changes": [],
+  "allowed_added": [
+    "macro-mind-engine/docs/ANALYTICAL_CONTINUITY_HOOK.md",
+    "macro-mind-engine/docs/PHASE1_5A_AUDIT_CONTRACT.md",
+    "macro-mind-engine/scripts/verify_phase1_5a.py",
+    "macro-mind-engine/src/macromind/audit/__init__.py",
+    "macro-mind-engine/src/macromind/audit/continuity.py",
+    "macro-mind-engine/src/macromind/audit/ids.py",
+    "macro-mind-engine/src/macromind/audit/inputs.py",
+    "macro-mind-engine/src/macromind/audit/models.py",
+    "macro-mind-engine/src/macromind/audit/normalize.py",
+    "macro-mind-engine/src/macromind/audit/provenance.py",
+    "macro-mind-engine/tests/audit/conftest.py",
+    "macro-mind-engine/tests/audit/test_continuity.py",
+    "macro-mind-engine/tests/audit/test_determinism.py",
+    "macro-mind-engine/tests/audit/test_immutability.py",
+    "macro-mind-engine/tests/audit/test_normalization.py",
+    "macro-mind-engine/tests/audit/test_provenance.py",
+    "macro-mind-engine/tests/audit/test_real_artifacts.py"
+  ],
+  "checked_files": 588,
+  "compatibility_changed": [],
+  "frozen_changed": [],
+  "golden_changed": [],
+  "registry_changed": [],
+  "schema_changed": [],
+  "source_inputs_changed": [],
+  "unexpected_added": [],
+  "validator_changed": []
+}

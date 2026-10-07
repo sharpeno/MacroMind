@@ -1,0 +1,25 @@
+{
+  "received_at": "2026-10-03T09:19:21.468293+00:00",
+  "original_path": "C:\\Users\\无语\\Downloads\\MacroMind_run002_2026-10-03_171713_CST_7of7_full_04670a4c.json",
+  "archived_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\raw\\MacroMind_run002_2026-10-03_171713_CST_7of7_full_04670a4c.json",
+  "sha256": "df7b11f5f90a1e059976c12822fe3e7f00dd64bb073bb0e2f66bb50ad1ddce3f",
+  "dataset": "a5eddbab90c0a05a919931152b51d3af10a4a6d3fefc0e89f49da3079baf55fe",
+  "records": 7,
+  "decisions": {
+    "faithful": 4,
+    "audio_ok": 3
+  },
+  "reviewer": "Unnamed user submission in current chat",
+  "immutable_checks": [
+    {
+      "package": "run001",
+      "checked": 347,
+      "mismatches": []
+    },
+    {
+      "package": "run002",
+      "checked": 301,
+      "mismatches": []
+    }
+  ]
+}

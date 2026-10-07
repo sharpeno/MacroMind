@@ -1,0 +1,57 @@
+[
+  {
+    "id": "EP001/C02",
+    "guard_status": "GUARDS_PASSED",
+    "guard_review_required": [],
+    "claim_marked_unreviewed": true,
+    "assistant_status": "NO_CLEAR_MISMATCH_FOUND",
+    "reason": "当前表述保留了美国加息的条件、宽松转收紧及短暂/持续两种路径。本次未发现明确失真；并非证明完整或正确。",
+    "proposed_text": null,
+    "human_status": "PENDING",
+    "truth_verified": false
+  },
+  {
+    "id": "EP002/C05",
+    "guard_status": "GUARDS_PASSED",
+    "guard_review_required": [],
+    "claim_marked_unreviewed": true,
+    "assistant_status": "POTENTIAL_STRENGTH_AND_ATTRIBUTION_LOSS",
+    "reason": "原话128是“全世界其他国家库存基本快见底”，原提取变成“可能不足”，强度有所降低。127提及官方测算，但片段未给可核验出处；应区分博主说法和已证实官方数据。",
+    "proposed_text": "博主把中国开始补充库存解读为其他国家石油库存已接近见底的信号；原话提到“官方测算”，但本片段未提供可定位来源，该判断及测算归属尚未独立核实。",
+    "human_status": "PENDING",
+    "truth_verified": false
+  },
+  {
+    "id": "EP003/C18",
+    "guard_status": "GUARDS_PASSED",
+    "guard_review_required": [],
+    "claim_marked_unreviewed": true,
+    "assistant_status": "POTENTIAL_CAUSAL_SCOPE_DRIFT",
+    "reason": "原话351–353强调政治人物不能主宰市场趋势，面对市场交易压力其立场受限；现有“制度与利益条件”引入了这段未明确说明的概括，遗漏具体约束机制。",
+    "proposed_text": "博主认为，政治人物不能凭个人意愿主宰市场趋势；面对市场交易压力，他们的立场和政策选择会受到约束。他用“冲浪者而非浪潮制造者”来说明这一判断。",
+    "human_status": "PENDING",
+    "truth_verified": false
+  },
+  {
+    "id": "EP004/C08",
+    "guard_status": "GUARDS_PASSED",
+    "guard_review_required": [],
+    "claim_marked_unreviewed": true,
+    "assistant_status": "POTENTIAL_CONDITION_LOSS",
+    "reason": "原话132–135是检查药效是否符合预期，不符合才修改候选物；“筛选→实验→修改”的线性概括可能让修改看起来是必经步骤。",
+    "proposed_text": "博主描述先筛选潜在有用的化合物，再通过实验检验作用是否符合预期；若结果不符，则修改候选物并观察新效果，之后再筛出稳定方向。",
+    "human_status": "PENDING",
+    "truth_verified": false
+  },
+  {
+    "id": "EP005/C21",
+    "guard_status": "GUARDS_PASSED",
+    "guard_review_required": [],
+    "claim_marked_unreviewed": true,
+    "assistant_status": "NO_CLEAR_MISMATCH_FOUND",
+    "reason": "原话402–410支持人口密度将小众需求累积成可维生职业；现有主张保留了这一机制。412的大城市吸引人口优势属进一步展开，本次不强制扩写。",
+    "proposed_text": null,
+    "human_status": "PENDING",
+    "truth_verified": false
+  }
+]

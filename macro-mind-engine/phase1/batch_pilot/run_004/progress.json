@@ -1,0 +1,12 @@
+{
+  "stage": "USER_APPROVED_HOLDOUT_CORRECTIONS_APPLIED",
+  "completed": [
+    "Two exact human-approved claim corrections",
+    "Three original statements retained",
+    "Two changed episode audits completed"
+  ],
+  "unfinished": [
+    "Original 53 nonreference findings and source issues remain"
+  ],
+  "quality_report": "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\calibrated_001\\REPORT.md"
+}

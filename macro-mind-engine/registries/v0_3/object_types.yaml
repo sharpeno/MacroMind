@@ -1,0 +1,188 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "name": "Source",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Source"
+    },
+    {
+      "name": "Claim",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Claim"
+    },
+    {
+      "name": "Event",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Event"
+    },
+    {
+      "name": "StructuralProcess",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#StructuralProcess"
+    },
+    {
+      "name": "Actor",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Actor"
+    },
+    {
+      "name": "Indicator",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Indicator"
+    },
+    {
+      "name": "Policy",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Policy"
+    },
+    {
+      "name": "Mechanism",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Mechanism"
+    },
+    {
+      "name": "Argument",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Argument"
+    },
+    {
+      "name": "Thesis",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Thesis"
+    },
+    {
+      "name": "Forecast",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Forecast"
+    },
+    {
+      "name": "Contradiction",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Contradiction"
+    },
+    {
+      "name": "Assessment",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Assessment"
+    },
+    {
+      "name": "Heuristic",
+      "kind": "core",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Frozen Core definition: core_objects.json#Heuristic"
+    },
+    {
+      "name": "SourceVersion",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: SourceVersion"
+    },
+    {
+      "name": "SourceSegment",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: SourceSegment"
+    },
+    {
+      "name": "SourceFamily",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: SourceFamily"
+    },
+    {
+      "name": "ClaimOccurrence",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: ClaimOccurrence"
+    },
+    {
+      "name": "TranscriptCorrection",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: TranscriptCorrection"
+    },
+    {
+      "name": "IndicatorObservation",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: IndicatorObservation"
+    },
+    {
+      "name": "InformationSet",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: InformationSet"
+    },
+    {
+      "name": "ExpectationSnapshot",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: ExpectationSnapshot"
+    },
+    {
+      "name": "Scenario",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: Scenario"
+    },
+    {
+      "name": "ReviewQueueItem",
+      "kind": "governance",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: ReviewQueueItem"
+    },
+    {
+      "name": "AnalystMethodSignal",
+      "kind": "analyst_auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: AnalystMethodSignal"
+    },
+    {
+      "name": "MechanismUsage",
+      "kind": "auxiliary",
+      "ontology_version": "0.3",
+      "introduced_in": "0.1.0",
+      "description": "Non-Core executable representation: MechanismUsage"
+    }
+  ]
+}

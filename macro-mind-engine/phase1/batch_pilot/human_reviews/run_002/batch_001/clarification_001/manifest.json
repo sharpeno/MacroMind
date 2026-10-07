@@ -1,0 +1,12 @@
+{
+  "artifacts": {
+    "adopted_transcription_corrections.json": "ba60f835987fec14d1e102c1252cd936863cddc60b956cd5e8b7f5475ed627b6",
+    "EP002_reviewed_transcript.json": "7ab176706182f3e8f956e0f9a7002622d27d8e144ba1e25a5ed3ef646630b946",
+    "EP003_reviewed_transcript.json": "0746ec32a5ff813c83dd1a4250a3e46425c8fb528ceec887489e43a2f852441e",
+    "progress.json": "23bac787342d65c6bf39da13ce79e36489ca630dbb7ae51db84d8e9cef9550a1",
+    "REVIEW_REPORT.md": "68aa8eab0dda3ec6163561fce43be407273bb3321e438d5d1e8c293b7c724884",
+    "review_resolution.json": "f149d406c9d2af321d7669a5621e167973b88915cb6b8ec64f5107b562ae3a02",
+    "user_clarification.json": "c7f8d964caa9392d176e632397fadbe2ce9d7f15d54d1cbadbf125d62c4dc369",
+    "verification.json": "c1dbd9be70a156aa845a7175d0765514eaf33152608f1d5c31fc1c9479415c43"
+  }
+}

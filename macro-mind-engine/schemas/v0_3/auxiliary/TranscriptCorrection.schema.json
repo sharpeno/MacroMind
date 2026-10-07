@@ -1,0 +1,177 @@
+{
+  "$defs": {
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:TranscriptCorrection",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+  "properties": {
+    "corrected_text": {
+      "description": "Attributed correction",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Corrected Text",
+      "type": "string"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "TranscriptCorrection",
+      "default": "TranscriptCorrection",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "observer": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Correction author",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Observer"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "original_text": {
+      "description": "Unmodified original text",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Original Text",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "reason": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Correction evidence",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Reason"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_refs": {
+      "description": "Supporting evidence",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "source_segment_ref": {
+      "description": "Original transcript segment",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Source Segment Ref",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "source_segment_ref",
+    "original_text",
+    "corrected_text",
+    "reason",
+    "observer",
+    "source_refs"
+  ],
+  "title": "TranscriptCorrection",
+  "type": "object"
+}

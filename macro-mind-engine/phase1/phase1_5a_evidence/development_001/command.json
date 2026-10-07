@@ -1,0 +1,1 @@
+["G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe", "-X", "utf8", "-m", "pytest", "tests/audit", "-q", "-W", "error", "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_5a_evidence\\development_001\\tests.xml"]

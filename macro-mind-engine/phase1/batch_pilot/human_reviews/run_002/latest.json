@@ -1,0 +1,8 @@
+{
+  "batch": "batch_001",
+  "clarification": "clarification_001",
+  "receipt": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\receipt.json",
+  "resolution": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\clarification_001\\review_resolution.json",
+  "report": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_002\\batch_001\\clarification_001\\REVIEW_REPORT.md",
+  "status": "FIRST10_CHAIN_FIDELITY_USER_ACCEPTED"
+}

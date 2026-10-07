@@ -1,0 +1,64 @@
+{
+  "allowed_added": [
+    {
+      "actual": "785a4c9abb7f6d4f065007298f4f41795b924ad2f0e4192f29b3b0424f5f3f4b",
+      "path": "macro-mind-engine/docs/PHASE1_5B1_PATTERN_AGGREGATION.md"
+    },
+    {
+      "actual": "0d4a00eb2fbd505ec869128977e47a1a23424a4f5ea435be4b4dc0be35790d7a",
+      "path": "macro-mind-engine/scripts/verify_phase1_5b1.py"
+    },
+    {
+      "actual": "d3dfb304b282b59308ee003b556fa99a3ce6a8d1b445d99ff00c571fd4474238",
+      "path": "macro-mind-engine/src/macromind/audit/patterns/__init__.py"
+    },
+    {
+      "actual": "4c03f96e72f914324fa4a64149a7f8f9f2dfb2d8b0e44118c7bd11ab6593ff75",
+      "path": "macro-mind-engine/src/macromind/audit/patterns/aggregate.py"
+    },
+    {
+      "actual": "c0f999fd8970dc78c8e5ea0aede3b97b7773109cd3c7c39d428bf60d39a9731a",
+      "path": "macro-mind-engine/src/macromind/audit/patterns/models.py"
+    },
+    {
+      "actual": "b544ea4c6002b81a0b8b885e35a954c707ca9f99d7206c0726c3d9e336bcfacf",
+      "path": "macro-mind-engine/src/macromind/audit/patterns/signature.py"
+    },
+    {
+      "actual": "96c1020951c85d93fca6887aee7bea72faae9ac1bf5adb8c7f5ce27c6d7b7d20",
+      "path": "macro-mind-engine/tests/audit_patterns/__init__.py"
+    },
+    {
+      "actual": "c7063c5cb9b3f68a4afbe240740f1be487de28ab01511b9f15b94d71b3f0c186",
+      "path": "macro-mind-engine/tests/audit_patterns/helpers.py"
+    },
+    {
+      "actual": "9c24be8abc36690c45fae9064967b14d8ccf16651072740d58c0c6a0d139b6b5",
+      "path": "macro-mind-engine/tests/audit_patterns/test_aggregation.py"
+    },
+    {
+      "actual": "14a2a7f84d30b319890d497cf130b3649c086134d2b1908c5d4b6138951ac4f1",
+      "path": "macro-mind-engine/tests/audit_patterns/test_conservation.py"
+    },
+    {
+      "actual": "a6181f83320a9c7efb2ae261b515e9433e439aa405f9f3b1f642e7cc31195e93",
+      "path": "macro-mind-engine/tests/audit_patterns/test_determinism.py"
+    },
+    {
+      "actual": "1d618fba2b61b0c1e34c98a045820fd0da500963182b1771c5edc7a8c7907e12",
+      "path": "macro-mind-engine/tests/audit_patterns/test_disposition.py"
+    },
+    {
+      "actual": "51b4286e7fc57a04252adc15da003fd17336b281f201a8a531bf4637caeaacd5",
+      "path": "macro-mind-engine/tests/audit_patterns/test_real_phase1_5a.py"
+    },
+    {
+      "actual": "32c1b8076d3d79d76269a301d64f4d3761d7d22c9dcc212e1750180e372e759a",
+      "path": "macro-mind-engine/tests/audit_patterns/test_signature.py"
+    }
+  ],
+  "external_operational_changes": [],
+  "protected_changes": [],
+  "protected_files_checked": 688,
+  "unexpected_added": []
+}

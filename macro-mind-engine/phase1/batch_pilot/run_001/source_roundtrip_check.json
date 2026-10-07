@@ -1,0 +1,27 @@
+[
+  {
+    "episode": "EP001",
+    "original_srt_roundtrip": true,
+    "cues": 221
+  },
+  {
+    "episode": "EP002",
+    "original_srt_roundtrip": true,
+    "cues": 425
+  },
+  {
+    "episode": "EP003",
+    "original_srt_roundtrip": true,
+    "cues": 415
+  },
+  {
+    "episode": "EP004",
+    "original_srt_roundtrip": true,
+    "cues": 342
+  },
+  {
+    "episode": "EP005",
+    "original_srt_roundtrip": true,
+    "cues": 510
+  }
+]

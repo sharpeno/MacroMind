@@ -1,0 +1,118 @@
+{
+  "version": "1",
+  "episode": "EP002",
+  "source_digest": "9873c6090e95c54b60bfd72e3c3f103cf00de16495585730047577d57e1c14fb",
+  "annotation_digest": "a2a1cb241016e9cbf4bb2ccec6a22ec1bef559d548b209a1fc836a592e3e873a",
+  "observer": "current_assistant; same-author nonblind self-review",
+  "items": [
+    {
+      "claim_id": "C16",
+      "original_statement": "博主用假想讲话说明备用方案的重要性；这些话不是央行已经发表的讲话。",
+      "proposed_statement": "博主用假想的央行讲话说明提前准备纠错方案的重要性：他设想在适当时点提出货币与财政共同应对通胀、低增长和信用压力，并可能接受较长时间或更强的加息。这是其对可能政策路径的推演，并非央行已发表的讲话。",
+      "action": "revise",
+      "evidence_cues": [
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400
+      ],
+      "dimensions": {
+        "speaker_role": {
+          "status": "addressed",
+          "assessment": "博主假设央行负责人接下来可能如何讲话，不是已发表的央行声明。",
+          "cue_ids": [
+            396,
+            397,
+            399,
+            400
+          ]
+        },
+        "modality": {
+          "status": "addressed",
+          "assessment": "有可能、如果出现；是条件性推演，非确定政策。",
+          "cue_ids": [
+            399,
+            400
+          ]
+        },
+        "conditions": {
+          "status": "addressed",
+          "assessment": "须提前准备plan B；可能通过证明独立性后在合适节点调整解释与政策组合。",
+          "cue_ids": [
+            392,
+            396
+          ]
+        },
+        "time_scope": {
+          "status": "addressed",
+          "assessment": "接下来可能宣布，具体时间节点未确定。",
+          "cue_ids": [
+            396,
+            399,
+            400
+          ]
+        },
+        "objects": {
+          "status": "addressed",
+          "assessment": "假想讲话针对美联储及美国通胀、增长与信用问题，不泛化为所有央行。",
+          "cue_ids": [
+            395,
+            397
+          ]
+        },
+        "assumptions": {
+          "status": "addressed",
+          "assessment": "博主假定政策制定者可能准备纠错手段；没有证明现实中已形成该方案。",
+          "cue_ids": [
+            390,
+            392,
+            396
+          ]
+        },
+        "reasoning_relation": {
+          "status": "addressed",
+          "assessment": "先用领导纠错的类比讲备用方案，再展开一段假想政策表述。",
+          "cue_ids": [
+            389,
+            390,
+            396,
+            397,
+            398,
+            399
+          ]
+        },
+        "alternatives": {
+          "status": "addressed",
+          "assessment": "有准备的引导纠错，对比没有plan B时随市场被动行动；货币加财政是其假想方案内容。",
+          "cue_ids": [
+            392,
+            393,
+            397
+          ]
+        },
+        "external_evidence": {
+          "status": "unresolved",
+          "assessment": "片段转述人名和讲话但未给可定位文件，不能作为实际政策发布证据。",
+          "cue_ids": [
+            393,
+            394,
+            399,
+            400
+          ]
+        }
+      },
+      "forecast_use": "background_only",
+      "human_status": "PENDING"
+    }
+  ]
+}

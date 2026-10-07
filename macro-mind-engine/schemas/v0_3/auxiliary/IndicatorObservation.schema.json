@@ -1,0 +1,495 @@
+{
+  "$defs": {
+    "ComparisonBasis": {
+      "additionalProperties": false,
+      "properties": {
+        "baseline_period": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TimeReference"
+            },
+            {
+              "$ref": "#/$defs/UnknownValue"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Baseline period independent of observation period.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis",
+          "title": "Baseline Period"
+        },
+        "baseline_source_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Baseline provenance, None when unrecorded.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis",
+          "title": "Baseline Source Ref"
+        },
+        "baseline_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "$ref": "#/$defs/UnknownValue"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported baseline; never calculated.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis",
+          "title": "Baseline Value"
+        },
+        "comparison_type": {
+          "$ref": "#/$defs/ComparisonType",
+          "description": "Reported comparison category, including unknown.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis"
+        },
+        "delta_unit": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "$ref": "#/$defs/UnknownValue"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Preserve percent versus percentage point or original ambiguity.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis",
+          "title": "Delta Unit"
+        },
+        "delta_value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "$ref": "#/$defs/UnknownValue"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported delta, not inferred from values.",
+          "field_origin": "validated_auxiliary_contract",
+          "source_ref": "MA.1 comparison_basis",
+          "title": "Delta Value"
+        }
+      },
+      "required": [
+        "comparison_type",
+        "baseline_value",
+        "baseline_period",
+        "baseline_source_ref",
+        "delta_value",
+        "delta_unit"
+      ],
+      "title": "ComparisonBasis",
+      "type": "object"
+    },
+    "ComparisonType": {
+      "enum": [
+        "none",
+        "yoy",
+        "qoq",
+        "mom",
+        "sequential",
+        "versus_consensus",
+        "versus_guidance",
+        "versus_baseline",
+        "versus_prior_period",
+        "percentage_point_change",
+        "absolute_delta",
+        "indexed_to",
+        "other",
+        "unknown"
+      ],
+      "title": "ComparisonType",
+      "type": "string"
+    },
+    "RecognitionStage": {
+      "enum": [
+        "planned",
+        "contracted",
+        "ordered",
+        "committed",
+        "delivered",
+        "deployed",
+        "utilized",
+        "revenue_recognized",
+        "cash_collected",
+        "expensed",
+        "depreciated",
+        "impaired",
+        "unknown"
+      ],
+      "title": "RecognitionStage",
+      "type": "string"
+    },
+    "SemanticRole": {
+      "enum": [
+        "demand",
+        "order",
+        "contract",
+        "backlog",
+        "obligation",
+        "revenue",
+        "cash_receipt",
+        "capacity",
+        "utilization",
+        "asset",
+        "capex",
+        "depreciation",
+        "impairment",
+        "operating_expense",
+        "operating_cost",
+        "cash_flow",
+        "profit",
+        "margin",
+        "valuation",
+        "price",
+        "volume",
+        "inventory",
+        "other",
+        "unknown"
+      ],
+      "title": "SemanticRole",
+      "type": "string"
+    },
+    "TimeReference": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded end, if known.",
+          "field_origin": "implementation_extension",
+          "title": "End"
+        },
+        "source_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Evidence for this temporal expression.",
+          "field_origin": "implementation_extension",
+          "title": "Source Ref"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded start, if known.",
+          "field_origin": "implementation_extension",
+          "title": "Start"
+        },
+        "text": {
+          "description": "Original temporal expression; no inferred exact date.",
+          "field_origin": "implementation_extension",
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TimeReference",
+      "type": "object"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    },
+    "ValueKind": {
+      "enum": [
+        "target",
+        "design_capacity",
+        "guidance",
+        "observed_value",
+        "unknown"
+      ],
+      "title": "ValueKind",
+      "type": "string"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:IndicatorObservation",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+  "properties": {
+    "comparison_basis": {
+      "$ref": "#/$defs/ComparisonBasis",
+      "description": "Reported comparison structure",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "indicator_ref": {
+      "description": "Reusable indicator definition",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Indicator Ref",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "IndicatorObservation",
+      "default": "IndicatorObservation",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "period": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TimeReference"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observation period",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Period"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "recognition_stage": {
+      "$ref": "#/$defs/RecognitionStage",
+      "description": "Recorded recognition stage",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "semantic_role": {
+      "$ref": "#/$defs/SemanticRole",
+      "description": "Economic role",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "semantic_role_detail": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Other or legacy specialized role",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Semantic Role Detail"
+    },
+    "source_refs": {
+      "description": "Observation sources",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "storage_role": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded storage role; unknown retained",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Storage Role"
+    },
+    "unit": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded unit without conversion",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Unit"
+    },
+    "value": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded number or explicit unknown",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Value"
+    },
+    "value_kind": {
+      "$ref": "#/$defs/ValueKind",
+      "description": "Target/design/guidance/observed category",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    }
+  },
+  "required": [
+    "id",
+    "indicator_ref",
+    "value",
+    "unit",
+    "period",
+    "value_kind",
+    "comparison_basis",
+    "semantic_role",
+    "semantic_role_detail",
+    "recognition_stage",
+    "storage_role",
+    "source_refs"
+  ],
+  "title": "IndicatorObservation",
+  "type": "object"
+}

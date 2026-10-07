@@ -1,0 +1,17 @@
+{
+  "status": "INTAKE_COMPLETE_WITH_LIMITATIONS",
+  "generated_artifact_hashes": {
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/input_manifest.json": "0a41e7920c1dc822a67c49c017ad3ec59710889d909266a2e96b2df28a9539a2",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/inspection.command.json": "fc82444155d84af52ffc60d68a0857bc7a8645197d7f3024e77bd633dc8085f8",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/inspection.json": "83b94668df40a22189804f56c623297352797a065feae889fbea2cfc07fdb43e",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/inspection.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/inspection.stdout.txt": "c1c321ca9396395158c865eeef74b72e8944521da4f614b01df1510859777d7e",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/inspect_materials.py": "89e7d575f3b21ab25a2561923d15f59c2e44fad94c35d140fa79b0a10f6ef22d",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/INTAKE_REPORT.md": "239900ce7ae7b6f5f49d275a7ff3a20b3c348ab14e9d13f498e36ffcdc9cba7b",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/progress.json": "6ead52ee4be86ef88bf63717ba35570d788bd1a368868d896f26b02e46ae57fb",
+    "macro-mind-engine/phase1/batch_pilot_intake/run_001/reference_candidates.json": "f8676d8a0cfd3d44b5270b89b47fcd0e1e245c2182be15f33701eb33c8b77552",
+    "codex迭代/codex prompt/20261003MacroMind Batch Pilot — First 5 Episodes Execution Prompt.md": "7d41e74e7f7b5c4d71297037449e89ba5fabe8d99e89bd30b80f3ea031af08d8"
+  },
+  "input_files_checked": 26,
+  "input_mismatches": []
+}

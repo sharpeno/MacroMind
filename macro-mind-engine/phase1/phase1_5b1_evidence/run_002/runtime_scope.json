@@ -1,0 +1,21 @@
+{
+  "automatic_analytical_threads_created": 0,
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "phase1_5b2": "NOT_STARTED",
+    "phase1_5c": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production": "NOT_READY"
+  },
+  "imports": [
+    "collections",
+    "enum",
+    "math",
+    "pydantic",
+    "re",
+    "typing"
+  ],
+  "protected_scope_clean": true,
+  "violations": []
+}

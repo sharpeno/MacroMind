@@ -1,0 +1,2636 @@
+[
+  {
+    "object": {
+      "id": "EP003/C05",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0080",
+          "EP003/cue/0081",
+          "EP003/cue/0082",
+          "EP003/cue/0083",
+          "EP003/cue/0084",
+          "EP003/cue/0085",
+          "EP003/cue/0086",
+          "EP003/cue/0087",
+          "EP003/cue/0088",
+          "EP003/cue/0089",
+          "EP003/cue/0090"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "汇率点位、单位及变动幅度字幕需核对。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C05",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C05",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0080",
+              "EP003/cue/0081",
+              "EP003/cue/0082",
+              "EP003/cue/0083",
+              "EP003/cue/0084",
+              "EP003/cue/0085",
+              "EP003/cue/0086",
+              "EP003/cue/0087",
+              "EP003/cue/0088",
+              "EP003/cue/0089",
+              "EP003/cue/0090"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "statement": {
+          "value": "汇率点位、单位及变动幅度字幕需核对。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+          ]
+        }
+      }
+    }
+  },
+  {
+    "object": {
+      "id": "EP003/C06",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0099",
+          "EP003/cue/0100",
+          "EP003/cue/0101",
+          "EP003/cue/0102",
+          "EP003/cue/0103",
+          "EP003/cue/0104",
+          "EP003/cue/0105",
+          "EP003/cue/0106",
+          "EP003/cue/0107",
+          "EP003/cue/0108",
+          "EP003/cue/0109",
+          "EP003/cue/0110",
+          "EP003/cue/0111",
+          "EP003/cue/0112",
+          "EP003/cue/0113",
+          "EP003/cue/0114",
+          "EP003/cue/0115",
+          "EP003/cue/0116",
+          "EP003/cue/0117",
+          "EP003/cue/0118",
+          "EP003/cue/0119",
+          "EP003/cue/0120"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "汇率干预金额和美日成本比较中数值、单位冲突，暂缓定量结论。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C06",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C06",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0099",
+              "EP003/cue/0100",
+              "EP003/cue/0101",
+              "EP003/cue/0102",
+              "EP003/cue/0103",
+              "EP003/cue/0104",
+              "EP003/cue/0105",
+              "EP003/cue/0106",
+              "EP003/cue/0107",
+              "EP003/cue/0108",
+              "EP003/cue/0109",
+              "EP003/cue/0110",
+              "EP003/cue/0111",
+              "EP003/cue/0112",
+              "EP003/cue/0113",
+              "EP003/cue/0114",
+              "EP003/cue/0115",
+              "EP003/cue/0116",
+              "EP003/cue/0117",
+              "EP003/cue/0118",
+              "EP003/cue/0119",
+              "EP003/cue/0120"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "statement": {
+          "value": "汇率干预金额和美日成本比较中数值、单位冲突，暂缓定量结论。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ]
+        }
+      }
+    }
+  },
+  {
+    "object": {
+      "id": "EP003/C10",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0173",
+          "EP003/cue/0174",
+          "EP003/cue/0175",
+          "EP003/cue/0176",
+          "EP003/cue/0177",
+          "EP003/cue/0178",
+          "EP003/cue/0179"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "博主提及一则讲话并承认未找到原消息，相关引用待补证。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C10",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C10",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0173",
+              "EP003/cue/0174",
+              "EP003/cue/0175",
+              "EP003/cue/0176",
+              "EP003/cue/0177",
+              "EP003/cue/0178",
+              "EP003/cue/0179"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "statement": {
+          "value": "博主提及一则讲话并承认未找到原消息，相关引用待补证。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179
+          ]
+        }
+      }
+    }
+  },
+  {
+    "object": {
+      "id": "EP003/C12",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0238",
+          "EP003/cue/0239",
+          "EP003/cue/0240",
+          "EP003/cue/0241",
+          "EP003/cue/0242",
+          "EP003/cue/0243",
+          "EP003/cue/0244",
+          "EP003/cue/0245",
+          "EP003/cue/0246",
+          "EP003/cue/0247",
+          "EP003/cue/0248",
+          "EP003/cue/0249",
+          "EP003/cue/0250",
+          "EP003/cue/0251",
+          "EP003/cue/0252",
+          "EP003/cue/0253",
+          "EP003/cue/0254",
+          "EP003/cue/0255",
+          "EP003/cue/0256"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "能源冲击传导时长出现月份、半年与“8年”等不一致表述，需核听。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C12",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C12",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0238",
+              "EP003/cue/0239",
+              "EP003/cue/0240",
+              "EP003/cue/0241",
+              "EP003/cue/0242",
+              "EP003/cue/0243",
+              "EP003/cue/0244",
+              "EP003/cue/0245",
+              "EP003/cue/0246",
+              "EP003/cue/0247",
+              "EP003/cue/0248",
+              "EP003/cue/0249",
+              "EP003/cue/0250",
+              "EP003/cue/0251",
+              "EP003/cue/0252",
+              "EP003/cue/0253",
+              "EP003/cue/0254",
+              "EP003/cue/0255",
+              "EP003/cue/0256"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "statement": {
+          "value": "能源冲击传导时长出现月份、半年与“8年”等不一致表述，需核听。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256
+          ]
+        }
+      }
+    }
+  },
+  {
+    "object": {
+      "id": "EP003/C17",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0343",
+          "EP003/cue/0344",
+          "EP003/cue/0345",
+          "EP003/cue/0346",
+          "EP003/cue/0347",
+          "EP003/cue/0348"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "政策利率、房贷利率与期限连接需进一步核对，暂缓定量表述。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C17",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C17",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0343",
+              "EP003/cue/0344",
+              "EP003/cue/0345",
+              "EP003/cue/0346",
+              "EP003/cue/0347",
+              "EP003/cue/0348"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "statement": {
+          "value": "政策利率、房贷利率与期限连接需进一步核对，暂缓定量表述。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            343,
+            344,
+            345,
+            346,
+            347,
+            348
+          ]
+        }
+      }
+    }
+  },
+  {
+    "object": {
+      "id": "EP003/C19",
+      "object_type": "Claim",
+      "schema_version": "0.1.0",
+      "ontology_version": "0.3",
+      "created_at": null,
+      "provenance_refs": [],
+      "metadata": {
+        "source_segment_refs": [
+          "EP003/cue/0365",
+          "EP003/cue/0366",
+          "EP003/cue/0367",
+          "EP003/cue/0368"
+        ],
+        "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+        "truth_verified": false,
+        "human_review": "PENDING"
+      },
+      "statement": "历史加息年代与幅度字幕有疑点，暂不使用作比较依据。",
+      "claimant": "analyst:9527:user_attributed",
+      "asserted_at": {
+        "state": "unknown"
+      },
+      "reference_time": {
+        "state": "unknown"
+      },
+      "population": {
+        "state": "unknown"
+      },
+      "quantifier": {
+        "state": "unknown"
+      },
+      "modal_strength": {
+        "state": "unknown"
+      },
+      "scope": "Assistant-normalized attributed utterance; not verified fact",
+      "source_refs": [
+        "EP003/source"
+      ],
+      "reasoner_id": "analyst:9527:user_attributed",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+    },
+    "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+    "review_status": "PENDING_AUDIO_OR_HUMAN",
+    "source_mapping": {
+      "object_ref": "EP003/C19",
+      "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP003\\原始字幕.srt",
+      "source_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "cue_ids": [
+        365,
+        366,
+        367,
+        368
+      ],
+      "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+      "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+      "fields": {
+        "id": {
+          "value": "EP003/C19",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "object_type": {
+          "value": "Claim",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "schema_version": {
+          "value": "0.1.0",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "ontology_version": {
+          "value": "0.3",
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "created_at": {
+          "value": null,
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "provenance_refs": {
+          "value": [],
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "metadata": {
+          "value": {
+            "source_segment_refs": [
+              "EP003/cue/0365",
+              "EP003/cue/0366",
+              "EP003/cue/0367",
+              "EP003/cue/0368"
+            ],
+            "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+            "truth_verified": false,
+            "human_review": "PENDING"
+          },
+          "origin": "implementation_or_source_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "statement": {
+          "value": "历史加息年代与幅度字幕有疑点，暂不使用作比较依据。",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "claimant": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "asserted_at": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "reference_time": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "population": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "quantifier": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "modal_strength": {
+          "value": {
+            "state": "unknown"
+          },
+          "origin": "declared_unknown",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "scope": {
+          "value": "Assistant-normalized attributed utterance; not verified fact",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "source_refs": {
+          "value": [
+            "EP003/source"
+          ],
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "reasoner_id": {
+          "value": "analyst:9527:user_attributed",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "analysis_context": {
+          "value": "historical_reconstruction",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        },
+        "annotation_observer": {
+          "value": "observer:current_assistant:model_version_unrecorded",
+          "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+          "cue_ids": [
+            365,
+            366,
+            367,
+            368
+          ]
+        }
+      }
+    }
+  }
+]

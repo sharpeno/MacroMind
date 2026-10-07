@@ -1,0 +1,20 @@
+{
+  "status": "FIDELITY_CANDIDATE_PREPARED",
+  "completed": [
+    "two-task objective and rubric",
+    "12 gap diagnoses using latest reviews",
+    "7 candidate operations",
+    "8 partial analyst states",
+    "4 reconstruction examples",
+    "independent prompt and fixed comparison protocol",
+    "current navigation updated",
+    "structural integrity verified"
+  ],
+  "pending": [
+    "controlled development replay using fresh model contexts",
+    "human semantic assessment of new candidate",
+    "fixed-configuration unseen fidelity evaluation"
+  ],
+  "old_framework_replaced": false,
+  "remaining_holdouts_read": false
+}

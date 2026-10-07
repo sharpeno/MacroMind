@@ -1,0 +1,9 @@
+{
+  "run": "run_001",
+  "trace": "phase1/method_timeline/run_001/TRACE.html",
+  "report": "phase1/method_timeline/run_001/REPORT.md",
+  "progress": "phase1/method_timeline/run_001/PROGRESS.md",
+  "status": "HISTORICAL_UPDATE_REPLAY_COMPLETE",
+  "forecast_score_eligible": false,
+  "canonical_run_unchanged": "run_005"
+}

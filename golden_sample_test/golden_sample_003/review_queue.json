@@ -1,0 +1,524 @@
+[
+  {
+    "review_id": "RQ001",
+    "severity": "Critical",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C057",
+      "C058",
+      "AR05"
+    ],
+    "issue": "产地可用储油空间与消费库存耗尽混淆，影响整条60天链。",
+    "required_action": "回听20:20–20:50并取得JPM原研报及库容/流量/减产假设。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ002",
+    "severity": "Critical",
+    "review_type": "excessive_inference",
+    "target_refs": [
+      "C064",
+      "AR05"
+    ],
+    "issue": "30×2不能证明战争绝不超过60天。",
+    "required_action": "分离物理约束与政治结果，登记可反证的期限定义。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ003",
+    "severity": "Critical",
+    "review_type": "excessive_inference",
+    "target_refs": [
+      "C082",
+      "C083",
+      "AR09"
+    ],
+    "issue": "控制航道被升级成全球定价权和美国独享新增收益。",
+    "required_action": "补边际供给、替代来源、市场份额、合同与收入分配证据。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ004",
+    "severity": "Critical",
+    "review_type": "event_timing",
+    "target_refs": [
+      "S05",
+      "LV06",
+      "LV07",
+      "LV08",
+      "LV09",
+      "LV10"
+    ],
+    "issue": "滚动页面包含cutoff后内容；历史版本不可恢复。",
+    "required_action": "仅准入时间明确条目；未知改动仍标版本风险，不将后续页当原页。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ005",
+    "severity": "High",
+    "review_type": "source_conflict",
+    "target_refs": [
+      "C001",
+      "X01",
+      "X02"
+    ],
+    "issue": "大摩、摩根大通和德银预测来源/条件混在一起。",
+    "required_action": "核音与原研报，机构不自动替换。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ006",
+    "severity": "High",
+    "review_type": "numerical_conflict",
+    "target_refs": [
+      "C041",
+      "X04",
+      "X15"
+    ],
+    "issue": "30–40%全球油供可能混用海运出口分母和年份。",
+    "required_action": "匹配同年同口径后判断，不自动替换20%。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ007",
+    "severity": "High",
+    "review_type": "numerical_conflict",
+    "target_refs": [
+      "C036",
+      "C037",
+      "C078"
+    ],
+    "issue": "一周+一个月、四周、40天互相不等价。",
+    "required_action": "保留原始相对窗口；核查锚点再转换日历日。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ008",
+    "severity": "High",
+    "review_type": "asr_uncertain",
+    "target_refs": [
+      "C080",
+      "C086",
+      "COR13"
+    ],
+    "issue": "100到126与后文100/120不同。",
+    "required_action": "听音确认数字；两个说法暂分开并关联，不能默改。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ009",
+    "severity": "High",
+    "review_type": "source_dependency",
+    "target_refs": [
+      "S02",
+      "S03",
+      "S06",
+      "S07",
+      "S08"
+    ],
+    "issue": "同源ASR以及Reuters转载不能累加独立证据。",
+    "required_action": "按原始讲话/统计/通知起源计数，文章可分多个证据家族。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ010",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "X05",
+      "X06",
+      "X07",
+      "C027"
+    ],
+    "issue": "封锁、击沉、航母后退不能仅靠战方/转述核实。",
+    "required_action": "查独立船位、卫星/航运资料；与宣布行为分开。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ011",
+    "severity": "High",
+    "review_type": "argument_bridge",
+    "target_refs": [
+      "M01",
+      "M02",
+      "AR01"
+    ],
+    "issue": "运输保险成本到期货涨幅缺可交付供给和风险定价节点。",
+    "required_action": "取得同基准价格、运费保险、库存及替代供应时序。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ012",
+    "severity": "High",
+    "review_type": "argument_bridge",
+    "target_refs": [
+      "M03",
+      "M04",
+      "AR09"
+    ],
+    "issue": "全球定价和美国国内补贴之间缺财政/公司收益分配节点。",
+    "required_action": "不得登记成已存在政策；核制度和资金渠道。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ013",
+    "severity": "High",
+    "review_type": "argument_bridge",
+    "target_refs": [
+      "M06",
+      "C093",
+      "C004"
+    ],
+    "issue": "资本赴美、中国以及流入AI没有数据支持。",
+    "required_action": "寻找cutoff前跨境流量/资产配置/融资证据。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ014",
+    "severity": "High",
+    "review_type": "numerical_conflict",
+    "target_refs": [
+      "C045",
+      "C046"
+    ],
+    "issue": "六七比100与1万比六七缺同弹种同时间产量来源。",
+    "required_action": "原始鲁比奥讲话及实际生产能力分别核查。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ015",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C065",
+      "AR06"
+    ],
+    "issue": "未能识别历史封锁60天皆妥协的案例集合。",
+    "required_action": "要求事件、日期和封锁定义；没有则不入Verified。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ016",
+    "severity": "High",
+    "review_type": "excessive_inference",
+    "target_refs": [
+      "C070",
+      "C071",
+      "AR08"
+    ],
+    "issue": "无敌舰队挫折被压缩成国家即时衰落。",
+    "required_action": "核历史时间尺度及其他原因；保持有限类比。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ017",
+    "severity": "High",
+    "review_type": "forecast_lineage",
+    "target_refs": [
+      "C053",
+      "C104"
+    ],
+    "issue": "主播追述往期预测与比喻，未取得原节目。",
+    "required_action": "检索原版本、原时点和原措辞；不反填历史Forecast。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ018",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C048",
+      "C049",
+      "C050",
+      "C081"
+    ],
+    "issue": "台湾结果必然、中国国家战略、韩国认知、美国控制委内瑞拉均未得原始证据。",
+    "required_action": "区分主播判断和国家实际政策，补各自来源。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ019",
+    "severity": "High",
+    "review_type": "source_conflict",
+    "target_refs": [
+      "S11",
+      "X12",
+      "X15"
+    ],
+    "issue": "EIA正文注明重刊改标签，但修正时间未知。",
+    "required_action": "获取2026-03-03前存档；当前版本只作核查线索。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ020",
+    "severity": "High",
+    "review_type": "registry_extension",
+    "target_refs": [
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "AR13"
+    ],
+    "issue": "未读Reuters原页后续版本；LNG流程改变未取得可准入原通知。",
+    "required_action": "分原油/成品油/运费/LNG，已核查范围不外推。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ021",
+    "severity": "High",
+    "review_type": "source_conflict",
+    "target_refs": [
+      "C030",
+      "EV09"
+    ],
+    "issue": "计划重开空域不能写成已经安全开放。",
+    "required_action": "核实际开放时刻与航班运行；原话仍保留。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ022",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C091",
+      "C092"
+    ],
+    "issue": "AI在本轮战争的实际使用与估值支撑两层均缺原证。",
+    "required_action": "核军用应用再单独检验商业价值传导。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ023",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C022",
+      "C096"
+    ],
+    "issue": "特朗普谈判/美元承诺系二手引用，原始采访未读。",
+    "required_action": "找cutoff前原采访，维持reported_only。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ024",
+    "severity": "Medium",
+    "review_type": "speaker_slip_review",
+    "target_refs": [
+      "C051",
+      "AN04"
+    ],
+    "issue": "国庆节与春节前时间错位。",
+    "required_action": "回听后再判ASR或口误，不能按常识静默纠正。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ025",
+    "severity": "Medium",
+    "review_type": "entity_resolution",
+    "target_refs": [
+      "C088",
+      "AN09"
+    ],
+    "issue": "“为了连任”的主体及选举对象不清。",
+    "required_action": "确认原音与上下文，不补写宪法例外或第三任假说。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ026",
+    "severity": "Medium",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C008",
+      "C011",
+      "C012",
+      "C013"
+    ],
+    "issue": "30公里、几百船、吨位及6分钟缺地点、统计时点和船型。",
+    "required_action": "核海图与航运统计；地理宽度不等于航道宽度。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ027",
+    "severity": "Medium",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C017",
+      "C108"
+    ],
+    "issue": "20%是设想、70是举例基值，不是已核市场观测。",
+    "required_action": "保留projected/estimated，勿并入观察时间序列。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ028",
+    "severity": "Medium",
+    "review_type": "claim_duplication",
+    "target_refs": [
+      "C025",
+      "C075",
+      "C079",
+      "C085",
+      "C080",
+      "C086"
+    ],
+    "issue": "同方向但窗口/数值不同；不能全部合并或计作独立新证据。",
+    "required_action": "维持场景与版本关系，听音后处理126。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ029",
+    "severity": "Medium",
+    "review_type": "process_boundary",
+    "target_refs": [
+      "TH01",
+      "TH02",
+      "TH03"
+    ],
+    "issue": "战争数日与单次通知不足证明结构性变迁。",
+    "required_action": "补跨时间观测；现阶段StructuralProcess=0。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ030",
+    "severity": "Medium",
+    "review_type": "attribution_chain",
+    "target_refs": [
+      "EX01",
+      "C076"
+    ],
+    "issue": "市场预期是主播推断，非调查或隐含波动率测量。",
+    "required_action": "补具体群体和当时市场量，不作总体共识。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ031",
+    "severity": "Medium",
+    "review_type": "contradictory_assessment",
+    "target_refs": [
+      "C020",
+      "C077",
+      "C075",
+      "C035"
+    ],
+    "issue": "逐步失控与部分主动、慢涨与条件120未必逻辑冲突。",
+    "required_action": "比较时点、条件和度量后才能CONTRADICTS。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ032",
+    "severity": "Medium",
+    "review_type": "registry_extension",
+    "target_refs": [
+      "TH01",
+      "TH02",
+      "TH03"
+    ],
+    "issue": "只有本地样本目录，没有完整Thesis注册表。",
+    "required_action": "全库查same/update/related/new；目前决策为provisional。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ033",
+    "severity": "Medium",
+    "review_type": "event_timing",
+    "target_refs": [
+      "S01",
+      "S13"
+    ],
+    "issue": "发布时间来自追加文件，录制时间未知。",
+    "required_action": "用平台元数据交叉核对；字幕时间不加到发布时间。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ034",
+    "severity": "Medium",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C087",
+      "C062"
+    ],
+    "issue": "历史利润归属和主权基金资本作用未给统计。",
+    "required_action": "核年份、利润口径及可撤出头寸，不据规模自动推政治控制。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ035",
+    "severity": "Low",
+    "review_type": "asr_uncertain",
+    "target_refs": [
+      "COR01",
+      "COR02",
+      "COR03",
+      "COR04",
+      "COR05",
+      "COR06",
+      "COR07",
+      "COR08",
+      "COR11",
+      "COR12",
+      "COR15",
+      "COR16"
+    ],
+    "issue": "专名与常用词语义纠错可信，但尚未听音。",
+    "required_action": "候选规范化与raw分开，回听后才accepted。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ036",
+    "severity": "High",
+    "review_type": "forecast_lineage",
+    "target_refs": [
+      "FC-C004",
+      "FC-C005",
+      "FC-C025",
+      "FC-C026",
+      "FC-C028",
+      "FC-C029",
+      "FC-C031",
+      "FC-C032",
+      "FC-C034",
+      "FC-C035",
+      "FC-C037",
+      "FC-C039",
+      "FC-C040",
+      "FC-C042",
+      "FC-C047",
+      "FC-C048",
+      "FC-C055",
+      "FC-C060",
+      "FC-C061",
+      "FC-C063",
+      "FC-C064",
+      "FC-C067",
+      "FC-C068",
+      "FC-C069",
+      "FC-C073",
+      "FC-C075",
+      "FC-C076",
+      "FC-C078",
+      "FC-C079",
+      "FC-C080",
+      "FC-C083",
+      "FC-C085",
+      "FC-C086",
+      "FC-C088",
+      "FC-C089",
+      "FC-C090",
+      "FC-C092",
+      "FC-C004",
+      "FC-C099",
+      "FC-C100",
+      "FC-C101",
+      "FC-C103",
+      "FC-C106",
+      "FC-X01",
+      "FC-X02",
+      "FC-X03",
+      "FC-X14"
+    ],
+    "issue": "多数预测缺油种/窗口锚点/条件阈值或胜负定义；所有model判准未获人工批准。",
+    "required_action": "逐条锁定标准后另建后验评估；本样本不使用cutoff后结果。",
+    "status": "open"
+  }
+]

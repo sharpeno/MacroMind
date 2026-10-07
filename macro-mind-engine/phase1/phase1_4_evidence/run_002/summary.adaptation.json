@@ -1,0 +1,83 @@
+{
+  "adaptation_manifest": {
+    "adapter_id": "compat.summary_only_legacy",
+    "adapter_version": "0.1.0",
+    "canonical_bundle_hash": "736520c9db846d6eb9b018e064d7db14c108b04d27d92032fe34dd4a34710741",
+    "canonical_object_count": 0,
+    "detection_status": "STRONG",
+    "loss_count": 1,
+    "mapping_ledger_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "quarantined_object_count": 0,
+    "source_family": "SUMMARY_ONLY_LEGACY",
+    "source_object_count": 0,
+    "source_sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+    "source_unchanged": true,
+    "status": "PARTIAL",
+    "target_ontology_version": "0.3",
+    "target_schema_version": "0.1.0",
+    "unknown_count": 0,
+    "validator_summary": {
+      "deterministic_hash": "f78d7e519481c3a7029ed8540f690ffa3b8d9f28993eeedae9a0c916d654ee5d",
+      "errors": [],
+      "mode": "partial_bundle",
+      "object_count": 0,
+      "outcome_counts": {
+        "ERROR": 0,
+        "INDETERMINATE": 0,
+        "NOT_APPLICABLE": 36,
+        "PASS": 1,
+        "WARNING": 0
+      },
+      "validator_version": "0.1.0"
+    }
+  },
+  "adapter_id": "compat.summary_only_legacy",
+  "adapter_version": "0.1.0",
+  "canonical_bundle": {
+    "objects": []
+  },
+  "canonical_object_count": 0,
+  "canonical_reconstruction_forbidden": true,
+  "detection_status": "STRONG",
+  "deterministic_hash": "c547e3eaae62e85f88c4c9233c792a3b02419e6065f34a309d200731e247e754",
+  "losses": [
+    {
+      "canonical_effect": "Raw text only; canonical_reconstruction_forbidden.",
+      "category": "SUMMARY_ONLY_LIMITATION",
+      "description": "Unstructured carrier cannot reconstruct semantic objects.",
+      "loss_id": "loss:06c9f6026433c88386465d9c",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": ""
+    }
+  ],
+  "mapping_ledger": [],
+  "quarantined_items": [],
+  "quarantined_object_count": 0,
+  "raw_document": "# Golden Sample #001 — 第765期（V0.1 Draft）\n\n## 结论\n本样本证明 MacroMind 的四层结构可用：Evidence → Knowledge → Reasoning → Framework。\n最有价值的不是视频摘要，而是以下三类结构化资产：\n\n1. **来源冲突**：主播关于“决议前市场认为只加一次”的叙述，与其列出的决议前财联社参考文发生直接冲突。\n2. **作用层次差异**：主播说加息解决不了能源供给源头；沃什则明确把Fed作用限定为防止二级、三级通胀扩散。这不是简单真假二选一。\n3. **叙事拆解**：主播对沃什“经济走强/资本竞争/地缘政治”三项长期收益率解释逐一重新定位为表象、结果或更深层结构信号。\n\n## 统计\n- Sources: 9（其中用户给出的内容/参考源7，新增官方验证源2）\n- Semantic segments: 9 \n- Key claims: 33\n- Events: 5\n- Assessments: 5（示例核心项）\n- Arguments: 7\n- Mechanisms: 5\n- Theses: 5\n- Forecasts: 6\n- Candidate heuristics: 4\n- Review queue: 13\n\n## 当前不应升级为“已验证框架”的内容\n- “结构力量优先于政治人物”目前只是 Candidate Heuristic。\n- “美国安全资产属性结构性弱化”只是高推理距离 Thesis，不是事实。\n- “AI泡沫即将破裂”是 Forecast，不是事实。\n- “美国已进入滞胀”当前资料包不足以验证。\n\n## V0.1 对Schema/Extraction Spec的反馈\n1. `Claim.verification` 最终应逐步迁移为独立 Assessment；本草稿为便于人工阅读暂时保留摘要字段。\n2. 必须增加 `source_conflict` 和 `forecast_lineage` 两类 Review Queue。\n3. `Argument` 中应明确区分 explicit / strongly_implied / model_reconstruction。\n4. Forecast 必须有 resolvability 概念；主播很多预测方向明确但时间窗口模糊。\n5. Narrative Deconstruction 应成为正式阶段，而不是普通 Claim Verification 的附属步骤。\n",
+  "recommended_validation_mode": "partial_bundle",
+  "source_family": "SUMMARY_ONLY_LEGACY",
+  "source_object_count": 0,
+  "source_sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+  "status": "PARTIAL",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknowns": [],
+  "unsupported_fields": [],
+  "validator_report_summary": {
+    "deterministic_hash": "f78d7e519481c3a7029ed8540f690ffa3b8d9f28993eeedae9a0c916d654ee5d",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 0,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 0,
+      "NOT_APPLICABLE": 36,
+      "PASS": 1,
+      "WARNING": 0
+    },
+    "validator_version": "0.1.0"
+  },
+  "warnings": []
+}

@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-03T20:12:54.799395+00:00",
+  "stage": "FROZEN_CHECK_COMPLETE_HUMAN_CALIBRATION_PENDING",
+  "completed": [
+    "5 non-overlapping samples frozen",
+    "5 guard CLI checks executed",
+    "Same-assistant semantic second-pass: 3 potential mismatches, 2 no-clear-mismatch",
+    "8 UI checks passed",
+    "Policies and canonical data unchanged"
+  ],
+  "unfinished": [
+    "Human calibration of 5 judgments",
+    "No confirmed error count or population accuracy",
+    "No revisions applied to canonical data; original unresolved fields remain"
+  ],
+  "next_step": "User exports MacroMind_holdout001 review JSON",
+  "improvement_proven": false
+}

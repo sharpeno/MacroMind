@@ -1,0 +1,32 @@
+{
+  "episode": "EP005",
+  "cues": 510,
+  "coverage": {
+    "REVIEW_REQUIRED": 167,
+    "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 189,
+    "MAPPED_CLAIM_AND_CONTEXT": 154
+  },
+  "candidate_objects": 834,
+  "pre_admission_deferred": 9,
+  "activation_deferred": 127,
+  "active_objects": 698,
+  "active_types": {
+    "Argument": 5,
+    "Claim": 16,
+    "ClaimOccurrence": 163,
+    "Scenario": 2,
+    "Source": 1,
+    "SourceSegment": 510,
+    "SourceVersion": 1
+  },
+  "normalized_claims": 26,
+  "active_claims": 16,
+  "arguments": 6,
+  "active_arguments": 5,
+  "forecast_candidates_not_admitted": 2,
+  "audio_issue_groups": 14,
+  "nonreference_indeterminate": 13,
+  "warnings": 0,
+  "human_review": "PENDING",
+  "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction"
+}

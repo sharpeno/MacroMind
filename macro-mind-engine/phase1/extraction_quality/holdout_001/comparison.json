@@ -1,0 +1,13 @@
+{
+  "sample_size": 5,
+  "episode_count": 5,
+  "prior_review_cue_overlap": 0,
+  "specific_rule_facet_overlap": 0,
+  "guard_baseline_passes": 5,
+  "assistant_no_clear_mismatch": 2,
+  "assistant_potential_mismatch": 3,
+  "human_confirmed_errors": null,
+  "precision_recall": "NOT_MEASURED; no human ground truth and no paired extraction experiment",
+  "improvement_proven": false,
+  "conclusion": "Known-error guards do not diagnose fresh semantic mismatch in unchanged baseline statements. All five remain unreviewed by guard; no false semantic acceptance emitted."
+}

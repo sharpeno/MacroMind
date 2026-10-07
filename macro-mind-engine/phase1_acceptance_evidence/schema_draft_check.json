@@ -1,0 +1,194 @@
+{
+  "all_verified": true,
+  "checker": "jsonschema.Draft202012Validator.check_schema",
+  "checker_version": "4.26.0",
+  "created_during_acceptance_evidence_completion": true,
+  "file_count": 26,
+  "files": [
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Actor.schema.json",
+      "sha256": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Argument.schema.json",
+      "sha256": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Assessment.schema.json",
+      "sha256": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Claim.schema.json",
+      "sha256": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Contradiction.schema.json",
+      "sha256": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Event.schema.json",
+      "sha256": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Forecast.schema.json",
+      "sha256": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Heuristic.schema.json",
+      "sha256": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Indicator.schema.json",
+      "sha256": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Mechanism.schema.json",
+      "sha256": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Policy.schema.json",
+      "sha256": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Source.schema.json",
+      "sha256": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/StructuralProcess.schema.json",
+      "sha256": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/core/Thesis.schema.json",
+      "sha256": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/AnalystMethodSignal.schema.json",
+      "sha256": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/ClaimOccurrence.schema.json",
+      "sha256": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/ExpectationSnapshot.schema.json",
+      "sha256": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/IndicatorObservation.schema.json",
+      "sha256": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/InformationSet.schema.json",
+      "sha256": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/MechanismUsage.schema.json",
+      "sha256": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/ReviewQueueItem.schema.json",
+      "sha256": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/Scenario.schema.json",
+      "sha256": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/SourceFamily.schema.json",
+      "sha256": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/SourceSegment.schema.json",
+      "sha256": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/SourceVersion.schema.json",
+      "sha256": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409"
+    },
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "draft_2020_12_compatible": true,
+      "error": null,
+      "path": "schemas/v0_3/auxiliary/TranscriptCorrection.schema.json",
+      "sha256": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38"
+    }
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "started_at": "2026-09-27T14:09:06.462553+00:00"
+}

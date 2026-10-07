@@ -1,0 +1,1318 @@
+[
+  {
+    "source_segment_id": "SS-C001",
+    "source_id": "SRC03",
+    "cue_start": 1,
+    "cue_end": 1,
+    "start": "00:00:00,090",
+    "end": "00:00:20,090",
+    "raw_text": "大家好，今天跟大家聊聊央行行长潘刚盛9月13号在求市上等等这篇主题文章啊，这文章很有分量，因为这个时间节点上写这篇文章意义是非凡的。现在是啥时间节点呢？这不是美联储刚刚加息嘛啊，随以说美联储加息，那日本央行是不是也加息？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C002",
+    "source_id": "SRC03",
+    "cue_start": 1,
+    "cue_end": 2,
+    "start": "00:00:00,090",
+    "end": "00:00:40,090",
+    "raw_text": "大家好，今天跟大家聊聊央行行长潘刚盛9月13号在求市上等等这篇主题文章啊，这文章很有分量，因为这个时间节点上写这篇文章意义是非凡的。现在是啥时间节点呢？这不是美联储刚刚加息嘛啊，随以说美联储加息，那日本央行是不是也加息？那随着日本央行美联储加息，注意啊，这篇文章是写在美联储加息之前的啊。那潘行长写这篇文章的时候，我认为啊他应该对美联储的处境是非常非常清楚的。因为呢情同此心，深同此景啊，是吧？大家都是行长，面临的整个的这个局面都差不多的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C003",
+    "source_id": "SRC03",
+    "cue_start": 17,
+    "cue_end": 17,
+    "start": "00:01:33,820",
+    "end": "00:01:37,570",
+    "raw_text": "那，现在美联储加息了，日本的央行也加息了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C004",
+    "source_id": "SRC03",
+    "cue_start": 18,
+    "cue_end": 18,
+    "start": "00:01:37,570",
+    "end": "00:01:39,180",
+    "raw_text": "欧洲这边也加起了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C005",
+    "source_id": "SRC03",
+    "cue_start": 2,
+    "cue_end": 3,
+    "start": "00:00:20,090",
+    "end": "00:01:00,090",
+    "raw_text": "那随着日本央行美联储加息，注意啊，这篇文章是写在美联储加息之前的啊。那潘行长写这篇文章的时候，我认为啊他应该对美联储的处境是非常非常清楚的。因为呢情同此心，深同此景啊，是吧？大家都是行长，面临的整个的这个局面都差不多的。不过呢啊各位其主啊，我作为中国的央行行长，你作为美国的美联储主席，面对着问题箩筐。那使用的手段的话大差不差啊，殊途同归嘛，一理相通，所以呢他应该是提前就能够深刻的把握啊，握实现在的处境，以及呢他可能会做做的选择。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C006",
+    "source_id": "SRC03",
+    "cue_start": 8,
+    "cue_end": 12,
+    "start": "00:01:08,240",
+    "end": "00:01:23,910",
+    "raw_text": "通篇没有写啊，外国如何如何，但是通篇其实已经。给。除了中国以外的金融系统会发生啥？做了一个基础的背景盯调啊。那按照这样的方式来解读这篇文章，我觉得。那可能可以看出来另外一层意思。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C007",
+    "source_id": "SRC03",
+    "cue_start": 20,
+    "cue_end": 23,
+    "start": "00:01:40,210",
+    "end": "00:01:59,250",
+    "raw_text": "意味着2024年以来的宽松环境没有了。之前的时候跟大家聊过是吧，美元潮汐的节奏呢是8年宽松，两年紧缩。现在呢现在彻底反过来了是吧？紧了以后放放只放了两年，放也没放到位。然后呢，现在呢又开始转紧了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C008",
+    "source_id": "SRC03",
+    "cue_start": 21,
+    "cue_end": 21,
+    "start": "00:01:44,790",
+    "end": "00:01:50,720",
+    "raw_text": "之前的时候跟大家聊过是吧，美元潮汐的节奏呢是8年宽松，两年紧缩。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C009",
+    "source_id": "SRC03",
+    "cue_start": 21,
+    "cue_end": 23,
+    "start": "00:01:44,790",
+    "end": "00:01:59,250",
+    "raw_text": "之前的时候跟大家聊过是吧，美元潮汐的节奏呢是8年宽松，两年紧缩。现在呢现在彻底反过来了是吧？紧了以后放放只放了两年，放也没放到位。然后呢，现在呢又开始转紧了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C010",
+    "source_id": "SRC03",
+    "cue_start": 25,
+    "cue_end": 25,
+    "start": "00:02:01,160",
+    "end": "00:02:04,490",
+    "raw_text": "大家普遍的判断的认为持续不了多长时间。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C011",
+    "source_id": "SRC03",
+    "cue_start": 26,
+    "cue_end": 29,
+    "start": "00:02:04,640",
+    "end": "00:02:17,420",
+    "raw_text": "但是如果啊我说是如果啊。那么它颠覆常识。啊，突然之间持续的时间很长的，因为。毕竟很多很多的做法跟解释都是做法先行解释后后补的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C012",
+    "source_id": "SRC03",
+    "cue_start": 30,
+    "cue_end": 31,
+    "start": "00:02:17,440",
+    "end": "00:02:24,510",
+    "raw_text": "美联储之前的时候啊。呃，worker时代的时候是吧，一下子加息到20%之前也是从未有过先例的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C013",
+    "source_id": "SRC03",
+    "cue_start": 33,
+    "cue_end": 35,
+    "start": "00:02:26,870",
+    "end": "00:02:35,200",
+    "raw_text": "呃，现在的美债规模跟当年的美债规模不是一个概念。所以现在美联储没有能力。一口气加的那么高。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C014",
+    "source_id": "SRC03",
+    "cue_start": 37,
+    "cue_end": 41,
+    "start": "00:02:37,320",
+    "end": "00:02:51,550",
+    "raw_text": "就是现在之所以不能够加那么高，是因为。啊，如果你加那么高的话，这个美元要贬值。啊，因为大家都不信任你了嘛。你还自己债务规模产生的利息。需要支付的那个成本就已经比你的GDP更高了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C015",
+    "source_id": "SRC03",
+    "cue_start": 38,
+    "cue_end": 48,
+    "start": "00:02:40,680",
+    "end": "00:03:10,580",
+    "raw_text": "啊，如果你加那么高的话，这个美元要贬值。啊，因为大家都不信任你了嘛。你还自己债务规模产生的利息。需要支付的那个成本就已经比你的GDP更高了。那你未来的话要还利息，还是要。那个维持生活，维持继续的这个呃财务的个扩张。这互相之间这个不可能三角要完成。那这最后的话肯定是以美元信用为代价的。所以如果强行的。进行一个暴力的加息。那可能最先垮掉的是美元的信用，对吧？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C016",
+    "source_id": "SRC03",
+    "cue_start": 56,
+    "cue_end": 60,
+    "start": "00:03:28,380",
+    "end": "00:03:45,180",
+    "raw_text": "另外呢你有可能啊还可以用比烂的逻辑，我只要让其他的竞争对手比我更烂。我就可能呢继续保持相对的这种优势。只要相对优势在的话，那我凭借着。啊，你们也没有其他更好的选择。那我想摆烂就可以摆烂了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C017",
+    "source_id": "SRC03",
+    "cue_start": 66,
+    "cue_end": 68,
+    "start": "00:03:56,170",
+    "end": "00:04:04,740",
+    "raw_text": "有没有可能？这个债出来了以后，他就没打算要换，没打算要还。那既然没打算要还，没打算要还的话，如果。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C018",
+    "source_id": "SRC03",
+    "cue_start": 69,
+    "cue_end": 82,
+    "start": "00:04:04,740",
+    "end": "00:04:41,970",
+    "raw_text": "能够通过短期的暴力的操作。把这些长远的发展逻辑换成短期的过关逻辑的话。是不是有可能。你就不用太关心。我把利息加的很高啊，导致的一系列的这些副作用。因为这些副作用可能需要好几年才能体现出来。但是。你把利息加高了以后给你。带来的一些是吧便利的空间。给你带来了一些盈利的条件。这是现实，就可以直接。获得的。这样的一个长短之间的时间差。是不是现在。对于美国来说，可能选择的一个方案。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C019",
+    "source_id": "SRC03",
+    "cue_start": 96,
+    "cue_end": 98,
+    "start": "00:05:11,120",
+    "end": "00:05:21,260",
+    "raw_text": "在紧缩的过程中，它一边呢。利息提的很高是吧？利率水平提的很高。但是另外一边呢，它又在不停的扩表，不停的在这个市场市场上注入水分。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C020",
+    "source_id": "SRC03",
+    "cue_start": 99,
+    "cue_end": 102,
+    "start": "00:05:21,290",
+    "end": "00:05:29,800",
+    "raw_text": "这样的看起来。啊，自觉生入的行为。透支未来的行为。那它美债的规模膨胀的速度会加快。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C021",
+    "source_id": "SRC03",
+    "cue_start": 103,
+    "cue_end": 113,
+    "start": "00:05:29,800",
+    "end": "00:06:00,290",
+    "raw_text": "那膨胀到一定程度里头，会不会？让那些持有巨量美债的。国家以及民间。对于他很多很多的行为，容忍度反而上升了，而不是下降了。所谓的大而不能倒。啊，这个伟大不调。啊，这个。店大欺可都是这么个的道理嘛？啊，这主动权你作为损失厌恶型的那些投资者而言的话。那看在未来啊，过去那么庞大的投资可能打水漂的情况下。他眼前的一些小作乱可能呢就会忍一忍了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C022",
+    "source_id": "SRC03",
+    "cue_start": 114,
+    "cue_end": 122,
+    "start": "00:06:00,290",
+    "end": "00:06:23,370",
+    "raw_text": "当年二战不就是这么爆发的吗？希特勒不是在反复的试探。英法对于。Now.德国的这种战争挑衅的容忍能力嘛。那英法为啥要容忍德国不停的这种战争挑衅呢？就认为呢。如果能够把希特勒这个恶犬纳粹来这个恶犬。引导到去帮英法对抗苏联的话。那给他放松点缰绳也未尝不可。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C023",
+    "source_id": "SRC03",
+    "cue_start": 128,
+    "cue_end": 136,
+    "start": "00:06:32,610",
+    "end": "00:06:55,640",
+    "raw_text": "而且呢经历了一战以后，英法的社会。在二战爆发之前。实际上是对战争的风险是极度的厌恶的。在那个社会里边，你稍微一想起来，当年。也就是大概20年前，对吧？松母和战役。那你想的话，那绞肉机。马那马恩和孙母和那绞肉机。那肯定都是不想再打仗了。所以呢对于希特勒。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C024",
+    "source_id": "SRC03",
+    "cue_start": 136,
+    "cue_end": 142,
+    "start": "00:06:51,880",
+    "end": "00:07:09,150",
+    "raw_text": "那肯定都是不想再打仗了。所以呢对于希特勒。闪击波澜的这种动作。吞并这个。素台德的这些动作。啊，扩匀的动作。违反了这个驿战的那个条约的那些动作。都是睁只眼，闭只眼视而不见的，甚至呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C025",
+    "source_id": "SRC03",
+    "cue_start": 143,
+    "cue_end": 147,
+    "start": "00:07:09,150",
+    "end": "00:07:25,470",
+    "raw_text": "战争都已经打响了啊，那张伯伦还跑到。那个进攻去跟希特勒谈判，谁是天河堡还是进攻，我忘了啊。跟那个希特勒谈判。最后呢他拿了一张废纸进来，说回回到英国，向他的国民宣布。我带来一个世纪的合平。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C026",
+    "source_id": "SRC03",
+    "cue_start": 151,
+    "cue_end": 157,
+    "start": "00:07:30,750",
+    "end": "00:07:57,180",
+    "raw_text": "很多时候的话大家是有惰性的，而且。很多时候呢，大家面对着巨量的无法预料的损失是有。显著的这种损失厌恶偏好的。而有野心的人。会充分的利用这样的损失偏好，打时间差来获得自己的呃优势的地位，战略上优势的地位。这个的话这次之前上一轮是希特勒。这轮可不可能是美联储？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C027",
+    "source_id": "SRC03",
+    "cue_start": 159,
+    "cue_end": 168,
+    "start": "00:08:00,300",
+    "end": "00:08:19,220",
+    "raw_text": "而对这些风险的识别。恰恰呢是这篇文章里边真正值得关注的。没有写在文章直接表面。但是在。Nly.啊，整个的背后的逻辑。实际上是都遵照这样的一个方向的。那通过这样的方式来解读这。这篇文章我觉得就。非常的有现实意义。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C028",
+    "source_id": "SRC03",
+    "cue_start": 194,
+    "cue_end": 195,
+    "start": "00:09:22,910",
+    "end": "00:09:28,360",
+    "raw_text": "银行的行长啊。肯定是首先是站在银行的利益的，人银行的立场上的呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C029",
+    "source_id": "SRC03",
+    "cue_start": 196,
+    "cue_end": 199,
+    "start": "00:09:28,360",
+    "end": "00:09:39,100",
+    "raw_text": "长期以来呢，中国的融资结构有银行的贷款主导。金融市场的规模较小。近年来呢，银行主导。为主体的这个间接融资占比呢持续的下降。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C030",
+    "source_id": "SRC03",
+    "cue_start": 200,
+    "cue_end": 202,
+    "start": "00:09:39,100",
+    "end": "00:09:46,550",
+    "raw_text": "包括债券。呃，股票在内的直接融资呢占比稳步的上升。金融结构呢正在发生深刻的变化。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C031",
+    "source_id": "SRC03",
+    "cue_start": 207,
+    "cue_end": 210,
+    "start": "00:10:00,680",
+    "end": "00:10:16,600",
+    "raw_text": "从增量来看呢，债券和股票融资合计的增量呢已经超过了大款。在2013年以前。中国新增的间接融资占社会融资规模增量的比重呢在80%以上。基本呢都由贷款构成。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C032",
+    "source_id": "SRC03",
+    "cue_start": 212,
+    "cue_end": 219,
+    "start": "00:10:19,440",
+    "end": "00:10:43,440",
+    "raw_text": "就直接融资的话是以。需求资金的方。直接向拥有资金的方借款。啊，这种方式来进行融资。借款的方式呢包括了打借条所谓的罚债券是吧？然后呢，发行股票也是所谓的发债券是吧？就是也是反相相当于是大借条。通过这种方式。啊进行直接的在有资金的这个对象面前进行融资，这叫直接融资。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C033",
+    "source_id": "SRC03",
+    "cue_start": 217,
+    "cue_end": 217,
+    "start": "00:10:31,950",
+    "end": "00:10:37,250",
+    "raw_text": "然后呢，发行股票也是所谓的发债券是吧？就是也是反相相当于是大借条。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C034",
+    "source_id": "SRC03",
+    "cue_start": 222,
+    "cue_end": 231,
+    "start": "00:10:47,520",
+    "end": "00:11:15,350",
+    "raw_text": "以银行为主导的。那有钱的人呢把钱存到银行。由银行呢帮助把这些储储蓄呢。啊，加了杠杆以后，放到那些需要贷款的企业，银行这中间呢居中呢占取虚差啊，占占这个赚这个续息差是吧？这种呢叫做。这个间接的融资。以前2013年以前呢。中国新增的这个融资。的比例80%都是是个间接融资。充分证明了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C035",
+    "source_id": "SRC03",
+    "cue_start": 232,
+    "cue_end": 244,
+    "start": "00:11:15,350",
+    "end": "00:11:47,650",
+    "raw_text": "这市场上对于民间互相之间的这种。觉得。除了商票关系，就是之前的时候那个迪恋啊或者什么的那商票关系。那商标关系简单来说的话就是。靠着合作关系作为背书，打的借条，打的白条啊吧？除了这种关系以外的话。在民间，你想要拿到。啊，融资想要拿到这种啊资金的这个支持。是非常非常难的。因为大家都互相之间缺乏信任。也缺乏一个。比较合适的一个投资的市场。但是呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C036",
+    "source_id": "SRC03",
+    "cue_start": 245,
+    "cue_end": 255,
+    "start": "00:11:47,650",
+    "end": "00:12:20,140",
+    "raw_text": "到了2025年至20313年以前吧。为啥要强调2013年呢？那不是2008年金融危机，2013年第二次金融危机吗？啊，次贷危机，然后到2013年不是第二次。次然危机引起的这个次生灾害开始出现了。所以呢。讲的是2013年以前。随着这个时间出现了这个点了以后呢。中国呢因为美国那边出问题。咱们这边的话就相当于是放开了手脚嘛。所以很多的中国的市场的变化机会。以及呢很多积极的反应都是232013年和以后出现的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C037",
+    "source_id": "SRC03",
+    "cue_start": 256,
+    "cue_end": 257,
+    "start": "00:12:20,260",
+    "end": "00:12:26,000",
+    "raw_text": "到了2025年。社会融资的规模增量呢是35.6万亿。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C038",
+    "source_id": "SRC03",
+    "cue_start": 258,
+    "cue_end": 258,
+    "start": "00:12:26,000",
+    "end": "00:12:30,620",
+    "raw_text": "其中呢，企业债券、政府债券和股票融资的合计占比47%。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C039",
+    "source_id": "SRC03",
+    "cue_start": 259,
+    "cue_end": 259,
+    "start": "00:12:30,620",
+    "end": "00:12:32,420",
+    "raw_text": "首次呢超过了贷款。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C040",
+    "source_id": "SRC03",
+    "cue_start": 260,
+    "cue_end": 269,
+    "start": "00:12:32,420",
+    "end": "00:12:53,810",
+    "raw_text": "就过去呢。贷款的规模。2013年以前。是占了8成以上的。那现在呢就是2025年。这个贷款的规模呢已经低于47%了。啊，从八成降到47%以下。几乎呢就是腰斩了。啊。这个背后的变化，实际上呢就是。中国的这个金融市场蓬勃的发展。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C041",
+    "source_id": "SRC03",
+    "cue_start": 270,
+    "cue_end": 276,
+    "start": "00:12:53,810",
+    "end": "00:13:07,290",
+    "raw_text": "市场化的程度。不倦单身高。啊，市场的这个容量不断的扩大。这是一个非常非常积极的变化。这代表着。以银行为主的。间接融资渠道啊，已经退居慈禧了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C042",
+    "source_id": "SRC03",
+    "cue_start": 277,
+    "cue_end": 286,
+    "start": "00:13:07,290",
+    "end": "00:13:31,850",
+    "raw_text": "这样的变化之下。才是写这篇文章主要的目的。You know.潘光盛写这篇文章的时候，实际上是要给大家解释。为啥最近一段时间？涉容涉零扩展的非常非常的不好啊，甚至呢老是负增长。啊，为啥呢？那个金融的空转是吧，包括。这个剪刀叉啊没有改善的这个迹象。得出来给你稳稳态度啊，这篇文章写作的背景。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C043",
+    "source_id": "SRC03",
+    "cue_start": 277,
+    "cue_end": 299,
+    "start": "00:13:07,290",
+    "end": "00:14:06,580",
+    "raw_text": "这样的变化之下。才是写这篇文章主要的目的。You know.潘光盛写这篇文章的时候，实际上是要给大家解释。为啥最近一段时间？涉容涉零扩展的非常非常的不好啊，甚至呢老是负增长。啊，为啥呢？那个金融的空转是吧，包括。这个剪刀叉啊没有改善的这个迹象。得出来给你稳稳态度啊，这篇文章写作的背景。这是背景啊，不是说这篇文章写作的这真正真正目的啊。他处于这样的要求之下，要写一个稳定人心的文章出来。但是这篇文章的本质来说的话，只指。核心的矛盾质量很高，这两个并不矛盾，好吧。就是花样文章。来堵腔眼的。但是你不妨碍这篇文章写的质量非常非常的扎实。甚至呢讨论的话题。无论是内涵还是外延，都远远达过了他需要堵的。需要给大家解释的。这么一个小小的需求，很有很像是那种。抛砖引玉的感觉。好吧。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C044",
+    "source_id": "SRC03",
+    "cue_start": 287,
+    "cue_end": 299,
+    "start": "00:13:31,850",
+    "end": "00:14:06,580",
+    "raw_text": "这是背景啊，不是说这篇文章写作的这真正真正目的啊。他处于这样的要求之下，要写一个稳定人心的文章出来。但是这篇文章的本质来说的话，只指。核心的矛盾质量很高，这两个并不矛盾，好吧。就是花样文章。来堵腔眼的。但是你不妨碍这篇文章写的质量非常非常的扎实。甚至呢讨论的话题。无论是内涵还是外延，都远远达过了他需要堵的。需要给大家解释的。这么一个小小的需求，很有很像是那种。抛砖引玉的感觉。好吧。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C045",
+    "source_id": "SRC03",
+    "cue_start": 300,
+    "cue_end": 306,
+    "start": "00:14:07,570",
+    "end": "00:14:33,160",
+    "raw_text": "然后过去几年呢。积极财政政策下，政府证券的净融资增多，专项债务置换隐形债务，银行加大不良贷款的核销力度。使债券的占比提高，贷款的占比下降。给你讲清楚了，过去几年之所以。这直接融资的比例突然之间上升的这么的快。不是因为大家良心发现了，或者大家一下子复制心灵了。都不去找银行借款，反而到融资市场借款。而是。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C046",
+    "source_id": "SRC03",
+    "cue_start": 300,
+    "cue_end": 306,
+    "start": "00:14:07,570",
+    "end": "00:14:33,160",
+    "raw_text": "然后过去几年呢。积极财政政策下，政府证券的净融资增多，专项债务置换隐形债务，银行加大不良贷款的核销力度。使债券的占比提高，贷款的占比下降。给你讲清楚了，过去几年之所以。这直接融资的比例突然之间上升的这么的快。不是因为大家良心发现了，或者大家一下子复制心灵了。都不去找银行借款，反而到融资市场借款。而是。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C047",
+    "source_id": "SRC03",
+    "cue_start": 326,
+    "cue_end": 332,
+    "start": "00:15:15,580",
+    "end": "00:15:37,690",
+    "raw_text": "那个地方政府找银行借贷，因为地方政府的信用很差。所以呢它能够抵押出来的东西呢很有限。所以它的借贷成本很高，那利率的话，年化利率都是4%往上，甚至有的借了外外外部银行的是吧？借的美元的债或者其他的债。他的这个年化的收益率，年化的利率。都是百达到4%甚至5%的。但如果呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C048",
+    "source_id": "SRC03",
+    "cue_start": 333,
+    "cue_end": 342,
+    "start": "00:15:37,690",
+    "end": "00:16:10,440",
+    "raw_text": "你由中央政府来出面是吧，进行一个发展。中央政府无论是在外边发行熊猫债。也或者呢是向自己国内然发展，这之前不是发过吗？あ.或者呢就是按照现在的这个授信的已有的规模里面发行一些专项的债务。就是在现有的空间里边框框架里边发行一些债务。它的成本都可以压到2%以下，特别是那些长期的债务。都是压在20%。因为。你看一下中国的30年期的国债收益率在2%点几。对吧。这样的话，把过去那个年化4%的债务置换成年化2%的债务。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C049",
+    "source_id": "SRC03",
+    "cue_start": 333,
+    "cue_end": 338,
+    "start": "00:15:37,690",
+    "end": "00:16:00,200",
+    "raw_text": "你由中央政府来出面是吧，进行一个发展。中央政府无论是在外边发行熊猫债。也或者呢是向自己国内然发展，这之前不是发过吗？あ.或者呢就是按照现在的这个授信的已有的规模里面发行一些专项的债务。就是在现有的空间里边框框架里边发行一些债务。它的成本都可以压到2%以下，特别是那些长期的债务。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C050",
+    "source_id": "SRC03",
+    "cue_start": 342,
+    "cue_end": 346,
+    "start": "00:16:05,900",
+    "end": "00:16:22,820",
+    "raw_text": "这样的话，把过去那个年化4%的债务置换成年化2%的债务。这一下子的话可以释放很大的这个。债务的负担出来，过去苦于还债的政府一下子呢。就没有那么大的这个还债压力了。这个说法对不对呢？部分正确，或者说呢某种程度上是对的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C051",
+    "source_id": "SRC03",
+    "cue_start": 347,
+    "cue_end": 363,
+    "start": "00:16:22,820",
+    "end": "00:17:12,600",
+    "raw_text": "但这个说法里面隐藏了很大一部分。啊，真正处置债务的这个具体的实操。他不是通过这样的简简单单的，你上嘴皮碰下嘴皮。就把这个债务置放下来了，为啥呢？因为当初的时候，很多的隐形债务它本身就存在着非常严重的合规问题。当时的经手的那些人很多的话都会。抓进去了，双归进去了。很多债务的话，他都是。属于是。是吧你不去清理的话，那属于是无头公盖。你要是清理的话，那真的是很多问题的话，你根本就搞不清楚。而且这里面的话存存在着很多很多的。是吧这个漫天要价坐地还钱的环节。啊，翘竹杠的环节。所以呢。很多时候的话，这个债务话并没有嘴上说的那么的简单。把那个高息的债务化成低息的债务。听起来呢，这里边没有过程的成本。那实际上呢是有非常严重的过程成本的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C052",
+    "source_id": "SRC03",
+    "cue_start": 364,
+    "cue_end": 389,
+    "start": "00:17:12,600",
+    "end": "00:18:26,560",
+    "raw_text": "啊。执行这种债务重组本身就会制造很大很大的。这里边的。哪些债务应该认呢？应该认多少啊，怎么个认罚呀？那偿债的主体是谁呀？受债的主体又是谁呀？这里边都得具体事情具体分析。最后的结果呢，往往而且这个债务的周期拉的很长啊，往往是上上几届的政府。切下在这。那滚到现在的话，他可能只是还了利息，没有还本金，或者是。慢慢的再还本金。但是利息呢一点都没还，或者呢就是一个复合的状态。那完全取决于你跟领导关系怎么样啊，当时的这个私人关系怎么样？你要知道。当初政府能够欠下来一个债。对于那些发债人而言的话，那是得凭着关系才能从政府这边拿到的。优质的这个债务关系。因为它是意味着汉涝保收的一个优质的。那个回报啊非常非常高的一个微优质的回报。当时的时候他们是凭着关系才能拿到的。那过时过境迁了，这么多年过去了以后。那你怎么能确认他们这个背后的关系变化是好还是不好呢？在这里面是不是得重新去谈一下？重新去盘一下道。对吧。这些都是得通过谈判来解决的。所以。过去的时候，专项债务的置换，隐形这些隐形债务的置换。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C053",
+    "source_id": "SRC03",
+    "cue_start": 390,
+    "cue_end": 399,
+    "start": "00:18:26,560",
+    "end": "00:18:49,780",
+    "raw_text": "实际上不是完全靠刚才说的那种。啊，小政府按照这个小的那个地方政府去接债，它的成本高。那大政府、中央政府出面，他接边来成本低。然后把这个低成本的债务换成。把这个高成本的债务换成低成本的债务。没有那么的简单。都是直接一事一意的进行一个闭门谈判。谈判出来了以后，把这个债务展起呢。而这样的变化。恰恰的告诉你。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C054",
+    "source_id": "SRC03",
+    "cue_start": 400,
+    "cue_end": 419,
+    "start": "00:18:49,780",
+    "end": "00:19:27,730",
+    "raw_text": "从涉容数据上能够观察观观观察的出来。Yeah.银行直接参与的。这间接债务。これも。节距的缩小。而呃政府跟这个债务人之间的债权人之间的。直接的这种债务比例。骤然的上升。化展的压力。周人的减小是。这个话的真正的本质的理解。正确的打折方式应该是这样子的。实际上告诉你的是啥呢？就经过过去这几年的花债密集的谈判。债务的压力。政府的债务压力。实际上是骤然的缩小了。已经基本上妥善的解决了。那过去的隐形债的问题。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C055",
+    "source_id": "SRC03",
+    "cue_start": 415,
+    "cue_end": 419,
+    "start": "00:19:17,800",
+    "end": "00:19:27,730",
+    "raw_text": "债务的压力。政府的债务压力。实际上是骤然的缩小了。已经基本上妥善的解决了。那过去的隐形债的问题。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C056",
+    "source_id": "SRC03",
+    "cue_start": 420,
+    "cue_end": 431,
+    "start": "00:19:27,730",
+    "end": "00:19:54,350",
+    "raw_text": "最近一段时间我经常看到啊危言耸听的说。隐形债问题如何如何要爆发？我记得2023年的时候。当时的时候，美国那些金融机构，不就是说中国的债务问题要大爆发吗？中国政府要破产吗？对吧。现在2026年了，这个问题是不是已经没人提了，而且。这个所谓的大宝哈现在。被证实了是个笑话啊。啊，大哥别笑二哥，你自己的债务问题也很严重。而且呢我们积济化债的方式呢。好歹呢你是能看得见的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C057",
+    "source_id": "SRC03",
+    "cue_start": 420,
+    "cue_end": 431,
+    "start": "00:19:27,730",
+    "end": "00:19:54,350",
+    "raw_text": "最近一段时间我经常看到啊危言耸听的说。隐形债问题如何如何要爆发？我记得2023年的时候。当时的时候，美国那些金融机构，不就是说中国的债务问题要大爆发吗？中国政府要破产吗？对吧。现在2026年了，这个问题是不是已经没人提了，而且。这个所谓的大宝哈现在。被证实了是个笑话啊。啊，大哥别笑二哥，你自己的债务问题也很严重。而且呢我们积济化债的方式呢。好歹呢你是能看得见的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C058",
+    "source_id": "SRC03",
+    "cue_start": 432,
+    "cue_end": 432,
+    "start": "00:19:54,350",
+    "end": "00:19:56,580",
+    "raw_text": "我前几天跟大家聊平路运河。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C059",
+    "source_id": "SRC03",
+    "cue_start": 433,
+    "cue_end": 437,
+    "start": "00:19:56,580",
+    "end": "00:20:10,390",
+    "raw_text": "有一点的话没把它说说明白。这里补充一下。是政府能够推得进这样的一个显而易见的不赚钱的工程本身。就代表着政府的决心决心以及公信力。对吧。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C060",
+    "source_id": "SRC03",
+    "cue_start": 438,
+    "cue_end": 440,
+    "start": "00:20:10,390",
+    "end": "00:20:24,520",
+    "raw_text": "平论运河你如果从经济成本上来算的话，其实它的回本周期是很长的。评论和整体的投资的规模是700多个亿。他一年的话，那整个的创造的这个经济的效益的话，综合社会效益才五十几个亿。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C061",
+    "source_id": "SRC03",
+    "cue_start": 440,
+    "cue_end": 444,
+    "start": "00:20:18,220",
+    "end": "00:20:33,430",
+    "raw_text": "他一年的话，那整个的创造的这个经济的效益的话，综合社会效益才五十几个亿。也就是说呢。如果是考虑到整体的正向呢，所谓的。这个啊外部性是吧，他到底。整体的这个效果是好还是不好的话。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C062",
+    "source_id": "SRC03",
+    "cue_start": 445,
+    "cue_end": 446,
+    "start": "00:20:33,430",
+    "end": "00:20:37,210",
+    "raw_text": "大概需要134年。才能够将您回本。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C063",
+    "source_id": "SRC03",
+    "cue_start": 447,
+    "cue_end": 458,
+    "start": "00:20:37,340",
+    "end": "00:21:39,750",
+    "raw_text": "这里还不考虑。你这里面整体的社会的这个效益，这个五十几个亿。到底真正的能够落到纸面的。你只是说你理论上来制造出来的这个运量是这么多。对吧。那你一开始的时候这运量就能饱和吗？这中间是不是有个爬坡的过程？对吧产生的这些东西的话，可能。啊。简单的测算一下。乐观的估计。可能平论运河想要回本啊，每个三四十年难得回本的那一个政府能够主导这样的一个庞大的投资，能够让大家一起为这一个三四十年才有可能回本的项目付出这么大的这个这个心血，就把它彻底的做了。平论运河的工程量很大的。因为他那个清江其实那个。江的水是非常非常浅的，因为它那个水源的发源的那个山，它本身那个高度就不高，它那个水量其实是很小的。它要把这个清江的那个水那个水深啊那个那个水河床给它挖挖深，从呃几米深的河床挖到它通行货轮嘛，要挖到十几米深的这个这个这个。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C064",
+    "source_id": "SRC03",
+    "cue_start": 457,
+    "cue_end": 465,
+    "start": "00:20:59,750",
+    "end": "00:22:12,440",
+    "raw_text": "可能平论运河想要回本啊，每个三四十年难得回本的那一个政府能够主导这样的一个庞大的投资，能够让大家一起为这一个三四十年才有可能回本的项目付出这么大的这个这个心血，就把它彻底的做了。平论运河的工程量很大的。因为他那个清江其实那个。江的水是非常非常浅的，因为它那个水源的发源的那个山，它本身那个高度就不高，它那个水量其实是很小的。它要把这个清江的那个水那个水深啊那个那个水河床给它挖挖深，从呃几米深的河床挖到它通行货轮嘛，要挖到十几米深的这个这个这个。这个河床，然后他要把那个床这个这个河道把它拖宽，从几米宽的这个河道拓宽到几十米宽的这个河道是吧？这些事情的话，这个工程量是巨大的，这投资是巨大的，而且呢它在这个过程中么它需要通过那个保水闸去把这个因为它江水本来的来源就源头就很少嘛，它整个的从这个。西江包括在清江联通的。都是那种水量不是特别大的这种河。那。他要把这个水当做淡水资源呢。当做宝贵的资产一样的，把它保护起来。这里边工程的技术难度是很大的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C065",
+    "source_id": "SRC03",
+    "cue_start": 466,
+    "cue_end": 478,
+    "start": "00:22:12,440",
+    "end": "00:22:41,930",
+    "raw_text": "那通过这些事情，其实给你表明的是一个决心。长期发展的决心。这个长期发展的决心才是真正画债的真正的。有效的信心，精字一般的信心。这个呢才是啊我认为啊就是。嗯。这个。平论运河真正展现出来的这样的一个。嗯.呃，有价值的东西。而且这个东西才是真正。啊，需要通过这个。巨大的工程向大家证明的现需要向大家反复去确认的一个东西。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C066",
+    "source_id": "SRC03",
+    "cue_start": 481,
+    "cue_end": 486,
+    "start": "00:22:43,530",
+    "end": "00:22:58,530",
+    "raw_text": "嗯，即便是剔除了这些刚才提到的这些。因素就是化债导致的。那个直接的这个债务嘛比例上升。啊，这个银行的贷款的比例下降。中国的融资结构呢变化也是非常显著的。从企业融资看。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C067",
+    "source_id": "SRC03",
+    "cue_start": 487,
+    "cue_end": 488,
+    "start": "00:22:58,530",
+    "end": "00:23:05,060",
+    "raw_text": "企业债券融资的增量与同期贷款的增量之比呢。从2023年的7%。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C068",
+    "source_id": "SRC03",
+    "cue_start": 489,
+    "cue_end": 489,
+    "start": "00:23:05,060",
+    "end": "00:23:08,370",
+    "raw_text": "上升至2026年上半年的近20%。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C069",
+    "source_id": "SRC03",
+    "cue_start": 492,
+    "cue_end": 498,
+    "start": "00:23:13,880",
+    "end": "00:23:32,770",
+    "raw_text": "因为现在。他这个贷款的成本其实是并不高的。你看到银行里边那个。利率水平央行实际上是一个极宽松的环境。对吧。银行贷款对于优质项目来说的话。其实是打开绿灯的。你在这种背景下，你贷款的成本这么的低的情况下。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C070",
+    "source_id": "SRC03",
+    "cue_start": 503,
+    "cue_end": 508,
+    "start": "00:23:43,080",
+    "end": "00:23:57,300",
+    "raw_text": "这个结构的变化是非常非常之可观的。这个可观结构变化背后。反映出来的就是。那个直接融资的成本。比现在已经很宽松的环境里面，间接融资的成本。还要低。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C071",
+    "source_id": "SRC03",
+    "cue_start": 509,
+    "cue_end": 517,
+    "start": "00:23:57,300",
+    "end": "00:24:27,410",
+    "raw_text": "而且呢因为这里边。缺了一条，这间接中间的话，听起来银行在这插一道可以可以赚。专细查。那这里边你也承担了担保的义务，而银行背后啊国有银行背后占的是国家信用。所以的话过去这种直接的融资。啊，这种间接的融资。啊，某种程度上来说是把国家的这个信用资本。牵扯到里边去给你做担保的。这个比例越高的话，实际上国家这边能够用来举债的这种信用空间就越小。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C072",
+    "source_id": "SRC03",
+    "cue_start": 516,
+    "cue_end": 532,
+    "start": "00:24:19,580",
+    "end": "00:25:20,060",
+    "raw_text": "牵扯到里边去给你做担保的。这个比例越高的话，实际上国家这边能够用来举债的这种信用空间就越小。Far呢.啊，当整个的这个融资的这个结构优化了以后。直接的融资。债权人。跟这个债务人之间直接见面。对把你钱借给谁来，通过什么样的方式借出去的？你们互相之间私下里边去解决。中间不存在银行这边给你做担保，不存在说是这个东西，通过银行的系统里边。银行承担了。是吧为了这些坏账。做。啊，补补漏的这样的一个成本的这样的一个压力。那反而呢释放出来很大的信贷空间。这个是给很多很多后续的。国家举债的这个空间创造了很多有利的条件啊，这样的结构变化，社社会面上面的这种直接融资的变多，间接融资的比例下降，不是绝对值，绝对值还在增加的，但是比例下降，实际上是为了未来啊，国家通过国家来举债打开了很好的一个空间。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C073",
+    "source_id": "SRC03",
+    "cue_start": 532,
+    "cue_end": 533,
+    "start": "00:25:00,060",
+    "end": "00:25:40,060",
+    "raw_text": "国家举债的这个空间创造了很多有利的条件啊，这样的结构变化，社社会面上面的这种直接融资的变多，间接融资的比例下降，不是绝对值，绝对值还在增加的，但是比例下降，实际上是为了未来啊，国家通过国家来举债打开了很好的一个空间。啊，这是积极的变化。其次呢是从存量来看呢，增量看趋势，存量看空间，存量看潜力，对吧？从存量看呢，直接融资占比稳步升至3分之1左右，就是未来的成长空间还有很大呢啊，把这个话给你翻译翻译。在20世纪90年代建设现代金融市。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C074",
+    "source_id": "SRC03",
+    "cue_start": 533,
+    "cue_end": 546,
+    "start": "00:25:20,060",
+    "end": "00:26:26,480",
+    "raw_text": "啊，这是积极的变化。其次呢是从存量来看呢，增量看趋势，存量看空间，存量看潜力，对吧？从存量看呢，直接融资占比稳步升至3分之1左右，就是未来的成长空间还有很大呢啊，把这个话给你翻译翻译。在20世纪90年代建设现代金融市。体系的早期阶段呢，间接融资在社会融资的存量占比接近百分之百啊，这个社会对于非银行给你出来的贷款也好啊，借贷的需求也好啊，基本上视而不见的。为啥呢？那个时候社会的信用成本是非常非常高的。整个的社会里面信用是很信任是很稀薄的东西。相信你这个成。代价是非常非常高昂的。所以呢。所有的这些融资的需求必须得从银行做公证。必须得走银行做担保。你别跟我讲私人之间的这种借贷，这种私人借贷除非是亲戚朋友。否则的话，互素不相识的人，你在市场上发行一个。接待的这个需求。没人去响应的，你也融不到钱的是吧？这是过去啊上世纪90年代的这个情况。所以呢这种。间接的融资占比是百分之百的。接近百分之百。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C075",
+    "source_id": "SRC03",
+    "cue_start": 534,
+    "cue_end": 543,
+    "start": "00:25:40,060",
+    "end": "00:26:22,300",
+    "raw_text": "体系的早期阶段呢，间接融资在社会融资的存量占比接近百分之百啊，这个社会对于非银行给你出来的贷款也好啊，借贷的需求也好啊，基本上视而不见的。为啥呢？那个时候社会的信用成本是非常非常高的。整个的社会里面信用是很信任是很稀薄的东西。相信你这个成。代价是非常非常高昂的。所以呢。所有的这些融资的需求必须得从银行做公证。必须得走银行做担保。你别跟我讲私人之间的这种借贷，这种私人借贷除非是亲戚朋友。否则的话，互素不相识的人，你在市场上发行一个。接待的这个需求。没人去响应的，你也融不到钱的是吧？这是过去啊上世纪90年代的这个情况。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C076",
+    "source_id": "SRC03",
+    "cue_start": 548,
+    "cue_end": 549,
+    "start": "00:26:28,790",
+    "end": "00:26:36,250",
+    "raw_text": "到了2026年的6月末啊。社会融资规模中，间接融资的余额呢占比降至了3之2%左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C077",
+    "source_id": "SRC03",
+    "cue_start": 550,
+    "cue_end": 550,
+    "start": "00:26:36,520",
+    "end": "00:26:39,710",
+    "raw_text": "贷款的余额占比降至60%左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C078",
+    "source_id": "SRC03",
+    "cue_start": 551,
+    "cue_end": 551,
+    "start": "00:26:39,710",
+    "end": "00:26:42,850",
+    "raw_text": "直接融资的余额占比升至3分之1左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C079",
+    "source_id": "SRC03",
+    "cue_start": 552,
+    "cue_end": 552,
+    "start": "00:26:42,850",
+    "end": "00:26:46,100",
+    "raw_text": "债券融资占比升值30%左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C080",
+    "source_id": "SRC03",
+    "cue_start": 553,
+    "cue_end": 556,
+    "start": "00:26:46,110",
+    "end": "00:26:54,250",
+    "raw_text": "那按照这样的一个比例关系的话。反向推的话。那股票融资的话基本上。升至了10%左右嘛，对吧？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C081",
+    "source_id": "SRC03",
+    "cue_start": 557,
+    "cue_end": 557,
+    "start": "00:26:54,250",
+    "end": "00:27:00,920",
+    "raw_text": "啊，中国的融资结构呢已经从间接融资主导转向了直接融资与间接融资协调发展的阶段。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C082",
+    "source_id": "SRC03",
+    "cue_start": 558,
+    "cue_end": 560,
+    "start": "00:27:00,960",
+    "end": "00:27:11,360",
+    "raw_text": "那这个协调发展呢就跟未来的话肯定还是会继续的积极，对吧？拓展积极转变的嘛。啊，未来的话，我认为啊合理的状态的话，直接融资和间接融资应该是。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C083",
+    "source_id": "SRC03",
+    "cue_start": 560,
+    "cue_end": 562,
+    "start": "00:27:06,380",
+    "end": "00:27:15,540",
+    "raw_text": "啊，未来的话，我认为啊合理的状态的话，直接融资和间接融资应该是。啊，直接融资占大头占3分之2。现的融资占3分之1。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C084",
+    "source_id": "SRC03",
+    "cue_start": 563,
+    "cue_end": 568,
+    "start": "00:27:15,540",
+    "end": "00:27:30,810",
+    "raw_text": "啊。这也印证了。为啥最近一段时间银行的日子不太好过？很多很多银行的相关的从业人员都在抱怨。那未来的话，这个趋势在继续发展的话。那银行的整体的盈利能力还会继续的下降，除非呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C085",
+    "source_id": "SRC03",
+    "cue_start": 567,
+    "cue_end": 577,
+    "start": "00:27:23,950",
+    "end": "00:27:51,590",
+    "raw_text": "那未来的话，这个趋势在继续发展的话。那银行的整体的盈利能力还会继续的下降，除非呢。银行去积极的开展一些非标的业务，拓展一些非标的业务。开展一些表外的业务是，做一些。除了。啊，这个收存款放贷款以外的这传统的银行业务。啊，做一些其他的。类似的啊这种。啊。额外的这种金融创新。才有搞头。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C086",
+    "source_id": "SRC03",
+    "cue_start": 575,
+    "cue_end": 582,
+    "start": "00:27:46,840",
+    "end": "00:28:03,940",
+    "raw_text": "啊。额外的这种金融创新。才有搞头。否则，传统银行的业萎缩的这个趋势。还是非常非常之确定的。未来整个的盈利规模。会随时下降的。所以。你从央行行长的这个定调，你能看得出来各行各业。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C087",
+    "source_id": "SRC03",
+    "cue_start": 580,
+    "cue_end": 581,
+    "start": "00:27:56,770",
+    "end": "00:28:00,220",
+    "raw_text": "未来整个的盈利规模。会随时下降的。所以。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C088",
+    "source_id": "SRC03",
+    "cue_start": 588,
+    "cue_end": 597,
+    "start": "00:28:15,120",
+    "end": "00:28:47,770",
+    "raw_text": "之前有小伙伴问啊，就关于银行类的从业的一些建议。就是问如果说。在银行的系统里边。有机会去接触表外的业务，就做一些。表间内或者表外业务，或者是做传统业务，到底做哪个方向发展更有前途。其实这个答案是显而易见。是非常非常明白的大的趋势，而且这个趋势是以十年级的大的趋势。肯定是这个银行间的表白业务是很有搞头的，而且。这个是未来发展的方向，这里边是未来银行的利润来源。那谁能给公司挣到额外的利润？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C089",
+    "source_id": "SRC03",
+    "cue_start": 588,
+    "cue_end": 604,
+    "start": "00:28:15,120",
+    "end": "00:29:05,910",
+    "raw_text": "之前有小伙伴问啊，就关于银行类的从业的一些建议。就是问如果说。在银行的系统里边。有机会去接触表外的业务，就做一些。表间内或者表外业务，或者是做传统业务，到底做哪个方向发展更有前途。其实这个答案是显而易见。是非常非常明白的大的趋势，而且这个趋势是以十年级的大的趋势。肯定是这个银行间的表白业务是很有搞头的，而且。这个是未来发展的方向，这里边是未来银行的利润来源。那谁能给公司挣到额外的利润？谁在公司内部的地位就会非常船高？Sa的.这个升值的速度就会加快是吧，谁的这个资源能够调配的资源。也会要顺畅很多。不是。紧盯在那个业务一线就能够好好的干活。就能挣到钱的。你得瞄准自己的业务方向，好吧。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C090",
+    "source_id": "SRC03",
+    "cue_start": 597,
+    "cue_end": 598,
+    "start": "00:28:44,930",
+    "end": "00:28:51,070",
+    "raw_text": "那谁能给公司挣到额外的利润？谁在公司内部的地位就会非常船高？",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C091",
+    "source_id": "SRC03",
+    "cue_start": 608,
+    "cue_end": 611,
+    "start": "00:29:13,500",
+    "end": "00:29:24,540",
+    "raw_text": "近十0年来呢。房地产基础设施建设新增贷款在。全部贷款的种占比呢。从60%以上降至了10%左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C092",
+    "source_id": "SRC03",
+    "cue_start": 612,
+    "cue_end": 615,
+    "start": "00:29:24,540",
+    "end": "00:29:34,120",
+    "raw_text": "啊。整个的这个金资金的投向发生了显著的变化。金融五大5篇大文章领域的新增贷款的占比。了70%以上。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C093",
+    "source_id": "SRC03",
+    "cue_start": 617,
+    "cue_end": 617,
+    "start": "00:29:35,700",
+    "end": "00:29:41,990",
+    "raw_text": "科技型中小企业贷款的增速保保证在20%左右啊，保持在20%左右。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C094",
+    "source_id": "SRC03",
+    "cue_start": 660,
+    "cue_end": 660,
+    "start": "00:31:24,920",
+    "end": "00:31:27,150",
+    "raw_text": "而贷款整体的规模在下降。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C095",
+    "source_id": "SRC03",
+    "cue_start": 618,
+    "cue_end": 618,
+    "start": "00:29:41,990",
+    "end": "00:29:45,210",
+    "raw_text": "普惠小微贷款年均增速约20%。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C096",
+    "source_id": "SRC03",
+    "cue_start": 619,
+    "cue_end": 620,
+    "start": "00:29:45,210",
+    "end": "00:29:49,410",
+    "raw_text": "绿色养老产业贷款呢。均保持两位数以上的增长。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C097",
+    "source_id": "SRC03",
+    "cue_start": 619,
+    "cue_end": 620,
+    "start": "00:29:45,210",
+    "end": "00:29:49,410",
+    "raw_text": "绿色养老产业贷款呢。均保持两位数以上的增长。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C098",
+    "source_id": "SRC03",
+    "cue_start": 621,
+    "cue_end": 621,
+    "start": "00:29:49,410",
+    "end": "00:29:52,220",
+    "raw_text": "均明显高于全部的贷款增速。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C099",
+    "source_id": "SRC03",
+    "cue_start": 622,
+    "cue_end": 627,
+    "start": "00:29:52,220",
+    "end": "00:30:07,610",
+    "raw_text": "为啥要说这个呢？资金的投向呢？金融是。所有社社会面变化的一个。给后续的后勤保障。所以从金融资金的流向看。就流向的是市场机会蕴藏的部分。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C100",
+    "source_id": "SRC03",
+    "cue_start": 628,
+    "cue_end": 655,
+    "start": "00:30:07,610",
+    "end": "00:31:12,550",
+    "raw_text": "我举个很简单的例子就知道了，是吧？在一个人的身这个身体里面。哪个地方的学宫越丰富，那个地方是不是组织就越。越复杂越精密。然后组织的话是不是规模就越庞大？那金融就是血液嘛。那这块的话告诉你血液已经发生了这样的一个变化。过去呢。房地产基础设施。贷款的这个比例从60%，降到了10%。这个降幅是不是很惊人？但是整体的规模呢是在扩张的。他这边降样了，那哪里在新增呢？不是告诉你了吗？啊，金融五篇大文章的领域。占比70%以上。那你不知道什么叫五篇大文章，后边给你解释了吗？科技型中小企业。普惠的小费贷款。绿色贷款养老产业。啊，这些的话是明显的都高于全部的贷款增速的。这些东西。它背后的这个源源不断的养料供应很充分。就意味着这些东西未来发展的空间。很有想象空间。你要看不清楚这个社会哪里蕴藏着更多的机会。就看这个就看得清楚嘛。哪里的学问更丰富？那未来的话这方面。就会更加有条件。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C101",
+    "source_id": "SRC03",
+    "cue_start": 661,
+    "cue_end": 668,
+    "start": "00:31:27,150",
+    "end": "00:31:41,960",
+    "raw_text": "那新增的那部分。他可能是基于这些。看起来呢这些行业增长的不错。但是还有很多很多贷款覆盖不到的行业增长的更厉害。直接融资的市场上增长的更厉害的。啊。这是高科技产业嘛。而且。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C102",
+    "source_id": "SRC03",
+    "cue_start": 669,
+    "cue_end": 678,
+    "start": "00:31:41,960",
+    "end": "00:32:04,930",
+    "raw_text": "这个高科技产业。后边那啊潘东升的这个文章，第二部分里面写了。啊这个对于银行系统来说啊话是个挑战。因咩。科技型的企业，他们。他这个这个收益的这个曲线的话，它是有。一开始的这个初创阶段。有这个萌芽期，有高速增长阶段。有稳定期成熟期真正开始收获了。前面的这若干阶段呢，实际上跟银行的关系不大。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C103",
+    "source_id": "SRC03",
+    "cue_start": 678,
+    "cue_end": 679,
+    "start": "00:32:01,570",
+    "end": "00:32:10,610",
+    "raw_text": "前面的这若干阶段呢，实际上跟银行的关系不大。银行自己也没能力去投那种非标的业务，也没能力去承担那么高的风险，失败的风险。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C104",
+    "source_id": "SRC03",
+    "cue_start": 680,
+    "cue_end": 687,
+    "start": "00:32:10,610",
+    "end": "00:32:21,320",
+    "raw_text": "所以呢。很多民间的那个天使投资。啊这些。然融资接贷。占了这个。主角。开始唱不多主角，开始。占这个主要的部分。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C105",
+    "source_id": "SRC03",
+    "cue_start": 688,
+    "cue_end": 688,
+    "start": "00:32:21,320",
+    "end": "00:32:23,560",
+    "raw_text": "所以这部分跟银行是没关系的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C106",
+    "source_id": "SRC03",
+    "cue_start": 689,
+    "cue_end": 689,
+    "start": "00:32:23,880",
+    "end": "00:32:26,830",
+    "raw_text": "而这部分的比例正在迅迅速的增高。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C107",
+    "source_id": "SRC03",
+    "cue_start": 691,
+    "cue_end": 696,
+    "start": "00:32:27,590",
+    "end": "00:32:44,730",
+    "raw_text": "所以很多的这个市场上面的这种转向。正在告诉大家新旧动能的转换正在以一个非常非常具体的方式。在落地。啊后大家还要慢慢的接受这个变化。千万千万别再去。按照过去几十年的老经验去看待现在新的这个趋势的变化。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C108",
+    "source_id": "SRC03",
+    "cue_start": 697,
+    "cue_end": 701,
+    "start": "00:32:44,730",
+    "end": "00:32:59,840",
+    "raw_text": "而这个变化实际上就是中美在竞争格局上面。啊，中国的这个地位在提升，因为。刚才说的那些非标的业务，那些前期投入的天使的投资的业务。往往是。过去的时候，美国市场非常非常有优势的业务。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C109",
+    "source_id": "SRC03",
+    "cue_start": 702,
+    "cue_end": 702,
+    "start": "00:32:59,840",
+    "end": "00:33:19,840",
+    "raw_text": "是吧很多的天使轮投资，为什么美国的财算啊要引进美国的财算？之前的时候不是说中国很多很多的企业，一开始的时候都有美国的那些投资，为啥呢？因为他那边投资的门槛低呀，那稍微的有一点机会，他愿意给你投一些钱，启动啊，给你一些启动资金，让你能够把你的梦想这中这个种子给它蓬发起来。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C110",
+    "source_id": "SRC03",
+    "cue_start": 703,
+    "cue_end": 703,
+    "start": "00:33:19,840",
+    "end": "00:33:39,840",
+    "raw_text": "中长长长长大呀。过去的时候，中国的社会的融资的规模没有到那种程度，跟美国那边没法比。所以呢这样的机会只能在美国那边有啊，简单说就是他那边有美元的这个汇率优势，他拿100万美元投你的项目到你这边就是将近100万，就是0。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C111",
+    "source_id": "SRC03",
+    "cue_start": 703,
+    "cue_end": 704,
+    "start": "00:33:19,840",
+    "end": "00:33:59,840",
+    "raw_text": "中长长长长大呀。过去的时候，中国的社会的融资的规模没有到那种程度，跟美国那边没法比。所以呢这样的机会只能在美国那边有啊，简单说就是他那边有美元的这个汇率优势，他拿100万美元投你的项目到你这边就是将近100万，就是0。万人民币嘛，但是他的感觉上来说的话，他是100万美元的这个项目，在投资领域里面，跟咱们这边拿人民币投个1万块钱的项目差不多啊，这就是金融霸权带来的好处嘛。所以他当然可以是吧？那广撒网啊，因为他觉得他在他的眼里，在那个大财发眼里，这项目简直太便宜不过了，我花这。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C112",
+    "source_id": "SRC03",
+    "cue_start": 704,
+    "cue_end": 704,
+    "start": "00:33:39,840",
+    "end": "00:33:59,840",
+    "raw_text": "万人民币嘛，但是他的感觉上来说的话，他是100万美元的这个项目，在投资领域里面，跟咱们这边拿人民币投个1万块钱的项目差不多啊，这就是金融霸权带来的好处嘛。所以他当然可以是吧？那广撒网啊，因为他觉得他在他的眼里，在那个大财发眼里，这项目简直太便宜不过了，我花这。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C113",
+    "source_id": "SRC03",
+    "cue_start": 705,
+    "cue_end": 712,
+    "start": "00:33:59,840",
+    "end": "00:34:21,030",
+    "raw_text": "这么点钱就可以买到这么好的机会。在我自己美国本土市场里面找不到这样的廉价的机会了。啊，这就是汇率。和。金融资本的这里边的双重的优势叠加之下导致的。在那样的环投资环境里边。用美元去投资新兴的产业，它是事半功倍的。所以美元的投资业务发展的非常非常之强劲。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C114",
+    "source_id": "SRC03",
+    "cue_start": 715,
+    "cue_end": 722,
+    "start": "00:34:24,300",
+    "end": "00:34:48,240",
+    "raw_text": "人民币现在开始走上台前了。银行行长给你讲。这不是他自己的一厢情愿，而是过去通过数据观察出来的趋势变化。这是先有的这些案例。最后有的总结他的这篇文章是一篇总结文章。啊，像文献综述视篇总结文章。他不是有什么创新的观点，他是告诉你。过去几年发展出来的这些趋势，就观察出来有这样的一个变化。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C115",
+    "source_id": "SRC03",
+    "cue_start": 724,
+    "cue_end": 726,
+    "start": "00:34:51,050",
+    "end": "00:34:59,190",
+    "raw_text": "这些市场机会实际上。就是在告诉你，中国在挑战美国传统金融优势的领域。这个才是关键，这也是咱们。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C116",
+    "source_id": "SRC03",
+    "cue_start": 2,
+    "cue_end": 2,
+    "start": "00:00:20,090",
+    "end": "00:00:40,090",
+    "raw_text": "那随着日本央行美联储加息，注意啊，这篇文章是写在美联储加息之前的啊。那潘行长写这篇文章的时候，我认为啊他应该对美联储的处境是非常非常清楚的。因为呢情同此心，深同此景啊，是吧？大家都是行长，面临的整个的这个局面都差不多的。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C117",
+    "source_id": "SRC03",
+    "cue_start": 246,
+    "cue_end": 251,
+    "start": "00:11:50,300",
+    "end": "00:12:07,060",
+    "raw_text": "为啥要强调2013年呢？那不是2008年金融危机，2013年第二次金融危机吗？啊，次贷危机，然后到2013年不是第二次。次然危机引起的这个次生灾害开始出现了。所以呢。讲的是2013年以前。随着这个时间出现了这个点了以后呢。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C118",
+    "source_id": "SRC03",
+    "cue_start": 531,
+    "cue_end": 532,
+    "start": "00:24:57,460",
+    "end": "00:25:20,060",
+    "raw_text": "这个是给很多很多后续的。国家举债的这个空间创造了很多有利的条件啊，这样的结构变化，社社会面上面的这种直接融资的变多，间接融资的比例下降，不是绝对值，绝对值还在增加的，但是比例下降，实际上是为了未来啊，国家通过国家来举债打开了很好的一个空间。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C119",
+    "source_id": "SRC03",
+    "cue_start": 599,
+    "cue_end": 600,
+    "start": "00:28:51,070",
+    "end": "00:28:56,100",
+    "raw_text": "Sa的.这个升值的速度就会加快是吧，谁的这个资源能够调配的资源。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C120",
+    "source_id": "SRC03",
+    "cue_start": 600,
+    "cue_end": 601,
+    "start": "00:28:52,050",
+    "end": "00:28:58,300",
+    "raw_text": "这个升值的速度就会加快是吧，谁的这个资源能够调配的资源。也会要顺畅很多。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C121",
+    "source_id": "SRC03",
+    "cue_start": 339,
+    "cue_end": 339,
+    "start": "00:16:00,200",
+    "end": "00:16:01,580",
+    "raw_text": "都是压在20%。因为。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C122",
+    "source_id": "SRC03",
+    "cue_start": 340,
+    "cue_end": 340,
+    "start": "00:16:01,580",
+    "end": "00:16:05,200",
+    "raw_text": "你看一下中国的30年期的国债收益率在2%点几。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C123",
+    "source_id": "SRC03",
+    "cue_start": 351,
+    "cue_end": 353,
+    "start": "00:16:33,350",
+    "end": "00:16:43,460",
+    "raw_text": "因为当初的时候，很多的隐形债务它本身就存在着非常严重的合规问题。当时的经手的那些人很多的话都会。抓进去了，双归进去了。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C124",
+    "source_id": "SRC03",
+    "cue_start": 458,
+    "cue_end": 458,
+    "start": "00:21:19,750",
+    "end": "00:21:39,750",
+    "raw_text": "江的水是非常非常浅的，因为它那个水源的发源的那个山，它本身那个高度就不高，它那个水量其实是很小的。它要把这个清江的那个水那个水深啊那个那个水河床给它挖挖深，从呃几米深的河床挖到它通行货轮嘛，要挖到十几米深的这个这个这个。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-C125",
+    "source_id": "SRC03",
+    "cue_start": 459,
+    "cue_end": 459,
+    "start": "00:21:39,750",
+    "end": "00:21:59,750",
+    "raw_text": "这个河床，然后他要把那个床这个这个河道把它拖宽，从几米宽的这个河道拓宽到几十米宽的这个河道是吧？这些事情的话，这个工程量是巨大的，这投资是巨大的，而且呢它在这个过程中么它需要通过那个保水闸去把这个因为它江水本来的来源就源头就很少嘛，它整个的从这个。",
+    "alignment": "ASR cue boundary; not audio-verified"
+  },
+  {
+    "source_segment_id": "SS-MC01",
+    "source_id": "SRC03",
+    "cue_start": 567,
+    "cue_end": 579,
+    "start": "00:27:23,950",
+    "end": "00:27:56,770",
+    "raw_text": "那未来的话，这个趋势在继续发展的话。那银行的整体的盈利能力还会继续的下降，除非呢。银行去积极的开展一些非标的业务，拓展一些非标的业务。开展一些表外的业务是，做一些。除了。啊，这个收存款放贷款以外的这传统的银行业务。啊，做一些其他的。类似的啊这种。啊。额外的这种金融创新。才有搞头。否则，传统银行的业萎缩的这个趋势。还是非常非常之确定的。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  },
+  {
+    "source_segment_id": "SS-MC02",
+    "source_id": "SRC03",
+    "cue_start": 567,
+    "cue_end": 579,
+    "start": "00:27:23,950",
+    "end": "00:27:56,770",
+    "raw_text": "那未来的话，这个趋势在继续发展的话。那银行的整体的盈利能力还会继续的下降，除非呢。银行去积极的开展一些非标的业务，拓展一些非标的业务。开展一些表外的业务是，做一些。除了。啊，这个收存款放贷款以外的这传统的银行业务。啊，做一些其他的。类似的啊这种。啊。额外的这种金融创新。才有搞头。否则，传统银行的业萎缩的这个趋势。还是非常非常之确定的。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  },
+  {
+    "source_segment_id": "SS-MC03",
+    "source_id": "SRC03",
+    "cue_start": 567,
+    "cue_end": 581,
+    "start": "00:27:23,950",
+    "end": "00:28:00,220",
+    "raw_text": "那未来的话，这个趋势在继续发展的话。那银行的整体的盈利能力还会继续的下降，除非呢。银行去积极的开展一些非标的业务，拓展一些非标的业务。开展一些表外的业务是，做一些。除了。啊，这个收存款放贷款以外的这传统的银行业务。啊，做一些其他的。类似的啊这种。啊。额外的这种金融创新。才有搞头。否则，传统银行的业萎缩的这个趋势。还是非常非常之确定的。未来整个的盈利规模。会随时下降的。所以。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  },
+  {
+    "source_segment_id": "SS-MC04",
+    "source_id": "SRC03",
+    "cue_start": 509,
+    "cue_end": 532,
+    "start": "00:23:57,300",
+    "end": "00:25:20,060",
+    "raw_text": "而且呢因为这里边。缺了一条，这间接中间的话，听起来银行在这插一道可以可以赚。专细查。那这里边你也承担了担保的义务，而银行背后啊国有银行背后占的是国家信用。所以的话过去这种直接的融资。啊，这种间接的融资。啊，某种程度上来说是把国家的这个信用资本。牵扯到里边去给你做担保的。这个比例越高的话，实际上国家这边能够用来举债的这种信用空间就越小。Far呢.啊，当整个的这个融资的这个结构优化了以后。直接的融资。债权人。跟这个债务人之间直接见面。对把你钱借给谁来，通过什么样的方式借出去的？你们互相之间私下里边去解决。中间不存在银行这边给你做担保，不存在说是这个东西，通过银行的系统里边。银行承担了。是吧为了这些坏账。做。啊，补补漏的这样的一个成本的这样的一个压力。那反而呢释放出来很大的信贷空间。这个是给很多很多后续的。国家举债的这个空间创造了很多有利的条件啊，这样的结构变化，社社会面上面的这种直接融资的变多，间接融资的比例下降，不是绝对值，绝对值还在增加的，但是比例下降，实际上是为了未来啊，国家通过国家来举债打开了很好的一个空间。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  },
+  {
+    "source_segment_id": "SS-MC05",
+    "source_id": "SRC03",
+    "cue_start": 656,
+    "cue_end": 722,
+    "start": "00:31:12,550",
+    "end": "00:34:48,240",
+    "raw_text": "这还只是从银行的角度，从贷款的角度。贷款实际上呢。那整个的规模里边占比是在下降的。前面不是说了吗？贷款的内部的结构发生了这样的一个变化。新旧的交替。而贷款整体的规模在下降。那新增的那部分。他可能是基于这些。看起来呢这些行业增长的不错。但是还有很多很多贷款覆盖不到的行业增长的更厉害。直接融资的市场上增长的更厉害的。啊。这是高科技产业嘛。而且。这个高科技产业。后边那啊潘东升的这个文章，第二部分里面写了。啊这个对于银行系统来说啊话是个挑战。因咩。科技型的企业，他们。他这个这个收益的这个曲线的话，它是有。一开始的这个初创阶段。有这个萌芽期，有高速增长阶段。有稳定期成熟期真正开始收获了。前面的这若干阶段呢，实际上跟银行的关系不大。银行自己也没能力去投那种非标的业务，也没能力去承担那么高的风险，失败的风险。所以呢。很多民间的那个天使投资。啊这些。然融资接贷。占了这个。主角。开始唱不多主角，开始。占这个主要的部分。所以这部分跟银行是没关系的。而这部分的比例正在迅迅速的增高。So, you know.所以很多的这个市场上面的这种转向。正在告诉大家新旧动能的转换正在以一个非常非常具体的方式。在落地。啊后大家还要慢慢的接受这个变化。千万千万别再去。按照过去几十年的老经验去看待现在新的这个趋势的变化。而这个变化实际上就是中美在竞争格局上面。啊，中国的这个地位在提升，因为。刚才说的那些非标的业务，那些前期投入的天使的投资的业务。往往是。过去的时候，美国市场非常非常有优势的业务。是吧很多的天使轮投资，为什么美国的财算啊要引进美国的财算？之前的时候不是说中国很多很多的企业，一开始的时候都有美国的那些投资，为啥呢？因为他那边投资的门槛低呀，那稍微的有一点机会，他愿意给你投一些钱，启动啊，给你一些启动资金，让你能够把你的梦想这中这个种子给它蓬发起来。中长长长长大呀。过去的时候，中国的社会的融资的规模没有到那种程度，跟美国那边没法比。所以呢这样的机会只能在美国那边有啊，简单说就是他那边有美元的这个汇率优势，他拿100万美元投你的项目到你这边就是将近100万，就是0。万人民币嘛，但是他的感觉上来说的话，他是100万美元的这个项目，在投资领域里面，跟咱们这边拿人民币投个1万块钱的项目差不多啊，这就是金融霸权带来的好处嘛。所以他当然可以是吧？那广撒网啊，因为他觉得他在他的眼里，在那个大财发眼里，这项目简直太便宜不过了，我花这。这么点钱就可以买到这么好的机会。在我自己美国本土市场里面找不到这样的廉价的机会了。啊，这就是汇率。和。金融资本的这里边的双重的优势叠加之下导致的。在那样的环投资环境里边。用美元去投资新兴的产业，它是事半功倍的。所以美元的投资业务发展的非常非常之强劲。但是现在。这个故事得另外的讲了。人民币现在开始走上台前了。银行行长给你讲。这不是他自己的一厢情愿，而是过去通过数据观察出来的趋势变化。这是先有的这些案例。最后有的总结他的这篇文章是一篇总结文章。啊，像文献综述视篇总结文章。他不是有什么创新的观点，他是告诉你。过去几年发展出来的这些趋势，就观察出来有这样的一个变化。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  },
+  {
+    "source_segment_id": "SS-MC06",
+    "source_id": "SRC03",
+    "cue_start": 697,
+    "cue_end": 725,
+    "start": "00:32:44,730",
+    "end": "00:34:56,890",
+    "raw_text": "而这个变化实际上就是中美在竞争格局上面。啊，中国的这个地位在提升，因为。刚才说的那些非标的业务，那些前期投入的天使的投资的业务。往往是。过去的时候，美国市场非常非常有优势的业务。是吧很多的天使轮投资，为什么美国的财算啊要引进美国的财算？之前的时候不是说中国很多很多的企业，一开始的时候都有美国的那些投资，为啥呢？因为他那边投资的门槛低呀，那稍微的有一点机会，他愿意给你投一些钱，启动啊，给你一些启动资金，让你能够把你的梦想这中这个种子给它蓬发起来。中长长长长大呀。过去的时候，中国的社会的融资的规模没有到那种程度，跟美国那边没法比。所以呢这样的机会只能在美国那边有啊，简单说就是他那边有美元的这个汇率优势，他拿100万美元投你的项目到你这边就是将近100万，就是0。万人民币嘛，但是他的感觉上来说的话，他是100万美元的这个项目，在投资领域里面，跟咱们这边拿人民币投个1万块钱的项目差不多啊，这就是金融霸权带来的好处嘛。所以他当然可以是吧？那广撒网啊，因为他觉得他在他的眼里，在那个大财发眼里，这项目简直太便宜不过了，我花这。这么点钱就可以买到这么好的机会。在我自己美国本土市场里面找不到这样的廉价的机会了。啊，这就是汇率。和。金融资本的这里边的双重的优势叠加之下导致的。在那样的环投资环境里边。用美元去投资新兴的产业，它是事半功倍的。所以美元的投资业务发展的非常非常之强劲。但是现在。这个故事得另外的讲了。人民币现在开始走上台前了。银行行长给你讲。这不是他自己的一厢情愿，而是过去通过数据观察出来的趋势变化。这是先有的这些案例。最后有的总结他的这篇文章是一篇总结文章。啊，像文献综述视篇总结文章。他不是有什么创新的观点，他是告诉你。过去几年发展出来的这些趋势，就观察出来有这样的一个变化。这个就是市场的机会所蕴含的。而且。这些市场机会实际上。就是在告诉你，中国在挑战美国传统金融优势的领域。",
+    "alignment": "ASR cue boundary; not audio-verified",
+    "role": "context_only_not_creator_quote"
+  }
+]

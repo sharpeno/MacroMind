@@ -1,0 +1,62 @@
+{
+  "version": "1",
+  "episode": "EP003",
+  "source_sha256": "5bfd7999a4923e8a8d85d7bc94312be471e390e4dc3cbd1a76c04c21b2b8945b",
+  "baseline": {
+    "C01": "d88cede29a976cdcb34bbd82e00390ea7fcade98620a336a2c444023b51321d2",
+    "C02": "f7d1a63673ccd8e0088e5e9e71204d7e425cef456c99f1b355e88c87038249b5",
+    "C03": "798c6a0bd025bd04b9e599bd6999eb955f94c228a64eb84c8f0e76e09fda2cac",
+    "C04": "f6380cdf73b805e3f50a56c877dc39f89b5ff624c2979e214957db38eb85f9ac",
+    "C05": "90f93e1e69767450f3af0aaff8a36e7a268b45dc6a2df2eceba0abcbc60c049c",
+    "C06": "701c726961bab16665924ae5a46998787fec971d8a91dc32d22177e33e7fb950",
+    "C07": "881fe15a92892327185c7ae3fa83a3c2c5b0ec8eedac8e949c2e25d9dacc35a8",
+    "C08": "a16ee7d749e68fea64ade1a20b376e9ba5da70ab112b9540b4be00ac5e5df854",
+    "C09": "a199a129e905c587e140137058306635896366fd5db6213daded4b9ea6a1837e",
+    "C10": "70123ab54c3e4ef782dc5ffcedabf7eed53615ce111b00cde953e0636e86fee3",
+    "C11": "2534a6d18c04c6a734507a0c5882afd349ffa83b921111ffb6e4913a3508e4d2",
+    "C12": "92b33b710e524436b6df45deab317f406b9b8862023ee157b47969307dd4a119",
+    "C13": "b129f43bfdda627918cd3f983ff8a8e678915396f263f8a2b435348d5d0c3aaf",
+    "C14": "ee68f4b4e5637b165800dba1c248f23a113ea40005a6e02f0bab8bae426cd385",
+    "C15": "da372ff2000288bd25f93742b9bcb1f40786c28a32ad8dbb4164f7f99f20908e",
+    "C16": "08f63a0f75857c5b19c7e7a5b953434638b612c5a774d3c7a303e644e9b9150b",
+    "C17": "2ebf3dac943828e8f05a86656b1fd4127343f5a6232a46862700c1212b429dfe",
+    "C18": "4409242735b1f0858fd904d7fd10fabb9301b6822820d30e57c14534c0c1d82d",
+    "C19": "aa3c03a1b1f3606cc278935f660d1f1ac1a79c8be194d873555bc9eee91bfd30",
+    "C20": "f8c63d66293415ce5e92aab2dbfd25a643ea168e96afb2b66773d05b2636eca6",
+    "C21": "e026f02e8575f1f4f5d3c973f58eba7efbd40d4a1975c91c1928ed9d0c7e8782",
+    "C22": "5adec5b54bf381a0b889ad75829aa5368d54252c5f9c5fd7fcd813c3f8bc8bbe",
+    "C23": "e61b9c4abc5d782205805a1fa49e6fa72297848cb4e1b4f27be01e1903954fbc",
+    "A01": "9c4ed8f0cdedae291625452fb41f04f7be0a47dedf1ed4ade205804c1de8c1d3",
+    "A02": "6805668eb1e9693e8a72723812dac91e11a2a7030b65784ce27c30b6ec92d13d",
+    "A03": "a141bcabba1c4cebc261d3059f7ed16e0151893a2acfbd7d3914e481359224c8",
+    "A04": "89eff9d6142964511c1c2cff908a37d2419d4e26498693e99256d49140c19c01",
+    "A05": "71c75162daf6e329aca5a4e8bf2edd4e851263ab0209e2c14ad9bfcebdfbc3ad",
+    "S01": "0fae01fc7f1b54f3ddbd878d1d5b47b6ef1a722ccc04c5771bc181bb38a58c02",
+    "S02": "c780ec85b4580d266519ca227415bfa5fdfe1c0e47c1c366acad698672029d58",
+    "M01": "fdc197805e044d009460284e911fdeb4cb40af4d755e7a0d3137e9a58e0a6abb",
+    "M02": "388337471d0872d8e97bb070a5b3940c86bcc2a045e540d7b954d936ad3b955f"
+  },
+  "reviewed_ids": [
+    "C23"
+  ],
+  "facets": [
+    {
+      "claim": "C23",
+      "name": "历史比较、反差、作者归因",
+      "required_text": [
+        "过去",
+        "下降",
+        "上升",
+        "与这一历史经验相反",
+        "他据此判断"
+      ]
+    }
+  ],
+  "edges": [],
+  "background_claims": [],
+  "context_only_cues": [],
+  "review_evidence": [
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\receipt.json"
+  ]
+}

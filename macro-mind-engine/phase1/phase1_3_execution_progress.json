@@ -1,0 +1,51 @@
+{
+  "completed": [
+    {
+      "detail": "Catalog, rule docs, gaps and conservative debt overlay generated; not acceptance evidence.",
+      "stage": "static_artifacts"
+    },
+    {
+      "detail": {
+        "ERROR": 0,
+        "FAILED": 0,
+        "PASSED": 207,
+        "SKIPPED": 0
+      },
+      "stage": "tests"
+    },
+    {
+      "detail": {
+        "check_exit": 0,
+        "format_exit": 0
+      },
+      "stage": "lint"
+    },
+    {
+      "detail": {
+        "installed_executable": "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+        "passed": true
+      },
+      "stage": "CLI"
+    },
+    {
+      "detail": {
+        "checked": 241,
+        "historical_changes": [
+          "src/macromind/cli/main.py"
+        ],
+        "passed": true
+      },
+      "stage": "immutability"
+    },
+    {
+      "detail": "READY_FOR_PHASE_1_4",
+      "stage": "gate"
+    },
+    {
+      "detail": "Writing source/evidence hashes and final result.",
+      "stage": "manifest"
+    }
+  ],
+  "current_run": "phase1/phase1_3_evidence/run_002",
+  "pending": []
+}

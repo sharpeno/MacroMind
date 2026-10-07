@@ -1,0 +1,120 @@
+{
+  "method_status": [
+    "first_observation",
+    "repeated",
+    "frequent",
+    "candidate_pattern"
+  ],
+  "recurrence_match": [
+    "none",
+    "exact",
+    "partial",
+    "analogous",
+    "uncertain"
+  ],
+  "recognition_stage": [
+    "planned",
+    "contracted",
+    "ordered",
+    "committed",
+    "delivered",
+    "deployed",
+    "utilized",
+    "revenue_recognized",
+    "cash_collected",
+    "expensed",
+    "depreciated",
+    "impaired",
+    "unknown"
+  ],
+  "semantic_role": [
+    "demand",
+    "order",
+    "contract",
+    "backlog",
+    "obligation",
+    "revenue",
+    "cash_receipt",
+    "capacity",
+    "utilization",
+    "asset",
+    "capex",
+    "depreciation",
+    "impairment",
+    "operating_expense",
+    "operating_cost",
+    "cash_flow",
+    "profit",
+    "margin",
+    "valuation",
+    "price",
+    "volume",
+    "inventory",
+    "other",
+    "unknown"
+  ],
+  "comparison_type": [
+    "none",
+    "yoy",
+    "qoq",
+    "mom",
+    "sequential",
+    "versus_consensus",
+    "versus_guidance",
+    "versus_baseline",
+    "versus_prior_period",
+    "percentage_point_change",
+    "absolute_delta",
+    "indexed_to",
+    "other",
+    "unknown"
+  ],
+  "verification_status": [
+    "verified",
+    "likely_true",
+    "uncertain",
+    "disputed",
+    "likely_false",
+    "false",
+    "unverifiable"
+  ],
+  "required_comparison_fields": [
+    "comparison_type",
+    "baseline_value",
+    "baseline_period",
+    "baseline_source_ref",
+    "delta_value",
+    "delta_unit"
+  ],
+  "required_method_fields": [
+    "domain",
+    "transferability",
+    "recurrence_status",
+    "recurrence_match",
+    "matched_prior_signal_refs",
+    "matched_scope",
+    "recurrence_evidence",
+    "annotation_observer",
+    "promotion_status"
+  ],
+  "required_argument_fields": [
+    "inference_modes",
+    "expression_levels",
+    "most_fragile_step",
+    "inferential_distance",
+    "creator_shortcuts"
+  ],
+  "extensions": {
+    "legacy_fields": "Original pre-migration values, non-authoritative history",
+    "ratio_value": "Dimensionless reported ratio, not delta",
+    "raw_comparison_value": "Ambiguous raw number, not normalized delta",
+    "delta_value_qualifier": "greater_than qualifies reported percent",
+    "most_fragile_step": "List of zero-based argument JSON paths, or null with mandatory review",
+    "semantic_role_mapping": "Existing allowed roles retained; null -> unknown; named specialized roles -> other plus semantic_role_detail",
+    "recurrence_status_policy": "first_observation conservatively retained for full signal; sub-operation matches stored separately, not frequency evidence",
+    "confidence_policy": "Failure assessment confidence null: original textual confidence is not failure-assessment confidence"
+  },
+  "immutable_review_exceptions": {
+    "C005": "M09 prohibits automatic modification; missing canonical fields pending manual review"
+  }
+}

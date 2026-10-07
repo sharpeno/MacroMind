@@ -1,0 +1,20 @@
+{
+  "title": "Review and Outlook",
+  "speaker": "Jerome H. Powell",
+  "published": "2024-08-23",
+  "retrieved_on": "2026-10-04",
+  "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+  "capture_scope": "Selected short excerpts verified against official page; not a full-text archive. Missing evidence means absent from this packet, not proved absent in reality.",
+  "records": [
+    {
+      "id": "pivot",
+      "text": "We recognized that and pivoted beginning in November.",
+      "locator": "The Rise and Fall of Inflation，紧接判断通胀并非暂时性的段落"
+    },
+    {
+      "id": "adjust",
+      "text": "The time has come for policy to adjust.",
+      "locator": "Near-Term Outlook for Policy，政策展望段落"
+    }
+  ]
+}

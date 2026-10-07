@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\无语\\Downloads\\MacroMind_round002_2026-10-04_031040_CST_8of8_full_826e7ab4.json",
+  "raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\raw\\MacroMind_round002_2026-10-04_031040_CST_8of8_full_826e7ab4.json",
+  "sha256": "4863f85f34e167044d8f816ae7453e3ec377660702040c265ed686c70ba28660",
+  "dataset": "f47493193e04617f6e9be8feb84f05a2eeb519dce67c55df659ed6577aff1043",
+  "records": 8,
+  "reviewer": "User submission; name blank",
+  "immutable_checks": [
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001",
+      "count": 347,
+      "mismatches": []
+    },
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_002",
+      "count": 301,
+      "mismatches": []
+    },
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\review_round_002",
+      "count": 12,
+      "mismatches": []
+    }
+  ]
+}

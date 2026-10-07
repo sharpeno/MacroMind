@@ -1,0 +1,58 @@
+[
+  {
+    "id": "R02/EP001/A03",
+    "raw_decision": "faithful",
+    "note": "cue 207 · 00:26:19,980 --> 00:26:39,980：成本的上升，那确实是上升了。因此“成本继续上涨”这个条件需要在结论里写得更明确",
+    "action": "忠实判定保留为历史意见；落实备注，C19及A03明确成本继续上涨条件。新文本标为按意见修订，非再次获批。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP002/gap223_235",
+    "raw_decision": "extract",
+    "note": "",
+    "action": "新增C22，区分转述市场说法与博主反对立场，保留只要加息落地的条件。候选文本由助手拟定，尚待确认。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP003/C23",
+    "raw_decision": "reject",
+    "note": "这里的逻辑并不是地缘风险不必然利好美债，若美国直接受冲击可能不同。而是在过去的历史经验中，地缘风险常常带来美债收益率的降低，而现在的地缘风险却导致美债收益率升高，这是一个反常事件，说明美国在全球的威势正在下降",
+    "action": "替换为用户提供的历史经验—当前反差—原因解释表述；同步修正M02方法观察，避免旧例外条件概括残留。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP004/C15",
+    "raw_decision": "change",
+    "note": "这是一种强调行业潜在回报的条件性展望，缺少明确标的、事前筛选标准及收益计算口径，不具备直接操作性，也难以据此证实或证伪。应保留为背景观点，不纳入具体预测的准确率评价，也不能作为选股规则。",
+    "action": "采用用户修正文，移出预测候选。保留原话及说明性条件情景，禁止作为具体预测评分或选股规则。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP004/C22",
+    "raw_decision": "change",
+    "note": "",
+    "action": "保留原有方法步骤，补全认识不足→机会、名不副实→风险两分支。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP005/A03",
+    "raw_decision": "change",
+    "note": "本段主要介绍博主提出的三种化债方法，三者应并列记录。短期偿付带来的频繁融资需求，只能作为“短债换长债”的问题背景和动机，不能据此推导出降低利息、外债转内债等整套方法。建议拆分方法内容，将该理由仅连接到延长债务期限这一项。",
+    "action": "保留三项并列方法描述，新增C28/C29/C30；A03只以C12为动机连接C28，不再以整套方法为结论。",
+    "status": "IMPLEMENTED_FROM_REVIEW_NOT_NEW_APPROVAL"
+  },
+  {
+    "id": "R02/EP005/gap230",
+    "raw_decision": "context",
+    "note": "",
+    "action": "遵从context判定，不新增主张。",
+    "status": "RETAINED_AS_REVIEWED"
+  },
+  {
+    "id": "R02/EP005/A06",
+    "raw_decision": "faithful",
+    "note": "",
+    "action": "按faithful判定保留，链及其主张、出现位置未变。",
+    "status": "RETAINED_AS_REVIEWED"
+  }
+]

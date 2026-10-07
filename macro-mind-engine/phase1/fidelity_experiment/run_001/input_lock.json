@@ -1,0 +1,14 @@
+{
+  "framework_projection.json": "bc8b2bdc5e23e31e2d4eaef519f9434845bd6dacbd96a63e3c6f53f9fca28cfc",
+  "prepare.py": "7cddeb5e8e5786f15dd76a1db921a562f7b91555e7c53de3e225983195da9aab",
+  "protocol.json": "a81e2edd2b5334d6839be4660745d652d5d08676cab991e8fd2fc25c5ae4d8bf",
+  "rubric_locked.json": "6bf99382cc02f4e56525a0840b87abb03a5350e2666ef2784ff4ae58322f00e0",
+  "source_hashes.json": "14825178b467eeae981581ba72c56ba2d26e6158502283f8af3a5e4eabc66b2e",
+  "common\\case_472.json": "cdef293e61cc99cc1c4ac6c319b0fbbc6d9c9a0a0f56e710645b166871cbadda",
+  "common\\case_473.json": "6189d978cba533e4e07d00c9efa12b1087f4092f6659a50ac3d28e3c8dccbedb",
+  "common\\case_474.json": "c30a89130534e517488c8499ca30e3f9e891772d239adb10092f2d9c02f06051",
+  "common\\case_475.json": "0666e5b234d06bdfaa7491e40dde558fe3ac13faaacb1faec640297fc3e88dfb",
+  "arms\\A\\method.json": "a8ac2cdef0dbe1bba8b54adec2ce02a7f11135a54520e17fe0eea1c9c0d3ea4a",
+  "arms\\B\\method.json": "783a4ddd96b51072bd2d91a0db3a0d5d1653d3c229cd71b0120314d6cfc0c6f4",
+  "arms\\C\\method.json": "628f1cc8b199279bd360427e22fa3e52f10eda2e2151c431aeaf643921400d9d"
+}

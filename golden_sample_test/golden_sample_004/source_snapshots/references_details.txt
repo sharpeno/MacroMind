@@ -1,0 +1,96 @@
+ (https://www.cls.cn/detail/2444045)
+citeturn16view0 [wordlim: 200] Crawled: yesterday; Content type: text/plain; Source: open({"ref_id":"turn15view1","lineno":1}); Total lines: 15
+L0: <!DOCTYPE html><html lang="zh"><head><meta charSet="utf-8" data-next-head=""/><meta name="viewport" content="width=device-width" data-next-head=""/><meta name="description" content="DeepSeek-V4-Flash性价比无敌？美研究机构评估：运行成本全球最低！" data-next-head=""/><title data-next-head="">DeepSeek-V4-Flash性价比无敌？美研究机构评估：运行成本全球最低！</title><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/><meta name="renderer" content="webkit"/><meta http-equiv="Content-Language" content="zh-cn"/><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="renderer" content="webkit"/><meta name="force-rendering" content="webkit"/><link rel="icon" href="https://cdnjs.cls.cn/www/20200601/image/favicon.ico"/><link rel="preload" href="https://wwwjs.cls.cn/_next/static/css/5e21c3f45c5c1b9e.css" as="style"/><script src="https://cdnjs.cls.cn/www/20180717/js/baidu.js"></script><link rel="stylesheet" type="text/css" charSet="UTF-8" href="/css/slick.css"/><link rel="stylesheet" type="text/css" charSet="UTF-8" href="/css/slick-theme.min.css"/><link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cls.cn/www/20200601/css/iconfont.css"/><link rel="stylesheet" type="text/css" href="https://cdnjs.cls.cn/www/20260803/css/global-2026083.css"/><link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cls.cn/www/20260318/css/detail-2026031.css"/><noscript><strong>很抱歉，当前没有启用javascript，网站无法正常访问。请开启以便继续访问。</strong></noscript><link rel="stylesheet" href="https://wwwjs.cls.cn/_next/static/css/5e21c3f45c5c1b9e.css" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" noModule="" src="https://wwwjs.cls.cn/_next/static/chunks/polyfills-42372ed130431b0a.js"></script><script src="https://wwwjs.cls.cn/_next/static/chunks/webpack-34d59b630a6fede2.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/framework-32a7466d5cae4a81.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/main-dac5acdbc6ced465.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/pages/_app-f9e2dc83ea0bd65b.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/7189-167c4ca2290b7ab8.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/8063-931e4af6560c41c9.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/8028-217dbbafc8b56f68.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/8230-1445aa8dd30d9e74.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/9111-8d6acaa64b572b79.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/5088-80ed0adc7de815d6.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/191-627b3265df018e1f.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/1953-345f56dea181c33a.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/9392-77f48c49b64264b7.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/chunks/pages/detail/%5Bid%5D-53a7a8c4cf00a9a9.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/vZmpFhRkte4FqlTlJ1huC/_buildManifest.js" defer=""></script><script src="https://wwwjs.cls.cn/_next/static/vZmpFhRkte4FqlTlJ1huC/_ssgManifest.js" defer=""></script></head><body><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/kefu.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/www/20180717/images/rightSide/kfCodeSlider.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/xlCode.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/www/20180717/images/rightSide/xlCodeSlider.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/wxCode.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/www/20180717/images/rightSide/wxCodeSlider.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/appLogo.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/www/20180717/images/rightSide/downloadCodeSlider.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/toTop.png"/><link rel="preload" as="image" href="https://cdnjs.cls.cn/images/site/cailianWeb/jubaologo1.png"/><div id="__next"><div class="p-r p-b-100 mi-h-100v detail-css-2444045"><div class="header-wraper"><div><div class="h-42 l-h-42p top-nav-box"><div class="c-b m-a w-1200"><div class="f-l top-nav-left"><a href="/our?nav=our" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">关于我们</a><a href="/our?nav=copyright" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">网站声明</a><a href="/our?nav=contact" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">联系方式</a><a href="/our?nav=feedBack" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">用户反馈</a><a href="/our?nav=map" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">网站地图</a><a href="/our?nav=tips" class="m-r-50 f-s-15 c-6a6a6a h-t-d-u">帮助</a></div></div></div><div class="p-r m-a w-1200"><div class="c-b p-t-16 p-b-16 h-52 level-1-nav-box"><a href="/" class="f-l"><h1><div class="p-r m-r-50 w-198 h-53 level-1-logo-box" title="财联社"></div></h1></a><div class="f-l m-t-24 h-28 l-h-28p level-1-nav"><a href="/" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">首页</h2></a><a href="/telegraph" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">电报</h2></a><a href="/subject" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">话题</h2></a><a href="/finance" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">盯盘</h2></a><a href="/vip" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">VIP</h2></a><a href="/fm" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">FM</h2></a><a href="/investpro" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">投研</h2></a><a href="/download" class="d-i-b m-r-48 c-4d4d4d l-c-m-r-0" target="_blank" rel="noopener noreferrer"><h2 class="d-i f-s-20">下载</h2></a></div><div class="f-r p-r m-t-23"><input class="p-t-0 p-r-16 p-b-0 p-l-16 w-156 h-28 f-s-14 l-h-28p c-222 bg-c-f9fafc b-w-1 b-s-s b-c-e6e7ea b-r-999" type="text" placeholder="请输入要搜索的信息" value=""/><span rel="noopener noreferrer"><em class="v-a-m m-l-12 f-s-20 l-h-1 c-222 c-p iconfont iconsearch"></em></span></div></div></div></div></div><div class="m-a w-1200"><div class="c-b p-r w-100p l-h-42p t-a-c bg-c-34304b level-2-nav-box"></div><div class="c-b p-t-20 p-b-30 w-100p"><div class="f-l w-894"><div class="m-b-26 o-h f-s-34 l-h-48p t-a-j f-w-b c-fff w-b-a article-title"><span class="bg-c-de0422">DeepSeek-V4-Flash性价比无敌？美研究机构评估：运行成本全球最低！</span></div><div class="c-b m-b-20 f-s-14 l-h-2 c-999"><div class="f-l m-r-10 p-r-3 p-l-3 f-s-18 l-h-23p c-de0422 b-w-1 b-s-s b-c-de0422">原创</div><div class="f-l m-b-5 m-r-10 p-r-8 p-l-8 l-h-28p bg-c-f4f5fa b-w-1 b-s-s b-c-e6e7ea c-p h-b-c-222"><a class="f-s-12" href="/subject/1556">环球市场情报</a></div><div class="f-l m-r-10">2026-08-03 15:12 星期一</div><div class="f-l m-r-10">财联社 潇湘</div><div class="f-l">责编 <!-- -->林琦</div></div><pre class="m-b-20 p-t-20 p-r-24 p-b-20 p-l-24 f-s-18 c-57585f bg-c-f5f5f5">①根据一家美国研究机构的最新测试数据，DeepSeek-V4-Flash已成为全球知名模型中运行成本最低的一款；
+L1: ②其运行成本甚至只有Anthropic旗舰模型Claude Fable 5的不到1/100。</pre><div class="m-b-40 f-s-18 l-h-177778 t-a-j w-b-a detail-content  "><div class="m-b-10"><p><strong>财联社8月3日讯（编辑 潇湘）</strong>上周五(7月31日)，DeepSeek官宣其最新大语言模型DeepSeek-V4-Flash正式版API(接口)开启公测。DeepSeek表示，DeepSeek-V4-Flash正式版大幅升级其代理能力，相关基准测试得分已远超V4-pro预览版。</p>
+L2: <p><strong>而根据一家美国研究机构的最新测试数据，DeepSeek-V4-Flash已成为全球知名模型中运行成本最低的一款，其运行成本甚至只有Anthropic旗舰模型Claude Fable 5的不到1/100。</strong></p>
+L3: <p>DeepSeek的R1模型于2025年初在全球引发轰动，不仅触发了全球科技股的抛售潮，也引发了人们对美国企业在AI领域巨额支出的质疑。而如今，V4-Flash近乎无敌的性价比，再度令不少美国业界人士刮目相看。</p>
+L4: <p>研究公司Artificial Analysis表示，DeepSeek-V4-Flash对每百万输入Token收费0.14美元，对每百万输出Token收费0.28美元。</p>
+L5: <p><strong>Artificial Analysis据此估算了其每项智能指数任务的成本——即按Token类型划分的每项AI分析智能指数任务的加权平均成本，数值越低越好。最终，V4-Flash的平均测试成本为3美分。</strong></p>
+L6: <p><img src="https://image.cls.cn/images/20260803/dUBHv6fZMw_1077x475.png" alt="image"></p>
+L7: <p><strong>作为对比，其中国竞争对手月之暗面旗下最新模型Kimi K3的测试成本为86美分，OpenAI的GPT-5.6 Sol为1.86美元，Claude Fable 5为3.15美元。</strong></p>
+L8: <p><strong>Artificial Analysis表示，与仅看定价相比，这种比较方式能更真实地衡量价值，因为它考虑了模型为完成一项任务必须处理和生成的数据量。</strong>如果一个模型需要显著更多的步骤才能得出答案，那么即使其标价较低，实际成本仍可能很高。</p>
+L9: <p><strong>Artificial Analysis还表示，DeepSeek-V4-Flash模型在该机构的“智能指数”中获得了50分(满分100分)，该指数综合了涵盖编码、推理和职场风格任务等九项基准测试的结果。</strong></p>
+L10: <p><img src="https://image.cls.cn/images/20260803/2qvDdd1d6p_1069x471.png" alt="image"></p>
+--------------------------------------------------------------------------------
+美国13州推进取消数据中心税收优惠，每千兆瓦AI算力成本或增加30亿美元 - 华尔街见闻 (https://wallstreetcn.com/articles/3778569)
+citeturn16view1 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({"ref_id":"turn15view2","lineno":30}); Total lines: 64
+L17: ## 两党态度转向：AI热潮削弱税收优惠必要性
+L18: 
+L19: 推动政策转向的原因并不复杂。
+L20: 
+L21: 近年来，各州为了争夺微软、谷歌、Meta、亚马逊、甲骨文等科技公司的AI投资，相继推出销售税减免等优惠政策。但随着AI投资持续升温，越来越多州政府开始认为，这类激励措施正在侵蚀财政收入，而科技公司即使没有税收优惠，也不会轻易放弃当地投资。
+L22: 
+L23: 与此同时，舆论环境也在发生变化。越来越多选民开始质疑大型数据中心对电力、水资源及就业的实际贡献，并要求科技企业承担与其他企业相同的税负。这一议题已逐渐形成跨党派共识。
+L24: ## 德州成为行业关注焦点
+L25: 
+L26: 目前市场最关注的是德克萨斯州。
+L27: 
+L28: 根据房地产服务公司JLL预测，到2030年，德州数据中心总电力容量有望超过弗吉尼亚州，成为全球最大的数据中心市场。然而，今年6月，州长Greg Abbott要求州议会研究取消数据中心销售税豁免及其他"过时或不必要"的激励政策。
+L29: 
+L30: 这一表态格外敏感。
+L31: 
+L32: 目前德州已有数十GW AI园区在建或已宣布，当地电网收到的数据中心并网申请更高达数百GW。数据中心联盟（Data Center Coalition）执行副总裁Dan Diorio近期专程赴奥斯汀参加听证会，希望保留自2013年以来实施的税收优惠。德州议会预计将在2027年重新审议相关法案。
+L33: 
+L34: Diorio表示："如果这些优惠突然消失，你整个商业计划都会被打乱。"
+L35: ## 更多州开始重新计算"补贴账"
+L36: 
+L37: 除德州外，多个州已经开始行动。
+L38: 
+L39: 华盛顿州上月取消数据中心设备更新和翻新的销售税豁免，州政府预计到2029年前可增加约2.07亿美元财政收入；亚利桑那州暂停数据中心销售税豁免三年。
+L40: 
+L41: 路易斯安那州则没有直接取消优惠，而是提高获得优惠的门槛。当地Meta正在建设一座可扩展至5GW的数据中心，州长Jeff Landry要求数据中心企业必须自行承担全部新增电力需求，才能继续享受税收优惠。
+L42: 
+L43: 弗吉尼亚州采取了更折中的方案。州政府最终没有取消销售税豁免，而是改为向数据中心征收电力消费税。据Diorio估算，这将使行业每年新增约6亿美元税负；若直接取消销售税豁免，每年新增税负将超过10亿美元。
+L44: ## AI基础设施成本模型正在改变
+L45: 
+L46: 面对各州政策收紧，行业正寻求新的妥协方案。
+L47: 
+L48: Diorio表示，行业愿意接受更多附加条件，例如将税收优惠与就业创造、本地投资等指标挂钩。他认为，全美已有40个州对制造业资本设备提供税收豁免，数据中心同样属于资本密集型产业，应获得类似待遇。数据中心联盟委托普华永道开展的研究以及弗吉尼亚州议会审计机构的独立报告均认为，数据中心创造的税收和经济效益超过了政府放弃的销售税收入。
+L49: 
+L50: 全国州议会会议（National Conference of State Legislatures）政策研究员Nicholas Miller预计，未来会有更多州采取类似路易斯安那州的做法，在保留税收优惠的同时附加更多条件，而非直接取消项目。
+L51: 
+L52: 不过，也有州开始采取更强硬立场。纽约州近期已通过数据中心开发暂停令。
+L53: 
+L54: 对于仍在竞相建设AI基础设施的科技巨头而言，税收优惠不再是可以默认享有的政策红利。随着各州重新评估补贴成本，税收政策正与电力供应、输电能力和水资源一样，成为影响AI数据中心选址和投资回报的重要变量。
+L55: 
+L56: 相关文章
+--------------------------------------------------------------------------------
+ (https://www.cls.cn/detail/2434646)
+citeturn16view2 [wordlim: 200] Crawled: today; Content type: text/plain; Source: open({"ref_id":"turn15view3","lineno":1}); Total lines: 44
+L1: ②这反映了投资者对美国政府债务规模不断扩大和通胀顽固不化的深层担忧。</pre><div class="m-b-40 f-s-18 l-h-177778 t-a-j w-b-a detail-content  "><div class="m-b-10"><p><strong>财联社7月23日讯（编辑 潇湘）</strong>如果世上有为“荒谬预测”颁发的奖项，那么25年前的一份美国政府报告绝对能“荣登领奖台”。</p>
+L2: <blockquote>
+L3: <p>2001年1月，美国国会预算办公室预测未来美国政府将出现巨额预算盈余，甚至表示所有可赎回的政府债务都可在五年内偿清。同年，美国财政部停止发行了其期限最长的30年期国债——毕竟在当时看来，继续发债显得毫无必要。</p>
+L4: </blockquote>
+L5: <blockquote>
+L6: <p>但随后的一切，人们如今显然已了然于心——五年后，随着美国陷入中东战事、大规模减税政策落地以及经济陷入衰退，美国财政赤字急剧扩张，美国财政部不得不被迫重启了30年期国债的发行。</p>
+L7: </blockquote>
+L8: <p>有意思的是，尽管重回市场，但此类长期国债此后却长期沦为边缘化的投资标的。不过<strong>时至今日，人们可能已无法再小觑它们——最新的警报信号是，剔除通胀因素后的30年期美债实际收益率已飙升至2008年金融危机以来的最高水平。</strong></p>
+L9: <p><strong>与此同时，今年以来，美国30年期国债收益率处于5%以上的交易日数量创金融危机初期以来最多，这反映了投资者对美国政府债务规模不断扩大和通胀顽固不化的深层担忧。</strong></p>
+L10: <p>据业内汇编的数据，截至本周三，30年期美债收益率在今年已有27个交易日维持在5%关口以上——其中包括最近的连续12个交易日——这一比例约占全年交易日总数的19%。这是自2007年(当时在5%关口水平上方交易了50天)以来的最多天数和最长连续纪录。</p>
+L11: <p><img src="https://image.cls.cn/images/20260723/8oaP3Lsd2Y_658x336.png" alt="image"></p>
+L12: <p>然而，与2007年不同的是，美联储的基准利率目前要大幅低出150个基点，这表明投资者对持有美国财政部发行的最长期限债券所要求的收益率溢价补偿，甚至比次贷危机爆发之初还要高……</p>
+L13: <p><u><strong>长期美债彻底被“债券义警”盯上了？</strong></u></p>
+L14: <p><strong>长期美债收益率持续走高的背后，是人们对美国财政状况恶化的担忧日益加剧。与此同时，为人工智能基础设施融资的大量债券发行正涌入公司债市场。</strong></p>
+L15: <p><img src="https://image.cls.cn/images/20260723/W5ja5e51Cq_645x401.png" alt="image"></p>
+L16: <p><strong>这引发了人们对上世纪“债券义警”时代的联想——该说法在20世纪80年代广为流传，当时投资者抛售政府债券，推高收益率，以迫使政府遵守财政纪律。</strong></p>
+L17: <p>“更大的影响在于主权债务和财政赤字处于极高水平，这使得长期美债收益率居高不下，”Nuveen资产管理公司固定收益策略主管Tony Rodriguez表示。</p>
+--------------------------------------------------------------------------------
+www.qstheory.cn (https://www.qstheory.cn/20260715/1ebf8503161c448a9027393008f810f7/c.html)
+citeturn16view3 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"turn15view4","lineno":0}); Total lines: 39
+L0: 何以“解码”中国共产党 - 求是网
+L1: 
+L2: cite0†Image L3: 
+L4: |　cite1†理论资源导航 L5: 
+L6: # 何以“解码”中国共产党
+L7: ##
+L8: 
+L9: 来源：《求是》2026/14 作者：冀永义 2026-07-16 09:00:00
+L10: 
+L11: 何以“解码”中国共产党
+L12: 
+L13: 冀永义
+L14: 
+L15:   “中国发生的一切，吸引着全世界的目光。学界经常探讨，中国取得的成就多大程度上是中国共产党的功劳？在我看来，中国的发展必须归功于中国共产党的领导。回望中国近代史，从走过二万五千里长征、夺取抗日战争和解放战争胜利，到推进社会主义建设、推动改革开放事业、实现国家快速发展，始终是中国共产党为中国人民指明前进方向。正因如此，要想理解中国，就必须理解中国共产党。”在中国共产党成立105周年之际，德国学者米夏埃尔·盖格尔的一番话，道出了国际社会许多有识之士的心声。当今世界，越来越多的人钦佩中国共产党的治党治国之道，想要了解百年大党铸就辉煌的成功密码。
+L16:   今年7月1日，在庆祝中国共产党成立105周年大会上，习近平总书记从思想引领、人民立场、历史担当、时代品格、斗争精神、强健自身六个维度，全面系统总结了我们党具有的其他政党和政治力量无可比拟的优秀特质，并将其明确为“中国共产党为什么能的关键密码”。如何理解这个“密码”？通俗地讲，就是成就党百年辉煌的金钥匙、导航仪、方向标。矢志追求真理，党和人民事业才能始终沿着正确方向前进；深深植根人民，党才能拥有任何风浪都动摇不了的坚实根基；勇担历史使命，党才能牢牢掌握事业发展的领导权和主动权；顺应发展潮流，党才能成为当之无愧的时代先锋、民族脊梁；敢于善于斗争，党才能团结带领人民不断从胜利走向胜利；注重强健自身，党才能在革命性锻造中永葆生机活力。六大特质相互作用、相互支撑，共同铸就中国共产党独一无二的政治优势。而注重强健自身，是确保党始终具备践行优秀特质能力的根本保证。追求真理、服务人民、担当使命、引领时代、坚持斗争，都需要过硬的自身素质作支撑，唯有持续自我净化、自我完善、自我革新、自我提高，党的优秀特质才能长期坚守、永不褪色。
+L17:   万物因常新而恒久，大党因自修而长青。一部百余年党史，是一部勇于自我革命、不断强健自身的历史。新民主主义革命时期，我们党弘扬伟大建党精神，实施和推进党的建设伟大工程，提出着重从思想上建党的原则，坚持民主集中制，坚持理论联系实际、密切联系群众、批评和自我批评三大优良作风，形成统一战线、武装斗争、党的建设三大法宝，努力建设全国范围的、广大群众性的、思想上政治上组织上完全巩固的马克思主义政党。解放战争取得全国胜利前夕，毛泽东同志向全党提出“两个务必”，新中国成立后党又着重提出执政条件下党的建设的重大课题，从思想上组织上作风上加强党的建设、巩固党的领导，增强了党的纯洁性和全党的团结，密切了党同人民群众的联系。改革开放后，我们党强调治国必先治党、治党务必从严，聚精会神抓好党的建设，开创和推进党的建设新的伟大工程，不断探索解决提高党的领导水平和执政水平、提高拒腐防变和抵御风险能力这两大历史性课题。进入新时代，以习近平同志为核心的党中央以巨大的政治勇气和强烈的责任担当，坚定不移全面从严治党，从制定和落实中央八项规定开局破题，提出和落实新时代党的建设总要求，以党的政治建设统领党的建设各项工作，开展史无前例的反腐败斗争，从根本上扭转了落实党的领导弱化虚化淡化和管党治党宽松软状况，消除了党、国家、军队内部存在的严重隐患，党在革命性锻造中更加坚强有力。
+

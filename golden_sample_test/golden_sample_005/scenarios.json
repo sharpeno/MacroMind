@@ -1,0 +1,317 @@
+[
+  {
+    "scenario_id": "SC01",
+    "claim_refs": [
+      "C005"
+    ],
+    "condition": "保持中国当前进步速度",
+    "result": "很快超过美国",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C005"
+    ]
+  },
+  {
+    "scenario_id": "SC02",
+    "claim_refs": [
+      "C013"
+    ],
+    "condition": "意识上传及虚拟化可实现",
+    "result": "向内发展；算力和能源成为约束",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C013"
+    ]
+  },
+  {
+    "scenario_id": "SC03",
+    "claim_refs": [
+      "C014",
+      "C017",
+      "C018"
+    ],
+    "condition": "廉价入轨及太空电梯、太空站等相继可实现",
+    "result": "向外拓展文明空间",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C014",
+      "SS-C017",
+      "SS-C018"
+    ]
+  },
+  {
+    "scenario_id": "SC04",
+    "claim_refs": [
+      "C039"
+    ],
+    "condition": "特定太空芯片在辐射下快速损坏",
+    "result": "一至数年替换；无指定任务、器件与轨道",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C039"
+    ]
+  },
+  {
+    "scenario_id": "SC05",
+    "claim_refs": [
+      "C040"
+    ],
+    "condition": "地面能源规模扩张并综合利用",
+    "result": "可比太空方案便宜",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C040"
+    ]
+  },
+  {
+    "scenario_id": "SC06",
+    "claim_refs": [
+      "C046",
+      "C047",
+      "C048",
+      "C049"
+    ],
+    "condition": "卫星部署与规模扩大十倍",
+    "result": "带宽/网速增长及成本下降，替代光纤；四个子结论分Claim",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C046",
+      "SS-C047",
+      "SS-C048",
+      "SS-C049"
+    ]
+  },
+  {
+    "scenario_id": "SC07",
+    "claim_refs": [
+      "C055",
+      "C056"
+    ],
+    "condition": "需求足够大",
+    "result": "供应链规模和成本竞争力提升",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C055",
+      "SS-C056"
+    ]
+  },
+  {
+    "scenario_id": "SC08",
+    "claim_refs": [
+      "C060",
+      "C061",
+      "C064"
+    ],
+    "condition": "国家投资、需求和供应链形成闭环",
+    "result": "规模增长及全球需求集中",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": true,
+    "admission_reason": "主播作出方向承诺；进入分支选择Forecast，低可结算性不能伪造精确条件",
+    "source_segment_refs": [
+      "SS-C060",
+      "SS-C061",
+      "SS-C064"
+    ]
+  },
+  {
+    "scenario_id": "SC09",
+    "claim_refs": [
+      "C068",
+      "C069"
+    ],
+    "condition": "AI泡沫破裂",
+    "result": "流动性和风险投资意愿下降；没有自动预测泡沫日期",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C068",
+      "SS-C069"
+    ]
+  },
+  {
+    "scenario_id": "SC10",
+    "claim_refs": [
+      "C070",
+      "C074"
+    ],
+    "condition": "私营项目低信心且信任国家信用",
+    "result": "国债中介融资或信任跨国转移",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C070",
+      "SS-C074"
+    ]
+  },
+  {
+    "scenario_id": "SC11",
+    "claim_refs": [
+      "C077"
+    ],
+    "condition": "中国登月后推出月球开发叙事",
+    "result": "吸引投资；反问未提供概率或规模",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C077"
+    ]
+  },
+  {
+    "scenario_id": "SC12",
+    "claim_refs": [
+      "C078",
+      "C079",
+      "C080"
+    ],
+    "condition": "世界资金可以参与中国未来项目",
+    "result": "缓解出口不满；融资故事并存",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C078",
+      "SS-C079",
+      "SS-C080"
+    ]
+  },
+  {
+    "scenario_id": "SC13",
+    "claim_refs": [
+      "C082"
+    ],
+    "condition": "竞争者融资成本增加",
+    "result": "激发效率改进；竞争失败分支为淘汰",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C082"
+    ]
+  },
+  {
+    "scenario_id": "SC14",
+    "claim_refs": [
+      "C083"
+    ],
+    "condition": "技术赶超案例持续增加",
+    "result": "话语权及资产估值提高",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C083"
+    ]
+  },
+  {
+    "scenario_id": "SC15",
+    "claim_refs": [
+      "C095",
+      "C096"
+    ],
+    "condition": "债务增加10万亿的用时缩短为约两年",
+    "result": "2028年突破50万亿",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": true,
+    "admission_reason": "很有可能明确选择两年分支；95与96是嵌套时间承诺而非两条独立成功证据",
+    "source_segment_refs": [
+      "SS-C095",
+      "SS-C096"
+    ]
+  },
+  {
+    "scenario_id": "SC16",
+    "claim_refs": [
+      "C115"
+    ],
+    "condition": "估值飙升可能分散研发人员注意力",
+    "result": "国家平衡投资节奏",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": true,
+    "admission_reason": "肯定/会表达接受该未来方向",
+    "source_segment_refs": [
+      "SS-C115"
+    ]
+  },
+  {
+    "scenario_id": "SC17",
+    "claim_refs": [
+      "C117"
+    ],
+    "condition": "成功的商业航天公司出现",
+    "result": "关注和人才待遇改善的正循环",
+    "branch_probability": null,
+    "condition_endorsed": null,
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "forecast_admitted": false,
+    "admission_reason": "未明确选择分支或触发条件/时间难以结算",
+    "source_segment_refs": [
+      "SS-C117"
+    ]
+  }
+]

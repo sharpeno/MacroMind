@@ -1,0 +1,54 @@
+{
+  "files": {
+    "batch_pilot_materials/EP001/《第七百六一期》美国八月PPI跳涨，美联储9月加息概率大增，美国柴油平均价格突破6美元一加仑-p01-16.mp4": {
+      "sha256": "272edc16e6268c7d29ea6787416c3cda39310cb632d8d52e72f7d13c0f66849e",
+      "bytes": 89096576
+    },
+    "batch_pilot_materials/EP001/《第七百六一期》美国八月PPI跳涨，美联储9月加息概率大增，美国柴油平均价格突破6美元一加仑-p01-16.自动转写.txt": {
+      "sha256": "857969df9a4b4304aef4c0f1fc75a3e036aa0697633c37ae3d8466fd7359e12f",
+      "bytes": 30825
+    },
+    "batch_pilot_materials/EP001/信息说明.md": {
+      "sha256": "10ac1d8642edd090ee0d3eb8437556b6746badf1759dc03109d55d113956d9e0",
+      "bytes": 2079
+    },
+    "batch_pilot_materials/EP001/原始字幕.srt": {
+      "sha256": "78c786a5db7b5e17da205aa83e8e4d96994a4d95e23e7c112b644fae91cbb414",
+      "bytes": 38728
+    },
+    "batch_pilot_materials/EP001/补充材料/引用清单.md": {
+      "sha256": "d586f038a4aa178c6fd5ea5480303d60a041b4e779023c8cb365b849a9349aa8",
+      "bytes": 611
+    }
+  },
+  "extraction_primary": "原始字幕.srt",
+  "audio_checked": false,
+  "source_version": {
+    "id": "EP001/version/78c786a5db7b5e17",
+    "object_type": "SourceVersion",
+    "schema_version": "0.1.0",
+    "ontology_version": "0.3",
+    "created_at": null,
+    "provenance_refs": [],
+    "metadata": {},
+    "source_ref": "EP001/source",
+    "version_label": "user-supplied ASR subtitle bytes",
+    "content_time": {
+      "state": "unknown"
+    },
+    "published_at": {
+      "text": "2026-09-11 10:10:52",
+      "start": null,
+      "end": null,
+      "source_ref": null
+    },
+    "captured_at": {
+      "state": "unknown"
+    },
+    "content_sha256": "78c786a5db7b5e17da205aa83e8e4d96994a4d95e23e7c112b644fae91cbb414",
+    "revision_status": "Original preserved; no audio correction",
+    "source_refs": [
+      "EP001/source"
+    ]
+  }
+}

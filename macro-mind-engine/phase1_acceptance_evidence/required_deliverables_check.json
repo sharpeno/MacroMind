@@ -1,0 +1,804 @@
+{
+  "basis": "G:\\youhegaojian\\codex迭代\\codex prompt\\MacroMind Codex Phase 1.0–1.2 Execution Prompt.md",
+  "basis_sha256": "c5b78d29444e451b205afd80cc377f7dbd1fb74909637e733137e3e568075e7c",
+  "created_during_acceptance_evidence_completion": true,
+  "historical_evidence_limitation": "Original terminal logs for JUnit/encoding failures were not saved; pre-existing narratives are preserved. This is explicitly reported in historical_failure_check.json and is not represented as machine-verified historical failure execution.",
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "requirements": [
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json",
+        "model_contract_check.json",
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Frozen Contract → executable models → Registry",
+      "requirement_id": "P1-00",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Read actual authoritative inputs",
+      "requirement_id": "P1-01",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "architecture_check.json",
+        "src/macromind/contract/loader.py"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Frozen source-of-truth ordering",
+      "requirement_id": "P1-02",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_immutability_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Frozen artifacts read-only",
+      "requirement_id": "P1-03",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_immutability_report.json",
+        "model_contract_check.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Change policy preserved; no Core redefinition",
+      "requirement_id": "P1-04",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json",
+        "pyproject.toml"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Python 3.12+, Pydantic v2, pytest/Typer/PyYAML",
+      "requirement_id": "P1-05",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "source_inventory.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Engineering skeleton and reference-only contracts directory",
+      "requirement_id": "P1-06",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "load_frozen_contract API runs",
+      "requirement_id": "P1-07",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "source_inventory.json",
+        "src/macromind/contract/models.py"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Separate contract metadata models",
+      "requirement_id": "P1-08",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#contract testcases"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Fail-closed loader cases",
+      "requirement_id": "P1-09",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "ContractIntegrityReport structured checks",
+      "requirement_id": "P1-10",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json",
+        "determinism_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "File SHA-256 distinct from frozen semantic hash",
+      "requirement_id": "P1-11",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_installed_cli_report.json",
+        "fresh_test_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "contract verify CLI and exit codes",
+      "requirement_id": "P1-12",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#contract testcases"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Contract tests C001–C011",
+      "requirement_id": "P1-13",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_contract_integrity_report.json",
+        "fresh_immutability_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Phase 1.0 current gate independently reproduced",
+      "requirement_id": "P1-14",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "docs/SCHEMA_MAPPING.md"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Every field has A/B/C origin metadata",
+      "requirement_id": "P1-15",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "schema_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Ontology/schema versions separate",
+      "requirement_id": "P1-16",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Base object metadata and nullable created_at",
+      "requirement_id": "P1-17",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json#unknown_null_missing"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Unknown/null/missing separate",
+      "requirement_id": "P1-18",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "14 Core models and frozen-reference docstrings",
+      "requirement_id": "P1-19",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json#Claim",
+        "fresh_test_report.json#S009"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Claim temporal/population/modal/attribution fields",
+      "requirement_id": "P1-20",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "fresh_test_report.json#S010"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Forecast contract and independent Scenario",
+      "requirement_id": "P1-21",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Event/StructuralProcess separate; no arbitrary evidence threshold",
+      "requirement_id": "P1-22",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "IndicatorObservation is Auxiliary with required dimensions",
+      "requirement_id": "P1-23",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "MechanismUsage fields; attribution separated",
+      "requirement_id": "P1-24",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "fresh_test_report.json#S012"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Argument expressive graph and reasoner attribution",
+      "requirement_id": "P1-25",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "fresh_test_report.json#S011"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Assessment independent observer/target/criteria",
+      "requirement_id": "P1-26",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Heuristic fields without Skill format",
+      "requirement_id": "P1-27",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Twelve required Auxiliary models",
+      "requirement_id": "P1-28",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "AnalystMethodSignal recurrence and failure representation",
+      "requirement_id": "P1-29",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#test_comparison_never_calculates_delta",
+        "src/macromind/schema/common.py"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "ComparisonBasis fields and no delta calculation",
+      "requirement_id": "P1-30",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json",
+        "registry_authority_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "RecognitionStage from Registry",
+      "requirement_id": "P1-31",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json",
+        "model_contract_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "SemanticRole/detail from Registry",
+      "requirement_id": "P1-32",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "schema_draft_check.json",
+        "schema_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "26 Draft 2020-12 JSON schemas and hash manifest",
+      "requirement_id": "P1-33",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "docs/SCHEMA_MAPPING.md",
+        "source_inventory.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Complete Core schema mapping sections",
+      "requirement_id": "P1-34",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "No semantic validator at schema stage",
+      "requirement_id": "P1-35",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#schema testcases"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Schema tests S001–S015",
+      "requirement_id": "P1-36",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "model_contract_check.json",
+        "schema_artifact_check.json",
+        "fresh_test_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Phase 1.1 current gate independently reproduced",
+      "requirement_id": "P1-37",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json",
+        "registry_authority_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Registry central governance",
+      "requirement_id": "P1-38",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Required Registry YAML files",
+      "requirement_id": "P1-39",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Core registry exact 14 and non-Core kinds",
+      "requirement_id": "P1-40",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json#relations"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Relation contracts have constraints/provenance; uncertain candidate",
+      "requirement_id": "P1-41",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json",
+        "docs/REGISTRY_POLICY.md"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Enum metadata and extension handling",
+      "requirement_id": "P1-42",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registries/v0_3/schema_versions.yaml",
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Schema Version Registry and compatibility policy",
+      "requirement_id": "P1-43",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json#R08"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Identity policy only; no auto merge",
+      "requirement_id": "P1-44",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json#R01"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "load_registry API",
+      "requirement_id": "P1-45",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#registry testcases",
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Registry negative integrity tests",
+      "requirement_id": "P1-46",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_authority_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "YAML → generated enums → schemas; no duplicate vocabulary authority",
+      "requirement_id": "P1-47",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "determinism_check.json",
+        "source_inventory.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Generated Python marked derived and deterministic",
+      "requirement_id": "P1-48",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json#registry testcases"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Registry tests R001–R012",
+      "requirement_id": "P1-49",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_installed_cli_report.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Only three required CLI operations",
+      "requirement_id": "P1-50",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "determinism_check.json",
+        "registry_artifact_check.json#R09"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Deterministic contract/schema/registry outputs",
+      "requirement_id": "P1-51",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_installed_cli_report.json#commands parsed_stderr"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Structured logging fields",
+      "requirement_id": "P1-52",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "src/macromind/errors.py",
+        "fresh_test_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Explicit error hierarchy",
+      "requirement_id": "P1-53",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "registry_artifact_check.json#negative_tests",
+        "src/macromind/registry/enums.py"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Data-only JSON/YAML, safe loader rejects unsafe tags",
+      "requirement_id": "P1-54",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "debt_overlay_check.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Debt scope limited and conservative",
+      "requirement_id": "P1-55",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "debt_overlay_check.json",
+        "fresh_immutability_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Separate debt overlay, historical ledger unchanged",
+      "requirement_id": "P1-56",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_test_report.json",
+        "fresh_all-tests.xml"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Actual pytest run with group outcomes",
+      "requirement_id": "P1-57",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_ruff_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Existing static checks rerun",
+      "requirement_id": "P1-58",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "Fresh E01–E20 evidence",
+        "no old verdict used"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Original G01–G18 requirements independently rechecked",
+      "requirement_id": "P1-59",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "readiness_flags_check.json",
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Ready only for next phase, not production",
+      "requirement_id": "P1-60",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Four required documents exist",
+      "requirement_id": "P1-61",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "schema_artifact_check.json",
+        "registry_artifact_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Required machine artifacts exist",
+      "requirement_id": "P1-62",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "phase1/phase1_0_1_2_manifest.json (metadata presence only",
+        "verdict not reused)"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Phase manifest required metadata recorded",
+      "requirement_id": "P1-63",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_immutability_report.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "No Golden modification",
+      "requirement_id": "P1-64",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "scope_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "No early Phase 1.3 validators",
+      "requirement_id": "P1-65",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "fresh_immutability_report.json",
+        "scope_check.json",
+        "model_contract_check.json",
+        "readiness_flags_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Forbidden changes/work absent",
+      "requirement_id": "P1-66",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "readiness_flags_check.json"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Post-stage not-ready flags retained",
+      "requirement_id": "P1-67",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "Fresh evidence reports",
+        "historical final-message format not treated as runtime behavior"
+      ],
+      "notes": "Verified against actual current artifacts/fresh behavior; not inferred from old Gate.",
+      "required_artifact_or_behavior": "Original final summary independently reproducible",
+      "requirement_id": "P1-68",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "docs/PHASE1_0_1_2_ARCHITECTURE.md"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "docs/PHASE1_0_1_2_ARCHITECTURE.md",
+      "requirement_id": "ART-01",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "docs/SCHEMA_MAPPING.md"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "docs/SCHEMA_MAPPING.md",
+      "requirement_id": "ART-02",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "docs/REGISTRY_POLICY.md"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "docs/REGISTRY_POLICY.md",
+      "requirement_id": "ART-03",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "docs/PHASE1_0_1_2_GATE.md"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "docs/PHASE1_0_1_2_GATE.md",
+      "requirement_id": "ART-04",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/phase1_0_1_2_manifest.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/phase1_0_1_2_manifest.json",
+      "requirement_id": "ART-05",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/debt_status_overlay.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/debt_status_overlay.json",
+      "requirement_id": "ART-06",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/test_report.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/test_report.json",
+      "requirement_id": "ART-07",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/gate_result.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/gate_result.json",
+      "requirement_id": "ART-08",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/contract_integrity_report.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/contract_integrity_report.json",
+      "requirement_id": "ART-09",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/immutability_report.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/immutability_report.json",
+      "requirement_id": "ART-10",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "phase1/installed_cli_after_fix_report.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "phase1/installed_cli_after_fix_report.json",
+      "requirement_id": "ART-11",
+      "status": "VERIFIED"
+    },
+    {
+      "evidence_path": [
+        "required_artifacts_presence.json",
+        "schemas/v0_3/schema_manifest.json"
+      ],
+      "notes": "Existence and byte hash observed at acceptance entry.",
+      "required_artifact_or_behavior": "schemas/v0_3/schema_manifest.json",
+      "requirement_id": "ART-12",
+      "status": "VERIFIED"
+    }
+  ],
+  "started_at": "2026-09-27T14:09:46.173235+00:00",
+  "summary": {
+    "FAILED": 0,
+    "MISSING": 0,
+    "PARTIAL": 0,
+    "VERIFIED": 81
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "previous_artifacts_verified": 262,
+  "previous_mismatches": [],
+  "raw_files_verified": 26,
+  "raw_mismatches": [],
+  "protected_runtime_and_contract_files": 169,
+  "runtime_mismatches": [],
+  "runtime_untracked_since_prior_baseline": [],
+  "prior_tests": {
+    "passed": 584,
+    "failed": 0,
+    "skipped": 0
+  },
+  "full_suite_rerun": false,
+  "reason": "No runtime/schema/registry/activation-rule changes; artifact compiler checked against all five real bundles."
+}

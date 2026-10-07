@@ -1,0 +1,12 @@
+unformatted: File would be reformatted
+  --> phase1\method_application\run_001\build_case.py:11:29
+   |
+10 | def save(name, value):
+   -     (OUT / name).write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+11 +     (OUT / name).write_text(
+12 +         json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+13 +     )
+14 |
+   |
+
+1 file would be reformatted, 3 files already formatted

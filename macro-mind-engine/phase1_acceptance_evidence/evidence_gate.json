@@ -1,0 +1,210 @@
+{
+  "ERROR": 0,
+  "PASS": 20,
+  "acceptance_evidence_completion": true,
+  "architecture_document": "verified",
+  "auxiliary_models": 12,
+  "checks": [
+    {
+      "check_id": "E01",
+      "description": "Required deliverables all exist",
+      "evidence": [
+        "required_artifacts_presence.json",
+        "required_deliverables_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E02",
+      "description": "Fresh Contract Integrity ERROR=0",
+      "evidence": [
+        "fresh_contract_integrity_report.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E03",
+      "description": "Frozen artifacts unchanged",
+      "evidence": [
+        "fresh_immutability_report.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E04",
+      "description": "Golden/protected inputs unchanged",
+      "evidence": [
+        "fresh_immutability_report.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E05",
+      "description": "Exactly 14 Core models",
+      "evidence": [
+        "model_contract_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E06",
+      "description": "Exactly 12 required Auxiliary models",
+      "evidence": [
+        "model_contract_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E07",
+      "description": "26 JSON Schemas and matching manifest",
+      "evidence": [
+        "schema_artifact_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E08",
+      "description": "Draft 2020-12 actually proven",
+      "evidence": [
+        "schema_draft_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E09",
+      "description": "Registry loads",
+      "evidence": [
+        "registry_artifact_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E10",
+      "description": "Core Registry exact 14",
+      "evidence": [
+        "registry_artifact_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E11",
+      "description": "Registry single vocabulary authority",
+      "evidence": [
+        "registry_authority_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E12",
+      "description": "Unknown/null/missing retained",
+      "evidence": [
+        "model_contract_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E13",
+      "description": "Generated artifacts deterministic",
+      "evidence": [
+        "determinism_check.json",
+        "registry_artifact_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E14",
+      "description": "Fresh pytest ERROR=0 FAILED=0 SKIPPED=0",
+      "evidence": [
+        "fresh_test_report.json",
+        "fresh_all-tests.xml"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E15",
+      "description": "Ruff PASS",
+      "evidence": [
+        "fresh_ruff_report.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E16",
+      "description": "Installed CLI smoke and GBK/Chinese path PASS",
+      "evidence": [
+        "fresh_installed_cli_report.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E17",
+      "description": "No Phase 1.3 scope expansion",
+      "evidence": [
+        "scope_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E18",
+      "description": "Debt overlay conservative",
+      "evidence": [
+        "debt_overlay_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E19",
+      "description": "production_import_ready=false",
+      "evidence": [
+        "readiness_flags_check.json"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "E20",
+      "description": "Analyst and MacroMind Core Skills NOT_READY",
+      "evidence": [
+        "readiness_flags_check.json"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "core_models": 14,
+  "created_during_acceptance_evidence_completion": true,
+  "debt_overlay": {
+    "D02": "partially_addressed_phase1_1",
+    "D07": "partially_addressed_phase1_2",
+    "D16": "partially_addressed_phase1_1",
+    "D18": "partially_addressed_phase1_0_1_2"
+  },
+  "fresh_contract_integrity": {
+    "ERROR": 0,
+    "PASS": 44,
+    "WARNING": 0
+  },
+  "fresh_immutability": {
+    "changed_files": [],
+    "missing_files": [],
+    "protected_file_count": 171,
+    "unchanged_count": 171
+  },
+  "fresh_tests": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 84,
+    "SKIPPED": 0
+  },
+  "gate": "PHASE1_0_1_2_EVIDENCE_GATE",
+  "json_schemas": 26,
+  "limitations": [
+    "JUnit/encoding historical failures have pre-existing narratives, not saved raw failure transcripts; see historical_failure_check.json.",
+    "Hash checks establish consistency with recorded local anchors, not externally signed authenticity."
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "registry_authority": "PASS",
+  "required_artifacts_missing": [],
+  "scope_violation": false,
+  "started_at": "2026-09-27T14:09:46.173235+00:00",
+  "status": "EVIDENCE_COMPLETE_READY_FOR_PHASE_1_3"
+}

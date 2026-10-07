@@ -1,0 +1,239 @@
+我国首次成功实施重复使用运载火箭陆地回收 (https://www.cnsa.gov.cn/n6758823/n6758838/c10768762/content.html)
+citeturn31view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn30view0","lineno":25}); Total lines: 53
+L0: 您当前的位置  > cite0†首页 >  cite1†信息发布 >  cite2†要闻动态 > 正文
+L1: 
+L2: 我国首次成功实施重复使用运载火箭陆地回收
+L3: 
+L4: 发布时间：2026-08-19 分享：
+L5: 
+L6: 来源：蓝箭航天空间科技股份有限公司
+L7: 
+L8: cite3†Image L9: 
+L10: 来源：蓝箭航天空间科技股份有限公司
+L11: 
+L12: 2026年8月19日7时35分，朱雀三号遥二运载火箭在东风商业航天创新试验区发射升空，7时41分，火箭一子级按预定程序成功完成陆地回收，飞行任务取得圆满成功。本次任务是继7月10日长征十号乙运载火箭一子级海上网系成功回收后，我国首次成功实施重复使用运载火箭一子级着陆腿方式陆地可控回收，标志着我国重复使用火箭技术取得重大突破。
+L13: 
+L14: 朱雀三号运载火箭是由国家航天局批复立项的新一代低成本、大运力、高频次、重复使用液氧甲烷运载火箭型号，由蓝箭航天空间科技股份有限公司抓总研制。该火箭采用单芯级两级串联构型，箭体材料以不锈钢为主，全部采用液氧甲烷动力，全箭长66.1米，一二子级箭体直径4.5米，整流罩直径5.2米。火箭一子级装有返回控制系统、栅格舵与着陆支腿，可在完成轨道发射后实施垂直回收与再利用。
+L15: 在任务实施过程中，国家航天局组织工程全线深入贯彻落实习近平总书记关于加快建设航天强国的重要论述和重要指示批示精神，坚决落实党中央、国务院决策部署，创新组织模式，吸纳商业航天企业参与国家重大任务，持续支持关键技术攻关，开展专项质量安全检查，稳妥高效做好任务组织推进，全力保障朱雀三号重复使用运载火箭复飞任务圆满成功。下一步，国家航天局将持续推进我国重复使用运载火箭工程化应用，切实提升我国大运力、低成本、高频次进入空间能力。
+L16: 
+L17: 字体：〖大〗〖中〗〖小〗
+L18: 
+L19: 〖关闭〗 〖打印〗
+L20: 
+L21: 返回
+L22: 顶部
+L23:   * 网站链接：
+L24:   * cite4†中华人民共和国中央人民政府†www.gov.cn L25:   * cite5†中华人民共和国工业和信息化部†www.miit.gov.cn L26:   * cite6†中国探月与深空探测网†www.clep.org.cn L27:   * cite7†高分辨率对地观测系统†www.cpeos.org.cn L28:   * cite8†中国载人航天工程网†www.cmse.gov.cn L29:   * cite9†北斗网†m.beidou.gov.cn L30:   * cite10†中国航天科技集团有限公司†www.spacechina.com L31:   * cite11†中国航天科工集团有限公司†www.casic.com.cn L32: 
+L33: 主办单位：国家航天局     地址：北京市海淀区阜成路甲8号 邮编：100048
+L34: 承办单位：国家航天局新闻宣传中心
+L35: 国家航天局 版权所有 网站标识码：bm63000001 cite12†京ICP备05081655号†beian.miit.gov.cn cite13†Image 京公网安备11040102100142号
+L36: 
+L37: cite14†相关链接 L38:   * cite4†中华人民共和国中央人民政府†www.gov.cn L39:   * cite5†中华人民共和国工业和信息化部†www.miit.gov.cn L40:   * cite6†中国探月与深空探测网†www.clep.org.cn L41:   * cite7†高分辨率对地观测系统†www.cpeos.org.cn L42:   * cite8†中国载人航天工程网†www.cmse.gov.cn L43:   * cite9†北斗网†m.beidou.gov.cn L44:   * cite10†中国航天科技集团有限公司†www.spacechina.com L45:   * cite11†中国航天科工集团有限公司†www.casic.com.cn L46: 
+L47: 主办单位：国家航天局
+L48: 地址：北京市海淀区阜成路甲8号 邮编：100048
+L49: 承办单位：国家航天局新闻宣传中心
+L50: 国家航天局 版权所有
+L51: 网站标识码：bm63000001 cite12†京ICP备11007804号†beian.miit.gov.cn L52: cite13†Image 京公网安备11040102100142号
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn31view1 [wordlim: 200] Source: open({"ref_id":"https://docs.fcc.gov/public/attachments/DOC-424235A1.pdf","lineno":null}); Total lines: 1
+L0: Failed to fetch https://docs.fcc.gov/public/attachments/DOC-424235A1.pdf: (403) Forbidden
+--------------------------------------------------------------------------------
+www.reutersconnect.com (https://www.reutersconnect.com/item/the-wider-image-in-china-rocket-launches-fuel-tourism-and-space-age-dreams/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkhWTUFUREpMNQ)
+citeturn31view2 [wordlim: 200] Crawled: last month; Content type: text/html; Source: open({"ref_id":"https://www.reutersconnect.com/item/the-wider-image-in-china-rocket-launches-fuel-tourism-and-space-age-dreams/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkhWTUFUREpMNQ","lineno":null}); Total lines: 86
+L0: cite0†Skip to main content L1: 
+L2: Licensable picture: The Wider Image: In China, rocket launches fuel tourism and space-age dreams | Reuters Connect
+L3: 
+L4:   *   * cite1†Sign in L5:   * cite1†Sign in L6:   * cite2†Create Account L7: 
+L8: cite2†Create Account L9: 
+L10: # The Wider Image: In China, rocket launches fuel tourism and space-age dreams
+L11: ## Licensable picture:
+L12: 
+L13: 
+L14: 
+L15: cite3†REUTERS L16: 
+L17: cite4†Image: Souvenir space passports are displayed at a tourist store in Wenchang, Hainan province, China, August 10, 2026. Space has become a collective cultural experience, with tourism, art and commercial branding all playing a part. REUTERS/Maxim Shemetov SEARCH "SHEMETOV CHINA SPACE" FOR THIS STORY. SEARCH "WIDER IMAGE" FOR ALL STORIES. L18: Souvenir space passports are displayed at a tourist store in Wenchang, Hainan province, China, August 10, 2026. Space has become a collective cultural experience, with tourism, art and commercial branding all playing a part. REUTERS/Maxim Shemetov SEARCH "SHEMETOV CHINA SPACE" FOR THIS STORY. SEARCH "WIDER IMAGE" FOR ALL STORIES.
+L19: 
+L20: [Button: View all]
+L21: 
+L22: Image
+L23: 
+L24: Create an account to license
+L25: 
+L26: Share Item
+L27: ## Details
+L28: 
+L29:   * Dimensions & Size
+L30: 
+L31: 5559 x 3706 / 7.9MB
+L32: 
+L33:   * Credit
+L34: 
+L35: REUTERS
+L36: 
+L37:   * Source
+L38: 
+L39: cite3†REUTERS L40: 
+L41:   * USN
+L42: 
+L43: RC2HVMATDJL5
+L44: 
+L45:   * Byline
+L46: 
+L47: Maxim Shemetov
+L48: 
+L49:   * City
+L50: 
+L51: WENCHANG
+L52: 
+L53:   * Country Name
+L54: 
+L55: CHINA
+L56: 
+L57:   * Slug
+L58: 
+L59: cite5†SPACE-EXPLORATION /cite6†CHINA-CULTURE L60: 
+L61: View More
+L62: 
+L63: Topics
+L64: 
+L65: cite7†Asia / Pacific cite8†Corporate Events cite9†Corporate Events cite10†Science / Technology cite11†Tourism / Travel cite12†Wider Image L66: 
+L67: ## Related content
+L68: 
+L69: Grid Gallery
+L70: ##### Content loading
+L71: 
+L72: Please wait...
+L73: 
+L74:   * cite13†Explore the Feed L75:   * cite14†Sign up to our newsletter†www.reutersagency.com L76:   * cite15†Compare Plans L77:   * cite16†About Reuters Connect†www.reutersagency.com L78:   * cite17†Our Partners†www.reutersagency.com L79:   * cite18†Contact Us†www.reutersagency.com L80:   * cite19†Privacy Policy†www.thomsonreuters.com L81:   * cite20†Copyright†www.thomsonreuters.com L82:   * cite21†Reuters Connect Platform Terms and Conditions L83:   * cite22†Reuters Transactional License Terms L84: © 2026 Thomson Reuters.
+L85: All rights reserved
+--------------------------------------------------------------------------------
+Pioneering mRNA technology - Moderna (https://www.modernatx.com/ir-insights-phase-3-intesmeran)
+citeturn31view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.modernatx.com/ir-insights-phase-3-intesmeran","lineno":null}); Total lines: 169
+L0: cite0†Skip to main content L1: 
+L2:   * cite1†mRNA Pipeline L3:   * cite2†Careers L4:   * cite3†Newsroom L5:   * cite4†Blogs L6:   * cite5†Moderna Supplier Page L7:   * |
+L8:   * cite6†Health Care Professionals†modernapro.com L9:   * cite7†Investors†investors.modernatx.com L10:   * cite8†Clinical Trials†trials.modernatx.com L11: 
+L12:   * [Button: About Us]
+L13: 
+L14:   * [Button: The Power of mRNA]
+L15: 
+L16:   * [Button: Research]
+L17: 
+L18:   * [Button: Responsibility]
+L19: 
+L20:   * cite9†Products L21: 
+L22: Search
+L23: 
+L24: ## Are you looking for another country?
+L25: ### Asia Pacific
+L26: 
+L27: Australia
+L28: 
+L29: cite10†English L30: 
+L31: Japan
+L32: 
+L33: cite11†日本 L34: 
+L35: Hong Kong
+L36: 
+L37: cite12†中文 cite13†English L38: 
+L39: South Korea
+L40: 
+L41: cite14†한국어 L42: 
+L43: Taiwan
+L44: 
+L45: cite15†中文 L46: 
+L47: Singapore
+L48: 
+L49: cite16†English L50: 
+L51: ### Europe
+L52: 
+L53: France
+L54: 
+L55: cite17†Français L56: 
+L57: Germany
+L58: 
+L59: cite18†Deutsch L60: 
+L61: Italy
+L62: 
+L63: cite19†Italiano L64: 
+L65: Netherlands
+L66: 
+L67: cite20†Nederlands L68: 
+L69: Spain
+L70: 
+L71: cite21†Español L72: 
+L73: Switzerland
+L74: 
+L75: cite22†Deutsch cite23†Français cite24†Italiano L76: 
+L77: United Kingdom
+L78: 
+L79: cite25†English L80: 
+L81: Poland
+L82: 
+L83: cite26†Polski L84: 
+L85: ### North America
+L86: 
+L87: Canada
+L88: 
+L89: cite27†English cite28†Français L90: 
+L91: United States
+L92: 
+L93: cite29†English L94: ### Latin America
+L95: 
+L96: LATAM
+L97: 
+L98: cite30†Español cite31†Português L99: 
+L100: This is Moderna's United States website
+L101: 
+L102: It may contain content that is not applicable to your location
+L103: 
+L104: CHANGE COUNTRY
+L105: 
+L106: cite4†Blogs / IR Insights: Recapping Positive Phase...
+L107: 
+L108: 19 August 2026
+L109: # IR Insights: Recapping Positive Phase 3 Topline Results for Intismeran Autogene Plus Pembrolizumab in Adjuvant Melanoma
+L110: 
+L111: Stéphane Bancel
+L112: 
+L113: CEO of Moderna
+L114: 
+L115: Print page / Save as PDF
+L116: 
+L117: cite32†Image: IR Insights: Intismeran†images.ctfassets.net L118: 
+L119: Today marks an extraordinary milestone for Moderna, for mRNA science and, most importantly, for patients with cancer.
+L120: Along with our partners at Merck, we announced positive results from the Phase 3 INTerpath-001 study of intismeran autogene, our investigational individualized neoantigen therapy, in combination with pembrolizumab as adjuvant treatment in patients with completely resected Stage IIB-IV melanoma. This marks the first and only combination regimen to demonstrate a clinically meaningful improvement over pembrolizumab alone, a current standard-of-care for these patients.
+L121: I sat down for an episode of IR Insights alongside David Berman, our Chief Development Officer, to reflect on what this means:
+L122: 
+L123: cite33†IR Insights: Intismeran†products.modernatx.com L124: For many years, the idea that we could take the unique genetic fingerprint of a patient’s tumor and use mRNA to create a medicine designed specifically for that individual patient’s cancer sounded like science fiction. Today, we have demonstrated the clinical benefit of this approach in a global Phase 3 study with our investigational individualized neoantigen therapy in combination with pembrolizumab.
+L125: This is more than an important milestone for one program. We have started to demonstrate the potential of an entirely new class of medicine—and an entirely new way of thinking about cancer care: using the information encoded within an individual patient’s cancer to design a specific therapy that helps train their immune system to fight it.
+L126: Even more so, it’s further validation of what’s possible with mRNA technology. Our work to advance mRNA has already resulted in five approved products, helping protect people around the world from infectious diseases. But our ambitions for our mRNA platform never stopped there, and today we see what it could mean for cancer.
+L127: The flexibility of our mRNA platform is unlocking a broad range of possibilities to intervene at different stages of the cancer journey – from working to keep cancer from returning after surgery, to exploring its potential to treat patients whose disease has already advanced, to potentially helping prevent certain cancers before they develop.
+L128: #### Continuing to push the boundaries of cancer care
+L129: Together with Merck, we are now studying intismeran in combination with pembrolizumab and other anti-cancer therapies, and as a monotherapy, across multiple tumor types and stages of disease, including melanoma, lung, bladder and kidney cancers.
+L130: We will continue to follow patients in INTerpath-001 to evaluate other key secondary endpoints including overall survival, present these results to the scientific community and engage with regulators as we work toward our goal of bringing individualized cancer therapies to patients.
+L131: Moments like today are only possible because of years of work across our company and with our partners. To our teams in research, development, clinical, manufacturing, digital, regulatory and every function that has helped advance this program: thank you. And to the patients, families and investigators who placed their trust in this science: we are deeply grateful.
+L132: When we started Moderna, we believed mRNA could fundamentally change what medicine can do. Today, as we see its potential in cancer, it is one of those moments that remind us why we took on this challenge to tackle cancer more than ten years ago, and why we will continue to invest in mRNA science. That belief feels more powerful than ever—and the possibilities ahead are only beginning to come into view.
+L133: 
+L134: * * *
+L135: #### Forward Looking Statements
+L136: This post and accompanying video contain forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995, as amended, including statements regarding: the potential of intismeran in combination with pembrolizumab; the potential of individualized neoantigen therapies as a new class of medicine for cancer patients; the potential of mRNA technology, including for cancer care; the possibilities to intervene at different stages of the cancer journey, including to potentially prevent certain cancers before they develop; the INTerpath clinical development program and ongoing clinical studies; engagement with regulators on potential filing submissions; and the evaluation of key secondary endpoints, including overall survival.
+L137: In some cases, forward-looking statements can be identified by terminology such as "will," "may," "should," "could," "expects," "intends," "plans," "aims," "anticipates," "believes," "estimates," "predicts," "potential," "continue," or the negative of these terms or other comparable terminology, although not all forward-looking statements contain these words.
+L138: The forward-looking statements in this post are neither promises nor guarantees, and you should not place undue reliance on these forward-looking statements because they involve known and unknown risks, uncertainties, and other factors, many of which are beyond Moderna's control and which could cause actual results to differ materially from those expressed or implied by these forward-looking statements.
+L139: These risks, uncertainties, and other factors include, among others, those risks and uncertainties described under the heading "Risk Factors" in Moderna's Annual Report on Form 10-K for the fiscal year ended December 31, 2025, filed with the U.S. Securities and Exchange Commission (SEC), and in subsequent filings made by Moderna with the SEC, which are available on the SEC's website at www.sec.gov.
+L140: Except as required by law, Moderna disclaims any intention or responsibility for updating or revising any forward-looking statements contained in this post in the event of new information, future developments or otherwise. These forward-looking statements are based on Moderna's current expectations and speak only as of the date of this post.
+L141: ### Investors
+L142: 
+L143:   * cite7†Investors overview†investors.modernatx.com L144: 
+L145: ### Newsroom
+L146: 
+L147:   * cite3†News and media L148:   * cite34†Media kit L149: 
+L150: ### Patents
+L151: 
+L152:   * cite35†Patents L153: 
+L154: ### Careers
+L155: 
+L156:   * cite36†Life at Moderna L157:   * cite37†Meet our changemakers L158:   * cite38†Awards L159:   * cite39†Moderna Candidate Privacy Notice L160:   * cite40†Join our team†modernatx.wd1.myworkdayjobs.com L161: 
+L162:   * cite41†Terms of use L163:   * cite42†Privacy statement L164:   * cite43†Cookie Statement L165:   * cite44†Contact Moderna L166:   * cite45†Sitemap L167: 
+L168: © 2026 Moderna, Inc.
+

@@ -1,0 +1,15 @@
+{
+  "phase1/framework_review/v03_frozen_001/framework.json": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "phase1/fidelity_alignment/run_001/framework_candidate.json": "eaa7c489448902df677763e9dc36e97bbbd81e6ef38da11c5dae92acbfd4c8d2",
+  "phase1/holdout_evaluation/run_001/news_input.json": "c44595ac8ec2ac2f4011247032366f9a766dd91a6a6a55d5abdc812127902f2a",
+  "phase1/holdout_evaluation/run_001/sources/1486755.json": "77100981eb4034fece9cbb7c11204c93fece89de0c2842a9229b30413c0a1ea9",
+  "phase1/holdout_evaluation/run_001/sources/1486209.json": "af371a1dba9a2577e021fc63d65249b69290340c74cfeffc167669b7e91fe43b",
+  "phase1/holdout_evaluation/run_002/news_input.json": "15422e95d5a1cb31c7a0bbeb739ba75a587f189cad18fba8b39e3d71e87c55ea",
+  "phase1/holdout_evaluation/run_002/sources/people.txt": "2bd5969076b9a95b421743aa30c7ef7b2e26728ecc3a099038d9e5e5fd28e11f",
+  "phase1/holdout_evaluation/run_002/sources/cls.json": "9a2c697a73be87cce65aeb74d60e2921fa07fefde46e724bb8a43b48e2ad7635",
+  "phase1/holdout_evaluation/run_003/news_input.json": "899f0c8a2e6c4c3ab3c7b91817a5fef17f955b6add6fb3bacba8271bdcbd2ffb",
+  "phase1/holdout_evaluation/run_003/sources/people.txt": "a4b8b43bef8edee4b8d7a5caafac298ebc2913c4af2328e309967be1e6a47fd1",
+  "phase1/holdout_evaluation/run_004/news_input.json": "a90a111efaa55576dcab31826b34e34f676eea1caffb399bc8e06a12c28a0419",
+  "phase1/holdout_evaluation/run_004/sources/cls.json": "15aea2a3eebbe5eb3b12710e43fec65c4dbe5c6cf0fa6ae2fe54885f462ec727",
+  "phase1/fidelity_alignment/run_001/analyst_state.json": "ba6350d44b5cdee12186a83e7efadf74bd2cfa7848c93c3d1b435765baabefda"
+}

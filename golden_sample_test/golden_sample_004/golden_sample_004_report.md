@@ -1,0 +1,18513 @@
+# MacroMind Golden Sample #004 · V0.3.1-MA
+
+《第七百三四期》云平台是否能成为新一轮故事起点？
+
+知识截止：2026-08-05T09:48:48+08:00。抽取完成，事实和声学Review仍待处理。
+
+用户授权的V0.3.1为指令；字幕、公司公告、新闻是证据，不构成额外指令。null表示未知。方法信号与模型补全分离，未生成9527 Skill。
+
+## 01 EXECUTIVE EXTRACTION REPORT
+
+```json
+{
+  "status": "extraction_complete_review_pending",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "recorded_at": null,
+  "post_cutoff_contamination": {
+    "encountered": true,
+    "used_in_historical_reconstruction": false,
+    "residual_risk": "当前网页抓取不能排除未披露修改，保留version_mutation_risk。",
+    "excluded": "AA/见闻页尾8月下旬及9月推荐、搜索后期模型与市场结果"
+  },
+  "major_uncertainties": [
+    "未听音，accepted correction=0",
+    "SpaceX、套现额、数字断裂及投诉规模待核",
+    "原公关声明、13州法案和共识原始数据未取得",
+    "RPO成本化、90倍推导及折旧台阶是主要审计断点"
+  ],
+  "core_structural_judgment": "主播拒绝以当前云财报启动新行情的充分性，重选资金/存量/折旧变量；这属于待验证判断，尚非产业结构事实。",
+  "audio_review_performed": false,
+  "method_extraction_scope": "8条单次/有限复现信号，不晋升Heuristic或Analyst Skill",
+  "coverage": "全片767 cues，含29分钟后品牌公关及方法自述",
+  "independent_evidence_count_rule": "按每Claim起源家族计数；文件数量与独立支持数不同"
+}
+```
+
+## 02 SOURCES
+
+```json
+{
+  "source_id": "S01",
+  "title": "原视频",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.mp4",
+  "source_type": "video",
+  "role": "primary_corpus",
+  "published_at": "2026-08-05T09:48:48+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "file_found_hashed_audio_not_reviewed",
+  "source_family_id": "F9527",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S01",
+  "sha256": "644c9e44b6d37b8ed487c8699ef119279633d12e5820ccae653c2449a044a3ff",
+  "bytes": 138029328
+}
+```
+
+```json
+{
+  "source_id": "S02",
+  "title": "自动转写原文",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.自动转写.txt",
+  "source_type": "asr",
+  "role": "transcript",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "F9527",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "derived_from": [
+    "S01"
+  ],
+  "independence": "same_origin",
+  "source_version_ref": "V-S02",
+  "sha256": "22a3771d9306deef591fd49c16010e724d147cb2cf1ea577dd4bd5a238d77164",
+  "bytes": 45178
+}
+```
+
+```json
+{
+  "source_id": "S03",
+  "title": "SRT原文",
+  "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.srt",
+  "source_type": "asr_subtitle",
+  "role": "timestamp_anchor",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "F9527",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "derived_from": [
+    "S01"
+  ],
+  "independence": "same_origin",
+  "source_version_ref": "V-S03",
+  "sha256": "8391fc2d07ea5516edc933f502f55fc27058d60b0a7b2de1d9d29573339cf339",
+  "bytes": 74782
+}
+```
+
+```json
+{
+  "source_id": "S04",
+  "title": "北美四朵云、卖铲人到用铲人",
+  "location": "https://www.cls.cn/detail/2444783",
+  "source_type": "article",
+  "role": "user_supplied_reference",
+  "published_at": "2026-08-04T09:38:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FCLS_A",
+  "origin_family_ids": [
+    "FAMZN",
+    "FMSFT",
+    "FGOOG",
+    "FBROKER",
+    "FMARKET_UNKNOWN"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S04"
+}
+```
+
+```json
+{
+  "source_id": "S05",
+  "title": "DeepSeek-V4-Flash成本比较",
+  "location": "https://www.cls.cn/detail/2444045",
+  "source_type": "article",
+  "role": "user_supplied_reference",
+  "published_at": "2026-08-03T15:12:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FCLS_B",
+  "origin_family_ids": [
+    "FAA",
+    "FDEEPSEEK"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S05"
+}
+```
+
+```json
+{
+  "source_id": "S06",
+  "title": "13州税收优惠政策进度",
+  "location": "https://wallstreetcn.com/articles/3778569",
+  "source_type": "article",
+  "role": "user_supplied_reference",
+  "published_at": "2026-08-03T16:40:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FWSCN",
+  "origin_family_ids": [
+    "FTHEINFORMATION",
+    "FSTATE_POLICY_UNRESOLVED"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S06"
+}
+```
+
+```json
+{
+  "source_id": "S07",
+  "title": "金融危机以来美债信号",
+  "location": "https://www.cls.cn/detail/2434646",
+  "source_type": "article",
+  "role": "user_supplied_reference_not_observed_used_in_transcript",
+  "published_at": "2026-07-23",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FCLS_D",
+  "origin_family_ids": [
+    "FBOND_DATA_UNKNOWN"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S07"
+}
+```
+
+```json
+{
+  "source_id": "S08",
+  "title": "何以解码中国共产党",
+  "location": "https://www.qstheory.cn/20260715/1ebf8503161c448a9027393008f810f7/c.html",
+  "source_type": "article",
+  "role": "user_supplied_reference",
+  "published_at": "2026-07-16T09:00:00+08:00",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FQIUSHI",
+  "origin_family_ids": [
+    "FQIUSHI"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S08"
+}
+```
+
+```json
+{
+  "source_id": "S09",
+  "title": "V0.3.1-MA任务提示",
+  "location": "G:\\youhegaojian\\prompt\\V0.3.1.md",
+  "source_type": "prompt",
+  "role": "user_authorized_instruction",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FPROMPT",
+  "origin_family_ids": [
+    "FPROMPT"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S09",
+  "sha256": "b819614cc2d18e4a169d7792ffc12c1973212096d16b2f022b4a32c6811703ce",
+  "bytes": 29198
+}
+```
+
+```json
+{
+  "source_id": "S10",
+  "title": "微软FY26Q4指标表",
+  "location": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics",
+  "source_type": "article",
+  "role": "model_supplement",
+  "published_at": "2026-07-29",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FMSFT",
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S10"
+}
+```
+
+```json
+{
+  "source_id": "S11",
+  "title": "微软FY26Q4财报公告",
+  "location": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+  "source_type": "article",
+  "role": "model_supplement",
+  "published_at": "2026-07-29",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FMSFT",
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S11"
+}
+```
+
+```json
+{
+  "source_id": "S12",
+  "title": "亚马逊Q2财报公告",
+  "location": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light",
+  "source_type": "article",
+  "role": "model_supplement",
+  "published_at": "2026-07-30",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FAMZN",
+  "origin_family_ids": [
+    "FAMZN"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S12"
+}
+```
+
+```json
+{
+  "source_id": "S13",
+  "title": "Alphabet Q2公告SEC版本",
+  "location": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+  "source_type": "article",
+  "role": "model_supplement",
+  "published_at": "2026-07-22",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FGOOG",
+  "origin_family_ids": [
+    "FGOOG"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S13"
+}
+```
+
+```json
+{
+  "source_id": "S14",
+  "title": "Artificial Analysis 0731评估",
+  "location": "https://artificialanalysis.ai/articles/deepseek-v4-flash-0731-scores-50-on-the-artificial-analysis-intelligence-index-10-points-above-previous-deepseek-v4-flash",
+  "source_type": "article",
+  "role": "model_supplement",
+  "published_at": "2026-07-31",
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FAA",
+  "origin_family_ids": [
+    "FAA"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S14"
+}
+```
+
+```json
+{
+  "source_id": "S15",
+  "title": "GS001摘要（仅方法与注册表对比）",
+  "location": "G:\\youhegaojian\\golden_sample_test\\golden_report.md",
+  "source_type": "prior_extraction_summary",
+  "role": "method_recurrence_registry_only",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "body_read",
+  "source_family_id": "FREGISTRY_GS001",
+  "origin_family_ids": [
+    "FREGISTRY_GS001"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S15",
+  "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+  "bytes": 1922
+}
+```
+
+```json
+{
+  "source_id": "S16",
+  "title": "GS002对象（仅方法与注册表对比）",
+  "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_002\\golden_sample_002.json",
+  "source_type": "prior_extraction",
+  "role": "method_recurrence_registry_only",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "heuristics_and_registry_sections_read",
+  "source_family_id": "FREGISTRY_GS002",
+  "origin_family_ids": [
+    "FREGISTRY_GS002"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S16",
+  "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+  "bytes": 500557
+}
+```
+
+```json
+{
+  "source_id": "S17",
+  "title": "GS003对象（仅方法与注册表对比）",
+  "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_003\\golden_sample_003.json",
+  "source_type": "prior_extraction",
+  "role": "method_recurrence_registry_only",
+  "published_at": null,
+  "recorded_at": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "read_status": "heuristics_and_registry_sections_read",
+  "source_family_id": "FREGISTRY_GS003",
+  "origin_family_ids": [
+    "FREGISTRY_GS003"
+  ],
+  "derived_from": [],
+  "independence": "unknown",
+  "source_version_ref": "V-S17",
+  "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+  "bytes": 587765
+}
+```
+
+## 03 SOURCE VERSIONS
+
+```json
+{
+  "source_version_id": "V-S01",
+  "source_id": "S01",
+  "displayed_publication_time": "2026-08-05T09:48:48+08:00",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": "644c9e44b6d37b8ed487c8699ef119279633d12e5820ccae653c2449a044a3ff",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S02",
+  "source_id": "S02",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "instruction_or_same_video_derivative_not_independent_historical_fact",
+  "content_hash": "22a3771d9306deef591fd49c16010e724d147cb2cf1ea577dd4bd5a238d77164",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S03",
+  "source_id": "S03",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "instruction_or_same_video_derivative_not_independent_historical_fact",
+  "content_hash": "8391fc2d07ea5516edc933f502f55fc27058d60b0a7b2de1d9d29573339cf339",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S04",
+  "source_id": "S04",
+  "displayed_publication_time": "2026-08-04T09:38:00+08:00",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S05",
+  "source_id": "S05",
+  "displayed_publication_time": "2026-08-03T15:12:00+08:00",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S06",
+  "source_id": "S06",
+  "displayed_publication_time": "2026-08-03T16:40:00+08:00",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S07",
+  "source_id": "S07",
+  "displayed_publication_time": "2026-07-23",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S08",
+  "source_id": "S08",
+  "displayed_publication_time": "2026-07-16T09:00:00+08:00",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S09",
+  "source_id": "S09",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "instruction_or_same_video_derivative_not_independent_historical_fact",
+  "content_hash": "b819614cc2d18e4a169d7792ffc12c1973212096d16b2f022b4a32c6811703ce",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S10",
+  "source_id": "S10",
+  "displayed_publication_time": "2026-07-29",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S11",
+  "source_id": "S11",
+  "displayed_publication_time": "2026-07-29",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S12",
+  "source_id": "S12",
+  "displayed_publication_time": "2026-07-30",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S13",
+  "source_id": "S13",
+  "displayed_publication_time": "2026-07-22",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S14",
+  "source_id": "S14",
+  "displayed_publication_time": "2026-07-31",
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": true,
+  "edited_at": null,
+  "cutoff_status": "eligible_by_displayed_date",
+  "content_hash": null,
+  "note": "current tool-return capture, not historical HTML"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S15",
+  "source_id": "S15",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "metadata_unknown",
+  "content_hash": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S16",
+  "source_id": "S16",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "metadata_unknown",
+  "content_hash": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+```json
+{
+  "source_version_id": "V-S17",
+  "source_id": "S17",
+  "displayed_publication_time": null,
+  "captured_at": "2026-09-26T00:51:00+08:00",
+  "historical_snapshot_available": false,
+  "version_mutation_risk": false,
+  "edited_at": null,
+  "cutoff_status": "metadata_unknown",
+  "content_hash": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+  "note": "local immutable input; hash tracked"
+}
+```
+
+## 04 SOURCE FAMILIES ORIGIN FAMILIES
+
+```json
+{
+  "family_id": "F9527",
+  "kind": "source_family",
+  "members": [
+    "S01",
+    "S02",
+    "S03"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FCLS_A",
+  "kind": "source_family",
+  "members": [
+    "S04"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FAMZN",
+  "kind": "origin_family",
+  "members": [
+    "S04",
+    "S12"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FMSFT",
+  "kind": "origin_family",
+  "members": [
+    "S04",
+    "S10",
+    "S11"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FGOOG",
+  "kind": "origin_family",
+  "members": [
+    "S04",
+    "S13"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FBROKER",
+  "kind": "origin_family",
+  "members": [
+    "S04"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FMARKET_UNKNOWN",
+  "kind": "origin_family",
+  "members": [
+    "S04"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FCLS_B",
+  "kind": "source_family",
+  "members": [
+    "S05"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FAA",
+  "kind": "origin_family",
+  "members": [
+    "S05",
+    "S14"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FDEEPSEEK",
+  "kind": "origin_family",
+  "members": [
+    "S05"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FWSCN",
+  "kind": "source_family",
+  "members": [
+    "S06"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FTHEINFORMATION",
+  "kind": "origin_family",
+  "members": [
+    "S06"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FSTATE_POLICY_UNRESOLVED",
+  "kind": "origin_family",
+  "members": [
+    "S06"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FCLS_D",
+  "kind": "source_family",
+  "members": [
+    "S07"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FBOND_DATA_UNKNOWN",
+  "kind": "origin_family",
+  "members": [
+    "S07"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FQIUSHI",
+  "kind": "source_family",
+  "members": [
+    "S08"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FPROMPT",
+  "kind": "source_family",
+  "members": [
+    "S09"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FREGISTRY_GS001",
+  "kind": "source_family",
+  "members": [
+    "S15"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FREGISTRY_GS002",
+  "kind": "source_family",
+  "members": [
+    "S16"
+  ]
+}
+```
+
+```json
+{
+  "family_id": "FREGISTRY_GS003",
+  "kind": "source_family",
+  "members": [
+    "S17"
+  ]
+}
+```
+
+## 05 TRANSCRIPT CORRECTIONS
+
+```json
+{
+  "accepted": [],
+  "candidate_corrections": [
+    {
+      "correction_id": "TC01",
+      "cue_start": 1,
+      "cue_end": 1,
+      "start": "00:00:00,190",
+      "end": "00:00:20,190",
+      "raw_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。",
+      "raw_form": "spaceX",
+      "proposed_normalized_form": "保留SpaceX，不能凭常识改为其他公司",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC02",
+      "cue_start": 3,
+      "cue_end": 3,
+      "start": "00:00:40,190",
+      "end": "00:01:00,190",
+      "raw_text": "在哪里？这是一个。另外一个呢也是昨天节目的后续啊，红木之行这边呢进行了这个官方的回复了，这个官方的回复在我看来的话，这是公关灾难是吧？为什么会是这样的？咱们今天好好的聊一聊，以及呢这个问题的关键在哪儿，包括昨天评论区也很热闹是吧？评论区里有。",
+      "raw_form": "红木之行",
+      "proposed_normalized_form": "鸿蒙智行",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC03",
+      "cue_start": 33,
+      "cue_end": 33,
+      "start": "00:02:12,930",
+      "end": "00:02:20,200",
+      "raw_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+      "raw_form": "1500亿",
+      "proposed_normalized_form": "数字币种保留待核",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC04",
+      "cue_start": 36,
+      "cue_end": 36,
+      "start": "00:02:25,890",
+      "end": "00:02:27,440",
+      "raw_text": "没塔涨长6%。",
+      "raw_form": "没塔",
+      "proposed_normalized_form": "Meta",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC05",
+      "cue_start": 56,
+      "cue_end": 56,
+      "start": "00:03:17,180",
+      "end": "00:03:20,610",
+      "raw_text": "摇唇骨折，那自然可以营造太平盛世。",
+      "raw_form": "摇唇骨折",
+      "proposed_normalized_form": "摇唇鼓舌",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC06",
+      "cue_start": 64,
+      "cue_end": 64,
+      "start": "00:03:37,970",
+      "end": "00:03:39,990",
+      "raw_text": "这种粉丝太名为为什么不可持续？",
+      "raw_form": "粉丝太名",
+      "proposed_normalized_form": "粉饰太平",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC07",
+      "cue_start": 124,
+      "cue_end": 124,
+      "start": "00:06:13,600",
+      "end": "00:06:16,830",
+      "raw_text": "那可能的话就得是3040亿5亿美元。",
+      "raw_form": "3040亿5亿美元",
+      "proposed_normalized_form": "30/40/50亿美元？不应用",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC08",
+      "cue_start": 132,
+      "cue_end": 132,
+      "start": "00:06:32,160",
+      "end": "00:06:35,600",
+      "raw_text": "13个周取消了数据中心的优惠，税收优惠。",
+      "raw_form": "13个周",
+      "proposed_normalized_form": "13个州",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC09",
+      "cue_start": 166,
+      "cue_end": 167,
+      "start": "00:07:59,830",
+      "end": "00:08:39,830",
+      "raw_text": "呃，这个这个挣了钱的话，要分我一杯羹呢，就开始陆续的找上你了。这些东西都会推高你数据中心的营收成本啊，运营的这个成本。而这个运营成本一升高的话，你数据中心的盈利就会下降。这是板上钉钉的事，这是第一个挑战。内部的挑战，第二个挑战呢是外部的deeps V4flash的性价比。\n无敌了哈啊，运美国的研究机构评估呢运行成本呢可能呢是呃这个fiable的1%啊，这个事儿的话是个外部的挑战。因为这样的这个成本的差距，对应着你自己在估值上面的这个疯狂的泡沫，实际上。",
+      "raw_form": "deeps / fiable",
+      "proposed_normalized_form": "DeepSeek / Fable；来源支持语义，声学未知",
+      "status": "needs_audio_review",
+      "semantic_confidence": "medium",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC10",
+      "cue_start": 248,
+      "cue_end": 249,
+      "start": "00:13:00,610",
+      "end": "00:13:08,360",
+      "raw_text": "SAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。",
+      "raw_form": "SAS / 萨s",
+      "proposed_normalized_form": "SaaS；不据此替换主播定义",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC11",
+      "cue_start": 559,
+      "cue_end": 559,
+      "start": "00:28:44,650",
+      "end": "00:28:47,850",
+      "raw_text": "呃，强劲的反弹，实际上呢是诱度的。",
+      "raw_form": "诱度",
+      "proposed_normalized_form": "诱多",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC12",
+      "cue_start": 620,
+      "cue_end": 621,
+      "start": "00:31:29,880",
+      "end": "00:31:36,780",
+      "raw_text": "他拿这个数据的对比，然后我只投诉了170多个。\n那实际上呢有55.5点几万条。",
+      "raw_form": "170多个 / 55.5点几万",
+      "proposed_normalized_form": "保留待听音及官方回应核对",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC13",
+      "cue_start": 738,
+      "cue_end": 738,
+      "start": "00:36:52,970",
+      "end": "00:36:55,660",
+      "raw_text": "我昨天节目是不是说了，对于于成东来说的话。",
+      "raw_form": "于成东",
+      "proposed_normalized_form": "余承东",
+      "status": "needs_audio_review",
+      "semantic_confidence": "high",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    },
+    {
+      "correction_id": "TC14",
+      "cue_start": 740,
+      "cue_end": 740,
+      "start": "00:36:59,860",
+      "end": "00:37:19,860",
+      "raw_text": "他最好的方法呢是自嘲，对吧？上台了，拿个竹治料这转一转转啊转转一转，然后自嘲一下，然后说一下哎，这个是下不为例。啊，很多事儿的话，我也是无心的。然后我这个形象讲话那个有口音啊，说话有口必。哎呀，是个人都有这样的小毛病，大家都谅解一谅解，没必要把这个上纲上线，把这个东西告。",
+      "raw_form": "竹治料",
+      "proposed_normalized_form": "unknown，不猜具体梗",
+      "status": "needs_audio_review",
+      "semantic_confidence": "low",
+      "acoustic_confidence": "unknown",
+      "applied": false
+    }
+  ],
+  "needs_audio_review": [
+    "TC01",
+    "TC02",
+    "TC03",
+    "TC04",
+    "TC05",
+    "TC06",
+    "TC07",
+    "TC08",
+    "TC09",
+    "TC10",
+    "TC11",
+    "TC12",
+    "TC13",
+    "TC14"
+  ]
+}
+```
+
+## 06 SOURCE SEGMENT ANNOTATIONS
+
+```json
+{
+  "annotation_id": "AN01",
+  "annotation_type": "rhetorical_exaggeration",
+  "cue_start": 47,
+  "cue_end": 49,
+  "start": "00:02:52,380",
+  "end": "00:03:03,360",
+  "note": "“真相不重要”紧接“分析从真相开始”，不是主播放弃事实",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN02",
+  "annotation_type": "mixed_fact_and_opinion",
+  "cue_start": 90,
+  "cue_end": 118,
+  "start": "00:04:46,800",
+  "end": "00:05:57,050",
+  "note": "收入数、超预期、日股价与90倍泡沫推断分开",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN03",
+  "annotation_type": "self_correction",
+  "cue_start": 166,
+  "cue_end": 166,
+  "start": "00:07:59,830",
+  "end": "00:08:19,830",
+  "note": "营收成本改为运营成本；仅文字层可见",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN04",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 285,
+  "cue_end": 324,
+  "start": "00:14:56,670",
+  "end": "00:16:55,520",
+  "note": "从未交付订单转向冗余硬件成本，对象可能偷换",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN05",
+  "annotation_type": "needs_audio_review",
+  "cue_start": 430,
+  "cue_end": 437,
+  "start": "00:22:48,460",
+  "end": "00:23:13,400",
+  "note": "2016/十年/iPhone8并列，不能确认主播真实口误",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN06",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 620,
+  "cue_end": 638,
+  "start": "00:31:29,880",
+  "end": "00:32:28,120",
+  "note": "170及55万的时点/集合未经原文证实",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN07",
+  "annotation_type": "self_correction",
+  "cue_start": 742,
+  "cue_end": 742,
+  "start": "00:37:39,860",
+  "end": "00:37:59,860",
+  "note": "每一步“都是错”改为“都是对”",
+  "speaker_slip_confirmed": false
+}
+```
+
+```json
+{
+  "annotation_id": "AN08",
+  "annotation_type": "ambiguous_reference",
+  "cue_start": 748,
+  "cue_end": 750,
+  "start": "00:39:39,860",
+  "end": "00:40:39,860",
+  "note": "“保下线”与只能更差的界限方向不清",
+  "speaker_slip_confirmed": false
+}
+```
+
+## 07 SEMANTIC SEGMENTS
+
+```json
+{
+  "segment_id": "SEG01",
+  "topic": "开场与两题说明",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 1,
+  "cue_end": 27,
+  "start": "00:00:00,190",
+  "end": "00:01:58,070"
+}
+```
+
+```json
+{
+  "segment_id": "SEG02",
+  "topic": "云股反弹与资金约束",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 28,
+  "cue_end": 84,
+  "start": "00:01:58,070",
+  "end": "00:04:26,790"
+}
+```
+
+```json
+{
+  "segment_id": "SEG03",
+  "topic": "AWS超预期与90倍泡沫推算",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 85,
+  "cue_end": 129,
+  "start": "00:04:26,900",
+  "end": "00:06:29,400"
+}
+```
+
+```json
+{
+  "segment_id": "SEG04",
+  "topic": "税收、电网与成本分支",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 130,
+  "cue_end": 166,
+  "start": "00:06:29,400",
+  "end": "00:08:19,830"
+}
+```
+
+```json
+{
+  "segment_id": "SEG05",
+  "topic": "低价模型竞争",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 167,
+  "cue_end": 174,
+  "start": "00:08:19,830",
+  "end": "00:09:22,690"
+}
+```
+
+```json
+{
+  "segment_id": "SEG06",
+  "topic": "国内应用与移动支付类比",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 175,
+  "cue_end": 220,
+  "start": "00:09:22,690",
+  "end": "00:11:29,830"
+}
+```
+
+```json
+{
+  "segment_id": "SEG07",
+  "topic": "ROI、Azure、RPO与谷歌财报",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 221,
+  "cue_end": 243,
+  "start": "00:11:29,830",
+  "end": "00:12:48,910"
+}
+```
+
+```json
+{
+  "segment_id": "SEG08",
+  "topic": "传统云模型、订单与硬件",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 244,
+  "cue_end": 312,
+  "start": "00:12:48,910",
+  "end": "00:16:21,190"
+}
+```
+
+```json
+{
+  "segment_id": "SEG09",
+  "topic": "存量当增量的叙事诊断",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 313,
+  "cue_end": 345,
+  "start": "00:16:21,190",
+  "end": "00:18:03,160"
+}
+```
+
+```json
+{
+  "segment_id": "SEG10",
+  "topic": "追涨者心理与反弹持续性",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 346,
+  "cue_end": 370,
+  "start": "00:18:03,200",
+  "end": "00:20:05,110"
+}
+```
+
+```json
+{
+  "segment_id": "SEG11",
+  "topic": "折旧、回报与延长寿命",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 371,
+  "cue_end": 426,
+  "start": "00:20:05,680",
+  "end": "00:22:40,240"
+}
+```
+
+```json
+{
+  "segment_id": "SEG12",
+  "topic": "手机类比与折旧跳升",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 427,
+  "cue_end": 476,
+  "start": "00:22:40,240",
+  "end": "00:25:02,160"
+}
+```
+
+```json
+{
+  "segment_id": "SEG13",
+  "topic": "存量经营、共识与结论",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 477,
+  "cue_end": 520,
+  "start": "00:25:02,170",
+  "end": "00:27:13,200"
+}
+```
+
+```json
+{
+  "segment_id": "SEG14",
+  "topic": "汇率救市类比及反弹结论",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 521,
+  "cue_end": 562,
+  "start": "00:27:13,200",
+  "end": "00:28:53,750"
+}
+```
+
+```json
+{
+  "segment_id": "SEG15",
+  "topic": "鸿蒙智行公关目标",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 563,
+  "cue_end": 618,
+  "start": "00:28:53,890",
+  "end": "00:31:28,530"
+}
+```
+
+```json
+{
+  "segment_id": "SEG16",
+  "topic": "投诉比例与时间分母",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 619,
+  "cue_end": 648,
+  "start": "00:31:28,530",
+  "end": "00:33:00,450"
+}
+```
+
+```json
+{
+  "segment_id": "SEG17",
+  "topic": "路人视角、争取对象与历史类比",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 649,
+  "cue_end": 713,
+  "start": "00:33:00,740",
+  "end": "00:35:49,680"
+}
+```
+
+```json
+{
+  "segment_id": "SEG18",
+  "topic": "组织约束、自省与求是引用",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 714,
+  "cue_end": 745,
+  "start": "00:35:49,680",
+  "end": "00:38:59,860"
+}
+```
+
+```json
+{
+  "segment_id": "SEG19",
+  "topic": "频道方法自述与最终判断",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "cue_start": 746,
+  "cue_end": 767,
+  "start": "00:38:59,860",
+  "end": "00:42:34,520"
+}
+```
+
+## 08 CLAIMS
+
+```json
+{
+  "claim_id": "C001",
+  "statement": "主播称SpaceX财报亮眼。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播称SpaceX财报亮眼。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C001"
+  ],
+  "atomicity_group_id": "AG001",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C002",
+  "statement": "科技股此次反弹由亮眼财报推动。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "科技股此次反弹由亮眼财报推动。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C002"
+  ],
+  "atomicity_group_id": "AG001",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C003",
+  "statement": "贝索斯套现1500亿；币种与时间未给。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "1500亿",
+  "raw_quantifier": "1500亿",
+  "certainty_expressed": null,
+  "scope": "贝索斯套现1500亿；币种与时间未给。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C003"
+  ],
+  "atomicity_group_id": "AG033",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C004",
+  "statement": "亚马逊前天收涨约4.5%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "4.5%吧",
+  "raw_quantifier": "4.5%吧",
+  "certainty_expressed": null,
+  "scope": "亚马逊前天收涨约4.5%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C004"
+  ],
+  "atomicity_group_id": "AG031",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C005",
+  "statement": "亚马逊时隔61个交易日再创历史新高。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "61个交易日",
+  "raw_quantifier": "61个交易日",
+  "certainty_expressed": null,
+  "scope": "亚马逊时隔61个交易日再创历史新高。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C005"
+  ],
+  "atomicity_group_id": "AG033",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C006",
+  "statement": "亚马逊总市值超过3万亿美元。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "3万亿美元",
+  "raw_quantifier": "3万亿美元",
+  "certainty_expressed": null,
+  "scope": "亚马逊总市值超过3万亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C006"
+  ],
+  "atomicity_group_id": "AG034",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C007",
+  "statement": "谷歌股价上涨超过4%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "超4%",
+  "raw_quantifier": "超4%",
+  "certainty_expressed": null,
+  "scope": "谷歌股价上涨超过4%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C007"
+  ],
+  "atomicity_group_id": "AG035",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C008",
+  "statement": "微软股价上涨超过4%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "超4%",
+  "raw_quantifier": "超4%",
+  "certainty_expressed": null,
+  "scope": "微软股价上涨超过4%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C008"
+  ],
+  "atomicity_group_id": "AG035",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C009",
+  "statement": "Meta股价上涨超过6%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "超6%",
+  "raw_quantifier": "超6%",
+  "certainty_expressed": null,
+  "scope": "Meta股价上涨超过6%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C009"
+  ],
+  "atomicity_group_id": "AG036",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C010",
+  "statement": "甲骨文单日上涨超过9%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "前天；按发布日理解为2026-08-03，录制时点未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "超9%",
+  "raw_quantifier": "超9%",
+  "certainty_expressed": null,
+  "scope": "甲骨文单日上涨超过9%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C010"
+  ],
+  "atomicity_group_id": "AG037",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C011",
+  "statement": "相同谷歌财报既被解释为上周下跌原因又被解释为上涨原因。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "相同谷歌财报既被解释为上周下跌原因又被解释为上涨原因。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C011"
+  ],
+  "atomicity_group_id": "AG038",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C012",
+  "statement": "短期行情受解释权影响，但分析仍应从事实出发。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "短期行情受解释权影响，但分析仍应从事实出发。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C012"
+  ],
+  "atomicity_group_id": "AG043",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C013",
+  "statement": "事实像地心引力，额外支撑消失后叙事不能无限维持。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "事实像地心引力，额外支撑消失后叙事不能无限维持。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C013"
+  ],
+  "atomicity_group_id": "AG050",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C014",
+  "statement": "AI泡沫的根本约束是美国拿不出继续推升所需资金，此次反弹没有解决。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "AI泡沫的根本约束是美国拿不出继续推升所需资金，此次反弹没有解决。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C014"
+  ],
+  "atomicity_group_id": "AG075",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C015",
+  "statement": "主播称去年及五月已测算过再涨20%需要难以承担的资金。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "retrospective_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "去年及五月；原节目未取得",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播称去年及五月已测算过再涨20%需要难以承担的资金。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C015"
+  ],
+  "atomicity_group_id": "AG077",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C016",
+  "statement": "AWS二季度净销售422.3亿美元。",
+  "claimant_id": "amazon",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "amazon",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "截至2026-06-30季度（源核对；财年口径不同）",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "422.3亿美元",
+  "raw_quantifier": "422.3亿美元",
+  "certainty_expressed": null,
+  "scope": "AWS二季度净销售422.3亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C016"
+  ],
+  "atomicity_group_id": "AG086",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C017",
+  "statement": "分析师此前预计AWS净销售405.7亿美元。",
+  "claimant_id": "analysts_unknown",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analysts_unknown",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "405.7亿美元",
+  "raw_quantifier": "405.7亿美元",
+  "certainty_expressed": null,
+  "scope": "分析师此前预计AWS净销售405.7亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C017"
+  ],
+  "atomicity_group_id": "AG088",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C018",
+  "statement": "AWS营收增速创18个季度新高。",
+  "claimant_id": "amazon",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "amazon",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "截至2026-06-30季度（源核对；财年口径不同）",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "18个季度",
+  "raw_quantifier": "18个季度",
+  "certainty_expressed": null,
+  "scope": "AWS营收增速创18个季度新高。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C018"
+  ],
+  "atomicity_group_id": "AG089",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C019",
+  "statement": "主播将AWS销售超预期幅度估作不到5%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "calculation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "不到5%；多了20亿美元",
+  "raw_quantifier": "不到5%；多了20亿美元",
+  "certainty_expressed": null,
+  "scope": "主播将销售额超过预期的幅度估作不到5%，差额约20亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C019"
+  ],
+  "atomicity_group_id": "AG090",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C020",
+  "statement": "季度约5%的增量被一天约5%的股价上涨兑现，因此泡沫至少约90倍。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "最少1比90；百倍左右",
+  "raw_quantifier": "最少1比90；百倍左右",
+  "certainty_expressed": null,
+  "scope": "季度约5%的增量被一天约5%的股价上涨兑现，因此泡沫至少约90倍。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C020"
+  ],
+  "atomicity_group_id": "AG096",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C021",
+  "statement": "若维持此增长叙事，下季须超预期更多；原转写数值为“3040亿5亿美元”。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "3040亿5亿美元",
+  "raw_quantifier": "3040亿5亿美元",
+  "certainty_expressed": null,
+  "scope": "若维持此增长叙事，下季须超预期更多；原转写数值为“3040亿5亿美元”。",
+  "condition_expression": "维持相同估值增长叙事",
+  "source_segment_refs": [
+    "SS-C021"
+  ],
+  "atomicity_group_id": "AG121",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C022",
+  "statement": "美国13个州已经取消数据中心税收优惠。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "13个周",
+  "raw_quantifier": "13个周",
+  "certainty_expressed": null,
+  "scope": "美国13个州已经取消数据中心税收优惠。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C022"
+  ],
+  "atomicity_group_id": "AG131",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C023",
+  "statement": "按相关税收变动测算，每GW数据中心成本可能增加30亿美元。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "每千兆瓦30亿美元",
+  "raw_quantifier": "每千兆瓦30亿美元",
+  "certainty_expressed": null,
+  "scope": "按相关税收变动测算，每GW数据中心成本可能增加30亿美元。",
+  "condition_expression": "税惠取消且设备采购适用约7%销售税",
+  "source_segment_refs": [
+    "SS-C023"
+  ],
+  "atomicity_group_id": "AG134",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C024",
+  "statement": "数据中心扩张及电力需求波动已给民生和电网稳定带来压力。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "数据中心扩张及电力需求波动已给民生和电网稳定带来压力。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C024"
+  ],
+  "atomicity_group_id": "AG138",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C025",
+  "statement": "取消补贴是为升级电网和储能筹钱。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "取消补贴是为升级电网和储能筹钱。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C025"
+  ],
+  "atomicity_group_id": "AG145",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C026",
+  "statement": "若数据中心需求继续增长，额外运营及电网平衡收费将出现。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "板上钉钉指日可待",
+  "raw_quantifier": "板上钉钉指日可待",
+  "certainty_expressed": null,
+  "scope": "若数据中心需求继续增长，额外运营及电网平衡收费将出现。",
+  "condition_expression": "数据中心业务持续增长",
+  "source_segment_refs": [
+    "SS-C026"
+  ],
+  "atomicity_group_id": "AG155",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C027",
+  "statement": "能赚钱的数据中心会吸引更多利益相关方收费，成本增加将压低盈利。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "能赚钱的数据中心会吸引更多利益相关方收费，成本增加将压低盈利。",
+  "condition_expression": "项目获利吸引收费且不能转嫁",
+  "source_segment_refs": [
+    "SS-C027"
+  ],
+  "atomicity_group_id": "AG161",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C028",
+  "statement": "美国研究机构评估DeepSeek V4 Flash运行成本约为Fable的1%。",
+  "claimant_id": "artificial_analysis",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "artificial_analysis",
+    "S05",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "1%",
+  "raw_quantifier": "1%",
+  "certainty_expressed": null,
+  "scope": "美国研究机构评估DeepSeek V4 Flash运行成本约为Fable的1%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C028"
+  ],
+  "atomicity_group_id": "AG167",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C029",
+  "statement": "若数据中心成本难以维持，唯一选择是替换成最便宜模型。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "唯一",
+  "raw_quantifier": "唯一",
+  "certainty_expressed": null,
+  "scope": "若数据中心成本难以维持，唯一选择是替换成最便宜模型。",
+  "condition_expression": "成本无法维持",
+  "source_segment_refs": [
+    "SS-C029"
+  ],
+  "atomicity_group_id": "AG168",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C030",
+  "statement": "低价模型替换将降低数据需求量和单价，使此前投入为他人作嫁衣。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "低价模型替换将降低数据需求量和单价，使此前投入为他人作嫁衣。",
+  "condition_expression": "采用廉价替代且需求不补偿",
+  "source_segment_refs": [
+    "SS-C030"
+  ],
+  "atomicity_group_id": "AG168",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C031",
+  "statement": "主播观察到国内AI应用已进入一线工程及现场分析。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播观察到国内AI应用已进入一线工程及现场分析。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C031"
+  ],
+  "atomicity_group_id": "AG175",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C032",
+  "statement": "部分一线应用使用免费的豆包等工具。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "部分一线应用使用免费的豆包等工具。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C032"
+  ],
+  "atomicity_group_id": "AG179",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C033",
+  "statement": "部分专业公司维护自己的模型，面向较单一场景。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "部分专业公司维护自己的模型，面向较单一场景。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C033"
+  ],
+  "atomicity_group_id": "AG180",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C034",
+  "statement": "个人用消费级AI完成商业交付，意味着应用从C端向B端延展。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "个人用消费级AI完成商业交付，意味着应用从C端向B端延展。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C034"
+  ],
+  "atomicity_group_id": "AG183",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C035",
+  "statement": "此类使用场景继续培育将带来整体生产力跃迁。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "培育一段时间；未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "此类使用场景继续培育将带来整体生产力跃迁。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C035"
+  ],
+  "atomicity_group_id": "AG195",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C036",
+  "statement": "AI习惯扩散类似移动支付改变消费和业态的过程。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "AI习惯扩散类似移动支付改变消费和业态的过程。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C036"
+  ],
+  "atomicity_group_id": "AG199",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C037",
+  "statement": "美国尚未实现这种广泛应用，云收入暴增不能证明已经实现。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "美国尚未实现这种广泛应用，云收入暴增不能证明已经实现。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C037"
+  ],
+  "atomicity_group_id": "AG213",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C038",
+  "statement": "部分分析者或观众认为云业务表现好给上涨提供坚实基础。",
+  "claimant_id": "commenters_unknown",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "commenters_unknown",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "部分分析者或观众认为云业务表现好给上涨提供了坚实基础；主播反对。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C038"
+  ],
+  "atomicity_group_id": "AG218",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C039",
+  "statement": "亚马逊CEO称距离服务器与网络设备投资盈亏平衡不到三年。",
+  "claimant_id": "andy_jassy",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "andy_jassy",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "从CEO发言起不足三年，发言日期未核",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "不到3年",
+  "raw_quantifier": "不到3年",
+  "certainty_expressed": null,
+  "scope": "亚马逊CEO称距离服务器与网络设备投资盈亏平衡不到三年。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C039"
+  ],
+  "atomicity_group_id": "AG222",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C040",
+  "statement": "亚马逊CEO称AI投入回报的良性循环初步形成。",
+  "claimant_id": "andy_jassy",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "andy_jassy",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "亚马逊CEO称AI投入回报的良性循环初步形成。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C040"
+  ],
+  "atomicity_group_id": "AG224",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C041",
+  "statement": "微软云计算业务收入同比增长43%。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "microsoft",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "截至2026-06-30季度（源核对；财年口径不同）",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "43%",
+  "raw_quantifier": "43%",
+  "certainty_expressed": null,
+  "scope": "微软云计算业务收入同比增长43%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C041"
+  ],
+  "atomicity_group_id": "AG226",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C042",
+  "statement": "分析师预期微软相关云业务增长39.98%。",
+  "claimant_id": "analysts_unknown",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analysts_unknown",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "39.98%",
+  "raw_quantifier": "39.98%",
+  "certainty_expressed": null,
+  "scope": "分析师预期微软相关云业务增长39.98%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C042"
+  ],
+  "atomicity_group_id": "AG228",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C043",
+  "statement": "主播把40%到43%的差描述为3%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "calculation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "3%",
+  "raw_quantifier": "3%",
+  "certainty_expressed": null,
+  "scope": "主播把40%到43%的差描述为3%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C043"
+  ],
+  "atomicity_group_id": "AG229",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C044",
+  "statement": "微软本季度末未交付订单额为6780亿美元。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "microsoft",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "截至2026-06-30季度（源核对；财年口径不同）",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "6780亿美元",
+  "raw_quantifier": "6780亿美元",
+  "certainty_expressed": null,
+  "scope": "微软本季度末未交付订单额为6780亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C044"
+  ],
+  "atomicity_group_id": "AG230",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C045",
+  "statement": "微软上季度未交付订单额为6270亿美元。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "microsoft",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "上季度末",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "6270亿美元",
+  "raw_quantifier": "6270亿美元",
+  "certainty_expressed": null,
+  "scope": "微软上季度未交付订单额为6270亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C045"
+  ],
+  "atomicity_group_id": "AG230",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C046",
+  "statement": "主播估算微软未交付订单环比增加近500亿美元。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "calculation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "将近500亿美元",
+  "raw_quantifier": "将近500亿美元",
+  "certainty_expressed": null,
+  "scope": "主播估算微软未交付订单环比增加近500亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C046"
+  ],
+  "atomicity_group_id": "AG231",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C047",
+  "statement": "主播估算该未交付订单增速约10%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "calculation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "10%",
+  "raw_quantifier": "10%",
+  "certainty_expressed": null,
+  "scope": "主播估算该未交付订单增速约10%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C047"
+  ],
+  "atomicity_group_id": "AG232",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C048",
+  "statement": "若要维持行情，亚马逊下次财报需从超预期5%变为10%。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "5%到10%翻一翻",
+  "raw_quantifier": "5%到10%翻一翻",
+  "certainty_expressed": null,
+  "scope": "若要维持行情，亚马逊下次财报需从超预期5%变为10%。",
+  "condition_expression": "继续维持炒作节奏",
+  "source_segment_refs": [
+    "SS-C048"
+  ],
+  "atomicity_group_id": "AG233",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C049",
+  "statement": "谷歌云收入增长82%。",
+  "claimant_id": "alphabet",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "alphabet",
+    "S04",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "截至2026-06-30季度（源核对；财年口径不同）",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "82%",
+  "raw_quantifier": "82%",
+  "certainty_expressed": null,
+  "scope": "谷歌云收入增长82%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C049"
+  ],
+  "atomicity_group_id": "AG238",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C050",
+  "statement": "整体市场正在形成云计算将很热门的预期。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "整体市场正在形成云计算将很热门的预期。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C050"
+  ],
+  "atomicity_group_id": "AG241",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C051",
+  "statement": "云服务是运行十多年、甚至二十年的成熟商业模式。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "云服务是运行十多年、甚至二十年的成熟商业模式。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C051"
+  ],
+  "atomicity_group_id": "AG245",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C052",
+  "statement": "主播把SaaS解释为通过服务交付收费，并与租用算力的轻前端模式相联系。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播把SaaS解释为通过服务交付收费，并与租用算力的轻前端模式相联系。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C052"
+  ],
+  "atomicity_group_id": "AG247",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C053",
+  "statement": "这种业务会把合同金额约40%用于向云商购买服务。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "40%左右",
+  "raw_quantifier": "40%左右",
+  "certainty_expressed": null,
+  "scope": "这种业务会把合同金额约40%用于向云商购买服务。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C053"
+  ],
+  "atomicity_group_id": "AG256",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C054",
+  "statement": "当前云业务主要是算力需求骤增且需求类型发生变化。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "当前云业务主要是算力需求骤增且需求类型发生变化。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C054"
+  ],
+  "atomicity_group_id": "AG264",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C055",
+  "statement": "应追问6780亿美元订单里有多少是传统业务原本就应交付的部分。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "应追问6780亿美元订单里有多少是传统业务原本就应交付的部分。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C055"
+  ],
+  "atomicity_group_id": "AG284",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C056",
+  "statement": "未交付订单是云商有意储备、平滑需求波动的手段。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "未交付订单是云商有意储备、平滑需求波动的手段。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C056"
+  ],
+  "atomicity_group_id": "AG287",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C057",
+  "statement": "举例需求增加三份只投两份硬件，可降低未来需求萎缩造成的过度投入损失。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "三份；两份",
+  "raw_quantifier": "三份；两份",
+  "certainty_expressed": null,
+  "scope": "举例需求增加三份只投两份硬件，可降低未来需求萎缩造成的过度投入损失。",
+  "condition_expression": "需求增三份且只投资两份",
+  "source_segment_refs": [
+    "SS-C057"
+  ],
+  "atomicity_group_id": "AG297",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C058",
+  "statement": "硬件损耗和淘汰应计入云服务成本。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "硬件损耗和淘汰应计入云服务成本。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C058"
+  ],
+  "atomicity_group_id": "AG303",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C059",
+  "statement": "市场把应当算成本的固定投入或冗余准备讲成未来收入与旺盛需求。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "市场把应当算成本的固定投入或冗余准备讲成未来收入与旺盛需求。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C059"
+  ],
+  "atomicity_group_id": "AG313",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C060",
+  "statement": "投资者把过去存量当成新增量，夸大增长预期。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "投资者把过去存量当成新增量，夸大增长预期。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C060"
+  ],
+  "atomicity_group_id": "AG329",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C061",
+  "statement": "夸大预期让估值显得便宜，信息差会诱使不熟悉行业的人买入。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "夸大预期让估值显得便宜，信息差会诱使不熟悉行业的人买入。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C061"
+  ],
+  "atomicity_group_id": "AG337",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C062",
+  "statement": "前期亏损会促使投资者把反弹当成回本机会。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "前期亏损会促使投资者把反弹当成回本机会。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C062"
+  ],
+  "atomicity_group_id": "AG348",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C063",
+  "statement": "无论追涨者跑早、碰巧成功还是跑晚，都可能强化下一次风险。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "无论追涨者跑早、碰巧成功还是跑晚，都可能强化下一次风险。",
+  "condition_expression": "追涨者跑早/碰巧成功/跑晚",
+  "source_segment_refs": [
+    "SS-C063"
+  ],
+  "atomicity_group_id": "AG357",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C064",
+  "statement": "本轮反弹支撑不了多久，不能改变泡沫破裂趋势。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "支撑不了多久；未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "本轮反弹支撑不了多久，不能改变泡沫破裂趋势。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C064"
+  ],
+  "atomicity_group_id": "AG367",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C065",
+  "statement": "云商硬件周期内收入超过折旧则赚钱，反之赔钱；这是主播的简化模型。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "云商硬件周期内收入超过折旧则赚钱，反之赔钱；这是主播的简化模型。",
+  "condition_expression": "周期收入大于或小于折旧",
+  "source_segment_refs": [
+    "SS-C065"
+  ],
+  "atomicity_group_id": "AG374",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C066",
+  "statement": "算力卡面临技术更新淘汰和自然损坏两类折旧压力。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "算力卡面临技术更新淘汰和自然损坏两类折旧压力。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C066"
+  ],
+  "atomicity_group_id": "AG388",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C067",
+  "statement": "当前折旧压力主要来自技术更新。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "当前折旧压力主要来自技术更新。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C067"
+  ],
+  "atomicity_group_id": "AG395",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C068",
+  "statement": "拉长评估周期可降低当前财报中的折旧成本。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "拉长评估周期可降低当前财报中的折旧成本。",
+  "condition_expression": "延长会计评估年限",
+  "source_segment_refs": [
+    "SS-C068"
+  ],
+  "atomicity_group_id": "AG398",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C069",
+  "statement": "用旧卡补充损坏算力并拉长周期，可使报表折旧更漂亮。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "用旧卡补充损坏算力并拉长周期，可使报表折旧更漂亮。",
+  "condition_expression": "旧卡可兼容补损",
+  "source_segment_refs": [
+    "SS-C069"
+  ],
+  "atomicity_group_id": "AG406",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C070",
+  "statement": "折旧年限可以从三年到五年、七年，但无法无限延长。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "三年；五年；七年；70年",
+  "raw_quantifier": "三年；五年；七年；70年",
+  "certainty_expressed": null,
+  "scope": "折旧年限可以从三年到五年、七年，但无法无限延长。",
+  "condition_expression": "年限反复延长",
+  "source_segment_refs": [
+    "SS-C070"
+  ],
+  "atomicity_group_id": "AG423",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C071",
+  "statement": "主播称自己的旧iPhone 8已开不了机。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "personal_observation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "2026；2016；iPhone8",
+  "raw_quantifier": "2026；2016；iPhone8",
+  "certainty_expressed": null,
+  "scope": "主播拿旧iPhone 8比较，已开不了机，并以2016与2026作十年对照。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C071"
+  ],
+  "atomicity_group_id": "AG430",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C072",
+  "statement": "若将算力卡周期拉长至七到十年，代际差距将迫使最终确认损失。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "七年、十年",
+  "raw_quantifier": "七年、十年",
+  "certainty_expressed": null,
+  "scope": "若将算力卡周期拉长至七到十年，代际差距将迫使最终确认损失。",
+  "condition_expression": "七至十年技术差距累积",
+  "source_segment_refs": [
+    "SS-C072"
+  ],
+  "atomicity_group_id": "AG438",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C073",
+  "statement": "旧卡无法继续补损后，以新卡价格替换会使资本支出及折旧成本上台阶。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "旧卡无法继续补损后，以新卡价格替换会使资本支出及折旧成本上台阶。",
+  "condition_expression": "旧设备不可用且需按新品价补足",
+  "source_segment_refs": [
+    "SS-C073"
+  ],
+  "atomicity_group_id": "AG447",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C074",
+  "statement": "折旧费用很快会迎来台阶式上升。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "很快；未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "折旧费用很快会迎来台阶式上升。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C074"
+  ],
+  "atomicity_group_id": "AG471",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C075",
+  "statement": "费用跳升可能是数倍乃至十倍，从而重创盈利预期。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "10倍；几倍",
+  "raw_quantifier": "10倍；几倍",
+  "certainty_expressed": null,
+  "scope": "费用跳升可能是数倍乃至十倍，从而重创盈利预期。",
+  "condition_expression": "发生折旧跳升",
+  "source_segment_refs": [
+    "SS-C075"
+  ],
+  "atomicity_group_id": "AG473",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C076",
+  "statement": "存量行业需精算成本，追增量风口者可能忽略这些细账，导致扩展空间判断分歧。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "存量行业需精算成本，追增量风口者可能忽略这些细账，导致扩展空间判断分歧。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C076"
+  ],
+  "atomicity_group_id": "AG477",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C077",
+  "statement": "市场共识已出现裂痕，这会制造不稳定并限制持续上涨。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "市场共识已出现裂痕，这会制造不稳定并限制持续上涨。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C077"
+  ],
+  "atomicity_group_id": "AG492",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C078",
+  "statement": "没有上涨带来的赚钱效应，市场吸引力将下降并可能自我踩踏。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "没有上涨带来的赚钱效应，市场吸引力将下降并可能自我踩踏。",
+  "condition_expression": "缺乏赚钱效应",
+  "source_segment_refs": [
+    "SS-C078"
+  ],
+  "atomicity_group_id": "AG499",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C079",
+  "statement": "本轮反弹缺乏业务变化、应用质变和长期真实需求支撑。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "本轮反弹缺乏业务变化、应用质变和长期真实需求支撑。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C079"
+  ],
+  "atomicity_group_id": "AG503",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C080",
+  "statement": "主播要求上涨叙事拿出足够底层支撑，认为目前理由不足。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播要求上涨叙事拿出足够底层支撑，认为目前理由不足。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C080"
+  ],
+  "atomicity_group_id": "AG513",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C081",
+  "statement": "反弹迟早会回落，而且速度很快。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "迟早；未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "反弹迟早会回落，而且速度很快。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C081"
+  ],
+  "atomicity_group_id": "AG520",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C082",
+  "statement": "本轮反弹类似美日联合汇率救市：花钱而效果不足、分歧出现后易反转。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "本轮反弹类似美日联合汇率救市：花钱而效果不足、分歧出现后易反转。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C082"
+  ],
+  "atomicity_group_id": "AG521",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C083",
+  "statement": "主播认为鸿蒙智行此次公关回应是巨大灾难。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "value_judgment",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播认为鸿蒙智行此次公关回应是巨大灾难。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C083"
+  ],
+  "atomicity_group_id": "AG563",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C084",
+  "statement": "鸿蒙智行眼前的问题是销量下滑。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "鸿蒙智行眼前的问题是销量下滑。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C084"
+  ],
+  "atomicity_group_id": "AG571",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C085",
+  "statement": "销量下滑是既有粉丝已购买、消费潜力耗尽所致。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "销量下滑是既有粉丝已购买、消费潜力耗尽所致。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C085"
+  ],
+  "atomicity_group_id": "AG576",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C086",
+  "statement": "品牌应通过柔和形象争取路人转粉，而非继续强化现有粉丝。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "recommendation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "品牌应通过柔和形象争取路人转粉，而非继续强化现有粉丝。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C086"
+  ],
+  "atomicity_group_id": "AG580",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C087",
+  "statement": "此前针对粉丝的成功打法正在损害非粉丝观感。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "此前针对粉丝的成功打法正在损害非粉丝观感。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C087"
+  ],
+  "atomicity_group_id": "AG583",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C088",
+  "statement": "回应侧重法律和数据证明自己没错，没有服务修复路人观感的公关目的。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "回应侧重法律和数据证明自己没错，没有服务修复路人观感的公关目的。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C088"
+  ],
+  "atomicity_group_id": "AG609",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C089",
+  "statement": "回应中称投诉约170多条。",
+  "claimant_id": "hima",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "hima",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "170多个",
+  "raw_quantifier": "170多个",
+  "certainty_expressed": null,
+  "scope": "回应中称投诉约170多条。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C089"
+  ],
+  "atomicity_group_id": "AG619",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C090",
+  "statement": "回应所用总体内容规模为“55.5点几万条”；确切数值待音频。",
+  "claimant_id": "hima",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "hima",
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "secondhand_report",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "55.5点几万",
+  "raw_quantifier": "55.5点几万",
+  "certainty_expressed": null,
+  "scope": "回应所用总体内容规模为“55.5点几万条”；确切数值待音频。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C090"
+  ],
+  "atomicity_group_id": "AG621",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C091",
+  "statement": "主播估计早期总体相关内容仅几百至上千，170多条的当时占比可能很高。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "estimate",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "几百条上千条",
+  "raw_quantifier": "几百条上千条",
+  "certainty_expressed": null,
+  "scope": "主播估计早期总体相关内容仅几百至上千，170多条的当时占比可能很高。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C091"
+  ],
+  "atomicity_group_id": "AG624",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C092",
+  "statement": "用后期膨胀的总量当分母稀释早期投诉比例，是不当时间口径比较。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "用后期膨胀的总量当分母稀释早期投诉比例，是不当时间口径比较。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C092"
+  ],
+  "atomicity_group_id": "AG635",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C093",
+  "statement": "主播认为早期投诉行为触发口碑与讨论量的爆发。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "粗暴投诉触发口碑爆发，随后这种比例回应会进一步增加恶感。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C093"
+  ],
+  "atomicity_group_id": "AG629",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C094",
+  "statement": "应暂时放下粉丝身份，以路人视角评估行为是在招黑还是扩大接受度。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "应暂时放下粉丝身份，以路人视角评估行为是在招黑还是扩大接受度。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C094"
+  ],
+  "atomicity_group_id": "AG649",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C095",
+  "statement": "即使反感者中有小米粉丝，也不能把所有人当不可争取的敌人。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "所有",
+  "raw_quantifier": "所有",
+  "certainty_expressed": null,
+  "scope": "即使反感者中有小米粉丝，也不能把所有人当不可争取的敌人。",
+  "condition_expression": "反感者中包含竞争品牌用户",
+  "source_segment_refs": [
+    "SS-C095"
+  ],
+  "atomicity_group_id": "AG662",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C096",
+  "statement": "提炼共同的主要问题，是为争取对手并把彼此冲突降为次要，而非单纯识别敌我。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "提炼共同的主要问题，是为争取对手并把彼此冲突降为次要，而非单纯识别敌我。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C096"
+  ],
+  "atomicity_group_id": "AG687",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C097",
+  "statement": "以抗日主线团结原本敌对力量的历史，类比品牌争取路人。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "historical_analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "以抗日主线团结原本敌对力量的历史，类比品牌争取路人。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C097"
+  ],
+  "atomicity_group_id": "AG679",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C098",
+  "statement": "粉丝把所有人视为敌人，与品牌破圈目标相反。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "粉丝把所有人视为敌人，与品牌破圈目标相反。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C098"
+  ],
+  "atomicity_group_id": "AG714",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C099",
+  "statement": "品牌应承认问题；否认问题会使局面更差。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "recommendation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "品牌应承认问题；否认问题会使局面更差。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C099"
+  ],
+  "atomicity_group_id": "AG724",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C100",
+  "statement": "余承东及团队不能接受失败，因此难以采取自嘲等柔和公关选择。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "余承东及团队不能接受失败，因此难以采取自嘲等柔和公关选择。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C100"
+  ],
+  "atomicity_group_id": "AG738",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C101",
+  "statement": "品牌组织内每步看似正确却整体变差，与美国困境相似。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "品牌组织内每步看似正确却整体变差，与美国困境相似。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C101"
+  ],
+  "atomicity_group_id": "AG742",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C102",
+  "statement": "主播推荐求是7月16日文章作为组织自我修正的参考。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "reported_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播推荐求是7月16日文章作为组织自我修正的参考。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C102"
+  ],
+  "atomicity_group_id": "AG744",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C103",
+  "statement": "主播称在会员频道批评华为会损失付费会员，但仍选择表达真实想法。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "personal_report",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播称在会员频道批评华为会损失付费会员，但仍选择表达真实想法。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C103"
+  ],
+  "atomicity_group_id": "AG746",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C104",
+  "statement": "与其猜人物私心和未来行动，不如先找其所受限制，再据边界分析走势。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "method_statement",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "与其猜人物私心和未来行动，不如先找其所受限制，再据边界分析走势。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C104"
+  ],
+  "atomicity_group_id": "AG748",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C105",
+  "statement": "主播认为按这些边界给出的情况只能被处理得更差，不会更好，称之为保下线。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播认为按这些边界给出的情况只能被处理得更差，不会更好，称之为保下线。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C105"
+  ],
+  "atomicity_group_id": "AG750",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C106",
+  "statement": "主播承认自身接收信息有限，不能全知或准确预知未来。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "personal_report",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播承认自身接收信息有限，不能全知或准确预知未来。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C106"
+  ],
+  "atomicity_group_id": "AG751",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C107",
+  "statement": "不认可节目价值可能因为观众识别力不足，也可能因为水平高于主播；他说二选一。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": "两种；自选其一",
+  "raw_quantifier": "两种；自选其一",
+  "certainty_expressed": null,
+  "scope": "不认可节目价值可能因为观众识别力不足，也可能因为水平高于主播；他说二选一。",
+  "condition_expression": "观众不认可价值",
+  "source_segment_refs": [
+    "SS-C107"
+  ],
+  "atomicity_group_id": "AG752",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C108",
+  "statement": "主播悲观地认为华为难以纠正错误，因为尚未承认错误。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "forecast",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "future",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": "未知",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播悲观地认为华为难以纠正错误，因为尚未承认错误。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C108"
+  ],
+  "atomicity_group_id": "AG761",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C109",
+  "statement": "主播把AWS实际与预期销售差额粗估为20亿美元。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "calculation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播把AWS实际与预期销售差额粗估为20亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C109"
+  ],
+  "atomicity_group_id": "AG092",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C110",
+  "statement": "主播以2016到2026十年手机变化说明多年算力代际差距；提到iPhone 8，年份对应待核。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "analogy",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播以2016到2026十年手机变化说明多年算力代际差距；提到iPhone 8，年份对应待核。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C110"
+  ],
+  "atomicity_group_id": "AG427",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C111",
+  "statement": "被识破的比例小聪明会让公关受众更反感。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "conditional_claim",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "conditional",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "被识破的比例小聪明会让公关受众更反感。",
+  "condition_expression": "受众识破不当比例比较",
+  "source_segment_refs": [
+    "SS-C111"
+  ],
+  "atomicity_group_id": "AG640",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "C112",
+  "statement": "主播明确不接受用云业务表现好证明此轮上涨有坚实基础。",
+  "claimant_id": "analyst_youhegaojian9527",
+  "asserted_by_id": "analyst_youhegaojian9527",
+  "attribution_chain": [
+    "analyst_youhegaojian9527"
+  ],
+  "attribution_status": "reported_only",
+  "claim_type": "interpretation",
+  "derivation_type": "explicit_transcript",
+  "temporal_mode": "unknown",
+  "asserted_at": "2026-08-05T09:48:48+08:00",
+  "asserted_at_basis": "publication_proxy_recording_unknown",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "主播明确不接受用云业务表现好证明此轮上涨有坚实基础。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-C112"
+  ],
+  "atomicity_group_id": "AG218",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "corpus_origin": "creator_transcript",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "X01",
+  "statement": "微软商业RPO是未履行合同的未来收入义务，不是已经投入的硬件资产成本。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "S10",
+  "attribution_chain": [
+    "microsoft",
+    "S10"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-29",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "微软商业RPO是未履行合同的未来收入义务，不是已经投入的硬件资产成本。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X01"
+  ],
+  "atomicity_group_id": "X01",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X02",
+  "statement": "微软商业RPO FY26Q3为6270亿美元、Q4为6780亿美元。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "S10",
+  "attribution_chain": [
+    "microsoft",
+    "S10"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-29",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "微软商业RPO FY26Q3为6270亿美元、Q4为6780亿美元。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X02"
+  ],
+  "atomicity_group_id": "X02",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X03",
+  "statement": "微软FY26Q4 Azure及其他云服务同比增长43%；不是全部Microsoft Cloud。",
+  "claimant_id": "microsoft",
+  "asserted_by_id": "S11",
+  "attribution_chain": [
+    "microsoft",
+    "S11"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-29",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "微软FY26Q4 Azure及其他云服务同比增长43%；不是全部Microsoft Cloud。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X03"
+  ],
+  "atomicity_group_id": "X03",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X04",
+  "statement": "亚马逊报告AWS二季度销售约422亿美元，同比增长约37%。",
+  "claimant_id": "amazon",
+  "asserted_by_id": "S12",
+  "attribution_chain": [
+    "amazon",
+    "S12"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-30",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "亚马逊报告AWS二季度销售约422亿美元，同比增长约37%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X04"
+  ],
+  "atomicity_group_id": "X04",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X05",
+  "statement": "Alphabet报告2026Q2 Google Cloud收入同比增长82%。",
+  "claimant_id": "alphabet",
+  "asserted_by_id": "S13",
+  "attribution_chain": [
+    "alphabet",
+    "S13"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-22",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "Alphabet报告2026Q2 Google Cloud收入同比增长82%。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X05"
+  ],
+  "atomicity_group_id": "X05",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X06",
+  "statement": "报道区分四州取消或暂停与九州研究类似政策，不能统称13州已经取消。",
+  "claimant_id": "the_information",
+  "asserted_by_id": "S06",
+  "attribution_chain": [
+    "the_information",
+    "S06"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-03T16:40:00+08:00",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "报道区分四州取消或暂停与九州研究类似政策，不能统称13州已经取消。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X06"
+  ],
+  "atomicity_group_id": "X06",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "X07",
+  "statement": "每GW约30亿美元是按7%销售税及设备购置规模估算的增量，不是年度通用运营费。",
+  "claimant_id": "wscn",
+  "asserted_by_id": "S06",
+  "attribution_chain": [
+    "wscn",
+    "S06"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-03T16:40:00+08:00",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "每GW约30亿美元是按7%销售税及设备购置规模估算的增量，不是年度通用运营费。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X07"
+  ],
+  "atomicity_group_id": "X07",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "X08",
+  "statement": "3美分与3.15美元比较的是指定智能指数任务的估算成本，不是整个数据中心成本。",
+  "claimant_id": "artificial_analysis",
+  "asserted_by_id": "S05",
+  "attribution_chain": [
+    "artificial_analysis",
+    "S05"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-03T15:12:00+08:00",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "3美分与3.15美元比较的是指定智能指数任务的估算成本，不是整个数据中心成本。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X08"
+  ],
+  "atomicity_group_id": "X08",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "X09",
+  "statement": "0731版本输入/输出Token价格不变，缓存折扣和任务Token使用影响成本比较。",
+  "claimant_id": "artificial_analysis",
+  "asserted_by_id": "S14",
+  "attribution_chain": [
+    "artificial_analysis",
+    "S14"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-31",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "0731版本输入/输出Token价格不变，缓存折扣和任务Token使用影响成本比较。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X09"
+  ],
+  "atomicity_group_id": "X09",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "claim_id": "X10",
+  "statement": "新闻将云收入与订单改善解释为AI回报兑现信号，并使用卖铲到用铲的标题框架。",
+  "claimant_id": "cls_editor",
+  "asserted_by_id": "S04",
+  "attribution_chain": [
+    "cls_editor",
+    "S04"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-08-04T09:38:00+08:00",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "新闻将云收入与订单改善解释为AI回报兑现信号，并使用卖铲到用铲的标题框架。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X10"
+  ],
+  "atomicity_group_id": "X10",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "X11",
+  "statement": "文章强调组织自我检视与纠错；网页显示7月16日，URL含0715。",
+  "claimant_id": "qiushi_author",
+  "asserted_by_id": "S08",
+  "attribution_chain": [
+    "qiushi_author",
+    "S08"
+  ],
+  "attribution_status": "source_verified",
+  "claim_type": "source_claim",
+  "derivation_type": "external_source",
+  "temporal_mode": "past",
+  "asserted_at": "2026-07-16T09:00:00+08:00",
+  "asserted_at_basis": "displayed_source_date",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "文章强调组织自我检视与纠错；网页显示7月16日，URL含0715。",
+  "condition_expression": null,
+  "source_segment_refs": [
+    "SS-X11"
+  ],
+  "atomicity_group_id": "X11",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "external_verification",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M01",
+  "statement": "营收超预期转换成股价重估需利润率、持续性、未来现金流和折现率。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M01",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M02",
+  "statement": "市场价格反映未来多期现金流，不能用季度90天除以一天推出90倍高估。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M02",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M03",
+  "statement": "RPO转成AI增长证据需拆AI与传统业务、新签与续约、履约期限及取消条件。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M03",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M04",
+  "statement": "模型任务成本下降对云商利润的净效应取决于调用弹性、部署位置、采购价格和定价能力。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M04",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M05",
+  "statement": "延长会计折旧年限、资产经济寿命、减值测试及新购设备现金支出是不同变量。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M05",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M06",
+  "statement": "从盈利压力到市场必然暴跌仍需估值、预期差、流动性和时间触发条件。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M06",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M07",
+  "statement": "早期投诉分子与后期总量分母确实错位，需两组时间戳、覆盖群体和原始回应证明。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M07",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "claim_id": "M08",
+  "statement": "由销量下降推出粉丝消费耗尽，需控制产品周期、交付、竞争和定价。",
+  "claimant_id": "model_gpt6",
+  "asserted_by_id": "model_gpt6",
+  "attribution_chain": [
+    "model_gpt6"
+  ],
+  "attribution_status": "model_authored",
+  "claim_type": "model_reconstruction",
+  "derivation_type": "model_reconstruction",
+  "temporal_mode": "analytical",
+  "asserted_at": "2026-09-26T00:51:00+08:00",
+  "asserted_at_basis": "analysis_time",
+  "reference_time": null,
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "population": null,
+  "quantifier": null,
+  "raw_quantifier": null,
+  "certainty_expressed": null,
+  "scope": "诊断必要条件，不是主播说法",
+  "condition_expression": null,
+  "source_segment_refs": [],
+  "atomicity_group_id": "M08",
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "corpus_origin": "model_diagnostic",
+  "verified_knowledge_eligible": false
+}
+```
+
+## 09 CLAIM OCCURRENCES
+
+```json
+{
+  "occurrence_id": "OC001",
+  "claim_id": "C001",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 1,
+  "cue_end": 1,
+  "start": "00:00:00,190",
+  "end": "00:00:20,190"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC002",
+  "claim_id": "C002",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。\n马上就小伙伴在评论区里问是吧，是不是对这轮科技股泡沫破裂的判断错了。啊，这轮反弹进来了，昨天才打了预防针是吧？不不会有这样的事发生的那今天出现这个市场的波动，马上就倒行混乱。那咱们今天呢就顺着这轮反弹的逻辑，上涨的逻辑跟大家聊聊这里面的问题。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 1,
+  "cue_end": 2,
+  "start": "00:00:00,190",
+  "end": "00:00:40,190"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC003",
+  "claim_id": "C003",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 33,
+  "cue_end": 33,
+  "start": "00:02:12,930",
+  "end": "00:02:20,200"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC004",
+  "claim_id": "C004",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "亚马逊呢收涨4.5%吧，就是。\n前天哈。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 31,
+  "cue_end": 32,
+  "start": "00:02:08,850",
+  "end": "00:02:12,850"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC005",
+  "claim_id": "C005",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 33,
+  "cue_end": 33,
+  "start": "00:02:12,930",
+  "end": "00:02:20,200"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC006",
+  "claim_id": "C006",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "总市值占上了3万亿美元。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 34,
+  "cue_end": 34,
+  "start": "00:02:20,260",
+  "end": "00:02:22,790"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC007",
+  "claim_id": "C007",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "此外呢，谷歌微软涨超4%。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 35,
+  "cue_end": 35,
+  "start": "00:02:22,790",
+  "end": "00:02:25,890"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC008",
+  "claim_id": "C008",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "此外呢，谷歌微软涨超4%。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 35,
+  "cue_end": 35,
+  "start": "00:02:22,790",
+  "end": "00:02:25,890"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC009",
+  "claim_id": "C009",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "没塔涨长6%。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 36,
+  "cue_end": 36,
+  "start": "00:02:25,890",
+  "end": "00:02:27,440"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC010",
+  "claim_id": "C010",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "甲骨文呢更是走出了单日超9%的账幅，听起来一片欣欣向荣啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 37,
+  "cue_end": 37,
+  "start": "00:02:27,440",
+  "end": "00:02:32,690"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC011",
+  "claim_id": "C011",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "为什么会这么上涨呢？是因为。\n亚马逊以及谷o歌的这个。\n财报是引爆了大家的热情。\n其实恰恰就是google的财报引发了。\n上周的暴跌。\n同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 38,
+  "cue_end": 45,
+  "start": "00:02:32,850",
+  "end": "00:02:51,590"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC012",
+  "claim_id": "C012",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。\n所以说。\n充分的证明了这里边掌握着话语权才是最重要的，掌握着解释权才是最重要的真相不重要是吧？\n此前的当然了。\n咱们分析还是得从几呃呃真相开始，因为。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 43,
+  "cue_end": 49,
+  "start": "00:02:44,020",
+  "end": "00:03:03,360"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC013",
+  "claim_id": "C013",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "真相就像一地心引力。\n你可以短时间的啊抵抗敌心引力飞起来。\n但是呢。\n你长时间的话，你非让你飞起来，那个力量没有了，就得落下来。\n一个道理，你花这钱。\n呃。\n摇唇骨折，那自然可以营造太平盛世。\n但是稍微的这个劲儿松一点了，那就得看真相吧。\n真章到底是怎么回事儿？\n那就大家就真相大白了吧。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 50,
+  "cue_end": 59,
+  "start": "00:03:03,360",
+  "end": "00:03:28,350"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC014",
+  "claim_id": "C014",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这一次的AI泡沫科技泡沫破裂。\n就是花不起这个钱啦。\n说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。\n这才是问题的根源。\n这才是矛盾的根源。\n那现在这波反弹。\n解决这个矛盾吧，没有啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 75,
+  "cue_end": 84,
+  "start": "00:04:01,330",
+  "end": "00:04:26,790"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC015",
+  "claim_id": "C015",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 77,
+  "cue_end": 80,
+  "start": "00:04:06,100",
+  "end": "00:04:20,020"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC016",
+  "claim_id": "C016",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "此前呢亚马逊公布二季度财报。\n其中呢，AWS云业务呢净销销售是422.3亿美元。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 86,
+  "cue_end": 87,
+  "start": "00:04:31,590",
+  "end": "00:04:40,280"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC017",
+  "claim_id": "C017",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "超过分析师预计的405.7亿美元。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 88,
+  "cue_end": 88,
+  "start": "00:04:40,280",
+  "end": "00:04:44,000"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC018",
+  "claim_id": "C018",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "营收增速呢创18个季度的新高。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 89,
+  "cue_end": 89,
+  "start": "00:04:44,000",
+  "end": "00:04:46,800"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC019",
+  "claim_id": "C019",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "请大家注意啊。\n这个增速确实是高，但是也就是高了多少，5%。\n预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 90,
+  "cue_end": 95,
+  "start": "00:04:46,800",
+  "end": "00:05:05,650"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC020",
+  "claim_id": "C020",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这5%的。\n这个预期的增增速的收涨。\n让整个市场得到的信号是涨多少呢？\n是整个盘子一下子涨了百分之，就整个亚马逊的。\n一下子涨了5%。\n这合理吗？\n这合适吗？\n如果是这样的话，就相当于啥呢？\n相当于百一个季度的业务净增长。\n在一天内直接就给你兑现了。\n一天跟一个季度中间差多少，差了90倍，对不对？\n意思是啥呢？意思是这里边的泡沫。\n那我觉得哈。\n以现在这种增长的趋势来看的话。\n这里面的泡沫最少最少。\n是。\n1比90的这个稀释比例。\n而这个比例。\n跟现在市面上AI泡沫这个比例惊人的一致。\n不是说完全的问啊。\n数量级是差不多的。\n都是。\n，一就是百倍左右的这个这个泡沫。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 96,
+  "cue_end": 118,
+  "start": "00:05:05,770",
+  "end": "00:05:57,050"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC021",
+  "claim_id": "C021",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "如果按照这个思路去看的话，要维持这样的泡沫继续增长的话。\n那下个季度亚马逊的旅营业务增增增加要增加多少？\n要比预期额外的再增加最少最少，那不是20亿美元了。\n那可能的话就得是3040亿5亿美元。\n才能符合大家的这种增长的预期，才能引起引起一搏。\n疯狂的上涨。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 121,
+  "cue_end": 126,
+  "start": "00:06:00,390",
+  "end": "00:06:22,180"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC022",
+  "claim_id": "C022",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "美国自己内部。\n13个周取消了数据中心的优惠，税收优惠。\nYeah.\n呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。\n啊自己本土的这个。\n数据中心的优惠。\n取消了，这个其实很正常。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 131,
+  "cue_end": 137,
+  "start": "00:06:30,710",
+  "end": "00:06:45,320"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC023",
+  "claim_id": "C023",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 134,
+  "cue_end": 134,
+  "start": "00:06:36,050",
+  "end": "00:06:40,030"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC024",
+  "claim_id": "C024",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "因为疯狂的做这个数据中心。\n已经开始影影响到美国的民生了。\n而且。\n数据中心带来的这种疯狂的扩张。对带电力的这种需求。\n是吧这种忽高忽低的这种需求。\n对于整个维持整个电网的稳定。\n挑战越来越严峻了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 138,
+  "cue_end": 144,
+  "start": "00:06:45,370",
+  "end": "00:07:02,630"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC025",
+  "claim_id": "C025",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那这个挑战。\n额要应付这个挑战，就得额外多花钱，钱从何来呢？\n那就得从这些项目上面之前补贴他们的这个项目。\n开始入手，开始减少这个补贴。\n把这些钱拿来升级自己的电网，稳定自己的电网配配平是吧？所谓的这个。\n你要接入一些。\n储能进去。\n让个电网更加的稳定，波风波波谷啊区别差别差距不要那么的大，这都是要花钱的东西。\n而这些钱羊毛出在羊身上。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 145,
+  "cue_end": 153,
+  "start": "00:07:02,630",
+  "end": "00:07:29,440"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC026",
+  "claim_id": "C026",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个对于数据中心的税收优惠的取消。\n这只是刚开始。\n后边随着数据中心的这个需求，假设啊这个业务没有任何的变化，一直在增长的话。\n那对于收数据中心额外的收运营的费用。\n甚至呢让他交这种电网的平衡的这种费用。\n那是基基本上是板上钉钉指日可待的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 155,
+  "cue_end": 160,
+  "start": "00:07:30,030",
+  "end": "00:07:48,810"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC027",
+  "claim_id": "C027",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "围绕着数据中心这件事儿，如果你能证明你能挣钱。\n那所有人来收钱的。\n开始是吧。\n打着主意开始在这里面收过路费的。\n要在我的地盘听我的，然你。\n呃，这个这个挣了钱的话，要分我一杯羹呢，就开始陆续的找上你了。这些东西都会推高你数据中心的营收成本啊，运营的这个成本。而这个运营成本一升高的话，你数据中心的盈利就会下降。这是板上钉钉的事，这是第一个挑战。内部的挑战，第二个挑战呢是外部的deeps V4flash的性价比。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 161,
+  "cue_end": 166,
+  "start": "00:07:48,810",
+  "end": "00:08:19,830"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC028",
+  "claim_id": "C028",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "无敌了哈啊，运美国的研究机构评估呢运行成本呢可能呢是呃这个fiable的1%啊，这个事儿的话是个外部的挑战。因为这样的这个成本的差距，对应着你自己在估值上面的这个疯狂的泡沫，实际上。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 167,
+  "cue_end": 167,
+  "start": "00:08:19,830",
+  "end": "00:08:39,830"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC029",
+  "claim_id": "C029",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 168,
+  "cue_end": 168,
+  "start": "00:08:39,830",
+  "end": "00:08:59,830"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC030",
+  "claim_id": "C030",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。\n是啥呢？说的直白一点，就不是为他人做嫁衣嘛，你这边把这个所有的事情都准备的好好的，准备要收钱了。结果那边。\n横差一杠子，比你便宜。\n啊，这个算力提供的比你丰富。\n啊整个的这个上限比你提供的高，这还只是完全陷入在美国对于自己的AI的叙事描述中啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 168,
+  "cue_end": 172,
+  "start": "00:08:39,830",
+  "end": "00:09:18,640"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC031",
+  "claim_id": "C031",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "我看到现在很多很多的这个AI应用已经就是国内的这个应用啊。\n已经深入到一线的这个工程的应用里边了。\n很多的这种过去的。\n呃，经验的积累啊，包括一些现场的一些分析啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 175,
+  "cue_end": 178,
+  "start": "00:09:22,690",
+  "end": "00:09:36,950"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC032",
+  "claim_id": "C032",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "现在都用一些这个AI的模型在做了，而且是免费的啊，要不就是使用什么豆包啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 179,
+  "cue_end": 179,
+  "start": "00:09:36,950",
+  "end": "00:09:42,790"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC033",
+  "claim_id": "C033",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "或者呢稍微专业一点的公司，他会有自己为1个AI的模型。但是。\n使用的场景往往是非常非常单一的这个场景。\n他现在已经有在这种用了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 180,
+  "cue_end": 182,
+  "start": "00:09:42,790",
+  "end": "00:09:52,080"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC034",
+  "claim_id": "C034",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这种就是典型的toC端的应用，开始向B端延展嘛。\n这明明对的是个人用户。\n但是个人用户呢正在使用。\n这些。\n东西呢进行一些商业的交付，进行一些。\n这个。\n这不是。\n个人用户啊自己在。\n把它这个生产的把把这个AI带来的这个生产力的提升。\n应用他自己赚钱的手艺上。\n提升它的效率。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 183,
+  "cue_end": 193,
+  "start": "00:09:52,080",
+  "end": "00:10:14,320"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC035",
+  "claim_id": "C035",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个和场景其实就是美国梦想中AI。\n开始大发展大繁荣应该有的。\n这样的场景越来越多，培育一段时间以后，在这里边就会产生整个生产力的跃迁。\n对吧对AI越来越离不开嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 195,
+  "cue_end": 198,
+  "start": "00:10:15,130",
+  "end": "00:10:29,570"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC036",
+  "claim_id": "C036",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "就跟当年的移动支付是一样的。\n一开始的时候，移动支付并没有减少什么什么。\n交易的摩擦如何如何如何，但是。\n时间长了以后，移动支付的习惯深入人心了以后。\n很多很多的业态就会发生非常大的变化。\n最直接的影响就是。\n没人上上街带吹钱包了。\n是吧有个手机就改搞定了。\n这个事情的话，一方面推广了手机的普及。另外一方面呢。\n改变了消费的习惯。\n是不是？\n那移动支付是不是中美之间拉开了巨大的差异？\n现在的AI领域也有这样的趋势了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 199,
+  "cue_end": 211,
+  "start": "00:10:29,570",
+  "end": "00:11:03,060"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC037",
+  "claim_id": "C037",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "实际上对于美国来说的话，当然是很羡慕的啦。\n但是这个事儿他做的成嘛，他没有做成，而且。\n从现在网上的这个啊这个云。\n云服务商的这个收益的暴增。\n实际上就说明了这个问题。昨天还有小伙伴跟我讨论这个问题，说。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 213,
+  "cue_end": 217,
+  "start": "00:11:04,180",
+  "end": "00:11:20,340"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC038",
+  "claim_id": "C038",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 218,
+  "cue_end": 220,
+  "start": "00:11:20,340",
+  "end": "00:11:29,830"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC039",
+  "claim_id": "C039",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，关于这个AI投入投资回报率的这个关键问题呢。\n亚马逊的CEO表示呢。\n距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 222,
+  "cue_end": 224,
+  "start": "00:11:32,890",
+  "end": "00:11:46,930"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC040",
+  "claim_id": "C040",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 224,
+  "cue_end": 224,
+  "start": "00:11:39,220",
+  "end": "00:11:46,930"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC041",
+  "claim_id": "C041",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "，微软最新的财报也显示啊。\n呃，微软公司的这个云计算业务同比增收是增长了43%。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 226,
+  "cue_end": 227,
+  "start": "00:11:47,880",
+  "end": "00:11:54,610"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC042",
+  "claim_id": "C042",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "高于分析师预期的39.98%，这个跟刚才微软啊那个亚马逊的这个增幅也差不多，是吧？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 228,
+  "cue_end": 228,
+  "start": "00:11:54,610",
+  "end": "00:12:01,010"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC043",
+  "claim_id": "C043",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那40%到43%3%吧。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 229,
+  "cue_end": 229,
+  "start": "00:12:01,010",
+  "end": "00:12:03,490"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC044",
+  "claim_id": "C044",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 230,
+  "cue_end": 230,
+  "start": "00:12:03,490",
+  "end": "00:12:11,970"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC045",
+  "claim_id": "C045",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 230,
+  "cue_end": 230,
+  "start": "00:12:03,490",
+  "end": "00:12:11,970"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC046",
+  "claim_id": "C046",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "增加的额度的话，大概增加了。\n将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 231,
+  "cue_end": 232,
+  "start": "00:12:11,970",
+  "end": "00:12:21,940"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC047",
+  "claim_id": "C047",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 232,
+  "cue_end": 232,
+  "start": "00:12:14,440",
+  "end": "00:12:21,940"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC048",
+  "claim_id": "C048",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "也跟我之前的时候说是吧，要维持这样的这个节奏。\n亚马逊下一次的这个财报需要。\n交付的这个结果。\n从5%的增幅要增加到10%翻一翻。\n啊，这个差不多是相匹配的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 233,
+  "cue_end": 237,
+  "start": "00:12:21,940",
+  "end": "00:12:33,970"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC049",
+  "claim_id": "C049",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "然后与此同时呢，竞争对手google云的云收入呢。\n从啊飙升了82%。\n啊同样远超市场的预期。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 238,
+  "cue_end": 240,
+  "start": "00:12:33,970",
+  "end": "00:12:42,230"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC050",
+  "claim_id": "C050",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "所以呢。\n整体的市场呢展现出来的就是认为呢云计算呢会。\n非常非常的炙手可热。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 241,
+  "cue_end": 243,
+  "start": "00:12:42,230",
+  "end": "00:12:48,910"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC051",
+  "claim_id": "C051",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "第一个呢就是云服务这个事儿的话，并不是今天才开始热的。\n云服务热10年前就开始了。\n云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。\n啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。\n然后云营服务商的话就保证是吧我在这边的话，稳定的这给你交付这个。\n算利就行了，给你交付这种网络的资源就可以了，提供这种网络的访问就可以了。\n这个事儿已经运行了十几年了。\n这种替换已经是上一代。\n互联网革命的内容之一啦。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 245,
+  "cue_end": 263,
+  "start": "00:12:50,400",
+  "end": "00:13:54,460"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC052",
+  "claim_id": "C052",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 247,
+  "cue_end": 255,
+  "start": "00:12:57,140",
+  "end": "00:13:28,360"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC053",
+  "claim_id": "C053",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 256,
+  "cue_end": 258,
+  "start": "00:13:28,360",
+  "end": "00:13:37,990"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC054",
+  "claim_id": "C054",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "现在呢这事儿呢只是说。\n由于。\n算力的这个需求一下子骤然的上升了。\n算力需求的类型不一样了。\n过去的时候更多的说啊是你的网上的这个运算的资源，是吧？后租了多少的服务器。\n有多少个虚拟的CPU是吧？这对应的多少个算例。\n啊，租了多少的这个储存空间。\n然后匹配的是吧，你接入到这个网络里面有多少的这个带宽响应的带宽。\n支持多多少人同时的在线，啊这些服务的内容。\n成为了定价的依据，变成了一个云服务的包，每个月每个月给你服务。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 264,
+  "cue_end": 273,
+  "start": "00:13:54,570",
+  "end": "00:14:28,710"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC055",
+  "claim_id": "C055",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "说换句话说是什么呢？就是。\n现在刚才提到的微软里边有未交付的订单，金额6780亿美元里边。\n有多少是过去的这种传统业务积压下来的，本来就应该交付的东西呢？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 284,
+  "cue_end": 286,
+  "start": "00:14:54,640",
+  "end": "00:15:10,180"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC056",
+  "claim_id": "C056",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "对云服务本身这个特点它是线上的服务嘛。\n他自己本身的话就有业务的波动嘛。\n他储备一些未交付的订单。\n慢慢的做延期。\n这是个很正常的规避自己商商业风险的手段。\n他额外的未交付的这个订单呢，它永远有一部分是未交付的。\n但这个未交付的，实际上就是为了应对。\n由于这种需求的涨跌。\n带来的对他这个业务的平平顺性的这个冲击的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 287,
+  "cue_end": 295,
+  "start": "00:15:10,180",
+  "end": "00:15:34,990"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC057",
+  "claim_id": "C057",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "根据实际的需求，比方说增加了三份需求。\n他这边追加两份的硬件的投入。\n那总是要留一份出来做为做啥呢？\n万一这个行情变了，这个市场的这个风向转头了。\n这边的需求萎缩了。\n他不至于一下子投入的太多是吧？导致自己的硬件的投入亏本。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 297,
+  "cue_end": 302,
+  "start": "00:15:35,990",
+  "end": "00:15:54,030"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC058",
+  "claim_id": "C058",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "因为硬件本身拿到手里边，它就会有折旧。你只要开始使用，它就会有折旧。\n对吧。\n你的储存的这个东西的话。\n呃，用多长时间它就坏了。\n是吧你CPU虽然说理论上来它的个寿命很长，但是。\n在那样恶劣的机房的环境来说的话，时间长了它也会坏。它。\n定期的他都会淘汰。\n这些折旧淘汰了以后，都会算到云云服务的成本里边去。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 303,
+  "cue_end": 310,
+  "start": "00:15:54,030",
+  "end": "00:16:16,570"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC059",
+  "claim_id": "C059",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "而现在呢给你讲的这波反弹呢是把。\n这个成熟商业模型里边沉默的那个商业逻辑的那部分拿出来跟你讲。\n这是未来市场发育非常强劲的一个表现。\n那典型的是把固定投入。\n当做了未来的。\n这个预期收入了嘛。\n啊，你本来这个东西应该算成成本的。\n啊，本来是为了应付整个的业务波动。\n对一个额外的冗余的准备。\n结果呢你把这部分算成了未来可期，算成了这个市场了。\n这个对于这个服务的需求有这么的旺盛。\n这个本身就是一种市场的误导。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 313,
+  "cue_end": 324,
+  "start": "00:16:21,190",
+  "end": "00:16:55,520"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC060",
+  "claim_id": "C060",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "了解云服务的看到了这些东西。第一个反应就是。\n换汤不换药，这个故事讲了它额外带来的增量并没有多少，就是我开始给你算的。\n5%10%撑死了，撑死了到20%了不起了。\n但是现在市场上更多的不明就理的对这个事情不是很理解的消费者。\n或者投资者。\n狂热的跟风的。\n或者不愿意相信真相的呢。\n把过去存单的那些东西完全当做了增量。\n那这个增量一上来的话，他对于未来的预期就会非常非常的高。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 329,
+  "cue_end": 337,
+  "start": "00:17:08,100",
+  "end": "00:17:38,550"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC061",
+  "claim_id": "C061",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那这个增量一上来的话，他对于未来的预期就会非常非常的高。\n那既有了这么高的预期，自然而然的觉得现在的估值非常非常的低，那值得大局的商入。\n这是杀猪盘的典型玩法。\n利用大家的信息不对称。\n利用大家的知识结构的差异。\n对一件事情的看法产生了剧烈的波动。\n那利用这种价格的分歧。\n来收割那些老实人，那些天真的。\n对于这个事情不是很了解的，贸然的那些冒失冒失鬼的钱。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 337,
+  "cue_end": 345,
+  "start": "00:17:34,690",
+  "end": "00:18:03,160"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC062",
+  "claim_id": "C062",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "救命的稻草给你个啥，你就愿意信啥，为啥呢？前期的损失太多了，需要这一轮的给它补回来。\n就像我前几天跟大家聊，这轮的反弹非常危险。\n那也拦不住，有人觉得这周反弹是个机会啊，为啥呢？\n那前期那波雪崩埋进去了。\n那我要需要找一个反弹，赶紧的把这个。\n这个损失给他补回来。\n但是恰恰呢这是让你深入深渊。\n更深的调入深渊的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 348,
+  "cue_end": 355,
+  "start": "00:18:08,950",
+  "end": "00:18:34,740"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC063",
+  "claim_id": "C063",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "上一轮给你讲，了你跑你跑不出来。\n那就意味着啥呢？意味着你没有逃生的天赋嘛，对不对？\n那这一轮呢，你看到反弹杀进去呢，你就相信这一轮你就有逃生的天赋了，你就可以。\n在它下跌之前的话，及时的跑出来了嘛。\n不会的吧。\n而且最这件事最妙的是那什么呢？\n就是你自己会患得患失。\n对吧事后复反了以后，觉得自己跑早了。\n本来呢这个机会其实呢就是你自己的能力。但你觉得呢这次盈利不够多，跑早了，那下次的话就会肯定会被埋进去，对吧？这次呢如果恰时恰逢机会呢按示的跑了，那下次的话这种侥幸心理会更加的膨胀，是吧？我是已经股神复身了，我可以准确的预预测哪个是拐点，那下次我就按照我的。\n想法来，但现实的话会跟你的想法有相左。那你反复的几次就被坑进去了。或者呢这次的话跑晚了，再次被坑了，那不是被陷入到这个坑里面越陷越深了吗？就是说无论在这个选择里面，你做的是对还是不对，无论这个对，咱们就不说了。无论这个不对，到底是早了还是晚了，其实。\n都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 357,
+  "cue_end": 367,
+  "start": "00:18:37,300",
+  "end": "00:20:00,150"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC064",
+  "claim_id": "C064",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？\n我前面已经跟他说了是吧，从外部的因素，内部的因素。\n这客观的因素。\n也支撑不了多久了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 367,
+  "cue_end": 370,
+  "start": "00:19:40,210",
+  "end": "00:20:05,110"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC065",
+  "claim_id": "C065",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，云服务商最终的考虑，就像我前面说的是吧，他考虑的是。\n我这些硬件的服务折旧。\n跟我这个硬件服务周期里面的回报。\n互相之间的匹配度。\n如果说呢我这个折旧的速度啊。\n比我。\n这个提供这个云服务得到的这个收益的话。\n要少。\n那我这个生意就是赚钱的对吧？反之的话，如果我这个硬件的折旧是比那个更多的。\n那我就是赔钱的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 374,
+  "cue_end": 383,
+  "start": "00:20:12,010",
+  "end": "00:20:36,470"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC066",
+  "claim_id": "C066",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "第一个呢。\n它涉及到了这个AI算力本身产生这个算力的基础，就是。\n英伟达生产的那些铲子。\n它的生产成本这是第一个部分。\n而这个生产成本呢，它未来的话会面临着两重的折旧。\n一个是更新迭代的折旧，一个呢是自然损坏的折旧，对吧？自然损坏带来的这些。\n这个比例的这个时效吧，这就。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 388,
+  "cue_end": 394,
+  "start": "00:20:47,460",
+  "end": "00:21:08,870"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC067",
+  "claim_id": "C067",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这两个折旧呢。\n现在目前来看的话。\n主要是来源于这个更新迭代带来的折旧压力大。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 395,
+  "cue_end": 397,
+  "start": "00:21:08,870",
+  "end": "00:21:17,800"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC068",
+  "claim_id": "C068",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "但是更新迭代折旧的话，有一些技术手段可以进行一个规避。\n比如说啥呢？\n比如说我把这个折旧的评估周期拉长一点。\n拉长一点的话，就可以把现在已经被淘汰的边缘那东西。\nOh.\n不把它计算到这个折旧的这个成本里边去。\n对吧。\n这样的算法有道理，为啥呢？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 398,
+  "cue_end": 405,
+  "start": "00:21:17,800",
+  "end": "00:21:35,450"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC069",
+  "claim_id": "C069",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "因为结合着后边的另外一个折旧，就是他运作的过程中，他有些卡坏掉了，他要补新的卡。\n这样的折旧。\n用这样的这种方式拉长整个的评估周期的话。\n过去那些明显的这个价值啊，折损了很多很多，落后了几代的那些卡。\n他们本来的话在市场上按算减值的话，会减值很多的。\n但是正好呢。\n这些卡可以来补充。\n新增这算例里边那些损坏。\n你让他顶顶顶大梁，他是顶不住的。但是。\n你把这些淘汰的损坏进行一个补充是可以的。\n这个补充的话就会让整个的这个折旧模型变得非常非常的漂亮。\n只要你拉长这个折旧的周期。\n就可以无限的内部进行一个循环。\n这样的话呢。\n整个的折旧成本。\n从财报上看的话会非常的亮眼。但实际上隐患是啥呢？两个隐患对吧？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 406,
+  "cue_end": 421,
+  "start": "00:21:35,450",
+  "end": "00:22:24,500"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC070",
+  "claim_id": "C070",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "更新迭代的速度，它持续的进行进展的话，它总有你这个周期不可能有无限的拉长，从三年变5年变5年变7年。\n你不可能在7年里面变70年吧。\n你总有一天那个时间它延长到一定程度，你就。\n这个卡就彻底逃汰，就好像。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 423,
+  "cue_end": 426,
+  "start": "00:22:25,390",
+  "end": "00:22:40,240"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC071",
+  "claim_id": "C071",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 430,
+  "cue_end": 437,
+  "start": "00:22:48,460",
+  "end": "00:23:13,400"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC072",
+  "claim_id": "C072",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。\n到那个时候，你就必须得。\n进行他最终的整个的这个折旧周期的一个定型了。\n一定下来。\n那前面那些损失的东西就要在你的财报上进行反映了。\n对吧他就已经彻底的没有价值了嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 438,
+  "cue_end": 446,
+  "start": "00:23:13,450",
+  "end": "00:23:38,040"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC073",
+  "claim_id": "C073",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "而这个没有价值会引起的就是两个影响了。\n第一个的话。\n这一部分没有价值东西进行一个。\n去出京了。\n算完了。\n那你接下来的话，你这种算力在运行过程中啊出现这种算力折损。\n进行补充的话。\n你得额外的定价了。\n这个定价对你的成本来说是一个巨大的压力。因为。\n众所周知的原因是吧？\n这数据中心的这个算卡算利卡其实淘汰的因为他那个工作环境很恶劣嘛。\n而且工作负荷很大嘛。\n是吧这个淘汰起来的话还是。\n挺吓人的，过去的时候可以用一些旧的。\n进行一个。\n减直的一个平台，现在没有旧的了，全是新的。\n那按照最新的这个价格来的话，那可能这一下子。\n在资本项的这个支出啊，这个成本折旧里边会。\n突然之间某一个时间点上，它上一个台阶亮面接这边上一个台阶。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 447,
+  "cue_end": 465,
+  "start": "00:23:38,040",
+  "end": "00:24:26,200"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC074",
+  "claim_id": "C074",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "而另一方面呢，你肉眼可见的这个折旧。\n很快就会带来迎来一个量变一些质变的上台阶。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 471,
+  "cue_end": 472,
+  "start": "00:24:44,750",
+  "end": "00:24:51,470"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC075",
+  "claim_id": "C075",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个台阶的翻的话可能是上升10倍。\n折旧的这个费嘛可能是上升10倍。\n或者上升几倍。\n这样的东西的话，对于你整个的盈利预期是非常大的打击。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 473,
+  "cue_end": 476,
+  "start": "00:24:51,470",
+  "end": "00:25:02,160"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC076",
+  "claim_id": "C076",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这些事儿。\n运行者数据中心的。\n接触过云服务的。\n稍微对云服务这样的服务类型有过一个商业测算的，都是门清的。\n所有人都看在眼里了，但是呢谁不清楚呢？\n刚刚初来乍到进入这个市场。\n对着AI算力的出售出租，有着不切实际幻想的投资者，他不清楚。\n对吧。\n这是你运行那段时间以后就要面对的问题。面对这些问题，你就得算这个细账。\n这就是所谓的。\n啊，存量行业必须得精打细算。\n那些增量行业呢，那根本就不关心这事儿。\n他只要追着风头跑就完了。\n这样的认知差距就会导致。\n大家对这个事情未来的扩扩展空间有了最大的这种分歧。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 477,
+  "cue_end": 491,
+  "start": "00:25:02,170",
+  "end": "00:25:44,340"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC077",
+  "claim_id": "C077",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "而这种分歧本身。\n就是制造不稳定的源头。\n之前那波泡沫是没有任何不稳定的因素，顺风顺水的吹到这么的高大的高度。\n现在市场上有了担忧。\n有了裂痕。\n有了共识呃共识的破裂。\n在这种对冲的情况下，它市场怎么可能脱离地形引力继续向上涨呢？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 492,
+  "cue_end": 498,
+  "start": "00:25:44,340",
+  "end": "00:26:05,410"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC078",
+  "claim_id": "C078",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "如果没有继续向上涨的话，市场没有赚钱效应，它就没有这个吸引力了。\n那失去吸引力的市场，自然而然呢，它就会自己踩踏自己产生向心的弹索。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 499,
+  "cue_end": 500,
+  "start": "00:26:05,410",
+  "end": "00:26:15,880"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC079",
+  "claim_id": "C079",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这轮的反弹，它注定只是一个花架子。\n它没有真正反弹的核心支撑，它没有业务上的变化。\n没有应应用上的这种质的飞跃。\n也没有需求上面的一种长期的需求的不满足。\n这种长期的不满足。\n实际上是个伪需求啊，所以。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 503,
+  "cue_end": 508,
+  "start": "00:26:18,420",
+  "end": "00:26:37,220"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC080",
+  "claim_id": "C080",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这都是底层的逻辑啊，从来没跟你讲让，从数据上分析如何如何得到什么结论。\n不看这个。\n看的是底层的逻辑，你凭什么继续的抛弃地金引力往上涨？\n抵抗地心引力的理由是啥？\n你得拿着出来。\n目前看到了他给的理由支撑不了这个。\n就他的推进能力不足够。\n那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 513,
+  "cue_end": 520,
+  "start": "00:26:50,360",
+  "end": "00:27:13,200"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC081",
+  "claim_id": "C081",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 520,
+  "cue_end": 520,
+  "start": "00:27:09,470",
+  "end": "00:27:13,200"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC082",
+  "claim_id": "C082",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "就好像。\n美国跟日本联合的救市汇率救市。\n我当时星期一的节目里面是不是说了？\n我说最可怕的是啥呢？就是。\n啊，这个画寒的挺漂亮的。\n结果呢。\n一上去就是呢就是。\n啊，这个动作打的这个虎虎生风。\n嗯。\n效果呢稀松平常。\n啊吧，结果救是了，救了一下。\n钱花了不少，结果市场根本就不买账。\n到那个时候的话就成了这等着蜜月期一过。\n两边一起就是不是有个蜜月期嘛，是吧等着蜜月期一过。\n开始坐下来算账的时候，你多我少的时候就开始意见分歧了。\n那意见分歧了，就互相指责对方菜嘛，都是你这个菜。\n是，菜鸡拖累我本来我的话，美国英雄英明神武本来救救你日本的话，勾勾手指就给你救起来了。\n结果兄你日本太不中用了啊，在这是坏国的好事儿。\n等着这个意见分歧了以后。\n那美国人啊落井下石，埋你埋的更快。\n到时候。\n前面怎么救的，后面就怎么埋你。\n这个迹象已经开始了嘛，是吧那。\n接下来这事儿不就乐乐呵了吗？\n眼前的这波反弹也是一样的嘛。\n底层逻辑是相通的嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 521,
+  "cue_end": 546,
+  "start": "00:27:13,200",
+  "end": "00:28:20,420"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC083",
+  "claim_id": "C083",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，另外一个呢咱们聊聊。\n华为的这个公关啊，鸿蒙之行的这个公关啊。\n那公关在我看来的话，是一个巨大的灾难。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 563,
+  "cue_end": 565,
+  "start": "00:28:53,890",
+  "end": "00:29:02,650"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC084",
+  "claim_id": "C084",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "当下的最关键的主要矛盾是啥？\n在华为，在鸿蒙之行眼前，最大最大的主要矛盾是啥？\n是销量的下滑。\n那。\n鸿蒙之行的销量为什么下滑？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 571,
+  "cue_end": 575,
+  "start": "00:29:14,600",
+  "end": "00:29:27,650"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC085",
+  "claim_id": "C085",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "因为。\n是自己的粉丝消费不动了，那喜欢华为的，喜欢认对华为有好感的，对红梦之星有好感的。\n他们已经消费过一批了，那消费的量也不少，几十万台车是吧？\n这已经消费不动了。\n现在急需要破圈。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 576,
+  "cue_end": 580,
+  "start": "00:29:27,680",
+  "end": "00:29:43,910"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC086",
+  "claim_id": "C086",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "现在急需要破圈。\n而破圈需要的是让路人路转粉。\n啊，而不是路转黑。\n而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。\n对吧。\n那你现在呢主要的是要打开销量，这是你的主要矛盾吧。\n那你现在是不是急需要跟自己的路人？\n啊，把这个路人员从过去的不好的路人员慢慢转向到好的路人员。\n在这个过程中，你是不是应该放低自己的姿态？\n然后呢，跟自己的那些。\n你不用强化那些真正喜欢你的人，因为。\n现在销量已经告诉你了，这些真正喜欢你的人，他们的消费能力是在下降的。因为前面该买的已经买了嘛。\n他们的潜力已经挖掘光了嘛。\n您在急需要拓展第二市场、第三市场嘛。\n在这个压力之下的话，是不是急需的把自己的品牌形象进行一个柔和的转变，是当务之急呀。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 580,
+  "cue_end": 608,
+  "start": "00:29:41,770",
+  "end": "00:31:03,310"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC087",
+  "claim_id": "C087",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 583,
+  "cue_end": 597,
+  "start": "00:29:49,790",
+  "end": "00:30:24,930"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC088",
+  "claim_id": "C088",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那现在这个华为的这个。\n呃，这个鸿梦之行的这个回复。\n那么生硬的看起来最后结尾的时候说我们要保持谦卑如何如何。但是。\n它是一个从法律的角度。\n从数据的角度进行的回应。\n他就不是一个公关的。\n意思是啥呢？就是我没错。\n客观的事实是这样的，我没错。\n再别说他这个文稿里面本身就有很多很多偷换概念。\n对吧。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 609,
+  "cue_end": 618,
+  "start": "00:31:03,770",
+  "end": "00:31:28,530"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC089",
+  "claim_id": "C089",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "呃，首先第一个是吧。\n他拿这个数据的对比，然后我只投诉了170多个。\n那实际上呢有55.5点几万条。\n这个数据对比对吗？不对。\n因为这个事件发酵口碑发酵，它是一个爆炸式增长的过程。\n你那个投诉170几条，是在这个事件的初期。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 619,
+  "cue_end": 624,
+  "start": "00:31:28,530",
+  "end": "00:31:46,990"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC090",
+  "claim_id": "C090",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那实际上呢有55.5点几万条。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 621,
+  "cue_end": 621,
+  "start": "00:31:33,870",
+  "end": "00:31:36,780"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC091",
+  "claim_id": "C091",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "你那个投诉170几条，是在这个事件的初期。\n总共关于这个事件相关的这个事儿都没有多少。\n可能就是几百条上千条。\n对吧。\n是因为你那100多条，那在整个的比例里边呢，可能就占很高的比例了。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 624,
+  "cue_end": 628,
+  "start": "00:31:43,240",
+  "end": "00:31:57,630"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC092",
+  "claim_id": "C092",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 635,
+  "cue_end": 639,
+  "start": "00:32:14,490",
+  "end": "00:32:29,950"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC093",
+  "claim_id": "C093",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "是因为你的这个粗暴的脂法引引发了口碑的发酵，引发了大家的反弹。\n一下子爆炸性性的增长。\n一增长了后候，你一看。\n这个情况你已经失控了，那就干干脆的话就别别在这个问题上再继续搞了。因为。\n太多的这个投诉，你投诉不过来了。\n对吧。\n最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？\n在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 629,
+  "cue_end": 642,
+  "start": "00:31:57,630",
+  "end": "00:32:44,160"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC094",
+  "claim_id": "C094",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "再次提醒大家，我知道华嗯评论区里面有很多华为的这个拥趸，喜欢华为的。\n我跟你们的立场没有区别。\n但是我希望呢大家放下你自己粉丝的身份。\n用一个路人的视角看待你喜欢的品牌。\n你们的行为到底是在帮他招黑，还是帮他扩展自己的路人员？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 649,
+  "cue_end": 653,
+  "start": "00:33:00,740",
+  "end": "00:33:18,830"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC095",
+  "claim_id": "C095",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "不排除这里面确确实实有很多米粉。\n但是你能说所有讨厌你的都是米粉吗？\n或者说呢。\n哪怕讨厌你的都是米粉。\n那这米粉和米粉之间亦有不同，也有程度的差别。\n难道你就要一竿子打死，把他们全部都排入你的黑名单，跟他们老死不相往来？\n不把这一部分来争取转化一部分嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 662,
+  "cue_end": 668,
+  "start": "00:33:37,440",
+  "end": "00:33:56,880"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC096",
+  "claim_id": "C096",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。\n把自己的敌人搞得少少的。\n搞得少少的恰恰是主要矛盾。\n这就是矛盾论的精髓。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 687,
+  "cue_end": 711,
+  "start": "00:34:48,720",
+  "end": "00:35:46,110"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC097",
+  "claim_id": "C097",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这句话背景的是啥？当年的时候，共产党的势力。\n在国内的话是非常非常小的。\n这属于是赤匪。\n属于是流流扣那个级别的。\n结果呢。\n整个环境环境敌对你。\n妨碍你去拉拢那些本来是你的敌人，成为你的朋友吗？\n洞房碍呀。\n要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 679,
+  "cue_end": 708,
+  "start": "00:34:29,680",
+  "end": "00:35:39,880"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC098",
+  "claim_id": "C098",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "现在。\n那些。\n，这华为的这个粉丝是吧？\n在干的事儿是干嘛的？\n再竖一个巨大的靶字。\n把所有人这个往这个靶子里装，然后把这些所有人全部变成自己的敌对。\n这叫把自己的朋友搞得少少的，把敌人搞得多多的。\n这是一个要破圈的品牌，应该做的事儿吗？\n显然不是嘛，对不对？",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 714,
+  "cue_end": 722,
+  "start": "00:35:49,680",
+  "end": "00:36:10,630"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC099",
+  "claim_id": "C099",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个公关的稿本身的出发点就是错的。\n你不是现在需要博取同情，说自己没错。\n认个错咋了？\n你确确实实之前的时候堵嘴这个事儿的话，已经引发了大家的反弹了嘛。\n这件事情能够传播的这么的广。\n最后堵都堵不过来，那客观程度上来说就是路人对你的缘，路人缘已经败坏了嘛。\n这件事情你先得认识清楚了后有这个勇气。\n认清现实。\n有这么大的胃口能够吞下这个。\n苍蝇。\n你才能谈其他的后边怎么改进吧。\n如果视而不见，对这样的一个矛盾视而不见，坚坚决的否认的话。\n那越否认陷得越深嘛。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 724,
+  "cue_end": 736,
+  "start": "00:36:11,340",
+  "end": "00:36:52,360"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC100",
+  "claim_id": "C100",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "我昨天节目是不是说了，对于于成东来说的话。\n其实呢很多的建议我觉得挺中肯。从公关的角度建议。\n他最好的方法呢是自嘲，对吧？上台了，拿个竹治料这转一转转啊转转一转，然后自嘲一下，然后说一下哎，这个是下不为例。啊，很多事儿的话，我也是无心的。然后我这个形象讲话那个有口音啊，说话有口必。哎呀，是个人都有这样的小毛病，大家都谅解一谅解，没必要把这个上纲上线，把这个东西告。\n人身攻击自我的解嘲一下就完事儿了，对吧？这个事情无论如何，他对于降低这个事情的冲击都是有好处的。但是我昨天节目也说了，他自己被架那里面，他自己背后有团队，他不能够接受失败，他甚至不能够让这个失败的可能性增加一点点。这事儿给他架着，他不能够做这样的。\n柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 738,
+  "cue_end": 743,
+  "start": "00:36:52,970",
+  "end": "00:38:19,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC101",
+  "claim_id": "C101",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 742,
+  "cue_end": 743,
+  "start": "00:37:39,860",
+  "end": "00:38:19,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC102",
+  "claim_id": "C102",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个事儿是很公平的。所以我在昨天节目结尾的时候，推荐大家看求是7月16号的那篇文章，我等会儿把这篇文章贴到评论区里啊，贴到那个简介里面，大家有有兴趣看一下，我党是怎么样历久弥新。在一些关键的环节里面焕发重生的怎么抓住这些主要。\n矛盾把自己的敌人搞得少少的，把自己的朋友搞得多多的对吧？有了这么一个目标，有了这么的一个现场的示范，还学不会，学不会，你起码得得学会看懂吧。还看不懂。那请问你喜欢这个品牌，最后让你的智商降低，这对你来说是好事还是坏事。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 744,
+  "cue_end": 745,
+  "start": "00:38:19,860",
+  "end": "00:38:59,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC103",
+  "claim_id": "C103",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "或者咱们换个话说，咱们不对华为这个品牌有任何的这个攻击性啊，咱们还是中立的说的话，我做这个节目做这么长时间，我这么真诚的面对大家给大们家讲这件事儿，我早就说过了，聊华为这个事儿对我来说是没有任何的好处的。为啥呢？因为我是在会员频道聊的。所有的听众的话，都是我。\n会员已经是我的会员了。在这个里边的话，我损失的每一个会员对我来说是有直接经济收入的损失的对吧？但是我还是要跟大家聊这个话题，还是顶住各种各样的影响。要聊这个话题。为啥呢？因为我觉得我这个频道唯一的价值就是能够真诚的带大家，对吧很多事儿的话，我是怎么想的，我就怎么跟大家说。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 746,
+  "cue_end": 747,
+  "start": "00:38:59,860",
+  "end": "00:39:39,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC104",
+  "claim_id": "C104",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那不去讨论这个事情的对错啊，就是你到底判断的准还是不准呢，这些都是其次的。咱们分析的是整个的逻辑，对吧？整个的事件的发展，你能够提前的预知吗？特别是遇到特朗普这样的2250，你能够提前的知道他怎么想的嘛，或者说他自己的私心有多重，你就能够提前知道吗？你知道他的下限有。\n多低嘛，你无法知道的。但是他做出任何的判断，他也离不开整个世件的背景啊，他也离不开这个世界的基基调啊，他能够独立于呃独立于这个世界之外，想干嘛就干嘛嘛，他也有他自己的限制啊，看清楚这些限制，知道他的边界，根据这些边界来分析事件的走向，往往是。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 748,
+  "cue_end": 749,
+  "start": "00:39:39,860",
+  "end": "00:40:19,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC105",
+  "claim_id": "C105",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "最靠谱的他只有可能比这个情况处理的更差，他不可能比这个情况处理的更好。这叫做保下线。想要保下线就得眼睛看的更加的真实。那所有的内容的话就跟大家真实的交代。那我觉得这是我这个频道唯一的价值了。其他的事我也不是能掐会算的，我也没办法给你钱算的很很。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 750,
+  "cue_end": 750,
+  "start": "00:40:19,860",
+  "end": "00:40:39,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC106",
+  "claim_id": "C106",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "很明白，对吧？我每天每天接收的数据也有限啊，接收的信息也有限，做不到那种全职全能提前预知未来做不到的。你对我有这样的想法就是错误的。但是我不认为我给大家提供的这些内容是没有价值的，恰恰相反，我认为我提供的价值呃，提供的内容是非常非常的有价值的，是超值的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 751,
+  "cue_end": 751,
+  "start": "00:40:39,860",
+  "end": "00:40:59,860"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC107",
+  "claim_id": "C107",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "所以我有这个信心嘛，是吧？你愿意订阅就订阅。看我评论区里边经常道德绑架我是吧？你这个节目质量越来越差了，我不想要取关了，我只能说能力有限，该取关就取关，为啥呢？因为确确实实可能你认为我提供的东西没有价值，有没有可能有没有一种可能，就是我自己提供的，我认。\n没的很有价值的东西。在你看来的话，没有价值，对吧？这就是两种可能性嘛。一种的话，你缺乏识识别识别有价值信息的能力，对吧？那这种情况下，你跟他说再多没用，对吧？另外一个的话就是你的水平比我高太多，对吧？那那确确实实的那你继续听我讲的话，也没有什么太大的意义。\n啊这两种可能性自选其一就可以了。，这就叫什么呢？这就叫把自己的朋友搞得多多的，把敌人搞得少少的，争取咱们之间的最大公约数啊，争取树立一个主要矛盾，来转化自己的对手，把一个对立面转化成自己的同行者。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 752,
+  "cue_end": 754,
+  "start": "00:41:00,070",
+  "end": "00:42:00,000"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC108",
+  "claim_id": "C108",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这个话不是我今天说的，半年前就说了，他跑偏了。\n对吧。\n但是我现在很悲观，我认为他没办法从自己的错误中改正出来，为啥呢？\n他现在都没认为他自己错了。\n就好像恰如现在的美国一样。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 761,
+  "cue_end": 765,
+  "start": "00:42:17,890",
+  "end": "00:42:32,450"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC109",
+  "claim_id": "C014",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。\n这才是问题的根源。\n这才是矛盾的根源。\n那现在这波反弹。\n解决这个矛盾吧，没有啊。",
+  "occurrence_type": "restatement",
+  "information_gain": "low",
+  "cue_start": 79,
+  "cue_end": 84,
+  "start": "00:04:12,640",
+  "end": "00:04:26,790"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC110",
+  "claim_id": "C044",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "现在刚才提到的微软里边有未交付的订单，金额6780亿美元里边。\n有多少是过去的这种传统业务积压下来的，本来就应该交付的东西呢？",
+  "occurrence_type": "elaboration",
+  "information_gain": "medium",
+  "cue_start": 285,
+  "cue_end": 286,
+  "start": "00:14:56,670",
+  "end": "00:15:10,180"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC111",
+  "claim_id": "C051",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这是过去的云服务的这套逻辑。这套逻辑已经玩了十几年了。\n说的难听一点，就说的保守一点时间年，实际上呢20年都有了。\n对吧。\n这不是什么新鲜的东西。",
+  "occurrence_type": "restatement",
+  "information_gain": "low",
+  "cue_start": 280,
+  "cue_end": 283,
+  "start": "00:14:44,160",
+  "end": "00:14:54,470"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC112",
+  "claim_id": "C064",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "这轮的反弹，它注定只是一个花架子。\n它没有真正反弹的核心支撑，它没有业务上的变化。\n没有应应用上的这种质的飞跃。\n也没有需求上面的一种长期的需求的不满足。\n这种长期的不满足。\n实际上是个伪需求啊，所以。\n这个关于数据中心的这个神话，关于这个云服务的这个神话，这一轮带来的反弹，为什么说它只是一个。\n小小的反团不能够成为。\n一个返攻，一轮新的行情开启的一个符号。\n原因就在这儿。",
+  "occurrence_type": "summary",
+  "information_gain": "low",
+  "cue_start": 503,
+  "cue_end": 512,
+  "start": "00:26:18,420",
+  "end": "00:26:50,330"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC113",
+  "claim_id": "C064",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "关于这轮我已经解释的够清楚了啊。\n无论是从。\n底层的逻辑。\n还是从基本面。\n还是从题材本身的特质。\n你都没有办法支撑起来这轮像样的反弹谈到一定的高度。\n产生不了赚钱的效应。\n整个的这个飞轮就转不起来，转不起来，它就得打回原形。\n这是最终的结论是吧，这是。\n一个看似。\n呃，强劲的反弹，实际上呢是诱度的。\n没有办法。\n改变整个的行业趋势。\n也没有办法改变这个泡沫破裂的节奏，好吧。",
+  "occurrence_type": "summary",
+  "information_gain": "low",
+  "cue_start": 549,
+  "cue_end": 562,
+  "start": "00:28:21,570",
+  "end": "00:28:53,750"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC114",
+  "claim_id": "C096",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "啊这两种可能性自选其一就可以了。，这就叫什么呢？这就叫把自己的朋友搞得多多的，把敌人搞得少少的，争取咱们之间的最大公约数啊，争取树立一个主要矛盾，来转化自己的对手，把一个对立面转化成自己的同行者。\n在生活中要时时刻刻的活学活用这个东西。\n他能够让你的生活有所注意。\n这都是现学现卖的事儿。",
+  "occurrence_type": "elaboration",
+  "information_gain": "medium",
+  "cue_start": 754,
+  "cue_end": 757,
+  "start": "00:41:40,070",
+  "end": "00:42:08,370"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC115",
+  "claim_id": "C086",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "那你现在呢主要的是要打开销量，这是你的主要矛盾吧。\n那你现在是不是急需要跟自己的路人？\n啊，把这个路人员从过去的不好的路人员慢慢转向到好的路人员。\n在这个过程中，你是不是应该放低自己的姿态？\n然后呢，跟自己的那些。\n你不用强化那些真正喜欢你的人，因为。\n现在销量已经告诉你了，这些真正喜欢你的人，他们的消费能力是在下降的。因为前面该买的已经买了嘛。\n他们的潜力已经挖掘光了嘛。\n您在急需要拓展第二市场、第三市场嘛。\n在这个压力之下的话，是不是急需的把自己的品牌形象进行一个柔和的转变，是当务之急呀。",
+  "occurrence_type": "restatement",
+  "information_gain": "low",
+  "cue_start": 599,
+  "cue_end": 608,
+  "start": "00:30:26,140",
+  "end": "00:31:03,310"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC116",
+  "claim_id": "C109",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 92,
+  "cue_end": 95,
+  "start": "00:04:53,680",
+  "end": "00:05:05,650"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC117",
+  "claim_id": "C110",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "手机虽然一年一换，一年一年之间的比较差别不大。\n但是今年的手机跟10年前的手机比的话，差别还是挺大的。\n是吧。\n2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。\n我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 427,
+  "cue_end": 441,
+  "start": "00:22:40,240",
+  "end": "00:23:26,040"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC118",
+  "claim_id": "C111",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。\n对吧觉得你这个道歉不诚恳嘛。\n你发这个东西其实想说的是啥呢？是想说我们认识到错了，这个事能不能冷处理嘛？\n是不是您发这个东西是不是就起到这个目标嘛？\n但实际上呢。\n你发这个东西本身的话，火上浇油。\n让不爽你的人更不爽了。我说的啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 640,
+  "cue_end": 648,
+  "start": "00:32:30,210",
+  "end": "00:33:00,450"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC119",
+  "claim_id": "C112",
+  "source_id": "S03",
+  "source_version_ref": "V-S03",
+  "origin_family_ids": [
+    "F9527"
+  ],
+  "surface_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。\n为啥先把这个分析说说清楚啊。",
+  "occurrence_type": "first",
+  "information_gain": "high",
+  "cue_start": 218,
+  "cue_end": 221,
+  "start": "00:11:20,340",
+  "end": "00:11:31,890"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC120",
+  "claim_id": "X01",
+  "source_id": "S10",
+  "source_version_ref": "V-S10",
+  "source_segment_ref": "SS-X01",
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "surface_text": null,
+  "paraphrase": "微软商业RPO是未履行合同的未来收入义务，不是已经投入的硬件资产成本。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC121",
+  "claim_id": "X02",
+  "source_id": "S10",
+  "source_version_ref": "V-S10",
+  "source_segment_ref": "SS-X02",
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "surface_text": null,
+  "paraphrase": "微软商业RPO FY26Q3为6270亿美元、Q4为6780亿美元。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC122",
+  "claim_id": "X03",
+  "source_id": "S11",
+  "source_version_ref": "V-S11",
+  "source_segment_ref": "SS-X03",
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "surface_text": null,
+  "paraphrase": "微软FY26Q4 Azure及其他云服务同比增长43%；不是全部Microsoft Cloud。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC123",
+  "claim_id": "X04",
+  "source_id": "S12",
+  "source_version_ref": "V-S12",
+  "source_segment_ref": "SS-X04",
+  "origin_family_ids": [
+    "FAMZN"
+  ],
+  "surface_text": null,
+  "paraphrase": "亚马逊报告AWS二季度销售约422亿美元，同比增长约37%。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC124",
+  "claim_id": "X05",
+  "source_id": "S13",
+  "source_version_ref": "V-S13",
+  "source_segment_ref": "SS-X05",
+  "origin_family_ids": [
+    "FGOOG"
+  ],
+  "surface_text": null,
+  "paraphrase": "Alphabet报告2026Q2 Google Cloud收入同比增长82%。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC125",
+  "claim_id": "X06",
+  "source_id": "S06",
+  "source_version_ref": "V-S06",
+  "source_segment_ref": "SS-X06",
+  "origin_family_ids": [
+    "FTHEINFORMATION"
+  ],
+  "surface_text": null,
+  "paraphrase": "报道区分四州取消或暂停与九州研究类似政策，不能统称13州已经取消。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC126",
+  "claim_id": "X07",
+  "source_id": "S06",
+  "source_version_ref": "V-S06",
+  "source_segment_ref": "SS-X07",
+  "origin_family_ids": [
+    "FTHEINFORMATION"
+  ],
+  "surface_text": null,
+  "paraphrase": "每GW约30亿美元是按7%销售税及设备购置规模估算的增量，不是年度通用运营费。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC127",
+  "claim_id": "X08",
+  "source_id": "S05",
+  "source_version_ref": "V-S05",
+  "source_segment_ref": "SS-X08",
+  "origin_family_ids": [
+    "FAA"
+  ],
+  "surface_text": null,
+  "paraphrase": "3美分与3.15美元比较的是指定智能指数任务的估算成本，不是整个数据中心成本。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC128",
+  "claim_id": "X09",
+  "source_id": "S14",
+  "source_version_ref": "V-S14",
+  "source_segment_ref": "SS-X09",
+  "origin_family_ids": [
+    "FAA"
+  ],
+  "surface_text": null,
+  "paraphrase": "0731版本输入/输出Token价格不变，缓存折扣和任务Token使用影响成本比较。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC129",
+  "claim_id": "X10",
+  "source_id": "S04",
+  "source_version_ref": "V-S04",
+  "source_segment_ref": "SS-X10",
+  "origin_family_ids": [
+    "FBROKER"
+  ],
+  "surface_text": null,
+  "paraphrase": "新闻将云收入与订单改善解释为AI回报兑现信号，并使用卖铲到用铲的标题框架。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+```json
+{
+  "occurrence_id": "OC130",
+  "claim_id": "X11",
+  "source_id": "S08",
+  "source_version_ref": "V-S08",
+  "source_segment_ref": "SS-X11",
+  "origin_family_ids": [
+    "FQIUSHI"
+  ],
+  "surface_text": null,
+  "paraphrase": "文章强调组织自我检视与纠错；网页显示7月16日，URL含0715。",
+  "occurrence_type": "first",
+  "information_gain": "high"
+}
+```
+
+## 10 ACTORS
+
+```json
+{
+  "actor_id": "analyst_youhegaojian9527",
+  "name": "有何高见9527"
+}
+```
+
+```json
+{
+  "actor_id": "model_gpt6",
+  "name": "抽取模型"
+}
+```
+
+```json
+{
+  "actor_id": "amazon",
+  "name": "亚马逊"
+}
+```
+
+```json
+{
+  "actor_id": "andy_jassy",
+  "name": "安迪·贾西"
+}
+```
+
+```json
+{
+  "actor_id": "microsoft",
+  "name": "微软"
+}
+```
+
+```json
+{
+  "actor_id": "alphabet",
+  "name": "Alphabet/谷歌"
+}
+```
+
+```json
+{
+  "actor_id": "meta",
+  "name": "Meta"
+}
+```
+
+```json
+{
+  "actor_id": "oracle",
+  "name": "甲骨文"
+}
+```
+
+```json
+{
+  "actor_id": "nvidia",
+  "name": "英伟达"
+}
+```
+
+```json
+{
+  "actor_id": "spacex",
+  "name": "SpaceX"
+}
+```
+
+```json
+{
+  "actor_id": "bezos",
+  "name": "杰夫·贝索斯"
+}
+```
+
+```json
+{
+  "actor_id": "artificial_analysis",
+  "name": "Artificial Analysis"
+}
+```
+
+```json
+{
+  "actor_id": "deepseek",
+  "name": "DeepSeek"
+}
+```
+
+```json
+{
+  "actor_id": "anthropic",
+  "name": "Anthropic"
+}
+```
+
+```json
+{
+  "actor_id": "huawei",
+  "name": "华为"
+}
+```
+
+```json
+{
+  "actor_id": "hima",
+  "name": "鸿蒙智行"
+}
+```
+
+```json
+{
+  "actor_id": "yu_chengdong",
+  "name": "余承东"
+}
+```
+
+```json
+{
+  "actor_id": "xiaomi",
+  "name": "小米"
+}
+```
+
+```json
+{
+  "actor_id": "analysts_unknown",
+  "name": "未具名分析师集合"
+}
+```
+
+```json
+{
+  "actor_id": "commenters_unknown",
+  "name": "主播转述的观众集合"
+}
+```
+
+```json
+{
+  "actor_id": "the_information",
+  "name": "The Information"
+}
+```
+
+```json
+{
+  "actor_id": "wscn",
+  "name": "华尔街见闻"
+}
+```
+
+```json
+{
+  "actor_id": "cls_editor",
+  "name": "财联社/科创板日报编者"
+}
+```
+
+```json
+{
+  "actor_id": "qiushi_author",
+  "name": "冀永义"
+}
+```
+
+```json
+{
+  "actor_id": "us_states",
+  "name": "美国州政府集合"
+}
+```
+
+## 11 EVENTS
+
+```json
+{
+  "event_id": "EV01",
+  "statement": "亚马逊发布二季度财报",
+  "claim_refs": [
+    "C016",
+    "X04"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-07-30",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "primary_release_observed"
+}
+```
+
+```json
+{
+  "event_id": "EV02",
+  "statement": "微软发布FY26Q4财报",
+  "claim_refs": [
+    "C041",
+    "C044",
+    "X01",
+    "X03"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-07-29",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "primary_release_observed"
+}
+```
+
+```json
+{
+  "event_id": "EV03",
+  "statement": "Alphabet发布Q2财报",
+  "claim_refs": [
+    "C049",
+    "X05"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-07-22",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "primary_release_observed"
+}
+```
+
+```json
+{
+  "event_id": "EV04",
+  "statement": "一组科技股上涨",
+  "claim_refs": [
+    "C004",
+    "C007",
+    "C008",
+    "C009",
+    "C010"
+  ],
+  "decision_at": null,
+  "announced_at": null,
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "reported_market_move_date_relative"
+}
+```
+
+```json
+{
+  "event_id": "EV05",
+  "statement": "鸿蒙智行发表回应",
+  "claim_refs": [
+    "C083",
+    "C088",
+    "C089",
+    "C090"
+  ],
+  "decision_at": null,
+  "announced_at": null,
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "creator_report_original_statement_not_retrieved"
+}
+```
+
+```json
+{
+  "event_id": "EV06",
+  "statement": "AA发布0731评估",
+  "claim_refs": [
+    "X09"
+  ],
+  "decision_at": null,
+  "announced_at": "2026-07-31",
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "primary_evaluation_publication"
+}
+```
+
+```json
+{
+  "event_id": "EV07",
+  "statement": "美国州税收政策异步调整/研究",
+  "claim_refs": [
+    "C022",
+    "X06"
+  ],
+  "decision_at": null,
+  "announced_at": null,
+  "scheduled_at": null,
+  "effective_at": null,
+  "occurred_at": null,
+  "status": "aggregate_mixed_stage_not_single_effective_event"
+}
+```
+
+## 12 STRUCTURAL PROCESSES
+
+none
+
+## 13 INDICATORS OBSERVATIONS
+
+```json
+{
+  "indicators": [
+    {
+      "indicator_id": "IN01",
+      "name": "贝索斯套现金额",
+      "measurement_type": "amount",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN02",
+      "name": "亚马逊单日股价变动",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN03",
+      "name": "距前高交易日",
+      "measurement_type": "count",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN04",
+      "name": "亚马逊市值",
+      "measurement_type": "stock",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN05",
+      "name": "谷歌单日股价变动",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN06",
+      "name": "微软单日股价变动",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN07",
+      "name": "Meta单日股价变动",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN08",
+      "name": "甲骨文单日股价变动",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN09",
+      "name": "AWS季度净销售",
+      "measurement_type": "flow",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN10",
+      "name": "AWS季度净销售共识",
+      "measurement_type": "flow",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN11",
+      "name": "AWS收入超共识幅度",
+      "measurement_type": "ratio",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN12",
+      "name": "AWS销售超预期差额",
+      "measurement_type": "amount",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN13",
+      "name": "主播估算泡沫倍数",
+      "measurement_type": "ratio",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN14",
+      "name": "称已取消优惠州数",
+      "measurement_type": "count",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN15",
+      "name": "税收变化设备成本影响",
+      "measurement_type": "amount",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN16",
+      "name": "DeepSeek对Fable任务成本比",
+      "measurement_type": "ratio",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN17",
+      "name": "公司预期投资回本剩余时间",
+      "measurement_type": "level",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN18",
+      "name": "Azure与其他云收入增速",
+      "measurement_type": "growth_rate",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN19",
+      "name": "Azure增速共识",
+      "measurement_type": "growth_rate",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN20",
+      "name": "主播所述增长率差",
+      "measurement_type": "amount",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN_RPO",
+      "name": "微软商业RPO期末余额",
+      "measurement_type": "stock",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN22",
+      "name": "RPO环比增额",
+      "measurement_type": "amount",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN23",
+      "name": "RPO环比增速",
+      "measurement_type": "growth_rate",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN24",
+      "name": "Google Cloud收入增速",
+      "measurement_type": "growth_rate",
+      "definition_status": "specified_as_reported"
+    },
+    {
+      "indicator_id": "IN25",
+      "name": "合同金额中云采购比例",
+      "measurement_type": "share",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN26",
+      "name": "设想折旧费上升倍数",
+      "measurement_type": "ratio",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN27",
+      "name": "回应所称投诉数量",
+      "measurement_type": "count",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN28",
+      "name": "回应所称相关内容量",
+      "measurement_type": "count",
+      "definition_status": "partial"
+    },
+    {
+      "indicator_id": "IN29",
+      "name": "主播估计早期内容量",
+      "measurement_type": "count",
+      "definition_status": "partial"
+    }
+  ],
+  "observations": [
+    {
+      "observation_id": "OB01",
+      "indicator_id": "IN01",
+      "claim_ref": "C003",
+      "value": 1500,
+      "unit": "亿；币种未知",
+      "currency": null,
+      "measurement_type": "amount",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C003"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB02",
+      "indicator_id": "IN02",
+      "claim_ref": "C004",
+      "value": 4.5,
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C004"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB03",
+      "indicator_id": "IN03",
+      "claim_ref": "C005",
+      "value": 61,
+      "unit": "交易日",
+      "currency": null,
+      "measurement_type": "count",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C005"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB04",
+      "indicator_id": "IN04",
+      "claim_ref": "C006",
+      "value": 3,
+      "unit": "万亿美元",
+      "currency": null,
+      "measurement_type": "stock",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C006"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB05",
+      "indicator_id": "IN05",
+      "claim_ref": "C007",
+      "value": ">4",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C007"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB06",
+      "indicator_id": "IN06",
+      "claim_ref": "C008",
+      "value": ">4",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C008"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB07",
+      "indicator_id": "IN07",
+      "claim_ref": "C009",
+      "value": ">6",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C009"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB08",
+      "indicator_id": "IN08",
+      "claim_ref": "C010",
+      "value": ">9",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C010"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB09",
+      "indicator_id": "IN09",
+      "claim_ref": "C016",
+      "value": 422.3,
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "flow",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "2026Q2",
+      "reference_period": "2026Q2",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C016"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB10",
+      "indicator_id": "IN10",
+      "claim_ref": "C017",
+      "value": 405.7,
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "flow",
+      "value_status": "estimated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "2026Q2",
+      "reference_period": "2026Q2",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C017"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB11",
+      "indicator_id": "IN11",
+      "claim_ref": "C019",
+      "value": "约5",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "ratio",
+      "value_status": "calculated",
+      "numerator": "实际减预期",
+      "denominator": "预期销售405.7亿美元",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C019"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB12",
+      "indicator_id": "IN12",
+      "claim_ref": "C109",
+      "value": "约20",
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "amount",
+      "value_status": "calculated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C109"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB13",
+      "indicator_id": "IN13",
+      "claim_ref": "C020",
+      "value": 90,
+      "unit": "倍",
+      "currency": null,
+      "measurement_type": "ratio",
+      "value_status": "estimated",
+      "numerator": "一季度约90天",
+      "denominator": "一天",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C020"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB14",
+      "indicator_id": "IN14",
+      "claim_ref": "C022",
+      "value": 13,
+      "unit": "州",
+      "currency": null,
+      "measurement_type": "count",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C022"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB15",
+      "indicator_id": "IN15",
+      "claim_ref": "C023",
+      "value": 30,
+      "unit": "亿美元/GW",
+      "currency": "USD",
+      "measurement_type": "amount",
+      "value_status": "projected",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C023"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB16",
+      "indicator_id": "IN16",
+      "claim_ref": "C028",
+      "value": "约1",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "ratio",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": "Fable指定评测成本",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C028"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB17",
+      "indicator_id": "IN17",
+      "claim_ref": "C039",
+      "value": "<3",
+      "unit": "年",
+      "currency": null,
+      "measurement_type": "level",
+      "value_status": "projected",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C039"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB18",
+      "indicator_id": "IN18",
+      "claim_ref": "C041",
+      "value": 43,
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "FY26Q4同比",
+      "reference_period": "FY26Q4同比",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C041"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB19",
+      "indicator_id": "IN19",
+      "claim_ref": "C042",
+      "value": 39.98,
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "estimated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "FY26Q4同比",
+      "reference_period": "FY26Q4同比",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C042"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB20",
+      "indicator_id": "IN20",
+      "claim_ref": "C043",
+      "value": 3,
+      "unit": "%（原话）",
+      "currency": null,
+      "measurement_type": "amount",
+      "value_status": "calculated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C043"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB21",
+      "indicator_id": "IN_RPO",
+      "claim_ref": "C044",
+      "value": 6780,
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "stock",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "FY26Q4末",
+      "reference_period": "FY26Q4末",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C044"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB22",
+      "indicator_id": "IN_RPO",
+      "claim_ref": "C045",
+      "value": 6270,
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "stock",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "FY26Q3末",
+      "reference_period": "FY26Q3末",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C045"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB23",
+      "indicator_id": "IN22",
+      "claim_ref": "C046",
+      "value": "近500",
+      "unit": "亿美元",
+      "currency": "USD",
+      "measurement_type": "amount",
+      "value_status": "calculated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C046"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB24",
+      "indicator_id": "IN23",
+      "claim_ref": "C047",
+      "value": "约10",
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "calculated",
+      "numerator": null,
+      "denominator": "上季6270亿美元",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C047"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB25",
+      "indicator_id": "IN24",
+      "claim_ref": "C049",
+      "value": 82,
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "growth_rate",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "2026Q2同比",
+      "reference_period": "2026Q2同比",
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C049"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB26",
+      "indicator_id": "IN25",
+      "claim_ref": "C053",
+      "value": 40,
+      "unit": "%",
+      "currency": null,
+      "measurement_type": "share",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": "客户合同金额",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C053"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB27",
+      "indicator_id": "IN26",
+      "claim_ref": "C075",
+      "value": "数倍至10",
+      "unit": "倍",
+      "currency": null,
+      "measurement_type": "ratio",
+      "value_status": "projected",
+      "numerator": null,
+      "denominator": "此前折旧费用",
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C075"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB28",
+      "indicator_id": "IN27",
+      "claim_ref": "C089",
+      "value": "170多",
+      "unit": "条",
+      "currency": null,
+      "measurement_type": "count",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C089"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB29",
+      "indicator_id": "IN28",
+      "claim_ref": "C090",
+      "value": "55.5点几万",
+      "unit": "条",
+      "currency": null,
+      "measurement_type": "count",
+      "value_status": "reported",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C090"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    },
+    {
+      "observation_id": "OB30",
+      "indicator_id": "IN29",
+      "claim_ref": "C091",
+      "value": "几百至上千",
+      "unit": "条",
+      "currency": null,
+      "measurement_type": "count",
+      "value_status": "estimated",
+      "numerator": null,
+      "denominator": null,
+      "gross_net": "unknown",
+      "period_basis": "unknown",
+      "reference_period": null,
+      "released_at": "2026-08-05T09:48:48+08:00",
+      "vintage_at": null,
+      "classification_version": null,
+      "source_segment_refs": [
+        "SS-C091"
+      ],
+      "definition_caveat": "按原命题口径，不将报道自动改成已验证观测"
+    }
+  ],
+  "model_calculations": [
+    {
+      "calculation_id": "CAL01",
+      "input_claim_refs": [
+        "C016",
+        "C017"
+      ],
+      "formula": "(422.3-405.7)/405.7*100",
+      "value": 4.0916933694848465,
+      "unit": "%",
+      "meaning": "销售超共识幅度，非同比增长；沿用转写输入条件计算",
+      "reasoner_id": "model_gpt6"
+    },
+    {
+      "calculation_id": "CAL02",
+      "input_claim_refs": [
+        "C016",
+        "C017"
+      ],
+      "formula": "422.3-405.7",
+      "value": 16.600000000000023,
+      "unit": "亿美元",
+      "meaning": "16.6不等于20；近似幅度需保留",
+      "reasoner_id": "model_gpt6"
+    },
+    {
+      "calculation_id": "CAL03",
+      "input_claim_refs": [
+        "C041",
+        "C042"
+      ],
+      "formula": "43-39.98",
+      "value": 3.020000000000003,
+      "unit": "百分点",
+      "meaning": "不是3.02%的营收增量",
+      "reasoner_id": "model_gpt6"
+    },
+    {
+      "calculation_id": "CAL04",
+      "input_claim_refs": [
+        "C044",
+        "C045"
+      ],
+      "formula": "(6780-6270)/6270*100",
+      "value": 8.133971291866029,
+      "unit": "%",
+      "meaning": "约8.13%，环比RPO余额增长",
+      "reasoner_id": "model_gpt6"
+    }
+  ]
+}
+```
+
+## 14 POLICIES
+
+```json
+{
+  "policy_id": "PO01",
+  "claim_refs": [
+    "C022",
+    "X06"
+  ],
+  "name": "美国数据中心州税优惠调整集合",
+  "status": "mixed_proposed_paused_cancelled",
+  "announced_at": null,
+  "effective_at": null,
+  "jurisdiction": "multiple_states_unresolved",
+  "limitation": "未取得13州逐项法规，不把研究/暂停/附加条件合并为生效取消"
+}
+```
+
+## 15 EXPECTATION SNAPSHOTS
+
+```json
+{
+  "expectation_snapshot_id": "EX01",
+  "as_of": "2026-08-05T09:48:48+08:00",
+  "observer": "analyst_youhegaojian9527",
+  "population": "主播泛指美股云投资者，未给样本",
+  "target": "cloud_prospects",
+  "expectation": "云业务会变得热门",
+  "claim_refs": [
+    "C050"
+  ],
+  "evidence_type": "creator_inference_not_survey"
+}
+```
+
+```json
+{
+  "expectation_snapshot_id": "EX02",
+  "as_of": "2026Q2财报发布前，具体日期未知",
+  "observer": "analysts_unknown",
+  "population": "AWS销售一致预期提供者未明",
+  "target": "AWS_Q2_sales",
+  "expectation": 405.7,
+  "unit": "亿美元",
+  "claim_refs": [
+    "C017"
+  ],
+  "evidence_type": "reported_consensus"
+}
+```
+
+## 16 VERACITY ASSESSMENTS
+
+```json
+{
+  "assessment_id": "VA-C001",
+  "claim_ref": "C001",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C002",
+  "claim_ref": "C002",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C003",
+  "claim_ref": "C003",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C004",
+  "claim_ref": "C004",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C005",
+  "claim_ref": "C005",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C006",
+  "claim_ref": "C006",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C007",
+  "claim_ref": "C007",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C008",
+  "claim_ref": "C008",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C009",
+  "claim_ref": "C009",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C010",
+  "claim_ref": "C010",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C011",
+  "claim_ref": "C011",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C012",
+  "claim_ref": "C012",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C013",
+  "claim_ref": "C013",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C014",
+  "claim_ref": "C014",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C015",
+  "claim_ref": "C015",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C016",
+  "claim_ref": "C016",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S12"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FAMZN"
+  ],
+  "limitations": "官方概览约422亿美元支持量级；本次未锁定422.3的明细精度。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C017",
+  "claim_ref": "C017",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S04"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "新闻把预期405.7写为“亿元”，转写为亿美元；原共识数据未取得，不能悄悄改新闻币种。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C018",
+  "claim_ref": "C018",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S12"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FAMZN"
+  ],
+  "limitations": "公司公告称18季度最高增速，新闻与公告同源不加计。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C019",
+  "claim_ref": "C019",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "CAL01"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "按视频两个美元数计算约4.09%，确实不到5%；只是条件算术，不能核实输入数据。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C020",
+  "claim_ref": "C020",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "false",
+  "scope": "derivation_validity_only_not_market_valuation_truth",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "M01",
+    "M02"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "90天/1天不能作为估值倍数估计器；此判定仅针对推导有效性，不断言市场不存在泡沫。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C021",
+  "claim_ref": "C021",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C022",
+  "claim_ref": "C022",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "disputed",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "X06"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "参考文为4州取消/暂停加9州研究，不能由此证明13州均已取消。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C023",
+  "claim_ref": "C023",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C024",
+  "claim_ref": "C024",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C025",
+  "claim_ref": "C025",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C026",
+  "claim_ref": "C026",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C027",
+  "claim_ref": "C027",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C028",
+  "claim_ref": "C028",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S05",
+    "S14"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FAA"
+  ],
+  "limitations": "新闻1%是指定任务成本比；AA正文确认价格与缓存因素，但本次未在其正文找到3美分对3.15完整表。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C029",
+  "claim_ref": "C029",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C030",
+  "claim_ref": "C030",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C031",
+  "claim_ref": "C031",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C032",
+  "claim_ref": "C032",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C033",
+  "claim_ref": "C033",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C034",
+  "claim_ref": "C034",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C035",
+  "claim_ref": "C035",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C036",
+  "claim_ref": "C036",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C037",
+  "claim_ref": "C037",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C038",
+  "claim_ref": "C038",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C039",
+  "claim_ref": "C039",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C040",
+  "claim_ref": "C040",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C041",
+  "claim_ref": "C041",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S11"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "43%对应Azure及其他云服务，不是整个Microsoft Cloud；后者另有口径。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C042",
+  "claim_ref": "C042",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C043",
+  "claim_ref": "C043",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "disputed",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "CAL03"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "差为3.02个百分点，不能与营收超预期百分比直接对比。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C044",
+  "claim_ref": "C044",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S10"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "金额与公司商业RPO一致；视频云业务标签过宽。确认公司披露值，不证实其缓冲硬件解释。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C045",
+  "claim_ref": "C045",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S10"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "金额与公司商业RPO一致；视频云业务标签过宽。确认公司披露值，不证实其缓冲硬件解释。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C046",
+  "claim_ref": "C046",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C047",
+  "claim_ref": "C047",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "disputed",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "CAL04"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "按6270基数是8.13%，不是精确10%。近似不能支持下一季必须翻倍。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C048",
+  "claim_ref": "C048",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C049",
+  "claim_ref": "C049",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "likely_true",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S13"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FGOOG"
+  ],
+  "limitations": "公司公告给出Google Cloud同比82%；不等于AI独立收入或ROI。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C050",
+  "claim_ref": "C050",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C051",
+  "claim_ref": "C051",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C052",
+  "claim_ref": "C052",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C053",
+  "claim_ref": "C053",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C054",
+  "claim_ref": "C054",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C055",
+  "claim_ref": "C055",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C056",
+  "claim_ref": "C056",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "X01"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "RPO定义证明有待履约合同，不能证明公司刻意拖延来管理产能。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C057",
+  "claim_ref": "C057",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C058",
+  "claim_ref": "C058",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C059",
+  "claim_ref": "C059",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "disputed",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "X01",
+    "M03"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "合同收入义务与固定硬件投入不同；原话指代有歧义，需听音确认是否偷换。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C060",
+  "claim_ref": "C060",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C061",
+  "claim_ref": "C061",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C062",
+  "claim_ref": "C062",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C063",
+  "claim_ref": "C063",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C064",
+  "claim_ref": "C064",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C065",
+  "claim_ref": "C065",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C066",
+  "claim_ref": "C066",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C067",
+  "claim_ref": "C067",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C068",
+  "claim_ref": "C068",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C069",
+  "claim_ref": "C069",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C070",
+  "claim_ref": "C070",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C071",
+  "claim_ref": "C071",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C072",
+  "claim_ref": "C072",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C073",
+  "claim_ref": "C073",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C074",
+  "claim_ref": "C074",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C075",
+  "claim_ref": "C075",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C076",
+  "claim_ref": "C076",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C077",
+  "claim_ref": "C077",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C078",
+  "claim_ref": "C078",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C079",
+  "claim_ref": "C079",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C080",
+  "claim_ref": "C080",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C081",
+  "claim_ref": "C081",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C082",
+  "claim_ref": "C082",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C083",
+  "claim_ref": "C083",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "unverifiable",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C084",
+  "claim_ref": "C084",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "未取得同品牌同口径销量序列；销量下降本身和原因都未核。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C085",
+  "claim_ref": "C085",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "M08"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "粉丝购买耗尽只是解释；不能由总销量下降排除产品、交付和价格因素。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C086",
+  "claim_ref": "C086",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "unverifiable",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C087",
+  "claim_ref": "C087",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C088",
+  "claim_ref": "C088",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C089",
+  "claim_ref": "C089",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C090",
+  "claim_ref": "C090",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C091",
+  "claim_ref": "C091",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C092",
+  "claim_ref": "C092",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [
+    "M07"
+  ],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "时间分母检查是合理动作；实际分子分母是否错位仍须原回应和传播时间线。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C093",
+  "claim_ref": "C093",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C094",
+  "claim_ref": "C094",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C095",
+  "claim_ref": "C095",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C096",
+  "claim_ref": "C096",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C097",
+  "claim_ref": "C097",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C098",
+  "claim_ref": "C098",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C099",
+  "claim_ref": "C099",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "unverifiable",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C100",
+  "claim_ref": "C100",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C101",
+  "claim_ref": "C101",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C102",
+  "claim_ref": "C102",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C103",
+  "claim_ref": "C103",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C104",
+  "claim_ref": "C104",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C105",
+  "claim_ref": "C105",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C106",
+  "claim_ref": "C106",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C107",
+  "claim_ref": "C107",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C108",
+  "claim_ref": "C108",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C109",
+  "claim_ref": "C109",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "disputed",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "CAL02"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "按视频精确数差16.6亿美元，20是较粗近似。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C110",
+  "claim_ref": "C110",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C111",
+  "claim_ref": "C111",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-C112",
+  "claim_ref": "C112",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X01",
+  "claim_ref": "X01",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S10"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X02",
+  "claim_ref": "X02",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S10"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X03",
+  "claim_ref": "X03",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S11"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FMSFT"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X04",
+  "claim_ref": "X04",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S12"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FAMZN"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X05",
+  "claim_ref": "X05",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S13"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FGOOG"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X06",
+  "claim_ref": "X06",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X07",
+  "claim_ref": "X07",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X08",
+  "claim_ref": "X08",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X09",
+  "claim_ref": "X09",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "verified",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [
+    "S14"
+  ],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 1,
+  "origin_family_ids": [
+    "FAA"
+  ],
+  "limitations": "仅核实公开文件中的定义或所披露数值；不传播到商业化/市场方向。",
+  "verified_knowledge_eligible": true
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X10",
+  "claim_ref": "X10",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-X11",
+  "claim_ref": "X11",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M01",
+  "claim_ref": "M01",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M02",
+  "claim_ref": "M02",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M03",
+  "claim_ref": "M03",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M04",
+  "claim_ref": "M04",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M05",
+  "claim_ref": "M05",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M06",
+  "claim_ref": "M06",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M07",
+  "claim_ref": "M07",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+```json
+{
+  "assessment_id": "VA-M08",
+  "claim_ref": "M08",
+  "observer": "model_gpt6",
+  "assessed_at": "2026-09-26T00:51:00+08:00",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "veracity": "uncertain",
+  "scope": "命题内容，不是只核实说过此话",
+  "evidence_refs": [],
+  "counterevidence_refs": [],
+  "independent_source_family_count": 0,
+  "origin_family_ids": [],
+  "limitations": "文字证据可追溯；不自动证明现实、因果或未来。",
+  "verified_knowledge_eligible": false
+}
+```
+
+## 17 NARRATIVE ASSESSMENTS
+
+```json
+{
+  "assessment_id": "NA01",
+  "observer": "cls_editor",
+  "source_refs": [
+    "S04"
+  ],
+  "claim_refs": [
+    "X10"
+  ],
+  "frame": "卖铲到用铲；云收入/订单被作为回报兑现信号"
+}
+```
+
+```json
+{
+  "assessment_id": "NA02",
+  "observer": "analyst_youhegaojian9527",
+  "claim_refs": [
+    "C055",
+    "C059",
+    "C064",
+    "C112"
+  ],
+  "frame": "拒绝将成熟云业务重新包装成新行情充分基础；转向存量订单、折旧与持续资金约束",
+  "acceptance": "承认财报增长与上涨，拒绝由此推出新一轮行情"
+}
+```
+
+```json
+{
+  "assessment_id": "NA03",
+  "observer": "model_gpt6",
+  "claim_refs": [
+    "C019",
+    "C020",
+    "C059"
+  ],
+  "frame": "质疑叙事是实际动作，但90倍与RPO成本化仍需独立审计"
+}
+```
+
+```json
+{
+  "assessment_id": "NA04",
+  "observer": "analyst_youhegaojian9527",
+  "claim_refs": [
+    "C083",
+    "C086",
+    "C096"
+  ],
+  "frame": "用是否促进破圈/争取对象评判品牌公关"
+}
+```
+
+## 18 ARGUMENTS
+
+```json
+{
+  "argument_id": "AR01",
+  "title": "收入超预期与90倍估值推导",
+  "premises": [
+    "C004",
+    "C016",
+    "C017"
+  ],
+  "steps": [
+    {
+      "step_id": "AR01-E1",
+      "from_claim_refs": [
+        "C016"
+      ],
+      "to_claim_ref": "C019",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C016",
+        "SS-C019"
+      ],
+      "limitations": "必须与同币种共识比较"
+    },
+    {
+      "step_id": "AR01-E2",
+      "from_claim_refs": [
+        "C017"
+      ],
+      "to_claim_ref": "C019",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C017",
+        "SS-C019"
+      ],
+      "limitations": "新闻币种有冲突"
+    },
+    {
+      "step_id": "AR01-E3",
+      "from_claim_refs": [
+        "C019"
+      ],
+      "to_claim_ref": "C020",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C019",
+        "SS-C020"
+      ],
+      "limitations": "营收惊喜不能除以价格反应时间"
+    },
+    {
+      "step_id": "AR01-E4",
+      "from_claim_refs": [
+        "C004"
+      ],
+      "to_claim_ref": "C020",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C004",
+        "SS-C020"
+      ],
+      "limitations": "股价是未来现金流重估，不是一日收入"
+    },
+    {
+      "step_id": "AR01-E5",
+      "from_claim_refs": [
+        "C020"
+      ],
+      "to_claim_ref": "C021",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C020",
+        "SS-C021"
+      ],
+      "limitations": "超预期必须不断加倍缺估值模型"
+    }
+  ],
+  "conclusion": [
+    "C021"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "speculation",
+    "statistical"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 5
+  },
+  "limitations": "量纲错误及期间混淆；5%不是AWS同比增长，更不是整个公司利润增速。",
+  "most_fragile_step": "AR01-E3",
+  "creator_shortcuts": [
+    {
+      "from_claim": "C019",
+      "to_claim": "C020",
+      "description": "约5%超预期→90倍泡沫"
+    }
+  ],
+  "claim_refs": [
+    "C004",
+    "C016",
+    "C017",
+    "C019",
+    "C020",
+    "C021"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR02",
+  "title": "税收和电网成本限制盈利",
+  "premises": [
+    "C024"
+  ],
+  "steps": [
+    {
+      "step_id": "AR02-E1",
+      "from_claim_refs": [
+        "C024"
+      ],
+      "to_claim_ref": "C025",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C024",
+        "SS-C025"
+      ],
+      "limitations": "电网压力不证明取消税惠所得被专款用于电网"
+    },
+    {
+      "step_id": "AR02-E2",
+      "from_claim_refs": [
+        "C025"
+      ],
+      "to_claim_ref": "C026",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C025",
+        "SS-C026"
+      ],
+      "limitations": "地方差异与政策阶段未明"
+    },
+    {
+      "step_id": "AR02-E3",
+      "from_claim_refs": [
+        "C026"
+      ],
+      "to_claim_ref": "C027",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C026",
+        "SS-C027"
+      ],
+      "limitations": "需固定收入和成本转嫁等条件"
+    }
+  ],
+  "conclusion": [
+    "C027"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 3
+  },
+  "limitations": "4+9政策阶段不同；30亿美元是设备成本条件估算，不能直接计年度运营费。",
+  "most_fragile_step": "AR02-E1",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C024",
+    "C025",
+    "C026",
+    "C027"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR03",
+  "title": "廉价模型威胁云商收益",
+  "premises": [
+    "C028"
+  ],
+  "steps": [
+    {
+      "step_id": "AR03-E1",
+      "from_claim_refs": [
+        "C028"
+      ],
+      "to_claim_ref": "C029",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C028",
+        "SS-C029"
+      ],
+      "limitations": "任务账单比不等于同质服务总成本"
+    },
+    {
+      "step_id": "AR03-E2",
+      "from_claim_refs": [
+        "C029"
+      ],
+      "to_claim_ref": "C030",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C029",
+        "SS-C030"
+      ],
+      "limitations": "低价模型可增加调用而非只压缩收入"
+    },
+    {
+      "step_id": "AR03-E3",
+      "from_claim_refs": [
+        "C030"
+      ],
+      "to_claim_ref": "M04",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [
+        "SS-C030"
+      ],
+      "limitations": "部署位置与需求弹性缺资料"
+    },
+    {
+      "step_id": "AR03-E4",
+      "from_claim_refs": [
+        "M04"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [
+        "SS-C064"
+      ],
+      "limitations": "净效应未知，不能确认反弹失败"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction"
+  ],
+  "inferential_distance": {
+    "edge_count": 4,
+    "longest_path_length": 4,
+    "model_bridge_count": 2,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "limitations": "模型能力、API价格、每任务成本、硬件成本和云商收入不同层，不能替换。",
+  "most_fragile_step": "AR03-E2",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C028",
+    "C029",
+    "C030",
+    "C064",
+    "M04"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR04",
+  "title": "传统订单、增量与新叙事",
+  "premises": [
+    "C044",
+    "C051"
+  ],
+  "steps": [
+    {
+      "step_id": "AR04-E1",
+      "from_claim_refs": [
+        "C051"
+      ],
+      "to_claim_ref": "C055",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C051",
+        "SS-C055"
+      ],
+      "limitations": "成熟不等于没有新增需求"
+    },
+    {
+      "step_id": "AR04-E2",
+      "from_claim_refs": [
+        "C044"
+      ],
+      "to_claim_ref": "C055",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C044",
+        "SS-C055"
+      ],
+      "limitations": "总额需要分解"
+    },
+    {
+      "step_id": "AR04-E3",
+      "from_claim_refs": [
+        "C055"
+      ],
+      "to_claim_ref": "C056",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C055",
+        "SS-C056"
+      ],
+      "limitations": "提出问题不能证明刻意延期"
+    },
+    {
+      "step_id": "AR04-E4",
+      "from_claim_refs": [
+        "C056"
+      ],
+      "to_claim_ref": "C059",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C056",
+        "SS-C059"
+      ],
+      "limitations": "RPO与硬件成本对象转移"
+    },
+    {
+      "step_id": "AR04-E5",
+      "from_claim_refs": [
+        "C059"
+      ],
+      "to_claim_ref": "C060",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C059",
+        "SS-C060"
+      ],
+      "limitations": "尚未计算实际存量/增量"
+    },
+    {
+      "step_id": "AR04-E6",
+      "from_claim_refs": [
+        "C060"
+      ],
+      "to_claim_ref": "C061",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C060",
+        "SS-C061"
+      ],
+      "limitations": "没有市场投资者认知测量"
+    },
+    {
+      "step_id": "AR04-E7",
+      "from_claim_refs": [
+        "C061"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "strongly_implied",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C061",
+        "SS-C064"
+      ],
+      "limitations": "高预期不自动决定下跌时点"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "direct",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "inferential_distance": {
+    "edge_count": 7,
+    "longest_path_length": 6,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 6
+  },
+  "limitations": "“有多少传统订单”是合理问题；但未经拆分便归为成本冗余和骗局，结论过强。",
+  "most_fragile_step": "AR04-E4",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C044",
+    "C051",
+    "C055",
+    "C056",
+    "C059",
+    "C060",
+    "C061",
+    "C064"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR05",
+  "title": "硬件寿命、替换与盈利台阶",
+  "premises": [
+    "C066"
+  ],
+  "steps": [
+    {
+      "step_id": "AR05-E1",
+      "from_claim_refs": [
+        "C066"
+      ],
+      "to_claim_ref": "C067",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C066",
+        "SS-C067"
+      ],
+      "limitations": "技术淘汰压力相对自然故障的量级未测"
+    },
+    {
+      "step_id": "AR05-E2",
+      "from_claim_refs": [
+        "C067"
+      ],
+      "to_claim_ref": "C068",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C067",
+        "SS-C068"
+      ],
+      "limitations": "未指明哪家真的改变年限"
+    },
+    {
+      "step_id": "AR05-E3",
+      "from_claim_refs": [
+        "C068"
+      ],
+      "to_claim_ref": "C069",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C068",
+        "SS-C069"
+      ],
+      "limitations": "旧GPU补位须兼容并有可用存量"
+    },
+    {
+      "step_id": "AR05-E4",
+      "from_claim_refs": [
+        "C069"
+      ],
+      "to_claim_ref": "C072",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C069",
+        "SS-C072"
+      ],
+      "limitations": "生命周期场景不是明确财报政策事实"
+    },
+    {
+      "step_id": "AR05-E5",
+      "from_claim_refs": [
+        "C072"
+      ],
+      "to_claim_ref": "C073",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C072",
+        "SS-C073"
+      ],
+      "limitations": "减值、折旧、采购现金流区别未处理"
+    },
+    {
+      "step_id": "AR05-E6",
+      "from_claim_refs": [
+        "C073"
+      ],
+      "to_claim_ref": "C074",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C073",
+        "SS-C074"
+      ],
+      "limitations": "成本跳升时间缺资产批次与采购价"
+    },
+    {
+      "step_id": "AR05-E7",
+      "from_claim_refs": [
+        "C074"
+      ],
+      "to_claim_ref": "C075",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C074",
+        "SS-C075"
+      ],
+      "limitations": "数倍十倍没有测算"
+    },
+    {
+      "step_id": "AR05-E8",
+      "from_claim_refs": [
+        "C075"
+      ],
+      "to_claim_ref": "M06",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [
+        "SS-C075"
+      ],
+      "limitations": "盈利变化不等于股价必然同幅变化"
+    },
+    {
+      "step_id": "AR05-E9",
+      "from_claim_refs": [
+        "M06"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [
+        "SS-C064"
+      ],
+      "limitations": "需预期差及定价条件"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "model_reconstruction"
+  ],
+  "inferential_distance": {
+    "edge_count": 9,
+    "longest_path_length": 9,
+    "model_bridge_count": 2,
+    "explicit_shortcut_count": 1,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 7
+  },
+  "limitations": "观察成本结构可复用；3/5/7年是举例，十倍是可能值，非公司已披露改折旧事实。",
+  "most_fragile_step": "AR05-E7",
+  "creator_shortcuts": [
+    {
+      "from_claim": "C074",
+      "to_claim": "C064",
+      "description": "折旧压力→反弹不可持续"
+    }
+  ],
+  "claim_refs": [
+    "C064",
+    "C066",
+    "C067",
+    "C068",
+    "C069",
+    "C072",
+    "C073",
+    "C074",
+    "C075",
+    "M06"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR06",
+  "title": "习惯扩散与生产力类比",
+  "premises": [
+    "C031",
+    "C036"
+  ],
+  "steps": [
+    {
+      "step_id": "AR06-E1",
+      "from_claim_refs": [
+        "C031"
+      ],
+      "to_claim_ref": "C034",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C031",
+        "SS-C034"
+      ],
+      "limitations": "个案不能量化全国采用"
+    },
+    {
+      "step_id": "AR06-E2",
+      "from_claim_refs": [
+        "C034"
+      ],
+      "to_claim_ref": "C035",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C034",
+        "SS-C035"
+      ],
+      "limitations": "效率改善没有产出质量与劳动投入对照"
+    },
+    {
+      "step_id": "AR06-E3",
+      "from_claim_refs": [
+        "C036"
+      ],
+      "to_claim_ref": "C035",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C036",
+        "SS-C035"
+      ],
+      "limitations": "移动支付和AI经济机制不同"
+    }
+  ],
+  "conclusion": [
+    "C035"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "analogy",
+    "causal"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 3
+  },
+  "limitations": "应用可观察线索不等于已经发生全社会生产率跃迁。",
+  "most_fragile_step": "AR06-E2",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C031",
+    "C034",
+    "C035",
+    "C036"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径",
+  "argument_type": "historical_analogy",
+  "source_case": "移动支付习惯扩散",
+  "target_case": "AI应用向商业交付扩散",
+  "shared_mechanism": "使用习惯扩散可能改变流程和业态",
+  "limits_of_analogy": "成本、可靠性、组织整合、监管与渗透路径不同"
+}
+```
+
+```json
+{
+  "argument_id": "AR07",
+  "title": "共识与赚钱效应的反身性",
+  "premises": [
+    "C060"
+  ],
+  "steps": [
+    {
+      "step_id": "AR07-E1",
+      "from_claim_refs": [
+        "C060"
+      ],
+      "to_claim_ref": "C077",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C060",
+        "SS-C077"
+      ],
+      "limitations": "未测实际共识分布"
+    },
+    {
+      "step_id": "AR07-E2",
+      "from_claim_refs": [
+        "C077"
+      ],
+      "to_claim_ref": "C078",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C077",
+        "SS-C078"
+      ],
+      "limitations": "分歧并不必然阻止上涨"
+    },
+    {
+      "step_id": "AR07-E3",
+      "from_claim_refs": [
+        "C078"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C078",
+        "SS-C064"
+      ],
+      "limitations": "可能负反馈不代表必然马上回落"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 2
+  },
+  "limitations": "须区分“若不涨”条件与“必然跌”的分支选择。",
+  "most_fragile_step": "AR07-E3",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C060",
+    "C064",
+    "C077",
+    "C078"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR08",
+  "title": "品牌增长约束与公关目标",
+  "premises": [
+    "C084",
+    "C087"
+  ],
+  "steps": [
+    {
+      "step_id": "AR08-E1",
+      "from_claim_refs": [
+        "C084"
+      ],
+      "to_claim_ref": "C085",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C084",
+        "SS-C085"
+      ],
+      "limitations": "销量下降有多个竞争解释"
+    },
+    {
+      "step_id": "AR08-E2",
+      "from_claim_refs": [
+        "C085"
+      ],
+      "to_claim_ref": "C086",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C085",
+        "SS-C086"
+      ],
+      "limitations": "目标市场和粉丝渗透率未测"
+    },
+    {
+      "step_id": "AR08-E3",
+      "from_claim_refs": [
+        "C087"
+      ],
+      "to_claim_ref": "C088",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C087",
+        "SS-C088"
+      ],
+      "limitations": "公众反应缺样本"
+    },
+    {
+      "step_id": "AR08-E4",
+      "from_claim_refs": [
+        "C088"
+      ],
+      "to_claim_ref": "C098",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C088",
+        "SS-C098"
+      ],
+      "limitations": "品牌/粉丝/公司主体不同"
+    },
+    {
+      "step_id": "AR08-E5",
+      "from_claim_refs": [
+        "C098"
+      ],
+      "to_claim_ref": "C108",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "strongly_implied",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C098",
+        "SS-C108"
+      ],
+      "limitations": "当前做法不能证明无法纠错"
+    }
+  ],
+  "conclusion": [
+    "C108"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 2,
+    "explicit_edge_count": 3
+  },
+  "limitations": "没有销量序列和用户构成数据；公关目的判断不能代替事实核查。",
+  "most_fragile_step": "AR08-E1",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C084",
+    "C085",
+    "C086",
+    "C087",
+    "C088",
+    "C098",
+    "C108"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR09",
+  "title": "时间分母与投诉比例",
+  "premises": [
+    "C089",
+    "C090",
+    "C093"
+  ],
+  "steps": [
+    {
+      "step_id": "AR09-E1",
+      "from_claim_refs": [
+        "C089"
+      ],
+      "to_claim_ref": "C091",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C089",
+        "SS-C091"
+      ],
+      "limitations": "当时总体规模是估计"
+    },
+    {
+      "step_id": "AR09-E2",
+      "from_claim_refs": [
+        "C090"
+      ],
+      "to_claim_ref": "C092",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C090",
+        "SS-C092"
+      ],
+      "limitations": "后期分母时间尚未核"
+    },
+    {
+      "step_id": "AR09-E3",
+      "from_claim_refs": [
+        "C091"
+      ],
+      "to_claim_ref": "C092",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "statistical",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C091",
+        "SS-C092"
+      ],
+      "limitations": "需确认同一内容集合"
+    },
+    {
+      "step_id": "AR09-E4",
+      "from_claim_refs": [
+        "C093"
+      ],
+      "to_claim_ref": "C092",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "strongly_implied",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C093",
+        "SS-C092"
+      ],
+      "limitations": "传播增长是否投诉所致未知"
+    },
+    {
+      "step_id": "AR09-E5",
+      "from_claim_refs": [
+        "C092"
+      ],
+      "to_claim_ref": "C111",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C092",
+        "SS-C111"
+      ],
+      "limitations": "识破后的受众反应未测"
+    }
+  ],
+  "conclusion": [
+    "C111"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "statistical"
+  ],
+  "expression_level": [
+    "explicit",
+    "strongly_implied"
+  ],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 1,
+    "explicit_edge_count": 4
+  },
+  "limitations": "可观察到检查分母的分析动作，但结论缺原回应和同时间口径数据。",
+  "most_fragile_step": "AR09-E3",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C089",
+    "C090",
+    "C091",
+    "C092",
+    "C093",
+    "C111"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR10",
+  "title": "共同目标、对手转化与组织约束",
+  "premises": [
+    "C097",
+    "C100"
+  ],
+  "steps": [
+    {
+      "step_id": "AR10-E1",
+      "from_claim_refs": [
+        "C097"
+      ],
+      "to_claim_ref": "C096",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C097",
+        "SS-C096"
+      ],
+      "limitations": "历史政治联合与商业公关不是同一决策空间"
+    },
+    {
+      "step_id": "AR10-E2",
+      "from_claim_refs": [
+        "C096"
+      ],
+      "to_claim_ref": "C086",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C096",
+        "SS-C086"
+      ],
+      "limitations": "共同目标是否被路人接受未证"
+    },
+    {
+      "step_id": "AR10-E3",
+      "from_claim_refs": [
+        "C100"
+      ],
+      "to_claim_ref": "C108",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C100",
+        "SS-C108"
+      ],
+      "limitations": "团队内部动机未取得独立材料"
+    }
+  ],
+  "conclusion": [
+    "C108"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "analogy",
+    "causal"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 3,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 3
+  },
+  "limitations": "规范性“应当”与现实“能否”分开；主要矛盾是观察者的战略Assessment。",
+  "most_fragile_step": "AR10-E3",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C086",
+    "C096",
+    "C097",
+    "C100",
+    "C108"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径",
+  "argument_type": "historical_analogy",
+  "source_case": "抗日背景下争取原本敌对力量",
+  "target_case": "品牌争取路人/竞争品牌用户",
+  "shared_mechanism": "以共同目标减少对立并扩大支持",
+  "limits_of_analogy": "战争组织、国家目标与消费者选择的约束不同，不能证明公关效果"
+}
+```
+
+```json
+{
+  "argument_id": "AR11",
+  "title": "以约束边界代替人物预测",
+  "premises": [
+    "C106"
+  ],
+  "steps": [
+    {
+      "step_id": "AR11-E1",
+      "from_claim_refs": [
+        "C106"
+      ],
+      "to_claim_ref": "C104",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C106",
+        "SS-C104"
+      ],
+      "limitations": "信息有限支持谨慎，不证明边界已完整"
+    },
+    {
+      "step_id": "AR11-E2",
+      "from_claim_refs": [
+        "C104"
+      ],
+      "to_claim_ref": "C105",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C104",
+        "SS-C105"
+      ],
+      "limitations": "约束并不自动给出可证明的最好或最坏结果"
+    }
+  ],
+  "conclusion": [
+    "C105"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "direct",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "limitations": "这是方法自述，不等于每次实际分析都遵守；“只能更差”可能忽略创新和政策改变。",
+  "most_fragile_step": "AR11-E2",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C104",
+    "C105",
+    "C106"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "DA01",
+  "title": "财报到新行情必须跨过的条件（模型审计）",
+  "premises": [
+    "C041"
+  ],
+  "steps": [
+    {
+      "step_id": "DA01-E1",
+      "from_claim_refs": [
+        "C041"
+      ],
+      "to_claim_ref": "M03",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [
+        "SS-C041"
+      ],
+      "limitations": "先拆AI贡献、新旧订单及真实需求"
+    },
+    {
+      "step_id": "DA01-E2",
+      "from_claim_refs": [
+        "M03"
+      ],
+      "to_claim_ref": "M04",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [],
+      "limitations": "再看采用弹性和价格/工作量"
+    },
+    {
+      "step_id": "DA01-E3",
+      "from_claim_refs": [
+        "M04"
+      ],
+      "to_claim_ref": "M05",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [],
+      "limitations": "核总成本、经济寿命和现金投入"
+    },
+    {
+      "step_id": "DA01-E4",
+      "from_claim_refs": [
+        "M05"
+      ],
+      "to_claim_ref": "M01",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [],
+      "limitations": "核利润率、持续现金流与估值"
+    },
+    {
+      "step_id": "DA01-E5",
+      "from_claim_refs": [
+        "M01"
+      ],
+      "to_claim_ref": "M06",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "model_reconstruction",
+      "reasoner_id": "model_gpt6",
+      "analysis_context": "model_diagnostic",
+      "evidence_refs": [],
+      "limitations": "最后核预期差和市场触发"
+    }
+  ],
+  "conclusion": [
+    "M06"
+  ],
+  "reasoner_id": "model_gpt6",
+  "analysis_context": "model_diagnostic",
+  "inference_mode": [
+    "causal",
+    "direct"
+  ],
+  "expression_level": [
+    "model_reconstruction"
+  ],
+  "inferential_distance": {
+    "edge_count": 5,
+    "longest_path_length": 5,
+    "model_bridge_count": 5,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 0
+  },
+  "limitations": "五个诊断环节为模型补充；不声称主播提出或赞同这些完整判准。",
+  "most_fragile_step": "DA01-E5",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C041",
+    "M01",
+    "M03",
+    "M04",
+    "M05",
+    "M06"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR12",
+  "title": "技术寿命的手机类比",
+  "premises": [
+    "C110"
+  ],
+  "steps": [
+    {
+      "step_id": "AR12-E1",
+      "from_claim_refs": [
+        "C110"
+      ],
+      "to_claim_ref": "C072",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C110",
+        "SS-C072"
+      ],
+      "limitations": "手机十年变化不能定量给GPU折旧率"
+    }
+  ],
+  "conclusion": [
+    "C072"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "analogy"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 1,
+    "longest_path_length": 1,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 1
+  },
+  "limitations": "设备负载、替换需求和残值不同，不能由类比推出数倍成本。",
+  "most_fragile_step": "AR12-E1",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C072",
+    "C110"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径",
+  "argument_type": "historical_analogy",
+  "source_case": "手机十年代际差异",
+  "target_case": "算力卡七至十年经济寿命",
+  "shared_mechanism": "小的年度差异可累积成显著代际差距",
+  "limits_of_analogy": "不能给出GPU寿命、兼容性及减值比例；iPhone年份待听音"
+}
+```
+
+```json
+{
+  "argument_id": "AR13",
+  "title": "救市效果不足与反弹类比",
+  "premises": [
+    "C082"
+  ],
+  "steps": [
+    {
+      "step_id": "AR13-E1",
+      "from_claim_refs": [
+        "C082"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C082",
+        "SS-C064"
+      ],
+      "limitations": "汇率救市和云股估值不是相同干预机制"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "analogy"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 1,
+    "longest_path_length": 1,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 1
+  },
+  "limitations": "前期节目与救市原始材料未核，类比只留有限机制。",
+  "most_fragile_step": "AR13-E1",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C064",
+    "C082"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径",
+  "argument_type": "historical_analogy",
+  "source_case": "主播所称美日联合汇率救市",
+  "target_case": "云股反弹",
+  "shared_mechanism": "投入与效果失配可能破坏预期协同",
+  "limits_of_analogy": "政策主体、价格工具、资产现金流不同"
+}
+```
+
+```json
+{
+  "argument_id": "AR14",
+  "title": "拒绝新故事的本期判断门槛",
+  "premises": [
+    "C014",
+    "C079",
+    "C112"
+  ],
+  "steps": [
+    {
+      "step_id": "AR14-E1",
+      "from_claim_refs": [
+        "C112"
+      ],
+      "to_claim_ref": "C080",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C112",
+        "SS-C080"
+      ],
+      "limitations": "不接受外部结论之后要求给出支撑"
+    },
+    {
+      "step_id": "AR14-E2",
+      "from_claim_refs": [
+        "C079"
+      ],
+      "to_claim_ref": "C080",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C079",
+        "SS-C080"
+      ],
+      "limitations": "业务与需求无质变的断言尚未证明"
+    },
+    {
+      "step_id": "AR14-E3",
+      "from_claim_refs": [
+        "C080"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "speculation",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C080",
+        "SS-C064"
+      ],
+      "limitations": "未见足够证据支持上涨不等于证明必然下跌"
+    },
+    {
+      "step_id": "AR14-E4",
+      "from_claim_refs": [
+        "C014"
+      ],
+      "to_claim_ref": "C064",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C014",
+        "SS-C064"
+      ],
+      "limitations": "持续资金不足未量化"
+    }
+  ],
+  "conclusion": [
+    "C064"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal",
+    "direct",
+    "speculation"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 4,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 4
+  },
+  "limitations": "可恢复拒绝门槛，但不可补成完整买入/看多规则；仍有从证据不足到反向确定性的跳跃。",
+  "most_fragile_step": "AR14-E3",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C014",
+    "C064",
+    "C079",
+    "C080",
+    "C112"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR15",
+  "title": "追涨结果的分支解释",
+  "premises": [
+    "C062"
+  ],
+  "steps": [
+    {
+      "step_id": "AR15-E1",
+      "from_claim_refs": [
+        "C062"
+      ],
+      "to_claim_ref": "C063",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "causal",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C062",
+        "SS-C063"
+      ],
+      "limitations": "回本动机不能证明所有投资者均有同样心理"
+    }
+  ],
+  "conclusion": [
+    "C063"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "causal"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 1,
+    "longest_path_length": 1,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 1
+  },
+  "limitations": "早退、幸运与晚退均可讲成负面，会降低可反证性；这里只登记原文明示的情景组织。",
+  "most_fragile_step": "AR15-E1",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C062",
+    "C063"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+```json
+{
+  "argument_id": "AR16",
+  "title": "路人视角与争取对象",
+  "premises": [
+    "C094",
+    "C096"
+  ],
+  "steps": [
+    {
+      "step_id": "AR16-E1",
+      "from_claim_refs": [
+        "C094"
+      ],
+      "to_claim_ref": "C086",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "direct",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C094",
+        "SS-C086"
+      ],
+      "limitations": "视角切换有助于设问，不能直接量化销售效果"
+    },
+    {
+      "step_id": "AR16-E2",
+      "from_claim_refs": [
+        "C096"
+      ],
+      "to_claim_ref": "C086",
+      "relation": "SUPPORTS_CONDITIONALLY",
+      "inference_mode": "analogy",
+      "expression_level": "explicit",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "evidence_refs": [
+        "SS-C096",
+        "SS-C086"
+      ],
+      "limitations": "共同目标是否成立需受众研究"
+    }
+  ],
+  "conclusion": [
+    "C086"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "inference_mode": [
+    "analogy",
+    "direct"
+  ],
+  "expression_level": [
+    "explicit"
+  ],
+  "inferential_distance": {
+    "edge_count": 2,
+    "longest_path_length": 1,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "strongly_implied_edge_count": 0,
+    "explicit_edge_count": 2
+  },
+  "limitations": "这是主播使用的规范性分析动作，原文没有给出实践转化率。",
+  "most_fragile_step": "AR16-E2",
+  "creator_shortcuts": [],
+  "claim_refs": [
+    "C086",
+    "C094",
+    "C096"
+  ],
+  "distance_scope": "代表性审计展开图，不声称唯一完整认知路径"
+}
+```
+
+## 19 MECHANISMS
+
+```json
+{
+  "mechanism_id": "ME01",
+  "status": "canonical_candidate_not_promoted",
+  "name": "投入品税负/公共配套成本向项目回报传导",
+  "nodes": [
+    "税负或费用变化",
+    "边际成本变化",
+    "回报变化"
+  ],
+  "limitations": "收入不变及不能完全转嫁时方向才明确",
+  "claim_refs": [
+    "C026",
+    "C027"
+  ],
+  "argument_refs": [
+    "AR02"
+  ]
+}
+```
+
+```json
+{
+  "mechanism_id": "ME02",
+  "status": "canonical_candidate_not_promoted",
+  "name": "资本设备经济寿命与回收期错配",
+  "nodes": [
+    "技术迭代/损坏",
+    "剩余可用年限",
+    "替换支出与成本确认",
+    "现金回收压力"
+  ],
+  "limitations": "会计折旧与经济寿命要分开",
+  "claim_refs": [
+    "C065",
+    "C066",
+    "C073"
+  ],
+  "argument_refs": [
+    "AR05"
+  ]
+}
+```
+
+```json
+{
+  "mechanism_id": "ME03",
+  "status": "canonical_candidate_not_promoted",
+  "name": "价格回报与资金吸引力反馈",
+  "nodes": [
+    "预期回报",
+    "新增资金参与",
+    "价格",
+    "预期反馈"
+  ],
+  "limitations": "可以正反馈也可以负反馈，不能自动选方向",
+  "claim_refs": [
+    "C062",
+    "C077",
+    "C078"
+  ],
+  "argument_refs": [
+    "AR07"
+  ]
+}
+```
+
+## 20 MECHANISM USAGE
+
+```json
+{
+  "usage_id": "MU01",
+  "analyst_id": "analyst_youhegaojian9527",
+  "mechanism_ref": "ME01",
+  "expression_level": "explicit",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "claim_refs": [
+    "C026",
+    "C027"
+  ],
+  "argument_refs": [
+    "AR02"
+  ],
+  "source_segment_refs": [
+    "SS-C026",
+    "SS-C027"
+  ],
+  "qualification": "只归因原文明确使用部分，不把模型补足条件视为主播动作"
+}
+```
+
+```json
+{
+  "usage_id": "MU02",
+  "analyst_id": "analyst_youhegaojian9527",
+  "mechanism_ref": "ME02",
+  "expression_level": "explicit",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "claim_refs": [
+    "C065",
+    "C066",
+    "C073"
+  ],
+  "argument_refs": [
+    "AR05"
+  ],
+  "source_segment_refs": [
+    "SS-C065",
+    "SS-C066",
+    "SS-C073"
+  ],
+  "qualification": "只归因原文明确使用部分，不把模型补足条件视为主播动作"
+}
+```
+
+```json
+{
+  "usage_id": "MU03",
+  "analyst_id": "analyst_youhegaojian9527",
+  "mechanism_ref": "ME03",
+  "expression_level": "explicit",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "claim_refs": [
+    "C062",
+    "C077",
+    "C078"
+  ],
+  "argument_refs": [
+    "AR07"
+  ],
+  "source_segment_refs": [
+    "SS-C062",
+    "SS-C077",
+    "SS-C078"
+  ],
+  "qualification": "只归因原文明确使用部分，不把模型补足条件视为主播动作"
+}
+```
+
+## 21 SCENARIOS
+
+```json
+{
+  "scenario_id": "SC01",
+  "claim_refs": [
+    "C021"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "维持相同估值增长叙事",
+  "outcome": "下季需要更多超预期收入",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C021"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "数值断裂；是必要条件论述非未来收入预测"
+}
+```
+
+```json
+{
+  "scenario_id": "SC02",
+  "claim_refs": [
+    "C023"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "税惠取消且设备采购适用约7%销售税",
+  "outcome": "每GW设备成本增加约30亿美元",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C023"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "外部成本测算，非全行业已发生值"
+}
+```
+
+```json
+{
+  "scenario_id": "SC03",
+  "claim_refs": [
+    "C026"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "数据中心业务持续增长",
+  "outcome": "额外运营/电网平衡收费",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C026"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "强情态但州、时间和收费标准未明确；候选预测不入正式ledger"
+}
+```
+
+```json
+{
+  "scenario_id": "SC04",
+  "claim_refs": [
+    "C027"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "项目获利吸引收费且不能转嫁",
+  "outcome": "盈利受挤压",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C027"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "机制性IF-THEN"
+}
+```
+
+```json
+{
+  "scenario_id": "SC05",
+  "claim_refs": [
+    "C029"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "成本无法维持",
+  "outcome": "采用更便宜模型",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C029"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "唯一选择断言需审计"
+}
+```
+
+```json
+{
+  "scenario_id": "SC06",
+  "claim_refs": [
+    "C030"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "采用廉价替代且需求不补偿",
+  "outcome": "量价及既有收益受压",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C030"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "原话未控制弹性；净方向未定"
+}
+```
+
+```json
+{
+  "scenario_id": "SC07",
+  "claim_refs": [
+    "C048"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "继续维持炒作节奏",
+  "outcome": "超预期幅度从5变10",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C048"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "不是下季收入将增长10%的预测"
+}
+```
+
+```json
+{
+  "scenario_id": "SC08",
+  "claim_refs": [
+    "C057"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "需求增三份且只投资两份",
+  "outcome": "未来萎缩时降低过投风险",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C057"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "举例"
+}
+```
+
+```json
+{
+  "scenario_id": "SC09",
+  "claim_refs": [
+    "C063"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "追涨者跑早/碰巧成功/跑晚",
+  "outcome": "各分支都可能增加下次风险",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C063"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "分支讨论不当成逐项未来事件"
+}
+```
+
+```json
+{
+  "scenario_id": "SC10",
+  "claim_refs": [
+    "C065"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "周期收入大于或小于折旧",
+  "outcome": "赚或赔",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C065"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "利润简化遗漏其他成本"
+}
+```
+
+```json
+{
+  "scenario_id": "SC11",
+  "claim_refs": [
+    "C068"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "延长会计评估年限",
+  "outcome": "当前折旧费用降低",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C068"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "方法举例不是已发生公司政策"
+}
+```
+
+```json
+{
+  "scenario_id": "SC12",
+  "claim_refs": [
+    "C069"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "旧卡可兼容补损",
+  "outcome": "报表与支出压力暂缓",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C069"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "物理可行性未证"
+}
+```
+
+```json
+{
+  "scenario_id": "SC13",
+  "claim_refs": [
+    "C070"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "年限反复延长",
+  "outcome": "最终仍有淘汰极限",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C070"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "边界讨论"
+}
+```
+
+```json
+{
+  "scenario_id": "SC14",
+  "claim_refs": [
+    "C072"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "七至十年技术差距累积",
+  "outcome": "必须确认部分损失",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C072"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "不是指定年份必然巨亏"
+}
+```
+
+```json
+{
+  "scenario_id": "SC15",
+  "claim_refs": [
+    "C073"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "旧设备不可用且需按新品价补足",
+  "outcome": "资本支出/成本上升",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C073"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "合约及采购价未知"
+}
+```
+
+```json
+{
+  "scenario_id": "SC16",
+  "claim_refs": [
+    "C075"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "发生折旧跳升",
+  "outcome": "可能数倍或十倍",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C075"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "无概率/窗口测算；不建十倍预测"
+}
+```
+
+```json
+{
+  "scenario_id": "SC17",
+  "claim_refs": [
+    "C078"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "缺乏赚钱效应",
+  "outcome": "吸引力下降及踩踏风险",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C078"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "不能视为无条件崩盘"
+}
+```
+
+```json
+{
+  "scenario_id": "SC18",
+  "claim_refs": [
+    "C095"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "反感者中包含竞争品牌用户",
+  "outcome": "仍可分层争取",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C095"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "规范性反事实"
+}
+```
+
+```json
+{
+  "scenario_id": "SC19",
+  "claim_refs": [
+    "C107"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "观众不认可价值",
+  "outcome": "可能能力不足或高于主播",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C107"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "二分并不穷尽其他原因"
+}
+```
+
+```json
+{
+  "scenario_id": "SC20",
+  "claim_refs": [
+    "C111"
+  ],
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "condition_expression": "受众识破不当比例比较",
+  "outcome": "公关效果变差",
+  "branch_probability": null,
+  "branch_selected": false,
+  "source_segment_refs": [
+    "SS-C111"
+  ],
+  "forecast_admission": "not_admitted",
+  "reason": "未测受众反应"
+}
+```
+
+## 22 THESES
+
+```json
+{
+  "thesis_id": "TH01",
+  "statement": "9527认为当前云财报与订单叙事不足以启动新一轮行情，资金及成本约束仍占主导。",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "status": "candidate_unverified",
+  "resolution": "related",
+  "resolution_provisional": true,
+  "registry_search": {
+    "scope": "local_only",
+    "searched": [
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json",
+      "golden_sample_003/golden_sample_003.json"
+    ],
+    "limitation": "部分既有样本晚于本期，只作Registry/Method比较；不补入历史InformationSet。"
+  },
+  "argument_refs": [
+    "AR01",
+    "AR03",
+    "AR04",
+    "AR05",
+    "AR07"
+  ],
+  "traceability": [
+    {
+      "argument_id": "AR01",
+      "claim_id": "C004",
+      "source_segment_id": "SS-C004",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C016",
+      "source_segment_id": "SS-C016",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C017",
+      "source_segment_id": "SS-C017",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C019",
+      "source_segment_id": "SS-C019",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C020",
+      "source_segment_id": "SS-C020",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR01",
+      "claim_id": "C021",
+      "source_segment_id": "SS-C021",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C028",
+      "source_segment_id": "SS-C028",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C029",
+      "source_segment_id": "SS-C029",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C030",
+      "source_segment_id": "SS-C030",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR03",
+      "claim_id": "C064",
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C044",
+      "source_segment_id": "SS-C044",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C051",
+      "source_segment_id": "SS-C051",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C055",
+      "source_segment_id": "SS-C055",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C056",
+      "source_segment_id": "SS-C056",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C059",
+      "source_segment_id": "SS-C059",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C060",
+      "source_segment_id": "SS-C060",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C061",
+      "source_segment_id": "SS-C061",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR04",
+      "claim_id": "C064",
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C064",
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C066",
+      "source_segment_id": "SS-C066",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C067",
+      "source_segment_id": "SS-C067",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C068",
+      "source_segment_id": "SS-C068",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C069",
+      "source_segment_id": "SS-C069",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C072",
+      "source_segment_id": "SS-C072",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C073",
+      "source_segment_id": "SS-C073",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C074",
+      "source_segment_id": "SS-C074",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR05",
+      "claim_id": "C075",
+      "source_segment_id": "SS-C075",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C060",
+      "source_segment_id": "SS-C060",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C064",
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C077",
+      "source_segment_id": "SS-C077",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR07",
+      "claim_id": "C078",
+      "source_segment_id": "SS-C078",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    }
+  ],
+  "followup_support_and_falsification": "跟踪真实AI收入、利润、现金流、资产寿命和估值；若持续新增现金回报且成本受控，应更新。"
+}
+```
+
+```json
+{
+  "thesis_id": "TH02",
+  "statement": "9527认为品牌扩张受既有粉丝打法与内部纠错约束影响，需要改变争取对象的方式。",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "status": "candidate_unverified",
+  "resolution": "new",
+  "resolution_provisional": true,
+  "registry_search": {
+    "scope": "local_only",
+    "searched": [
+      "golden_report.md",
+      "golden_sample_002/golden_sample_002.json",
+      "golden_sample_003/golden_sample_003.json"
+    ],
+    "limitation": "部分既有样本晚于本期，只作Registry/Method比较；不补入历史InformationSet。"
+  },
+  "argument_refs": [
+    "AR08",
+    "AR09",
+    "AR10"
+  ],
+  "traceability": [
+    {
+      "argument_id": "AR08",
+      "claim_id": "C084",
+      "source_segment_id": "SS-C084",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C085",
+      "source_segment_id": "SS-C085",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C086",
+      "source_segment_id": "SS-C086",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C087",
+      "source_segment_id": "SS-C087",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C088",
+      "source_segment_id": "SS-C088",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C098",
+      "source_segment_id": "SS-C098",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR08",
+      "claim_id": "C108",
+      "source_segment_id": "SS-C108",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C089",
+      "source_segment_id": "SS-C089",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C090",
+      "source_segment_id": "SS-C090",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C091",
+      "source_segment_id": "SS-C091",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C092",
+      "source_segment_id": "SS-C092",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C093",
+      "source_segment_id": "SS-C093",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR09",
+      "claim_id": "C111",
+      "source_segment_id": "SS-C111",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C086",
+      "source_segment_id": "SS-C086",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C096",
+      "source_segment_id": "SS-C096",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C097",
+      "source_segment_id": "SS-C097",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C100",
+      "source_segment_id": "SS-C100",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    },
+    {
+      "argument_id": "AR10",
+      "claim_id": "C108",
+      "source_segment_id": "SS-C108",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ]
+    }
+  ],
+  "followup_support_and_falsification": "需品牌销量/客群/公关反应与组织行动的跨期证据；目前不证明长期结构冲突。"
+}
+```
+
+## 23 FORECASTS
+
+```json
+{
+  "forecast_id": "FC-C035",
+  "claim_id": "C035",
+  "forecaster_id": "analyst_youhegaojian9527",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "unconditional",
+  "made_at": "2026-08-05T09:48:48+08:00",
+  "made_at_basis": "video publication proxy",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "整体生产力",
+  "direction": "跃迁",
+  "prediction_window": "培育一段时间；未知",
+  "conditions": null,
+  "modal_strength": "likely",
+  "original_modality": "这个和场景其实就是美国梦想中AI。\n开始大发展大繁荣应该有的。\n这样的场景越来越多，培育一段时间以后，在这里边就会产生整个生产力的跃迁。\n对吧对AI越来越离不开嘛。",
+  "resolvability": "low",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "培育一段时间；未知",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+```json
+{
+  "forecast_id": "FC-C039",
+  "claim_id": "C039",
+  "forecaster_id": "andy_jassy",
+  "reasoner_id": "andy_jassy",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "unconditional",
+  "made_at": null,
+  "made_at_basis": "original CEO speech time not verified; video secondary report at cutoff",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "服务器及网络投资盈亏平衡",
+  "direction": "距回本不足三年",
+  "prediction_window": "从CEO发言起不足三年，发言日期未核",
+  "conditions": null,
+  "modal_strength": "likely",
+  "original_modality": "呃，关于这个AI投入投资回报率的这个关键问题呢。\n亚马逊的CEO表示呢。\n距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+  "resolvability": "medium",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "从CEO发言起不足三年，发言日期未核",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+```json
+{
+  "forecast_id": "FC-C064",
+  "claim_id": "C064",
+  "forecaster_id": "analyst_youhegaojian9527",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "branch_selection",
+  "made_at": "2026-08-05T09:48:48+08:00",
+  "made_at_basis": "video publication proxy",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "本轮科技股反弹/泡沫",
+  "direction": "反弹不持久且不能逆转破裂趋势",
+  "prediction_window": "支撑不了多久；未知",
+  "conditions": null,
+  "modal_strength": "near_certain",
+  "original_modality": "都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？\n我前面已经跟他说了是吧，从外部的因素，内部的因素。\n这客观的因素。\n也支撑不了多久了。",
+  "resolvability": "low",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "支撑不了多久；未知",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+```json
+{
+  "forecast_id": "FC-C074",
+  "claim_id": "C074",
+  "forecaster_id": "analyst_youhegaojian9527",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "unconditional",
+  "made_at": "2026-08-05T09:48:48+08:00",
+  "made_at_basis": "video publication proxy",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "算力折旧费用",
+  "direction": "台阶式上升",
+  "prediction_window": "很快；未知",
+  "conditions": null,
+  "modal_strength": "likely",
+  "original_modality": "而另一方面呢，你肉眼可见的这个折旧。\n很快就会带来迎来一个量变一些质变的上台阶。",
+  "resolvability": "low",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "很快；未知",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+```json
+{
+  "forecast_id": "FC-C081",
+  "claim_id": "C081",
+  "forecaster_id": "analyst_youhegaojian9527",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "unconditional",
+  "made_at": "2026-08-05T09:48:48+08:00",
+  "made_at_basis": "video publication proxy",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "科技股反弹",
+  "direction": "回落速度很快",
+  "prediction_window": "迟早；未知",
+  "conditions": null,
+  "modal_strength": "near_certain",
+  "original_modality": "那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+  "resolvability": "low",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "迟早；未知",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+```json
+{
+  "forecast_id": "FC-C108",
+  "claim_id": "C108",
+  "forecaster_id": "analyst_youhegaojian9527",
+  "reasoner_id": "analyst_youhegaojian9527",
+  "analysis_context": "historical_reconstruction",
+  "ledger_type": "branch_selection",
+  "made_at": "2026-08-05T09:48:48+08:00",
+  "made_at_basis": "video publication proxy",
+  "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+  "target": "华为纠错",
+  "direction": "难以纠正",
+  "prediction_window": "未知",
+  "conditions": null,
+  "modal_strength": "likely",
+  "original_modality": "这个话不是我今天说的，半年前就说了，他跑偏了。\n对吧。\n但是我现在很悲观，我认为他没办法从自己的错误中改正出来，为啥呢？\n他现在都没认为他自己错了。\n就好像恰如现在的美国一样。",
+  "resolvability": "low",
+  "admission_reason": "明确方向承诺或分支选择，不仅是讨论IF-THEN",
+  "resolution_criteria": {
+    "creator_specified": "未知",
+    "model_proposed": "预先锁定指标/对象、基期、期限和阈值；回本需明确资产批次与现金流口径。",
+    "human_approved": null,
+    "accepted_for_scoring": false
+  },
+  "evaluation_status": "not_scored"
+}
+```
+
+## 24 CONTRADICTIONS
+
+none
+
+## 25 CANDIDATE HEURISTICS
+
+none
+
+## 26 ANALYST METHOD SIGNALS
+
+```json
+{
+  "analyst_id": "analyst_youhegaojian9527",
+  "attention_patterns": [
+    {
+      "signal_id": "MS01",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "attention_pattern",
+      "statement": "先问叙事维持所需资金、持续运行成本和可执行边界，再判断新闻解释是否足够。",
+      "source_segment_refs": [
+        "SS-C014",
+        "SS-C080",
+        "SS-C104"
+      ],
+      "argument_refs": [
+        "AR14",
+        "AR11"
+      ],
+      "claim_refs": [
+        "C014",
+        "C080",
+        "C104"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "repeated",
+      "matched_prior_signal_refs": [
+        "GS003/HC01",
+        "GS001/summary:结构力量优先于政治人物"
+      ],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "原文明确说明选择变量的次序，并在云成本及末尾自述重复。",
+      "limitations": "不是已经证明资金约束无解，也不能推断所有未来视频均如此；GS001仅摘要可比，不能声称逐句复核。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "question_patterns": [
+    {
+      "signal_id": "MS02",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "question_pattern",
+      "statement": "追问总量中的旧业务和新贡献，并检查比较数字的分母及发生时间。",
+      "source_segment_refs": [
+        "SS-C055",
+        "SS-C091",
+        "SS-C092"
+      ],
+      "argument_refs": [
+        "AR04",
+        "AR09"
+      ],
+      "claim_refs": [
+        "C055",
+        "C091",
+        "C092"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "分别向云订单与投诉比例提出口径问题，是对证据的操作。",
+      "limitations": "没有证据证明其得到的拆分答案正确；也不等同GS002完整的增量看趋势存量看空间。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    },
+    {
+      "signal_id": "MS07",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "question_pattern",
+      "statement": "暂时转换为非粉丝视角，并围绕增长目标判断是否在争取可转化人群。",
+      "source_segment_refs": [
+        "SS-C086",
+        "SS-C094",
+        "SS-C096"
+      ],
+      "argument_refs": [
+        "AR16"
+      ],
+      "claim_refs": [
+        "C086",
+        "C094",
+        "C096"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "是问题选择及观察位置的改变，适用于解释公关选择。",
+      "limitations": "主张能争取不等于实际转化有效；政治联合类比有边界。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "evidence_preferences": [],
+  "mechanism_usage_signals": [
+    {
+      "signal_id": "MS03",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "mechanism_usage",
+      "statement": "把资本设备寿命与周期回报匹配作为云业务能否赚钱的检查点。",
+      "source_segment_refs": [
+        "SS-C066",
+        "SS-C072",
+        "SS-C073"
+      ],
+      "argument_refs": [
+        "AR05"
+      ],
+      "claim_refs": [
+        "C066",
+        "C072",
+        "C073"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "domain_specific",
+      "recurrence_status": "repeated",
+      "matched_prior_signal_refs": [
+        "GS003/HC02"
+      ],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "检查资本回收与成本的方式可以跨资本密集行业使用。",
+      "limitations": "只归因原文明确部分；会计/经济折旧的完整区分来自模型审计；与前期仅成本/周期子动作复现。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "branching_patterns": [
+    {
+      "signal_id": "MS08",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "branching_pattern",
+      "statement": "把追涨后的跑早、侥幸成功、跑晚分别展开，但都归入下一次风险增加。",
+      "source_segment_refs": [
+        "SS-C063"
+      ],
+      "argument_refs": [
+        "AR15"
+      ],
+      "claim_refs": [
+        "C063"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "unknown",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "观察到组织不确定性的方法，而非逐项预测未来结果。",
+      "limitations": "分支结果全导向同一结论，有封闭解释风险；不能据此证明穷尽或稳定方法。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "judgment_patterns": [
+    {
+      "signal_id": "MS04",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "judgment_pattern",
+      "statement": "本期不把财报超预期和股价反弹作为充分证据，要求能解释持续上涨的业务、应用及需求支撑。",
+      "source_segment_refs": [
+        "SS-C079",
+        "SS-C080",
+        "SS-C112"
+      ],
+      "argument_refs": [
+        "AR14"
+      ],
+      "claim_refs": [
+        "C079",
+        "C080",
+        "C112"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "出现了接受或拒绝叙事的条件式判断动作。",
+      "limitations": "只观察到拒绝门槛；没有足够证据恢复一套何时愿意买入/相信故事的完整政策。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "analogy_patterns": [
+    {
+      "signal_id": "MS05",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "analogy_pattern",
+      "statement": "用成熟技术习惯与设备代际变化解释新技术的扩散和寿命边界。",
+      "source_segment_refs": [
+        "SS-C036",
+        "SS-C110"
+      ],
+      "argument_refs": [
+        "AR06",
+        "AR12"
+      ],
+      "claim_refs": [
+        "C036",
+        "C110"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "在两处使用跨案例共享机制，不只是重复结论。",
+      "limitations": "类比不证明同幅生产率提升、同寿命或同折旧金额。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "falsification_patterns": [],
+  "failure_patterns": [
+    {
+      "signal_id": "MS06",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "failure_pattern",
+      "statement": "从季度与日度时间比直接推90倍泡沫，未提供估值模型。",
+      "source_segment_refs": [
+        "SS-C019",
+        "SS-C020"
+      ],
+      "argument_refs": [
+        "AR01"
+      ],
+      "claim_refs": [
+        "C019",
+        "C020"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "unknown",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "可明确定位的量纲/推导动作缺陷；未来可检查是否重复。",
+      "limitations": "标注者是模型；记录的是显式原文跳跃，不把M01/M02补全当主播方法；尚非稳定失败模式。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ]
+}
+```
+
+## 27 REVIEW QUEUE
+
+```json
+{
+  "review_id": "RQ001",
+  "severity": "Critical",
+  "review_type": "excessive_inference",
+  "target_refs": [
+    "C020",
+    "AR01",
+    "MS06"
+  ],
+  "issue": "以90天/1天得90倍泡沫，量纲与估值对象错误。",
+  "required_action": "保留原推理；用正式现金流/估值模型另审，不能改写成主播做过。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ002",
+  "severity": "Critical",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C056",
+    "C059",
+    "AR04"
+  ],
+  "issue": "RPO从合同义务被转成成本/硬件冗余。",
+  "required_action": "核原声指代和订单说明；将合同存量、收入、产能、CapEx分开。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ003",
+  "severity": "Critical",
+  "review_type": "model_reconstruction_leakage",
+  "target_refs": [
+    "DA01",
+    "MS01",
+    "MS02",
+    "MS03",
+    "MS04",
+    "MS05",
+    "MS06",
+    "MS07",
+    "MS08"
+  ],
+  "issue": "DA01条件链不能成为9527方法训练正样本。",
+  "required_action": "校验Method只引用creator Claim与对应显式/强蕴含动作，保留标注者身份。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ004",
+  "severity": "High",
+  "review_type": "source_conflict",
+  "target_refs": [
+    "C022",
+    "X06",
+    "PO01"
+  ],
+  "issue": "13州已取消与4取消/暂停+9研究不一致。",
+  "required_action": "逐州官方法案、阶段、生效时间；不能把政策研究当完成。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ005",
+  "severity": "High",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C023",
+    "X07"
+  ],
+  "issue": "30亿美元/GW是设备税负情景，不是通用年度AI运营成本。",
+  "required_action": "保存税率、设备基数、州和更新周期。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ006",
+  "severity": "High",
+  "review_type": "numerical_conflict",
+  "target_refs": [
+    "C016",
+    "C017",
+    "C019",
+    "C109"
+  ],
+  "issue": "销售额精度与新闻共识币种不一致，差额被粗估20。",
+  "required_action": "读取公司明细及原共识数据；不能静默修复新闻“亿元”。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ007",
+  "severity": "High",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C041",
+    "C042",
+    "C043",
+    "C044",
+    "C045",
+    "C047"
+  ],
+  "issue": "Azure、Microsoft Cloud、商业RPO范围不同；百分点/百分比/环比混用。",
+  "required_action": "按公司指标定义单列，3.02个百分点和8.13%仅条件计算。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ008",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C003"
+  ],
+  "issue": "贝索斯套现1500亿缺币种、时间及交易材料。",
+  "required_action": "查原声明/申报并听音，不依据市值推套现额。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ009",
+  "severity": "High",
+  "review_type": "asr_uncertain",
+  "target_refs": [
+    "C001",
+    "TC01"
+  ],
+  "issue": "SpaceX财报名称未核。",
+  "required_action": "回听首20秒并核指定财报；不能自动改成Tesla。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ010",
+  "severity": "High",
+  "review_type": "asr_uncertain",
+  "target_refs": [
+    "C021",
+    "TC07"
+  ],
+  "issue": "3040亿5亿美元无法可靠解析。",
+  "required_action": "回听06:08–06:17；未确定数值不得做Observation点估计。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ011",
+  "severity": "High",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C028",
+    "C029",
+    "C030",
+    "X08",
+    "X09"
+  ],
+  "issue": "任务成本1%不等于硬件、云商总成本或等能力替换。",
+  "required_action": "锁模型版本/任务/缓存/能力/Token量，再评估调用弹性。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ012",
+  "severity": "High",
+  "review_type": "argument_bridge",
+  "target_refs": [
+    "C029",
+    "C030",
+    "AR03"
+  ],
+  "issue": "唯一选择与量价同时下降没有替代路径比较。",
+  "required_action": "检查效率促进需求的相反分支，不替主播补为已说。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ013",
+  "severity": "High",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C065",
+    "C068",
+    "C069",
+    "C073",
+    "M05"
+  ],
+  "issue": "折旧、减值、资本支出、现金盈利混为一层。",
+  "required_action": "区分资产批次、经济寿命、会计估计与总运营成本。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ014",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C069",
+    "C074",
+    "C075"
+  ],
+  "issue": "旧GPU替补兼容性、折旧很快跳升及数倍十倍无测算。",
+  "required_action": "取得设备结构和资产政策；幅度仅情景，不建十倍预测。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ015",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C084",
+    "C085",
+    "M08"
+  ],
+  "issue": "未核同口径销量与粉丝渗透，不能验证下降原因。",
+  "required_action": "查截止前月度交付、车型/价格/用户结构。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ016",
+  "severity": "High",
+  "review_type": "attribution_chain",
+  "target_refs": [
+    "C083",
+    "C088",
+    "C089",
+    "C090",
+    "C091",
+    "C092"
+  ],
+  "issue": "原公关回应和传播序列未取得。",
+  "required_action": "找到原版本、分子分母时间和覆盖集合；方法动作与事实结论分别评估。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ017",
+  "severity": "High",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C100",
+    "C108"
+  ],
+  "issue": "组织不能接受失败等动机来自主播推测。",
+  "required_action": "区分可见行为、内部动机和未来纠错；不升级为组织事实。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ018",
+  "severity": "High",
+  "review_type": "forecast_lineage",
+  "target_refs": [
+    "C015",
+    "C082",
+    "C108"
+  ],
+  "issue": "去年、五月、星期一、半年前预测未得原节目。",
+  "required_action": "不要反填历史Forecast；核原版本与时间。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ019",
+  "severity": "High",
+  "review_type": "scenario_forecast_confusion",
+  "target_refs": [
+    "C026",
+    "C075",
+    "C078"
+  ],
+  "issue": "强情态条件句也不自动入正式ledger。",
+  "required_action": "SC03等列候选，补可判定触发/结果/窗口后人工决定。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ020",
+  "severity": "High",
+  "review_type": "forecast_lineage",
+  "target_refs": [
+    "FC-C035",
+    "FC-C039",
+    "FC-C064",
+    "FC-C074",
+    "FC-C081",
+    "FC-C108"
+  ],
+  "issue": "窗口或指标普遍不足，回本预测原发言时间未锁。",
+  "required_action": "预注册判准；禁止用截止后的市场结果回填。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ021",
+  "severity": "Medium",
+  "review_type": "source_dependency",
+  "target_refs": [
+    "S04",
+    "S10",
+    "S11",
+    "S12",
+    "S13"
+  ],
+  "issue": "新闻多公司起源混合，官方转述不能再算独立支持。",
+  "required_action": "使用片段origin family，不把同一财报算双源。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ022",
+  "severity": "Medium",
+  "review_type": "source_conflict",
+  "target_refs": [
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14"
+  ],
+  "issue": "当前网页不是cutoff历史快照。",
+  "required_action": "保留version_mutation_risk；剔除动态推荐、后续版本，不宣称消除全部污染风险。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ023",
+  "severity": "Medium",
+  "review_type": "analyst_attribution",
+  "target_refs": [
+    "S07",
+    "X10"
+  ],
+  "issue": "美债资料和卖铲/用铲标题不能被默认为主播显式机制。",
+  "required_action": "原片未搜到美债/收益率/债券/卖铲/用铲；语义阅读也未发现利率链。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ024",
+  "severity": "Medium",
+  "review_type": "speaker_slip_review",
+  "target_refs": [
+    "C071",
+    "C110",
+    "TC14"
+  ],
+  "issue": "2016十年类比与iPhone8并列、竹治料等ASR不清。",
+  "required_action": "回听后区分口误与机器错字。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ025",
+  "severity": "Medium",
+  "review_type": "method_signal_overreach",
+  "target_refs": [
+    "MS01",
+    "MS03",
+    "MS04",
+    "MS08"
+  ],
+  "issue": "复现是有限子动作，拒绝门槛非完整判断政策，单期分支非稳定风格。",
+  "required_action": "跨样本反例检验；不写成以后所有新闻都如此分析。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ026",
+  "severity": "Medium",
+  "review_type": "premature_heuristic_promotion",
+  "target_refs": [
+    "MS01",
+    "MS02",
+    "MS03",
+    "MS04",
+    "MS05",
+    "MS06",
+    "MS07",
+    "MS08"
+  ],
+  "issue": "方法信号不等于已验证Heuristic/Skill。",
+  "required_action": "本期新增CandidateHeuristic=0，保留未来复现和审查。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ027",
+  "severity": "Medium",
+  "review_type": "process_boundary",
+  "target_refs": [
+    "TH01",
+    "TH02"
+  ],
+  "issue": "两季度余额或一次反弹不足证明AI商业化及品牌结构过程。",
+  "required_action": "积累按同口径跨期数据并定义结构变量后再建Process。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ028",
+  "severity": "Medium",
+  "review_type": "mechanism_duplication",
+  "target_refs": [
+    "ME01",
+    "ME02",
+    "ME03"
+  ],
+  "issue": "没有完整共享机制库。",
+  "required_action": "只建共享候选和Usage，入库前查重，不创建9527专属复制机制。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ029",
+  "severity": "Medium",
+  "review_type": "unsupported_claim",
+  "target_refs": [
+    "C031",
+    "C032",
+    "C033",
+    "C035",
+    "C037"
+  ],
+  "issue": "国内工程使用的个人观察不能代表总体渗透，更不能证明美国未实现。",
+  "required_action": "补案例、分母、生产率评估及对照。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ030",
+  "severity": "Medium",
+  "review_type": "measurement_definition",
+  "target_refs": [
+    "C053"
+  ],
+  "issue": "合同40%购买云服务缺对象和行业分布。",
+  "required_action": "核具体项目；不可作为云行业统一成本率。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ031",
+  "severity": "Medium",
+  "review_type": "method_signal_overreach",
+  "target_refs": [
+    "C105",
+    "C107"
+  ],
+  "issue": "只能更差和观众二选一可能封闭解释。",
+  "required_action": "保留为单次推理薄弱点，未升级稳定failure_pattern。",
+  "status": "open"
+}
+```
+
+```json
+{
+  "review_id": "RQ032",
+  "severity": "Low",
+  "review_type": "asr_uncertain",
+  "target_refs": [
+    "TC02",
+    "TC04",
+    "TC05",
+    "TC06",
+    "TC08",
+    "TC10",
+    "TC11",
+    "TC13"
+  ],
+  "issue": "名称与术语语义可纠，但未听音。",
+  "required_action": "候选与raw并存，accepted=0。",
+  "status": "open"
+}
+```
+
+## 28 SCHEMA ONTOLOGY EXTRACTION ISSUES FOUND
+
+```json
+{
+  "issue_id": "IS01",
+  "classification": "schema_field_issue",
+  "problem": "增长率、超预期比例与百分点需要不同measurement语义",
+  "proposal": "Observation增加comparison_basis与numerator/denominator，金额币种不得推定。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS02",
+  "classification": "auxiliary_object_issue",
+  "problem": "Scene与Forecast准入还需保留强情态但不可判定的候选",
+  "proposal": "Scenario保存asserted_modality/commitment及admission_reason；不强行转正式预测。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS03",
+  "classification": "schema_field_issue",
+  "problem": "RPO合同、产能、资产和费用之间对象容易偷换",
+  "proposal": "标注accounting_role/recognition_stage/scope，保持14核心对象。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS04",
+  "classification": "auxiliary_object_issue",
+  "problem": "failure_pattern的标注者和被观察推理者不同",
+  "proposal": "保存annotation_observer=model与reasoner_id=analyst，原边必须可追溯。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS05",
+  "classification": "registry_issue",
+  "problem": "关系、Claim类型与机制无完整机器注册表",
+  "proposal": "本包为局部候选注册值；正式入库前映射，不宣称生产Schema验证。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS06",
+  "classification": "prompt_issue",
+  "problem": "标题聚焦云平台而视频后半为品牌公关，给定美债材料未见使用",
+  "proposal": "覆盖全片并区分user_supplied、creator_used与model_supplement；不硬造利率Mechanism。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS07",
+  "classification": "schema_field_issue",
+  "problem": "同期不同企业/业务范围不可加总",
+  "proposal": "保留company、segment、period_basis、currency及origin_family_ids。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS08",
+  "classification": "auxiliary_object_issue",
+  "problem": "方法复现可能只是先前规则的一部分",
+  "proposal": "recurrence保留matched_scope/partial而不只布尔；较晚样本只比方法不补历史。",
+  "new_core_object_required": false
+}
+```
+
+```json
+{
+  "issue_id": "IS09",
+  "classification": "core_ontology_issue",
+  "problem": "本期未发现必须新增核心对象的反复重要概念",
+  "proposal": "保留14核心对象；Scenario/MethodSignal/MechanismUsage均用既有辅助层。",
+  "new_core_object_required": false
+}
+```
+
+## 29 GOLDEN SAMPLE SUMMARY
+
+```json
+{
+  "source_count": 17,
+  "source_family_count": 14,
+  "origin_family_count": 16,
+  "claim_count": 131,
+  "creator_claim_count": 112,
+  "model_diagnostic_claim_count": 8,
+  "external_verification_claim_count": 11,
+  "claim_occurrence_count": 130,
+  "actor_count": 25,
+  "event_count": 7,
+  "structural_process_count": 0,
+  "indicator_count": 29,
+  "observation_count": 30,
+  "argument_count": 17,
+  "creator_argument_count": 16,
+  "model_diagnostic_argument_count": 1,
+  "mechanism_count": 3,
+  "mechanism_usage_count": 3,
+  "scenario_count": 20,
+  "thesis_count": 2,
+  "forecast_count": 6,
+  "unconditional_forecast_count": 4,
+  "conditional_forecast_count": 0,
+  "branch_selection_forecast_count": 2,
+  "creator_forecast_count": 5,
+  "attributed_company_forecast_count": 1,
+  "contradiction_count": 0,
+  "candidate_heuristic_count": 0,
+  "method_signal_count": 8,
+  "method_signal_counts": {
+    "attention_pattern": 1,
+    "question_pattern": 2,
+    "evidence_preference": 0,
+    "mechanism_usage": 1,
+    "branching_pattern": 1,
+    "judgment_pattern": 1,
+    "analogy_pattern": 1,
+    "falsification_pattern": 0,
+    "failure_pattern": 1
+  },
+  "review_queue_count": 32,
+  "review_severity_counts": {
+    "Critical": 3,
+    "High": 17,
+    "Medium": 11,
+    "Low": 1
+  }
+}
+```
+
+## 最终问题 A—O
+
+### A Core Arguments
+
+AR01：收入超预期→90倍泡沫；AR04：传统云/RPO→存量被包装成增量；AR05：硬件寿命/折旧→盈利压力→反弹难持续；AR03：低价模型→替换与量价压力；AR09：投诉分子分母时点→公关比例失真。前四条构成云题主线，最后一条提供另一域的方法证据。
+
+### B 四层分离
+
+```json
+[
+  {
+    "topic": "云财报",
+    "Observed_Reality": "已读取公司公告，核实披露行为和定义；并非独立审计其全部经营事实。",
+    "Source_Claim": "微软Azure增43%、商业RPO6780；新闻将其解释为AI回报兑现。",
+    "Analyst_Interpretation": "旧业务/存量被当增量，市场过度解释。",
+    "Thesis_Forecast": "TH01 / C064；前提披露真实不证明这一预测正确。"
+  },
+  {
+    "topic": "模型成本",
+    "Observed_Reality": "AA公开了0731评估及Token价格说明。",
+    "Source_Claim": "新闻比较的是任务成本，AA说明缓存及Token用量。",
+    "Analyst_Interpretation": "低价替代会迫使云商降量降价，为他人作嫁衣。",
+    "Thesis_Forecast": "支持TH01的条件场景SC05/06，不是已经验证的云利润崩溃。"
+  },
+  {
+    "topic": "税惠",
+    "Observed_Reality": "本次未逐州读取法规，政策实际生效范围仍未知。",
+    "Source_Claim": "报道为4州取消/暂停，9州研究；设备购置税负估算。",
+    "Analyst_Interpretation": "13州已取消，是电网成本转嫁的开端。",
+    "Thesis_Forecast": "成本压利润支持TH01；额外收费列Scenario，未将所有条件句入Forecast。"
+  },
+  {
+    "topic": "公关",
+    "Observed_Reality": "没有取得官方回应原始版本及内容流量底表。",
+    "Source_Claim": "主播转述170多投诉与55万量级总体。",
+    "Analyst_Interpretation": "后期分母稀释早期分子，并违背破圈目标。",
+    "Thesis_Forecast": "TH02及C108尚不能Verified。"
+  }
+]
+```
+
+### C 卖铲人→用铲人
+
+这是SRC-A新闻标题框架。转写没有逐字使用“卖铲/用铲”，但主播明确回应并反对“云业绩好→本轮上涨坚实”。他承认云增长和AI工作负载变化，重新聚焦成熟租赁业务、存量合同与成本；不能写成接受“切换已经完成”。
+
+### D 变量分离
+
+```json
+{
+  "creator_explicit": [
+    "销售/超预期",
+    "单日股价",
+    "未交付订单存量与增量",
+    "税惠与电网费用",
+    "低价模型替换",
+    "使用场景",
+    "硬件迭代/故障/折旧周期",
+    "持续资金与赚钱效应",
+    "公关分母/时点/目标受众"
+  ],
+  "model_diagnostic": [
+    "AI与传统收入拆分",
+    "任务质量/缓存/部署位置",
+    "需求价格弹性",
+    "现金流与会计折旧/减值分开",
+    "利润率及边际回报",
+    "履约期限与取消条款",
+    "预期差和估值折现",
+    "可反证的窗口阈值"
+  ]
+}
+```
+
+### E StructuralProcess
+
+本期不建立。RPO有Q3/Q4对照，证明一个可比余额变动，不足以单独证明AI商业化/云平台崛起。国内应用属未给时点/分母的个人观察。AA同价且任务Token变化也不能推全行业成本下降。新闻多州进度缺逐州有效事件，不强造结构过程。
+
+### F Scenario vs Forecast
+
+动态数量见第29节。正式预测只收方向承诺或分支选择；条件机制、设备举例、可能十倍与需要超预期翻倍不计预测。这落实了新版分离规则，但未做同一语料V0.3对照实验，不能声称量化证明误判率下降。
+
+### G Argument Distance
+
+AR05是最长代表性链：9边，其中2条模型边；“折旧上升→反弹不能持续”是显式捷径。用户指定的“云收入→AI商业化→新行情”在本期是主播质疑的外部叙事，不能伪作主播正向推导。DA01单独摊开5个模型诊断环节：收入订单拆分→需求弹性→全成本/寿命→现金流估值→预期差与触发。
+
+### H Mechanism
+
+ME01税费到成本回报、ME02设备寿命和回收期错配、ME03回报与资金反馈可作为共享候选，另存9527 Usage。90倍、13州全取消、十倍折旧、贝索斯套现和单次公关不建机制。缺全库Registry，canonical仅候选而非已审核。
+
+### I Method Signals
+
+8条：Attention MS01；Question MS02与MS07；Mechanism Usage MS03；Judgment MS04；Analogy MS05；Failure MS06；Branching MS08。Evidence Preference不建立稳定偏好：本期虽引用财报，后又强调底层逻辑、不从数据得结论，不能据单片宣称偏爱现金流。Falsification Pattern=none，未见清楚的可操作推翻条件。
+
+### J 复现性
+
+```json
+[
+  {
+    "candidate": "A 公开叙事后看执行能力/约束",
+    "status": "repeated",
+    "prior_refs": [
+      "GS003/HC01"
+    ],
+    "current_refs": [
+      "MS01"
+    ],
+    "scope": "同类分析动作，主题与具体结论不同"
+  },
+  {
+    "candidate": "B 增量看趋势、存量看空间",
+    "status": "unclear",
+    "prior_refs": [
+      "GS002/HC01"
+    ],
+    "current_refs": [
+      "MS02"
+    ],
+    "scope": "本期有存量/增量拆分，但未观察到存量推潜在空间的完整规则，不能硬判复现"
+  },
+  {
+    "candidate": "C 分阶段比较持续成本与承受能力",
+    "status": "repeated",
+    "prior_refs": [
+      "GS003/HC02"
+    ],
+    "current_refs": [
+      "MS03"
+    ],
+    "scope": "本期把硬件使用周期与回报对比；只复现成本/周期子模式，不含上期60天算法"
+  }
+]
+```
+
+### K Specific vs General
+
+MS01/02/04/05/07可能跨域；MS03偏资本密集行业；MS06/08目前transferability=unknown。没有证据证明这些规则仅9527独有，所以不为突出个性硬标analyst_specific。
+
+### L Model Leakage Audit
+
+none detected in structured Method Signal refs：没有M前缀Claim、DA01或model_reconstruction边被用作方法证据。Failure由模型标注，但所观察的是C020的显式动作；不等于模型桥接成为方法。
+
+### M Judgment Policy
+
+insufficient evidence。可见拒绝单靠股价/财报/RPO的门槛，并要求业务/应用/需求真实变化；没有明示达到哪些可测阈值就相信新故事。不能补成“收入+利润+订单就买入”的规则。
+
+### N Failure Signals
+
+正式单次候选MS06为90倍量纲跳跃。另记录待追踪但不升级：RPO成本化、API任务成本到整个云利润、涨幅必须越来越超预期、所有交易分支均通向坏结果、销量到粉丝耗尽、只会更差边界、观众二选一。不同意市场结论本身不算失败模式。
+
+### O Core Ontology Stability
+
+No。本次需要字段、准入状态、来源起源及方法标注者的细化，未发现必须新增核心对象。也未生成9527 Skill。
+
+## 专项压力测试
+
+```json
+[
+  {
+    "test_id": "T01",
+    "test": "股价≠产业结构",
+    "status": "pass_with_review_limits",
+    "evidence": "C004/TH01分开，Process=0"
+  },
+  {
+    "test_id": "T02",
+    "test": "Cloud≠AI收入",
+    "status": "pass_with_review_limits",
+    "evidence": "C041/X03限定Azure范围，未生成AI收入值"
+  },
+  {
+    "test_id": "T03",
+    "test": "AI使用≠ROI",
+    "status": "pass_with_review_limits",
+    "evidence": "C031/35与C039/40分开"
+  },
+  {
+    "test_id": "T04",
+    "test": "模型成本≠全经济成本",
+    "status": "pass_with_review_limits",
+    "evidence": "X08与AR03/M04诊断分开"
+  },
+  {
+    "test_id": "T05",
+    "test": "CapEx≠未来利润",
+    "status": "pass_with_review_limits",
+    "evidence": "未凭投入创建利润已增长Claim"
+  },
+  {
+    "test_id": "T06",
+    "test": "季度财报≠长期Process",
+    "status": "pass_with_review_limits",
+    "evidence": "仅记录RPO余额对照"
+  },
+  {
+    "test_id": "T07",
+    "test": "标题≠主播判断",
+    "status": "pass_with_review_limits",
+    "evidence": "NA01与NA02分别观察者"
+  },
+  {
+    "test_id": "T08",
+    "test": "模型补全≠Method",
+    "status": "pass_with_review_limits",
+    "evidence": "DA01与M01–M08不进入方法证据"
+  },
+  {
+    "test_id": "T09",
+    "test": "公司结构不可加总",
+    "status": "pass_with_review_limits",
+    "evidence": "AWS、Azure、Microsoft商业RPO、Google分开"
+  },
+  {
+    "test_id": "T10",
+    "test": "能力价格成本回报估值分开",
+    "status": "pass_with_review_limits",
+    "evidence": "Observation和Argument逐层区分；未给变量不补值"
+  }
+]
+```
+
+## 审计辅助数据
+
+```json
+{
+  "source_segments": [
+    {
+      "source_segment_id": "SS-C001",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "raw_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。",
+      "cue_start": 1,
+      "cue_end": 1,
+      "start": "00:00:00,190",
+      "end": "00:00:20,190"
+    },
+    {
+      "source_segment_id": "SS-C002",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG01"
+      ],
+      "raw_text": "大家好，今天预计呢跟大家聊两个话题啊，一个的话是昨天美股科技股的反弹是吧？马斯克的spaceX的财报出来了，非常非常的亮眼。结合着这个云呃这个云呃云服务的私家厂商是吧，这财报也非常亮眼，发起了这一轮的这个科技股的反弹。\n马上就小伙伴在评论区里问是吧，是不是对这轮科技股泡沫破裂的判断错了。啊，这轮反弹进来了，昨天才打了预防针是吧？不不会有这样的事发生的那今天出现这个市场的波动，马上就倒行混乱。那咱们今天呢就顺着这轮反弹的逻辑，上涨的逻辑跟大家聊聊这里面的问题。",
+      "cue_start": 1,
+      "cue_end": 2,
+      "start": "00:00:00,190",
+      "end": "00:00:40,190"
+    },
+    {
+      "source_segment_id": "SS-C003",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+      "cue_start": 33,
+      "cue_end": 33,
+      "start": "00:02:12,930",
+      "end": "00:02:20,200"
+    },
+    {
+      "source_segment_id": "SS-C004",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "亚马逊呢收涨4.5%吧，就是。\n前天哈。",
+      "cue_start": 31,
+      "cue_end": 32,
+      "start": "00:02:08,850",
+      "end": "00:02:12,850"
+    },
+    {
+      "source_segment_id": "SS-C005",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "呃，时隔呢61个交易日呢再创历史的新高。然而且亚马逊的老板呢贝索斯呢就套现了1500亿啊。",
+      "cue_start": 33,
+      "cue_end": 33,
+      "start": "00:02:12,930",
+      "end": "00:02:20,200"
+    },
+    {
+      "source_segment_id": "SS-C006",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "总市值占上了3万亿美元。",
+      "cue_start": 34,
+      "cue_end": 34,
+      "start": "00:02:20,260",
+      "end": "00:02:22,790"
+    },
+    {
+      "source_segment_id": "SS-C007",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "此外呢，谷歌微软涨超4%。",
+      "cue_start": 35,
+      "cue_end": 35,
+      "start": "00:02:22,790",
+      "end": "00:02:25,890"
+    },
+    {
+      "source_segment_id": "SS-C008",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "此外呢，谷歌微软涨超4%。",
+      "cue_start": 35,
+      "cue_end": 35,
+      "start": "00:02:22,790",
+      "end": "00:02:25,890"
+    },
+    {
+      "source_segment_id": "SS-C009",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "没塔涨长6%。",
+      "cue_start": 36,
+      "cue_end": 36,
+      "start": "00:02:25,890",
+      "end": "00:02:27,440"
+    },
+    {
+      "source_segment_id": "SS-C010",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "甲骨文呢更是走出了单日超9%的账幅，听起来一片欣欣向荣啊。",
+      "cue_start": 37,
+      "cue_end": 37,
+      "start": "00:02:27,440",
+      "end": "00:02:32,690"
+    },
+    {
+      "source_segment_id": "SS-C011",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "为什么会这么上涨呢？是因为。\n亚马逊以及谷o歌的这个。\n财报是引爆了大家的热情。\n其实恰恰就是google的财报引发了。\n上周的暴跌。\n同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。",
+      "cue_start": 38,
+      "cue_end": 45,
+      "start": "00:02:32,850",
+      "end": "00:02:51,590"
+    },
+    {
+      "source_segment_id": "SS-C012",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "同样一件事情。\n上嘴皮碰下嘴皮是吧？你跳好的时候就可以暴涨的原油。\n跳坏的时候呢，就是暴跌的开始。\n所以说。\n充分的证明了这里边掌握着话语权才是最重要的，掌握着解释权才是最重要的真相不重要是吧？\n此前的当然了。\n咱们分析还是得从几呃呃真相开始，因为。",
+      "cue_start": 43,
+      "cue_end": 49,
+      "start": "00:02:44,020",
+      "end": "00:03:03,360"
+    },
+    {
+      "source_segment_id": "SS-C013",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "真相就像一地心引力。\n你可以短时间的啊抵抗敌心引力飞起来。\n但是呢。\n你长时间的话，你非让你飞起来，那个力量没有了，就得落下来。\n一个道理，你花这钱。\n呃。\n摇唇骨折，那自然可以营造太平盛世。\n但是稍微的这个劲儿松一点了，那就得看真相吧。\n真章到底是怎么回事儿？\n那就大家就真相大白了吧。",
+      "cue_start": 50,
+      "cue_end": 59,
+      "start": "00:03:03,360",
+      "end": "00:03:28,350"
+    },
+    {
+      "source_segment_id": "SS-C014",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "这一次的AI泡沫科技泡沫破裂。\n就是花不起这个钱啦。\n说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。\n这才是问题的根源。\n这才是矛盾的根源。\n那现在这波反弹。\n解决这个矛盾吧，没有啊。",
+      "cue_start": 75,
+      "cue_end": 84,
+      "start": "00:04:01,330",
+      "end": "00:04:26,790"
+    },
+    {
+      "source_segment_id": "SS-C015",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG02"
+      ],
+      "raw_text": "说白了就是花不起这个钱了吧，这个判断不是今天说的。\n去年就开始说了，5月份更甚，是不是跟他算了个账？\n这花不起这个钱的，这个泡沫还要在这个基础上继续涨20%。\n需要花的钱简直是天亮，美国拿不出这个钱来了。",
+      "cue_start": 77,
+      "cue_end": 80,
+      "start": "00:04:06,100",
+      "end": "00:04:20,020"
+    },
+    {
+      "source_segment_id": "SS-C016",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "此前呢亚马逊公布二季度财报。\n其中呢，AWS云业务呢净销销售是422.3亿美元。",
+      "cue_start": 86,
+      "cue_end": 87,
+      "start": "00:04:31,590",
+      "end": "00:04:40,280"
+    },
+    {
+      "source_segment_id": "SS-C017",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "超过分析师预计的405.7亿美元。",
+      "cue_start": 88,
+      "cue_end": 88,
+      "start": "00:04:40,280",
+      "end": "00:04:44,000"
+    },
+    {
+      "source_segment_id": "SS-C018",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "营收增速呢创18个季度的新高。",
+      "cue_start": 89,
+      "cue_end": 89,
+      "start": "00:04:44,000",
+      "end": "00:04:46,800"
+    },
+    {
+      "source_segment_id": "SS-C019",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "请大家注意啊。\n这个增速确实是高，但是也就是高了多少，5%。\n预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+      "cue_start": 90,
+      "cue_end": 95,
+      "start": "00:04:46,800",
+      "end": "00:05:05,650"
+    },
+    {
+      "source_segment_id": "SS-C020",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "这5%的。\n这个预期的增增速的收涨。\n让整个市场得到的信号是涨多少呢？\n是整个盘子一下子涨了百分之，就整个亚马逊的。\n一下子涨了5%。\n这合理吗？\n这合适吗？\n如果是这样的话，就相当于啥呢？\n相当于百一个季度的业务净增长。\n在一天内直接就给你兑现了。\n一天跟一个季度中间差多少，差了90倍，对不对？\n意思是啥呢？意思是这里边的泡沫。\n那我觉得哈。\n以现在这种增长的趋势来看的话。\n这里面的泡沫最少最少。\n是。\n1比90的这个稀释比例。\n而这个比例。\n跟现在市面上AI泡沫这个比例惊人的一致。\n不是说完全的问啊。\n数量级是差不多的。\n都是。\n，一就是百倍左右的这个这个泡沫。",
+      "cue_start": 96,
+      "cue_end": 118,
+      "start": "00:05:05,770",
+      "end": "00:05:57,050"
+    },
+    {
+      "source_segment_id": "SS-C021",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "如果按照这个思路去看的话，要维持这样的泡沫继续增长的话。\n那下个季度亚马逊的旅营业务增增增加要增加多少？\n要比预期额外的再增加最少最少，那不是20亿美元了。\n那可能的话就得是3040亿5亿美元。\n才能符合大家的这种增长的预期，才能引起引起一搏。\n疯狂的上涨。",
+      "cue_start": 121,
+      "cue_end": 126,
+      "start": "00:06:00,390",
+      "end": "00:06:22,180"
+    },
+    {
+      "source_segment_id": "SS-C022",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "美国自己内部。\n13个周取消了数据中心的优惠，税收优惠。\nYeah.\n呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。\n啊自己本土的这个。\n数据中心的优惠。\n取消了，这个其实很正常。",
+      "cue_start": 131,
+      "cue_end": 137,
+      "start": "00:06:30,710",
+      "end": "00:06:45,320"
+    },
+    {
+      "source_segment_id": "SS-C023",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "呃，预计呢每千兆瓦的AI算利成本会增加30亿美元。",
+      "cue_start": 134,
+      "cue_end": 134,
+      "start": "00:06:36,050",
+      "end": "00:06:40,030"
+    },
+    {
+      "source_segment_id": "SS-C024",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "因为疯狂的做这个数据中心。\n已经开始影影响到美国的民生了。\n而且。\n数据中心带来的这种疯狂的扩张。对带电力的这种需求。\n是吧这种忽高忽低的这种需求。\n对于整个维持整个电网的稳定。\n挑战越来越严峻了。",
+      "cue_start": 138,
+      "cue_end": 144,
+      "start": "00:06:45,370",
+      "end": "00:07:02,630"
+    },
+    {
+      "source_segment_id": "SS-C025",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "那这个挑战。\n额要应付这个挑战，就得额外多花钱，钱从何来呢？\n那就得从这些项目上面之前补贴他们的这个项目。\n开始入手，开始减少这个补贴。\n把这些钱拿来升级自己的电网，稳定自己的电网配配平是吧？所谓的这个。\n你要接入一些。\n储能进去。\n让个电网更加的稳定，波风波波谷啊区别差别差距不要那么的大，这都是要花钱的东西。\n而这些钱羊毛出在羊身上。",
+      "cue_start": 145,
+      "cue_end": 153,
+      "start": "00:07:02,630",
+      "end": "00:07:29,440"
+    },
+    {
+      "source_segment_id": "SS-C026",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "这个对于数据中心的税收优惠的取消。\n这只是刚开始。\n后边随着数据中心的这个需求，假设啊这个业务没有任何的变化，一直在增长的话。\n那对于收数据中心额外的收运营的费用。\n甚至呢让他交这种电网的平衡的这种费用。\n那是基基本上是板上钉钉指日可待的。",
+      "cue_start": 155,
+      "cue_end": 160,
+      "start": "00:07:30,030",
+      "end": "00:07:48,810"
+    },
+    {
+      "source_segment_id": "SS-C027",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG04"
+      ],
+      "raw_text": "围绕着数据中心这件事儿，如果你能证明你能挣钱。\n那所有人来收钱的。\n开始是吧。\n打着主意开始在这里面收过路费的。\n要在我的地盘听我的，然你。\n呃，这个这个挣了钱的话，要分我一杯羹呢，就开始陆续的找上你了。这些东西都会推高你数据中心的营收成本啊，运营的这个成本。而这个运营成本一升高的话，你数据中心的盈利就会下降。这是板上钉钉的事，这是第一个挑战。内部的挑战，第二个挑战呢是外部的deeps V4flash的性价比。",
+      "cue_start": 161,
+      "cue_end": 166,
+      "start": "00:07:48,810",
+      "end": "00:08:19,830"
+    },
+    {
+      "source_segment_id": "SS-C028",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "raw_text": "无敌了哈啊，运美国的研究机构评估呢运行成本呢可能呢是呃这个fiable的1%啊，这个事儿的话是个外部的挑战。因为这样的这个成本的差距，对应着你自己在估值上面的这个疯狂的泡沫，实际上。",
+      "cue_start": 167,
+      "cue_end": 167,
+      "start": "00:08:19,830",
+      "end": "00:08:39,830"
+    },
+    {
+      "source_segment_id": "SS-C029",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "raw_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。",
+      "cue_start": 168,
+      "cue_end": 168,
+      "start": "00:08:39,830",
+      "end": "00:08:59,830"
+    },
+    {
+      "source_segment_id": "SS-C030",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG05"
+      ],
+      "raw_text": "就证明了一点就是当你运行到一定程度，自己的数据中心成本快维持不下去的时候，你唯一可选的项就是拿最便宜的那些东西理在桃降作为一个内部的替换。一方面呢降低了你的对数据的需求的量。一方面呢把数据的单价把它降下来。那就。\n是啥呢？说的直白一点，就不是为他人做嫁衣嘛，你这边把这个所有的事情都准备的好好的，准备要收钱了。结果那边。\n横差一杠子，比你便宜。\n啊，这个算力提供的比你丰富。\n啊整个的这个上限比你提供的高，这还只是完全陷入在美国对于自己的AI的叙事描述中啊。",
+      "cue_start": 168,
+      "cue_end": 172,
+      "start": "00:08:39,830",
+      "end": "00:09:18,640"
+    },
+    {
+      "source_segment_id": "SS-C031",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "我看到现在很多很多的这个AI应用已经就是国内的这个应用啊。\n已经深入到一线的这个工程的应用里边了。\n很多的这种过去的。\n呃，经验的积累啊，包括一些现场的一些分析啊。",
+      "cue_start": 175,
+      "cue_end": 178,
+      "start": "00:09:22,690",
+      "end": "00:09:36,950"
+    },
+    {
+      "source_segment_id": "SS-C032",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "现在都用一些这个AI的模型在做了，而且是免费的啊，要不就是使用什么豆包啊。",
+      "cue_start": 179,
+      "cue_end": 179,
+      "start": "00:09:36,950",
+      "end": "00:09:42,790"
+    },
+    {
+      "source_segment_id": "SS-C033",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "或者呢稍微专业一点的公司，他会有自己为1个AI的模型。但是。\n使用的场景往往是非常非常单一的这个场景。\n他现在已经有在这种用了。",
+      "cue_start": 180,
+      "cue_end": 182,
+      "start": "00:09:42,790",
+      "end": "00:09:52,080"
+    },
+    {
+      "source_segment_id": "SS-C034",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "这种就是典型的toC端的应用，开始向B端延展嘛。\n这明明对的是个人用户。\n但是个人用户呢正在使用。\n这些。\n东西呢进行一些商业的交付，进行一些。\n这个。\n这不是。\n个人用户啊自己在。\n把它这个生产的把把这个AI带来的这个生产力的提升。\n应用他自己赚钱的手艺上。\n提升它的效率。",
+      "cue_start": 183,
+      "cue_end": 193,
+      "start": "00:09:52,080",
+      "end": "00:10:14,320"
+    },
+    {
+      "source_segment_id": "SS-C035",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "这个和场景其实就是美国梦想中AI。\n开始大发展大繁荣应该有的。\n这样的场景越来越多，培育一段时间以后，在这里边就会产生整个生产力的跃迁。\n对吧对AI越来越离不开嘛。",
+      "cue_start": 195,
+      "cue_end": 198,
+      "start": "00:10:15,130",
+      "end": "00:10:29,570"
+    },
+    {
+      "source_segment_id": "SS-C036",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "就跟当年的移动支付是一样的。\n一开始的时候，移动支付并没有减少什么什么。\n交易的摩擦如何如何如何，但是。\n时间长了以后，移动支付的习惯深入人心了以后。\n很多很多的业态就会发生非常大的变化。\n最直接的影响就是。\n没人上上街带吹钱包了。\n是吧有个手机就改搞定了。\n这个事情的话，一方面推广了手机的普及。另外一方面呢。\n改变了消费的习惯。\n是不是？\n那移动支付是不是中美之间拉开了巨大的差异？\n现在的AI领域也有这样的趋势了。",
+      "cue_start": 199,
+      "cue_end": 211,
+      "start": "00:10:29,570",
+      "end": "00:11:03,060"
+    },
+    {
+      "source_segment_id": "SS-C037",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "实际上对于美国来说的话，当然是很羡慕的啦。\n但是这个事儿他做的成嘛，他没有做成，而且。\n从现在网上的这个啊这个云。\n云服务商的这个收益的暴增。\n实际上就说明了这个问题。昨天还有小伙伴跟我讨论这个问题，说。",
+      "cue_start": 213,
+      "cue_end": 217,
+      "start": "00:11:04,180",
+      "end": "00:11:20,340"
+    },
+    {
+      "source_segment_id": "SS-C038",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06"
+      ],
+      "raw_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。",
+      "cue_start": 218,
+      "cue_end": 220,
+      "start": "00:11:20,340",
+      "end": "00:11:29,830"
+    },
+    {
+      "source_segment_id": "SS-C039",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "呃，关于这个AI投入投资回报率的这个关键问题呢。\n亚马逊的CEO表示呢。\n距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+      "cue_start": 222,
+      "cue_end": 224,
+      "start": "00:11:32,890",
+      "end": "00:11:46,930"
+    },
+    {
+      "source_segment_id": "SS-C040",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "距离服务器与网络设备投资盈亏平衡点已经不到3年，AI投入的回报，良性循环呢已经初步的形成了。",
+      "cue_start": 224,
+      "cue_end": 224,
+      "start": "00:11:39,220",
+      "end": "00:11:46,930"
+    },
+    {
+      "source_segment_id": "SS-C041",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "，微软最新的财报也显示啊。\n呃，微软公司的这个云计算业务同比增收是增长了43%。",
+      "cue_start": 226,
+      "cue_end": 227,
+      "start": "00:11:47,880",
+      "end": "00:11:54,610"
+    },
+    {
+      "source_segment_id": "SS-C042",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "高于分析师预期的39.98%，这个跟刚才微软啊那个亚马逊的这个增幅也差不多，是吧？",
+      "cue_start": 228,
+      "cue_end": 228,
+      "start": "00:11:54,610",
+      "end": "00:12:01,010"
+    },
+    {
+      "source_segment_id": "SS-C043",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "那40%到43%3%吧。",
+      "cue_start": 229,
+      "cue_end": 229,
+      "start": "00:12:01,010",
+      "end": "00:12:03,490"
+    },
+    {
+      "source_segment_id": "SS-C044",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+      "cue_start": 230,
+      "cue_end": 230,
+      "start": "00:12:03,490",
+      "end": "00:12:11,970"
+    },
+    {
+      "source_segment_id": "SS-C045",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "在本季度末呢，其云业务的未交付订单额已经达到了6780亿美元，高于上个季度6270亿美元是吧？",
+      "cue_start": 230,
+      "cue_end": 230,
+      "start": "00:12:03,490",
+      "end": "00:12:11,970"
+    },
+    {
+      "source_segment_id": "SS-C046",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "增加的额度的话，大概增加了。\n将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+      "cue_start": 231,
+      "cue_end": 232,
+      "start": "00:12:11,970",
+      "end": "00:12:21,940"
+    },
+    {
+      "source_segment_id": "SS-C047",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "将近500亿美元啊，相比于整个的这个6000亿的这个总的规模来说的话，增加的速度还是10%的这个增速。",
+      "cue_start": 232,
+      "cue_end": 232,
+      "start": "00:12:14,440",
+      "end": "00:12:21,940"
+    },
+    {
+      "source_segment_id": "SS-C048",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "也跟我之前的时候说是吧，要维持这样的这个节奏。\n亚马逊下一次的这个财报需要。\n交付的这个结果。\n从5%的增幅要增加到10%翻一翻。\n啊，这个差不多是相匹配的。",
+      "cue_start": 233,
+      "cue_end": 237,
+      "start": "00:12:21,940",
+      "end": "00:12:33,970"
+    },
+    {
+      "source_segment_id": "SS-C049",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "然后与此同时呢，竞争对手google云的云收入呢。\n从啊飙升了82%。\n啊同样远超市场的预期。",
+      "cue_start": 238,
+      "cue_end": 240,
+      "start": "00:12:33,970",
+      "end": "00:12:42,230"
+    },
+    {
+      "source_segment_id": "SS-C050",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG07"
+      ],
+      "raw_text": "所以呢。\n整体的市场呢展现出来的就是认为呢云计算呢会。\n非常非常的炙手可热。",
+      "cue_start": 241,
+      "cue_end": 243,
+      "start": "00:12:42,230",
+      "end": "00:12:48,910"
+    },
+    {
+      "source_segment_id": "SS-C051",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "第一个呢就是云服务这个事儿的话，并不是今天才开始热的。\n云服务热10年前就开始了。\n云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。\n啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。\n然后云营服务商的话就保证是吧我在这边的话，稳定的这给你交付这个。\n算利就行了，给你交付这种网络的资源就可以了，提供这种网络的访问就可以了。\n这个事儿已经运行了十几年了。\n这种替换已经是上一代。\n互联网革命的内容之一啦。",
+      "cue_start": 245,
+      "cue_end": 263,
+      "start": "00:12:50,400",
+      "end": "00:13:54,460"
+    },
+    {
+      "source_segment_id": "SS-C052",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "云服务一开始的时候想法是啥呢？就是。\nSAS是吧，就是服务即交付交付即收费啊，就是通过服务收费这种。\n萨s的这种模型来进行这种。\n这种就是所谓的这个。\n轻前端中后端是，所有的事儿的话就是。\n你作为一个普通的厂商来说，他不需要去做服务器，不需要去搞那些东西，不需要去。\n做这种这运算的硬件的投入，你只需要租算力就可以了。\n租了算利，然后你就可以对你的这个。\n服务对象进行一个业务的交付，你赚钱。",
+      "cue_start": 247,
+      "cue_end": 255,
+      "start": "00:12:57,140",
+      "end": "00:13:28,360"
+    },
+    {
+      "source_segment_id": "SS-C053",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "啊，赚了这个钱签了这个合同以后，把这个合同的40%左右。\n拿到云服务商去订购啊，订购你的这个云服务来交付你这个背后。\n匹配服务的这个算例。",
+      "cue_start": 256,
+      "cue_end": 258,
+      "start": "00:13:28,360",
+      "end": "00:13:37,990"
+    },
+    {
+      "source_segment_id": "SS-C054",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "现在呢这事儿呢只是说。\n由于。\n算力的这个需求一下子骤然的上升了。\n算力需求的类型不一样了。\n过去的时候更多的说啊是你的网上的这个运算的资源，是吧？后租了多少的服务器。\n有多少个虚拟的CPU是吧？这对应的多少个算例。\n啊，租了多少的这个储存空间。\n然后匹配的是吧，你接入到这个网络里面有多少的这个带宽响应的带宽。\n支持多多少人同时的在线，啊这些服务的内容。\n成为了定价的依据，变成了一个云服务的包，每个月每个月给你服务。",
+      "cue_start": 264,
+      "cue_end": 273,
+      "start": "00:13:54,570",
+      "end": "00:14:28,710"
+    },
+    {
+      "source_segment_id": "SS-C055",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "说换句话说是什么呢？就是。\n现在刚才提到的微软里边有未交付的订单，金额6780亿美元里边。\n有多少是过去的这种传统业务积压下来的，本来就应该交付的东西呢？",
+      "cue_start": 284,
+      "cue_end": 286,
+      "start": "00:14:54,640",
+      "end": "00:15:10,180"
+    },
+    {
+      "source_segment_id": "SS-C056",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "对云服务本身这个特点它是线上的服务嘛。\n他自己本身的话就有业务的波动嘛。\n他储备一些未交付的订单。\n慢慢的做延期。\n这是个很正常的规避自己商商业风险的手段。\n他额外的未交付的这个订单呢，它永远有一部分是未交付的。\n但这个未交付的，实际上就是为了应对。\n由于这种需求的涨跌。\n带来的对他这个业务的平平顺性的这个冲击的。",
+      "cue_start": 287,
+      "cue_end": 295,
+      "start": "00:15:10,180",
+      "end": "00:15:34,990"
+    },
+    {
+      "source_segment_id": "SS-C057",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "根据实际的需求，比方说增加了三份需求。\n他这边追加两份的硬件的投入。\n那总是要留一份出来做为做啥呢？\n万一这个行情变了，这个市场的这个风向转头了。\n这边的需求萎缩了。\n他不至于一下子投入的太多是吧？导致自己的硬件的投入亏本。",
+      "cue_start": 297,
+      "cue_end": 302,
+      "start": "00:15:35,990",
+      "end": "00:15:54,030"
+    },
+    {
+      "source_segment_id": "SS-C058",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG08"
+      ],
+      "raw_text": "因为硬件本身拿到手里边，它就会有折旧。你只要开始使用，它就会有折旧。\n对吧。\n你的储存的这个东西的话。\n呃，用多长时间它就坏了。\n是吧你CPU虽然说理论上来它的个寿命很长，但是。\n在那样恶劣的机房的环境来说的话，时间长了它也会坏。它。\n定期的他都会淘汰。\n这些折旧淘汰了以后，都会算到云云服务的成本里边去。",
+      "cue_start": 303,
+      "cue_end": 310,
+      "start": "00:15:54,030",
+      "end": "00:16:16,570"
+    },
+    {
+      "source_segment_id": "SS-C059",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "raw_text": "而现在呢给你讲的这波反弹呢是把。\n这个成熟商业模型里边沉默的那个商业逻辑的那部分拿出来跟你讲。\n这是未来市场发育非常强劲的一个表现。\n那典型的是把固定投入。\n当做了未来的。\n这个预期收入了嘛。\n啊，你本来这个东西应该算成成本的。\n啊，本来是为了应付整个的业务波动。\n对一个额外的冗余的准备。\n结果呢你把这部分算成了未来可期，算成了这个市场了。\n这个对于这个服务的需求有这么的旺盛。\n这个本身就是一种市场的误导。",
+      "cue_start": 313,
+      "cue_end": 324,
+      "start": "00:16:21,190",
+      "end": "00:16:55,520"
+    },
+    {
+      "source_segment_id": "SS-C060",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "raw_text": "了解云服务的看到了这些东西。第一个反应就是。\n换汤不换药，这个故事讲了它额外带来的增量并没有多少，就是我开始给你算的。\n5%10%撑死了，撑死了到20%了不起了。\n但是现在市场上更多的不明就理的对这个事情不是很理解的消费者。\n或者投资者。\n狂热的跟风的。\n或者不愿意相信真相的呢。\n把过去存单的那些东西完全当做了增量。\n那这个增量一上来的话，他对于未来的预期就会非常非常的高。",
+      "cue_start": 329,
+      "cue_end": 337,
+      "start": "00:17:08,100",
+      "end": "00:17:38,550"
+    },
+    {
+      "source_segment_id": "SS-C061",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG09"
+      ],
+      "raw_text": "那这个增量一上来的话，他对于未来的预期就会非常非常的高。\n那既有了这么高的预期，自然而然的觉得现在的估值非常非常的低，那值得大局的商入。\n这是杀猪盘的典型玩法。\n利用大家的信息不对称。\n利用大家的知识结构的差异。\n对一件事情的看法产生了剧烈的波动。\n那利用这种价格的分歧。\n来收割那些老实人，那些天真的。\n对于这个事情不是很了解的，贸然的那些冒失冒失鬼的钱。",
+      "cue_start": 337,
+      "cue_end": 345,
+      "start": "00:17:34,690",
+      "end": "00:18:03,160"
+    },
+    {
+      "source_segment_id": "SS-C062",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "raw_text": "救命的稻草给你个啥，你就愿意信啥，为啥呢？前期的损失太多了，需要这一轮的给它补回来。\n就像我前几天跟大家聊，这轮的反弹非常危险。\n那也拦不住，有人觉得这周反弹是个机会啊，为啥呢？\n那前期那波雪崩埋进去了。\n那我要需要找一个反弹，赶紧的把这个。\n这个损失给他补回来。\n但是恰恰呢这是让你深入深渊。\n更深的调入深渊的。",
+      "cue_start": 348,
+      "cue_end": 355,
+      "start": "00:18:08,950",
+      "end": "00:18:34,740"
+    },
+    {
+      "source_segment_id": "SS-C063",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "raw_text": "上一轮给你讲，了你跑你跑不出来。\n那就意味着啥呢？意味着你没有逃生的天赋嘛，对不对？\n那这一轮呢，你看到反弹杀进去呢，你就相信这一轮你就有逃生的天赋了，你就可以。\n在它下跌之前的话，及时的跑出来了嘛。\n不会的吧。\n而且最这件事最妙的是那什么呢？\n就是你自己会患得患失。\n对吧事后复反了以后，觉得自己跑早了。\n本来呢这个机会其实呢就是你自己的能力。但你觉得呢这次盈利不够多，跑早了，那下次的话就会肯定会被埋进去，对吧？这次呢如果恰时恰逢机会呢按示的跑了，那下次的话这种侥幸心理会更加的膨胀，是吧？我是已经股神复身了，我可以准确的预预测哪个是拐点，那下次我就按照我的。\n想法来，但现实的话会跟你的想法有相左。那你反复的几次就被坑进去了。或者呢这次的话跑晚了，再次被坑了，那不是被陷入到这个坑里面越陷越深了吗？就是说无论在这个选择里面，你做的是对还是不对，无论这个对，咱们就不说了。无论这个不对，到底是早了还是晚了，其实。\n都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？",
+      "cue_start": 357,
+      "cue_end": 367,
+      "start": "00:18:37,300",
+      "end": "00:20:00,150"
+    },
+    {
+      "source_segment_id": "SS-C064",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG10"
+      ],
+      "raw_text": "都是你下一次陷得更深的理由所以这些这些赌徒不值得同情。但是我告诉大家的就是这轮的行情跟之前的这几轮行情没有任何的变化。那都是一些情绪推动的认知到错产生的这种泡沫行情没有任何的悬念。而且基于这样的泡沫，其实支撑不了多久的，是吧？\n我前面已经跟他说了是吧，从外部的因素，内部的因素。\n这客观的因素。\n也支撑不了多久了。",
+      "cue_start": 367,
+      "cue_end": 370,
+      "start": "00:19:40,210",
+      "end": "00:20:05,110"
+    },
+    {
+      "source_segment_id": "SS-C065",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "呃，云服务商最终的考虑，就像我前面说的是吧，他考虑的是。\n我这些硬件的服务折旧。\n跟我这个硬件服务周期里面的回报。\n互相之间的匹配度。\n如果说呢我这个折旧的速度啊。\n比我。\n这个提供这个云服务得到的这个收益的话。\n要少。\n那我这个生意就是赚钱的对吧？反之的话，如果我这个硬件的折旧是比那个更多的。\n那我就是赔钱的。",
+      "cue_start": 374,
+      "cue_end": 383,
+      "start": "00:20:12,010",
+      "end": "00:20:36,470"
+    },
+    {
+      "source_segment_id": "SS-C066",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "第一个呢。\n它涉及到了这个AI算力本身产生这个算力的基础，就是。\n英伟达生产的那些铲子。\n它的生产成本这是第一个部分。\n而这个生产成本呢，它未来的话会面临着两重的折旧。\n一个是更新迭代的折旧，一个呢是自然损坏的折旧，对吧？自然损坏带来的这些。\n这个比例的这个时效吧，这就。",
+      "cue_start": 388,
+      "cue_end": 394,
+      "start": "00:20:47,460",
+      "end": "00:21:08,870"
+    },
+    {
+      "source_segment_id": "SS-C067",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "这两个折旧呢。\n现在目前来看的话。\n主要是来源于这个更新迭代带来的折旧压力大。",
+      "cue_start": 395,
+      "cue_end": 397,
+      "start": "00:21:08,870",
+      "end": "00:21:17,800"
+    },
+    {
+      "source_segment_id": "SS-C068",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "但是更新迭代折旧的话，有一些技术手段可以进行一个规避。\n比如说啥呢？\n比如说我把这个折旧的评估周期拉长一点。\n拉长一点的话，就可以把现在已经被淘汰的边缘那东西。\nOh.\n不把它计算到这个折旧的这个成本里边去。\n对吧。\n这样的算法有道理，为啥呢？",
+      "cue_start": 398,
+      "cue_end": 405,
+      "start": "00:21:17,800",
+      "end": "00:21:35,450"
+    },
+    {
+      "source_segment_id": "SS-C069",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "因为结合着后边的另外一个折旧，就是他运作的过程中，他有些卡坏掉了，他要补新的卡。\n这样的折旧。\n用这样的这种方式拉长整个的评估周期的话。\n过去那些明显的这个价值啊，折损了很多很多，落后了几代的那些卡。\n他们本来的话在市场上按算减值的话，会减值很多的。\n但是正好呢。\n这些卡可以来补充。\n新增这算例里边那些损坏。\n你让他顶顶顶大梁，他是顶不住的。但是。\n你把这些淘汰的损坏进行一个补充是可以的。\n这个补充的话就会让整个的这个折旧模型变得非常非常的漂亮。\n只要你拉长这个折旧的周期。\n就可以无限的内部进行一个循环。\n这样的话呢。\n整个的折旧成本。\n从财报上看的话会非常的亮眼。但实际上隐患是啥呢？两个隐患对吧？",
+      "cue_start": 406,
+      "cue_end": 421,
+      "start": "00:21:35,450",
+      "end": "00:22:24,500"
+    },
+    {
+      "source_segment_id": "SS-C070",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG11"
+      ],
+      "raw_text": "更新迭代的速度，它持续的进行进展的话，它总有你这个周期不可能有无限的拉长，从三年变5年变5年变7年。\n你不可能在7年里面变70年吧。\n你总有一天那个时间它延长到一定程度，你就。\n这个卡就彻底逃汰，就好像。",
+      "cue_start": 423,
+      "cue_end": 426,
+      "start": "00:22:25,390",
+      "end": "00:22:40,240"
+    },
+    {
+      "source_segment_id": "SS-C071",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。",
+      "cue_start": 430,
+      "cue_end": 437,
+      "start": "00:22:48,460",
+      "end": "00:23:13,400"
+    },
+    {
+      "source_segment_id": "SS-C072",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。\n到那个时候，你就必须得。\n进行他最终的整个的这个折旧周期的一个定型了。\n一定下来。\n那前面那些损失的东西就要在你的财报上进行反映了。\n对吧他就已经彻底的没有价值了嘛。",
+      "cue_start": 438,
+      "cue_end": 446,
+      "start": "00:23:13,450",
+      "end": "00:23:38,040"
+    },
+    {
+      "source_segment_id": "SS-C073",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "而这个没有价值会引起的就是两个影响了。\n第一个的话。\n这一部分没有价值东西进行一个。\n去出京了。\n算完了。\n那你接下来的话，你这种算力在运行过程中啊出现这种算力折损。\n进行补充的话。\n你得额外的定价了。\n这个定价对你的成本来说是一个巨大的压力。因为。\n众所周知的原因是吧？\n这数据中心的这个算卡算利卡其实淘汰的因为他那个工作环境很恶劣嘛。\n而且工作负荷很大嘛。\n是吧这个淘汰起来的话还是。\n挺吓人的，过去的时候可以用一些旧的。\n进行一个。\n减直的一个平台，现在没有旧的了，全是新的。\n那按照最新的这个价格来的话，那可能这一下子。\n在资本项的这个支出啊，这个成本折旧里边会。\n突然之间某一个时间点上，它上一个台阶亮面接这边上一个台阶。",
+      "cue_start": 447,
+      "cue_end": 465,
+      "start": "00:23:38,040",
+      "end": "00:24:26,200"
+    },
+    {
+      "source_segment_id": "SS-C074",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "而另一方面呢，你肉眼可见的这个折旧。\n很快就会带来迎来一个量变一些质变的上台阶。",
+      "cue_start": 471,
+      "cue_end": 472,
+      "start": "00:24:44,750",
+      "end": "00:24:51,470"
+    },
+    {
+      "source_segment_id": "SS-C075",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "这个台阶的翻的话可能是上升10倍。\n折旧的这个费嘛可能是上升10倍。\n或者上升几倍。\n这样的东西的话，对于你整个的盈利预期是非常大的打击。",
+      "cue_start": 473,
+      "cue_end": 476,
+      "start": "00:24:51,470",
+      "end": "00:25:02,160"
+    },
+    {
+      "source_segment_id": "SS-C076",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "这些事儿。\n运行者数据中心的。\n接触过云服务的。\n稍微对云服务这样的服务类型有过一个商业测算的，都是门清的。\n所有人都看在眼里了，但是呢谁不清楚呢？\n刚刚初来乍到进入这个市场。\n对着AI算力的出售出租，有着不切实际幻想的投资者，他不清楚。\n对吧。\n这是你运行那段时间以后就要面对的问题。面对这些问题，你就得算这个细账。\n这就是所谓的。\n啊，存量行业必须得精打细算。\n那些增量行业呢，那根本就不关心这事儿。\n他只要追着风头跑就完了。\n这样的认知差距就会导致。\n大家对这个事情未来的扩扩展空间有了最大的这种分歧。",
+      "cue_start": 477,
+      "cue_end": 491,
+      "start": "00:25:02,170",
+      "end": "00:25:44,340"
+    },
+    {
+      "source_segment_id": "SS-C077",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "而这种分歧本身。\n就是制造不稳定的源头。\n之前那波泡沫是没有任何不稳定的因素，顺风顺水的吹到这么的高大的高度。\n现在市场上有了担忧。\n有了裂痕。\n有了共识呃共识的破裂。\n在这种对冲的情况下，它市场怎么可能脱离地形引力继续向上涨呢？",
+      "cue_start": 492,
+      "cue_end": 498,
+      "start": "00:25:44,340",
+      "end": "00:26:05,410"
+    },
+    {
+      "source_segment_id": "SS-C078",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "如果没有继续向上涨的话，市场没有赚钱效应，它就没有这个吸引力了。\n那失去吸引力的市场，自然而然呢，它就会自己踩踏自己产生向心的弹索。",
+      "cue_start": 499,
+      "cue_end": 500,
+      "start": "00:26:05,410",
+      "end": "00:26:15,880"
+    },
+    {
+      "source_segment_id": "SS-C079",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "这轮的反弹，它注定只是一个花架子。\n它没有真正反弹的核心支撑，它没有业务上的变化。\n没有应应用上的这种质的飞跃。\n也没有需求上面的一种长期的需求的不满足。\n这种长期的不满足。\n实际上是个伪需求啊，所以。",
+      "cue_start": 503,
+      "cue_end": 508,
+      "start": "00:26:18,420",
+      "end": "00:26:37,220"
+    },
+    {
+      "source_segment_id": "SS-C080",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "这都是底层的逻辑啊，从来没跟你讲让，从数据上分析如何如何得到什么结论。\n不看这个。\n看的是底层的逻辑，你凭什么继续的抛弃地金引力往上涨？\n抵抗地心引力的理由是啥？\n你得拿着出来。\n目前看到了他给的理由支撑不了这个。\n就他的推进能力不足够。\n那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+      "cue_start": 513,
+      "cue_end": 520,
+      "start": "00:26:50,360",
+      "end": "00:27:13,200"
+    },
+    {
+      "source_segment_id": "SS-C081",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG13"
+      ],
+      "raw_text": "那迟早它要掉出来，而且这个掉的回落速度是非常快的。",
+      "cue_start": 520,
+      "cue_end": 520,
+      "start": "00:27:09,470",
+      "end": "00:27:13,200"
+    },
+    {
+      "source_segment_id": "SS-C082",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG14"
+      ],
+      "raw_text": "就好像。\n美国跟日本联合的救市汇率救市。\n我当时星期一的节目里面是不是说了？\n我说最可怕的是啥呢？就是。\n啊，这个画寒的挺漂亮的。\n结果呢。\n一上去就是呢就是。\n啊，这个动作打的这个虎虎生风。\n嗯。\n效果呢稀松平常。\n啊吧，结果救是了，救了一下。\n钱花了不少，结果市场根本就不买账。\n到那个时候的话就成了这等着蜜月期一过。\n两边一起就是不是有个蜜月期嘛，是吧等着蜜月期一过。\n开始坐下来算账的时候，你多我少的时候就开始意见分歧了。\n那意见分歧了，就互相指责对方菜嘛，都是你这个菜。\n是，菜鸡拖累我本来我的话，美国英雄英明神武本来救救你日本的话，勾勾手指就给你救起来了。\n结果兄你日本太不中用了啊，在这是坏国的好事儿。\n等着这个意见分歧了以后。\n那美国人啊落井下石，埋你埋的更快。\n到时候。\n前面怎么救的，后面就怎么埋你。\n这个迹象已经开始了嘛，是吧那。\n接下来这事儿不就乐乐呵了吗？\n眼前的这波反弹也是一样的嘛。\n底层逻辑是相通的嘛。",
+      "cue_start": 521,
+      "cue_end": 546,
+      "start": "00:27:13,200",
+      "end": "00:28:20,420"
+    },
+    {
+      "source_segment_id": "SS-C083",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "呃，另外一个呢咱们聊聊。\n华为的这个公关啊，鸿蒙之行的这个公关啊。\n那公关在我看来的话，是一个巨大的灾难。",
+      "cue_start": 563,
+      "cue_end": 565,
+      "start": "00:28:53,890",
+      "end": "00:29:02,650"
+    },
+    {
+      "source_segment_id": "SS-C084",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "当下的最关键的主要矛盾是啥？\n在华为，在鸿蒙之行眼前，最大最大的主要矛盾是啥？\n是销量的下滑。\n那。\n鸿蒙之行的销量为什么下滑？",
+      "cue_start": 571,
+      "cue_end": 575,
+      "start": "00:29:14,600",
+      "end": "00:29:27,650"
+    },
+    {
+      "source_segment_id": "SS-C085",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "因为。\n是自己的粉丝消费不动了，那喜欢华为的，喜欢认对华为有好感的，对红梦之星有好感的。\n他们已经消费过一批了，那消费的量也不少，几十万台车是吧？\n这已经消费不动了。\n现在急需要破圈。",
+      "cue_start": 576,
+      "cue_end": 580,
+      "start": "00:29:27,680",
+      "end": "00:29:43,910"
+    },
+    {
+      "source_segment_id": "SS-C086",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "现在急需要破圈。\n而破圈需要的是让路人路转粉。\n啊，而不是路转黑。\n而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。\n对吧。\n那你现在呢主要的是要打开销量，这是你的主要矛盾吧。\n那你现在是不是急需要跟自己的路人？\n啊，把这个路人员从过去的不好的路人员慢慢转向到好的路人员。\n在这个过程中，你是不是应该放低自己的姿态？\n然后呢，跟自己的那些。\n你不用强化那些真正喜欢你的人，因为。\n现在销量已经告诉你了，这些真正喜欢你的人，他们的消费能力是在下降的。因为前面该买的已经买了嘛。\n他们的潜力已经挖掘光了嘛。\n您在急需要拓展第二市场、第三市场嘛。\n在这个压力之下的话，是不是急需的把自己的品牌形象进行一个柔和的转变，是当务之急呀。",
+      "cue_start": 580,
+      "cue_end": 608,
+      "start": "00:29:41,770",
+      "end": "00:31:03,310"
+    },
+    {
+      "source_segment_id": "SS-C087",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "而现在呢，因为他前面的那套。\n那针对自己粉丝的打法太过于成功了。\n反而呢。\n除了自己粉丝以外，其他的人呢对他的观感实际上是有所下降的。\n啊，这就是所谓的路转黑嘛。\n对吧。\n本来呢对你可能是一个中立的态度，但是时间长了以后呢，对你。\nOh.\n我离你远一点。\n这些事情。\n并不仅限于。\n啊，什么价高之次啊，什么什么过度宣传啊，什么什么在发布会上面。\n贬低同行啊不并不仅限于这个。\n它是各方各面的很多很多的。\n因素综合在一起。",
+      "cue_start": 583,
+      "cue_end": 597,
+      "start": "00:29:49,790",
+      "end": "00:30:24,930"
+    },
+    {
+      "source_segment_id": "SS-C088",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG15"
+      ],
+      "raw_text": "那现在这个华为的这个。\n呃，这个鸿梦之行的这个回复。\n那么生硬的看起来最后结尾的时候说我们要保持谦卑如何如何。但是。\n它是一个从法律的角度。\n从数据的角度进行的回应。\n他就不是一个公关的。\n意思是啥呢？就是我没错。\n客观的事实是这样的，我没错。\n再别说他这个文稿里面本身就有很多很多偷换概念。\n对吧。",
+      "cue_start": 609,
+      "cue_end": 618,
+      "start": "00:31:03,770",
+      "end": "00:31:28,530"
+    },
+    {
+      "source_segment_id": "SS-C089",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "呃，首先第一个是吧。\n他拿这个数据的对比，然后我只投诉了170多个。\n那实际上呢有55.5点几万条。\n这个数据对比对吗？不对。\n因为这个事件发酵口碑发酵，它是一个爆炸式增长的过程。\n你那个投诉170几条，是在这个事件的初期。",
+      "cue_start": 619,
+      "cue_end": 624,
+      "start": "00:31:28,530",
+      "end": "00:31:46,990"
+    },
+    {
+      "source_segment_id": "SS-C090",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "那实际上呢有55.5点几万条。",
+      "cue_start": 621,
+      "cue_end": 621,
+      "start": "00:31:33,870",
+      "end": "00:31:36,780"
+    },
+    {
+      "source_segment_id": "SS-C091",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "你那个投诉170几条，是在这个事件的初期。\n总共关于这个事件相关的这个事儿都没有多少。\n可能就是几百条上千条。\n对吧。\n是因为你那100多条，那在整个的比例里边呢，可能就占很高的比例了。",
+      "cue_start": 624,
+      "cue_end": 628,
+      "start": "00:31:43,240",
+      "end": "00:31:57,630"
+    },
+    {
+      "source_segment_id": "SS-C092",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？",
+      "cue_start": 635,
+      "cue_end": 639,
+      "start": "00:32:14,490",
+      "end": "00:32:29,950"
+    },
+    {
+      "source_segment_id": "SS-C093",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "是因为你的这个粗暴的脂法引引发了口碑的发酵，引发了大家的反弹。\n一下子爆炸性性的增长。\n一增长了后候，你一看。\n这个情况你已经失控了，那就干干脆的话就别别在这个问题上再继续搞了。因为。\n太多的这个投诉，你投诉不过来了。\n对吧。\n最后呢才让整个这个口碑爆炸发酵。\n一爆炸发酵的话，参与的人全民狂欢了，参与的人多了，发布的作品多了。\n这分母做大了。\n然后你反过来说，你看我们只是在这么庞大的数项里边投诉了这么小一部分。\n这是不是在玩小手段？\n在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。",
+      "cue_start": 629,
+      "cue_end": 642,
+      "start": "00:31:57,630",
+      "end": "00:32:44,160"
+    },
+    {
+      "source_segment_id": "SS-C094",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "raw_text": "再次提醒大家，我知道华嗯评论区里面有很多华为的这个拥趸，喜欢华为的。\n我跟你们的立场没有区别。\n但是我希望呢大家放下你自己粉丝的身份。\n用一个路人的视角看待你喜欢的品牌。\n你们的行为到底是在帮他招黑，还是帮他扩展自己的路人员？",
+      "cue_start": 649,
+      "cue_end": 653,
+      "start": "00:33:00,740",
+      "end": "00:33:18,830"
+    },
+    {
+      "source_segment_id": "SS-C095",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "raw_text": "不排除这里面确确实实有很多米粉。\n但是你能说所有讨厌你的都是米粉吗？\n或者说呢。\n哪怕讨厌你的都是米粉。\n那这米粉和米粉之间亦有不同，也有程度的差别。\n难道你就要一竿子打死，把他们全部都排入你的黑名单，跟他们老死不相往来？\n不把这一部分来争取转化一部分嘛。",
+      "cue_start": 662,
+      "cue_end": 668,
+      "start": "00:33:37,440",
+      "end": "00:33:56,880"
+    },
+    {
+      "source_segment_id": "SS-C096",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "raw_text": "要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。\n把自己的敌人搞得少少的。\n搞得少少的恰恰是主要矛盾。\n这就是矛盾论的精髓。",
+      "cue_start": 687,
+      "cue_end": 711,
+      "start": "00:34:48,720",
+      "end": "00:35:46,110"
+    },
+    {
+      "source_segment_id": "SS-C097",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG17"
+      ],
+      "raw_text": "这句话背景的是啥？当年的时候，共产党的势力。\n在国内的话是非常非常小的。\n这属于是赤匪。\n属于是流流扣那个级别的。\n结果呢。\n整个环境环境敌对你。\n妨碍你去拉拢那些本来是你的敌人，成为你的朋友吗？\n洞房碍呀。\n要把大家的这个主要矛盾。\n进行一个提炼。\n为啥要提炼主要矛盾？\n提炼主要矛盾的目的不是为了。\n啊，通过这个矛盾来识别敌我的。\n而是通过主要矛盾。\n嗯。\n把这个主要矛盾识别出来。\n来拉拢对手的。\n咱们坐下来谈吧，咱们的主要矛盾其实并没有相相悖。\n你别看咱们打生打死的，其实。\n咱们都是抗日。\n抗日啥的咱们的主线。\n想不想抗日嘛，想抗日。\n那咱们现在的身份。\n我是刘寇，对吧？\n咱们的现代身份，但是我们也是一心抗日的呀。\n你也不想日本人在我们头上作威作福吧。所以呢。\n咱们很多问题上可以谈。\n这叫啥呢？\n这叫拿了一个主要矛盾，作为一个引子，把咱们之间的矛盾化为次要矛盾，然后你就变成我可以争取的对象。\n最后呢把自己的朋友搞得多多的。",
+      "cue_start": 679,
+      "cue_end": 708,
+      "start": "00:34:29,680",
+      "end": "00:35:39,880"
+    },
+    {
+      "source_segment_id": "SS-C098",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "raw_text": "现在。\n那些。\n，这华为的这个粉丝是吧？\n在干的事儿是干嘛的？\n再竖一个巨大的靶字。\n把所有人这个往这个靶子里装，然后把这些所有人全部变成自己的敌对。\n这叫把自己的朋友搞得少少的，把敌人搞得多多的。\n这是一个要破圈的品牌，应该做的事儿吗？\n显然不是嘛，对不对？",
+      "cue_start": 714,
+      "cue_end": 722,
+      "start": "00:35:49,680",
+      "end": "00:36:10,630"
+    },
+    {
+      "source_segment_id": "SS-C099",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "raw_text": "这个公关的稿本身的出发点就是错的。\n你不是现在需要博取同情，说自己没错。\n认个错咋了？\n你确确实实之前的时候堵嘴这个事儿的话，已经引发了大家的反弹了嘛。\n这件事情能够传播的这么的广。\n最后堵都堵不过来，那客观程度上来说就是路人对你的缘，路人缘已经败坏了嘛。\n这件事情你先得认识清楚了后有这个勇气。\n认清现实。\n有这么大的胃口能够吞下这个。\n苍蝇。\n你才能谈其他的后边怎么改进吧。\n如果视而不见，对这样的一个矛盾视而不见，坚坚决的否认的话。\n那越否认陷得越深嘛。",
+      "cue_start": 724,
+      "cue_end": 736,
+      "start": "00:36:11,340",
+      "end": "00:36:52,360"
+    },
+    {
+      "source_segment_id": "SS-C100",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "raw_text": "我昨天节目是不是说了，对于于成东来说的话。\n其实呢很多的建议我觉得挺中肯。从公关的角度建议。\n他最好的方法呢是自嘲，对吧？上台了，拿个竹治料这转一转转啊转转一转，然后自嘲一下，然后说一下哎，这个是下不为例。啊，很多事儿的话，我也是无心的。然后我这个形象讲话那个有口音啊，说话有口必。哎呀，是个人都有这样的小毛病，大家都谅解一谅解，没必要把这个上纲上线，把这个东西告。\n人身攻击自我的解嘲一下就完事儿了，对吧？这个事情无论如何，他对于降低这个事情的冲击都是有好处的。但是我昨天节目也说了，他自己被架那里面，他自己背后有团队，他不能够接受失败，他甚至不能够让这个失败的可能性增加一点点。这事儿给他架着，他不能够做这样的。\n柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+      "cue_start": 738,
+      "cue_end": 743,
+      "start": "00:36:52,970",
+      "end": "00:38:19,860"
+    },
+    {
+      "source_segment_id": "SS-C101",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "raw_text": "柔和的选择对吧？这才是症结的关键，不能够做这样的柔和选择，只会让这个矛盾继续的激化。这个矛盾激化对他自己又没什么好处。最后的结果呢就是看似每一步每一步做都是错呃，都是对的。但最后的结果呢反而呢越来越差。这个困境跟美国现。\n的困境不是一模一样嘛，对吧？得有人从长远的角度去考虑，有足够的威望，能压起压下内部的四分五裂的分歧意见，对整个的组织做出正确的选择，这件事情才能够更上一层楼，否则的话只会越走越差。",
+      "cue_start": 742,
+      "cue_end": 743,
+      "start": "00:37:39,860",
+      "end": "00:38:19,860"
+    },
+    {
+      "source_segment_id": "SS-C102",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG18"
+      ],
+      "raw_text": "这个事儿是很公平的。所以我在昨天节目结尾的时候，推荐大家看求是7月16号的那篇文章，我等会儿把这篇文章贴到评论区里啊，贴到那个简介里面，大家有有兴趣看一下，我党是怎么样历久弥新。在一些关键的环节里面焕发重生的怎么抓住这些主要。\n矛盾把自己的敌人搞得少少的，把自己的朋友搞得多多的对吧？有了这么一个目标，有了这么的一个现场的示范，还学不会，学不会，你起码得得学会看懂吧。还看不懂。那请问你喜欢这个品牌，最后让你的智商降低，这对你来说是好事还是坏事。",
+      "cue_start": 744,
+      "cue_end": 745,
+      "start": "00:38:19,860",
+      "end": "00:38:59,860"
+    },
+    {
+      "source_segment_id": "SS-C103",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "或者咱们换个话说，咱们不对华为这个品牌有任何的这个攻击性啊，咱们还是中立的说的话，我做这个节目做这么长时间，我这么真诚的面对大家给大们家讲这件事儿，我早就说过了，聊华为这个事儿对我来说是没有任何的好处的。为啥呢？因为我是在会员频道聊的。所有的听众的话，都是我。\n会员已经是我的会员了。在这个里边的话，我损失的每一个会员对我来说是有直接经济收入的损失的对吧？但是我还是要跟大家聊这个话题，还是顶住各种各样的影响。要聊这个话题。为啥呢？因为我觉得我这个频道唯一的价值就是能够真诚的带大家，对吧很多事儿的话，我是怎么想的，我就怎么跟大家说。",
+      "cue_start": 746,
+      "cue_end": 747,
+      "start": "00:38:59,860",
+      "end": "00:39:39,860"
+    },
+    {
+      "source_segment_id": "SS-C104",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "那不去讨论这个事情的对错啊，就是你到底判断的准还是不准呢，这些都是其次的。咱们分析的是整个的逻辑，对吧？整个的事件的发展，你能够提前的预知吗？特别是遇到特朗普这样的2250，你能够提前的知道他怎么想的嘛，或者说他自己的私心有多重，你就能够提前知道吗？你知道他的下限有。\n多低嘛，你无法知道的。但是他做出任何的判断，他也离不开整个世件的背景啊，他也离不开这个世界的基基调啊，他能够独立于呃独立于这个世界之外，想干嘛就干嘛嘛，他也有他自己的限制啊，看清楚这些限制，知道他的边界，根据这些边界来分析事件的走向，往往是。",
+      "cue_start": 748,
+      "cue_end": 749,
+      "start": "00:39:39,860",
+      "end": "00:40:19,860"
+    },
+    {
+      "source_segment_id": "SS-C105",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "最靠谱的他只有可能比这个情况处理的更差，他不可能比这个情况处理的更好。这叫做保下线。想要保下线就得眼睛看的更加的真实。那所有的内容的话就跟大家真实的交代。那我觉得这是我这个频道唯一的价值了。其他的事我也不是能掐会算的，我也没办法给你钱算的很很。",
+      "cue_start": 750,
+      "cue_end": 750,
+      "start": "00:40:19,860",
+      "end": "00:40:39,860"
+    },
+    {
+      "source_segment_id": "SS-C106",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "很明白，对吧？我每天每天接收的数据也有限啊，接收的信息也有限，做不到那种全职全能提前预知未来做不到的。你对我有这样的想法就是错误的。但是我不认为我给大家提供的这些内容是没有价值的，恰恰相反，我认为我提供的价值呃，提供的内容是非常非常的有价值的，是超值的。",
+      "cue_start": 751,
+      "cue_end": 751,
+      "start": "00:40:39,860",
+      "end": "00:40:59,860"
+    },
+    {
+      "source_segment_id": "SS-C107",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "所以我有这个信心嘛，是吧？你愿意订阅就订阅。看我评论区里边经常道德绑架我是吧？你这个节目质量越来越差了，我不想要取关了，我只能说能力有限，该取关就取关，为啥呢？因为确确实实可能你认为我提供的东西没有价值，有没有可能有没有一种可能，就是我自己提供的，我认。\n没的很有价值的东西。在你看来的话，没有价值，对吧？这就是两种可能性嘛。一种的话，你缺乏识识别识别有价值信息的能力，对吧？那这种情况下，你跟他说再多没用，对吧？另外一个的话就是你的水平比我高太多，对吧？那那确确实实的那你继续听我讲的话，也没有什么太大的意义。\n啊这两种可能性自选其一就可以了。，这就叫什么呢？这就叫把自己的朋友搞得多多的，把敌人搞得少少的，争取咱们之间的最大公约数啊，争取树立一个主要矛盾，来转化自己的对手，把一个对立面转化成自己的同行者。",
+      "cue_start": 752,
+      "cue_end": 754,
+      "start": "00:41:00,070",
+      "end": "00:42:00,000"
+    },
+    {
+      "source_segment_id": "SS-C108",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG19"
+      ],
+      "raw_text": "这个话不是我今天说的，半年前就说了，他跑偏了。\n对吧。\n但是我现在很悲观，我认为他没办法从自己的错误中改正出来，为啥呢？\n他现在都没认为他自己错了。\n就好像恰如现在的美国一样。",
+      "cue_start": 761,
+      "cue_end": 765,
+      "start": "00:42:17,890",
+      "end": "00:42:32,450"
+    },
+    {
+      "source_segment_id": "SS-C109",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG03"
+      ],
+      "raw_text": "预计是405亿。\n实际交付是422亿，多了20亿美元。\n占整个400亿的每一个牌子是不是5%左右，还不到5%。\n对吧这简单你掰指头一算就能算得到的。",
+      "cue_start": 92,
+      "cue_end": 95,
+      "start": "00:04:53,680",
+      "end": "00:05:05,650"
+    },
+    {
+      "source_segment_id": "SS-C110",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG12"
+      ],
+      "raw_text": "手机虽然一年一换，一年一年之间的比较差别不大。\n但是今年的手机跟10年前的手机比的话，差别还是挺大的。\n是吧。\n2026年吧，你回到2016年。\n我昨天的时候正好。\n之前那个。\n呃，iphone8是吧，拿出来我看了一下那。\n互相之间比较了一下，还真的那个已经开不了机了啊。\n从外观上比较的话，真的还差别还蛮大的。那个时候那个iphone。\n还有一个实体的那个电容的那个指纹的那个圆小小拳坨坨的是吧？\n那现在的话这所有的手机全部都是大置屏了，这差别还是很挺很挺大的。\n我说这是啥意思呢？就是。\n短时间之内。\n英伟达出来的一代一代的一代的区别并不是特别的明显。\n但如果你把这个折旧周期放到7年、10年的话，这个差别还是会非常非常明显的。",
+      "cue_start": 427,
+      "cue_end": 441,
+      "start": "00:22:40,240",
+      "end": "00:23:26,040"
+    },
+    {
+      "source_segment_id": "SS-C111",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG16"
+      ],
+      "raw_text": "在这个时候，你本来是一个公关，本来是一个给大家说明情况的，争取大家。\n把录人员把它转变过来的一个时机。\n别玩这种小聪明，这种小聪明让人识破了以后会更加的增加恶感。\n对吧觉得你这个道歉不诚恳嘛。\n你发这个东西其实想说的是啥呢？是想说我们认识到错了，这个事能不能冷处理嘛？\n是不是您发这个东西是不是就起到这个目标嘛？\n但实际上呢。\n你发这个东西本身的话，火上浇油。\n让不爽你的人更不爽了。我说的啊。",
+      "cue_start": 640,
+      "cue_end": 648,
+      "start": "00:32:30,210",
+      "end": "00:33:00,450"
+    },
+    {
+      "source_segment_id": "SS-C112",
+      "source_id": "S03",
+      "source_version_ref": "V-S03",
+      "origin_family_ids": [
+        "F9527"
+      ],
+      "semantic_segment_refs": [
+        "SEG06",
+        "SEG07"
+      ],
+      "raw_text": "你看到了啊，那个分析说这个云服务商啊，这个盈利非常的好。所以这。\n波的这个上涨，它是有坚实的基础的。\n我不这么认为。\n为啥先把这个分析说说清楚啊。",
+      "cue_start": 218,
+      "cue_end": 221,
+      "start": "00:11:20,340",
+      "end": "00:11:31,890"
+    },
+    {
+      "source_segment_id": "SS-X01",
+      "source_id": "S10",
+      "source_version_ref": "V-S10",
+      "origin_family_ids": [
+        "FMSFT"
+      ],
+      "locator": "Commercial remaining performance obligation definition",
+      "raw_text": null,
+      "paraphrase": "微软商业RPO是未履行合同的未来收入义务，不是已经投入的硬件资产成本。"
+    },
+    {
+      "source_segment_id": "SS-X02",
+      "source_id": "S10",
+      "source_version_ref": "V-S10",
+      "origin_family_ids": [
+        "FMSFT"
+      ],
+      "locator": "Q326/Q426 columns",
+      "raw_text": null,
+      "paraphrase": "微软商业RPO FY26Q3为6270亿美元、Q4为6780亿美元。"
+    },
+    {
+      "source_segment_id": "SS-X03",
+      "source_id": "S11",
+      "source_version_ref": "V-S11",
+      "origin_family_ids": [
+        "FMSFT"
+      ],
+      "locator": "Business Highlights",
+      "raw_text": null,
+      "paraphrase": "微软FY26Q4 Azure及其他云服务同比增长43%；不是全部Microsoft Cloud。"
+    },
+    {
+      "source_segment_id": "SS-X04",
+      "source_id": "S12",
+      "source_version_ref": "V-S12",
+      "origin_family_ids": [
+        "FAMZN"
+      ],
+      "locator": "AWS results bullet",
+      "raw_text": null,
+      "paraphrase": "亚马逊报告AWS二季度销售约422亿美元，同比增长约37%。"
+    },
+    {
+      "source_segment_id": "SS-X05",
+      "source_id": "S13",
+      "source_version_ref": "V-S13",
+      "origin_family_ids": [
+        "FGOOG"
+      ],
+      "locator": "headline results / Cloud",
+      "raw_text": null,
+      "paraphrase": "Alphabet报告2026Q2 Google Cloud收入同比增长82%。"
+    },
+    {
+      "source_segment_id": "SS-X06",
+      "source_id": "S06",
+      "source_version_ref": "V-S06",
+      "origin_family_ids": [
+        "FTHEINFORMATION"
+      ],
+      "locator": "开头政策进度",
+      "raw_text": null,
+      "paraphrase": "报道区分四州取消或暂停与九州研究类似政策，不能统称13州已经取消。"
+    },
+    {
+      "source_segment_id": "SS-X07",
+      "source_id": "S06",
+      "source_version_ref": "V-S06",
+      "origin_family_ids": [
+        "FTHEINFORMATION"
+      ],
+      "locator": "成本估算段",
+      "raw_text": null,
+      "paraphrase": "每GW约30亿美元是按7%销售税及设备购置规模估算的增量，不是年度通用运营费。"
+    },
+    {
+      "source_segment_id": "SS-X08",
+      "source_id": "S05",
+      "source_version_ref": "V-S05",
+      "origin_family_ids": [
+        "FAA"
+      ],
+      "locator": "任务成本段",
+      "raw_text": null,
+      "paraphrase": "3美分与3.15美元比较的是指定智能指数任务的估算成本，不是整个数据中心成本。"
+    },
+    {
+      "source_segment_id": "SS-X09",
+      "source_id": "S14",
+      "source_version_ref": "V-S14",
+      "origin_family_ids": [
+        "FAA"
+      ],
+      "locator": "Pricing / token usage",
+      "raw_text": null,
+      "paraphrase": "0731版本输入/输出Token价格不变，缓存折扣和任务Token使用影响成本比较。"
+    },
+    {
+      "source_segment_id": "SS-X10",
+      "source_id": "S04",
+      "source_version_ref": "V-S04",
+      "origin_family_ids": [
+        "FBROKER"
+      ],
+      "locator": "标题/ROI段",
+      "raw_text": null,
+      "paraphrase": "新闻将云收入与订单改善解释为AI回报兑现信号，并使用卖铲到用铲的标题框架。"
+    },
+    {
+      "source_segment_id": "SS-X11",
+      "source_id": "S08",
+      "source_version_ref": "V-S08",
+      "origin_family_ids": [
+        "FQIUSHI"
+      ],
+      "locator": "日期/自省段",
+      "raw_text": null,
+      "paraphrase": "文章强调组织自我检视与纠错；网页显示7月16日，URL含0715。"
+    }
+  ],
+  "method_recurrence": [
+    {
+      "candidate": "A 公开叙事后看执行能力/约束",
+      "status": "repeated",
+      "prior_refs": [
+        "GS003/HC01"
+      ],
+      "current_refs": [
+        "MS01"
+      ],
+      "scope": "同类分析动作，主题与具体结论不同"
+    },
+    {
+      "candidate": "B 增量看趋势、存量看空间",
+      "status": "unclear",
+      "prior_refs": [
+        "GS002/HC01"
+      ],
+      "current_refs": [
+        "MS02"
+      ],
+      "scope": "本期有存量/增量拆分，但未观察到存量推潜在空间的完整规则，不能硬判复现"
+    },
+    {
+      "candidate": "C 分阶段比较持续成本与承受能力",
+      "status": "repeated",
+      "prior_refs": [
+        "GS003/HC02"
+      ],
+      "current_refs": [
+        "MS03"
+      ],
+      "scope": "本期把硬件使用周期与回报对比；只复现成本/周期子模式，不含上期60天算法"
+    }
+  ],
+  "stress_tests": [
+    {
+      "test_id": "T01",
+      "test": "股价≠产业结构",
+      "status": "pass_with_review_limits",
+      "evidence": "C004/TH01分开，Process=0"
+    },
+    {
+      "test_id": "T02",
+      "test": "Cloud≠AI收入",
+      "status": "pass_with_review_limits",
+      "evidence": "C041/X03限定Azure范围，未生成AI收入值"
+    },
+    {
+      "test_id": "T03",
+      "test": "AI使用≠ROI",
+      "status": "pass_with_review_limits",
+      "evidence": "C031/35与C039/40分开"
+    },
+    {
+      "test_id": "T04",
+      "test": "模型成本≠全经济成本",
+      "status": "pass_with_review_limits",
+      "evidence": "X08与AR03/M04诊断分开"
+    },
+    {
+      "test_id": "T05",
+      "test": "CapEx≠未来利润",
+      "status": "pass_with_review_limits",
+      "evidence": "未凭投入创建利润已增长Claim"
+    },
+    {
+      "test_id": "T06",
+      "test": "季度财报≠长期Process",
+      "status": "pass_with_review_limits",
+      "evidence": "仅记录RPO余额对照"
+    },
+    {
+      "test_id": "T07",
+      "test": "标题≠主播判断",
+      "status": "pass_with_review_limits",
+      "evidence": "NA01与NA02分别观察者"
+    },
+    {
+      "test_id": "T08",
+      "test": "模型补全≠Method",
+      "status": "pass_with_review_limits",
+      "evidence": "DA01与M01–M08不进入方法证据"
+    },
+    {
+      "test_id": "T09",
+      "test": "公司结构不可加总",
+      "status": "pass_with_review_limits",
+      "evidence": "AWS、Azure、Microsoft商业RPO、Google分开"
+    },
+    {
+      "test_id": "T10",
+      "test": "能力价格成本回报估值分开",
+      "status": "pass_with_review_limits",
+      "evidence": "Observation和Argument逐层区分；未给变量不补值"
+    }
+  ],
+  "information_set": {
+    "knowledge_cutoff": "2026-08-05T09:48:48+08:00",
+    "included_source_versions": [
+      "V-S01",
+      "V-S02",
+      "V-S03",
+      "V-S04",
+      "V-S05",
+      "V-S06",
+      "V-S08",
+      "V-S10",
+      "V-S11",
+      "V-S12",
+      "V-S13",
+      "V-S14"
+    ],
+    "external_reference_not_creator_used": [
+      "S07"
+    ],
+    "prior_samples_for_method_comparison_only": true
+  },
+  "registry_candidate_values": {
+    "claim_types": [
+      "analogy",
+      "calculation",
+      "conditional_claim",
+      "estimate",
+      "forecast",
+      "historical_analogy",
+      "historical_claim",
+      "interpretation",
+      "method_statement",
+      "model_reconstruction",
+      "personal_observation",
+      "personal_report",
+      "recommendation",
+      "reported_claim",
+      "retrospective_claim",
+      "source_claim",
+      "value_judgment"
+    ],
+    "relations": [
+      "SUPPORTS_CONDITIONALLY"
+    ],
+    "not_production_schema_approved": true
+  },
+  "analyst_model": {
+    "analyst_id": "analyst_youhegaojian9527",
+    "status": "single_episode_observations_not_simulation",
+    "signal_refs": [
+      "MS01",
+      "MS02",
+      "MS03",
+      "MS04",
+      "MS05",
+      "MS06",
+      "MS07",
+      "MS08"
+    ],
+    "skill_generated": false
+  },
+  "model_calculation_policy": "条件算术核查不将输入自动verified",
+  "snapshot_note": "source_snapshots保存工具返回片段，不是完整HTML或历史快照"
+}
+```

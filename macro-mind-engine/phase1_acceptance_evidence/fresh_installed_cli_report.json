@@ -1,0 +1,658 @@
+{
+  "all_pass": true,
+  "commands": [
+    {
+      "command": [
+        "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+        "contract",
+        "verify",
+        "--contract-root",
+        "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"
+      ],
+      "cwd": "G:\\youhegaojian\\macro-mind-engine",
+      "environment_overrides": {
+        "PYTHONUTF8": "1"
+      },
+      "exit_code": 0,
+      "name": "contract verify",
+      "parsed_json_success": true,
+      "parsed_stderr": {
+        "duration": 0.007364,
+        "errors": [],
+        "input_paths": [
+          "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"
+        ],
+        "ontology_version": "0.3",
+        "operation": "contract.verify",
+        "output_paths": [],
+        "run_id": "54e81999-ad80-42ff-964e-4d272673af45",
+        "version": "0.1.0",
+        "warnings": []
+      },
+      "parsed_stdout": {
+        "ERROR": 0,
+        "PASS": 44,
+        "WARNING": 0,
+        "boundary_count": 15,
+        "core_count": 14,
+        "report": {
+          "checks": [
+            {
+              "detail": "",
+              "name": "present:CORE_ONTOLOGY_V0.3_FROZEN.md",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:core_objects.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:core_boundaries.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:core_principles.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:freeze_manifest.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:freeze_debt_ledger.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:freeze_debt_status_overlay.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:CHANGE_POLICY.md",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:semantic_contract_projection.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "present:source_mapping.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:version",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:status",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:formal_freeze_executed",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:core_object_count",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:core_boundary_count",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:core_principle_count",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:core_blockers",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:freeze_readiness_decision",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:production_import_ready",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:analyst_skill_status",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest:macromind_core_skill_status",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest_artifact_set",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:CHANGE_POLICY.md",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:core_boundaries.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:core_objects.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:CORE_ONTOLOGY_V0.3_FROZEN.md",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:core_principles.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:freeze_debt_ledger.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:semantic_contract_projection.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:source_mapping.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "sha256:freeze_debt_status_overlay.json",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "exact_14_objects",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "manifest_object_list",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "exact_15_boundaries",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "exact_16_principles",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "semantic_hash",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection_version",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection:objects",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection:boundaries",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection:principles",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection:change_policy",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "projection:rule_details",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "source_mapping:objects",
+              "severity": "PASS"
+            },
+            {
+              "detail": "",
+              "name": "source_mapping:boundaries",
+              "severity": "PASS"
+            }
+          ],
+          "contract_version": "0.3",
+          "errors": [],
+          "status": "PASS",
+          "warnings": []
+        },
+        "semantic_hash": "8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424",
+        "status": "FROZEN",
+        "version": "0.3"
+      },
+      "started_at": "2026-09-27T14:09:15.364851+00:00",
+      "stderr": "{\"duration\": 0.007364, \"errors\": [], \"input_paths\": [\"G:\\\\youhegaojian\\\\golden_sample_test\\\\core_ontology\\\\v0.3\"], \"ontology_version\": \"0.3\", \"operation\": \"contract.verify\", \"output_paths\": [], \"run_id\": \"54e81999-ad80-42ff-964e-4d272673af45\", \"version\": \"0.1.0\", \"warnings\": []}\r\n",
+      "stderr_sha256": "56dd6cb6236c618b1093d78978b792fd4df7517627d91c75f9ed42f754f298dd",
+      "stdout": "{\r\n  \"ERROR\": 0,\r\n  \"PASS\": 44,\r\n  \"WARNING\": 0,\r\n  \"boundary_count\": 15,\r\n  \"core_count\": 14,\r\n  \"report\": {\r\n    \"checks\": [\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:CORE_ONTOLOGY_V0.3_FROZEN.md\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:core_objects.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:core_boundaries.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:core_principles.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:freeze_manifest.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:freeze_debt_ledger.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:freeze_debt_status_overlay.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:CHANGE_POLICY.md\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:semantic_contract_projection.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"present:source_mapping.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:version\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:status\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:formal_freeze_executed\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:core_object_count\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:core_boundary_count\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:core_principle_count\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:core_blockers\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:freeze_readiness_decision\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:production_import_ready\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:analyst_skill_status\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest:macromind_core_skill_status\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest_artifact_set\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:CHANGE_POLICY.md\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:core_boundaries.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:core_objects.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:CORE_ONTOLOGY_V0.3_FROZEN.md\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:core_principles.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:freeze_debt_ledger.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:semantic_contract_projection.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:source_mapping.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"sha256:freeze_debt_status_overlay.json\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"exact_14_objects\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"manifest_object_list\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"exact_15_boundaries\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"exact_16_principles\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"semantic_hash\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection_version\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection:objects\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection:boundaries\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection:principles\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection:change_policy\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"projection:rule_details\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"source_mapping:objects\",\r\n        \"severity\": \"PASS\"\r\n      },\r\n      {\r\n        \"detail\": \"\",\r\n        \"name\": \"source_mapping:boundaries\",\r\n        \"severity\": \"PASS\"\r\n      }\r\n    ],\r\n    \"contract_version\": \"0.3\",\r\n    \"errors\": [],\r\n    \"status\": \"PASS\",\r\n    \"warnings\": []\r\n  },\r\n  \"semantic_hash\": \"8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424\",\r\n  \"status\": \"FROZEN\",\r\n  \"version\": \"0.3\"\r\n}\r\n",
+      "stdout_sha256": "0be369cbc97195e04ad1cfb86e88e3906b2c598348d4f82a2ba1e193e53cf007"
+    },
+    {
+      "command": [
+        "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+        "registry",
+        "verify",
+        "--registry-root",
+        "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+      ],
+      "cwd": "G:\\youhegaojian\\macro-mind-engine",
+      "environment_overrides": {
+        "PYTHONUTF8": "1"
+      },
+      "exit_code": 0,
+      "name": "registry verify",
+      "parsed_json_success": true,
+      "parsed_stderr": {
+        "duration": 0.188577,
+        "errors": [],
+        "input_paths": [
+          "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+        ],
+        "ontology_version": "0.3",
+        "operation": "registry.verify",
+        "output_paths": [],
+        "run_id": "46d0a452-1f63-4e35-87ba-dbb559bed867",
+        "version": "0.1.0",
+        "warnings": []
+      },
+      "parsed_stdout": {
+        "core_count": 14,
+        "enum_count": 15,
+        "object_count": 26,
+        "ontology_version": "0.3",
+        "relation_count": 9,
+        "status": "PASS"
+      },
+      "started_at": "2026-09-27T14:09:15.785406+00:00",
+      "stderr": "{\"duration\": 0.188577, \"errors\": [], \"input_paths\": [\"G:\\\\youhegaojian\\\\macro-mind-engine\\\\registries\\\\v0_3\"], \"ontology_version\": \"0.3\", \"operation\": \"registry.verify\", \"output_paths\": [], \"run_id\": \"46d0a452-1f63-4e35-87ba-dbb559bed867\", \"version\": \"0.1.0\", \"warnings\": []}\r\n",
+      "stderr_sha256": "64dbc11480f5b691b69c238ed2049a43a64a85b14a13dc53c468d2afc316ef71",
+      "stdout": "{\r\n  \"core_count\": 14,\r\n  \"enum_count\": 15,\r\n  \"object_count\": 26,\r\n  \"ontology_version\": \"0.3\",\r\n  \"relation_count\": 9,\r\n  \"status\": \"PASS\"\r\n}\r\n",
+      "stdout_sha256": "426ff5daa90f7e43ea0cf1f9df4eaf33a5757bc159a386615ffe62b7fdee2bad"
+    },
+    {
+      "command": [
+        "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+        "schema",
+        "export",
+        "--contract-root",
+        "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+        "--registry-root",
+        "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3",
+        "--output-root",
+        "C:\\Users\\无语\\AppData\\Local\\Temp\\macromind-evidence-htf9etr4\\exported"
+      ],
+      "cwd": "G:\\youhegaojian\\macro-mind-engine",
+      "environment_overrides": {
+        "PYTHONUTF8": "1"
+      },
+      "exit_code": 0,
+      "name": "schema export",
+      "parsed_json_success": true,
+      "parsed_stderr": {
+        "duration": 0.36423,
+        "errors": [],
+        "input_paths": [
+          "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+          "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+        ],
+        "ontology_version": "0.3",
+        "operation": "schema.export",
+        "output_paths": [
+          "C:\\Users\\无语\\AppData\\Local\\Temp\\macromind-evidence-htf9etr4\\exported"
+        ],
+        "run_id": "b4ca692e-81c4-496c-a091-42ad6a50fcec",
+        "version": "0.1.0",
+        "warnings": []
+      },
+      "parsed_stdout": {
+        "manifest": {
+          "ontology_version": "0.3",
+          "schema_version": "0.1.0",
+          "schemas": [
+            {
+              "kind": "core",
+              "model": "Actor",
+              "ontology_version": "0.3",
+              "path": "core/Actor.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d"
+            },
+            {
+              "kind": "core",
+              "model": "Argument",
+              "ontology_version": "0.3",
+              "path": "core/Argument.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96"
+            },
+            {
+              "kind": "core",
+              "model": "Assessment",
+              "ontology_version": "0.3",
+              "path": "core/Assessment.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574"
+            },
+            {
+              "kind": "core",
+              "model": "Claim",
+              "ontology_version": "0.3",
+              "path": "core/Claim.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3"
+            },
+            {
+              "kind": "core",
+              "model": "Contradiction",
+              "ontology_version": "0.3",
+              "path": "core/Contradiction.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331"
+            },
+            {
+              "kind": "core",
+              "model": "Event",
+              "ontology_version": "0.3",
+              "path": "core/Event.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb"
+            },
+            {
+              "kind": "core",
+              "model": "Forecast",
+              "ontology_version": "0.3",
+              "path": "core/Forecast.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978"
+            },
+            {
+              "kind": "core",
+              "model": "Heuristic",
+              "ontology_version": "0.3",
+              "path": "core/Heuristic.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0"
+            },
+            {
+              "kind": "core",
+              "model": "Indicator",
+              "ontology_version": "0.3",
+              "path": "core/Indicator.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d"
+            },
+            {
+              "kind": "core",
+              "model": "Mechanism",
+              "ontology_version": "0.3",
+              "path": "core/Mechanism.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade"
+            },
+            {
+              "kind": "core",
+              "model": "Policy",
+              "ontology_version": "0.3",
+              "path": "core/Policy.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56"
+            },
+            {
+              "kind": "core",
+              "model": "Source",
+              "ontology_version": "0.3",
+              "path": "core/Source.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a"
+            },
+            {
+              "kind": "core",
+              "model": "StructuralProcess",
+              "ontology_version": "0.3",
+              "path": "core/StructuralProcess.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4"
+            },
+            {
+              "kind": "core",
+              "model": "Thesis",
+              "ontology_version": "0.3",
+              "path": "core/Thesis.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "AnalystMethodSignal",
+              "ontology_version": "0.3",
+              "path": "auxiliary/AnalystMethodSignal.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "ClaimOccurrence",
+              "ontology_version": "0.3",
+              "path": "auxiliary/ClaimOccurrence.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "ExpectationSnapshot",
+              "ontology_version": "0.3",
+              "path": "auxiliary/ExpectationSnapshot.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "IndicatorObservation",
+              "ontology_version": "0.3",
+              "path": "auxiliary/IndicatorObservation.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "InformationSet",
+              "ontology_version": "0.3",
+              "path": "auxiliary/InformationSet.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "MechanismUsage",
+              "ontology_version": "0.3",
+              "path": "auxiliary/MechanismUsage.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "ReviewQueueItem",
+              "ontology_version": "0.3",
+              "path": "auxiliary/ReviewQueueItem.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "Scenario",
+              "ontology_version": "0.3",
+              "path": "auxiliary/Scenario.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "SourceFamily",
+              "ontology_version": "0.3",
+              "path": "auxiliary/SourceFamily.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "SourceSegment",
+              "ontology_version": "0.3",
+              "path": "auxiliary/SourceSegment.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "SourceVersion",
+              "ontology_version": "0.3",
+              "path": "auxiliary/SourceVersion.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409"
+            },
+            {
+              "kind": "auxiliary",
+              "model": "TranscriptCorrection",
+              "ontology_version": "0.3",
+              "path": "auxiliary/TranscriptCorrection.schema.json",
+              "schema_version": "0.1.0",
+              "sha256": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38"
+            }
+          ]
+        },
+        "schema_count": 26,
+        "status": "PASS"
+      },
+      "started_at": "2026-09-27T14:09:16.359871+00:00",
+      "stderr": "{\"duration\": 0.36423, \"errors\": [], \"input_paths\": [\"G:\\\\youhegaojian\\\\golden_sample_test\\\\core_ontology\\\\v0.3\", \"G:\\\\youhegaojian\\\\macro-mind-engine\\\\registries\\\\v0_3\"], \"ontology_version\": \"0.3\", \"operation\": \"schema.export\", \"output_paths\": [\"C:\\\\Users\\\\\\u65e0\\u8bed\\\\AppData\\\\Local\\\\Temp\\\\macromind-evidence-htf9etr4\\\\exported\"], \"run_id\": \"b4ca692e-81c4-496c-a091-42ad6a50fcec\", \"version\": \"0.1.0\", \"warnings\": []}\r\n",
+      "stderr_sha256": "c3bd9f7c24d46ec47b1282037acd301de4b4735c4a8ec59154aeedadd721a968",
+      "stdout": "{\r\n  \"manifest\": {\r\n    \"ontology_version\": \"0.3\",\r\n    \"schema_version\": \"0.1.0\",\r\n    \"schemas\": [\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Actor\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Actor.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Argument\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Argument.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Assessment\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Assessment.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Claim\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Claim.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Contradiction\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Contradiction.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Event\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Event.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Forecast\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Forecast.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Heuristic\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Heuristic.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Indicator\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Indicator.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Mechanism\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Mechanism.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Policy\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Policy.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Source\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Source.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"StructuralProcess\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/StructuralProcess.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4\"\r\n      },\r\n      {\r\n        \"kind\": \"core\",\r\n        \"model\": \"Thesis\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"core/Thesis.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"AnalystMethodSignal\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/AnalystMethodSignal.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"ClaimOccurrence\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/ClaimOccurrence.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"ExpectationSnapshot\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/ExpectationSnapshot.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"IndicatorObservation\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/IndicatorObservation.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"InformationSet\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/InformationSet.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"MechanismUsage\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/MechanismUsage.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"ReviewQueueItem\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/ReviewQueueItem.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"Scenario\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/Scenario.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"SourceFamily\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/SourceFamily.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"SourceSegment\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/SourceSegment.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"SourceVersion\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/SourceVersion.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409\"\r\n      },\r\n      {\r\n        \"kind\": \"auxiliary\",\r\n        \"model\": \"TranscriptCorrection\",\r\n        \"ontology_version\": \"0.3\",\r\n        \"path\": \"auxiliary/TranscriptCorrection.schema.json\",\r\n        \"schema_version\": \"0.1.0\",\r\n        \"sha256\": \"5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38\"\r\n      }\r\n    ]\r\n  },\r\n  \"schema_count\": 26,\r\n  \"status\": \"PASS\"\r\n}\r\n",
+      "stdout_sha256": "a5fa62bb5f8b87bd683d0fd66ec63917678e4b0a7d51878b02fc976df8df4690"
+    },
+    {
+      "command": [
+        "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+        "registry",
+        "verify",
+        "--registry-root",
+        "C:\\Users\\无语\\AppData\\Local\\Temp\\macromind-evidence-htf9etr4\\中文注册表"
+      ],
+      "cwd": "G:\\youhegaojian\\macro-mind-engine",
+      "environment_overrides": {
+        "PYTHONIOENCODING": "gbk",
+        "PYTHONUTF8": "0"
+      },
+      "exit_code": 0,
+      "name": "GBK/Chinese-path regression",
+      "parsed_json_success": true,
+      "parsed_stderr": {
+        "duration": 0.213574,
+        "errors": [],
+        "input_paths": [
+          "C:\\Users\\无语\\AppData\\Local\\Temp\\macromind-evidence-htf9etr4\\中文注册表"
+        ],
+        "ontology_version": "0.3",
+        "operation": "registry.verify",
+        "output_paths": [],
+        "run_id": "edce06b0-35e5-4800-9087-36e71dd3f74f",
+        "version": "0.1.0",
+        "warnings": []
+      },
+      "parsed_stdout": {
+        "core_count": 14,
+        "enum_count": 15,
+        "object_count": 26,
+        "ontology_version": "0.3",
+        "relation_count": 9,
+        "status": "PASS"
+      },
+      "started_at": "2026-09-27T14:09:17.108719+00:00",
+      "stderr": "{\"duration\": 0.213574, \"errors\": [], \"input_paths\": [\"C:\\\\Users\\\\\\u65e0\\u8bed\\\\AppData\\\\Local\\\\Temp\\\\macromind-evidence-htf9etr4\\\\\\u4e2d\\u6587\\u6ce8\\u518c\\u8868\"], \"ontology_version\": \"0.3\", \"operation\": \"registry.verify\", \"output_paths\": [], \"run_id\": \"edce06b0-35e5-4800-9087-36e71dd3f74f\", \"version\": \"0.1.0\", \"warnings\": []}\r\n",
+      "stderr_sha256": "37bf5fd61e38d9e718eed84e018a319b4df84fca9caf2025c1276903eccfc8f3",
+      "stdout": "{\r\n  \"core_count\": 14,\r\n  \"enum_count\": 15,\r\n  \"object_count\": 26,\r\n  \"ontology_version\": \"0.3\",\r\n  \"relation_count\": 9,\r\n  \"status\": \"PASS\"\r\n}\r\n",
+      "stdout_sha256": "426ff5daa90f7e43ea0cf1f9df4eaf33a5757bc159a386615ffe62b7fdee2bad"
+    }
+  ],
+  "created_during_acceptance_evidence_completion": true,
+  "distribution_version": "0.1.0",
+  "entry_point": "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe",
+  "entry_point_sha256": "d6859d1aa1f268ea02c73b53d2f219f554ad7b3081dd8ccdc6ac72cc41abf89f",
+  "export_matches_existing_artifacts": true,
+  "fresh_export_hashes": {
+    "auxiliary/AnalystMethodSignal.schema.json": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd",
+    "auxiliary/ClaimOccurrence.schema.json": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e",
+    "auxiliary/ExpectationSnapshot.schema.json": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283",
+    "auxiliary/IndicatorObservation.schema.json": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10",
+    "auxiliary/InformationSet.schema.json": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b",
+    "auxiliary/MechanismUsage.schema.json": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f",
+    "auxiliary/ReviewQueueItem.schema.json": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7",
+    "auxiliary/Scenario.schema.json": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4",
+    "auxiliary/SourceFamily.schema.json": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47",
+    "auxiliary/SourceSegment.schema.json": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89",
+    "auxiliary/SourceVersion.schema.json": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409",
+    "auxiliary/TranscriptCorrection.schema.json": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38",
+    "core/Actor.schema.json": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d",
+    "core/Argument.schema.json": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96",
+    "core/Assessment.schema.json": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574",
+    "core/Claim.schema.json": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3",
+    "core/Contradiction.schema.json": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331",
+    "core/Event.schema.json": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb",
+    "core/Forecast.schema.json": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978",
+    "core/Heuristic.schema.json": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0",
+    "core/Indicator.schema.json": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d",
+    "core/Mechanism.schema.json": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade",
+    "core/Policy.schema.json": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56",
+    "core/Source.schema.json": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a",
+    "core/StructuralProcess.schema.json": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4",
+    "core/Thesis.schema.json": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76",
+    "schema_manifest.json": "6bd488042e26927602ddd9db91ad3420f5a598e3f603be56971ffc2ebd256343"
+  },
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "started_at": "2026-09-27T14:09:06.462553+00:00"
+}

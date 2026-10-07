@@ -1,0 +1,117 @@
+I001 [*] Import block is un-sorted or un-formatted
+ --> macro-mind-engine\tests\contract\test_contract.py:1:1
+  |
+1 | / import json
+2 | |
+3 | | import pytest
+4 | | from macromind.contract.loader import load_frozen_contract
+5 | | from macromind.contract.semantic_hash import calculate_file_sha256
+6 | | from macromind.errors import ContractIntegrityError
+  | |___________________________________________________^
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.contract.loader import load_frozen_contract
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> macro-mind-engine\tests\registry\test_registry.py:1:1
+   |
+ 1 | / import json
+ 2 | | import shutil
+ 3 | | from pathlib import Path
+ 4 | |
+ 5 | | import pytest
+ 6 | | import yaml
+ 7 | | from macromind.contract.version import CORE_NAMES
+ 8 | | from macromind.errors import RegistryError, VersionError
+ 9 | | from macromind.registry._enums import ENUM_TYPES
+10 | | from macromind.registry.enums import generate_python_enums, read_yaml, render_python_enums
+11 | | from macromind.registry.loader import load_registry
+12 | | from macromind.registry.models import RegistryBundle
+13 | | from macromind.schema.auxiliary import AUXILIARY_MODELS
+14 | | from macromind.schema.core import CORE_MODELS
+   | |_____________________________________________^
+15 |
+16 |   ROOT = Path(__file__).resolve().parents[2]
+   |
+help: Organize imports
+  |
+6 | import yaml
+7 +
+8 | from macromind.contract.version import CORE_NAMES
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> macro-mind-engine\tests\schema\test_schema.py:1:1
+   |
+ 1 | / import hashlib
+ 2 | | import json
+ 3 | | from pathlib import Path
+ 4 | |
+ 5 | | import pytest
+ 6 | | from jsonschema import Draft202012Validator
+ 7 | | from macromind.contract.version import CORE_NAMES
+ 8 | | from macromind.registry._enums import ENUM_TYPES
+ 9 | | from macromind.schema.auxiliary import (
+10 | |     AUXILIARY_MODELS,
+11 | |     IndicatorObservation,
+12 | |     MechanismUsage,
+13 | |     Scenario,
+14 | | )
+15 | | from macromind.schema.base import MacroMindObjectBase
+16 | | from macromind.schema.common import ComparisonBasis, UnknownValue
+17 | | from macromind.schema.core import (
+18 | |     CORE_MODELS,
+19 | |     Argument,
+20 | |     Assessment,
+21 | |     Claim,
+22 | |     Forecast,
+23 | |     Indicator,
+24 | |     Mechanism,
+25 | | )
+26 | | from macromind.schema.export import export_schemas, schema_artifacts
+27 | | from pydantic import ValidationError
+   | |____________________________________^
+help: Organize imports
+   |
+6  | from jsonschema import Draft202012Validator
+7  + from pydantic import ValidationError
+8  +
+9  | from macromind.contract.version import CORE_NAMES
+--------------------------------------------------------------------------------
+28 | from macromind.schema.export import export_schemas, schema_artifacts
+   - from pydantic import ValidationError
+29 |
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> macro-mind-engine\tests\test_cli.py:1:1
+   |
+ 1 | / import json
+ 2 | | import os
+ 3 | | import shutil
+ 4 | | import subprocess
+ 5 | | import sys
+ 6 | | from pathlib import Path
+ 7 | |
+ 8 | | from macromind.cli.main import app
+ 9 | | from typer.testing import CliRunner
+   | |___________________________________^
+10 |
+11 |   ROOT = Path(__file__).resolve().parents[1]
+   |
+help: Organize imports
+   |
+7  |
+   - from macromind.cli.main import app
+8  | from typer.testing import CliRunner
+9  |
+10 + from macromind.cli.main import app
+11 +
+12 | ROOT = Path(__file__).resolve().parents[1]
+   |
+
+Found 4 errors.
+[*] 4 fixable with the `--fix` option.

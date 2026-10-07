@@ -1,0 +1,518 @@
+{
+  "created_during_acceptance_evidence_completion": true,
+  "duplicate_hand_maintained_authorities": [],
+  "enum_classes": [
+    {
+      "derived_artifact": true,
+      "line": 6,
+      "name": "AnalysisContext",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 14,
+      "name": "ComparisonType",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 30,
+      "name": "ExpressionLevel",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 37,
+      "name": "FailureType",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 50,
+      "name": "HeuristicStatus",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 54,
+      "name": "RecognitionStage",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 69,
+      "name": "RecurrenceMatch",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 77,
+      "name": "RecurrenceStatus",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 84,
+      "name": "ResolutionStatus",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 91,
+      "name": "ReviewStatus",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 96,
+      "name": "SemanticRole",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 122,
+      "name": "SignalType",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 133,
+      "name": "Transferability",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 139,
+      "name": "ValueKind",
+      "path": "src/macromind/registry/_enums.py"
+    },
+    {
+      "derived_artifact": true,
+      "line": 146,
+      "name": "VerificationStatus",
+      "path": "src/macromind/registry/_enums.py"
+    }
+  ],
+  "literal_occurrences": [
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 11,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 12,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "0.1.0"
+      ]
+    },
+    {
+      "classification": "registry metadata shape (kind/status), not knowledge vocabulary",
+      "line": 17,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "core",
+        "auxiliary",
+        "analyst_auxiliary",
+        "governance"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 18,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "classification": "registry metadata shape (kind/status), not knowledge vocabulary",
+      "line": 32,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "stable",
+        "candidate",
+        "deprecated"
+      ]
+    },
+    {
+      "classification": "registry metadata shape (kind/status), not knowledge vocabulary",
+      "line": 44,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "stable",
+        "candidate",
+        "deprecated"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 71,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        false
+      ]
+    },
+    {
+      "classification": "registry metadata shape (kind/status), not knowledge vocabulary",
+      "line": 72,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "stable",
+        "candidate",
+        "deprecated"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 82,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 83,
+      "path": "src/macromind/registry/models.py",
+      "values": [
+        "0.1.0"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 32,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "SourceVersion"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 66,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "SourceSegment"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 92,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "SourceFamily"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 112,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "ClaimOccurrence"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 139,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "TranscriptCorrection"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 167,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "IndicatorObservation"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 216,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "InformationSet"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 243,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "ExpectationSnapshot"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 269,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "Scenario"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 289,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "ReviewQueueItem"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 314,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "AnalystMethodSignal"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 401,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "values": [
+        "MechanismUsage"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 41,
+      "path": "src/macromind/schema/base.py",
+      "values": [
+        "0.1.0"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 44,
+      "path": "src/macromind/schema/base.py",
+      "values": [
+        "0.3"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 12,
+      "path": "src/macromind/schema/common.py",
+      "values": [
+        "unknown"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 26,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Source"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 55,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Claim"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 100,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Event"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 138,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "StructuralProcess"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 167,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Actor"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 189,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Indicator"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 210,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Policy"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 232,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Mechanism"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 263,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Argument"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 306,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Thesis"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 337,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Forecast"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 375,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Contradiction"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 406,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Assessment"
+      ]
+    },
+    {
+      "classification": "implementation discriminator/version/unknown tag",
+      "line": 438,
+      "path": "src/macromind/schema/core/__init__.py",
+      "values": [
+        "Heuristic"
+      ]
+    }
+  ],
+  "method": "AST scan of Literal sets, Enum subclasses and string collections; inspected generated import use and field definitions; paired with runtime schema/YAML value equality",
+  "old_gate_used_as_premise": false,
+  "overlapping_collections": [],
+  "phase1_3_executed": false,
+  "review_notes": "Registry lifecycle metadata Literals (stable/candidate/deprecated and object kind) define the format of registry entries, not a duplicate SemanticRole/RecognitionStage/etc vocabulary. Object-type and version Literals are required discriminators, cross-checked against registry. UnknownValue is a single explicit missing-knowledge tag.",
+  "scanned_files": [
+    {
+      "lines": 1,
+      "path": "src/macromind/cli/__init__.py",
+      "sha256": "e889df0f35862ab174bbecc5ac906f605bc164f9b492ac99af9626f0037e1066"
+    },
+    {
+      "lines": 140,
+      "path": "src/macromind/cli/main.py",
+      "sha256": "c3326c25222794a1126867b57095c0d81dd563fc99031b3ef213dd7304412c4d"
+    },
+    {
+      "lines": 1,
+      "path": "src/macromind/registry/__init__.py",
+      "sha256": "8c53e48a240bb19e8a8bfece3e49742d04e15c6732b2accb776a1da65de4f88b"
+    },
+    {
+      "lines": 173,
+      "path": "src/macromind/registry/_enums.py",
+      "sha256": "03f5a6638ce84e9cdfc5bfcdb74feadb8b68e8b46d9a545445098cece0bc2adb"
+    },
+    {
+      "lines": 93,
+      "path": "src/macromind/registry/enums.py",
+      "sha256": "37da61071d20122809d35f6fa83a34b1bc924d7803c5c0926979aef8ca5015fd"
+    },
+    {
+      "lines": 9,
+      "path": "src/macromind/registry/identity.py",
+      "sha256": "7f41786e52248eb7aad3b42b2e56258a5c4702e186264d6fdd09d1406dc18f57"
+    },
+    {
+      "lines": 103,
+      "path": "src/macromind/registry/loader.py",
+      "sha256": "fcdb81ec1c791039c60adedca4f23c7f64a14e16e20e7cf4a78bea6a9374abb1"
+    },
+    {
+      "lines": 88,
+      "path": "src/macromind/registry/models.py",
+      "sha256": "f9a840f7d4116a0e9263f6433c7d911faa5b9e36a4421c5d335a624326cbcb3a"
+    },
+    {
+      "lines": 18,
+      "path": "src/macromind/registry/object_types.py",
+      "sha256": "f28ba933f8613fd1c019cfcb25f990c7ae0efba64e1af7c2d5e0ef161b7b1bc4"
+    },
+    {
+      "lines": 7,
+      "path": "src/macromind/registry/relations.py",
+      "sha256": "3f66563787a532a396f88353bd5fac5b3df84e95b8de636193b8f235c47d4c45"
+    },
+    {
+      "lines": 11,
+      "path": "src/macromind/registry/schema_versions.py",
+      "sha256": "32134660df374739407edff4a4f879650840f68b649463ac0c8444b35f438c67"
+    },
+    {
+      "lines": 1,
+      "path": "src/macromind/schema/__init__.py",
+      "sha256": "ba1064c6b69b24496f8d9a1bab1141b3edc4989df91dfc950cdd3d6b6d3f97b6"
+    },
+    {
+      "lines": 453,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "sha256": "28373a90f93eddb8892c1c66c4ff5c78a2eec595319b5c26a2e32bcbc61f58a7"
+    },
+    {
+      "lines": 51,
+      "path": "src/macromind/schema/base.py",
+      "sha256": "87f98e7410a6e13b832c09cd6974e307b8f28d94176f176ee0a1ac2b3e007b05"
+    },
+    {
+      "lines": 87,
+      "path": "src/macromind/schema/common.py",
+      "sha256": "cf7c84deaea954330ac53f7145cba587077d4347308c3c03967ea50e8b112533"
+    },
+    {
+      "lines": 493,
+      "path": "src/macromind/schema/core/__init__.py",
+      "sha256": "e97334e5df5ab4e17c8e58550db125d1ddcd8593acf2220e9b10636195560a36"
+    },
+    {
+      "lines": 57,
+      "path": "src/macromind/schema/export.py",
+      "sha256": "e9bb44e7a7f61851396cfab67df25982ee38efb552485cf042650c5ff9a0cf75"
+    }
+  ],
+  "scope": [
+    "src/macromind/schema/**",
+    "src/macromind/registry/**",
+    "src/macromind/cli/**"
+  ],
+  "started_at": "2026-09-27T14:09:46.173235+00:00",
+  "status": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_002/HUMAN_REVIEW.html",
+  "browser": "Edge headless Playwright",
+  "browser_plugin": "Absent: Browser plugin not available",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "Correct page with seven review groups",
+    "Decision and note survive save/reload",
+    "JSON export uses run002 name and seven records",
+    "Readable text export",
+    "Import restores round-trip feedback",
+    "Old dataset rejected without replacing feedback",
+    "Mobile viewport has no horizontal overflow",
+    "No console or page errors"
+  ],
+  "errors": [],
+  "limitations": [
+    "Native directory picker and in-app-browser download UI not tested",
+    "Synthetic feedback is not human approval"
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "EP001": [],
+  "EP002": [
+    {
+      "id": "EP002/C16",
+      "before": {
+        "id": "EP002/C16",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0387",
+            "EP002/cue/0388",
+            "EP002/cue/0389",
+            "EP002/cue/0390",
+            "EP002/cue/0391",
+            "EP002/cue/0392",
+            "EP002/cue/0393",
+            "EP002/cue/0394",
+            "EP002/cue/0395",
+            "EP002/cue/0396",
+            "EP002/cue/0397",
+            "EP002/cue/0398",
+            "EP002/cue/0399",
+            "EP002/cue/0400"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主用假想讲话说明备用方案的重要性；这些话不是央行已经发表的讲话。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP002/C16",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0396",
+            "EP002/cue/0397",
+            "EP002/cue/0398",
+            "EP002/cue/0399",
+            "EP002/cue/0400"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主用假想央行讲话作为提前准备并择机提出纠错方案的应用例证，设想结合货币与财政政策应对通胀、低增长和信用压力；这是可能政策路径的推演，不是央行已经发表的讲话。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP002/C16/occurrence/0387",
+      "before": {
+        "id": "EP002/C16/occurrence/0387",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0387",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0388",
+      "before": {
+        "id": "EP002/C16/occurrence/0388",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0388",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0389",
+      "before": {
+        "id": "EP002/C16/occurrence/0389",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0389",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0390",
+      "before": {
+        "id": "EP002/C16/occurrence/0390",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0390",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0391",
+      "before": {
+        "id": "EP002/C16/occurrence/0391",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0391",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0392",
+      "before": {
+        "id": "EP002/C16/occurrence/0392",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0392",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0393",
+      "before": {
+        "id": "EP002/C16/occurrence/0393",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0393",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0394",
+      "before": {
+        "id": "EP002/C16/occurrence/0394",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0394",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C16/occurrence/0395",
+      "before": {
+        "id": "EP002/C16/occurrence/0395",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C16",
+        "source_segment_ref": "EP002/cue/0395",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "after": null
+    },
+    {
+      "id": "EP002/C23",
+      "before": null,
+      "after": {
+        "id": "EP002/C23",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0387",
+            "EP002/cue/0388",
+            "EP002/cue/0389",
+            "EP002/cue/0390",
+            "EP002/cue/0391",
+            "EP002/cue/0392"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，当群众犯错时，领导者应提前识别问题、准备纠错方案，同时先与群众站在一起、共同经历这一错误，在过程中引导大家认识问题，再于适当时机提出预先准备的方案，带领大家纠错。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0387",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0387",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0387",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0388",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0388",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0388",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0389",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0389",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0389",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0390",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0390",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0390",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0391",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0391",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0391",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    },
+    {
+      "id": "EP002/C23/occurrence/0392",
+      "before": null,
+      "after": {
+        "id": "EP002/C23/occurrence/0392",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C23",
+        "source_segment_ref": "EP002/cue/0392",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      }
+    }
+  ],
+  "EP003": [
+    {
+      "id": "EP003/C16",
+      "before": {
+        "id": "EP003/C16",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP003/cue/0318",
+            "EP003/cue/0319",
+            "EP003/cue/0320",
+            "EP003/cue/0321",
+            "EP003/cue/0322",
+            "EP003/cue/0323",
+            "EP003/cue/0324",
+            "EP003/cue/0325",
+            "EP003/cue/0326",
+            "EP003/cue/0327",
+            "EP003/cue/0328",
+            "EP003/cue/0329",
+            "EP003/cue/0330",
+            "EP003/cue/0331",
+            "EP003/cue/0332",
+            "EP003/cue/0333",
+            "EP003/cue/0334"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主把热点或需求转向其他市场作为猜想，并非确定结果。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP003/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP003/C16",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP003/cue/0318",
+            "EP003/cue/0319",
+            "EP003/cue/0320",
+            "EP003/cue/0321",
+            "EP003/cue/0322",
+            "EP003/cue/0323",
+            "EP003/cue/0324",
+            "EP003/cue/0325",
+            "EP003/cue/0326",
+            "EP003/cue/0327",
+            "EP003/cue/0328",
+            "EP003/cue/0329",
+            "EP003/cue/0330",
+            "EP003/cue/0331",
+            "EP003/cue/0332",
+            "EP003/cue/0333",
+            "EP003/cue/0334"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主提出一种猜想：如果美国市场的AI题材受挫，但相关期待仍未消失，新市场可能承接这部分热情；本段未明确承接市场及时间，也不代表资金转移已经发生。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP003/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    }
+  ],
+  "EP004": [],
+  "EP005": []
+}

@@ -1,0 +1,54 @@
+{
+  "files": {
+    "batch_pilot_materials/EP002/《第七百六三期》美联储9月加息将近，对市场会产生哪些影响？-p01-16.mp4": {
+      "sha256": "9ea83e422d4f4c291fd5ac47166c0360a928d87e97042a7cafffc5c1fb3d3244",
+      "bytes": 113437016
+    },
+    "batch_pilot_materials/EP002/《第七百六三期》美联储9月加息将近，对市场会产生哪些影响？-p01-16.自动转写.txt": {
+      "sha256": "7f2b0b8c0eb3cbd0097874877d34714eceffe367020e9f5a3b96577e118ccf77",
+      "bytes": 32672
+    },
+    "batch_pilot_materials/EP002/信息说明.md": {
+      "sha256": "f288a6663e06aeba95c669f6323acb7bb0f6dcbaa6ddfba31383739839579a46",
+      "bytes": 1992
+    },
+    "batch_pilot_materials/EP002/原始字幕.srt": {
+      "sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+      "bytes": 48762
+    },
+    "batch_pilot_materials/EP002/补充材料/引用清单.md": {
+      "sha256": "ab347dba7f482b6ff8667ebf583e5359dcdc7fd8dd52164f921d7304380f0b7b",
+      "bytes": 540
+    }
+  },
+  "extraction_primary": "原始字幕.srt",
+  "audio_checked": false,
+  "source_version": {
+    "id": "EP002/version/50dc67770ca38ac7",
+    "object_type": "SourceVersion",
+    "schema_version": "0.1.0",
+    "ontology_version": "0.3",
+    "created_at": null,
+    "provenance_refs": [],
+    "metadata": {},
+    "source_ref": "EP002/source",
+    "version_label": "user-supplied ASR subtitle bytes",
+    "content_time": {
+      "state": "unknown"
+    },
+    "published_at": {
+      "text": "2026-09-15 10:29:44",
+      "start": null,
+      "end": null,
+      "source_ref": null
+    },
+    "captured_at": {
+      "state": "unknown"
+    },
+    "content_sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+    "revision_status": "Original preserved; no audio correction",
+    "source_refs": [
+      "EP002/source"
+    ]
+  }
+}

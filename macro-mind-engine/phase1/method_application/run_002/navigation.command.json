@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/operations/project_status.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

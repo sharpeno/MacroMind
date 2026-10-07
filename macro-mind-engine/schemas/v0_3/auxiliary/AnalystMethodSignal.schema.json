@@ -1,0 +1,486 @@
+{
+  "$defs": {
+    "AnalysisContext": {
+      "enum": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "title": "AnalysisContext",
+      "type": "string"
+    },
+    "ExpressionLevel": {
+      "enum": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "title": "ExpressionLevel",
+      "type": "string"
+    },
+    "FailureType": {
+      "enum": [
+        "dimensional_error",
+        "scope_shift",
+        "denominator_shift",
+        "temporal_mismatch",
+        "unsupported_causal_jump",
+        "motive_overreach",
+        "analogy_overreach",
+        "object_role_shift",
+        "closed_explanation",
+        "other",
+        "unknown"
+      ],
+      "title": "FailureType",
+      "type": "string"
+    },
+    "RecurrenceMatch": {
+      "enum": [
+        "none",
+        "exact",
+        "partial",
+        "analogous",
+        "uncertain",
+        "unknown"
+      ],
+      "title": "RecurrenceMatch",
+      "type": "string"
+    },
+    "RecurrenceStatus": {
+      "enum": [
+        "first_observation",
+        "repeated",
+        "frequent",
+        "candidate_pattern",
+        "unknown"
+      ],
+      "title": "RecurrenceStatus",
+      "type": "string"
+    },
+    "SignalType": {
+      "enum": [
+        "analogy_pattern",
+        "attention_pattern",
+        "branching_pattern",
+        "evidence_preference",
+        "failure_pattern",
+        "judgment_pattern",
+        "mechanism_usage",
+        "question_pattern",
+        "unknown"
+      ],
+      "title": "SignalType",
+      "type": "string"
+    },
+    "Transferability": {
+      "enum": [
+        "analyst_specific",
+        "domain_specific",
+        "potentially_general",
+        "unknown"
+      ],
+      "title": "Transferability",
+      "type": "string"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:AnalystMethodSignal",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+  "properties": {
+    "analysis_context": {
+      "$ref": "#/$defs/AnalysisContext",
+      "description": "Analysis context",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "analyst_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Analyst being observed",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Analyst Id"
+    },
+    "annotation_observer": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Annotator distinct from observed reasoner",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Annotation Observer"
+    },
+    "argument_refs": {
+      "description": "Related arguments",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Argument Refs",
+      "type": "array"
+    },
+    "assessment_confidence": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Confidence in failure assessment, not original assertion confidence",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Assessment Confidence"
+    },
+    "claim_refs": {
+      "description": "Related claims",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Claim Refs",
+      "type": "array"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "domain": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded domain",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Domain"
+    },
+    "expression_level": {
+      "$ref": "#/$defs/ExpressionLevel",
+      "description": "Expression strength",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "failure_assessment": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observer's failure assessment",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Failure Assessment"
+    },
+    "failure_type": {
+      "anyOf": [
+        {
+          "items": {
+            "$ref": "#/$defs/FailureType"
+          },
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Failure categories, None if not applicable",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Failure Type"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "matched_prior_signal_refs": {
+      "description": "Recorded prior matches; no eligibility assertion",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Matched Prior Signal Refs",
+      "type": "array"
+    },
+    "matched_scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Exact sub-operation matched",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Matched Scope"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "AnalystMethodSignal",
+      "default": "AnalystMethodSignal",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "observed_action": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Action being assessed",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Observed Action"
+    },
+    "observed_reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observed reasoner for failure analysis",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Observed Reasoner Id"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Reasoner attribution",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Reasoner Id"
+    },
+    "recurrence_evidence": {
+      "description": "Evidence supporting recorded recurrence",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Recurrence Evidence",
+      "type": "array"
+    },
+    "recurrence_match": {
+      "$ref": "#/$defs/RecurrenceMatch",
+      "description": "Precision of match, separate from frequency",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "recurrence_status": {
+      "$ref": "#/$defs/RecurrenceStatus",
+      "description": "Recorded recurrence, no counting or chronology inference",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "signal_type": {
+      "$ref": "#/$defs/SignalType",
+      "description": "Type of local behavior",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "source_segment_refs": {
+      "description": "Original expression evidence",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Source Segment Refs",
+      "type": "array"
+    },
+    "statement": {
+      "description": "Observed local behavior",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Statement",
+      "type": "string"
+    },
+    "transferability": {
+      "$ref": "#/$defs/Transferability",
+      "description": "Recorded transferability",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    }
+  },
+  "required": [
+    "id",
+    "analyst_id",
+    "signal_type",
+    "statement",
+    "source_segment_refs",
+    "argument_refs",
+    "claim_refs",
+    "domain",
+    "expression_level",
+    "transferability",
+    "recurrence_status",
+    "recurrence_match",
+    "matched_prior_signal_refs",
+    "matched_scope",
+    "recurrence_evidence",
+    "reasoner_id",
+    "analysis_context",
+    "annotation_observer",
+    "observed_reasoner_id",
+    "observed_action",
+    "failure_assessment",
+    "failure_type",
+    "assessment_confidence"
+  ],
+  "title": "AnalystMethodSignal",
+  "type": "object"
+}

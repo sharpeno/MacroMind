@@ -1,0 +1,29 @@
+{
+  "included_method_fields": [
+    "id",
+    "title",
+    "steps",
+    "alternative",
+    "trigger",
+    "applicability",
+    "required_inputs",
+    "procedure",
+    "default_judgment",
+    "not_applicable_or_limited",
+    "update_rule",
+    "output_fields_v02"
+  ],
+  "included_card_fields": [
+    "id",
+    "target",
+    "title",
+    "rule",
+    "inputs",
+    "steps",
+    "default",
+    "update",
+    "boundary"
+  ],
+  "omitted": "corpus excerpts, teaching examples, lineage and review metadata; operative rule text retained verbatim",
+  "source_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3"
+}

@@ -1,0 +1,19 @@
+{
+  "allowed_changes": [
+    {
+      "actual": "8437386425d12789e0993956050f498af27de4fe2d57963a129fce6acdd8792e",
+      "expected": "966648e2d0364b2d2e1c1431adb2e1f70f2d4ca79fb7d8840725706f847927be",
+      "group": "existing_engine",
+      "path": "src/macromind/cli/main.py"
+    }
+  ],
+  "checked_files": 424,
+  "frozen_changed": [],
+  "golden_added": [],
+  "golden_changed": [],
+  "registry_changed": [],
+  "schema_changed": [],
+  "unexpected_added": [],
+  "unexpected_changes": [],
+  "validator_changed": []
+}

@@ -1,0 +1,2011 @@
+{
+  "cases": [
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_default_unreviewed_nullable_thread",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_confirmed_requires_reviewer[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_confirmed_requires_reviewer[]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_confirmed_requires_reviewer[   ]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_explicit_confirmation",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_unresolved_not_guessed_or_confirmed",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_relation_changes_identity",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_created_at_excluded_from_semantic_hash",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_invalid_relation_and_forged_id",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_continuity",
+      "name": "test_thread_only_explicit_resolved_reference",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_determinism",
+      "name": "test_three_runs_same_ids_order_hash",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_determinism",
+      "name": "test_filename_directory_metamorphism",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_determinism",
+      "name": "test_caller_operational_metadata_excluded",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_determinism",
+      "name": "test_input_order_invariance",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_determinism",
+      "name": "test_canonical_utf8_keys_newline",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_source_content_and_result_isolation",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_expected_hash_mismatch_content",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_expected_hash_file_and_unchanged",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_nested_mutation_detected",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_entire_bundle_preverified",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_raw_content_tampering",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_immutability",
+      "name": "test_duplicate_artifact_rejected",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[ERROR]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[WARNING]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[INDETERMINATE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[PASS]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[INFO]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_severity_exact[BLOCKING]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[PASS]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[FAIL]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[ERROR]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[WARNING]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[INDETERMINATE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_gate_outcome_exact[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_distinct_types[schema_gap_report-gaps-SCHEMA_GAP]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_distinct_types[registry_gap_report-gaps-REGISTRY_GAP]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_distinct_types[test_report-cases-TEST_RESULT]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_adaptation_loss_quarantine_mapping_unknown",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_debt_not_finding",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_immutability_empty_arrays_are_evidence",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content0-future_type]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content1-validation_report]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content2-validation_report]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content3-future_type]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content4-validation_report]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_unsupported_never_lost[content5-manifest]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_no_deduplication_of_ten_thousand_losses",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_validator_views_not_duplicated",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_empty_bundle",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_normalization",
+      "name": "test_no_auto_annotations_from_similar_text",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_every_record_resolves",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_pointer_escaping[-expected0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_pointer_escaping[/a~1b/~0/0-None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[wrong]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/~2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/01]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/-1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/-]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_provenance",
+      "name": "test_invalid_pointer[/x/0/a]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_real_artifacts",
+      "name": "test_real_supported_smoke",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_real_artifacts",
+      "name": "test_real_all_provenance_and_fidelity",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit.test_real_artifacts",
+      "name": "test_real_three_runs_and_source_bytes",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_severity_does_not_split_and_distribution_exact",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_outcome_does_not_split_and_distribution_exact",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_distribution_reserved_keys_do_not_collide",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_full_occurrences_examples_artifacts_review_counts",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_frequency_does_not_promote_review_or_create_debt",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_aggregation",
+      "name": "test_empty_input",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_complete_conservation_and_bidirectional_index",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_duplicate_input_id_hard_error[ADAPTATION_LOSS]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_duplicate_input_id_hard_error[UNKNOWN_ENGINEERING_RECORD]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_duplicate_input_id_hard_error[MAPPING_EVENT]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_duplicate_assignment_hard_error",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_missing_assignment_hard_error",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_wrong_reverse_index_hard_error",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[record_id-]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[record_type-bogus]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[reason_code-123]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[source_artifact_hash-bad]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[review_required-1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[metadata-value5]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[evidence_refs-123]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[message-123]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[source_severity-value8]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_record_hard_error[source_pointer-not-a-pointer]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_bundle_counts_and_hash_hard_error",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_conservation",
+      "name": "test_damaged_bundle_record_validated_before_hashing",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_determinism",
+      "name": "test_three_runs_byte_stable",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_determinism",
+      "name": "test_input_order_invariance",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_determinism",
+      "name": "test_filename_invariance_and_operational_metadata",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_determinism",
+      "name": "test_input_not_mutated_and_no_records_created",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[VALIDATION_FINDING-PATTERN_ELIGIBLE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[ADAPTATION_LOSS-PATTERN_ELIGIBLE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[QUARANTINE-PATTERN_ELIGIBLE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[SCHEMA_GAP-PATTERN_ELIGIBLE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[REGISTRY_GAP-PATTERN_ELIGIBLE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[MAPPING_EVENT-TRACE_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[TEST_RESULT-SUMMARY_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[GATE_RESULT-SUMMARY_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[IMMUTABILITY_EVENT-SUMMARY_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[DEBT_STATUS-SUMMARY_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_exact_disposition[UNKNOWN_ENGINEERING_RECORD-OPAQUE_EXCLUDED]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_all_records_have_one_disposition",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_ten_thousand_excluded_not_interpreted[MAPPING_EVENT-TRACE_ONLY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_ten_thousand_excluded_not_interpreted[UNKNOWN_ENGINEERING_RECORD-OPAQUE_EXCLUDED]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_summary_never_promoted_or_debt_created",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_disposition",
+      "name": "test_noneligible_signature_rejected",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_real_phase1_5a",
+      "name": "test_real_counts_dynamic_and_complete",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_real_phase1_5a",
+      "name": "test_real_full_drilldown_statistics",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_real_phase1_5a",
+      "name": "test_real_three_runs_immutable",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_message_metamorphism",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_structural_field_separates[reason_code-other]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_structural_field_separates[rule_id-R2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_structural_field_separates[record_type-SCHEMA_GAP]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_structural_field_separates[component-validator]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_structural_field_separates[category-different]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[None-None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[-]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[/claims/0/source_refs/2-/claims/*/source_refs/*]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[/claims/12/detail-/claims/*/detail]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[/claim-12/01/\\uff11\\uff12/+2/-1-/claim-12/01/\\uff11\\uff12/+2/-1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_path_shape[/a~1b/~0/0-/a~1b/~0/*]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_numeric_index_metamorphism",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_field_name_changes_pattern",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[source_family]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[source_object_type]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[target_object_type]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[object_type]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[field]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[field_name]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[source_field]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_each_whitelisted_dimension_is_retained[target_field]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_missing_and_explicit_null_dimensions",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_forbidden_signature_fields_not_used",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_malformed_structural_path_hard_error[C:/file.json]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_malformed_structural_path_hard_error[claims.0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_malformed_structural_path_hard_error[/bad~2/0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_missing_structured_snapshot_conservative_pattern[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_missing_structured_snapshot_conservative_pattern[payload1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_missing_structured_snapshot_conservative_pattern[unstructured snapshot]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_malformed_structured_source_hard_error[payload0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.audit_patterns.test_signature",
+      "name": "test_malformed_structured_source_hard_error[payload1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_copy_rename_unknown_immutable",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_enum_map_and_unknown_enum",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_required_semantics_quarantine",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_scenario_not_forecast",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_no_temporal_parsing_or_claim_source_fabrication",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_argument_per_edge_no_attribution_inheritance",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_every_emitted_object_is_canonical",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_adapters",
+      "name": "test_canonical_pass_through_can_be_lossless",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_cli_compatibility",
+      "name": "test_detect_cli[value0-0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_cli_compatibility",
+      "name": "test_detect_cli[value1-1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_cli_compatibility",
+      "name": "test_adapt_cli_codes_and_no_inplace",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_markers_and_shape[False-STRONG-V0_3_LEGACY]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_markers_and_shape[True-EXACT-MA1_COMPAT]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_ambiguous_not_selected",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_unknown_is_unsupported[value0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_unknown_is_unsupported[42]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_unknown_is_unsupported[value2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_unknown_is_unsupported[value3]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_labels_not_format",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_detector",
+      "name": "test_unknown_explicit_version",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_determinism",
+      "name": "test_three_runs_identical",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_determinism",
+      "name": "test_filename_directory_metamorphism",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_determinism",
+      "name": "test_in_place_and_overwrite_forbidden",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_determinism",
+      "name": "test_adaptation_manifest",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_loss",
+      "name": "test_unknown_fields_preserved_and_loss_reported",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_loss",
+      "name": "test_null_unknown_missing_remain_distinct",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_loss",
+      "name": "test_required_claim_statement_is_never_fabricated",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_mapping_covers_all_canonical_leaves",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_cross_type_ids_and_refs",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_missing_ids_stable_and_order_permutation",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_ambiguous_duplicate_identity_quarantined",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_unresolved_ref_retained_not_invented",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_mapping",
+      "name": "test_real_mapping_hashes_and_coverage",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_quarantine",
+      "name": "test_explicit_historical_exclusion_is_id_independent",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_quarantine",
+      "name": "test_explicit_immutable_quarantine_is_not_overturned",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_summary_only_no_reconstruction",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_actual_pre_ma_v03_families",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_actual_accepted_ma1",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_gs005_accepted_scenario_decision",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_gs004_decisions_not_reinterpreted",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_real_legacy",
+      "name": "test_lineage_uses_completion_hashes",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_registry",
+      "name": "test_registry_deterministic_selection",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_validator_integration",
+      "name": "test_transport_only_integration",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.compatibility.test_validator_integration",
+      "name": "test_validator_errors_not_repaired",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_C001_valid",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[C002]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[C003]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[C004]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[C009]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[C010]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[readiness]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[principles]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[strict_boolean]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_invalid_manifest[readiness_guard]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_wrong_membership_with_updated_file_hash[C005]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_wrong_membership_with_updated_file_hash[C006]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_wrong_membership_with_updated_file_hash[C007]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_wrong_membership_with_updated_file_hash[principle_missing]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_C008_bytes_changed",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_C011_original_unchanged",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_fail_closed[missing]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_fail_closed[bad_json]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_fail_closed[missing_hash]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_fail_closed[duplicate_key]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.contract.test_contract",
+      "name": "test_fail_closed[projection_drift]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R001_R002_R003_R004_R009",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R005_duplicate_value_rejected",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R006_unknown_required",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R007_unknown_relation_endpoint",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R008_schema_enum_coverage",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R010_frozen_unchanged",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R011_generated_deterministic",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_R012_roundtrip_deterministic",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[core_missing]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[extra_core]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[duplicate_object]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[replacement]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[schema_version]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[auto_merge]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[stale_enums]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[duplicate_yaml_key]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[missing_file]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_registry_fail_closed[yaml_code]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.registry.test_registry",
+      "name": "test_wrong_ontology_version",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S001_models",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Source]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Claim]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Event]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[StructuralProcess]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Actor]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Indicator]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Policy]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Mechanism]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Argument]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Thesis]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Forecast]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Contradiction]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Assessment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Heuristic]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceVersion]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceSegment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[SourceFamily]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ClaimOccurrence]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[TranscriptCorrection]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[IndicatorObservation]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[InformationSet]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ExpectationSnapshot]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[Scenario]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[ReviewQueueItem]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[AnalystMethodSignal]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S002_S003_S013_models_and_jsonschema[MechanismUsage]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S004_S005_unknown_and_invalid_enum",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S006_S007_S008_separation",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S009_claim_dimensions",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S010_forecast_unknowns_and_resolution",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S011_assessment_no_truth_mutation",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S012_argument_per_edge_attribution",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S014_export_deterministic",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_comparison_never_calculates_delta",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_fields_document_origins",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_S015_frozen_unchanged",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.schema.test_schema",
+      "name": "test_mapping_covers_core_models",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_contract_verify_exit_codes_and_logging",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_registry_cli",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_schema_export_cli",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_export_refuses_protected_destination",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_no_validate_command",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.test_cli",
+      "name": "test_json_logs_survive_windows_legacy_codepage",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_none_conflict_uncertain_first_allowed",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_recurrence_eligibility[repeated]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_recurrence_eligibility[frequent]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_recurrence_eligibility[candidate_pattern]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_direct_model_evidence[expression_level-model_reconstruction]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_direct_model_evidence[analysis_context-model_diagnostic]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_mixed_argument_and_heuristic_guard",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_no_skill_promotion",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_analyst",
+      "name": "test_observer_is_not_inherited_or_required_to_differ",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_dag_attribution_preserved",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_graph_cycle_and_self_cycle",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_step_alias_cycle",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_duplicate_orphan_and_bad_node_refs",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_fragile_reference[fragile0-ERROR]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_fragile_reference[None-INDETERMINATE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_fragile_reference[fragile2-INDETERMINATE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_fragile_reference[fragile3-PASS]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_fragile_reference[fragile4-PASS]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_argument_gaps_are_explicit",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_argument",
+      "name": "test_local_global_collision_is_not_an_invented_cycle",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_cli_validate",
+      "name": "test_cli_codes[payload0-0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_cli_validate",
+      "name": "test_cli_codes[payload1-0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_cli_validate",
+      "name": "test_cli_codes[payload2-1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_cli_validate",
+      "name": "test_cli_codes[payload3-2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_cli_validate",
+      "name": "test_cli_context_mode_override_and_bad_json",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_catalog_deterministic_and_all_rules_executed",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Actor]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[AnalystMethodSignal]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Argument]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Assessment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Claim]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[ClaimOccurrence]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Contradiction]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Event]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[ExpectationSnapshot]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Forecast]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Heuristic]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Indicator]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[IndicatorObservation]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[InformationSet]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Mechanism]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[MechanismUsage]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Policy]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[ReviewQueueItem]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Scenario]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Source]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[SourceFamily]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[SourceSegment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[SourceVersion]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[StructuralProcess]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[Thesis]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_all_registered_canonical_types_load[TranscriptCorrection]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_transport_errors[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_transport_errors[payload1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_transport_errors[payload2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_transport_errors[payload3]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_transport_errors[payload4]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_context_errors[context0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_context_errors[]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_context_errors[context2]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_context_errors[context3]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_context_errors[context4]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_legacy_missing_fields_extra_fields",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_snapshot_and_supported_inputs",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_engine",
+      "name": "test_semantic_hash_changes_with_context_and_input",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_structurally_supported_and_unknown_window",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_conditional_endorsement_is_not_inferred[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_conditional_endorsement_is_not_inferred[branch1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_conditional_endorsement_is_not_inferred[selected branch text]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_scenario_stays_scenario_and_shared_claim_warns",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_forecast_explicit_temporal_conflicts[change0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_forecast_explicit_temporal_conflicts[change1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_forecast_wrong_claim_type",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_resolvability_alone_does_not_prove_admission",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_unresolved_criterion_and_window_start",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_interval_overlap_is_not_proof_of_order",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_forecast",
+      "name": "test_reversed_resolution_interval_is_invalid",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_assessment_status_never_changes_claim[verified]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_assessment_status_never_changes_claim[false]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_assessment_status_never_changes_claim[uncertain]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_review_metamorphic_schema_reference_temporal_independence",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_no_process_promotion[refs0]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_no_process_promotion[refs1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_no_percent_to_pp_conversion_and_unknown_baseline[None]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_no_percent_to_pp_conversion_and_unknown_baseline[unit1]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_no_percent_to_pp_conversion_and_unknown_baseline[%]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_roles_stages_are_not_automatically_equivalent",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_mechanism_usage_does_not_copy_authorship[usage_analyst]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_mechanism_usage_does_not_copy_authorship[mechanism_author]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_governance",
+      "name": "test_actor_location_roles_do_not_merge_identity",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_provenance",
+      "name": "test_occurrence_version_source_conflict",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_provenance",
+      "name": "test_source_family_never_counts_independent_support",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_provenance",
+      "name": "test_unknown_segment_version_and_incomplete_claim_sources",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_duplicate_unknown_and_invalid_targets",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_modes[complete_bundle-ERROR]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_modes[partial_bundle-INDETERMINATE]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Source-version_refs-SourceVersion]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Source-segment_refs-SourceSegment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Source-family_ref-SourceFamily]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Claim-source_refs-Source]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[StructuralProcess-event_refs-Event]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[StructuralProcess-observation_refs-IndicatorObservation]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[StructuralProcess-policy_refs-Policy]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Policy-actor_refs-Actor]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Policy-event_refs-Event]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Event-policy_refs-Policy]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Forecast-claim_ref-Claim]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[Assessment-information_set_ref-InformationSet]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[MechanismUsage-mechanism_ref-Mechanism]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[ClaimOccurrence-claim_ref-Claim]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[ClaimOccurrence-source_segment_ref-SourceSegment]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[ClaimOccurrence-source_version_ref-SourceVersion]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_reference_contracts[ClaimOccurrence-origin_family_ref-SourceFamily]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_only_explicit_self_reference_forbidden",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_references",
+      "name": "test_asymmetric_policy_event_is_valid",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_golden_number_and_label_metamorphism",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_future_after_either_limit[knowledge_cutoff]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_future_after_either_limit[current_content_time]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_unknown_prior_and_naive_datetime",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_real_source_content_not_capture_date",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal",
+      "name": "test_interval_reversal_and_no_text_parsing",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal_precision",
+      "name": "test_single_endpoint_does_not_invent_an_instant[start]",
+      "status": "PASSED"
+    },
+    {
+      "classname": "tests.validation.test_temporal_precision",
+      "name": "test_single_endpoint_does_not_invent_an_instant[end]",
+      "status": "PASSED"
+    }
+  ],
+  "command": {
+    "argv": [
+      "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+      "-X",
+      "utf8",
+      "-m",
+      "pytest",
+      "-q",
+      "-W",
+      "error",
+      "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_5b1_evidence\\run_002\\tests.xml"
+    ],
+    "cwd": "G:\\youhegaojian\\macro-mind-engine",
+    "exit_code": 0,
+    "stderr": "phase1/phase1_5b1_evidence/run_002/pytest.stderr.txt",
+    "stdout": "phase1/phase1_5b1_evidence/run_002/pytest.stdout.txt"
+  },
+  "existing": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 314,
+    "SKIPPED": 0
+  },
+  "existing_collection_unchanged": true,
+  "junit": "phase1/phase1_5b1_evidence/run_002/tests.xml",
+  "phase1_5b1": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 80,
+    "SKIPPED": 0
+  },
+  "total": {
+    "ERROR": 0,
+    "FAILED": 0,
+    "PASSED": 394,
+    "SKIPPED": 0
+  }
+}

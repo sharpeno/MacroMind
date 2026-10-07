@@ -1,0 +1,1525 @@
+[
+  {
+    "claim_id": "EP003/C01",
+    "normalized_statement": "博主报告本次加息25BP且一致通过；这是作者报告，未独立核实。",
+    "quotes": [
+      {
+        "cue_id": 1,
+        "time_range": "00:00:00,150 --> 00:00:20,150",
+        "quote": "大家好，今天跟大家聊聊美联储的一期会议啊，昨天晚上两点钟啊，美联储如约，加息25个BP这次的这个加息呢呃跟之前呢有很多的不一样。第一个不一样的是全票通过啊，没有任何一个票尾。"
+      },
+      {
+        "cue_id": 2,
+        "time_range": "00:00:20,150 --> 00:00:40,150",
+        "quote": "再觉得加息是一个不能接受的事儿了。现在唯一的争议呢就变成了是加一次加两次还是加多次。目前呢市场上对于卧室讲话的反馈啊是认为呢那可能这次加息还不足够。但是如果是这样的一个剧情的话是吧这次加息不足够，12月份还要继续加的话，。"
+      },
+      {
+        "cue_id": 3,
+        "time_range": "00:00:40,150 --> 00:01:00,000",
+        "quote": "那压力就显然是传导到了日本这边。在上个星期啊，星期四的时候，我跟大家分析过是吧？啊，星期五的时候跟大家分析过，对于日本来说的话，目前的这个市场的调节走势实际上是通过日元升值给日元。"
+      },
+      {
+        "cue_id": 4,
+        "time_range": "00:01:00,000 --> 00:01:01,990",
+        "quote": "营造出来了一定的。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C02",
+    "normalized_statement": "博主主张用两国利差解释货币影响，不能只看一个国家的利率。",
+    "quotes": [
+      {
+        "cue_id": 11,
+        "time_range": "00:01:20,040 --> 00:01:22,820",
+        "quote": "如果说呢美联储这边加25个BP。"
+      },
+      {
+        "cue_id": 12,
+        "time_range": "00:01:22,820 --> 00:01:27,140",
+        "quote": "日本这边也同步加20股币，相当于互相之间的相对关系不变。"
+      },
+      {
+        "cue_id": 13,
+        "time_range": "00:01:27,190 --> 00:01:29,020",
+        "quote": "这个局势还能维持下去。"
+      },
+      {
+        "cue_id": 14,
+        "time_range": "00:01:29,030 --> 00:01:30,090",
+        "quote": "但是。"
+      },
+      {
+        "cue_id": 15,
+        "time_range": "00:01:30,430 --> 00:01:31,990",
+        "quote": "日元享升值。"
+      },
+      {
+        "cue_id": 16,
+        "time_range": "00:01:31,990 --> 00:01:34,740",
+        "quote": "就得打破这样的一个相对关系不变。"
+      },
+      {
+        "cue_id": 17,
+        "time_range": "00:01:34,740 --> 00:01:35,720",
+        "quote": "也就是说呢。"
+      },
+      {
+        "cue_id": 18,
+        "time_range": "00:01:35,720 --> 00:01:39,100",
+        "quote": "日本的央行加息要超过美元加息，实让中间。"
+      },
+      {
+        "cue_id": 19,
+        "time_range": "00:01:39,100 --> 00:01:41,760",
+        "quote": "日美之间的利差啊缩小。"
+      },
+      {
+        "cue_id": 20,
+        "time_range": "00:01:41,760 --> 00:01:44,630",
+        "quote": "这个日元才有一个强劲的升值支撑。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C03",
+    "normalized_statement": "博主认为市场类比已从一次性加息转向上一轮加息周期，叙事参照发生变化。",
+    "quotes": [
+      {
+        "cue_id": 31,
+        "time_range": "00:02:10,330 --> 00:02:15,430",
+        "quote": "真正到学子落地的时候，就是加息这个决定下来了以后，市场马上就会转变。"
+      },
+      {
+        "cue_id": 32,
+        "time_range": "00:02:15,430 --> 00:02:19,010",
+        "quote": "马上就变成讨论，这次加息是一次性的还是多次的？"
+      },
+      {
+        "cue_id": 33,
+        "time_range": "00:02:19,010 --> 00:02:19,530",
+        "quote": "系嘛。"
+      },
+      {
+        "cue_id": 34,
+        "time_range": "00:02:19,530 --> 00:02:21,610",
+        "quote": "现在市场上讨论是不是已经变了，而且。"
+      },
+      {
+        "cue_id": 35,
+        "time_range": "00:02:21,610 --> 00:02:25,460",
+        "quote": "已经有说辞出来了啊吧，这是一个长期的加息。"
+      },
+      {
+        "cue_id": 36,
+        "time_range": "00:02:25,490 --> 00:02:29,380",
+        "quote": "甚至呢各方的报道都在强行的把这件事情。"
+      },
+      {
+        "cue_id": 37,
+        "time_range": "00:02:29,380 --> 00:02:30,850",
+        "quote": "啊，往这个上面带。"
+      },
+      {
+        "cue_id": 38,
+        "time_range": "00:02:30,940 --> 00:02:32,100",
+        "quote": "在。"
+      },
+      {
+        "cue_id": 39,
+        "time_range": "00:02:32,100 --> 00:02:33,970",
+        "quote": "昨天晚上2点钟之前。"
+      },
+      {
+        "cue_id": 40,
+        "time_range": "00:02:33,970 --> 00:02:39,210",
+        "quote": "大家普遍的拿的例子对比，这次加息可能性的例子是1997年那次。"
+      },
+      {
+        "cue_id": 41,
+        "time_range": "00:02:39,210 --> 00:02:40,080",
+        "quote": "那说啥呢？"
+      },
+      {
+        "cue_id": 42,
+        "time_range": "00:02:40,080 --> 00:02:43,820",
+        "quote": "说1997年那次加了一次25个VP，持续了很长时间。"
+      },
+      {
+        "cue_id": 43,
+        "time_range": "00:02:43,820 --> 00:02:46,310",
+        "quote": "有后面的好长好长时间都是。"
+      },
+      {
+        "cue_id": 44,
+        "time_range": "00:02:46,310 --> 00:02:48,010",
+        "quote": "只加了一次就按兵不动了。"
+      },
+      {
+        "cue_id": 45,
+        "time_range": "00:02:48,010 --> 00:02:50,990",
+        "quote": "然后一次告诉你了啊，这次的加息是一次性的。"
+      },
+      {
+        "cue_id": 46,
+        "time_range": "00:02:50,990 --> 00:02:56,110",
+        "quote": "但是当昨天2点钟凌晨2点钟结束以后是吧，加息决定公布以后的话。"
+      },
+      {
+        "cue_id": 47,
+        "time_range": "00:02:56,110 --> 00:02:59,500",
+        "quote": "市面上讨论的问题就不再提什么1997年了。"
+      },
+      {
+        "cue_id": 48,
+        "time_range": "00:02:59,500 --> 00:03:00,350",
+        "quote": "而给你提。"
+      },
+      {
+        "cue_id": 49,
+        "time_range": "00:03:00,350 --> 00:03:03,260",
+        "quote": "这是三年以来第一次的加息。"
+      },
+      {
+        "cue_id": 50,
+        "time_range": "00:03:03,260 --> 00:03:06,750",
+        "quote": "2023年7月份啊，那是上一次的加息。"
+      },
+      {
+        "cue_id": 51,
+        "time_range": "00:03:06,750 --> 00:03:08,580",
+        "quote": "到现在时隔三年了。"
+      },
+      {
+        "cue_id": 52,
+        "time_range": "00:03:08,580 --> 00:03:10,350",
+        "quote": "那话里话派的意思是啥呢？"
+      },
+      {
+        "cue_id": 53,
+        "time_range": "00:03:10,350 --> 00:03:10,980",
+        "quote": "那。"
+      },
+      {
+        "cue_id": 54,
+        "time_range": "00:03:10,980 --> 00:03:11,620",
+        "quote": "你看。"
+      },
+      {
+        "cue_id": 55,
+        "time_range": "00:03:11,620 --> 00:03:13,790",
+        "quote": "前面的这个紧周期。"
+      },
+      {
+        "cue_id": 56,
+        "time_range": "00:03:13,790 --> 00:03:15,210",
+        "quote": "然后有了宽周期。"
+      },
+      {
+        "cue_id": 57,
+        "time_range": "00:03:15,210 --> 00:03:16,860",
+        "quote": "现在又到锦州去了。"
+      },
+      {
+        "cue_id": 58,
+        "time_range": "00:03:16,860 --> 00:03:22,600",
+        "quote": "这是个周期性的变化。也就是说呢，这次加息不是一次性的，后边还会有紧接着好几次的。"
+      },
+      {
+        "cue_id": 59,
+        "time_range": "00:03:22,600 --> 00:03:24,060",
+        "quote": "而目前呢。"
+      },
+      {
+        "cue_id": 60,
+        "time_range": "00:03:24,060 --> 00:03:26,580",
+        "quote": "市场上透露出来的。"
+      },
+      {
+        "cue_id": 61,
+        "time_range": "00:03:26,580 --> 00:03:28,130",
+        "quote": "安抚市场的意见。"
+      },
+      {
+        "cue_id": 62,
+        "time_range": "00:03:28,130 --> 00:03:30,160",
+        "quote": "是今年还有第二次加息。"
+      },
+      {
+        "cue_id": 63,
+        "time_range": "00:03:30,160 --> 00:03:32,630",
+        "quote": "这个已经变成了安抚市场的预见了。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C04",
+    "normalized_statement": "若日本给出的后续加息指引不足，博主担心日元继续承压。",
+    "quotes": [
+      {
+        "cue_id": 67,
+        "time_range": "00:03:38,610 --> 00:03:41,450",
+        "quote": "9月18号就是明天啊这个。"
+      },
+      {
+        "cue_id": 68,
+        "time_range": "00:03:41,450 --> 00:03:44,230",
+        "quote": "日元的这个加息决议出来了以后。"
+      },
+      {
+        "cue_id": 69,
+        "time_range": "00:03:44,230 --> 00:03:46,940",
+        "quote": "如果不能够满足市场上。"
+      },
+      {
+        "cue_id": 70,
+        "time_range": "00:03:46,940 --> 00:03:50,190",
+        "quote": "对于后续加息路径的清晰承诺的话。"
+      },
+      {
+        "cue_id": 71,
+        "time_range": "00:03:50,190 --> 00:03:52,290",
+        "quote": "日元还有贬值的压力。"
+      },
+      {
+        "cue_id": 72,
+        "time_range": "00:03:52,600 --> 00:03:56,230",
+        "quote": "这几天，日元已经从最高峰的152。"
+      },
+      {
+        "cue_id": 73,
+        "time_range": "00:03:56,230 --> 00:03:57,350",
+        "quote": "比亿美元。"
+      },
+      {
+        "cue_id": 74,
+        "time_range": "00:03:57,350 --> 00:04:00,080",
+        "quote": "跌到了155比1美元，那么。"
+      },
+      {
+        "cue_id": 75,
+        "time_range": "00:04:00,400 --> 00:04:01,630",
+        "quote": "轻轻受中的。"
+      },
+      {
+        "cue_id": 76,
+        "time_range": "00:04:01,630 --> 00:04:03,060",
+        "quote": "什么都没发生。"
+      },
+      {
+        "cue_id": 77,
+        "time_range": "00:04:03,410 --> 00:04:04,450",
+        "quote": "The."
+      },
+      {
+        "cue_id": 78,
+        "time_range": "00:04:04,450 --> 00:04:06,080",
+        "quote": "这日元已经跌了。"
+      },
+      {
+        "cue_id": 79,
+        "time_range": "00:04:06,080 --> 00:04:07,900",
+        "quote": "啊，330元了。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C05",
+    "normalized_statement": "汇率点位、单位及变动幅度字幕需核对。",
+    "quotes": [
+      {
+        "cue_id": 80,
+        "time_range": "00:04:07,900 --> 00:04:10,290",
+        "quote": "那后边的话，如果说他这个。"
+      },
+      {
+        "cue_id": 81,
+        "time_range": "00:04:10,290 --> 00:04:11,570",
+        "quote": "加息的这个预期。"
+      },
+      {
+        "cue_id": 82,
+        "time_range": "00:04:11,600 --> 00:04:13,270",
+        "quote": "不是特别的强烈。"
+      },
+      {
+        "cue_id": 83,
+        "time_range": "00:04:13,280 --> 00:04:16,220",
+        "quote": "啊，加线路径不是清特别的清晰的话。"
+      },
+      {
+        "cue_id": 84,
+        "time_range": "00:04:16,220 --> 00:04:18,060",
+        "quote": "那可以想见的。"
+      },
+      {
+        "cue_id": 85,
+        "time_range": "00:04:18,100 --> 00:04:20,590",
+        "quote": "日本的央行出台了。"
+      },
+      {
+        "cue_id": 86,
+        "time_range": "00:04:20,590 --> 00:04:23,560",
+        "quote": "就是9月18号出台了加息的决议。"
+      },
+      {
+        "cue_id": 87,
+        "time_range": "00:04:23,560 --> 00:04:25,700",
+        "quote": "结果呢市场并不买单。"
+      },
+      {
+        "cue_id": 88,
+        "time_range": "00:04:25,700 --> 00:04:27,290",
+        "quote": "继续的唱空日月。"
+      },
+      {
+        "cue_id": 89,
+        "time_range": "00:04:27,430 --> 00:04:30,210",
+        "quote": "这个事情出来了以后才是真正的对。"
+      },
+      {
+        "cue_id": 90,
+        "time_range": "00:04:30,210 --> 00:04:33,200",
+        "quote": "日本的金融秩序的一个极大的挑战。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C06",
+    "normalized_statement": "汇率干预金额和美日成本比较中数值、单位冲突，暂缓定量结论。",
+    "quotes": [
+      {
+        "cue_id": 99,
+        "time_range": "00:05:07,410 --> 00:05:09,370",
+        "quote": "美国只出了10亿。"
+      },
+      {
+        "cue_id": 100,
+        "time_range": "00:05:09,370 --> 00:05:12,990",
+        "quote": "日本出了980多亿是吧，美国只出了10亿。"
+      },
+      {
+        "cue_id": 101,
+        "time_range": "00:05:12,990 --> 00:05:14,300",
+        "quote": "效果斐然。"
+      },
+      {
+        "cue_id": 102,
+        "time_range": "00:05:14,300 --> 00:05:15,770",
+        "quote": "非常非常好的效果。"
+      },
+      {
+        "cue_id": 103,
+        "time_range": "00:05:15,770 --> 00:05:16,620",
+        "quote": "然后呢。"
+      },
+      {
+        "cue_id": 104,
+        "time_range": "00:05:16,620 --> 00:05:21,550",
+        "quote": "顺带呢给你啊自己洋洋得意的一法啊，彩彩虹壁纸自己吹自己。"
+      },
+      {
+        "cue_id": 105,
+        "time_range": "00:05:21,560 --> 00:05:24,140",
+        "quote": "说虽然呢这不是我们有意为之的。"
+      },
+      {
+        "cue_id": 106,
+        "time_range": "00:05:24,140 --> 00:05:24,800",
+        "quote": "但是。"
+      },
+      {
+        "cue_id": 107,
+        "time_range": "00:05:24,800 --> 00:05:29,550",
+        "quote": "经过这个汇率狙击战呢，我们有了几千亿啊几千万美元的盈利。"
+      },
+      {
+        "cue_id": 108,
+        "time_range": "00:05:29,560 --> 00:05:32,680",
+        "quote": "啥意思呢？话里话外告诉你，我占了便宜了。"
+      },
+      {
+        "cue_id": 109,
+        "time_range": "00:05:32,730 --> 00:05:36,160",
+        "quote": "帮助日元控制它的汇率啊升值。"
+      },
+      {
+        "cue_id": 110,
+        "time_range": "00:05:36,160 --> 00:05:40,600",
+        "quote": "对美国来说，起码从财政部的财政角度来说的话，我们是赚钱的。"
+      },
+      {
+        "cue_id": 111,
+        "time_range": "00:05:40,600 --> 00:05:41,380",
+        "quote": "那行呗。"
+      },
+      {
+        "cue_id": 112,
+        "time_range": "00:05:41,380 --> 00:05:44,210",
+        "quote": "那美国赚钱了，那谁亏呢？"
+      },
+      {
+        "cue_id": 113,
+        "time_range": "00:05:44,310 --> 00:05:46,220",
+        "quote": "我只知道是吧，条件一。"
+      },
+      {
+        "cue_id": 114,
+        "time_range": "00:05:46,220 --> 00:05:49,610",
+        "quote": "日美之间为了维持这个汇率的升值。"
+      },
+      {
+        "cue_id": 115,
+        "time_range": "00:05:49,610 --> 00:05:53,000",
+        "quote": "日本这边真真金白银砸了900多亿美元进去。"
+      },
+      {
+        "cue_id": 116,
+        "time_range": "00:05:53,000 --> 00:05:58,530",
+        "quote": "然后条件2啊，贝森特说，在这个操作过程中，他盈利了啊，他花了10亿美元。"
+      },
+      {
+        "cue_id": 117,
+        "time_range": "00:05:58,530 --> 00:06:00,140",
+        "quote": "他盈利的几千万美元。"
+      },
+      {
+        "cue_id": 118,
+        "time_range": "00:06:00,140 --> 00:06:01,740",
+        "quote": "啊，这个盈利的比例。"
+      },
+      {
+        "cue_id": 119,
+        "time_range": "00:06:01,740 --> 00:06:03,000",
+        "quote": "是相当之高的。"
+      },
+      {
+        "cue_id": 120,
+        "time_range": "00:06:03,110 --> 00:06:06,670",
+        "quote": "那用膝盖想都知道吗？这个钱是谁出的？那日本人出的嘛。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C07",
+    "normalized_statement": "博主从成本和收益分布解释汇率干预双方的不同动机。",
+    "quotes": [
+      {
+        "cue_id": 121,
+        "time_range": "00:06:06,670 --> 00:06:10,580",
+        "quote": "那贝森特在这种时候跳脸告诉你，日本花钱。"
+      },
+      {
+        "cue_id": 122,
+        "time_range": "00:06:10,580 --> 00:06:15,190",
+        "quote": "跟美国配合买美国高抬贵手，美国在这里面一举两吃。"
+      },
+      {
+        "cue_id": 123,
+        "time_range": "00:06:15,230 --> 00:06:17,540",
+        "quote": "真正的目的在告告诉你啥呢？"
+      },
+      {
+        "cue_id": 124,
+        "time_range": "00:06:17,540 --> 00:06:21,130",
+        "quote": "告诉你，当我完全的控制了日元汇率以后。"
+      },
+      {
+        "cue_id": 125,
+        "time_range": "00:06:21,130 --> 00:06:22,740",
+        "quote": "那后边的这个单。"
+      },
+      {
+        "cue_id": 126,
+        "time_range": "00:06:22,740 --> 00:06:24,970",
+        "quote": "是由日本人买，而不是美国人买。"
+      },
+      {
+        "cue_id": 127,
+        "time_range": "00:06:24,970 --> 00:06:27,180",
+        "quote": "那么这个清晰的很，这逻辑清晰的很。"
+      },
+      {
+        "cue_id": 128,
+        "time_range": "00:06:27,280 --> 00:06:33,410",
+        "quote": "信息给你传递的毫无呃没有任何的这个障碍，也没有任何的误解空间，非常的清晰。"
+      },
+      {
+        "cue_id": 129,
+        "time_range": "00:06:33,450 --> 00:06:34,100",
+        "quote": "啊。"
+      },
+      {
+        "cue_id": 130,
+        "time_range": "00:06:34,100 --> 00:06:36,010",
+        "quote": "那日美关系摆成这样子。"
+      },
+      {
+        "cue_id": 131,
+        "time_range": "00:06:36,010 --> 00:06:38,820",
+        "quote": "还有现在还有各种的分析告诉你。"
+      },
+      {
+        "cue_id": 132,
+        "time_range": "00:06:38,820 --> 00:06:42,300",
+        "quote": "日本和美国之间的金融关系嵌套在一起。"
+      },
+      {
+        "cue_id": 133,
+        "time_range": "00:06:42,300 --> 00:06:44,920",
+        "quote": "而不是互相之间算计是对方。"
+      },
+      {
+        "cue_id": 134,
+        "time_range": "00:06:44,940 --> 00:06:46,860",
+        "quote": "那就是睁着眼睛说瞎话吧。"
+      },
+      {
+        "cue_id": 135,
+        "time_range": "00:06:46,890 --> 00:06:49,030",
+        "quote": "那按照这样的思路来看的话。"
+      },
+      {
+        "cue_id": 136,
+        "time_range": "00:06:49,030 --> 00:06:52,300",
+        "quote": "那美国现在这个时间节点上，美联储加息。"
+      },
+      {
+        "cue_id": 137,
+        "time_range": "00:06:52,300 --> 00:06:57,190",
+        "quote": "那简直就是图穷匕现最后那一下嘛，匕首都露出来了。"
+      },
+      {
+        "cue_id": 138,
+        "time_range": "00:06:57,290 --> 00:06:59,220",
+        "quote": "意思是非常非常明显的。"
+      },
+      {
+        "cue_id": 139,
+        "time_range": "00:06:59,310 --> 00:07:03,070",
+        "quote": "那为啥这个时间节点上把这个匕首露出来了？一方面是。"
+      },
+      {
+        "cue_id": 140,
+        "time_range": "00:07:03,070 --> 00:07:05,600",
+        "quote": "不愿意等了，一方面是等不住了。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C08",
+    "normalized_statement": "博主认为连续加息路径会使黄金承压；不是预测正确率证明。",
+    "quotes": [
+      {
+        "cue_id": 145,
+        "time_range": "00:07:20,540 --> 00:07:24,860",
+        "quote": "对于金价上涨最大的风险是啥？最大的风险就是美联储加息。"
+      },
+      {
+        "cue_id": 146,
+        "time_range": "00:07:24,860 --> 00:07:27,590",
+        "quote": "而且呢最大的风险不是每年储一次加息。"
+      },
+      {
+        "cue_id": 147,
+        "time_range": "00:07:27,590 --> 00:07:28,920",
+        "quote": "而是多次加息。"
+      },
+      {
+        "cue_id": 148,
+        "time_range": "00:07:28,920 --> 00:07:30,400",
+        "quote": "多次加息预期出来。"
+      },
+      {
+        "cue_id": 149,
+        "time_range": "00:07:30,400 --> 00:07:33,470",
+        "quote": "那这预期一出来的话，金价肯定会受到打压的。"
+      },
+      {
+        "cue_id": 150,
+        "time_range": "00:07:33,470 --> 00:07:34,030",
+        "quote": "对吧。"
+      },
+      {
+        "cue_id": 151,
+        "time_range": "00:07:34,030 --> 00:07:36,500",
+        "quote": "那意味着整个的这个紧缩周期要来了嘛。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C09",
+    "normalized_statement": "博主重申约120而非原先200的油价设想，联系电动车替代。",
+    "quotes": [
+      {
+        "cue_id": 159,
+        "time_range": "00:07:53,120 --> 00:07:59,010",
+        "quote": "说这个油价的判断，我为什么判断是120美元1桶啊，这个油价我之前的时候是吧？"
+      },
+      {
+        "cue_id": 160,
+        "time_range": "00:07:59,010 --> 00:08:03,340",
+        "quote": "当是递源紧张到一定程度了以后，油价一飞冲天到200也不奇怪。"
+      },
+      {
+        "cue_id": 161,
+        "time_range": "00:08:03,340 --> 00:08:07,400",
+        "quote": "1501080200，那都是很正常的事儿，分分钟就能到达的。"
+      },
+      {
+        "cue_id": 162,
+        "time_range": "00:08:07,400 --> 00:08:10,020",
+        "quote": "为什么现在突然之间偏保守了呢？"
+      },
+      {
+        "cue_id": 163,
+        "time_range": "00:08:10,020 --> 00:08:12,320",
+        "quote": "就是因为看到了这些事儿是吧？"
+      },
+      {
+        "cue_id": 164,
+        "time_range": "00:08:12,320 --> 00:08:13,190",
+        "quote": "一方面呢。"
+      },
+      {
+        "cue_id": 165,
+        "time_range": "00:08:13,250 --> 00:08:18,400",
+        "quote": "整个的新能源对于石油的这个替换效应是非常非常显著的。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C10",
+    "normalized_statement": "博主提及一则讲话并承认未找到原消息，相关引用待补证。",
+    "quotes": [
+      {
+        "cue_id": 173,
+        "time_range": "00:08:40,880 --> 00:08:47,330",
+        "quote": "如果没有中国帮助调节石油的价格的话，现在的石油价格不堪想象。"
+      },
+      {
+        "cue_id": 174,
+        "time_range": "00:08:47,470 --> 00:08:48,290",
+        "quote": "That."
+      },
+      {
+        "cue_id": 175,
+        "time_range": "00:08:48,290 --> 00:08:49,620",
+        "quote": "我我有印象的。"
+      },
+      {
+        "cue_id": 176,
+        "time_range": "00:08:49,620 --> 00:08:52,790",
+        "quote": "但具体的新闻我现在找不到了，有兴趣的小伙伴可以去找一下。"
+      },
+      {
+        "cue_id": 177,
+        "time_range": "00:08:52,790 --> 00:08:56,360",
+        "quote": "应该是今年的5月份或者6月份的时候，特朗普每天对外。"
+      },
+      {
+        "cue_id": 178,
+        "time_range": "00:08:56,360 --> 00:08:58,460",
+        "quote": "释放各种各样的垃圾信息。但是。"
+      },
+      {
+        "cue_id": 179,
+        "time_range": "00:08:58,460 --> 00:09:01,420",
+        "quote": "这句话是一个垃圾中的金子。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C11",
+    "normalized_statement": "博主认为需求替代会限制能源涨价向更高价格持续推进。",
+    "quotes": [
+      {
+        "cue_id": 198,
+        "time_range": "00:09:58,530 --> 00:10:02,270",
+        "quote": "中国这边确确实实需求并没有随着。"
+      },
+      {
+        "cue_id": 199,
+        "time_range": "00:10:02,270 --> 00:10:06,230",
+        "quote": "啊，你这边的供应减少了，那我就顺手推舟，我就少买一点，为啥呢？"
+      },
+      {
+        "cue_id": 200,
+        "time_range": "00:10:06,230 --> 00:10:08,310",
+        "quote": "因为供应减少了价格上升了。"
+      },
+      {
+        "cue_id": 201,
+        "time_range": "00:10:08,310 --> 00:10:11,300",
+        "quote": "那这么贵的油我没必要，但是在干嘛呢？"
+      },
+      {
+        "cue_id": 202,
+        "time_range": "00:10:11,300 --> 00:10:14,400",
+        "quote": "中国通过实际的宏观调控能力告诉你。"
+      },
+      {
+        "cue_id": 203,
+        "time_range": "00:10:14,410 --> 00:10:17,560",
+        "quote": "中国自己国内发生的新能源革命。"
+      },
+      {
+        "cue_id": 204,
+        "time_range": "00:10:17,560 --> 00:10:18,780",
+        "quote": "新能源车替代。"
+      },
+      {
+        "cue_id": 205,
+        "time_range": "00:10:18,780 --> 00:10:19,590",
+        "quote": "燃油车。"
+      },
+      {
+        "cue_id": 206,
+        "time_range": "00:10:19,590 --> 00:10:24,920",
+        "quote": "他就是可以释放出来这么多的额外的石油的需求出来，没有必要去买了。"
+      },
+      {
+        "cue_id": 207,
+        "time_range": "00:10:24,950 --> 00:10:28,170",
+        "quote": "这个是个长期存在的事儿。很多小伙伴说。"
+      },
+      {
+        "cue_id": 208,
+        "time_range": "00:10:28,170 --> 00:10:31,860",
+        "quote": "那新能源对于这个石油市场的这个影响，还是预期。"
+      },
+      {
+        "cue_id": 209,
+        "time_range": "00:10:31,860 --> 00:10:34,300",
+        "quote": "还在未来，不是在未来，就在眼下。"
+      },
+      {
+        "cue_id": 210,
+        "time_range": "00:10:34,570 --> 00:10:36,460",
+        "quote": "因为这个直接就通过。"
+      },
+      {
+        "cue_id": 211,
+        "time_range": "00:10:36,460 --> 00:10:41,710",
+        "quote": "从3月份到9月份的市场的交易告诉你了，清清楚楚，明明白白的告诉你了。"
+      },
+      {
+        "cue_id": 212,
+        "time_range": "00:10:41,710 --> 00:10:42,840",
+        "quote": "啊，这是一个。"
+      },
+      {
+        "cue_id": 213,
+        "time_range": "00:10:42,840 --> 00:10:46,220",
+        "quote": "压制油价的一个最重要的原因之一啊。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C12",
+    "normalized_statement": "能源冲击传导时长出现月份、半年与“8年”等不一致表述，需核听。",
+    "quotes": [
+      {
+        "cue_id": 238,
+        "time_range": "00:11:53,370 --> 00:11:58,140",
+        "quote": "很多很多通胀的因素在整个经济体体系里边传导。"
+      },
+      {
+        "cue_id": 239,
+        "time_range": "00:11:58,140 --> 00:12:03,490",
+        "quote": "大概的运转周期是6个月到9个月，长的话要一年时间。"
+      },
+      {
+        "cue_id": 240,
+        "time_range": "00:12:03,490 --> 00:12:05,560",
+        "quote": "最短最短也要8年时间。"
+      },
+      {
+        "cue_id": 241,
+        "time_range": "00:12:05,560 --> 00:12:06,290",
+        "quote": "是吧。"
+      },
+      {
+        "cue_id": 242,
+        "time_range": "00:12:06,290 --> 00:12:07,940",
+        "quote": "Thesre and theventti."
+      },
+      {
+        "cue_id": 243,
+        "time_range": "00:12:07,940 --> 00:12:11,670",
+        "quote": "到9月份爆发出来，那现在在买单呢？"
+      },
+      {
+        "cue_id": 244,
+        "time_range": "00:12:11,760 --> 00:12:16,280",
+        "quote": "是霍尔木斯海峡刚刚封锁的时候引起的大波动。"
+      },
+      {
+        "cue_id": 245,
+        "time_range": "00:12:16,510 --> 00:12:19,410",
+        "quote": "那这个大波动后续的这个走势，你看的很清楚吧。"
+      },
+      {
+        "cue_id": 246,
+        "time_range": "00:12:19,410 --> 00:12:23,110",
+        "quote": "3月份的时候，这个油价很高是吧？100左右110左右。"
+      },
+      {
+        "cue_id": 247,
+        "time_range": "00:12:23,110 --> 00:12:27,250",
+        "quote": "后边的话落回来了，落回到80左右了，那现在又涨了100左右了。"
+      },
+      {
+        "cue_id": 248,
+        "time_range": "00:12:27,250 --> 00:12:31,330",
+        "quote": "那后边这个通胀的预期在这样的传导之下的话。"
+      },
+      {
+        "cue_id": 249,
+        "time_range": "00:12:31,330 --> 00:12:32,140",
+        "quote": "一方面。"
+      },
+      {
+        "cue_id": 250,
+        "time_range": "00:12:32,140 --> 00:12:35,010",
+        "quote": "他们互相之间信号的波动会被拉平，对吧？"
+      },
+      {
+        "cue_id": 251,
+        "time_range": "00:12:35,010 --> 00:12:36,010",
+        "quote": "另一方面呢。"
+      },
+      {
+        "cue_id": 252,
+        "time_range": "00:12:36,010 --> 00:12:41,120",
+        "quote": "这个持续强的输入会一直让这个信号的强度维持一个比较高的水平。"
+      },
+      {
+        "cue_id": 253,
+        "time_range": "00:12:41,180 --> 00:12:42,250",
+        "quote": "也就是啥呢？"
+      },
+      {
+        "cue_id": 254,
+        "time_range": "00:12:42,250 --> 00:12:46,700",
+        "quote": "这通胀不会随着你美联储的表态，不会随着你美联储的加息。"
+      },
+      {
+        "cue_id": 255,
+        "time_range": "00:12:46,700 --> 00:12:50,180",
+        "quote": "有任何的改变，不会改变的，就算是要改变。"
+      },
+      {
+        "cue_id": 256,
+        "time_range": "00:12:50,180 --> 00:12:52,170",
+        "quote": "那也是6个月以后的事了。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C13",
+    "normalized_statement": "博主判断到明年3月前难以降息，可能继续加息；时间依据尚待核对。",
+    "quotes": [
+      {
+        "cue_id": 257,
+        "time_range": "00:12:52,210 --> 00:12:54,890",
+        "quote": "但是呢卧室这次讲话讲的很清楚。"
+      },
+      {
+        "cue_id": 258,
+        "time_range": "00:12:54,910 --> 00:12:59,600",
+        "quote": "高昂的通胀，持续超长时间的通胀，是我们无法忍受的。"
+      },
+      {
+        "cue_id": 259,
+        "time_range": "00:12:59,600 --> 00:13:03,390",
+        "quote": "他既然通过加息向着通胀这个目标发起了冲锋。"
+      },
+      {
+        "cue_id": 260,
+        "time_range": "00:13:03,390 --> 00:13:04,820",
+        "quote": "那就意味着。"
+      },
+      {
+        "cue_id": 261,
+        "time_range": "00:13:04,820 --> 00:13:07,780",
+        "quote": "不管这个结果如何，这个过程它肯定是不会变的。"
+      },
+      {
+        "cue_id": 262,
+        "time_range": "00:13:07,860 --> 00:13:08,810",
+        "quote": "所以呢。"
+      },
+      {
+        "cue_id": 263,
+        "time_range": "00:13:08,810 --> 00:13:11,600",
+        "quote": "所以在明年的3月份之前。"
+      },
+      {
+        "cue_id": 264,
+        "time_range": "00:13:11,600 --> 00:13:14,510",
+        "quote": "你可以大胆的有一个具具体的概念。"
+      },
+      {
+        "cue_id": 265,
+        "time_range": "00:13:14,510 --> 00:13:17,300",
+        "quote": "美联储是绝对不会降息的。"
+      },
+      {
+        "cue_id": 266,
+        "time_range": "00:13:17,370 --> 00:13:20,240",
+        "quote": "甚至呢他有可能都不会停止加息。"
+      },
+      {
+        "cue_id": 267,
+        "time_range": "00:13:20,300 --> 00:13:23,300",
+        "quote": "区别只是加息的幅度可能会变化。"
+      },
+      {
+        "cue_id": 268,
+        "time_range": "00:13:23,300 --> 00:13:24,990",
+        "quote": "加息的节奏会有变化。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C14",
+    "normalized_statement": "博主认为AI题材依赖流动性，持续紧缩会使其承压。",
+    "quotes": [
+      {
+        "cue_id": 270,
+        "time_range": "00:13:26,070 --> 00:13:30,090",
+        "quote": "对很多很多长期对流动性有依赖。"
+      },
+      {
+        "cue_id": 271,
+        "time_range": "00:13:30,090 --> 00:13:33,800",
+        "quote": "对于长期的流动性支撑很敏感的题材。"
+      },
+      {
+        "cue_id": 272,
+        "time_range": "00:13:33,800 --> 00:13:35,520",
+        "quote": "是致命的打击。"
+      },
+      {
+        "cue_id": 273,
+        "time_range": "00:13:35,550 --> 00:13:36,540",
+        "quote": "所以呢。"
+      },
+      {
+        "cue_id": 274,
+        "time_range": "00:13:36,540 --> 00:13:38,580",
+        "quote": "啊，第二个结论就显而易见了。"
+      },
+      {
+        "cue_id": 275,
+        "time_range": "00:13:38,580 --> 00:13:42,830",
+        "quote": "这次的加息是敲响了AI泡沫破裂的三钟。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C15",
+    "normalized_statement": "博主用受伤苹果比喻旧题材，在再次冲击下可能先受损。",
+    "quotes": [
+      {
+        "cue_id": 297,
+        "time_range": "00:14:54,970 --> 00:14:56,840",
+        "quote": "5月份的时候，这个泡沫。"
+      },
+      {
+        "cue_id": 298,
+        "time_range": "00:14:56,840 --> 00:15:00,990",
+        "quote": "已经出现了明显的裂纹，当时的时候已经引发了动荡。"
+      },
+      {
+        "cue_id": 299,
+        "time_range": "00:15:00,990 --> 00:15:03,590",
+        "quote": "我当时就告诉你了嘛，这是一个坏题材。"
+      },
+      {
+        "cue_id": 300,
+        "time_range": "00:15:03,610 --> 00:15:04,650",
+        "quote": "一个。"
+      },
+      {
+        "cue_id": 301,
+        "time_range": "00:15:04,650 --> 00:15:06,690",
+        "quote": "那个damage good的是吧，就是。"
+      },
+      {
+        "cue_id": 302,
+        "time_range": "00:15:06,690 --> 00:15:09,070",
+        "quote": "受到损害的商品。"
+      },
+      {
+        "cue_id": 303,
+        "time_range": "00:15:09,070 --> 00:15:13,300",
+        "quote": "你看一个苹果上去咔一掐是吧？一个桃子咔一掐。"
+      },
+      {
+        "cue_id": 304,
+        "time_range": "00:15:13,300 --> 00:15:15,270",
+        "quote": "当时没看出来有啥。"
+      },
+      {
+        "cue_id": 305,
+        "time_range": "00:15:15,270 --> 00:15:19,400",
+        "quote": "过两天他那个地方被掐的地方就发黑了，这是啥？就d good的是吧？"
+      },
+      {
+        "cue_id": 306,
+        "time_range": "00:15:19,400 --> 00:15:20,190",
+        "quote": "这东西。"
+      },
+      {
+        "cue_id": 307,
+        "time_range": "00:15:20,190 --> 00:15:22,540",
+        "quote": "受到受到影响，受到损害了啊。"
+      },
+      {
+        "cue_id": 308,
+        "time_range": "00:15:22,560 --> 00:15:25,010",
+        "quote": "那AI题材就受到损害了。"
+      },
+      {
+        "cue_id": 309,
+        "time_range": "00:15:25,010 --> 00:15:27,110",
+        "quote": "第一次冲击在发生在5月份。"
+      },
+      {
+        "cue_id": 310,
+        "time_range": "00:15:27,110 --> 00:15:30,540",
+        "quote": "按照正常的题材损坏的逻辑。"
+      },
+      {
+        "cue_id": 311,
+        "time_range": "00:15:30,540 --> 00:15:33,230",
+        "quote": "时隔几个月后，第二次冲击就要来。"
+      },
+      {
+        "cue_id": 312,
+        "time_range": "00:15:33,230 --> 00:15:34,170",
+        "quote": "那这次。"
+      },
+      {
+        "cue_id": 313,
+        "time_range": "00:15:34,170 --> 00:15:37,410",
+        "quote": "那加期的成绩是不是直接就落到了AI泡沫上？"
+      },
+      {
+        "cue_id": 314,
+        "time_range": "00:15:37,450 --> 00:15:39,190",
+        "quote": "所以就不奇怪了，为啥？"
+      },
+      {
+        "cue_id": 315,
+        "time_range": "00:15:39,190 --> 00:15:45,950",
+        "quote": "这个加息的数据一出来了以后，AI这边首先受到影响啊，整个的这个半导体芯片指数。"
+      },
+      {
+        "cue_id": 316,
+        "time_range": "00:15:45,950 --> 00:15:48,670",
+        "quote": "首先受到影响，首先承受压力。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C16",
+    "normalized_statement": "博主把热点或需求转向其他市场作为猜想，并非确定结果。",
+    "quotes": [
+      {
+        "cue_id": 318,
+        "time_range": "00:15:50,200 --> 00:15:52,320",
+        "quote": "我不承担任何的后果也。"
+      },
+      {
+        "cue_id": 319,
+        "time_range": "00:15:52,320 --> 00:15:54,470",
+        "quote": "不做任何的市场的这个预测哈。"
+      },
+      {
+        "cue_id": 320,
+        "time_range": "00:15:54,470 --> 00:15:56,330",
+        "quote": "就说说我自己的看法啊。"
+      },
+      {
+        "cue_id": 321,
+        "time_range": "00:15:56,330 --> 00:15:57,530",
+        "quote": "我认为呢。"
+      },
+      {
+        "cue_id": 322,
+        "time_range": "00:15:57,530 --> 00:16:00,460",
+        "quote": "这个时候的话可能会出现一个是吧？"
+      },
+      {
+        "cue_id": 323,
+        "time_range": "00:16:00,520 --> 00:16:01,660",
+        "quote": "那个。"
+      },
+      {
+        "cue_id": 324,
+        "time_range": "00:16:01,880 --> 00:16:03,080",
+        "quote": "啊，平衡效应。"
+      },
+      {
+        "cue_id": 325,
+        "time_range": "00:16:03,080 --> 00:16:07,160",
+        "quote": "什么叫平衡效应呢？说最通俗点的话，就当年那一句小民谣。"
+      },
+      {
+        "cue_id": 326,
+        "time_range": "00:16:07,160 --> 00:16:10,280",
+        "quote": "叫河珅跌倒是吧，嘉庆吃饱。"
+      },
+      {
+        "cue_id": 327,
+        "time_range": "00:16:10,280 --> 00:16:18,090",
+        "quote": "很多事情呢那题材破了，但是幻想没破。而且现在支撑这个题材背后的一些实打实的意向没变。"
+      },
+      {
+        "cue_id": 328,
+        "time_range": "00:16:18,130 --> 00:16:21,540",
+        "quote": "AI这些东西啊，这个所谓的下一代的AI。"
+      },
+      {
+        "cue_id": 329,
+        "time_range": "00:16:21,540 --> 00:16:23,830",
+        "quote": "这个AGC是吧，这些东西。"
+      },
+      {
+        "cue_id": 330,
+        "time_range": "00:16:23,830 --> 00:16:24,700",
+        "quote": "都没变。"
+      },
+      {
+        "cue_id": 331,
+        "time_range": "00:16:24,700 --> 00:16:26,840",
+        "quote": "啊，AGI是吧，这些东西都没变。"
+      },
+      {
+        "cue_id": 332,
+        "time_range": "00:16:26,870 --> 00:16:31,400",
+        "quote": "那这些东西没变的话，那美国那个市场上不相信有神话了，不相信梦想了。"
+      },
+      {
+        "cue_id": 333,
+        "time_range": "00:16:31,460 --> 00:16:36,010",
+        "quote": "那自然有新的市场来去承接这一部分的狂热投机嘛。"
+      },
+      {
+        "cue_id": 334,
+        "time_range": "00:16:36,010 --> 00:16:36,980",
+        "quote": "而且呢这个。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C17",
+    "normalized_statement": "政策利率、房贷利率与期限连接需进一步核对，暂缓定量表述。",
+    "quotes": [
+      {
+        "cue_id": 343,
+        "time_range": "00:17:39,940 --> 00:17:59,940",
+        "quote": "放贷的金融机构，它的资金成本骤然的上升，之前的那个宽松的预期，大家一致认为宽松要宽松到啥时候啊，要美联储降息降到3%附近，对不对？这次卧实出来一下，一通过加息直接打破这个幻想了，现在加息的结果是3.75到4%。"
+      },
+      {
+        "cue_id": 344,
+        "time_range": "00:17:59,940 --> 00:18:19,940",
+        "quote": "时间美联储的利率上到4了，下一次还要加息，那就上到4以上了，彻底上到4以上了，这样的冲击之下，你想想看，对于那些放贷的机构，对于那些金融的机构，对于那些银行以及呢准银行，所谓的影子银行是吧？那些表外业务。"
+      },
+      {
+        "cue_id": 345,
+        "time_range": "00:18:19,940 --> 00:18:39,940",
+        "quote": "是多大的成本的压力？前段时间的那个房贷的利率已经上升了7%了，30年期的房贷的利率跟那个美呃美国的这30年期的那个国债的利率是光直接挂钩的嘛，这房贷利率已经上到7%了，7%点几，这个房贷利率已经压制了房地产的需求非常长的时间。"
+      },
+      {
+        "cue_id": 346,
+        "time_range": "00:18:39,940 --> 00:18:59,940",
+        "quote": "了，从去年到今年是吧，房地产市场交易的规模萎缩了很多了。在这样的压力之下的话，宽松周期结束了，提前进入了紧缩周期。那对整个美国的金融系统是多么致命的打击。这些打击会在第一时间出现吗？不会为啥呢？还是那句话。"
+      },
+      {
+        "cue_id": 347,
+        "time_range": "00:18:59,940 --> 00:19:19,940",
+        "quote": "啊，上个星期五给你表演了一下什么叫领导先走。所以大家肯定呢还会一切如常，歌照唱舞照跳马照跑，运行一段时间，等到啥时候真正的拖不住了，这个泡沫开始破裂了，所有的事情开始出现了，崩溃开始出现了，那就等呗，能拖一天拖。"
+      },
+      {
+        "cue_id": 348,
+        "time_range": "00:19:19,940 --> 00:19:39,940",
+        "quote": "是一天，但是能够拖多长时间呢？绝对拖不到中期选举。那再跟大家再复盘一下是吧？我记得我5月份的时候跟大家分析这个局势的时候，有多少小伙伴，这不是我今天说啊，这几天我连连续的在说这个问题。你回想一下啊，其实很多时候进行积极的。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C18",
+    "normalized_statement": "博主认为，政治人物不能凭个人意愿主宰市场趋势；面对市场交易压力，他们的立场和政策选择会受到约束。他用“冲浪者而非浪潮制造者”来说明这一判断。",
+    "quotes": [
+      {
+        "cue_id": 351,
+        "time_range": "00:20:19,940 --> 00:20:39,940",
+        "quote": "11月份之前呢，又只有装死这一个要求，那肯定是装死到底嘛。但是我当时不是跟他家说了，市场的节奏不会随着某些人的想法进行改变，千万千万不要把政客的能力扩大了。你觉得特朗普可以左右一切，可以主宰一切。我。"
+      },
+      {
+        "cue_id": 352,
+        "time_range": "00:20:39,940 --> 00:20:59,940",
+        "quote": "这个话题不是第一次说，我说了，那些在台上表演的政客有一个算一个古今中外，注意哈是古今中外是吧？啊，无一幸免，概莫能是都只有一个结论，他们都是啊那个冲浪的，是是这个弄潮耳。"
+      },
+      {
+        "cue_id": 353,
+        "time_range": "00:20:59,940 --> 00:21:19,940",
+        "quote": "他们不是真正的浪潮制造者，面对着市场交易压力之下的话，他们的立场不值一提，很多事儿割部拧不过大队，真的是诿不过整个的这个汹涌的民意，汹涌的这个伟力，对吧？现在9月份加息这事儿是不是证实了，同样。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C19",
+    "normalized_statement": "历史加息年代与幅度字幕有疑点，暂不使用作比较依据。",
+    "quotes": [
+      {
+        "cue_id": 365,
+        "time_range": "00:24:59,940 --> 00:25:19,940",
+        "quote": "美国的经济是K型分化，已经实质的进入滞障了。进入滞障的经济的话，无非就是两条路啊，这个话题不是今天说的，2024年的时候说的，当时还是报本当面的主金，当时就是两条路，一个呢叫做会见斩情寺，一口气加到底，对吧？我管你死活的，当年。"
+      },
+      {
+        "cue_id": 366,
+        "time_range": "00:25:19,940 --> 00:25:39,940",
+        "quote": "20年代的时候是不是干过这种事儿？李根主主着政的时候，是不是干过这个事儿，加起加到20%，直接把智障的泡沫，十0年的智障泡沫死循环打破了，迎来了一个新的经济爆发的春天，这个经济爆发的春天是天时地利人和的叠加，对吧？他这边一下打破了那边错联解体了，这一下子，美国90年的辉煌。"
+      },
+      {
+        "cue_id": 367,
+        "time_range": "00:25:39,940 --> 00:25:59,940",
+        "quote": "出来了，对吧？这是都是有据可查的可以进行复盘的事儿。那现在呢现在你既然没选择那个一下子把它加到20%这样的猛烈的手段握实上台的表态告诉你，我的心思，你别猜，其实意思就是一种缓和的方式，隐隐晦的告诉你，我不会选择。"
+      },
+      {
+        "cue_id": 368,
+        "time_range": "00:25:59,940 --> 00:26:19,940",
+        "quote": "年worker那套一次加到20%，让大家尸横遍野的玩法。这个不是现在这个环境能选的了。原因我前面也说过了，对吧？当时美国的国债是很低的，国家是有充足的信用空间去把民间的债务揽过来。那你们这些发债就跟现在咱们做的是一样的嘛，你们这当地的政府发债。"
+      }
+    ],
+    "initial_disposition": "deferred",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C20",
+    "normalized_statement": "博主推测债务负担限制猛烈加息，使紧缩可能更渐进、持续更久。",
+    "quotes": [
+      {
+        "cue_id": 368,
+        "time_range": "00:25:59,940 --> 00:26:19,940",
+        "quote": "年worker那套一次加到20%，让大家尸横遍野的玩法。这个不是现在这个环境能选的了。原因我前面也说过了，对吧？当时美国的国债是很低的，国家是有充足的信用空间去把民间的债务揽过来。那你们这些发债就跟现在咱们做的是一样的嘛，你们这当地的政府发债。"
+      },
+      {
+        "cue_id": 369,
+        "time_range": "00:26:19,940 --> 00:26:39,940",
+        "quote": "利率太高了，咱们要化债转换一下，咱们发低效债啊，不低低息债，那我把这个低息债发出来了以后，哎，一下子财政负担减少了。然后呢，然后通过发展增过增长来把过去的债务给它冲掉。而且呢在增长的过程中，债务就是一个增长的好的燃料，它就不。"
+      },
+      {
+        "cue_id": 370,
+        "time_range": "00:26:39,940 --> 00:26:59,940",
+        "quote": "不再是趴在这个增长上面源源不断吸血的一个负担啊，就是发展跟债务之间的关系，它可以是良性的关系，互相促进的关系，对吧？那也可以是恶性的关系。由于庞大的债务阻碍的发展，取决于啥呢？取决于你自己发展的动力，取决于你有没有这样的一个开拓新的发展。"
+      },
+      {
+        "cue_id": 371,
+        "time_range": "00:26:59,940 --> 00:27:19,940",
+        "quote": "的能力是不是这个道理？那现在对于美国来说，它有这个能力嘛，它没有嘛，所以呢所以既然你没办法选择那个一下子加到20%，打破智障的这样的一循环这样的一个手段。那智障那个客观的事实又在这，你增长停滞了，你新追的泡沫又受到损害了，你吹不上。"
+      },
+      {
+        "cue_id": 372,
+        "time_range": "00:27:19,940 --> 00:27:39,940",
+        "quote": "去了，那最后答案是不是呼之欲出了？它会通过走一步看一步，慢慢加息的方式，温水煮青蛙，反复的试探。那既然是反复的试探，反复的拉锯。那这段时间肯定短不了。在这样的短不了的环境里边，最直接的影响就是你那个吹的题材能够成。"
+      },
+      {
+        "cue_id": 373,
+        "time_range": "00:27:39,940 --> 00:27:59,940",
+        "quote": "多久，你这个吹的题材，高PE的那些题材，对于利率的敏感是非常高的它能够支撑一段时间啊，你高利率的环境，它可以支撑一段时间，它有燃料的，它有弹药的，但弹药打完了看不到明天，那肯定就要跑。那既然结果是注定，那提前跑是肯定的事情。所以呢那得到。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C21",
+    "normalized_statement": "博主强调债券解释中经济表现的相对位置与绝对好坏不同。",
+    "quotes": [
+      {
+        "cue_id": 384,
+        "time_range": "00:31:19,940 --> 00:31:39,940",
+        "quote": "点啊，这次沃实的讲话里边，我认为其他的都是扯淡，有一个特别有意思啊。关于长期美债收益率为何上涨啊，当时的时候记者有问这个问题啊吧，他给了三点的主要因素，这三点的主要因素，有一条算一条全是扯淡，全部都是粉饰太平，倒转因果。"
+      },
+      {
+        "cue_id": 385,
+        "time_range": "00:31:39,940 --> 00:31:59,940",
+        "quote": "第一条是美国经济走强。如果美国经济真的走强，那么长期收益率应该是上上升还是下降，答然是呼之欲出，显而易见的。当美国的经济真正的稳定走强的时候，我不需要付出额外的代价，你就必须得持有我的美债。因为在全世界范围里边，美国的国债是贬值最慢的。所以呢。"
+      },
+      {
+        "cue_id": 386,
+        "time_range": "00:31:59,940 --> 00:32:19,940",
+        "quote": "如果美国的经济走强啊，是相对于其他国家所有的一盘棋看的话，如果我美国经济是风景这边独好，那美债的长期收益率肯定是走低而不会走高。那现在呢美债收益率走强，美美国的经济走强，结果导致美债长期美债的收益率上涨。"
+      },
+      {
+        "cue_id": 387,
+        "time_range": "00:32:19,940 --> 00:32:39,940",
+        "quote": "答案只有一个就是啊真正走强的另有其人，你只是必相对你自己粉饰太平，自己强说自己啊经济走强才会是这样的结果。这是第一条。第二个是资本竞争。那特别提到了资本支出激增，以及大型企业在市场上融资的现象。资本争夺。这个我前面跟大家说过，这不是务实自己的。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C22",
+    "normalized_statement": "博主将企业融资与国债竞争视作潜在脆弱性来源。",
+    "quotes": [
+      {
+        "cue_id": 388,
+        "time_range": "00:32:39,940 --> 00:32:59,940",
+        "quote": "观点这也是不仅仅是我是自己观点，他也是把这个呃贝森特的观点是吧？啊，AI公司在市场上发AI偿债，抢夺了这个买偿债的这些资源，导致呢这个偿债的收益率上升。这个确实是结果。但这不是原因，真正的原因是啥呢？是AI公司。"
+      },
+      {
+        "cue_id": 389,
+        "time_range": "00:32:59,940 --> 00:33:19,940",
+        "quote": "有更好的融资途径融到他们想要的更庞大的资金啊。他们现在是既要又要既要风险很低啊，利率很低的资金又不想承担啊任何的这种这个承诺职责。所以呢他们在偿债方上上面发这种无风险的或者无担保的这种。"
+      },
+      {
+        "cue_id": 390,
+        "time_range": "00:33:19,940 --> 00:33:39,940",
+        "quote": "债是吧从他自己角度是无风险的，所以买债的人来说，就是无担保无保证的债，对吧？结果冲击了通过一些幻想，通过高增长的幻想冲击了美债的长期稳定的市场，这对美国的金融结构来说是劣化而不是优化，对吧？所以第二条资本竞争。它确实是解释了。"
+      },
+      {
+        "cue_id": 391,
+        "time_range": "00:33:39,940 --> 00:33:59,940",
+        "quote": "偿债上收益率上升的这个结果。但是解释结果的原因告诉你的是，长债市场变得更加的脆弱，更加的不稳定了啊？第三条地缘政治沃什表示呢世界各地的地缘政治热点呢正在推高长期收益率。这句话又是一个显而易见的谎言。为啥啊？因为根据。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  },
+  {
+    "claim_id": "EP003/C23",
+    "normalized_statement": "博主认为，过去地缘动荡往往促使资金流向美国、美债收益率下降；而本次地缘风险伴随美债长期收益率上升，与这一历史经验相反。他据此判断，本次冲突正在挑战美国的国际权威，而美国未能维护其威势，导致投资者抛售美债。",
+    "quotes": [
+      {
+        "cue_id": 392,
+        "time_range": "00:34:00,200 --> 00:34:20,200",
+        "quote": "二战以后到现在的历史经验来看，世界越乱，美国越值得投资，美债收益率反而越低，因为啥呢？世界纷纷扰扰，美国作为置身事外的桃花源，作为一个孤立的大洲，对吧？你世界再怎么乱，二战都没打到我本土来，你世界再怎么乱。"
+      },
+      {
+        "cue_id": 393,
+        "time_range": "00:34:20,200 --> 00:34:40,200",
+        "quote": "越乱对我越有利，越乱。你们欧洲那些老钱就要越往我美洲这边跑，往我美国这边跑，是不是这个道理？那现在突然告诉你，世界地缘政治的影响，导致长期收益率上升，实际上是潜台词是啥？是美国的威势不在了。现在的这些地缘政治挑战的就是你。"
+      },
+      {
+        "cue_id": 394,
+        "time_range": "00:34:40,200 --> 00:35:00,200",
+        "quote": "美国在世界的权威，挑战的就是你美国的面子里子。结果呢你还没维持好是吧？在战场上丢了脸，正面战场上不敢应敌，所以大家用脚投票抛你的美债，这才是真相。结合着这个真相，再看看这次的一些会议，我觉得大家应该能够看到不一样的风景。"
+      }
+    ],
+    "initial_disposition": "active",
+    "numeric_policy": "All literal numbers, units, modal and negation tokens remain in unmodified quotes; no inferred conversion.",
+    "assertion_time": "UNKNOWN",
+    "referenced_time": "UNKNOWN_UNLESS_EXPLICIT_IN_QUOTES",
+    "external_truth": "NOT_VERIFIED"
+  }
+]

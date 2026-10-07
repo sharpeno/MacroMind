@@ -1,0 +1,11 @@
+{
+  "locked_at": "2026-10-05T18:01:04.984993+00:00",
+  "files": {
+    "protocol.json": "70334708c235a1a37b15a005c0db9e1197d957db2ffacc0c7779b8b86738387a",
+    "target_metadata.json": "d4cc4ce4e2d73394db069672bb5297f45c3bcde77e34b56c873a6bf64836429f",
+    "news_input.json": "c44595ac8ec2ac2f4011247032366f9a766dd91a6a6a55d5abdc812127902f2a",
+    "answer_before_subtitle.json": "2956d355a0e32fd4a3f1d4b2a4134e41f6d8ea238ad04ee3fc102d4c8a8d1503"
+  },
+  "framework_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "subtitle_status": "UNREAD_AT_LOCK"
+}

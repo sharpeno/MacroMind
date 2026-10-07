@@ -1,0 +1,25 @@
+{
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "phase1_5b": "NOT_STARTED",
+    "phase1_5c": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production": "NOT_READY"
+  },
+  "protected_changes": [],
+  "runtime_imports": [
+    "collections",
+    "copy",
+    "datetime",
+    "enum",
+    "hashlib",
+    "json",
+    "pathlib",
+    "pydantic",
+    "re",
+    "typing"
+  ],
+  "unexpected_added": [],
+  "violations": []
+}

@@ -1,0 +1,17 @@
+{
+  "status": "USER_CLARIFICATIONS_AND_REVISION_APPLIED",
+  "completed": [
+    "review identity verified and raw file archived",
+    "R01/R02 accept-with-notes recorded",
+    "R03 revision applied from user text",
+    "original transcript wording preserved alongside evidence limits",
+    "integrity and continuity checks passed"
+  ],
+  "pending": [
+    "apply goal/instrument/mechanism/priority checklist in next case",
+    "11 unread episodes starting476 not yet started",
+    "independent fact/forecast validation not done"
+  ],
+  "extra_human_approval": "NOT_CLAIMED",
+  "framework_change": "NONE"
+}

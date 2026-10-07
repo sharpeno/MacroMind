@@ -1,0 +1,565 @@
+{
+  "definition_policy": "Exact copy from authoritative audit, not re-derived from historical patches.",
+  "objects": [
+    {
+      "object_name": "Source",
+      "target": "core_objects.json#/objects/0",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/0",
+        "evidence_refs": [
+          "E01",
+          "E10",
+          "E11"
+        ]
+      }
+    },
+    {
+      "object_name": "Claim",
+      "target": "core_objects.json#/objects/1",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/1",
+        "evidence_refs": [
+          "E02",
+          "E23",
+          "E41"
+        ]
+      }
+    },
+    {
+      "object_name": "Event",
+      "target": "core_objects.json#/objects/2",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/2",
+        "evidence_refs": [
+          "E05",
+          "E12",
+          "E25"
+        ]
+      }
+    },
+    {
+      "object_name": "StructuralProcess",
+      "target": "core_objects.json#/objects/3",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/3",
+        "evidence_refs": [
+          "E03",
+          "E25",
+          "E32"
+        ]
+      }
+    },
+    {
+      "object_name": "Actor",
+      "target": "core_objects.json#/objects/4",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/4",
+        "evidence_refs": [
+          "E05",
+          "E14"
+        ]
+      }
+    },
+    {
+      "object_name": "Indicator",
+      "target": "core_objects.json#/objects/5",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/5",
+        "evidence_refs": [
+          "E05",
+          "E13",
+          "E20",
+          "E27"
+        ]
+      }
+    },
+    {
+      "object_name": "Policy",
+      "target": "core_objects.json#/objects/6",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/6",
+        "evidence_refs": [
+          "E05",
+          "E12"
+        ]
+      }
+    },
+    {
+      "object_name": "Mechanism",
+      "target": "core_objects.json#/objects/7",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/7",
+        "evidence_refs": [
+          "E06",
+          "E18",
+          "E19"
+        ]
+      }
+    },
+    {
+      "object_name": "Argument",
+      "target": "core_objects.json#/objects/8",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/8",
+        "evidence_refs": [
+          "E06",
+          "E16",
+          "E26"
+        ]
+      }
+    },
+    {
+      "object_name": "Thesis",
+      "target": "core_objects.json#/objects/9",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/9",
+        "evidence_refs": [
+          "E01",
+          "E03",
+          "E25"
+        ]
+      }
+    },
+    {
+      "object_name": "Forecast",
+      "target": "core_objects.json#/objects/10",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/10",
+        "evidence_refs": [
+          "E08",
+          "E24",
+          "E34",
+          "E43"
+        ]
+      }
+    },
+    {
+      "object_name": "Contradiction",
+      "target": "core_objects.json#/objects/11",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/11",
+        "evidence_refs": [
+          "E07",
+          "E33"
+        ]
+      }
+    },
+    {
+      "object_name": "Assessment",
+      "target": "core_objects.json#/objects/12",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/12",
+        "evidence_refs": [
+          "E01",
+          "E41",
+          "E42"
+        ]
+      }
+    },
+    {
+      "object_name": "Heuristic",
+      "target": "core_objects.json#/objects/13",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+        "json_pointer": "/core_object_assessments/13",
+        "evidence_refs": [
+          "E01",
+          "E04",
+          "E17",
+          "E40"
+        ]
+      }
+    }
+  ],
+  "boundaries": [
+    {
+      "boundary_id": "B01",
+      "target": "core_boundaries.json#/boundaries/0",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/0",
+        "evidence_refs": [
+          "E02",
+          "E10",
+          "E41"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B02",
+      "target": "core_boundaries.json#/boundaries/1",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/1",
+        "evidence_refs": [
+          "E05",
+          "E12",
+          "E25"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B03",
+      "target": "core_boundaries.json#/boundaries/2",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/2",
+        "evidence_refs": [
+          "E03",
+          "E25",
+          "E32"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B04",
+      "target": "core_boundaries.json#/boundaries/3",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/3",
+        "evidence_refs": [
+          "E05",
+          "E14"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B05",
+      "target": "core_boundaries.json#/boundaries/4",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/4",
+        "evidence_refs": [
+          "E05",
+          "E13",
+          "E20",
+          "E27"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B06",
+      "target": "core_boundaries.json#/boundaries/5",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/5",
+        "evidence_refs": [
+          "E05",
+          "E12"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B07",
+      "target": "core_boundaries.json#/boundaries/6",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/6",
+        "evidence_refs": [
+          "E06",
+          "E16",
+          "E18",
+          "E26"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B08",
+      "target": "core_boundaries.json#/boundaries/7",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/7",
+        "evidence_refs": [
+          "E01",
+          "E08",
+          "E25",
+          "E34"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B09",
+      "target": "core_boundaries.json#/boundaries/8",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/8",
+        "evidence_refs": [
+          "E08",
+          "E09",
+          "E24",
+          "E34"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B10",
+      "target": "core_boundaries.json#/boundaries/9",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/9",
+        "evidence_refs": [
+          "E01",
+          "E41",
+          "E42"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B11",
+      "target": "core_boundaries.json#/boundaries/10",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/10",
+        "evidence_refs": [
+          "E10",
+          "E41",
+          "E42"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B12",
+      "target": "core_boundaries.json#/boundaries/11",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/11",
+        "evidence_refs": [
+          "E04",
+          "E15",
+          "E17",
+          "E40"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B13",
+      "target": "core_boundaries.json#/boundaries/12",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/12",
+        "evidence_refs": [
+          "E01",
+          "E04",
+          "E40"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B14",
+      "target": "core_boundaries.json#/boundaries/13",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/13",
+        "evidence_refs": [
+          "E18",
+          "E19",
+          "E26"
+        ]
+      }
+    },
+    {
+      "boundary_id": "B15",
+      "target": "core_boundaries.json#/boundaries/14",
+      "source": {
+        "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+        "json_pointer": "/boundaries/14",
+        "evidence_refs": [
+          "E12"
+        ]
+      }
+    }
+  ],
+  "principles": [
+    {
+      "principle_id": "P01",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P01 Source / Claim / Reality Separation"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P02",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P02 Truth Non-Propagation"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P03",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P03 Event / StructuralProcess"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P04",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P04 Scenario / Forecast"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P05",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P05 Thesis / Forecast"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P06",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P06 Indicator / Observation"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P07",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P07 Policy / Policy Event"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P08",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P08 Mechanism / Argument"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P09",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P09 Mechanism / MechanismUsage"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P10",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P10 Assessment / Reality"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P11",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P11 Heuristic Lifecycle"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P12",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P12 Unknown > Guess"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P13",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P13 Temporal Integrity"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P14",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P14 Golden Number ≠ Time"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P15",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P15 Reasoner / Observer Separation"
+      },
+      "normalization": "whitespace_only"
+    },
+    {
+      "principle_id": "P16",
+      "source": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P16 Model Reconstruction Boundary"
+      },
+      "normalization": "whitespace_only"
+    }
+  ],
+  "historical_documents": [
+    [
+      "V02",
+      "G:/youhegaojian/迭代/MacroMind V0.2 Patch.md",
+      "Expectation/Population 与评价分离历史"
+    ],
+    [
+      "V03",
+      "G:/youhegaojian/迭代/MacroMind Ontology  Schema  Extraction Spec V0.3 Patch.md",
+      "StructuralProcess 与时间/来源/推理边界"
+    ],
+    [
+      "EX03",
+      "G:/youhegaojian/prompt/V03.MD",
+      "V0.3 抽取规范中详细定义"
+    ],
+    [
+      "EX031",
+      "G:/youhegaojian/prompt/V0.3.1.md",
+      "样本 Prompt 的 Forecast 准入；不是独立 Patch"
+    ],
+    [
+      "MA",
+      "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.md",
+      "Analyst/Shared Knowledge、Reasoner、MechanismUsage"
+    ],
+    [
+      "MA1",
+      "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "匹配精度、失败观察者、comparison、semantic role"
+    ]
+  ],
+  "rule_detail_source": "freeze_readiness audit sections 12–17; exact content preserved or machine-readable axes copied",
+  "missing_standalone_v031_patch": true
+}

@@ -1,0 +1,205 @@
+{
+  "$defs": {
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Thesis",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Thesis; ontology_version=0.3.",
+  "properties": {
+    "argument_refs": {
+      "description": "Supporting arguments",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Argument Refs",
+      "type": "array"
+    },
+    "counterevidence_refs": {
+      "description": "Interface for later counterevidence",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Counterevidence Refs",
+      "type": "array"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "event_refs": {
+      "description": "Events explained",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Event Refs",
+      "type": "array"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "indicator_refs": {
+      "description": "Indicator combination explained",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Indicator Refs",
+      "type": "array"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "Thesis",
+      "default": "Thesis",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "process_refs": {
+      "description": "Processes explained",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Process Refs",
+      "type": "array"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Scope of structural explanation",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Scope"
+    },
+    "statement": {
+      "description": "Persistent explanatory or structural judgment",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Statement",
+      "type": "string"
+    },
+    "supporting_evidence_refs": {
+      "description": "Supporting evidence",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Thesis; core_principles.json",
+      "title": "Supporting Evidence Refs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "statement",
+    "scope",
+    "argument_refs",
+    "event_refs",
+    "process_refs",
+    "indicator_refs",
+    "supporting_evidence_refs",
+    "counterevidence_refs"
+  ],
+  "title": "Thesis",
+  "type": "object"
+}

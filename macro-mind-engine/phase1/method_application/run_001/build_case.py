@@ -1,0 +1,283 @@
+"""Author one bounded application against an already frozen method packet."""
+
+import hashlib
+import json
+from pathlib import Path
+
+OUT = Path(__file__).resolve().parent
+
+
+def save(name, value):
+    (OUT / name).write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+
+
+def sha(p):
+    return hashlib.sha256(p.read_bytes()).hexdigest()
+
+
+if (OUT / "case.json").exists():
+    raise SystemExit("Existing application must not be overwritten; create another run.")
+lock = json.loads((OUT / "framework_lock.json").read_text())
+for name, h in lock["files"].items():
+    assert sha(OUT / name) == h
+# Short evidence selections only, not an archived copy of the complete article.
+source = {
+    "id": "NEWS01",
+    "url": "https://www.cls.cn/detail/2470121",
+    "title": "美国驻约旦基地遭袭后 特朗普称将“狠狠打击”伊朗",
+    "publisher": "财联社",
+    "author": "牛占林",
+    "published_at": "2026-08-31T23:51:05+08:00",
+    "published_basis": "正文显示23:51；页面__NEXT_DATA__.articleDetail.ctime=1788191465提供秒数，按UTC+08:00换算。",
+    "accessed_on": "2026-10-05",
+    "capture_type": "SELECTED_EXCERPT_AND_ATTRIBUTED_NOTES_NOT_FULL_PAGE_ARCHIVE",
+    "access_status": "PAGE_READ_SUCCESSFULLY",
+    "event_verification": "SINGLE_MEDIA_REPORT_NOT_INDEPENDENTLY_CORROBORATED",
+    "excerpt": "不过目前没有证据显示哈尔克岛遭到袭击。",
+    "excerpt_locator": "正文第4段，紧接AI视频与威胁表述之后。",
+    "notes": [
+        {
+            "id": "F1",
+            "locator": "正文第1、3段",
+            "statement": "报道转述美方威胁，并说明所发布画面由AI生成。",
+            "type": "REPORTED_STATEMENT",
+        },
+        {
+            "id": "F2",
+            "locator": "正文第4段",
+            "statement": "报道表示当时没有该岛遇袭证据。",
+            "type": "REPORTED_ABSENCE_OF_EVIDENCE",
+        },
+        {
+            "id": "F3",
+            "locator": "正文第2、6段",
+            "statement": "报道中的美伊双方对约旦基地受损情况说法不一。",
+            "type": "CONFLICTING_ATTRIBUTED_REPORTS",
+        },
+        {
+            "id": "F4",
+            "locator": "正文第10段",
+            "statement": "报道报价：布油90.90美元、涨3.2%；WTI86.28美元、涨3.5%。",
+            "type": "REPORTED_MARKET_SNAPSHOT",
+        },
+        {
+            "id": "F5",
+            "locator": "正文第8、13段",
+            "statement": "报道描述航运受扰，并转述伊方寻求外交协议。",
+            "type": "REPORTED_CONTEXT_AND_INTENT",
+        },
+    ],
+    "limits": [
+        "只核对网页确实这样写，未独立证实冲突、损失、价格或声明原文。",
+        "当前读取页不是当日网页历史快照，页面可能存在后续修订。",
+        "单一来源没有检索到的证据不代表全网不存在证据。",
+    ],
+}
+save("news_source.json", source)
+save(
+    "source_selection.json",
+    {
+        "sequence": 2,
+        "after_framework_lock": sha(OUT / "framework_lock.json"),
+        "selected_from": "batch_pilot_materials/EP006/补充材料/引用清单.md",
+        "selected": "https://www.cls.cn/detail/2470121",
+        "considered": [
+            {
+                "url": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqepev4628583.shtml",
+                "result": "web工具无法访问；不采纳其标题作为事实",
+            },
+            {
+                "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+                "result": "web工具Internal Error；未读取正文",
+            },
+            {
+                "url": "https://home.treasury.gov/news/press-releases/sb0135",
+                "result": "检索回退时读到；未进入本案例证据集，与本案不同事件",
+            },
+        ],
+        "search_context_seen": "检索回退显示其他制裁报道，因此不主张严格盲测。",
+        "EP006_transcript_read_this_run": False,
+        "reconstruction_limits": "读取过材料标题；更晚的训练材料与方法先验已知。只检查迁移可用性，不计算预测准确率。",
+    },
+)
+applications = [
+    {
+        "method_id": "M01",
+        "applicability": "LIMITED",
+        "reason": "有公开行动主体与威胁，但缺少直接声明、内部成本与完整选项证据。",
+        "steps": [
+            {
+                "id": "A11",
+                "evidence_refs": ["F1"],
+                "operation": "把公开威胁视为一种承诺信号，区分升级行动、有限回应和谈判施压等可能选项。",
+                "result": "存在兑现形象压力的假说，但尚不能给选项排序。",
+            },
+            {
+                "id": "A12",
+                "evidence_refs": ["F1", "F3", "F5"],
+                "operation": "对照冲突说法和外交意向；检验“强硬表态必然转化为所描述行动”是否成立。",
+                "result": "不成立：现实代价与谈判用途均可能改变行动。",
+            },
+        ],
+        "working_judgment": "公开强硬姿态可能形成约束，也可能服务谈判；不由姿态直接推出某次行动必然发生。",
+        "alternative": "言辞可能意在威慑或回应国内受众，亦可能预示升级。",
+        "update_trigger": "原始声明、具体措施与后续行为能区分这些解释时重新排序。",
+        "transfer_note": "信誉约束从央行话语迁移到外交表态，由助手提出；不代表博主对本案的判断。",
+    },
+    {
+        "method_id": "M02",
+        "applicability": "APPLICABLE",
+        "reason": "本案正好需要区分表态、画面、措施、执行与效果。",
+        "steps": [
+            {
+                "id": "A21",
+                "evidence_refs": ["F1", "F2"],
+                "operation": "检查画面的证据性质和报道对执行的限定。",
+                "result": "AI画面与威胁不能证明设施已受损；该结果仍未知。",
+            },
+            {
+                "id": "A22",
+                "evidence_refs": ["F2", "F5"],
+                "operation": "在结果未知时建立可继续推演的默认情景。",
+                "result": "保留材料所描述的供应扰动风险，不新增“该设施已毁造成的供给损失”，也不提前计入外交改善。",
+            },
+        ],
+        "working_judgment": "以风险仍待消解为基础判断；特定设施损毁和外交改善均不作为已实现条件。",
+        "alternative": "真实行动或内部安排可能已存在但材料尚未覆盖；不能把未知写成没有。",
+        "update_trigger": "可核验的设施运行、装运、执行或停火落实证据出现后更新。",
+        "transfer_note": "采取用户确认的工作基线原则；并未替作者补写内部计划。",
+    },
+    {
+        "method_id": "M03",
+        "applicability": "PARTIAL",
+        "reason": "有两个油价报价与相反叙述，但没有长序列、分项流量或独立验证。",
+        "steps": [
+            {
+                "id": "A31",
+                "evidence_refs": ["F4"],
+                "operation": "分别记录油种、报价和涨幅；不把两个基准混成一条价格，也不把当前涨幅当未来概率。",
+                "result": "只形成文章所报时点的价格观察，不外推走势。",
+            },
+            {
+                "id": "A32",
+                "evidence_refs": ["F1", "F3", "F4"],
+                "operation": "检查“市场反应印证威胁必然兑现”的循环论证。",
+                "result": "威胁可影响价格，价格反应本身不能独立证实实际供给中断；此为替代机制，不证明市场必定如此定价。",
+            },
+        ],
+        "working_judgment": "油价反应可列为风险关注信号，不能据此确认因果、持续涨势或设施损失。",
+        "alternative": "价格可能受其他供需信息、头寸和流动性影响；本包缺少区分资料。",
+        "update_trigger": "补充同口径时间序列、实际流量与独立事件记录后重评。",
+        "transfer_note": "只应用参照/反馈子步骤；缺少分项数据的部分保持未决，不强行凑齐。",
+    },
+    {
+        "method_id": "M04",
+        "applicability": "TRANSFER_LIMITED",
+        "reason": "可以列条件传导，但从AI题材到能源供应是跨领域迁移。",
+        "steps": [
+            {
+                "id": "A41",
+                "evidence_refs": ["F1", "F2", "F5"],
+                "operation": "构造升级分支：若实际行动影响设施或航运→且替代能力不足→可能加重供应约束。",
+                "result": "风险分支具有条件，不是行动或油价点位预测。",
+            },
+            {
+                "id": "A42",
+                "evidence_refs": ["F5"],
+                "operation": "构造缓和分支：若协议落实并改善通行/装运→可能降低扰动。",
+                "result": "外交意向还未满足改善条件，暂不计入基础判断。",
+            },
+        ],
+        "working_judgment": "基础路径保留风险，分别等待升级、缓和或适应性替代的可观察条件。",
+        "alternative": "贸易路线或替代供给适应也可能减弱冲击，即使冲突持续。",
+        "update_trigger": "观察运行/流量而非只观察表态；触发后若传导未出现，削弱或撤回该机制。",
+        "transfer_note": "本轮不测试AI叙事承接，更不据此认定跨领域方法已有效。",
+    },
+    {
+        "method_id": "M05",
+        "applicability": "INITIAL_ONLY",
+        "reason": "目前只有这一篇报道，没有为本轮收集后续结果。",
+        "steps": [
+            {
+                "id": "A51",
+                "evidence_refs": ["F1", "F2", "F3", "F4", "F5"],
+                "operation": "绑定冻结方法和来源指纹，保存基础判断、分支、待补证项。",
+                "result": "初始应用已登记；没有进行真实的后来更新。",
+            }
+        ],
+        "working_judgment": "等待新增证据再逐项维持、补充、修改或撤回；现在不写成命中或失效。",
+        "alternative": "事后回看容易挑选支持材料；当前选例与已有知识不满足严格盲测。",
+        "update_trigger": "只在新证据明确进入时建立下一快照，保留原判断和版本；不自动监控。",
+        "transfer_note": "不对照EP006讲解，不替博主回答。",
+    },
+]
+judgments = [
+    {
+        "id": "J01",
+        "status": "PROVISIONAL",
+        "claim_type": "WORKING_BASELINE",
+        "statement": "在这篇报道覆盖的范围内，暂按能源供应扰动风险尚未消解开展分析；不提前计入未证实的新增设施损失，也不提前计入尚未落实的缓和收益。",
+        "supports": ["A22", "A41", "A42"],
+        "basis": ["F2", "F5"],
+        "scope": "仅为历史文章条件下的基础判断，不是当前市场建议。",
+        "alternatives": ["言辞施压后局势缓和", "实际升级且替代不足", "贸易适应使扰动弱于预期"],
+        "strengthen": "新增独立记录显示通行或装运进一步受损。",
+        "weaken": "运行恢复、替代供给缓冲或外交安排实际落实。",
+        "withdraw": "可靠的同时间资料推翻本包所依赖的扰动背景，或明确证实相关风险已消解。",
+    },
+    {
+        "id": "J02",
+        "status": "UNKNOWN",
+        "claim_type": "FACT_STATE",
+        "statement": "特定设施是否遭袭及受损程度仍未获本包证据证实。",
+        "supports": ["A21"],
+        "basis": ["F1", "F2"],
+        "scope": "没有证据不等于未发生；也不把AI画面当现场证据。",
+        "alternatives": ["未发生", "发生但本包未覆盖"],
+        "strengthen": "可信且可定位的独立现场/运营证据支持实际受损。",
+        "weaken": "可信运营证据支持当时正常运行，但须匹配时间范围。",
+        "withdraw": "明确事实确认后，用新版本替代未知状态；保留本次未知记录。",
+    },
+]
+case = {
+    "id": "application-001",
+    "framework_id": "9527-methods-v0.1",
+    "framework_sha256": lock["files"]["framework.json"],
+    "mode": "HISTORICAL_TRANSFER_APPLICATION_NOT_BLIND",
+    "analysis_authorship": "ASSISTANT_USING_CANDIDATE_FRAMEWORK_NOT_BLOGGER_OPINION",
+    "evidence_cutoff": "2026-08-31T23:59:59+08:00",
+    "recorded_on": "2026-10-05",
+    "score_eligible": False,
+    "canonical_write": False,
+    "semantic_acceptance": False,
+    "source_files": [
+        {"id": "NEWS01", "path": "news_source.json", "sha256": sha(OUT / "news_source.json")}
+    ],
+    "question": "公开威胁是否足以改变能源供应的基础判断？证据不足时如何继续推演？",
+    "applications": applications,
+    "judgments": judgments,
+    "unresolved": [
+        "单一媒体报道，尚未取得原始声明或独立事实交叉核验。",
+        "没有设施、航运、装运的配套时间序列；缺少替代供应能力证据。",
+        "没有对照EP006的博主解释，没有检验方法忠实度或预测成绩。",
+        "时间较晚的材料用于提炼方法，不能假称2026-08-31当时已具备该方法。",
+        "本轮没有新增结果证据，M05只完成初始登记。",
+    ],
+    "operating_consequence": "后续材料优先查实际运行和流量变化；当前不因为强硬话语或画面就把设施损毁、供应削减作为既成事实，也不因为缺证据停止分析。",
+}
+save("case.json", case)
+save(
+    "case_lock.json",
+    {
+        "sequence": 3,
+        "framework_lock_sha256": sha(OUT / "framework_lock.json"),
+        "files": {
+            n: sha(OUT / n) for n in ["case.json", "news_source.json", "source_selection.json"]
+        },
+    },
+)
+print(
+    "Saved frozen case: 5 method applications, 9 reasoning steps, 2 tracked judgments. Source is reported evidence, not independently corroborated events."
+)

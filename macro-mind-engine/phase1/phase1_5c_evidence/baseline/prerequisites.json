@@ -1,0 +1,17 @@
+{
+  "phase1_5a": {
+    "gate": "READY_FOR_PHASE_1_5B",
+    "checked": 91,
+    "mismatches": []
+  },
+  "phase1_5b1": {
+    "gate": "READY_FOR_PHASE_1_5B_2",
+    "checked": 81,
+    "mismatches": []
+  },
+  "phase1_5b2": {
+    "gate": "READY_FOR_PHASE_1_5C",
+    "checked": 228,
+    "mismatches": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "WAITING_FOR_C03_C04_DELTA_REVIEW",
+  "completed": ["original review validated and archived", "four approvals preserved", "two proposals revised", "six evidence contexts expanded", "full development transcript context links added", "structural and browser QA passed", "desktop and mobile screenshots visually inspected"],
+  "pending": ["human delta review of C03/C04", "validate returned review and resolve any requested changes", "freeze v0.3 only after semantic approval", "subsequent held-out evaluation not started"],
+  "active_framework": "9527-methods-v0.2",
+  "next": "Review REVIEW.html C03/C04 and return exported JSON",
+  "limitations": ["manual evidence boundaries are not automatic semantic completeness guarantees", "native OS save picker and other browsers untested", "no external factual or forecast accuracy acceptance"]
+}

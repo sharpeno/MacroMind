@@ -1,0 +1,143 @@
+[
+  {
+    "episode": "EP001",
+    "argument": [
+      "A01",
+      [
+        "C03"
+      ],
+      "C04",
+      "企业盈利与估值错配使题材切换难持续，资金回到原热点。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP001",
+    "argument": [
+      "A02",
+      [
+        "C09"
+      ],
+      "C10",
+      "不同统计参照可以导向不同叙事，需要辨别预期差与自身变化。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP002",
+    "argument": [
+      "A01",
+      [
+        "C04"
+      ],
+      "C06",
+      "需求替代是作者下调油价上限设想的理由之一。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP002",
+    "argument": [
+      "A02",
+      [
+        "C07"
+      ],
+      "C08",
+      "有限资金竞争被作者用来解释同行攻击。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP003",
+    "argument": [
+      "A01",
+      [
+        "C02"
+      ],
+      "C04",
+      "相对利差视角支持对日本指引不足的条件性判断。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP003",
+    "argument": [
+      "A02",
+      [
+        "C11"
+      ],
+      "C09",
+      "需求替代被作者作为油价上限判断的依据。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP004",
+    "argument": [
+      "A02",
+      [
+        "C12"
+      ],
+      "C13",
+      "尽调维度复杂且信息难取得，形成普通参与者的判断门槛。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP004",
+    "argument": [
+      "A03",
+      [
+        "C19",
+        "C21"
+      ],
+      "C20",
+      "当前采购收益与未来竞争压力构成两条盈利路径的比较。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP005",
+    "argument": [
+      "A01",
+      [
+        "C05"
+      ],
+      "C06",
+      "租金和融资成本差异通过市场参与影响租售关系，仍属作者分析。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  },
+  {
+    "episode": "EP005",
+    "argument": [
+      "A02",
+      [
+        "C07"
+      ],
+      "C08",
+      "预售回款的时序解释高周转扩张。"
+    ],
+    "status": "PENDING",
+    "reviewer": null,
+    "decision": null
+  }
+]

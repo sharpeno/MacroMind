@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_5a_evidence\\baseline\\tests.xml"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "selected": "ECB01",
+  "frozen_before_fetch": true,
+  "protected_prior_files_scanned": 650,
+  "matching_prior_files": [],
+  "scope": "仅已封存的先前方法/应用链文件，非全电脑或模型知识排查",
+  "initial_rg_attempt": "首次通配路径和权限导致检索不完整，最终对protected_before清单逐文件复核",
+  "other_search_content": "搜索结果包含后续7月决定和经济公报摘要，未纳入案例推理，仍披露为非盲测",
+  "existing_video_candidates": "EP001—EP008均已进入提取、背景或开发对照，未继续当留出",
+  "method_rule_changed_after_case": false
+}

@@ -1,0 +1,214 @@
+{
+  "ontology_version": "0.3",
+  "schema_version": "0.1.0",
+  "schemas": [
+    {
+      "kind": "core",
+      "model": "Actor",
+      "ontology_version": "0.3",
+      "path": "core/Actor.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d"
+    },
+    {
+      "kind": "core",
+      "model": "Argument",
+      "ontology_version": "0.3",
+      "path": "core/Argument.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96"
+    },
+    {
+      "kind": "core",
+      "model": "Assessment",
+      "ontology_version": "0.3",
+      "path": "core/Assessment.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574"
+    },
+    {
+      "kind": "core",
+      "model": "Claim",
+      "ontology_version": "0.3",
+      "path": "core/Claim.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3"
+    },
+    {
+      "kind": "core",
+      "model": "Contradiction",
+      "ontology_version": "0.3",
+      "path": "core/Contradiction.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331"
+    },
+    {
+      "kind": "core",
+      "model": "Event",
+      "ontology_version": "0.3",
+      "path": "core/Event.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb"
+    },
+    {
+      "kind": "core",
+      "model": "Forecast",
+      "ontology_version": "0.3",
+      "path": "core/Forecast.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978"
+    },
+    {
+      "kind": "core",
+      "model": "Heuristic",
+      "ontology_version": "0.3",
+      "path": "core/Heuristic.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0"
+    },
+    {
+      "kind": "core",
+      "model": "Indicator",
+      "ontology_version": "0.3",
+      "path": "core/Indicator.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d"
+    },
+    {
+      "kind": "core",
+      "model": "Mechanism",
+      "ontology_version": "0.3",
+      "path": "core/Mechanism.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade"
+    },
+    {
+      "kind": "core",
+      "model": "Policy",
+      "ontology_version": "0.3",
+      "path": "core/Policy.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56"
+    },
+    {
+      "kind": "core",
+      "model": "Source",
+      "ontology_version": "0.3",
+      "path": "core/Source.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a"
+    },
+    {
+      "kind": "core",
+      "model": "StructuralProcess",
+      "ontology_version": "0.3",
+      "path": "core/StructuralProcess.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4"
+    },
+    {
+      "kind": "core",
+      "model": "Thesis",
+      "ontology_version": "0.3",
+      "path": "core/Thesis.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "AnalystMethodSignal",
+      "ontology_version": "0.3",
+      "path": "auxiliary/AnalystMethodSignal.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "ClaimOccurrence",
+      "ontology_version": "0.3",
+      "path": "auxiliary/ClaimOccurrence.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "ExpectationSnapshot",
+      "ontology_version": "0.3",
+      "path": "auxiliary/ExpectationSnapshot.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "IndicatorObservation",
+      "ontology_version": "0.3",
+      "path": "auxiliary/IndicatorObservation.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "InformationSet",
+      "ontology_version": "0.3",
+      "path": "auxiliary/InformationSet.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "MechanismUsage",
+      "ontology_version": "0.3",
+      "path": "auxiliary/MechanismUsage.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "ReviewQueueItem",
+      "ontology_version": "0.3",
+      "path": "auxiliary/ReviewQueueItem.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "Scenario",
+      "ontology_version": "0.3",
+      "path": "auxiliary/Scenario.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "SourceFamily",
+      "ontology_version": "0.3",
+      "path": "auxiliary/SourceFamily.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "SourceSegment",
+      "ontology_version": "0.3",
+      "path": "auxiliary/SourceSegment.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "SourceVersion",
+      "ontology_version": "0.3",
+      "path": "auxiliary/SourceVersion.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409"
+    },
+    {
+      "kind": "auxiliary",
+      "model": "TranscriptCorrection",
+      "ontology_version": "0.3",
+      "path": "auxiliary/TranscriptCorrection.schema.json",
+      "schema_version": "0.1.0",
+      "sha256": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38"
+    }
+  ]
+}

@@ -1,0 +1,3976 @@
+[
+  {
+    "cue_id": 1,
+    "time_range": "00:00:00,150 --> 00:00:20,150",
+    "quote": "大家好，今天跟大家聊聊美国的通胀数据啊，昨天晚上8点钟呢，美国这边公布了8月份的PPI数据，就是这生产者价格指数。今天晚上呢会公布这个CPI数据，就是消费者价格指数。从这个生产者价格指数来看的话，这个通胀情况是不妙的。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 2,
+    "time_range": "00:00:20,150 --> 00:00:40,150",
+    "quote": "啊，那大概率呢今天公布的这个CPI数据呢也不太好看。那两个不好看的结果呢，就会导致9月份加息的概率暴涨。昨天呢在PPI数据公布之前，那加息的概率呢已经从60%啊，涨到了62点几。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 3,
+    "time_range": "00:00:40,150 --> 00:01:00,150",
+    "quote": "然后随着这个PPI数据一公布是吧，直接就从60%多，直接涨到了70%多，一度呢涨到了75%。就是9月份加息的概率啊，智商所这边压注的概率。那今天的晚上8点半钟吧啊CPI数据公布了以后呢，我认为这个概率。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 4,
+    "time_range": "00:01:00,150 --> 00:01:01,890",
+    "quote": "还会继续往上涨是吧？",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C01"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 5,
+    "time_range": "00:01:01,890 --> 00:01:04,240",
+    "quote": "那在这个上涨之下的话。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 6,
+    "time_range": "00:01:04,240 --> 00:01:06,520",
+    "quote": "其实难题就留给了卧室。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 7,
+    "time_range": "00:01:06,520 --> 00:01:09,070",
+    "quote": "啊，我之前就跟他说嘛，9月份会加息的。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 8,
+    "time_range": "00:01:09,070 --> 00:01:10,470",
+    "quote": "我是在。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 9,
+    "time_range": "00:01:10,470 --> 00:01:13,480",
+    "quote": "那个杰克逊霍尔会议上面讲话呢也是这个意思。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 10,
+    "time_range": "00:01:13,480 --> 00:01:16,540",
+    "quote": "当时呢还有小伙伴啊不同意我的看法。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 11,
+    "time_range": "00:01:16,540 --> 00:01:21,820",
+    "quote": "现在这些确凿的证据出来了以后啊，这种可能性是不是越来越增加了？",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 12,
+    "time_range": "00:01:21,880 --> 00:01:25,490",
+    "quote": "增加这个不要紧，真正的难点在啥呢？",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 13,
+    "time_range": "00:01:25,490 --> 00:01:26,800",
+    "quote": "真正的难点在。",
+    "topic_block": [
+      1,
+      13,
+      "PPI、CPI与加息概率预期"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 14,
+    "time_range": "00:01:26,800 --> 00:01:30,370",
+    "quote": "欧盟啊欧洲的央行已经这个月加息了。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 15,
+    "time_range": "00:01:30,390 --> 00:01:33,220",
+    "quote": "那大概率呢日本的央行也会加息。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 16,
+    "time_range": "00:01:33,220 --> 00:01:34,980",
+    "quote": "然后新西兰呢。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 17,
+    "time_range": "00:01:34,980 --> 00:01:37,170",
+    "quote": "加拿大呀也都纷纷加息了。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 18,
+    "time_range": "00:01:37,170 --> 00:01:43,430",
+    "quote": "那如果美国在加息的话，那整个的这个节奏就是整个市面上交易的宽松节奏。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 19,
+    "time_range": "00:01:43,430 --> 00:01:46,100",
+    "quote": "根本就没有降到目标的利率。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 20,
+    "time_range": "00:01:46,100 --> 00:01:49,240",
+    "quote": "一下子呢又收紧了这种宽松的趋势。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 21,
+    "time_range": "00:01:49,240 --> 00:01:51,640",
+    "quote": "开始了重新的加息步伐。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 22,
+    "time_range": "00:01:51,640 --> 00:01:53,550",
+    "quote": "那这一轮的加息到底。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 23,
+    "time_range": "00:01:53,550 --> 00:01:55,510",
+    "quote": "是阳工是吧，稍微给你。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 24,
+    "time_range": "00:01:55,510 --> 00:01:58,820",
+    "quote": "打那么一两拳啊吧，这个歹徒兴奋拳。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 25,
+    "time_range": "00:01:58,820 --> 00:01:59,730",
+    "quote": "就结束了。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 26,
+    "time_range": "00:01:59,730 --> 00:02:19,730",
+    "quote": "后边的话是一泻千里，还是说呢会弄假成真的，弄巧成拙。嗯，本来说好的只加一点，加上去了以后停不下来了，就算是没那个能力，但是就是支撑不了长期的加息，包括暴力的加息，但是呢他上去了以后，它进退尾谷不。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 27,
+    "time_range": "00:02:19,730 --> 00:02:39,730",
+    "quote": "不管怎么选，他都选不了，只能够顺着这个趋势继续的按照大家的交易方向去做。这是留给沃实的一个很大的挑战。那到底应该怎么分析这样的局面，那咱们今天就好好的跟大家来聊一聊是吧？其实呢从昨天市场上的反应，你已经看的很清楚了，是吧？如果9月份美联储加息。",
+    "topic_block": [
+      14,
+      27,
+      "多国加息及单次/持续紧缩的分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C02"
+    ],
+    "audio_flags": [
+      [
+        6,
+        27,
+        "人名与加息路径措辞不清，不直接纠正"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 28,
+    "time_range": "00:02:39,730 --> 00:02:59,730",
+    "quote": "那黄金肯定是受到一截啊啊吧？黄金现在是不是又落回到了4300左右了，对吧？前段时间是不是涨到4600了，现在又落回到4300左右了，这个是不是之前的时候跟他提醒过的，9月份加息的可能性可能会影响到黄金，包括比特币是吧，也是跌了2%，然后呢，美股也是下跌。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 29,
+    "time_range": "00:02:59,730 --> 00:03:00,050",
+    "quote": "But。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 30,
+    "time_range": "00:03:00,060 --> 00:03:03,490",
+    "quote": "这些呢其实呢都不是特别的重要。为啥啊？",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 31,
+    "time_range": "00:03:03,490 --> 00:03:08,610",
+    "quote": "因为现在市场真正的情绪的热点在于美股的这个泡沫啥时候破？",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 32,
+    "time_range": "00:03:08,610 --> 00:03:15,400",
+    "quote": "既然现在大家都在等美股的泡崩破，那基本上是不是呈呈现出来的这个情况呢，叫做冰火两中间。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 33,
+    "time_range": "00:03:15,400 --> 00:03:16,130",
+    "quote": "啊。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 34,
+    "time_range": "00:03:16,130 --> 00:03:18,870",
+    "quote": "跟着美股正在吹泡沫那个方向。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 35,
+    "time_range": "00:03:18,870 --> 00:03:24,020",
+    "quote": "那一一片片的就是鲜花灼锦呢，烈火烹油，非常非常的热闹。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 36,
+    "time_range": "00:03:24,020 --> 00:03:28,610",
+    "quote": "那实际上呢这个剧烈波动之下，也很很少人能够有所斩握。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 37,
+    "time_range": "00:03:28,720 --> 00:03:33,920",
+    "quote": "除了这些热点以外的话，那迅速的都在降温。最明显的例子嘛，你看到。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 38,
+    "time_range": "00:03:33,920 --> 00:03:35,270",
+    "quote": "国内的消费。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 39,
+    "time_range": "00:03:35,270 --> 00:03:37,940",
+    "quote": "啊，国内的那些老灯啊，包括。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 40,
+    "time_range": "00:03:37,940 --> 00:03:39,660",
+    "quote": "啊，汽车是吧，这都是。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 41,
+    "time_range": "00:03:39,660 --> 00:03:41,300",
+    "quote": "寒冬中的寒冬啊。",
+    "topic_block": [
+      28,
+      41,
+      "黄金等资产反应与板块冷热分化"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 42,
+    "time_range": "00:03:41,300 --> 00:03:44,890",
+    "quote": "那不仅仅是国内是这个样子是吧？美国美股也是这样子。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 43,
+    "time_range": "00:03:44,920 --> 00:03:47,780",
+    "quote": "前几天，高盛，包括瑞银呢。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 44,
+    "time_range": "00:03:47,780 --> 00:03:50,130",
+    "quote": "吹了一波题材转换，结果呢。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 45,
+    "time_range": "00:03:50,130 --> 00:03:54,590",
+    "quote": "这转换的周期还不到一个星期，又从其他的又转回去了。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C22"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 46,
+    "time_range": "00:03:54,590 --> 00:03:57,410",
+    "quote": "而整体的很多很多的那些。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 47,
+    "time_range": "00:03:57,410 --> 00:03:59,260",
+    "quote": "啊，不起眼的。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 48,
+    "time_range": "00:03:59,260 --> 00:04:00,180",
+    "quote": "那些企业。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 49,
+    "time_range": "00:04:00,180 --> 00:04:04,270",
+    "quote": "他们的这个PE他们的估值其实呢都已经非常非常的高了。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 50,
+    "time_range": "00:04:04,270 --> 00:04:05,220",
+    "quote": "只是呢。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 51,
+    "time_range": "00:04:05,220 --> 00:04:07,680",
+    "quote": "在那些亮眼的七姐媚之下。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 52,
+    "time_range": "00:04:07,680 --> 00:04:10,050",
+    "quote": "他们整体的价格涨幅。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 53,
+    "time_range": "00:04:10,050 --> 00:04:11,900",
+    "quote": "并不是特别的好看。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 54,
+    "time_range": "00:04:11,900 --> 00:04:16,710",
+    "quote": "是吧这样的一个业绩非常非常差，但实际的这个PE非常高。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 55,
+    "time_range": "00:04:16,710 --> 00:04:20,010",
+    "quote": "然后呢，整体的这个价格呢又不是特别的理想。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 56,
+    "time_range": "00:04:20,010 --> 00:04:23,080",
+    "quote": "这么一个非常非常扭曲的组合。现在。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 57,
+    "time_range": "00:04:23,080 --> 00:04:27,520",
+    "quote": "在美股呢，这实际上是一个比较普遍的现象，啥意思啊？",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 58,
+    "time_range": "00:04:27,520 --> 00:04:34,070",
+    "quote": "就是结合着现在美国的这个K型分化的大趋势，越来越严重的大趋势。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 59,
+    "time_range": "00:04:34,070 --> 00:04:39,000",
+    "quote": "实际上呢，跟美国的经济方方面面贴得很近的。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 60,
+    "time_range": "00:04:39,000 --> 00:04:40,860",
+    "quote": "实体消费部分。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 61,
+    "time_range": "00:04:40,860 --> 00:04:46,150",
+    "quote": "他们的整体营收下降的是非常非常之厉害的。比如说。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 62,
+    "time_range": "00:04:46,150 --> 00:04:47,280",
+    "quote": "耐克。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 63,
+    "time_range": "00:04:47,280 --> 00:04:55,630",
+    "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 64,
+    "time_range": "00:04:55,630 --> 00:04:59,250",
+    "quote": "他们的整体的这个包括沃尔玛里面卖的那些。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 65,
+    "time_range": "00:04:59,250 --> 00:05:04,040",
+    "quote": "零售的食品商啊，饮料商啊，服务商这些东西。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 66,
+    "time_range": "00:05:04,040 --> 00:05:11,300",
+    "quote": "他们整体的估值虽然在这轮美股暴涨的情况之下，没有成为上涨的主力。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 67,
+    "time_range": "00:05:11,380 --> 00:05:15,850",
+    "quote": "但是实际上呢他们业绩下降的非常非常的厉害。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 68,
+    "time_range": "00:05:15,850 --> 00:05:18,330",
+    "quote": "而估值还是维持着过去的那个。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 69,
+    "time_range": "00:05:18,330 --> 00:05:20,820",
+    "quote": "在他业绩辉煌时代的那个高度。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 70,
+    "time_range": "00:05:20,820 --> 00:05:23,190",
+    "quote": "这里边也有很大的泡沫。",
+    "topic_block": [
+      42,
+      70,
+      "非热门消费企业盈利和估值错配"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C03"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 71,
+    "time_range": "00:05:23,190 --> 00:05:25,230",
+    "quote": "这个泡沫起到了啥作用呢？就是。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 72,
+    "time_range": "00:05:25,400 --> 00:05:28,400",
+    "quote": "如果说整体的环境不变的话。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 73,
+    "time_range": "00:05:28,400 --> 00:05:29,710",
+    "quote": "他不承压的话。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 74,
+    "time_range": "00:05:29,710 --> 00:05:31,140",
+    "quote": "这泡沫显不出来。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 75,
+    "time_range": "00:05:31,140 --> 00:05:33,900",
+    "quote": "但是如果面临着题材转换的话。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 76,
+    "time_range": "00:05:33,900 --> 00:05:37,610",
+    "quote": "大家拿着放大镜去看他们，一下子就穿帮了。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 77,
+    "time_range": "00:05:37,610 --> 00:05:38,760",
+    "quote": "所以呢。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 78,
+    "time_range": "00:05:38,760 --> 00:05:41,280",
+    "quote": "这个转换题材转换的热潮。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 79,
+    "time_range": "00:05:41,280 --> 00:05:43,410",
+    "quote": "只转换了一个多星期，马上呢。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 80,
+    "time_range": "00:05:43,410 --> 00:05:44,580",
+    "quote": "发现这些东西。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 81,
+    "time_range": "00:05:44,580 --> 00:05:49,310",
+    "quote": "盛名之下，奇实难赋撑不起来题实题材转换的炒作。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 82,
+    "time_range": "00:05:49,310 --> 00:05:51,240",
+    "quote": "又赶紧的又转回到了。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 83,
+    "time_range": "00:05:51,240 --> 00:05:54,250",
+    "quote": "AI转回到了储存芯片，转回到了英伟达。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C04"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 84,
+    "time_range": "00:05:54,250 --> 00:05:55,100",
+    "quote": "啊，这是。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 85,
+    "time_range": "00:05:55,100 --> 00:05:58,450",
+    "quote": "过去这两个星期看的非常非常清晰的一个。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 86,
+    "time_range": "00:05:58,450 --> 00:05:59,970",
+    "quote": "这个变迁是吧？",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 87,
+    "time_range": "00:05:59,970 --> 00:06:19,970",
+    "quote": "一开始的时候唱衰唱衰了以后，发现情况不对，马上要调回来啊，为啥呢？你发现这些在K型分化之下，他们的基本面严重受损的企业，他们在股票市场上面的PE并没有得到一个充分的表达，这是一个扭曲，而这样的扭曲能持续多长时间呢？我认为它持。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 88,
+    "time_range": "00:06:19,970 --> 00:06:39,970",
+    "quote": "续不了多长时间，而且呢美国自己的经济基本面的损伤不是说是特朗普上来了以后才有今天的这个结果的，而是在特朗普第一个任期奥巴马那个时代积累下来的长期的这个动动量长期积累下这个趋势，到今天来是无以为继了。那自然而然会有一个。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 89,
+    "time_range": "00:06:39,970 --> 00:06:59,970",
+    "quote": "爆发，这就是所有的这个经济的雷引爆的潜在的这个前提条件。那现在呢实体经济的环境到底恶化成什么样子了？通过啥来看呢？哎，就恰恰经经过咱们今天要老聊的这个是吧，生产者价格指数以及呢今天晚上公布的这个消费者价格指数。",
+    "topic_block": [
+      71,
+      89,
+      "题材切换失败、回流AI与长期经济压力"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 90,
+    "time_range": "00:07:00,090 --> 00:07:20,090",
+    "quote": "这两个指数来看，同样的，其实你可以看一下咱们自己的这个这2个PPI和CPI实际上呢从通胀的角度来说啊，咱们面临的问题跟美国不一样。但整体来看的话，我们这边的这个问题啊性质来说比美国那面的啊要好解决啊吧？美国这种剧烈的通。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 91,
+    "time_range": "00:07:20,090 --> 00:07:40,090",
+    "quote": "要通过啥来解决啊？提高生产力，要通过它的这个提高它的溢价水平，能够把自己内部的通胀向外转嫁的这个能力来解决。而我们这边呢我们这边只要提振消费的信心就可以了。消费的信心为啥提振不起来？这个我后边会专门做节目跟大家聊，以及呢呃昨天下午。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 92,
+    "time_range": "00:07:40,090 --> 00:08:00,090",
+    "quote": "开了那几个重磅会议啊，那证监会不是也给你讲了2030年的目标是吧，整个的这个股票市场的这个目标如何如何。这个咱们下周好好的来聊一聊，就这里边有一个底层的逻辑是串在一起的。那，回过头来再去看美国这个PPI数据，CPI数据。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 93,
+    "time_range": "00:08:00,090 --> 00:08:01,610",
+    "quote": "特别是PPI数据。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 94,
+    "time_range": "00:08:01,610 --> 00:08:03,340",
+    "quote": "传达出来的焦虑。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 95,
+    "time_range": "00:08:03,340 --> 00:08:05,540",
+    "quote": "是非常非常引人注目的。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 96,
+    "time_range": "00:08:05,910 --> 00:08:08,760",
+    "quote": "咱们从这个数据本身入手啊，跟大家聊一聊。",
+    "topic_block": [
+      90,
+      96,
+      "中美通胀处理差异及后续节目预告"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 97,
+    "time_range": "00:08:08,850 --> 00:08:10,280",
+    "quote": "首先呢周四。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 98,
+    "time_range": "00:08:10,280 --> 00:08:15,860",
+    "quote": "美国统劳务统计局呢数据显示，8月份的PPI同比上涨了5.4%。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 99,
+    "time_range": "00:08:15,860 --> 00:08:18,710",
+    "quote": "高于市场预期的5.3%。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 100,
+    "time_range": "00:08:18,710 --> 00:08:19,240",
+    "quote": "啊。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 101,
+    "time_range": "00:08:19,240 --> 00:08:24,840",
+    "quote": "为啥市场预期是5.3%，这已经充分的考虑到了油价上涨的影响了。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 102,
+    "time_range": "00:08:24,840 --> 00:08:27,760",
+    "quote": "但实际交出来的答卷呢比那个更高。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C05"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 103,
+    "time_range": "00:08:27,760 --> 00:08:34,540",
+    "quote": "5.4不可怕，5.3也不是特别的难受。之前也比这个有更高的这个历史过。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 104,
+    "time_range": "00:08:34,540 --> 00:08:36,310",
+    "quote": "但真正吓人的是啥呢？",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 105,
+    "time_range": "00:08:36,310 --> 00:08:38,380",
+    "quote": "是跟前值相比。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 106,
+    "time_range": "00:08:38,380 --> 00:08:42,570",
+    "quote": "之前呢连续几个月呢，这个PPI呢都在下降。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 107,
+    "time_range": "00:08:42,570 --> 00:08:45,000",
+    "quote": "一度呢是从这个6.0。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 108,
+    "time_range": "00:08:45,000 --> 00:08:47,340",
+    "quote": "一口气降到了4.7%。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 109,
+    "time_range": "00:08:47,340 --> 00:08:50,140",
+    "quote": "正是因为连续几个月的下降。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 110,
+    "time_range": "00:08:50,140 --> 00:08:51,870",
+    "quote": "让大家放宽了心。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 111,
+    "time_range": "00:08:51,870 --> 00:08:52,940",
+    "quote": "认为呢。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 112,
+    "time_range": "00:08:52,940 --> 00:08:55,740",
+    "quote": "呃，后边的话，美联储可能会采取降息。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 113,
+    "time_range": "00:08:55,740 --> 00:08:59,580",
+    "quote": "妈的手段来应对，最起码最起码是按兵不动的手段来应对。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C06"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 114,
+    "time_range": "00:08:59,610 --> 00:09:19,610",
+    "quote": "结果呢这次呢从前值的4.7%，之前是一直是个下降的区间，一个下降的趋势，而且这个下降的趋势还是挺陡的，就下降速度挺快的，一下子剧烈的反弹，从前值的4.7%提速到了5.4%，上涨了0.7%，这个上涨不同一般。",
+    "topic_block": [
+      97,
+      114,
+      "PPI数值、预期差及前值趋势"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C07"
+    ],
+    "audio_flags": [
+      [
+        114,
+        116,
+        "0.7%与百分点区别；“预防式降息”与上下文方向冲突"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 115,
+    "time_range": "00:09:19,610 --> 00:09:39,610",
+    "quote": "说明啥呢？说明油价的失控开始直接的传导到了生产端。而且呢给大家说一个对美国来说非常非常不幸的消息，就是这个油价的失控传导到了生产端，离着消费端还有一段传导的距离大概来说是1到2个月。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C07"
+    ],
+    "audio_flags": [
+      [
+        114,
+        116,
+        "0.7%与百分点区别；“预防式降息”与上下文方向冲突"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 116,
+    "time_range": "00:09:39,610 --> 00:09:59,610",
+    "quote": "也就是说呢，这次的这个PPI跳涨在未来的一两个月，必然会反映在CPI上啊，那这样的趋势之下，不好意思，是吧？那美联储还敢继续降息吗？还敢继续的按兵不动嘛，肯定要预防式的降息。所以这个数据一出啊，这个市场上已经。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C07"
+    ],
+    "audio_flags": [
+      [
+        114,
+        116,
+        "0.7%与百分点区别；“预防式降息”与上下文方向冲突"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 117,
+    "time_range": "00:09:59,670 --> 00:10:19,670",
+    "quote": "基本上已经在消化美联储9月份会加息的这样的可能性了。黄金的价格也跌了啊，美股也跌了，比特币也跌了，基本上都是冲着这个流动性减少这个方向的交易，对吧？我说了，观察这些东西你不要去看那些具体的指标，涨啊跌的。你主要看它民企的原因，大家正在。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 118,
+    "time_range": "00:10:19,670 --> 00:10:39,670",
+    "quote": "交易的因素是啥？焦虑的因素是啥？这些现象表现的一个方向就是流动性的收紧嘛，对吧？同样的这套逻辑，你看美美债一下子就豁然开朗了。为啥这些经新经济数据一出来了以后，美债价格跳涨，价格跳涨反映的就是价值下降了，对吧？这些东西其实都是在交易。随以着美。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [
+      [
+        118,
+        120,
+        "债券价格/价值/融资成本方向表述需核听"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 119,
+    "time_range": "00:10:39,670 --> 00:10:59,670",
+    "quote": "储加息啊，从过去的这个降息的路径到停止降息的路径，然后再到加息的路径。预期的这个流动性是收紧的那流动性一收紧的话，那需要流动性的地方呢，那价格的话自然而然那就受到影响了，对吧？需要流动性来抬装的那价格自然就跌了嘛，那需要流动性来。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [
+      [
+        118,
+        120,
+        "债券价格/价值/融资成本方向表述需核听"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 120,
+    "time_range": "00:10:59,670 --> 00:11:03,330",
+    "quote": "解债的那自然而然他的这个债务的这个成本就增加了嘛。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [
+      [
+        118,
+        120,
+        "债券价格/价值/融资成本方向表述需核听"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 121,
+    "time_range": "00:11:03,330 --> 00:11:05,240",
+    "quote": "这交易方向都是相一致的。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 122,
+    "time_range": "00:11:05,240 --> 00:11:06,920",
+    "quote": "所以这些东西种种的。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 123,
+    "time_range": "00:11:06,920 --> 00:11:07,990",
+    "quote": "可以告诉你。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 124,
+    "time_range": "00:11:07,990 --> 00:11:10,180",
+    "quote": "虽然9月份美联储的。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 125,
+    "time_range": "00:11:10,180 --> 00:11:11,870",
+    "quote": "加息的这个决定还没下。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 126,
+    "time_range": "00:11:11,870 --> 00:11:15,780",
+    "quote": "但是市场上已经自发的提前的交易这些东西了。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C08"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 127,
+    "time_range": "00:11:15,780 --> 00:11:18,410",
+    "quote": "那交易完了以后，你美联储会不会。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 128,
+    "time_range": "00:11:18,410 --> 00:11:21,850",
+    "quote": "按照大家的约定继续去按照这个剧本去走呢。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 129,
+    "time_range": "00:11:21,850 --> 00:11:25,180",
+    "quote": "这最大的悬念或者最大的压力就留给了卧室。",
+    "topic_block": [
+      115,
+      129,
+      "生产向消费传导及流动性交易解释"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 130,
+    "time_range": "00:11:25,180 --> 00:11:25,580",
+    "quote": "あ。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 131,
+    "time_range": "00:11:25,580 --> 00:11:26,600",
+    "quote": "这是一方面。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 132,
+    "time_range": "00:11:26,600 --> 00:11:30,040",
+    "quote": "另外呢你观察这个PPI的数据的细节。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 133,
+    "time_range": "00:11:30,040 --> 00:11:32,050",
+    "quote": "其实也是问题重重。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 134,
+    "time_range": "00:11:32,090 --> 00:11:39,220",
+    "quote": "第一个呢是核心的这个PPI这个PPI的解读其实还是有两种完全截然不同的这个解读方式的啊。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 135,
+    "time_range": "00:11:39,220 --> 00:11:43,120",
+    "quote": "先把这个基础值跟大家念一下，核心同比是上涨了4.6%。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 136,
+    "time_range": "00:11:43,120 --> 00:11:44,880",
+    "quote": "与预期是持平的。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 137,
+    "time_range": "00:11:44,880 --> 00:11:48,670",
+    "quote": "较前值的4.2%呢上涨了0.4%。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 138,
+    "time_range": "00:11:48,670 --> 00:11:49,170",
+    "quote": "啊。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 139,
+    "time_range": "00:11:49,170 --> 00:11:54,800",
+    "quote": "就这么一点点这个数据的变化，就有人在这里做出了两种不同截然不同的文章。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 140,
+    "time_range": "00:11:54,800 --> 00:11:56,330",
+    "quote": "一种说法呢是说。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 141,
+    "time_range": "00:11:56,330 --> 00:11:59,990",
+    "quote": "核心的PPI的月率啊是0.2%是吧？",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C09"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 142,
+    "time_range": "00:11:59,990 --> 00:12:19,990",
+    "quote": "略低于预期的0.3%，较7月的修正值0.3%有所回落。所以呢证明啊这通胀呢是比较温和的那既然通胀是比较温和的那就不用着急加息，所以呢对于沃什来说，看到这个核心的PPI实际上呢是割派的一个信号这。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C09"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 143,
+    "time_range": "00:12:19,990 --> 00:12:39,990",
+    "quote": "纯属于是先射箭后画吧，先有立场再有结论了，为啥呢？你别看他的这个月率啊，你别看那个预期啊，预期的东西都是人为塑造的对吧？我本来的话就你的数据不是特别的好，但是我预期比你更低，结果你出来这个数据也麻虎相，那么自然而然我就认为你表现的还不错，但实际上情况你是表现的很不错嘛。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C10"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 144,
+    "time_range": "00:12:39,990 --> 00:12:59,990",
+    "quote": "你只是跟我认为的那个情况相比之下表现的还不错而已。真实的情况应该看啥，应该看绝对值的变化，而核心PPI的绝对值变化是啥呢？是从4.2%涨到了4.6%，一个月的波动上涨0.4%和前面的那个整体那个CPI的那个跳涨0.7%。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C10"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 145,
+    "time_range": "00:13:00,090 --> 00:13:20,090",
+    "quote": "相仿佛请大家注意，这是剔除了能源以后的核心PPI它的这个上涨的幅度也依然的如此的保持着同调，说明啥呢？说明前面几个月，能源的上涨，已经开始蔓延在了工业生产的方方面。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C11"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 146,
+    "time_range": "00:13:20,090 --> 00:13:40,090",
+    "quote": "面制造业的方方面面，这才是真正说的话。因为你既然人为的剔除了能源的这个价格的波动啊，你不看这个月的能源的波动。你看其他的方面，那方方面面，其他的都阐释出来了一个非常强劲的上涨的势头，说明能源上涨已经影响了美国制造业。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C11"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 147,
+    "time_range": "00:13:40,090 --> 00:14:00,090",
+    "quote": "的方方面面，他在很多很多的环节里边，通过预期的变化，通过提前的应对措施，提前的反映在了跟能源不不相关的其他的制造环节里边，制造方面上面，这才是真相。而能源上涨的这个趋势有所环节吧。不好意思，8月份那时候能。",
+    "topic_block": [
+      130,
+      147,
+      "核心PPI不同解读与预期/前值基准"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C11"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 148,
+    "time_range": "00:14:00,090 --> 00:14:03,930",
+    "quote": "才90美元一桶，对吧？油的才90美元一桶。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 149,
+    "time_range": "00:14:03,930 --> 00:14:06,320",
+    "quote": "柴油的价格能列减价差。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [
+      [
+        149,
+        152,
+        "柴油价差术语不清"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 150,
+    "time_range": "00:14:06,320 --> 00:14:10,120",
+    "quote": "也才仅仅是大概10到15美元左右。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [
+      [
+        149,
+        152,
+        "柴油价差术语不清"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 151,
+    "time_range": "00:14:10,120 --> 00:14:11,820",
+    "quote": "那比着这个原油的价格。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [
+      [
+        149,
+        152,
+        "柴油价差术语不清"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 152,
+    "time_range": "00:14:11,820 --> 00:14:14,110",
+    "quote": "列减加叉并不是特别特别的夸张。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [
+      [
+        149,
+        152,
+        "柴油价差术语不清"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 153,
+    "time_range": "00:14:14,110 --> 00:14:15,770",
+    "quote": "那步入到9月。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 154,
+    "time_range": "00:14:15,770 --> 00:14:17,860",
+    "quote": "情况是急转之下。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 155,
+    "time_range": "00:14:18,210 --> 00:14:19,590",
+    "quote": "最近这几天。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 156,
+    "time_range": "00:14:19,590 --> 00:14:20,660",
+    "quote": "你看那个油。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 157,
+    "time_range": "00:14:20,660 --> 00:14:24,010",
+    "quote": "从90现在已经跳涨到110了，将近110了。",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 158,
+    "time_range": "00:14:24,010 --> 00:14:26,950",
+    "quote": "这个涨幅是不是挺吓人呢？这个趋势是不是挺吓人呢？",
+    "topic_block": [
+      148,
+      158,
+      "原油、柴油价差与9月价格"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C12"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 159,
+    "time_range": "00:14:26,950 --> 00:14:28,910",
+    "quote": "现在呢也门胡塞武装。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 160,
+    "time_range": "00:14:28,910 --> 00:14:30,070",
+    "quote": "啊，灰师。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 161,
+    "time_range": "00:14:30,070 --> 00:14:31,490",
+    "quote": "那个北上哈。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 162,
+    "time_range": "00:14:31,490 --> 00:14:33,180",
+    "quote": "会是南下是吧？",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 163,
+    "time_range": "00:14:33,180 --> 00:14:37,010",
+    "quote": "呃，北上还是南下取决于你到底是从哪个角度去看，是吧？",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 164,
+    "time_range": "00:14:37,010 --> 00:14:39,030",
+    "quote": "就把很多很多控制。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 165,
+    "time_range": "00:14:39,030 --> 00:14:41,980",
+    "quote": "曼德海峡的关键的要要塞要点。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 166,
+    "time_range": "00:14:41,980 --> 00:14:44,340",
+    "quote": "给控制下来了，一路势如破竹。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 167,
+    "time_range": "00:14:44,340 --> 00:14:45,940",
+    "quote": "那这样的趋势之下的话。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 168,
+    "time_range": "00:14:45,940 --> 00:14:46,550",
+    "quote": "那。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 169,
+    "time_range": "00:14:46,770 --> 00:14:50,690",
+    "quote": "整个两个对石油运输最关键的海峡都被。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 170,
+    "time_range": "00:14:50,740 --> 00:14:54,080",
+    "quote": "啊，这个实业派是吧，掌控着伊朗。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 171,
+    "time_range": "00:14:54,080 --> 00:14:55,960",
+    "quote": "包括野蛮互相掌控着。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 172,
+    "time_range": "00:14:55,960 --> 00:14:59,860",
+    "quote": "那世界的能源格局出现大的波动，那是板上钉钉的事儿了。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 173,
+    "time_range": "00:14:59,980 --> 00:15:19,980",
+    "quote": "这个板上钉钉的事儿不仅仅会影响美国，还会影响日本。所以昨天不是伊朗这边专门出了一条是吧？跟日本这边谈这个影响呢，后边专门跟大家聊日元的时候跟大家聊是吧？这个事情没有看上去那么的简单。而且呢伊朗找日本单聊这事儿不是表面上看起来要对日本这边网开一面高。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 174,
+    "time_range": "00:15:19,980 --> 00:15:39,980",
+    "quote": "抬贵手，那犯不上这种手说法，真正的目的是啥呢？真正的目的是二淘杀三0。像你日本和美国点出来了，你们两个真正面对的真实问题，正是因为点出来这个方向是你们无法回避的真问题。所以呢你不用管我的立场是啥。你只用管我指出的问题是不是你们需要考虑的就完了。这恰。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 175,
+    "time_range": "00:15:39,980 --> 00:15:59,980",
+    "quote": "会引起整个地缘板块的大的波动。这些事情随着能源价格的上升，随着能源价格预期的上升，会慢慢的实施实质化，这个实质化就会直接的改变整个的格局。这就是所谓的中东的混乱在向外扩散，就是这么个扩散的过。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C13"
+    ],
+    "audio_flags": [
+      [
+        170,
+        175,
+        "主体地名及比喻识别含混"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 176,
+    "time_range": "00:15:59,980 --> 00:16:19,980",
+    "quote": "啊怎么样把自己的混乱传导到世界的各个角度，他也得有一个抓手，得有一个依托，就这个依托。所以接下来这个局面会非常非常的精彩的。而能不能有效的应对这些精彩的局面的变化，美联储是个很关键的一环，它处理好了，那这个事情呢不至于掀起大的波。",
+    "topic_block": [
+      159,
+      176,
+      "航运海峡、能源与地缘外溢的推断"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 177,
+    "time_range": "00:16:19,980 --> 00:16:39,980",
+    "quote": "吧就好像之前的时候是吧，拜登老实在在的坐在位子上，耄耋之年混了4年，结果下来呢四平八稳，啥也没发生，大家那个时候都整天盼着拜登死在刃上，对吧？所有的人心里面都有打这个小99，拜登这老态龙钟的样子，是不是哪天突然之间就抽了嘎了，是吧？",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 178,
+    "time_range": "00:16:39,980 --> 00:16:59,980",
+    "quote": "搞一个临时传位啊，闹个大道笑大笑话，对吧？结果呢这四年四平八稳的做下来，啥事情都没发生。现在特朗普上去了以后，你可发现想把这个局面维持的四平八稳，需要的功力不一般的，都是这个简单的道理嘛，很多事儿能够维持潜力不出现波动，其实是水平。",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 179,
+    "time_range": "00:16:59,980 --> 00:17:19,980",
+    "quote": "的体现你特朗普没那个水平，那自然而然就压不住这个火，更何况有人还要在这边拱火啊，特朗普前几天应该是昨天还是前天说了一个说漏嘴了吧，自己在自己的那个旮旯上面说漏嘴了，说啥呢？说我跟中国的领导人约好了，两个星。",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 180,
+    "time_range": "00:17:19,980 --> 00:17:39,980",
+    "quote": "以后他说的two weeks啊，就是负数嘛，就可能是两个多星期以后是吧？他们可能会见面，在美国这边见面。他希望有一个很庞大的一个排场。那从现在看的话，那两个星期，那就是69月底了，对吧？9月底那个时候，那美联储一会议已经结束了。那到底。",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 181,
+    "time_range": "00:17:39,980 --> 00:17:59,980",
+    "quote": "加不加息，这已经有结论了。那个时候如果说美联储这边加息了，那咱们这边去，那这个事情就有有有的说法了，是不是而且呢到那个时候很多很多的情况又发生变化啊，你特朗普终级选举现在情况很糟糕，这个今天下午我会聊那。",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 182,
+    "time_range": "00:17:59,980 --> 00:18:19,980",
+    "quote": "啊，如果说中级选举没有真正的一呼百应，他首先拿那个每人发5000美元，听起来是挺热闹的，是吧？那实际上呢，实际上这个每人发5000美元呢，它引起的热闹，它只是一阵风，他能不能把这个热闹延续下去，把自己的这个助选的这个节奏把它维持下去？",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 183,
+    "time_range": "00:18:19,980 --> 00:18:39,980",
+    "quote": "到时候中美领导人见面了以后，我们这边再出牌。我前面的节目已经跟大家说过了，是吧？我们在造牌了，到时候我们再出牌，你美国那边如果接不住的话，那整个的局势可能会进展的非常非常的快的啊，啊从最近一段时间，你从这个台海这边的这个局势的波动。你能明显。",
+    "topic_block": [
+      177,
+      183,
+      "政治人物比较与会面/选举条件分支"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 184,
+    "time_range": "00:18:39,980 --> 00:18:59,980",
+    "quote": "显能感觉到那现在的话咱们处理的中心已经不再是台湾的前途命运如何如何了。这个通过围台绕岛通过前面几次是吧，非常非常强硬的定调，非常非常坚定的这个声音，意思已经告诉你了，那台湾问题已经没有什么好讨论的了，按部就班的处理就完了。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 185,
+    "time_range": "00:18:59,980 --> 00:19:19,980",
+    "quote": "现在真正的问题呢是太太的问题会不被衍生出来，变成中日的问题，对吧？中日这个问题到底会怎么演进，日本的态度会怎么样子在中美混合双打之下产生一些变化。日本又会在这样的重压之下，怎么去选择铤而走险？其实你仔细的观察这。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 186,
+    "time_range": "00:19:19,980 --> 00:19:39,980",
+    "quote": "局面留给日本的一条非常蜿蜒曲折，倒钩被刺美国的路，日本人会不会在压力之下收波的选择，这都是接下来要看的事儿。而这个的话其实呢通过中美领导人的再次见面。这个可能会成为啊？一个从底下扣着的牌。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 187,
+    "time_range": "00:19:39,980 --> 00:19:59,980",
+    "quote": "把它放成台面讨论的问题啊，中俄之间其实这个问题已经把这个牌半慢慢慢的半明半暗了，对吧？普京去访问北方思岛，实际上就把这个牌慢慢的翻起来了，那中美把这个牌再也同样的同步的进行翻起来的话，这个其实你从美国派特使去见普京。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 188,
+    "time_range": "00:19:59,980 --> 00:20:19,980",
+    "quote": "可以看得出来啊，作为上三场来说的话，互相之间在这个最基本的底层的世界格局的博弈上面是有默契的。整个的这个节奏还是比较的相仿佛的啊这样的串联之下啊，就美俄之间串联之下，那马上呢普京这边马上就跟我们通报了，是吧？美国的特。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 189,
+    "time_range": "00:20:19,980 --> 00:20:39,980",
+    "quote": "道莫斯科到底谈了啥？那意思是啥呢？意思是很多很多的问题。那接下来可能呢都会进行一个加速。这是咱们接下来话就年底之前重点观察的方向。而这些方向跟美联储这都是息息相关的。你如果在这样的被动的压力之下，美联储选择了怂。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C14"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 190,
+    "time_range": "00:20:39,980 --> 00:20:59,980",
+    "quote": "选择了随径，选择了说话不算数，那你就彻底的相当于是把自己的决策权交给别人了。这就是我前面的节目跟大家聊。我说卧室在杰克逊霍尔会议上说了狠话，大的趋势就会逼他做出选择。如果他到那个时候食言了，放了鸽子，狼来了，狼来了，狼没来，那最后是受到影响是他自。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C15"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 191,
+    "time_range": "00:20:59,980 --> 00:21:19,980",
+    "quote": "受到影响，不会说是其他人受到影响。最后他自己的微信扫地，他的任期可不是特朗普的任期，特朗普任期还有两年，对吧？卧室卧室的任期起码还有5年，说不定还有10年，特别是在特朗普支持他上去了以后，特朗普家族如果要找护身符的话，那他肯定要让我。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C15"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 192,
+    "time_range": "00:21:19,980 --> 00:21:39,980",
+    "quote": "的这个任期起码是要干干满两届的，不能够被别人抓住小辫子是吧？来来清算他。那如果是这样的话，在这些关键的领域里边，在关键的决策里边，他就不能够留下非常明显的把柄。这都是无论是从自己的私人考虑，前途命运考虑，还是从自己的家族利益考。",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C15"
+    ],
+    "audio_flags": [
+      [
+        180,
+        192,
+        "日期、人名、任期数字不可凭标题补齐"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 193,
+    "time_range": "00:21:39,980 --> 00:21:59,980",
+    "quote": "还是从现在的这个审时度势的这个一个选择来考虑，对吧？这答案都是非常非常显而易见的。所以呢我才跟大家说，我说9月份加息的概率是非常非常之大的，不用去想特朗普要卧是如何如何，很多时候这些话是明面上的表演。当初鲍菲尔都没有听特朗普的瞎折腾，对吧？",
+    "topic_block": [
+      184,
+      193,
+      "日本及外交博弈、央行信誉约束"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C15"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 194,
+    "time_range": "00:21:59,980 --> 00:22:19,980",
+    "quote": "啊，你看我们第一个任期的时候，鲍威尔对特朗普是言听计从啊，让干嘛就干嘛，甚至呢破不惜破坏整个的这个纪律，遇到新冠的时候，让你开闸放水就放水，合动力印钞机说怼到股市就怼掉鬼术股市。鲍威尔屁都没放一个拜登这4年的时候，鲍威尔对拜登的配合也是是吧？非常非常的。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 195,
+    "time_range": "00:22:19,980 --> 00:22:39,980",
+    "quote": "服帖的基本上是拜登这边甩个眼神，鲍贝尔这边就啊如数照次半理的啊，让你加你就讲，让你加你就讲，非常非常的丝滑的。结果第二任期的时候，巴威尔跟特朗普开始唱反调了，那鲍威尔尚且如此，你沃实作为美联储主席，你连鲍威尔都不如啊，对吧？所以很多很多的。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 196,
+    "time_range": "00:22:39,980 --> 00:22:59,980",
+    "quote": "事情别去信那些什么不时是美呃这个特朗普的联金的这个女婿是吧？这个雅诗兰黛集团的这个女婿跟特朗普私交如何如何，这些关系早就跟大家介绍过了，是吧？当时特朗普在物色这一届的这个美联储主席的时候啊。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 197,
+    "time_range": "00:22:59,980 --> 00:23:19,980",
+    "quote": "卧室作为候选人的时候，是不是跟大家就介绍了卧室的背景。但是现在呢分析这些问题的时候，反而不不再去把这个事情作为文章，把它呃仔细的去研究了。为啥呢？分析很多很多的问题的时候，你得分得清楚真正的轻重缓急，真正的矛盾方向在哪里，抓住重点，你才能够真正把这个局面。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 198,
+    "time_range": "00:23:19,980 --> 00:23:39,980",
+    "quote": "不懂，否则的话就属于是眉毛胡子一把掌是吧？彻底是打乱仗了，那是那跟赌稿就没啥区别了，是吧？出现啥，你就汇报啥，有些啥你就就就就就就去跟大家解释啥。最后的结果呢就是毫无重点啊，一头雾水，那对这个局面也看不清楚啊，我是5月份的时候就跟大家说了，我说9月份会加息的对吧？",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 199,
+    "time_range": "00:23:39,980 --> 00:23:59,980",
+    "quote": "中间出现了这么多的波波折折，出现了这么多的假消息，结果越走到9月临近一一席会议的时候，这个信号就越清晰，为啥呢？因为它主线在这儿，这个主线从头到尾就没怎么变过。真正的主线是啥呢？就是美联储的独立性，到底应该通过什么样的方式来证明美联储不是特朗。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 200,
+    "time_range": "00:23:59,980 --> 00:24:19,980",
+    "quote": "不养的狗换上去的美联主席不是特朗普想干嘛，就对特朗普言听计从的应生虫，这个才是现在的主轴，包括沃什为啥要出来跟你讲，说美联储的这种讳莫如呃难难难知是吧？你别去猜我到底怎么想的，我就告诉你的心思，你就你就猜就完事儿了。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 201,
+    "time_range": "00:24:19,980 --> 00:24:39,980",
+    "quote": "对吧你也别去惊讶，我为什么突然之间出了一个跟我之前说的完全不一样的。为啥要保持这种神秘感呢？他通过这种保持神秘感，这不是我今天说的话吗，之前就说了，通过保持神秘感，是为了维持他的威严，他为啥要维持威严，因为他是特朗普提名的嘛，他如果连这个商户主都保不住，那最后那不就彻底这变。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 202,
+    "time_range": "00:24:39,980 --> 00:24:59,980",
+    "quote": "成特朗普的英雄虫了嘛啊把这个底层的逻辑看清楚了，卧室的选项其实是非常非常简单，而且非常非常有限的。聊完这个呢，咱们回过头来继续聊PPI的细则啊，这个分项某鬼的藏在细节里啊，从产品的细项来看呢，柴油价格环比跳涨了24.1%，贡献了8月。",
+    "topic_block": [
+      194,
+      202,
+      "央行独立性与抓主要矛盾的方法表述"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C16"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 203,
+    "time_range": "00:24:59,980 --> 00:25:19,980",
+    "quote": "最终需求商品价格涨幅的预3分之1，是本轮最突出的单一驱动因素啊，除过了这个能源以后呢啊从服务业的这个通胀趋势呢来看的话，这个通胀趋势是压力趋减的啊最终需求的服务价格呢8月紧，环比上涨了0.1%，为5月以来的最。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C17"
+    ],
+    "audio_flags": [
+      [
+        203,
+        205,
+        "各分项百分比和行业名称需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 204,
+    "time_range": "00:25:19,980 --> 00:25:39,980",
+    "quote": "低涨幅，但仍延续了连续3个月的上涨趋势啊，咱们需要看的是啥？看的是接下来会怎么变化啊，运输与仓储呢是服务的分享主要的支撑，环比上涨了2.3%，其中，货运卡车运输价格上涨了2%。航空。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C17"
+    ],
+    "audio_flags": [
+      [
+        203,
+        205,
+        "各分项百分比和行业名称需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 205,
+    "time_range": "00:25:39,980 --> 00:25:59,980",
+    "quote": "客运、法律服务以及医院的助理护啊，这个护理的价格呢亦有所上行啊，这些背后上行都是能源价格导致的啊这传导出来的但贸易服务价格环比下降了0.2%，燃油以及润滑油、零售的利润率呢大幅下降了11.3%，对整体服务。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C17"
+    ],
+    "audio_flags": [
+      [
+        203,
+        205,
+        "各分项百分比和行业名称需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 206,
+    "time_range": "00:25:59,980 --> 00:26:19,980",
+    "quote": "价格形成了抑志，这个好不好理解呢？非常好理解，为啥呢？为啥燃油及润滑油零售的利润率大幅下降啊两个因素。第一个呢是由于特朗普的压力政策压力，他前前段时间特朗普不是要求吗？你燃油公司不能够涨价啊，所以你就得消。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C18"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 207,
+    "time_range": "00:26:19,980 --> 00:26:39,980",
+    "quote": "话但是成本的上升，那确确实是上升了。所以呢他就在压缩自己利润的情况下，尽量的延缓了涨价的步伐。但请问这个事儿的话是可以一直做，还是只能暂时做的，显然只能暂时做的，随着燃油的价格继续的上涨。随着成本的。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C18",
+      "EP001/C19"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 208,
+    "time_range": "00:26:39,980 --> 00:26:59,980",
+    "quote": "继上升，它涨价的这个是在所难免的。也就是说呢，服务业通胀压力的趋缓是暂时现想，而能源结构向着其他行业的价格传导是一个大的趋势，而且这个趋势在加速，所以可以预见到的这种膝盖想到能想得到的。8月份的PPI和CPI。",
+    "topic_block": [
+      203,
+      208,
+      "服务价格、零售利润压缩及暂时缓冲"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C19"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 209,
+    "time_range": "00:26:59,980 --> 00:27:19,980",
+    "quote": "该数据应该是相对温和的，而9月份比这个数据会更加的夸张。这是其一。其二呢，市面上普遍认为美联储不敢加息的主要理由呢是一个说是现在的劳动力市场是非常非常孱弱的。啊，一方面呢整个的物价的传导。从这个PPI数据，CPI数据。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 210,
+    "time_range": "00:27:19,980 --> 00:27:39,980",
+    "quote": "都能看得出来是吧？这加息的压力是非常大的。另一方面呢，劳动力市场并没有表现出来的那么的强劲。实际上呢，美联储啊这个劳动统计局不停的下修他的数据才是历史的这个经验教训啊，按照每年两次对薪资调查的数据进行基准修正呢，2025年初步的。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED",
+    "claim_refs": [],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 211,
+    "time_range": "00:27:39,980 --> 00:27:59,980",
+    "quote": "基准修订的将截止2025年3月的一年内就业数据下调了91.1万人，月均的新增就业从报告的14.7万人，腰斩至了7.1万人。最终修订后，他总共三次修订嘛，最终修订后呢，2025年全年新增就业从报告的10呃58.4万人呢进一步压缩至。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C20"
+    ],
+    "audio_flags": [
+      [
+        211,
+        212,
+        "117.9万人等就业数值与断句需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 212,
+    "time_range": "00:27:59,980 --> 00:28:19,980",
+    "quote": "18.1万人。2024年呢同样是吧？2024年的基准修订呢同样削减了81.8万个就业岗位。更近期的数据呢同样随着还存在着大幅的下休。4月初报的117.9万人，降至了14.8万人。5月初报的17.2万人呢降至了6.3万人。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C20"
+    ],
+    "audio_flags": [
+      [
+        211,
+        212,
+        "117.9万人等就业数值与断句需核对"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 213,
+    "time_range": "00:28:19,980 --> 00:28:39,980",
+    "quote": "这些普遍的数据都告诉你，每呃这个这个劳动统计局统计就业的方法存在着之后，真实情况的话，屡屡会进行一个大幅的下下修。目前公布的这个数据，其实呢整个的就业情况已经算是不温不火，比较的孱弱了。那再进行一个下休的话，就说明整个的劳动力就业是。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C20"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 214,
+    "time_range": "00:28:39,980 --> 00:28:59,980",
+    "quote": "啊是非常非常脆弱的，非常非常不振的。这个也比较的符合现在美国经济K型分化的这个趋势，在加大的这个这个执政是吧？那在这样的情况下的话，你美联储还能加息啊，不能加了，所以呢美联储最多最多就是选择按兵不动，它不会真正的暴力的进行。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C20"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 215,
+    "time_range": "00:28:59,980 --> 00:29:19,980",
+    "quote": "加息的这是割派的观点啊，那是在我看来的话呢，这些观点最关键最关键的呢不是说美联储会怎么选啊，你你的这些条件如何如何，这些都属于是细枝末节的技术细节，不是主要的矛盾方向。美国现在。",
+    "topic_block": [
+      209,
+      215,
+      "就业修订及不加息阵营的论据"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C20"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 216,
+    "time_range": "00:29:19,980 --> 00:29:39,980",
+    "quote": "或者美联储现在真正的主要矛盾方向上，咱们都讲要抓主要矛盾。真正的主要矛盾是美国的信用何在，对吧？你从美债卖不出去，这个事儿就能看得出来。你从美国在伊朗这边吃了别打了败仗就能看得出来。你从美国在伊朗这边吃了别打了败仗，想退退不出来，你就能。",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 217,
+    "time_range": "00:29:39,980 --> 00:29:59,980",
+    "quote": "看得出来，很多事不是他自己想干嘛就干嘛的，而他得顾及到影响，而他一旦顾及到影响，这个事情就是无解的难题，就会被缠在这里动弹不得。这跟特朗普一开始的设想是绝对不同的。但是啊人人力有时而穷尽。很多事情的话，你想的是一出，但是真正做了也。",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 218,
+    "time_range": "00:29:59,980 --> 00:30:19,980",
+    "quote": "后啊，真的是半分钱英雄难倒英雄还。没办法的事，最后的话你就被僵在这里面动弹不得。现在这个僵局美联储有能力解开吗？没有，所以呢他入了这个局，也能够只按照这个局的游戏规则继续玩，啥游戏规则啊，就现在需要你说。",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "MAPPED_CLAIM_AND_CONTEXT",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 219,
+    "time_range": "00:30:19,980 --> 00:30:39,980",
+    "quote": "算数了，需要你好好的表现出你的担当来。那自然而然的9月份加息的可能性，不是表面上表现出来的就70%。我上次不是说了嘛，60%，在我看来的话是在这个鲍贝尔时代的90%。那现在70%呢，那不是超过分之百了嘛。",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [
+      [
+        219,
+        221,
+        "95%、99%为博主主观表述，不能归为市场概率"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 220,
+    "time_range": "00:30:39,980 --> 00:30:59,980",
+    "quote": "咱们话不能说满，咱们就留一点悬念。99%吧。我认为啊这次的CP这个PPI数据出来了以后，我都不用等着今天晚上的CPI数据出来，我就可以提前的下判断美联储9月份加息的概率超过95%啊，你说99%也可以，为啥呢？",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [
+      [
+        219,
+        221,
+        "95%、99%为博主主观表述，不能归为市场概率"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  },
+  {
+    "cue_id": 221,
+    "time_range": "00:30:59,980 --> 00:31:10,280",
+    "quote": "因为卧室其实看起来有著作的选择，但是他其实没得选，没有退路给他好吧，这才是主要的矛盾方向。今天节目呢就到这里，感谢大家的观看。",
+    "topic_block": [
+      216,
+      221,
+      "信誉约束与主观高概率判断、结束语"
+    ],
+    "status": "REVIEW_REQUIRED",
+    "claim_refs": [
+      "EP001/C21"
+    ],
+    "audio_flags": [
+      [
+        219,
+        221,
+        "95%、99%为博主主观表述，不能归为市场概率"
+      ]
+    ],
+    "read_by": "assistant",
+    "human_read_verified": false
+  }
+]

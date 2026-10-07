@@ -1,0 +1,11 @@
+{
+  "locked_at": "2026-10-06T12:23:16.247045+00:00",
+  "files": {
+    "protocol.json": "b3a3109c69fe42281c34b87de00ef3b66a4aadb37a50a9eab9e086acf7574564",
+    "prior_review_confirmation.json": "c6d722ddfc35e92579b63e55f2a7ff6b2cb1679979bb806f06ad8a84ebcf53da",
+    "target_metadata.json": "faed76967de04e13c83137c3cf1049e36616df692f3eda2ece28497f0d7a2b4e",
+    "news_input.json": "15422e95d5a1cb31c7a0bbeb739ba75a587f189cad18fba8b39e3d71e87c55ea",
+    "answer_before_subtitle.json": "7dafd020c16a5f583df0b0bbad7f9ae6bba7b9563302e954b9749fe6092c3df8"
+  },
+  "subtitle_status": "UNREAD_AT_LOCK"
+}

@@ -1,0 +1,1 @@
+{"checks": 47, "totals": {"candidate_objects": 3213, "active_objects": 2781, "normalized_claims": 120, "active_claims": 82, "active_arguments": 19, "nonreference_indeterminate": 53}, "audit_statuses": {"EP001": "INDETERMINATE", "EP001_repeat": "INDETERMINATE", "EP002": "INDETERMINATE", "EP003": "INDETERMINATE", "EP004": "INDETERMINATE", "EP005": "INDETERMINATE"}}

@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "unique IDs",
+    "all claim source references",
+    "per-Claim veracity coverage",
+    "all Forecast claims in Ledger",
+    "no X/M in creator arguments",
+    "no model diagnostic in method evidence",
+    "all methods linked to arguments",
+    "failure dual-observer fields",
+    "Thesis→Argument→Claim→SourceSegment→Source",
+    "full 639 cue segmentation",
+    "Comparison Basis keys",
+    "no publication+offset absolute timestamps"
+  ],
+  "not_validated": [
+    "audio accuracy",
+    "all historical factual accuracy",
+    "production JSON Schema compatibility"
+  ],
+  "counts": {
+    "Claim": 139,
+    "CreatorClaim": 124,
+    "ExternalClaim": 10,
+    "ModelDiagnosticClaim": 5,
+    "Argument": 18,
+    "CreatorArgument": 17,
+    "ModelDiagnosticArgument": 1,
+    "Mechanism": 3,
+    "NewMechanismCandidate": 2,
+    "ReusedMechanismCandidate": 1,
+    "MechanismUsage": 3,
+    "Thesis": 2,
+    "Forecast": 10,
+    "Scenario": 17,
+    "StructuralProcess": 0,
+    "Contradiction": 0,
+    "Heuristic": 0,
+    "AnalystMethodSignal": 11,
+    "ReviewQueue": 37,
+    "Source": 20,
+    "SemanticSegment": 16,
+    "SourceSegment": 142,
+    "RawCue": 639
+  }
+}

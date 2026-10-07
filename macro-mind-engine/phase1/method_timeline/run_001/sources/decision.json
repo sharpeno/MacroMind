@@ -1,0 +1,14 @@
+{
+  "id": "decision",
+  "published": "2024-09-18",
+  "event_date": "2024-09-18",
+  "kind": "announcement",
+  "title": "9月FOMC决定",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+  "excerpt": "by 1/2 percentage point to 4-3/4 to 5 percent",
+  "locator": "决定目标区间的段落",
+  "summary": "公布下调50基点至4.75%–5%；是9月的决定，不把这个区间当作11月仍然不变。",
+  "retrieved_on": "2026-10-05",
+  "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+  "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+}

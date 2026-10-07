@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "ruff",
+    "format",
+    "--check",
+    "--no-cache",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "src/macromind/audit",
+    "tests/audit",
+    "scripts/verify_phase1_5a.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine",
+  "exit_code": 0,
+  "stderr": "phase1/phase1_5a_evidence/run_003/ruff_format.stderr.txt",
+  "stdout": "phase1/phase1_5a_evidence/run_003/ruff_format.stdout.txt"
+}

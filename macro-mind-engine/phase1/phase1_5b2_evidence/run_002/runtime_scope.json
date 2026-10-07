@@ -1,0 +1,1 @@
+{"forbidden":[],"imports":["collections","continuity","dataclasses","identity","ids","index","inputs","integrity","json","models","provenance","pydantic","resolution","typing"],"review":"Explicit relation grouping and endpoint membership loops only; no closure, inferred relation, ontology construction or external I/O.","status":"PASS"}

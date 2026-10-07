@@ -1,0 +1,24 @@
+{
+  "continuity_annotations_automatically_created": 0,
+  "deterministic_hash": "aab5d00de460942b9d6bd234a7c2c096120bd96368848cd3c9d0ac4a112b1b84",
+  "deterministic_ids": true,
+  "input_artifacts": 9,
+  "record_counts": {
+    "ADAPTATION_LOSS": 6442,
+    "DEBT_STATUS": 4,
+    "GATE_RESULT": 40,
+    "IMMUTABILITY_EVENT": 10,
+    "MAPPING_EVENT": 9102,
+    "QUARANTINE": 345,
+    "REGISTRY_GAP": 135,
+    "SCHEMA_GAP": 352,
+    "TEST_RESULT": 254,
+    "UNKNOWN_ENGINEERING_RECORD": 9499,
+    "VALIDATION_FINDING": 37
+  },
+  "records": 26220,
+  "semantic_hash_verified": true,
+  "supported_artifacts": 8,
+  "traceable": true,
+  "unsupported_artifacts": 1
+}

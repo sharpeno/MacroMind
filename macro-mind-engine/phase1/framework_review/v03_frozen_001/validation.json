@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "checks": [
+    "phase1\\framework_review\\v03_draft_002: sealed hashes match",
+    "phase1\\framework_review\\v03_draft_001: sealed hashes match",
+    "phase1\\conflict_study\\run_001: sealed hashes match",
+    "phase1\\conflict_study\\run_002: sealed hashes match",
+    "reviewed draft identity, six unique cards, prior engineering validation verified",
+    "all six approved rule texts and quote cues unchanged; context links resolve",
+    "approved extensions resolve to correct methods; inherited method approval not overstated",
+    "v0.2 baseline unchanged; holdout transcript content not accessed"
+  ],
+  "limits": [
+    "No browser code changes; prior UI tests verified by sealed manifest, not rerun",
+    "No factual or predictive evaluation",
+    "No holdout evaluation started"
+  ]
+}

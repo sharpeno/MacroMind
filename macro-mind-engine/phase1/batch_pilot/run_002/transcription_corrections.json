@@ -1,0 +1,162 @@
+[
+  {
+    "episode": "EP001",
+    "review_id": "EP001/A01",
+    "original": {
+      "cue_id": 63,
+      "time_range": "00:04:47,280 --> 00:04:55,630",
+      "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。"
+    },
+    "user_reported_token": "录入namemo",
+    "suggested_text": "lululemon",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP001",
+    "review_id": "EP001/A01",
+    "original": {
+      "cue_id": 63,
+      "time_range": "00:04:47,280 --> 00:04:55,630",
+      "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。"
+    },
+    "user_reported_token": "tart",
+    "suggested_text": "target（TGT）",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 171,
+      "time_range": "00:08:13,920 --> 00:08:16,420",
+      "quote": "这个你这个Sop要是IPO了。"
+    },
+    "user_reported_token": "SOP",
+    "suggested_text": "Anthropic",
+    "literal_token_present": false,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 178,
+      "time_range": "00:08:30,910 --> 00:08:32,310",
+      "quote": "然法令讲完了。"
+    },
+    "user_reported_token": "然法令讲完了",
+    "suggested_text": "发令枪晚了",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 186,
+      "time_range": "00:08:59,300 --> 00:09:00,070",
+      "quote": "No。"
+    },
+    "user_reported_token": "No",
+    "suggested_text": "删除误识别的No",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 12,
+      "time_range": "00:01:22,820 --> 00:01:27,140",
+      "quote": "日本这边也同步加20股币，相当于互相之间的相对关系不变。"
+    },
+    "user_reported_token": "20股币",
+    "suggested_text": "25BP",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 73,
+      "time_range": "00:03:56,230 --> 00:03:57,350",
+      "quote": "比亿美元。"
+    },
+    "user_reported_token": "比亿美元",
+    "suggested_text": "比1美元",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 15,
+      "time_range": "00:01:30,430 --> 00:01:31,990",
+      "quote": "日元享升值。"
+    },
+    "user_reported_token": "日元享升值",
+    "suggested_text": "日元想升值",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP004",
+    "review_id": "EP004/A03",
+    "original": {
+      "cue_id": 291,
+      "time_range": "00:21:22,980 --> 00:21:25,690",
+      "quote": "生生命线就是能够进国彩的名单。"
+    },
+    "user_reported_token": "国彩",
+    "suggested_text": "国采",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  },
+  {
+    "episode": "EP004",
+    "review_id": "EP004/A03",
+    "original": {
+      "cue_id": 306,
+      "time_range": "00:22:39,810 --> 00:22:59,810",
+      "quote": "的随着这个规则的变变化。因为这个钱你通过像这种方式集采的方式，那集采每年每年都要谈的，每年每年都要改的通过这个方式的话，你的编辑收益是越来越少的，你的竞争对手是越来越多的那未来的话，这个路肯定是越来越不好走的。这个赛道上挤的人是越来越多的，竞争会越来越激烈的对吧？所以这样的话就。"
+    },
+    "user_reported_token": "编辑收益",
+    "suggested_text": "边际收益",
+    "literal_token_present": true,
+    "status": "USER_PROPOSED_CORRECTION",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+  }
+]

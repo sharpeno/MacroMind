@@ -1,0 +1,79 @@
+{
+  "created_at": "2026-09-26T05:30:44+08:00",
+  "inputs": [
+    {
+      "path": "G:\\youhegaojian\\prompt\\V0.3.1-minor.md",
+      "sha256": "ab3ba4541a6fa25da714e1f5b2814cf0bccaf02b1220d8ae9fc947cee47a346c",
+      "bytes": 14437
+    },
+    {
+      "path": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百四五期》朱雀三号成功陆上回收，航空航天的好时代来了吗？-p01-16.srt",
+      "sha256": "a4969172c9ce028cdcaec3648039c360447b95a92a52f95e9aa161b02dce7342",
+      "bytes": 58981
+    },
+    {
+      "path": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百四五期》朱雀三号成功陆上回收，航空航天的好时代来了吗？-p01-16.自动转写.txt",
+      "sha256": "8517df7f718b1a369581885d9b1f9cee894ab864ee582e37e5020b083f506d3b",
+      "bytes": 34352
+    }
+  ],
+  "snapshot_files": [
+    {
+      "path": "source_snapshots\\article_2458013.json",
+      "sha256": "119b1fb60057a6258556edc0eca83a4bad5ff892d9e61c853ebff99545a2c468",
+      "bytes": 4318
+    },
+    {
+      "path": "source_snapshots\\gs005_dates.txt",
+      "sha256": "f6528e28e7c0da1601210caf936ee27a7d42e0880179ad5a7b094a73a0e4f70d",
+      "bytes": 16017
+    },
+    {
+      "path": "source_snapshots\\gs005_details.txt",
+      "sha256": "a75d7cf39294742f8493c6e87e947d29cb584e3ecadf3a65801d4e85c17147aa",
+      "bytes": 32143
+    },
+    {
+      "path": "source_snapshots\\gs005_finalweb.txt",
+      "sha256": "968d8461943f8c2cc50d4e86b969dfe51f00dd61b0f370d954aa0f739db525fe",
+      "bytes": 24311
+    },
+    {
+      "path": "source_snapshots\\gs005_initial_1.txt",
+      "sha256": "17a6d1be2e14a6fed78e1074ed8bd43cf96c4bc25bf9daf534a13739fb8aa598",
+      "bytes": 16140
+    },
+    {
+      "path": "source_snapshots\\gs005_primary_search.txt",
+      "sha256": "cdbe50ce5d8b1091e3d76332f2550693d3b41e23c6400268f7e3e5fb76642424",
+      "bytes": 32388
+    },
+    {
+      "path": "source_snapshots\\gs005_timecheck.txt",
+      "sha256": "e41b93bd20fd9bf8c3ffb56088264668ba38a9848930085e9a3bf587c4586e3b",
+      "bytes": 14465
+    },
+    {
+      "path": "source_snapshots\\gs005_verified.txt",
+      "sha256": "c9a78f046d0f3e0b76c43970599d46ece78a87794d3441226b52ca1d525da2ba",
+      "bytes": 17870
+    },
+    {
+      "path": "source_snapshots\\GS005sources.txt",
+      "sha256": "c0deeb9c3e1b7030a27e8ec8de22d1a8e8b04049728e91eb06fd2378ab0e7ccf",
+      "bytes": 16140
+    },
+    {
+      "path": "source_snapshots\\GS005sources2.txt",
+      "sha256": "287fd7c47e8a16513cefd1e2c0941905776c01d6845c26738431c0fe8be20d14",
+      "bytes": 33151
+    },
+    {
+      "path": "source_snapshots\\GS005sources3.txt",
+      "sha256": "91bf9544fc662ec67cd3fe677bf6a6bea77e8f82240dfa7c200f77bfcdb3dec6",
+      "bytes": 22376
+    }
+  ],
+  "source_snapshot_note": "web tool-return captures, not historical publisher archives",
+  "audio_review_performed": false
+}

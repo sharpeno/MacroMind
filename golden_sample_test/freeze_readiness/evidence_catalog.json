@@ -1,0 +1,305 @@
+{
+  "evidence": [
+    {
+      "evidence_id": "E01",
+      "source": "GS001",
+      "path": "G:/youhegaojian/golden_sample_test/golden_report.md",
+      "text_anchor": "## 结论",
+      "note": "摘要级证据；旧版直接冲突判断须结合 V0.2 后续时间/Population 裁决。"
+    },
+    {
+      "evidence_id": "E02",
+      "source": "V02",
+      "path": "G:/youhegaojian/迭代/MacroMind V0.2 Patch.md",
+      "text_anchor": "ExpectationSnapshot",
+      "note": "共识快照、Population/量词/模态与时间范围；不新增核心类型。"
+    },
+    {
+      "evidence_id": "E03",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/18_schema_ontology_extraction_issues_found/7",
+      "note": "SC08 是 V0.2 当时的 StructuralProcess 缺口，V0.3 已补；未实例化。"
+    },
+    {
+      "evidence_id": "E04",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/16_candidate_heuristics",
+      "note": "HC01/HC02 为候选方法，不是已验证技能；GS002 cutoff 为 9 月 21 日。"
+    },
+    {
+      "evidence_id": "E05",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/07_actors_events_indicators_observations_policies",
+      "note": "流量/存量、政策与事件；EV03 已宣布、未来生效。"
+    },
+    {
+      "evidence_id": "E06",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/11_arguments",
+      "note": "AR04/06/08/09/11/12：分类、数量、成本、结果跨越和模型桥接。"
+    },
+    {
+      "evidence_id": "E07",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/conflict_checks",
+      "note": "CF01–04 不能由表面不一致直接创建 CONTRADICTS 或核心 Contradiction。"
+    },
+    {
+      "evidence_id": "E08",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/19_FORECASTS",
+      "note": "46 个旧版 Forecast；FC-C026 双分支未选择，是收紧准入规则的复核候选。"
+    },
+    {
+      "evidence_id": "E09",
+      "source": "G3SC",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/scenario_tree.json",
+      "json_pointer": "/creator_branches",
+      "note": "场景树保留条件结构，但复用旧 Forecast 对象，不等于已通过新门槛。"
+    },
+    {
+      "evidence_id": "E10",
+      "source": "G3SV",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/source_versions.json",
+      "json_pointer": "/0",
+      "note": "LV01 等有条目时间与抓取时间，历史快照缺失。"
+    },
+    {
+      "evidence_id": "E11",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/auxiliary/post_cutoff_quarantine",
+      "note": "LV06–09 超 cutoff，LV10 时间未知；后期 EIA 等隔离。"
+    },
+    {
+      "evidence_id": "E12",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/09_EVENTS",
+      "note": "EV06–08 市场基础设施通知适合 Event subtype；不证明结构过程。"
+    },
+    {
+      "evidence_id": "E13",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/23_SCHEMA_ONTOLOGY_EXTRACTION_ISSUES_FOUND/2",
+      "note": "IS03 区分消费库存、产地库存、剩余库容。"
+    },
+    {
+      "evidence_id": "E14",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/08_ACTORS",
+      "note": "国家/机构作为行动主体；地理空间不可仅凭同名归为 Actor。"
+    },
+    {
+      "evidence_id": "E15",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/auxiliary/method_recurrence",
+      "note": "B 已隔离未来 GS002；A uncertain；C partial。"
+    },
+    {
+      "evidence_id": "E16",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/18_ARGUMENTS",
+      "note": "AR05 模型桥接与主播边分开；DA01 为模型诊断；不以补链冒充方法。"
+    },
+    {
+      "evidence_id": "E17",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/26_ANALYST_METHOD_SIGNALS",
+      "note": "8 个信号，失败行为与评价观察者分离；没有升级 Heuristic。"
+    },
+    {
+      "evidence_id": "E18",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/19_MECHANISMS",
+      "note": "共享 ME01–03 attribution unknown，不反推作者。"
+    },
+    {
+      "evidence_id": "E19",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/20_MECHANISM_USAGE",
+      "note": "实际使用记录与共享机制分离，使用归因不等于机制所有权。"
+    },
+    {
+      "evidence_id": "E20",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/13_INDICATORS_OBSERVATIONS",
+      "note": "OB20 原话 3 % 保留、comparison unknown，不补成百分点。"
+    },
+    {
+      "evidence_id": "E21",
+      "source": "G4LOG",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/gs004_finalization_log.json",
+      "json_pointer": "/human_decisions",
+      "note": "6 项验收裁决及其来源；不是所有知识已核验。"
+    },
+    {
+      "evidence_id": "E22",
+      "source": "G4VAL",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/validation_after_finalization.json",
+      "json_pointer": "/scope",
+      "note": "最终本地校验 ERROR 0 / WARNING 80 / PASS 3388。"
+    },
+    {
+      "evidence_id": "E23",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/08_CLAIMS/4",
+      "note": "C005 Hotfix 后 unknown 字段补齐，原命题语义保留。"
+    },
+    {
+      "evidence_id": "E24",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/21_SCENARIOS/0",
+      "note": "SC01 不准入原因 condition_not_endorsed_no_branch_selection；不是单凭低 resolvability。"
+    },
+    {
+      "evidence_id": "E25",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/auxiliary/technical_to_industry_audit",
+      "note": "技术事件到经济复用/产业变化需要独立桥接和跨期证据。"
+    },
+    {
+      "evidence_id": "E26",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/18_ARGUMENTS",
+      "note": "AR04 回收不等于成本下降；DA01 模型诊断不得当主播推理。"
+    },
+    {
+      "evidence_id": "E27",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/13_INDICATORS_OBSERVATIONS",
+      "note": "目标/实际、估值/价格、数量/容量、降低到/降低了应区别。"
+    },
+    {
+      "evidence_id": "E28",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/26_ANALYST_METHOD_SIGNALS/method_recurrence/2",
+      "note": "MR03 prior_ref=GS002/HC02，但 evaluation_time 在事后且 historical_evidence_use=false。"
+    },
+    {
+      "evidence_id": "E29",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/09_CLAIM_OCCURRENCES",
+      "note": "OC130 对齐风险待复核，不能由存在指针推出引用有效。"
+    },
+    {
+      "evidence_id": "E30",
+      "source": "G5LOG",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/hotfix_log.json",
+      "json_pointer": "/validation",
+      "note": "Hotfix 1.1 最终 ERROR 0 / WARNING 69 / PASS 1805；旧失败仍留历史。"
+    },
+    {
+      "evidence_id": "E31",
+      "source": "G5VAL",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/validation_after_hotfix_1_1.json",
+      "json_pointer": "/scope",
+      "note": "本地迁移契约，不是事实或冻结认证。"
+    },
+    {
+      "evidence_id": "E32",
+      "source": "EX03",
+      "path": "G:/youhegaojian/prompt/V03.MD",
+      "text_anchor": "# 21. StructuralProcess",
+      "note": "跨时间现实结构变化；V0.3 明确核心类型。"
+    },
+    {
+      "evidence_id": "E33",
+      "source": "EX03",
+      "path": "G:/youhegaojian/prompt/V03.MD",
+      "text_anchor": "# 47. Contradiction",
+      "note": "持续多目标/约束冲突、多个 Event 和 Thesis；不同于命题冲突边。"
+    },
+    {
+      "evidence_id": "E34",
+      "source": "EX031",
+      "path": "G:/youhegaojian/prompt/V0.3.1.md",
+      "text_anchor": "# 23. Forecast Ledger准入",
+      "note": "无条件判断、分支选择或可判定条件预测；单纯可能性不准入。"
+    },
+    {
+      "evidence_id": "E35",
+      "source": "MA1",
+      "path": "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "text_anchor": "# 0. Patch定位",
+      "note": "MA.1 保持 14 核心；扩展方法匹配、观察者、comparison 与 role。"
+    },
+    {
+      "evidence_id": "E36",
+      "source": "VAL4",
+      "path": "G:/youhegaojian/golden_sample_test/validate_gs004_ma1.py",
+      "text_anchor": "'V-MA111'",
+      "note": "GS004 有样本特定未来 prior 拦截；需要推广为时间驱动通用规则。"
+    },
+    {
+      "evidence_id": "E37",
+      "source": "VAL5",
+      "path": "G:/youhegaojian/golden_sample_test/migrate_gs005_ma1.py",
+      "text_anchor": "def validate",
+      "note": "GS005 本地规则与 GS004 并非同一覆盖；0 ERROR 不证明所有跨样本规则通过。"
+    },
+    {
+      "evidence_id": "E38",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/finalization",
+      "note": "最终 completed/validation_passed 与人工裁决来源完整留存。"
+    },
+    {
+      "evidence_id": "E39",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/finalization_hotfix_1_1",
+      "note": "最终状态优先于历史 finalization.completed=false。"
+    },
+    {
+      "evidence_id": "E40",
+      "source": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "json_pointer": "/21_CANDIDATE_HEURISTICS",
+      "note": "HC01/HC02 有规则、限度及反例；候选而非技能。"
+    },
+    {
+      "evidence_id": "E41",
+      "source": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "json_pointer": "/09_veracity_assessments",
+      "note": "引述吻合不等于测量和因果命题已验证。"
+    },
+    {
+      "evidence_id": "E42",
+      "source": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "json_pointer": "/16_VERACITY_ASSESSMENTS",
+      "note": "推导错误/源文件披露范围不应传播为现实真假。"
+    },
+    {
+      "evidence_id": "E43",
+      "source": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "json_pointer": "/auxiliary/forecast_exclusions",
+      "note": "C005 条件未背书；回顾性自称及工程能力不回填历史 Forecast。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "positive_packet": true,
+  "negative_cases": [
+    {
+      "name": "wrong_quote",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "wrong_chronology",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "changed_inherited",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "unreviewed_promoted",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "method_promoted",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "future_evidence",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "missing_reference",
+      "expected_rejection_observed": true
+    },
+    {
+      "name": "fact_verified_without_evidence",
+      "expected_rejection_observed": true
+    }
+  ],
+  "input_hashes_verified": 16,
+  "protected_hashes_unchanged": 553,
+  "source_copies_match": true,
+  "semantic_accuracy": "NOT_SCORED",
+  "external_truth": "NOT_VERIFIED"
+}

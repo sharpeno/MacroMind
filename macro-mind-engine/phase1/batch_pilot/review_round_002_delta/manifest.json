@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "HUMAN_REVIEW.html": "1fd153a0a82308af33a4943872d7d5bf6f00caa04f78d93ec10c5b9611895582",
+    "progress.json": "3c752a94e4b5edf4f77cfd029ea6b77259cb9435aefd21f0c7156b0a81864035",
+    "REPORT.md": "058d1f3264507d5e4a100a5ff83509fd90852d760b0982f5e149b271ecfa1e16",
+    "review_data.json": "914cdc8f0e4a851f6d2a1d440e1b6112c22ff2f59d00a116420eb6d2084136c0",
+    "template.html": "878a37c0aea4bd5904197589e3a2017c4320c260f5901120bee8ceb1fa73800b",
+    "verification.json": "f16f7f67abd59558a97dc695e2e641f9c9ff41f1f26f71f118ef47a1f332eaca",
+    "browser_qa\\command.json": "50068f4bfd558c952f15cd5809ac84336620bf659eaf8cce6b2d8f86bb84230a",
+    "browser_qa\\desktop.png": "2fe7c665dec685b13b30d7d9f3207ebad84b6037db3c0ee4926e2c0356be57d8",
+    "browser_qa\\mobile.png": "b0c43520729ac3d777f6b5559edcf6b57b1a256dcf5c06b80f1347218eb0b0e8",
+    "browser_qa\\results.json": "16575aca532bd72bef998e3b65b9f53bd9f394b08da62f96f54173528ab6b2fc",
+    "browser_qa\\synthetic_feedback.json": "07101930a274c25e788278bc4b4efccf1d9ec25616b7ff075fed85818942820d",
+    "browser_qa\\test.cjs": "fbee60981cd5c528fe5553cd168687f5288811409865b02d834549be63c722ee"
+  }
+}

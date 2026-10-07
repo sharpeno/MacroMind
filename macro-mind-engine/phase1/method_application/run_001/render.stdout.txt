@@ -1,0 +1,1 @@
+Rendered application trace: 5 applications, 9 reasoning steps, 2 judgments, 5 news notes.

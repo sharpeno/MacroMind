@@ -1,0 +1,6 @@
+{
+  "errors": [
+    "INPUT_ERROR: input and output refer to the same file"
+  ],
+  "status": "INPUT_ERROR"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "action": "web_batch01 initial persistence",
+    "result": "FAILED_UNICODE_ENCODING",
+    "retained": "web_batch01.json is an empty failed-attempt artifact; web_batch01_retry.json contains recovered original tool response"
+  },
+  {
+    "action": "web_batch03 single shell transfer",
+    "result": "FAILED_WINDOWS_COMMAND_LENGTH_206",
+    "resolution": "Saved original stored tool response in chunks to web_batch03.json"
+  },
+  {
+    "action": "apply_patch web snapshot",
+    "result": "FAILED_TO_WRITE",
+    "resolution": "Saved with Python from writable workspace parent using base64; raw responses retained"
+  },
+  {
+    "action": "diagnostic console print",
+    "result": "GBK_UNICODE_PRINT_FAILURE",
+    "resolution": "Set diagnostic stdout UTF-8; source files unaffected"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "batch_pilot_materials/EP007/《第七百五二期》沃什放鹰，美联储九月是否加息？-p01-16.mp4": {
+    "sha256": "b5a3e844d34eef6be965926dedbd23e3fdf6a3644f0dd07f0177c37dc2e15139",
+    "bytes": 111226779
+  },
+  "batch_pilot_materials/EP007/信息说明.md": {
+    "sha256": "ccc9727455c93da2095a9954d7810c0227e41a444a51efc5067c1e75df49600c",
+    "bytes": 2027
+  },
+  "batch_pilot_materials/EP007/原始字幕.srt": {
+    "sha256": "99b74ad959f35a6e70dc64a0b093e95f4650be203f1deb9faf05b92c98f197ad",
+    "bytes": 44316
+  },
+  "batch_pilot_materials/EP007/转写稿.txt": {
+    "sha256": "9b5a72e88dbbbc4bb78dd0788722ec98fc9236f1325b0e0f3b116ddcaea827d3",
+    "bytes": 42890
+  },
+  "batch_pilot_materials/EP007/补充材料/引用清单.md": {
+    "sha256": "6434daf7fb209c590890881aadb935ff176aa738b15b03e9f0de47b5079d912a",
+    "bytes": 273
+  },
+  "batch_pilot_materials/EP008/《第七百五七期》美国八月非农传喜报，大幅超出预期是否会影响美联储9月加息预期？-p01-16.mp4": {
+    "sha256": "8a61545b48c78e85474f63e93013713bc17b1ed542c50935e94db9ced428a1a9",
+    "bytes": 110677929
+  },
+  "batch_pilot_materials/EP008/信息说明.md": {
+    "sha256": "d6c532b50e7fd8e2d1e353e8c4a92c8c908a990a1201d68fd5778a2eba8b35ed",
+    "bytes": 2226
+  },
+  "batch_pilot_materials/EP008/原始字幕.srt": {
+    "sha256": "022937a2bcc426e4fc02b779ee3e6f041174fbf004199b1099766ee0f688cb2a",
+    "bytes": 37718
+  },
+  "batch_pilot_materials/EP008/转写稿.txt": {
+    "sha256": "482f0cb28f5f5d9d766f1107f245e6e584a34370816ef55773b1243a5253564f",
+    "bytes": 36553
+  },
+  "batch_pilot_materials/EP008/补充材料/引用清单.md": {
+    "sha256": "dacb51a45053f2f454ea0cf39929a9c28c37881f054dc45fedea16bf575a02fb",
+    "bytes": 363
+  },
+  "batch_pilot_materials/EP001/信息说明.md": {
+    "sha256": "10ac1d8642edd090ee0d3eb8437556b6746badf1759dc03109d55d113956d9e0",
+    "bytes": 2079
+  },
+  "batch_pilot_materials/EP002/信息说明.md": {
+    "sha256": "f288a6663e06aeba95c669f6323acb7bb0f6dcbaa6ddfba31383739839579a46",
+    "bytes": 1992
+  },
+  "batch_pilot_materials/EP003/信息说明.md": {
+    "sha256": "bd2050dd80b015e765e481d33c7d15df73792a9750416ca0ac76c48243aa4e6c",
+    "bytes": 2098
+  },
+  "macro-mind-engine/phase1/batch_pilot/run_005/EP001/claims.json": {
+    "sha256": "baa4b16ff801aabd314078dee93e0de1f3233e67c5c7ae15e5ef7143b7069bb5",
+    "bytes": 52898
+  },
+  "macro-mind-engine/phase1/batch_pilot/run_005/EP002/claims.json": {
+    "sha256": "6ff1d661bd5e2effd2f81b4dbbdcadba36c9300d5292f1dcabfd30d8e509e251",
+    "bytes": 61469
+  },
+  "macro-mind-engine/phase1/batch_pilot/run_005/EP003/claims.json": {
+    "sha256": "5129c96ad35eff690298508a9f0a82f78a2ee51c5bb8bc68914defd5296b15be",
+    "bytes": 62400
+  }
+}

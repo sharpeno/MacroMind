@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.843" timestamp="2026-10-03T00:07:54.637727+08:00" hostname="DESKTOP-L2SRCBH"><testcase classname="" name="tests.audit_continuity.test_continuity" time="0.000"><error message="collection failure">import file mismatch:
+imported module 'test_continuity' has this __file__ attribute:
+  G:\youhegaojian\macro-mind-engine\tests\audit\test_continuity.py
+which is not the same as the test file we want to collect:
+  G:\youhegaojian\macro-mind-engine\tests\audit_continuity\test_continuity.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules</error></testcase></testsuite></testsuites>

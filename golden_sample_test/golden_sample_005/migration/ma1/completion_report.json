@@ -1,0 +1,12 @@
+{
+  "migration_completed": true,
+  "validator_ERROR": 0,
+  "warning_count": 72,
+  "C005_manual_review": "open_not_decided",
+  "ma1_compliance": "migrated_local_validation_pass_manual_review_pending",
+  "full_production_schema_compliance": false,
+  "known_schema_exception": "C005 unchanged under M09; canonical fields incomplete, quarantined pending human review",
+  "machine_misinterpretation_risk": "Consumers ignoring legacy-field, unknown-value, quarantine or manual-review semantics are unsupported",
+  "golden_status": "ma1_migrated_validation_pass_manual_review_pending",
+  "frozen": false
+}

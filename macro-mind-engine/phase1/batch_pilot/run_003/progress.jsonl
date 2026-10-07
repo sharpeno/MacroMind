@@ -1,0 +1,5 @@
+{"time": "2026-10-03T19:13:22.665734+00:00", "stage": "RECEIVING", "unfinished": ["Validate input", "Revise annotations", "Compile and audit", "Verify and report"], "next_step": "Validate input"}
+{"time": "2026-10-03T19:13:23.236274+00:00", "stage": "REVISIONS_SAVED", "unfinished": ["Compile five affected episodes", "Audit", "Verify and report"], "next_step": "Compile five affected episodes"}
+{"time": "2026-10-03T19:13:44.267658+00:00", "stage": "COMPILED", "unfinished": ["Audit", "Verify and report"], "next_step": "Audit"}
+{"time": "2026-10-03T19:14:12.377931+00:00", "stage": "AUDITS_COMPLETED", "unfinished": ["Verify diff and preserved reviews", "Report and seal"], "next_step": "Verify diff and preserved reviews"}
+{"time": "2026-10-03T19:15:54.188145+00:00", "stage": "ROUND2_FEEDBACK_IMPLEMENTED", "unfinished": ["Confirm assistant-derived added/split text if needed", "Unresolved source attribution/timing and other fields remain", "No scale-up or Skill acceptance"], "next_step": "Confirm assistant-derived added/split text if needed"}

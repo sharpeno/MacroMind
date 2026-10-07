@@ -1,0 +1,10 @@
+{
+  "schema": "macromind.holdout-comparison-review.v1",
+  "review_id": "holdout475_001",
+  "comparison_sha256": "405c3277ae832cd0135d981c72ef654b10b74508fa1c9906443e43ddb7d4f60c",
+  "ids": [
+    "R01",
+    "R02",
+    "R03"
+  ]
+}

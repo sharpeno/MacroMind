@@ -1,0 +1,22 @@
+{
+  "debts": {
+    "D02": {
+      "remaining": "Targeted conservative compatibility implemented; full Golden regression and wider fixture coverage remain.",
+      "status": "substantially_addressed_phase1_4"
+    },
+    "D04": {
+      "remaining": "No temporal inference; missing historical chronology and full Golden coverage remain.",
+      "status": "partially_addressed_phase1_4"
+    },
+    "D16": {
+      "remaining": "Raw comparison/role/stage preserved; typed units and transition evidence gaps remain.",
+      "status": "partially_addressed_phase1_4"
+    },
+    "D18": {
+      "remaining": "Mapping/loss/manifests prepare for audit; Phase 1.5 Audit Runner NOT_STARTED.",
+      "status": "partially_addressed_phase1_4"
+    }
+  },
+  "historical_ledgers_unchanged": true,
+  "no_debt_resolved": true
+}

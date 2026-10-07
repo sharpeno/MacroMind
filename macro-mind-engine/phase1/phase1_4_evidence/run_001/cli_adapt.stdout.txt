@@ -1,0 +1,563 @@
+{
+  "adaptation_manifest": {
+    "adapter_id": "compat.v0_3_legacy",
+    "adapter_version": "0.1.0",
+    "canonical_bundle_hash": "d663da0d9122fe2ac449d7f0020b5db04dc19e7b96937b51d09375f8ef00334c",
+    "canonical_object_count": 1,
+    "detection_status": "STRONG",
+    "loss_count": 5,
+    "mapping_ledger_hash": "9d141c4817799e1249c910155bdc045cf5718ae83fc3db5e04754a36286008d0",
+    "quarantined_object_count": 0,
+    "source_family": "V0_3_LEGACY",
+    "source_object_count": 1,
+    "source_sha256": "951b531971b73a15f2f27806d756c5afb6ece25ff30dff05769fd2dd8dca12bc",
+    "source_unchanged": true,
+    "status": "LOSSY_BUT_SAFE",
+    "target_ontology_version": "0.3",
+    "target_schema_version": "0.1.0",
+    "unknown_count": 13,
+    "validator_summary": {
+      "deterministic_hash": "c711e4f129df0e44d01e441ee215da49e338524f64e95c2f827b342d36b2f84f",
+      "errors": [],
+      "mode": "partial_bundle",
+      "object_count": 1,
+      "outcome_counts": {
+        "ERROR": 0,
+        "INDETERMINATE": 0,
+        "NOT_APPLICABLE": 31,
+        "PASS": 5,
+        "WARNING": 1
+      },
+      "validator_version": "0.1.0"
+    }
+  },
+  "adapter_id": "compat.v0_3_legacy",
+  "adapter_version": "0.1.0",
+  "canonical_bundle": {
+    "objects": [
+      {
+        "analysis_context": "unknown",
+        "annotation_observer": null,
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "claimant": {
+          "state": "unknown"
+        },
+        "created_at": null,
+        "id": "c",
+        "metadata": {},
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "object_type": "Claim",
+        "ontology_version": "0.3",
+        "population": {
+          "state": "unknown"
+        },
+        "provenance_refs": [],
+        "quantifier": {
+          "state": "unknown"
+        },
+        "reasoner_id": null,
+        "reference_time": {
+          "state": "unknown"
+        },
+        "schema_version": "0.1.0",
+        "scope": {
+          "state": "unknown"
+        },
+        "source_refs": [],
+        "statement": "recorded"
+      }
+    ]
+  },
+  "canonical_object_count": 1,
+  "canonical_reconstruction_forbidden": false,
+  "detection_status": "STRONG",
+  "deterministic_hash": "a11f67a805cb9fe3841153c9bdae671b18023d051ac8a5d4b9948a2954619cc2",
+  "losses": [
+    {
+      "canonical_effect": "Canonical mappings are explicit; raw remainder is not activated as evidence.",
+      "category": "STRUCTURAL_LOSS",
+      "description": "Original section layout and unsupported nested history retained separately.",
+      "loss_id": "loss:104ccb825ba03bf6e09e0377",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/12_STRUCTURAL_PROCESSES"
+    },
+    {
+      "canonical_effect": "Unknown or unrecorded.",
+      "category": "SEMANTIC_UNKNOWN",
+      "description": "Legacy field absent; canonical unknown/null/empty records no invented fact.",
+      "loss_id": "loss:56bae764052beeba78d523de",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/08_CLAIMS/0"
+    },
+    {
+      "canonical_effect": "Canonical mappings are explicit; raw remainder is not activated as evidence.",
+      "category": "STRUCTURAL_LOSS",
+      "description": "Original section layout and unsupported nested history retained separately.",
+      "loss_id": "loss:5bfe19e0374b88e30fcfca16",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/18_ARGUMENTS"
+    },
+    {
+      "canonical_effect": "Canonical mappings are explicit; raw remainder is not activated as evidence.",
+      "category": "STRUCTURAL_LOSS",
+      "description": "Original section layout and unsupported nested history retained separately.",
+      "loss_id": "loss:b5b11b73866b2354ff0f6db6",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/02_SOURCES"
+    },
+    {
+      "canonical_effect": "Canonical mappings are explicit; raw remainder is not activated as evidence.",
+      "category": "STRUCTURAL_LOSS",
+      "description": "Original section layout and unsupported nested history retained separately.",
+      "loss_id": "loss:c75d9b5dd5a1128a7e9b3141",
+      "preserved_raw": true,
+      "review_required": true,
+      "severity": "WARNING",
+      "source_path": "/08_CLAIMS"
+    }
+  ],
+  "mapping_ledger": [
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/analysis_context",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/annotation_observer",
+      "target_value_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/asserted_at/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/claimant/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/created_at",
+      "target_value_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "RENAME",
+      "reason": "Stable preserved or content-namespaced identity.",
+      "semantic_change": false,
+      "source_path": "/08_CLAIMS/0/claim_id",
+      "source_value_hash": "879923da020d1533f4d8e921ea7bac61e8ba41d3c89d17a4d14e3a89c6780d5d",
+      "target_path": "/canonical_bundle/objects/0/id",
+      "target_value_hash": "879923da020d1533f4d8e921ea7bac61e8ba41d3c89d17a4d14e3a89c6780d5d"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "EXPAND_STRUCTURAL",
+      "reason": "canonical_nonsemantic_default",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/metadata",
+      "target_value_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/modal_strength/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "EXPAND_STRUCTURAL",
+      "reason": "Explicit object section; never classify text.",
+      "semantic_change": false,
+      "source_path": "/08_CLAIMS/0",
+      "source_value_hash": "da71a59a086ca8e8936b76e0e95bb1ce18567cffc8822a80fa002cb970d4fe02",
+      "target_path": "/canonical_bundle/objects/0/object_type",
+      "target_value_hash": "8e338093b4eb24e077d87171432e893c0b45e31e1348ee04ea758ae410604f8b"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "EXPAND_STRUCTURAL",
+      "reason": "Target frozen contract version.",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/ontology_version",
+      "target_value_hash": "59d720a1ab8d6974a057e11e4b77890669f8d6177371630c78eab78f0065f9cf"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/population/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/provenance_refs",
+      "target_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/quantifier/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/reasoner_id",
+      "target_value_hash": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/reference_time/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "EXPAND_STRUCTURAL",
+      "reason": "Target representation version, not a historical assertion.",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/schema_version",
+      "target_value_hash": "8e633b4f41f99d4c388915bc852f2143cf4e9f5eaad70c76a81d4f4aa629eec1"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/scope/state",
+      "target_value_hash": "eb8bf0d80db323992f6b634aab492b1e6d9e96a8e87a511c2a0db75ab929452c"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "DEFAULT_UNKNOWN",
+      "reason": "legacy_field_absent",
+      "semantic_change": false,
+      "source_path": null,
+      "source_value_hash": null,
+      "target_path": "/canonical_bundle/objects/0/source_refs",
+      "target_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "evidence": [
+        "/08_CLAIMS/0"
+      ],
+      "operation": "COPY",
+      "reason": "recorded_canonical_field",
+      "semantic_change": false,
+      "source_path": "/08_CLAIMS/0/statement",
+      "source_value_hash": "94f9937fd10353a3a209b32498cf502f848800746aca65b13a695352397a46ee",
+      "target_path": "/canonical_bundle/objects/0/statement",
+      "target_value_hash": "94f9937fd10353a3a209b32498cf502f848800746aca65b13a695352397a46ee"
+    },
+    {
+      "evidence": [],
+      "operation": "PRESERVE_RAW",
+      "reason": "Unrepresented historical value retained verbatim.",
+      "semantic_change": false,
+      "source_path": "/02_SOURCES",
+      "source_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_path": "/raw_document/02_SOURCES",
+      "target_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "evidence": [],
+      "operation": "PRESERVE_RAW",
+      "reason": "Unrepresented historical value retained verbatim.",
+      "semantic_change": false,
+      "source_path": "/08_CLAIMS",
+      "source_value_hash": "e191a0091639437453b24fab1c67cb1ab24cc02e636949af860d315641020bfb",
+      "target_path": "/raw_document/08_CLAIMS",
+      "target_value_hash": "e191a0091639437453b24fab1c67cb1ab24cc02e636949af860d315641020bfb"
+    },
+    {
+      "evidence": [],
+      "operation": "PRESERVE_RAW",
+      "reason": "Unrepresented historical value retained verbatim.",
+      "semantic_change": false,
+      "source_path": "/12_STRUCTURAL_PROCESSES",
+      "source_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_path": "/raw_document/12_STRUCTURAL_PROCESSES",
+      "target_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "evidence": [],
+      "operation": "PRESERVE_RAW",
+      "reason": "Unrepresented historical value retained verbatim.",
+      "semantic_change": false,
+      "source_path": "/18_ARGUMENTS",
+      "source_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_path": "/raw_document/18_ARGUMENTS",
+      "target_value_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "quarantined_items": [],
+  "quarantined_object_count": 0,
+  "raw_document": {
+    "02_SOURCES": [],
+    "08_CLAIMS": [
+      {
+        "claim_id": "c",
+        "statement": "recorded"
+      }
+    ],
+    "12_STRUCTURAL_PROCESSES": [],
+    "18_ARGUMENTS": []
+  },
+  "recommended_validation_mode": "partial_bundle",
+  "source_family": "V0_3_LEGACY",
+  "source_object_count": 1,
+  "source_sha256": "951b531971b73a15f2f27806d756c5afb6ece25ff30dff05769fd2dd8dca12bc",
+  "status": "LOSSY_BUT_SAFE",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknowns": [
+    {
+      "field": "analysis_context",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": "unknown"
+    },
+    {
+      "field": "annotation_observer",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": null
+    },
+    {
+      "field": "asserted_at",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "claimant",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "created_at",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": null
+    },
+    {
+      "field": "modal_strength",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "population",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "provenance_refs",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": []
+    },
+    {
+      "field": "quantifier",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "reasoner_id",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": null
+    },
+    {
+      "field": "reference_time",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "scope",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": {
+        "state": "unknown"
+      }
+    },
+    {
+      "field": "source_refs",
+      "reason": "legacy_field_absent",
+      "source_path": "/08_CLAIMS/0",
+      "value": []
+    }
+  ],
+  "unsupported_fields": [
+    {
+      "classification": "historical_section_snapshot",
+      "operation": "PRESERVE_RAW",
+      "source_path": "/02_SOURCES",
+      "value": []
+    },
+    {
+      "classification": "historical_section_snapshot",
+      "operation": "PRESERVE_RAW",
+      "source_path": "/08_CLAIMS",
+      "value": [
+        {
+          "claim_id": "c",
+          "statement": "recorded"
+        }
+      ]
+    },
+    {
+      "classification": "historical_section_snapshot",
+      "operation": "PRESERVE_RAW",
+      "source_path": "/12_STRUCTURAL_PROCESSES",
+      "value": []
+    },
+    {
+      "classification": "historical_section_snapshot",
+      "operation": "PRESERVE_RAW",
+      "source_path": "/18_ARGUMENTS",
+      "value": []
+    }
+  ],
+  "validator_report_summary": {
+    "deterministic_hash": "c711e4f129df0e44d01e441ee215da49e338524f64e95c2f827b342d36b2f84f",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 1,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 0,
+      "NOT_APPLICABLE": 31,
+      "PASS": 5,
+      "WARNING": 1
+    },
+    "validator_version": "0.1.0"
+  },
+  "warnings": [
+    "Raw historical sections are preserved, not active canonical evidence."
+  ]
+}

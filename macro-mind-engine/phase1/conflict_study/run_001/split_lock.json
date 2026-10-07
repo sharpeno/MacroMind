@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-05T09:01:38.981920+00:00",
+  "status": "SPLIT_FROZEN_BEFORE_SUBTITLE_SEMANTIC_READ",
+  "metadata_sha256": "d744ca8f60baccaa2570688235b05a900feed9365735ee0de8a09e2de7cf32de",
+  "framework_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_application\\run_002\\framework.json",
+  "framework_sha256": "fcbc841c3f90d0bba5ee26e168d0e25bb629ffa58a9633aaeaae8a5a899ee84a",
+  "date_policy": {
+    "analysis_date": "filename_date",
+    "basis": "用户明确认可标题日期作为可靠来源，不修改",
+    "precision": "day",
+    "submitted_dates_preserved": true,
+    "differences": 13,
+    "not_claimed": "独立核验公开发布时间；同日先后顺序"
+  },
+  "development": [
+    "454",
+    "455",
+    "456",
+    "457",
+    "458",
+    "459",
+    "460",
+    "462",
+    "464",
+    "465",
+    "466",
+    "468",
+    "469",
+    "470",
+    "471"
+  ],
+  "reserved_evaluation": [
+    "472",
+    "473",
+    "474",
+    "475",
+    "476",
+    "478",
+    "479",
+    "480",
+    "482",
+    "484",
+    "493",
+    "495",
+    "496",
+    "509",
+    "601"
+  ],
+  "rationale": "按标题日期连续分割，同一天不跨组；前段开发、后段检验。不能保证题材均衡，不是随机样本。",
+  "first_comparison": [
+    "454",
+    "455"
+  ],
+  "leakage_limits": [
+    "全部标题与元数据已可见",
+    "历史事件及模型既有知识不能排除",
+    "v0.2来自较晚年份开发样本；不是历史实时预测",
+    "后段字幕仅为未读的本地留出材料，不宣称严格盲测"
+  ],
+  "evaluation_protocol": [
+    "冻结方法及新闻输入后先存分析答案，再读取相应留出字幕",
+    "区分方法忠实度、事实正确性、预测正确性",
+    "保留不适用、信息不足、相反证据，不生成无依据准确率",
+    "一旦读取留出字幕即登记曝光，不能再作为未读留出",
+    "后段开发调整只形成新版本，不回写本轮答案"
+  ]
+}

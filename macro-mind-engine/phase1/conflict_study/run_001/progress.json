@@ -1,0 +1,45 @@
+{
+  "completed": [
+    "用户文件逐记录及原字幕哈希核验归档",
+    "保留双日期并采用用户认可标题日期",
+    "15/15划分封存",
+    "v0.2新闻基线先存后读字幕",
+    "454/455共1436字幕片段解析、10个分析单元、3个待验证修订提议"
+  ],
+  "pending": [
+    "剩余13期开发材料分析",
+    "方法修订与封存",
+    "15份留出材料对照",
+    "事实与预测结果验证",
+    "人工语义验收"
+  ],
+  "reserved_transcripts_read": [],
+  "next": "继续开发组456起；严禁预读留出字幕或覆盖news_baseline.json",
+  "validation": {
+    "status": "PASS_STRUCTURAL_ONLY",
+    "records": 30,
+    "source_hashes_unchanged": 30,
+    "framework_unchanged": true,
+    "development": 15,
+    "reserved": 15,
+    "read_development": 2,
+    "parsed_cues": 1436,
+    "units": 10,
+    "negative_tests_rejected": [
+      "overlap",
+      "wrong_date",
+      "evidence_mutation",
+      "false_acceptance",
+      "holdout_read"
+    ],
+    "semantic_acceptance": false,
+    "prediction_accuracy_verified": false
+  },
+  "commands": {
+    "verify": ".venv/Scripts/python.exe -X utf8 phase1/conflict_study/run_001/verify.py"
+  },
+  "raw_outputs": [
+    "validation.stdout.log",
+    "validation.stderr.log"
+  ]
+}

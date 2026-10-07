@@ -1,0 +1,14 @@
+{
+  "previous": "run_004",
+  "receipt": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\semantic_pilot_001\\batch_001\\receipt.json",
+  "changed": [
+    "EP002/C16",
+    "EP002/C23 new",
+    "EP002/M03 new observation",
+    "EP003/C16"
+  ],
+  "retained": "EP005/C20 and all other original claims",
+  "original_quotes_unchanged": true,
+  "user_correction_method_applied_verbatim": true,
+  "application_wording": "Assistant implementation of explicit request to separate hypothetical application; not separately reapproved"
+}

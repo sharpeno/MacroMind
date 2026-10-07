@@ -1,0 +1,95 @@
+{
+  "version": "1",
+  "episode": "EP002",
+  "source_sha256": "9873c6090e95c54b60bfd72e3c3f103cf00de16495585730047577d57e1c14fb",
+  "baseline": {
+    "C01": "d27a18dd88b88cdbe93ebffcb048754c7eee54ea8486a0f77aa56bd1bc08558f",
+    "C02": "5d7ca88909ca14deadbc080faf3ded0c10d92c420d5298f6818bc6d4594486f8",
+    "C03": "b0da6b65c447dcfe312c1a679d1490bf532a0049883d63f679e40be3e8e5863a",
+    "C04": "622d7ace0716a4d67f64dbd8ec43b26952de90c62fa7211dc7b0603fdc67e73d",
+    "C05": "360432f0f3f0cf1ed621ef43fee3c85fe7448cc7ff31321989cef52e03ea63d3",
+    "C06": "dff492b2787a990c4ad740f1f87d51950d4a2ebd14e4e5d09a9edd60ca514a36",
+    "C07": "da98d9e9b00fbe988957ade9c97046d9c777d1691d2e61971d9134e887551d80",
+    "C08": "7a42b0826bae753920983e753f97ac37794051718a93f0a4e1c08a307b7c1499",
+    "C09": "9fdeb96db662f2e6a35b296bc0bc561e9aa30b2f9c7bf6f1676636ee633b5eb7",
+    "C10": "7ca1515efa2a120a98c377b8102bc839d02987704a4e3b1060a85c288ce22fd3",
+    "C11": "78a586c797d3f6d00f397f25aad36ddd3f696cb43e7c12500dbadab31250d3bd",
+    "C12": "ad779e335d4399f2fe5ab683276fd76836fcef834bf21ff06a9ec6b16749f7b9",
+    "C13": "019206e3f99cef99d4763f9913ae56bd8119665c70ff36495abee066ee14e617",
+    "C14": "0de6bbd269ddec2c9ec219a4b5f124fa5cbec5ac09392b71b02ceaad34fb4307",
+    "C15": "ed5ff528a9cf6282780d0e4829abc68ab4ccc03edf01fb60ba79a5bbece96c76",
+    "C16": "8a27eb7725d11b23d811eb9cae2d24b894bf71dbbe9f2547a721bf48dcb34426",
+    "C17": "49083986f04c5c22e1696a4728a91e5b4263ac001664731024ab0b1bbfe32f4e",
+    "C18": "952d310200b1fba729f5b1d63845813d8a77bfb90821fe4fb6d01622b1735f20",
+    "C19": "f5abd4600ff0f3a4ccd280fbafc78b2cf229f9c9bc226b76fe8ad12c05a2b79a",
+    "C20": "54d8f065303519633bbd838058948c80cc27d772f398f3eaee4d2235cef876ed",
+    "C21": "6004cc3753379f6b304cad71ae2c2be71d36c695de91a43e0a2e0161a3ee87c2",
+    "C22": "9092f882d185e1a875a1682b37878a1a5bd9e9956956da6c6463713d2a546fb1",
+    "C23": "9485068921061ae8869fee8a1fc3fa4d90710258f0000960d04562b249fb972f",
+    "A01": "5ae21e5f58aa5b3646acb4b076849b52ba8bf9c2db65c4830bf19713be11a7a0",
+    "A02": "41957c8ec4ec6917a6e1a83255a6eba041798e03b37355ee5e39a88309b548b0",
+    "A03": "a0081855ed8ec6478c6535f471404cf0d9c9225c633c19b55990c5d0e0668061",
+    "A04": "8829b60e815fd8bc817e12330fdc5cfafe62db08571ba1b8ca034e5b0b7576ae",
+    "A05": "d23d7beaf36a30de80592d6c9099b1d05b0e34b9c809bac12d11a5a515895e51",
+    "S01": "2f2b15b52f921443ba55e12c282437d5c996c3a394f26e2323ff7e2ed3fef28f",
+    "S02": "0a2f3dfd5a15f01f18ea474b07ac9f9ab3c3fc502a3bc6453183a8b6a3b7441d",
+    "M01": "704e3bd310bdb025efbef95d5a8ca92c1ba3a0bd2d1d37a1ca091cd69f431b2c",
+    "M02": "ae93940aa972a8dce19a6257780bbb1ec9a4fe847c12ddc836d61a65921e1f65",
+    "M03": "dcb7cf60ca5f4e5fba129969d32dbc8cc8f8609c4aada16fdfb97e10478cceb2",
+    "@forecast_candidates": "4240f1d620cf5307429e047a12d6bf220716eb4effe3dfe489e85d9334b711bc"
+  },
+  "reviewed_ids": [
+    "C05",
+    "C22",
+    "C23"
+  ],
+  "facets": [
+    {
+      "claim": "C22",
+      "name": "被转述立场和条件预期",
+      "required_text": [
+        "转述并反对",
+        "只要9月加息落地",
+        "条件性预期"
+      ]
+    },
+    {
+      "claim": "C05",
+      "name": "User-calibrated attribution and reasoning scope",
+      "required_text": [
+        "接近见底",
+        "假设中国官方",
+        "假设前提"
+      ]
+    },
+    {
+      "claim": "C23",
+      "name": "领导纠错方法而非只有政策细节",
+      "required_text": [
+        "提前识别问题",
+        "准备纠错方案",
+        "与群众站在一起",
+        "适当时机",
+        "带领大家纠错"
+      ]
+    },
+    {
+      "claim": "C16",
+      "name": "假想政策作为应用例证",
+      "required_text": [
+        "应用例证",
+        "假想央行讲话",
+        "不是央行已经发表"
+      ]
+    }
+  ],
+  "edges": [],
+  "background_claims": [],
+  "context_only_cues": [],
+  "review_evidence": [
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\semantic_pilot_001\\batch_001\\receipt.json"
+  ]
+}

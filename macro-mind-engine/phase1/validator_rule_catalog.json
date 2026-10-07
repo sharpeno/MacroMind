@@ -1,0 +1,891 @@
+{
+  "rules": [
+    {
+      "category": "Schema",
+      "debt_refs": [],
+      "description": "Canonical versions",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Canonical versions",
+      "principle_refs": [],
+      "rule_id": "V-SCH001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Schema",
+      "debt_refs": [],
+      "description": "Registered Pydantic shape",
+      "frozen_boundary_refs": [
+        "B08"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Registered Pydantic shape",
+      "principle_refs": [],
+      "rule_id": "V-SCH002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [],
+      "description": "Unique object identity",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Unique object identity",
+      "principle_refs": [],
+      "rule_id": "V-REF001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [],
+      "description": "Registered object discriminator",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Registered object discriminator",
+      "principle_refs": [],
+      "rule_id": "V-REF002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [],
+      "description": "Allowed reference target type",
+      "frozen_boundary_refs": [
+        "B01",
+        "B06",
+        "B14"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Allowed reference target type",
+      "principle_refs": [],
+      "rule_id": "V-REF003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [],
+      "description": "Complete bundle resolution",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Complete bundle resolution",
+      "principle_refs": [],
+      "rule_id": "V-REF004",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [],
+      "description": "Partial bundle resolution",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Partial bundle resolution",
+      "principle_refs": [],
+      "rule_id": "V-REF005",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Reference",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Explicitly forbidden prior self reference",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Explicitly forbidden prior self reference",
+      "principle_refs": [],
+      "rule_id": "V-REF006",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Provenance",
+      "debt_refs": [],
+      "description": "Claim source provenance",
+      "frozen_boundary_refs": [
+        "B01"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Claim source provenance",
+      "principle_refs": [
+        "P01"
+      ],
+      "rule_id": "V-PROV001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Provenance",
+      "debt_refs": [],
+      "description": "Occurrence provenance consistency",
+      "frozen_boundary_refs": [
+        "B01"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Occurrence provenance consistency",
+      "principle_refs": [
+        "P01"
+      ],
+      "rule_id": "V-PROV002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Provenance",
+      "debt_refs": [],
+      "description": "Origin family independence boundary",
+      "frozen_boundary_refs": [
+        "B01"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Independence scoring is intentionally not implemented."
+      ],
+      "name": "Origin family independence boundary",
+      "principle_refs": [
+        "P01"
+      ],
+      "rule_id": "V-PROV003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Temporal",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Structured temporal intervals",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Structured temporal intervals",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-TEMP001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Temporal",
+      "debt_refs": [
+        "D03"
+      ],
+      "description": "Forecast cutoff versus window",
+      "frozen_boundary_refs": [
+        "B09"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Forecast cutoff versus window",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-TEMP002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Temporal",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Future prior leakage",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Unknown/overlapping content time is indeterminate; no sample-label ordering or date text parsing."
+      ],
+      "name": "Future prior leakage",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-TEMP003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Temporal",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Independent source time axes",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Independent source time axes",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-TEMP004",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [
+        "D03"
+      ],
+      "description": "Scenario stays Scenario",
+      "frozen_boundary_refs": [
+        "B09"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Scenario stays Scenario",
+      "principle_refs": [],
+      "rule_id": "V-BND001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [],
+      "description": "Structural process evidence",
+      "frozen_boundary_refs": [
+        "B03"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Structural process evidence",
+      "principle_refs": [],
+      "rule_id": "V-BND002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [
+        "D20"
+      ],
+      "description": "Assessment truth non-propagation",
+      "frozen_boundary_refs": [
+        "B10",
+        "B11"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Assessment truth non-propagation",
+      "principle_refs": [],
+      "rule_id": "V-BND003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [
+        "D20"
+      ],
+      "description": "Usage authorship non-propagation",
+      "frozen_boundary_refs": [
+        "B14"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Usage authorship non-propagation",
+      "principle_refs": [
+        "P15"
+      ],
+      "rule_id": "V-BND004",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [
+        "D20"
+      ],
+      "description": "Actor attribute identity boundary",
+      "frozen_boundary_refs": [
+        "B04"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Actor attribute identity boundary",
+      "principle_refs": [],
+      "rule_id": "V-BND005",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Boundary",
+      "debt_refs": [
+        "D16"
+      ],
+      "description": "Comparison preservation",
+      "frozen_boundary_refs": [
+        "B05"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Units are free text; no controlled conversion/denominator or stage-transition contract exists."
+      ],
+      "name": "Comparison preservation",
+      "principle_refs": [],
+      "rule_id": "V-BND006",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Forecast",
+      "debt_refs": [
+        "D03"
+      ],
+      "description": "Conservative structural admission",
+      "frozen_boundary_refs": [
+        "B08",
+        "B09"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Conservative structural admission",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-FC001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Forecast",
+      "debt_refs": [
+        "D03"
+      ],
+      "description": "Conditional endorsement gap",
+      "frozen_boundary_refs": [
+        "B09"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Conditional endorsement cannot be proved from free text conditions/branch selection."
+      ],
+      "name": "Conditional endorsement gap",
+      "principle_refs": [],
+      "rule_id": "V-FC002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Forecast",
+      "debt_refs": [
+        "D03"
+      ],
+      "description": "Resolution timing consistency",
+      "frozen_boundary_refs": [
+        "B09"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Resolution timing consistency",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-FC003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11"
+      ],
+      "description": "Unique local step identities",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Unique local step identities",
+      "principle_refs": [
+        "P08"
+      ],
+      "rule_id": "V-ARG001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11"
+      ],
+      "description": "Fragile step resolution",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Fragile step resolution",
+      "principle_refs": [
+        "P08"
+      ],
+      "rule_id": "V-ARG002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11"
+      ],
+      "description": "Directed argument cycles",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Directed argument cycles",
+      "principle_refs": [
+        "P08"
+      ],
+      "rule_id": "V-ARG003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11"
+      ],
+      "description": "Orphan inference steps",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Orphan inference steps",
+      "principle_refs": [
+        "P08"
+      ],
+      "rule_id": "V-ARG004",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11",
+        "D20"
+      ],
+      "description": "Per-edge attribution",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Per-edge attribution",
+      "principle_refs": [
+        "P15",
+        "P16"
+      ],
+      "rule_id": "V-ARG005",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Argument",
+      "debt_refs": [
+        "D11",
+        "D16"
+      ],
+      "description": "Argument semantic transition gap",
+      "frozen_boundary_refs": [
+        "B07"
+      ],
+      "implemented": true,
+      "limitations": [
+        "No typed denominator/unit/role transition evidence on inference edges."
+      ],
+      "name": "Argument semantic transition gap",
+      "principle_refs": [
+        "P08"
+      ],
+      "rule_id": "V-ARG006",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Analyst",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Recurrence match consistency",
+      "frozen_boundary_refs": [
+        "B12"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Recurrence match consistency",
+      "principle_refs": [],
+      "rule_id": "V-AN001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Analyst",
+      "debt_refs": [
+        "D04"
+      ],
+      "description": "Eligible historical recurrence",
+      "frozen_boundary_refs": [
+        "B12"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Eligible historical recurrence",
+      "principle_refs": [
+        "P13"
+      ],
+      "rule_id": "V-AN002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Analyst",
+      "debt_refs": [
+        "D20"
+      ],
+      "description": "Model reconstruction evidence guard",
+      "frozen_boundary_refs": [
+        "B12",
+        "B13"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Mixed Argument citations lack selected-edge evidence scope; flagged for review."
+      ],
+      "name": "Model reconstruction evidence guard",
+      "principle_refs": [
+        "P15",
+        "P16"
+      ],
+      "rule_id": "V-AN003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Analyst",
+      "debt_refs": [
+        "D20"
+      ],
+      "description": "Observed reasoner and observer attribution",
+      "frozen_boundary_refs": [
+        "B12"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Observed reasoner and observer attribution",
+      "principle_refs": [
+        "P15"
+      ],
+      "rule_id": "V-AN004",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Governance",
+      "debt_refs": [],
+      "description": "Review never waives validation",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Review never waives validation",
+      "principle_refs": [],
+      "rule_id": "V-GOV001",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Governance",
+      "debt_refs": [],
+      "description": "Input immutability",
+      "frozen_boundary_refs": [],
+      "implemented": true,
+      "limitations": [
+        "Structural check only; no inference, repair, or reality verdict."
+      ],
+      "name": "Input immutability",
+      "principle_refs": [],
+      "rule_id": "V-GOV002",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    },
+    {
+      "category": "Governance",
+      "debt_refs": [],
+      "description": "No Skill promotion",
+      "frozen_boundary_refs": [
+        "B12",
+        "B13"
+      ],
+      "implemented": true,
+      "limitations": [
+        "Schema only admits candidate/unknown Heuristic; Skill promotion/evidence is not implemented."
+      ],
+      "name": "No Skill promotion",
+      "principle_refs": [],
+      "rule_id": "V-GOV003",
+      "severity_policy": {
+        "ERROR": "Explicit contract/type/reference/temporal conflict.",
+        "INDETERMINATE": "Insufficient structured evidence; never treated as ERROR.",
+        "NOT_APPLICABLE": "No applicable valid object or mode.",
+        "PASS": "Applicable structural check satisfied; not a truth verdict.",
+        "WARNING": "Suspicious or incomplete structure requiring review."
+      }
+    }
+  ],
+  "validator_version": "0.1.0"
+}

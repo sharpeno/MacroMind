@@ -1,0 +1,34 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "447b8cfd58e3e791acb0fd1c13c95048f6a51e5468ebef9e5988d3b2c4c2726d",
+  "exported_at": "2026-10-03T19:19:58.392Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "R02D/EP002/C22",
+      "episode": "EP002",
+      "kind": "修订确认",
+      "content_status": "pending",
+      "decision": "accept_revision",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T19:19:58.265Z"
+    },
+    {
+      "id": "R02D/EP005/A03",
+      "episode": "EP005",
+      "kind": "修订确认",
+      "content_status": "pending",
+      "decision": "change",
+      "note": "Synthetic QA only",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T19:19:58.275Z"
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

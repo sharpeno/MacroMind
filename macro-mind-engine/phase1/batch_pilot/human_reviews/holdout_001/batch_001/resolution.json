@@ -1,0 +1,16 @@
+{
+  "status": "HOLDOUT001_FEEDBACK_CLOSED",
+  "canonical_version": "run_004",
+  "implemented": [
+    "EP002/C05 user correction verbatim",
+    "EP003/C18 accepted displayed proposal"
+  ],
+  "retained": [
+    "EP001/C02",
+    "EP004/C08",
+    "EP005/C21"
+  ],
+  "re_review_needed_for_these_exact_texts": false,
+  "assistant_audio_verified": false,
+  "full_corpus_acceptance": false
+}

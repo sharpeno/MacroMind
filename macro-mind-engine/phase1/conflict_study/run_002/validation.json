@@ -1,0 +1,24 @@
+{
+  "status": "PASS_STRUCTURAL_ONLY",
+  "episodes": 13,
+  "cues": 8184,
+  "units": 39,
+  "timeline_nodes": 13,
+  "candidate_rules": 6,
+  "negative_tests_rejected": [
+    "holdout_read",
+    "missing_episode",
+    "tamper_evidence",
+    "duplicate_unit",
+    "false_fact_pass",
+    "false_prediction_pass",
+    "false_framework_change",
+    "false_replication",
+    "wrong_timeline_ref"
+  ],
+  "prior_artifact_hashes_unchanged": 13,
+  "source_hashes_unchanged": 13,
+  "framework_unchanged": true,
+  "reserved_transcripts_read": [],
+  "fact_or_prediction_acceptance": false
+}

@@ -1,0 +1,88 @@
+{
+  "version": "1",
+  "episode": "EP005",
+  "source_sha256": "5e79942acf76c2f5558945ab0a074041e3a60a0152c7b7e70aba129b89d3e205",
+  "baseline": {
+    "C01": "1420eb37429d507d5e70d7b394ece39e665b325b652ad81ece63415ef061333c",
+    "C02": "8f45d363ff26eee8d32408809b6e8d756bf79a38a3a5aff5090281611701a9c7",
+    "C03": "656e9f670af912ae71fe1c0b1944850e17f4bdd210f0b149f0e4bc5ace68e2d0",
+    "C04": "e39a661690ad11888f5e290db96a8f30e5f8e99b238c0262661a16d26517f293",
+    "C05": "d1d6b7292dc670b52699909a4962697e6f0e26d6b66e73e67482629ce66ee94f",
+    "C06": "25ba143bf33bc6544b24af62c4c837f99a4deef048e33a8536c4b55ed817f631",
+    "C07": "d6339f6e3467b107a7e7169190297590e1cc3a8346af8f1eb3485545f5f8959c",
+    "C08": "9fce926a42ce4ed349310e4ebdfc0e8614bb7de04af5577030ce50b0bcbf6258",
+    "C09": "3bad47de528e81a6691a43e1264db60947249783ef8e92de1ecbcd4f0a78d916",
+    "C10": "33142d3150913702257dcf9c84bff7fef684ba73c32a20c9e9dd4cbbe3f236f8",
+    "C11": "f137733fa5a860595e5ae5c74aebbb4fd8c442789c89f79fc6a7d6cb1b9038f8",
+    "C12": "e429c205091658ea246ecb2a346c4ca1319b401e147ce1a9dcb5d122b0d9a793",
+    "C13": "c397e2d113044dcad45ebf8a82cef668645fbc5a487f43123bb48d4a3c3afcbe",
+    "C14": "f87b6056d5c7cb50cf27c1315215350206b29aad16525588cb3a309616cd8b3e",
+    "C15": "797af2d232ad0aee2dbcebc19b242a3bb0e0fc94620a241d73dec5476994cb79",
+    "C16": "8f809ed947e1112793ff4d43cc62ecfd5157177b024a0ac1ad0d3be725c61edc",
+    "C17": "40c83c3bf26be8e315ed1aa68e7e513fdd47112e47f3b6e3686c1fd36098cdd9",
+    "C18": "910c63eff2a0ef4a7db7a6bedcaa30b41b339af6a08350e01e2df4f824350a08",
+    "C19": "74f2226227f9d4ef20818fefaeb263925308ee0966dbe37526a5a337e7249af5",
+    "C20": "724064369e937d404ac6ab4490062cc700839119e7421a4d5d28a7781a3ddc0e",
+    "C21": "587fcb242d0b98d2f2a39c1faf68a81bd2177bd2972eb5b2ab7645ebc4024f30",
+    "C22": "c9f079ba78b56b242d45c3f524d211e60702a39f6304f9634c746766e5ddf482",
+    "C23": "55fdefd9c86798c8463a205f3dd968d79490f8b86db01d82574896a03e73036e",
+    "C24": "c52023124b75ecb6b4c3b018aefc9ec12c0d48eb21ffd24c893e43847daad91a",
+    "C25": "cb46fcab1554b9c6915e798fe31f71139237ff1128c47d69111a7beb4190475f",
+    "C26": "48de1682c872fd0a1d02caa4c2facb558ce8ef64dc8a70a27ecb9e7b89958291",
+    "C27": "12aaa18ce072435f8a97deaec3f1e618734fe52cbdfbafd7b0efc1b85fc92448",
+    "C28": "79097540f30a0f61ceeeb4b6ee483c48b7d7c9fcd9ab46e6173a6f5b134cd09e",
+    "C29": "48ca13201bef439f53cdd43d9e257d6b398f7a3769f8be37b73973df5c37924d",
+    "C30": "c6df51b738174d297335156cf2ac8d4b102f77f98aee1adca02675c2116867cc",
+    "A01": "fa7db04a0a5d1f0aa0000d7cdcf10fa22003ee32021da801cfdeafdac3918cfc",
+    "A02": "b51068b3636e66243c58c80be6ea2bc582d48e6b50b96962e2d3eb986f3f6cc3",
+    "A03": "4d7e80b492305f6f86048e8b86a3d37c35e093ba792a2e7152413650a08657cd",
+    "A04": "5f28ff12f39b77226ee2790bd13eab1bb600156cb13b5d530475e9c3fc48de88",
+    "A05": "7c070abfe66d157950a1399bee0d6ebe47a8751c021e0012e60847839b2e46da",
+    "A06": "237706856f2d96a2624568b032c11257f8ff8df95aa038b4028a7ce186914e39",
+    "A07": "6cca705a73b3c9883293d8acdc35ed3953b0f98edcd3547056c4849437f04238",
+    "S01": "b35c87eca136bbe102adbd7897a7379df35cfb9f8d541e91352ceb56ab74a290",
+    "S02": "921a48dcd67c4d4d5b353ad30394dffd4a3eed4720515742734acf1f7768b98f",
+    "M01": "692e465d5e2767be63f4465b40f2e43c73fac54095be913d0a178793e578ea2b",
+    "M02": "3cb3c325fd70ed4509c4e34b3e913b319caf8cb182f4ae2ecda8ddc192d6877c",
+    "@forecast_candidates": "e14f4aed9878dee61e633326b4677d48979d6d6776d202f35fb9df0c03c3e829"
+  },
+  "reviewed_ids": [
+    "A03",
+    "C11",
+    "C12",
+    "C21",
+    "C28",
+    "C29",
+    "C30"
+  ],
+  "facets": [
+    {
+      "claim": "C11",
+      "name": "并列方法",
+      "required_text": [
+        "并列方向",
+        "短期债变长期债",
+        "高息债变低息债",
+        "外债变内债"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "argument": "A03",
+      "premises": [
+        "C12"
+      ],
+      "conclusion": "C28"
+    }
+  ],
+  "background_claims": [],
+  "context_only_cues": [
+    230
+  ],
+  "review_evidence": [
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\receipt.json"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sequence": 1,
+  "stage": "BEFORE_NEW_CASE_FETCH",
+  "files": {
+    "framework.json": "fcbc841c3f90d0bba5ee26e168d0e25bb629ffa58a9633aaeaae8a5a899ee84a",
+    "framework_evidence.json": "201bb919b71150bd4214ef3f4d14d99eaa63a7eee5e7901ae4480f8f95259bed",
+    "change_log.json": "d3002a916638e0e3aed36eeb9e5e0d25b8827408885ef5a8ad6dca3907c10040"
+  }
+}

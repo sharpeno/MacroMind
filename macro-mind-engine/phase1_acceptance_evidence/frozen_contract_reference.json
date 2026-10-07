@@ -1,0 +1,58 @@
+{
+  "canonical_content_included": false,
+  "canonical_contract_root": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3",
+  "files": [
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\CHANGE_POLICY.md",
+      "sha256": "0b91639f0125947b9ff117247b8db474c0bb616703d1a66028d743d9a9d72896",
+      "size": 2888
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\core_boundaries.json",
+      "sha256": "24f958b354493a6804663226d5777a287b0407d0d4b935f628a3612af44fbc4e",
+      "size": 13635
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\core_objects.json",
+      "sha256": "e784bda3d0564046af40a328af23e7447422ff926f937232b0e3a905f6d5ec42",
+      "size": 21971
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\CORE_ONTOLOGY_V0.3_FROZEN.md",
+      "sha256": "c6213568d9a27afb873544c1cce943b79233044910e27a77ddf16c675a5cba23",
+      "size": 29227
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\core_principles.json",
+      "sha256": "9ba0d8873fb17d4dac7adb55e0f359e23b032fa51b50574c4380c596f84deb06",
+      "size": 19097
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\freeze_debt_ledger.json",
+      "sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+      "size": 11747
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\freeze_debt_status_overlay.json",
+      "sha256": "a655bf26ab7c2326d184a538d1f2ac61ec9adc7deb2882301e2d4f5ba7a0afa3",
+      "size": 780
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\freeze_manifest.json",
+      "sha256": "c914c025561baeac92f456515453fd57f75e36be950565f4047b8208d7a3bf0d",
+      "size": 22093
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\semantic_contract_projection.json",
+      "sha256": "4a99dabe1aacab24d4095a680352af99979ff58e2bba23149a5184fb85984ee6",
+      "size": 55888
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\source_mapping.json",
+      "sha256": "c1ce4e43ef3e1bda426d748b372ce71bdce10adc06b818324878df19092db405",
+      "size": 17537
+    }
+  ],
+  "reference_only": true,
+  "semantic_hash": "8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424"
+}

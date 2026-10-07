@@ -1,0 +1,60 @@
+{
+  "version": "1",
+  "episode": "EP001",
+  "source_sha256": "9841259e4587d6c190ca2941f726c0ae55417fb7e819cc13a2595eea4768cecf",
+  "baseline": {
+    "C01": "6619173e1028101f33a86bae1c35d064fc198c895a02dbb9ec087c6a1fe5230e",
+    "C02": "70d2ae56423bd93379c1ffacc006ab2305586248f4d65b7594195baa810e426f",
+    "C03": "4d6b61059dbdbd44b0d679bbb9693c11df9932047a6d32829ad1798f9932b0ee",
+    "C04": "6e3e5db7585c926a6e8921456b11443967537856e74a232e49cf15a3a2bd7ee3",
+    "C05": "1b2fd3627a56e25a624e3527b3364af1779af3591b25b76cdc9a7c62b5252be3",
+    "C06": "9c2258257008529633b19b80cecf3d024352793b7f8cc62a6f7b71e9412e6a77",
+    "C07": "0aa0761d71e239fe7ddefba47e38d844f0bb5c28601670dc0397aade924c2a26",
+    "C08": "6f1109e7caf50a4e45bea3b0b78e267d628c29d421aa11cdb269ea900df81180",
+    "C09": "d3f54cd1493ebcda3cc027cf819826e8a15b70952c49b40261c2a20be55ddf48",
+    "C10": "a2b9519f2092e1d883bb8b7d0a94d101e8f1b8d1cd605b00307bea8e2acc3664",
+    "C11": "75a152b9cf5129ad57243b707e6abd9f4603886269144bc03e88722a0f8972a4",
+    "C12": "6748879696b32958f3aba0ac8e9358d59bf429f67622c5c9441b8584dd375544",
+    "C13": "0bfd9c6c457a030d2132ad9531d5fab5f8bdc9cac8ebb6ccec644a47f3edd3fb",
+    "C14": "6cff5e0b30b58f542942f559803856b2139dff0984df14bf2f5f7cc018fc09d7",
+    "C15": "eb2b6b706a491ff66d8020af45380b9f7d093fd52dbd7c9cd5a64c76266c589e",
+    "C16": "d7fb04b5b4f9b58c30f908a4cd05a3b69eb4fdc5992dea544dcb7c9398fcced6",
+    "C17": "54ecf1b61bd432c5cca7afc8e1f22df7cb666d9ef730361b138784e33e656cc6",
+    "C18": "9755d8301a1d9bfa7cf5ac50501aa72e86df1586fcecfa575bd73667199cf79f",
+    "C19": "8e779a018a7f2cda5de8c4460bee042cda274e978b001e169b24e1a539d2c161",
+    "C20": "cef1b5ce4e2b28b23b5247f14463f3806140daa6abbf4e49bb9de0103422004a",
+    "C21": "277225a783bb0f6c376c7390d76a3c143913c644537b8ed1e88ec14a64eec74e",
+    "C22": "12b20af7f90eada9e47f8f69e03669089d625ed8b48c9c2f135d3d27e700c875",
+    "A01": "7b7469c0cb36ab608bb490d152735dc9cbad688c6a61400b5e382fa04ff74624",
+    "A02": "5c9b9bbba127cf31b89ccc4139259ed2c851baed51d32e6571b553d28f82d47a",
+    "A03": "2ae7cc2e959fa84c8f640ae0c3cf30744f095244d3f9196050c6d1b644fe3185",
+    "A04": "f909514e9486886dca401aa361586414ade7f8fd46e69b27626e51b5ee548309",
+    "A05": "269af32a52770aa721499c11e66acb5be819517c56889940aa0e6f425a62e71f",
+    "S01": "1945af082bc06ea82bb2b9738388669faa35f31cef382f04653abeabde66ca93",
+    "M01": "4f9123d911cbc1899b0cd82f1d524ece950915cc9c07fdeac38d266418b15002",
+    "M02": "5b7213690bd57cdda0eb05e7103f39f0b6acdac0efff6c1568543852b5b7254a",
+    "M03": "1aba9d65ce629d8c13cdf87a88a2542f6869c2f03795a0d8cbf3f84b2d4339e7",
+    "@forecast_candidates": "6669b4f621471584ce3f1cd854a537c1f0cfd075ab3e62acb087689bcc895faa"
+  },
+  "reviewed_ids": [
+    "C02"
+  ],
+  "facets": [
+    {
+      "claim": "C19",
+      "name": "持续成本条件",
+      "required_text": [
+        "成本继续上涨"
+      ]
+    }
+  ],
+  "edges": [],
+  "background_claims": [],
+  "context_only_cues": [],
+  "review_evidence": [
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\semantic_pilot_001\\batch_001\\receipt.json"
+  ]
+}

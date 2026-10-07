@@ -1,0 +1,52 @@
+{
+  "id": "NEWS01",
+  "url": "https://www.cls.cn/detail/2470121",
+  "title": "美国驻约旦基地遭袭后 特朗普称将“狠狠打击”伊朗",
+  "publisher": "财联社",
+  "author": "牛占林",
+  "published_at": "2026-08-31T23:51:05+08:00",
+  "published_basis": "正文显示23:51；页面__NEXT_DATA__.articleDetail.ctime=1788191465提供秒数，按UTC+08:00换算。",
+  "accessed_on": "2026-10-05",
+  "capture_type": "SELECTED_EXCERPT_AND_ATTRIBUTED_NOTES_NOT_FULL_PAGE_ARCHIVE",
+  "access_status": "PAGE_READ_SUCCESSFULLY",
+  "event_verification": "SINGLE_MEDIA_REPORT_NOT_INDEPENDENTLY_CORROBORATED",
+  "excerpt": "不过目前没有证据显示哈尔克岛遭到袭击。",
+  "excerpt_locator": "正文第4段，紧接AI视频与威胁表述之后。",
+  "notes": [
+    {
+      "id": "F1",
+      "locator": "正文第1、3段",
+      "statement": "报道转述美方威胁，并说明所发布画面由AI生成。",
+      "type": "REPORTED_STATEMENT"
+    },
+    {
+      "id": "F2",
+      "locator": "正文第4段",
+      "statement": "报道表示当时没有该岛遇袭证据。",
+      "type": "REPORTED_ABSENCE_OF_EVIDENCE"
+    },
+    {
+      "id": "F3",
+      "locator": "正文第2、6段",
+      "statement": "报道中的美伊双方对约旦基地受损情况说法不一。",
+      "type": "CONFLICTING_ATTRIBUTED_REPORTS"
+    },
+    {
+      "id": "F4",
+      "locator": "正文第10段",
+      "statement": "报道报价：布油90.90美元、涨3.2%；WTI86.28美元、涨3.5%。",
+      "type": "REPORTED_MARKET_SNAPSHOT"
+    },
+    {
+      "id": "F5",
+      "locator": "正文第8、13段",
+      "statement": "报道描述航运受扰，并转述伊方寻求外交协议。",
+      "type": "REPORTED_CONTEXT_AND_INTENT"
+    }
+  ],
+  "limits": [
+    "只核对网页确实这样写，未独立证实冲突、损失、价格或声明原文。",
+    "当前读取页不是当日网页历史快照，页面可能存在后续修订。",
+    "单一来源没有检索到的证据不代表全网不存在证据。"
+  ]
+}

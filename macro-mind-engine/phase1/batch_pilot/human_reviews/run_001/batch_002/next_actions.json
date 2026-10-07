@@ -1,0 +1,60 @@
+[
+  {
+    "id": "R01",
+    "target": "EP001/A01",
+    "action": "补齐投行推动题材转换的前文及企业盈利/估值依据；补录品牌人工纠正，保留原ASR。",
+    "kind": "语义修订及转写对照",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R02",
+    "target": "EP002/A01",
+    "action": "C04证据限于cue92–97；cue98–102单独提取其他进口渠道补库存，不直接连接120油价判断。",
+    "kind": "拆分并列原因",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R03",
+    "target": "EP004/A03",
+    "action": "保留两类盈利路径，新增全原创且出海有望企业长期更有价值的条件性排序。",
+    "kind": "补提取价值判断",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R04",
+    "target": "EP005/A01",
+    "action": "显式记录租金上涨/房价下降两分支，再连接价格合理性观察；不推定租金上涨必然代表房价低估。",
+    "kind": "补提取分支",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R05",
+    "target": "EP002/A02",
+    "action": "链条忠实意见保留；另记录Anthropic、发令枪晚了、No误识别的人工修正及时间位置。",
+    "kind": "转写修订",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R06",
+    "target": "EP003/A01",
+    "action": "链条忠实意见保留；另记录25BP、比1美元、日元想升值的人工修正及时间位置。",
+    "kind": "转写修订",
+    "status": "PLANNED_NOT_EXECUTED"
+  },
+  {
+    "id": "R07",
+    "target": "EP001/A01",
+    "action": "用户已在batch_002确认并更正3篇投行材料归属到EP001/A01。材料错放问题已解决；下一步仍需核验网页内容、发布时点、历史可得性及作者引用关系，不能仅凭同日认定早于视频。",
+    "kind": "来源补证与归属核对",
+    "status": "PLANNED_NOT_EXECUTED",
+    "association_status": "CORRECTED_BY_USER",
+    "source_content_verification": "NOT_VERIFIED"
+  },
+  {
+    "id": "R08",
+    "target": "ALL",
+    "action": "完成新版本后重新验证受影响链、隔离传播和审计；复核本批修订差异，再安排49组疑点及699条上下文的分层检查。",
+    "kind": "回归与下一批审核",
+    "status": "PLANNED_NOT_EXECUTED"
+  }
+]

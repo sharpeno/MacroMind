@@ -1,0 +1,14 @@
+PASS positive v0.2 application: actor dependencies, goal/action alternatives and bounded feedback.
+PASS rejected beneficiary_to_planner
+PASS rejected missing_to_absent
+PASS rejected hidden_motive_proven
+PASS rejected announcement_to_execution
+PASS rejected action_to_effect
+PASS rejected omit_method
+PASS rejected missing_dependency
+PASS rejected sole_motive
+PASS rejected unconditional_link
+PASS rejected no_retraction
+PASS rejected fake_reference
+PASS rejected false_blind
+PASS 650 protected files unchanged; M03/M05 unchanged. Semantic effectiveness not established.

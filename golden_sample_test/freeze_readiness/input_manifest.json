@@ -1,0 +1,248 @@
+{
+  "audit_version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+  "inputs": [
+    {
+      "source_id": "GS001",
+      "path": "G:/youhegaojian/golden_sample_test/golden_report.md",
+      "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+      "size_bytes": 1922,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "GS002",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+      "size_bytes": 500557,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "GS003",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+      "size_bytes": 587765,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "GS004",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+      "size_bytes": 833498,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "GS005",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "size_bytes": 760236,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "PROMPT",
+      "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3.md",
+      "sha256": "e2636e5a4ff7d608d8a4f67b48fe3fa60f18b8349e92a47ef115a0fd18ad8292",
+      "size_bytes": 29634,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "V02",
+      "path": "G:/youhegaojian/迭代/MacroMind V0.2 Patch.md",
+      "sha256": "075c4cd1a726a7ee874ea52510880e1d0e989073accae87a677fac976e562e8d",
+      "size_bytes": 17595,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "V03",
+      "path": "G:/youhegaojian/迭代/MacroMind Ontology  Schema  Extraction Spec V0.3 Patch.md",
+      "sha256": "882d0040ac8636d36f380f28618876e3f50af4a913a01e5074aa57a3a1c1fe21",
+      "size_bytes": 27340,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "MA",
+      "path": "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.md",
+      "sha256": "ea8c995af1771dd29ce5b9fba099adb0bb69e2158ea63599ec4ac9fc2dec1ca5",
+      "size_bytes": 26178,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "MA1",
+      "path": "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "sha256": "549bc9e0d524aead8048e57f2d6121288ff3e19ddda918b30e30e46909334bca",
+      "size_bytes": 10812,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "EX03",
+      "path": "G:/youhegaojian/prompt/V03.MD",
+      "sha256": "16253012fb76b3c9cf409acd1afe63d653c5dba8a80e7c3df9b4368fad3202a4",
+      "size_bytes": 25473,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "EX031",
+      "path": "G:/youhegaojian/prompt/V0.3.1.md",
+      "sha256": "b819614cc2d18e4a169d7792ffc12c1973212096d16b2f022b4a32c6811703ce",
+      "size_bytes": 29198,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "HORMUZ",
+      "path": "G:/youhegaojian/prompt/V0.3追加.md",
+      "sha256": "17d4e431067b8f1028b0ad53756b0e42e0126faa966c4ea3e8d5df119031daef",
+      "size_bytes": 3785,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G3SC",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/scenario_tree.json",
+      "sha256": "c1b201bf467ff8ecd78b08cf3721f2c6c2441c50b2380753901f5b051378290c",
+      "size_bytes": 71758,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G3SV",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/source_versions.json",
+      "sha256": "2d4433fadf99c55ecd9cb981d250a1cc93a93ad4c411c6f9035db9807c7a4249",
+      "size_bytes": 3740,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G4LOG",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/gs004_finalization_log.json",
+      "sha256": "0a1fc33eacbc42813134b086d271b70f9091afe32b3d2cbe8541a0164b342210",
+      "size_bytes": 20349,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G4VAL",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/validation_after_finalization.json",
+      "sha256": "5d95945ecc440a775aea312a9533645960119d42ca114b8ea26a1f9b45cd82fb",
+      "size_bytes": 535985,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G4DIFF",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/gs004_finalization_diff.md",
+      "sha256": "dcf5fd9c6f67b29e510c82d66e99e3f562b1ef9126360cb472560fa79ad91c7d",
+      "size_bytes": 3406,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G4MIG",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/gs004_ma1_migration_report.md",
+      "sha256": "40e57cf6e73d54f0f5847cb949e5dcc59d64c3bc0a369e4e9ba59cc96daba20d",
+      "size_bytes": 1673,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5SUP",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005_ma1_supplement.md",
+      "sha256": "42673793885a5233052858e2c51d86e0f625d7a3cfee45b6f5f7ef2e18307bc6",
+      "size_bytes": 16289,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5DIFF",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/migration/ma1/diff_summary.md",
+      "sha256": "debde587b8cf65627e1f550d6f6a45e9c8a1396b1eeb57eebbdaa876d9a438a7",
+      "size_bytes": 364362,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5FIN",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/finalization_log.json",
+      "sha256": "da6aaed9775ec70c58de3a818b531f755070cfa27d6592db45d96c6e37db885f",
+      "size_bytes": 10909,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5OLDVAL",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/validation_after_finalization.json",
+      "sha256": "8fed8b6773db8648ee5b0052db871336e167d607829b653382c06a0ad9e5b882",
+      "size_bytes": 305783,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5LOG",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/hotfix_log.json",
+      "sha256": "0a7551cf54623973af535f99f4ca063d5fb6cb6eaba7fcef5ed4cc700e1dc8a1",
+      "size_bytes": 3350,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5VAL",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/validation_after_hotfix_1_1.json",
+      "sha256": "2b23fb80b21e4177427e083d6d7ff47efe1e51723729d7f4621bb675b61c918b",
+      "size_bytes": 305786,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "G5HOTDIFF",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/hotfix_diff.md",
+      "sha256": "82b0230b672b7763eed30f4bb726d0f42649d3ee9cc62942ca50e176126efec6",
+      "size_bytes": 744,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "VAL4",
+      "path": "G:/youhegaojian/golden_sample_test/validate_gs004_ma1.py",
+      "sha256": "74f584cc0f0bcf408a95df1d20f5754b4d6d8d32e7080ae8e2dfd657bd7d4091",
+      "size_bytes": 17269,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "VAL5",
+      "path": "G:/youhegaojian/golden_sample_test/migrate_gs005_ma1.py",
+      "sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7",
+      "size_bytes": 35467,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "MIG4",
+      "path": "G:/youhegaojian/golden_sample_test/migrate_gs004_ma1.py",
+      "sha256": "97b8384533fd5dcfe675e71316e707d2f58a1969dfeadab411ddab0104993b24",
+      "size_bytes": 23763,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "CONTRACT5",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/migration/ma1/schema_contract.json",
+      "sha256": "bc237df23263089ee21633c6281f6f28bc862eb3203ee2f190513117659208e9",
+      "size_bytes": 3003,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "REPORT2",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002_report.md",
+      "sha256": "6d790ba2ca3fd03d84e8259e400326246557bdd26584055abac75f8b4fac49c9",
+      "size_bytes": 226633,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "REPORT3",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003_report.md",
+      "sha256": "cc479728e1ab04d53481deba0678e631427edeacb21e77e9419470254e722cbb",
+      "size_bytes": 553617,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "REPORT4",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004_report.md",
+      "sha256": "4ad7e3f6ce9160986949f6028aaa4dcfd3642664b199fab10d77aca548638052",
+      "size_bytes": 600138,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    },
+    {
+      "source_id": "REPORT5",
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005_report.md",
+      "sha256": "46a9286bdf2abff2d4213c906418e8a1dca68b6a961bdd6d66eed46d19a595d9",
+      "size_bytes": 534691,
+      "scope": "targeted_semantic_and_structural_audit_not_factual_reverification"
+    }
+  ],
+  "missing_or_limited": [
+    "GS001 machine-readable objects unavailable",
+    "No standalone V0.3.1 Patch found among supplied iteration files; EX031 is a sample extraction prompt",
+    "No full production registry supplied"
+  ]
+}

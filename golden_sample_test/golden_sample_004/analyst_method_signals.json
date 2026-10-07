@@ -1,0 +1,267 @@
+{
+  "analyst_id": "analyst_youhegaojian9527",
+  "attention_patterns": [
+    {
+      "signal_id": "MS01",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "attention_pattern",
+      "statement": "先问叙事维持所需资金、持续运行成本和可执行边界，再判断新闻解释是否足够。",
+      "source_segment_refs": [
+        "SS-C014",
+        "SS-C080",
+        "SS-C104"
+      ],
+      "argument_refs": [
+        "AR14",
+        "AR11"
+      ],
+      "claim_refs": [
+        "C014",
+        "C080",
+        "C104"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "repeated",
+      "matched_prior_signal_refs": [
+        "GS003/HC01",
+        "GS001/summary:结构力量优先于政治人物"
+      ],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "原文明确说明选择变量的次序，并在云成本及末尾自述重复。",
+      "limitations": "不是已经证明资金约束无解，也不能推断所有未来视频均如此；GS001仅摘要可比，不能声称逐句复核。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "question_patterns": [
+    {
+      "signal_id": "MS02",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "question_pattern",
+      "statement": "追问总量中的旧业务和新贡献，并检查比较数字的分母及发生时间。",
+      "source_segment_refs": [
+        "SS-C055",
+        "SS-C091",
+        "SS-C092"
+      ],
+      "argument_refs": [
+        "AR04",
+        "AR09"
+      ],
+      "claim_refs": [
+        "C055",
+        "C091",
+        "C092"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "分别向云订单与投诉比例提出口径问题，是对证据的操作。",
+      "limitations": "没有证据证明其得到的拆分答案正确；也不等同GS002完整的增量看趋势存量看空间。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    },
+    {
+      "signal_id": "MS07",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "question_pattern",
+      "statement": "暂时转换为非粉丝视角，并围绕增长目标判断是否在争取可转化人群。",
+      "source_segment_refs": [
+        "SS-C086",
+        "SS-C094",
+        "SS-C096"
+      ],
+      "argument_refs": [
+        "AR16"
+      ],
+      "claim_refs": [
+        "C086",
+        "C094",
+        "C096"
+      ],
+      "expression_level": "explicit",
+      "domain": "AI/cloud and brand/organization analysis",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "是问题选择及观察位置的改变，适用于解释公关选择。",
+      "limitations": "主张能争取不等于实际转化有效；政治联合类比有边界。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "evidence_preferences": [],
+  "mechanism_usage_signals": [
+    {
+      "signal_id": "MS03",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "mechanism_usage",
+      "statement": "把资本设备寿命与周期回报匹配作为云业务能否赚钱的检查点。",
+      "source_segment_refs": [
+        "SS-C066",
+        "SS-C072",
+        "SS-C073"
+      ],
+      "argument_refs": [
+        "AR05"
+      ],
+      "claim_refs": [
+        "C066",
+        "C072",
+        "C073"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "domain_specific",
+      "recurrence_status": "repeated",
+      "matched_prior_signal_refs": [
+        "GS003/HC02"
+      ],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "检查资本回收与成本的方式可以跨资本密集行业使用。",
+      "limitations": "只归因原文明确部分；会计/经济折旧的完整区分来自模型审计；与前期仅成本/周期子动作复现。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "branching_patterns": [
+    {
+      "signal_id": "MS08",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "branching_pattern",
+      "statement": "把追涨后的跑早、侥幸成功、跑晚分别展开，但都归入下一次风险增加。",
+      "source_segment_refs": [
+        "SS-C063"
+      ],
+      "argument_refs": [
+        "AR15"
+      ],
+      "claim_refs": [
+        "C063"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "unknown",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "观察到组织不确定性的方法，而非逐项预测未来结果。",
+      "limitations": "分支结果全导向同一结论，有封闭解释风险；不能据此证明穷尽或稳定方法。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "judgment_patterns": [
+    {
+      "signal_id": "MS04",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "judgment_pattern",
+      "statement": "本期不把财报超预期和股价反弹作为充分证据，要求能解释持续上涨的业务、应用及需求支撑。",
+      "source_segment_refs": [
+        "SS-C079",
+        "SS-C080",
+        "SS-C112"
+      ],
+      "argument_refs": [
+        "AR14"
+      ],
+      "claim_refs": [
+        "C079",
+        "C080",
+        "C112"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "出现了接受或拒绝叙事的条件式判断动作。",
+      "limitations": "只观察到拒绝门槛；没有足够证据恢复一套何时愿意买入/相信故事的完整政策。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "analogy_patterns": [
+    {
+      "signal_id": "MS05",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "analogy_pattern",
+      "statement": "用成熟技术习惯与设备代际变化解释新技术的扩散和寿命边界。",
+      "source_segment_refs": [
+        "SS-C036",
+        "SS-C110"
+      ],
+      "argument_refs": [
+        "AR06",
+        "AR12"
+      ],
+      "claim_refs": [
+        "C036",
+        "C110"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "potentially_general",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "在两处使用跨案例共享机制，不只是重复结论。",
+      "limitations": "类比不证明同幅生产率提升、同寿命或同折旧金额。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ],
+  "falsification_patterns": [],
+  "failure_patterns": [
+    {
+      "signal_id": "MS06",
+      "analyst_id": "analyst_youhegaojian9527",
+      "reasoner_id": "analyst_youhegaojian9527",
+      "analysis_context": "historical_reconstruction",
+      "annotation_observer": "model_gpt6",
+      "signal_type": "failure_pattern",
+      "statement": "从季度与日度时间比直接推90倍泡沫，未提供估值模型。",
+      "source_segment_refs": [
+        "SS-C019",
+        "SS-C020"
+      ],
+      "argument_refs": [
+        "AR01"
+      ],
+      "claim_refs": [
+        "C019",
+        "C020"
+      ],
+      "expression_level": "explicit",
+      "domain": "本期相应讨论域",
+      "transferability": "unknown",
+      "recurrence_status": "first_observation",
+      "matched_prior_signal_refs": [],
+      "confidence": "high_textual_evidence_not_method_validity",
+      "why_this_is_method_not_conclusion": "可明确定位的量纲/推导动作缺陷；未来可检查是否重复。",
+      "limitations": "标注者是模型；记录的是显式原文跳跃，不把M01/M02补全当主播方法；尚非稳定失败模式。",
+      "promotion_status": "observed_candidate_only_not_skill_rule"
+    }
+  ]
+}

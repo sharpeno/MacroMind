@@ -1,0 +1,94 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "a5eddbab90c0a05a919931152b51d3af10a4a6d3fefc0e89f49da3079baf55fe",
+  "exported_at": "2026-10-03T09:10:01.329Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "EP001/A01/revision",
+      "episode": "EP001",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "faithful",
+      "note": "QA测试，非真实人工意见",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:10:01.164Z"
+    },
+    {
+      "id": "EP002/A01/revision",
+      "episode": "EP002",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "EP004/A03/revision",
+      "episode": "EP004",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "EP005/A01/revision",
+      "episode": "EP005",
+      "kind": "推理链",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "EP002/A02/revision",
+      "episode": "EP002",
+      "kind": "转写疑点",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "EP003/A01/revision",
+      "episode": "EP003",
+      "kind": "转写疑点",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    },
+    {
+      "id": "EP001/duration/revision",
+      "episode": "EP001",
+      "kind": "转写疑点",
+      "content_status": "pending",
+      "decision": "pending",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "reviewer": "",
+      "updated_at": null
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

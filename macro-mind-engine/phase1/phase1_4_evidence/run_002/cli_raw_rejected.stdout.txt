@@ -1,0 +1,6 @@
+{
+  "errors": [
+    "5 validation errors for ValidationInput\nobjects\n  Field required [type=missing, input_value={'02_SOURCES': [], '08_CL... [], '18_ARGUMENTS': []}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\n02_SOURCES\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\n08_CLAIMS\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[{'claim_id': 'c', 'statement': 'recorded'}], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\n12_STRUCTURAL_PROCESSES\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\n18_ARGUMENTS\n  Extra inputs are not permitted [type=extra_forbidden, input_value=[], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"
+  ],
+  "status": "INPUT_ERROR"
+}

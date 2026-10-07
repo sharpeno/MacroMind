@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q",
+    "-W",
+    "error",
+    "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_5a_evidence\\run_003\\tests.xml"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine",
+  "exit_code": 0,
+  "stderr": "phase1/phase1_5a_evidence/run_003/pytest.stderr.txt",
+  "stdout": "phase1/phase1_5a_evidence/run_003/pytest.stdout.txt"
+}

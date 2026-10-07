@@ -1,0 +1,24 @@
+const {chromium}=require('C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const checks=[],errors=[];try{
+const page=await browser.newPage({viewport:{width:1280,height:900}});
+page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+await page.goto('http://127.0.0.1:8770/TRACE.html');
+const ck=(name,ok)=>checks.push({name,passed:!!ok});
+ck('identity',(await page.title()).includes('从决策推导动机'));
+ck('meaningful body',(await page.locator('h1').innerText()).includes('可能的动机'));
+ck('no error overlay',!(await page.locator('body').innerText()).includes('Internal Server Error'));
+await page.locator('nav a[href="#oil"]').click();ck('case navigation',page.url().endsWith('#oil'));
+await page.locator('#oil-H1 summary').click();ck('inference expanded',await page.locator('#oil-H1 details').getAttribute('open')!==null);
+const text=await page.locator('#oil-H1 details').innerText();
+ck('alternatives and weakening visible',text.includes('还有哪些解释')&&text.includes('削弱'));
+ck('original certainty preserved',(await page.locator('#oil-H1').innerText()).includes('肯定'));
+await page.locator('#oil-H1 a[href="#oil-O1"]').click();ck('observation trace',page.url().endsWith('#oil-O1'));
+await page.locator('#oil-O1 summary').click();ck('raw observation available',(await page.locator('#oil-O1 details').innerText()).includes('库存的补充'));
+await page.screenshot({path:path.join(__dirname,'desktop.png')});
+await page.locator('nav a[href="#fed"]').click();ck('transfer distinguished',(await page.locator('#fed-H1').innerText()).includes('助手按这一分析方式'));
+const response=await page.request.get('http://127.0.0.1:8770/inference.json');ck('structured data',response.ok()&&(await response.json()).skill_ready===false);
+await page.setViewportSize({width:390,height:844});await page.goto('http://127.0.0.1:8770/TRACE.html');
+ck('mobile fits',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:path.join(__dirname,'mobile.png')});ck('console healthy',errors.length===0);
+fs.writeFileSync(path.join(__dirname,'results.json'),JSON.stringify({browser:'Edge via Playwright',reason:'Browser plugin not available',viewports:['1280x900','390x844'],checks,errors},null,2));console.log(JSON.stringify({checks:checks.length,passed:checks.every(c=>c.passed),errors}));if(checks.some(c=>!c.passed))process.exitCode=1;
+}finally{await browser.close()}})().catch(e=>{console.error(e);process.exit(1)});

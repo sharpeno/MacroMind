@@ -1,0 +1,22 @@
+{
+  "stage": "INTAKE_AND_EXECUTION_PROMPT_PREPARED",
+  "completed": [
+    "26 input files independently inventoried and hashed",
+    "5 SRT files parsed, 1913 cues checked",
+    "5 MP4 header durations read",
+    "20 unverified reference candidates registered",
+    "intake report and first-five execution prompt saved"
+  ],
+  "not_completed": [
+    "audio listening and ASR correction",
+    "external-page content/time verification",
+    "reference-to-cue attribution",
+    "analysis extraction and pilot execution",
+    "human quality review"
+  ],
+  "next_step": "Execute first-five pilot prompt starting with EP001 calibration; do not represent this intake as extraction acceptance",
+  "original_hashes_rechecked": 26,
+  "mismatches": [],
+  "prompt_path": "G:\\youhegaojian\\codex迭代\\codex prompt\\20261003MacroMind Batch Pilot — First 5 Episodes Execution Prompt.md",
+  "prompt_sha256": "7d41e74e7f7b5c4d71297037449e89ba5fabe8d99e89bd30b80f3ea031af08d8"
+}

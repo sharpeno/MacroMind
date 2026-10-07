@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "created_during_acceptance_evidence_completion": true,
+  "frozen_manifest_path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\freeze_manifest.json",
+  "frozen_values": {
+    "analyst_skill_status": "NOT_READY",
+    "macromind_core_skill_status": "NOT_READY",
+    "production_import_ready": false
+  },
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "phase_manifest_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_0_1_2_manifest.json",
+  "phase_values": {
+    "analyst_skill_status": "NOT_READY",
+    "macromind_core_skill_status": "NOT_READY",
+    "production_import_ready": false
+  },
+  "started_at": "2026-09-27T14:09:46.173235+00:00"
+}

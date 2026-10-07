@@ -1,0 +1,16 @@
+{
+  "command": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "G:\\youhegaojian\\macro-mind-engine\\src",
+    "G:\\youhegaojian\\macro-mind-engine\\tests",
+    "G:\\youhegaojian\\macro-mind-engine\\scripts"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "All checks passed!\n"
+}

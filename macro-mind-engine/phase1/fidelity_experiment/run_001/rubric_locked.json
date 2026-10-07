@@ -1,0 +1,163 @@
+{
+  "dimensions": [
+    "attention",
+    "question",
+    "reasoning",
+    "ranking",
+    "stance"
+  ],
+  "scores": {
+    "0": "核心缺失或反转",
+    "1": "部分对应，关键联系或条件缺失",
+    "2": "核心要素与联系对应"
+  },
+  "units": [
+    {
+      "id": "D472A",
+      "episode": 472,
+      "target": "内部控制链",
+      "expected": "一般分歧没有展开为消息矛盾、撤离迹象、管理脱节与盟友亲自介入的链条。",
+      "force_scope": "作者作较强控制失灵推断；不是独立核验事实。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D472A"
+    },
+    {
+      "id": "D472B",
+      "episode": 472,
+      "target": "角色约束与说话动机",
+      "expected": "已识别耶伦身份，没有串起身份、事件态度、不能示弱的约束和壮胆动机。",
+      "force_scope": "保留作者“唯一的正确答案”“心里面虚”的强判断。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D472B"
+    },
+    {
+      "id": "D472C",
+      "episode": 472,
+      "target": "短期判断与未知因果",
+      "expected": "有更新触发器，没有还原3—5天和平判断以及同时承认因果说不清。",
+      "force_scope": "保留“起码3~5天”和“说不清楚”，按命题分别记确信程度。",
+      "NE_dimensions": [
+        "attention",
+        "question",
+        "reasoning",
+        "ranking",
+        "stance"
+      ],
+      "NE_reason": "共同材料不支持3—5天和平与会议关联。",
+      "evidence_ref": "D472C"
+    },
+    {
+      "id": "D473A",
+      "episode": 473,
+      "target": "场景中的行动信号",
+      "expected": "身份表没有表达多边活动、外部局势、参与方式和接待关系的共同作用。",
+      "force_scope": "依最新用户修订，收窄为以众多参与者之一参加盛会，不扩大为全面认可秩序。",
+      "NE_dimensions": [
+        "attention",
+        "question",
+        "reasoning",
+        "ranking",
+        "stance"
+      ],
+      "NE_reason": "缺姿态、接待级别及完整活动背景。",
+      "evidence_ref": "D473A"
+    },
+    {
+      "id": "D473B",
+      "episode": 473,
+      "target": "预期渠道与长期推演",
+      "expected": "原答案等待实体协议，漏掉沟通与利益协调、争斗需求、供应风险预期和价格的链条。",
+      "force_scope": "保留作者对供应风险暴涨剧本不太可能的倾向；长期推演另列。",
+      "NE_dimensions": [
+        "stance"
+      ],
+      "NE_reason": "无价格序列，不评分具体油价方向强度。",
+      "evidence_ref": "D473B"
+    },
+    {
+      "id": "D473C",
+      "episode": 473,
+      "target": "案例示范与路径吸引",
+      "expected": "合同与交付区分没有覆盖技术回流、市场整合和案例激发合作向往。",
+      "force_scope": "示范效果是作者解释，不写成已验证结果。",
+      "NE_dimensions": [
+        "ranking",
+        "stance"
+      ],
+      "NE_reason": "缺产业历史与长期秩序背景，不评分长期排序和确信。",
+      "evidence_ref": "D473C"
+    },
+    {
+      "id": "D474A",
+      "episode": 474,
+      "target": "分支与区分性观察",
+      "expected": "保持未定，没有展开有意施压与非预期后失控两支及后续观察。",
+      "force_scope": "责任倾向与是否有意分开；不把作者猜测升级成事实。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D474A"
+    },
+    {
+      "id": "D474B",
+      "episode": 474,
+      "target": "话语策略用途",
+      "expected": "没有还原支持话语可能借交付限制甩责、停止要求可能为介入铺垫。",
+      "force_scope": "伊朗“未来一定会下场”为强断言；给拜登设局在后文只是猜测之一。",
+      "NE_dimensions": [
+        "attention",
+        "question",
+        "reasoning",
+        "ranking",
+        "stance"
+      ],
+      "NE_reason": "缺完整美方支持与伊朗介入威胁话语。",
+      "evidence_ref": "D474B"
+    },
+    {
+      "id": "D474C",
+      "episode": 474,
+      "target": "责任分散与纠偏困难",
+      "expected": "外部压力分析漏掉多环节责任、战时不能停机排查及高层难控基层。",
+      "force_scope": "保留作者关于持续越线的强判断，不将它晋升为普遍定律。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D474C"
+    },
+    {
+      "id": "D475A",
+      "episode": 475,
+      "target": "目标与既有手段",
+      "expected": "区分预期与政策，但漏掉抑制通胀目标、高息持续作用和无需追加加息的倾向。",
+      "force_scope": "保留“最后的结果呢还是不加息”与油价暴涨例外，不改成马上降息。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D475A"
+    },
+    {
+      "id": "D475B",
+      "episode": 475,
+      "target": "结果反推未见机制",
+      "expected": "未复现作者以消费韧性支持隐蔽注水旧判断。",
+      "force_scope": "作者说“证实”又说管道看不到，两者同时保留，不补造管道。",
+      "NE_dimensions": [
+        "stance"
+      ],
+      "NE_reason": "此前注水论原始记录缺失，不要求称证实的强度。",
+      "evidence_ref": "D475B"
+    },
+    {
+      "id": "D475C",
+      "episode": 475,
+      "target": "主要矛盾与等待成本",
+      "expected": "并行解释未表达国内通胀优先、美以等待成本冲突和明确倾向。",
+      "force_scope": "保留“美国一定不会”“板上钉钉”；不被绑定不等于终止全部军援。",
+      "NE_dimensions": [],
+      "NE_reason": "",
+      "evidence_ref": "D475C"
+    }
+  ],
+  "scorer": "root assistant knows targets and arms; NOT independently blinded",
+  "interpretation": "descriptive development comparison, no statistical significance or unseen performance claim"
+}

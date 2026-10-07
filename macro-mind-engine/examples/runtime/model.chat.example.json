@@ -1,0 +1,11 @@
+{
+  "protocol": "chat_completions",
+  "base_url": "http://127.0.0.1:11434/v1",
+  "model": "REPLACE_WITH_LOCAL_TOOL_CALLING_MODEL",
+  "api_key_env": "MACROMIND_LOCAL_API_KEY",
+  "chat_token_parameter": "max_tokens",
+  "timeout_seconds": 45,
+  "max_retries": 1,
+  "max_rounds": 8,
+  "max_output_tokens": 3000
+}

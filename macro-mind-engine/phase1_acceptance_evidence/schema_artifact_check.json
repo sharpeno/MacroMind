@@ -1,0 +1,267 @@
+{
+  "all_pass": true,
+  "auxiliary_count": 12,
+  "core_count": 14,
+  "core_membership": [
+    "Actor",
+    "Argument",
+    "Assessment",
+    "Claim",
+    "Contradiction",
+    "Event",
+    "Forecast",
+    "Heuristic",
+    "Indicator",
+    "Mechanism",
+    "Policy",
+    "Source",
+    "StructuralProcess",
+    "Thesis"
+  ],
+  "created_during_acceptance_evidence_completion": true,
+  "duplicate_manifest_paths": false,
+  "files": [
+    {
+      "actual_sha256": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d",
+      "exists": true,
+      "expected_sha256": "d6f5f56c5eaa3fdf14bfe613928ddbc121462a82fb385ca418818919ffe4526d",
+      "kind": "core",
+      "match": true,
+      "model": "Actor",
+      "path": "core/Actor.schema.json"
+    },
+    {
+      "actual_sha256": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96",
+      "exists": true,
+      "expected_sha256": "d64b0fc864be63cba67e0dc05332862785a1ed30d0ca7bf6d36d3fc4e0889c96",
+      "kind": "core",
+      "match": true,
+      "model": "Argument",
+      "path": "core/Argument.schema.json"
+    },
+    {
+      "actual_sha256": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574",
+      "exists": true,
+      "expected_sha256": "a68deaa49794313220693731a7020ceb10936c3a52fdece1bb1b3d6d0fd84574",
+      "kind": "core",
+      "match": true,
+      "model": "Assessment",
+      "path": "core/Assessment.schema.json"
+    },
+    {
+      "actual_sha256": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3",
+      "exists": true,
+      "expected_sha256": "27a1abe0e0947f757d3f156eadbf2df8501634cba2bb4e300d1aa05feece79d3",
+      "kind": "core",
+      "match": true,
+      "model": "Claim",
+      "path": "core/Claim.schema.json"
+    },
+    {
+      "actual_sha256": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331",
+      "exists": true,
+      "expected_sha256": "263c38bdbbdfc2411be66cddda5a90ce44794e568d41addf8309a862e8393331",
+      "kind": "core",
+      "match": true,
+      "model": "Contradiction",
+      "path": "core/Contradiction.schema.json"
+    },
+    {
+      "actual_sha256": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb",
+      "exists": true,
+      "expected_sha256": "663976808a5a22836177529c0029e672b51d9bf3bc88bb6641f4f5343712e0fb",
+      "kind": "core",
+      "match": true,
+      "model": "Event",
+      "path": "core/Event.schema.json"
+    },
+    {
+      "actual_sha256": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978",
+      "exists": true,
+      "expected_sha256": "1787e3ac5e3fb957d6873bf6df678dc55a37c45c6ef47fe8f7cca19c2c857978",
+      "kind": "core",
+      "match": true,
+      "model": "Forecast",
+      "path": "core/Forecast.schema.json"
+    },
+    {
+      "actual_sha256": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0",
+      "exists": true,
+      "expected_sha256": "ef1680883a3c07a3fc060e73f0d45e2d74628cce3c24567785bf81523c870fc0",
+      "kind": "core",
+      "match": true,
+      "model": "Heuristic",
+      "path": "core/Heuristic.schema.json"
+    },
+    {
+      "actual_sha256": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d",
+      "exists": true,
+      "expected_sha256": "f440e4b3e826d303e0c932c22cfbaed4f072df49c82822dff73a5573c78c055d",
+      "kind": "core",
+      "match": true,
+      "model": "Indicator",
+      "path": "core/Indicator.schema.json"
+    },
+    {
+      "actual_sha256": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade",
+      "exists": true,
+      "expected_sha256": "8a8cc6e21236b7526d038c56bbdc6d9514d9fe42bfcb02c9e590afcf3af20ade",
+      "kind": "core",
+      "match": true,
+      "model": "Mechanism",
+      "path": "core/Mechanism.schema.json"
+    },
+    {
+      "actual_sha256": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56",
+      "exists": true,
+      "expected_sha256": "a4ddc2e2563e615934bf93d9cb786b283dcf2e855fd4a454a5bb1b234df6ec56",
+      "kind": "core",
+      "match": true,
+      "model": "Policy",
+      "path": "core/Policy.schema.json"
+    },
+    {
+      "actual_sha256": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a",
+      "exists": true,
+      "expected_sha256": "b64f7dc2fbf82c221d1b048600318ee36afe9a2b78a64719dbec6512c7d19d0a",
+      "kind": "core",
+      "match": true,
+      "model": "Source",
+      "path": "core/Source.schema.json"
+    },
+    {
+      "actual_sha256": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4",
+      "exists": true,
+      "expected_sha256": "27423b80b141f2473a8e981eac02b26c0ce1b0e7299d9d02898f62c6d3a071b4",
+      "kind": "core",
+      "match": true,
+      "model": "StructuralProcess",
+      "path": "core/StructuralProcess.schema.json"
+    },
+    {
+      "actual_sha256": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76",
+      "exists": true,
+      "expected_sha256": "1b7817e9b5186cf0293eb7e260c793db86bc6fa6e9c2a9ad74f188414c51cf76",
+      "kind": "core",
+      "match": true,
+      "model": "Thesis",
+      "path": "core/Thesis.schema.json"
+    },
+    {
+      "actual_sha256": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd",
+      "exists": true,
+      "expected_sha256": "40c7b212d6d8a74af00649eda030d1c1912cfced761c72969423837628d78acd",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "path": "auxiliary/AnalystMethodSignal.schema.json"
+    },
+    {
+      "actual_sha256": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e",
+      "exists": true,
+      "expected_sha256": "8e1087e2af6ff96809ad0011c0c2b612096e3175e5ff448f7bccd9268945a63e",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "ClaimOccurrence",
+      "path": "auxiliary/ClaimOccurrence.schema.json"
+    },
+    {
+      "actual_sha256": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283",
+      "exists": true,
+      "expected_sha256": "6f92dea2b720d8d5092ad72e8274e790333bd3e283794fce0f5d0b0d85aec283",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "ExpectationSnapshot",
+      "path": "auxiliary/ExpectationSnapshot.schema.json"
+    },
+    {
+      "actual_sha256": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10",
+      "exists": true,
+      "expected_sha256": "abee0be9f8377e97983e4b017eef60041758b37da2587dba72b803f1174dfb10",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "IndicatorObservation",
+      "path": "auxiliary/IndicatorObservation.schema.json"
+    },
+    {
+      "actual_sha256": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b",
+      "exists": true,
+      "expected_sha256": "20a96bbf833f267266df5ffb3ab97682158afd26de860cb173ec6d40b311967b",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "InformationSet",
+      "path": "auxiliary/InformationSet.schema.json"
+    },
+    {
+      "actual_sha256": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f",
+      "exists": true,
+      "expected_sha256": "f588ef83d3cc89dcd57098d035436f64b5e864cdd8554100010301f5fdcc852f",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "MechanismUsage",
+      "path": "auxiliary/MechanismUsage.schema.json"
+    },
+    {
+      "actual_sha256": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7",
+      "exists": true,
+      "expected_sha256": "443bf50c6b5bda87a6a066c03f074a6d48e5c2d9927545a9eda567f8f686f7b7",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "ReviewQueueItem",
+      "path": "auxiliary/ReviewQueueItem.schema.json"
+    },
+    {
+      "actual_sha256": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4",
+      "exists": true,
+      "expected_sha256": "77d1022e38c03ae53083977d22ec67316cb822836737c93b0fe8f3a94aec73e4",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "Scenario",
+      "path": "auxiliary/Scenario.schema.json"
+    },
+    {
+      "actual_sha256": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47",
+      "exists": true,
+      "expected_sha256": "7a7a7ff65b69e8316f65dd187ab896658d0fde415de081c38bbbd0eb1838aa47",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "SourceFamily",
+      "path": "auxiliary/SourceFamily.schema.json"
+    },
+    {
+      "actual_sha256": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89",
+      "exists": true,
+      "expected_sha256": "a742dd6acc4ed5ce81e8fbe2208a34514a4958b6e5bf8fe094722c4b99500a89",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "SourceSegment",
+      "path": "auxiliary/SourceSegment.schema.json"
+    },
+    {
+      "actual_sha256": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409",
+      "exists": true,
+      "expected_sha256": "96ec624554920ab78cd9b279be2a5d38e0d73e4f2b25cddc9a1fdd8a4f5b3409",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "SourceVersion",
+      "path": "auxiliary/SourceVersion.schema.json"
+    },
+    {
+      "actual_sha256": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38",
+      "exists": true,
+      "expected_sha256": "5a748a368a1bc69042b3919729c0f7341510b3202b1511d944d30c458a742f38",
+      "kind": "auxiliary",
+      "match": true,
+      "model": "TranscriptCorrection",
+      "path": "auxiliary/TranscriptCorrection.schema.json"
+    }
+  ],
+  "manifest_path": "G:\\youhegaojian\\macro-mind-engine\\schemas\\v0_3\\schema_manifest.json",
+  "manifest_sha256": "6bd488042e26927602ddd9db91ad3420f5a598e3f603be56971ffc2ebd256343",
+  "missing_files": [],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "started_at": "2026-09-27T14:09:06.462553+00:00",
+  "total_count": 26,
+  "unexpected_files": []
+}

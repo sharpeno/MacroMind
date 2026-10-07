@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "format",
+    "--check",
+    "src/macromind/methods/timeline.py",
+    "scripts/run_method_timeline.py",
+    "tests/methods/test_timeline.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

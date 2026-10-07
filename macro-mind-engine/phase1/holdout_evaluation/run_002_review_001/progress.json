@@ -1,0 +1,17 @@
+{
+  "status": "USER_REPLACEMENTS_APPLIED",
+  "completed": [
+    "review archived and version verified",
+    "R03 accepted",
+    "R01/R02 exact user replacement applied",
+    "R02 long-term explanation context expanded",
+    "integrity checks passed"
+  ],
+  "pending": [
+    "carry application notes into next case protocol",
+    "13 remaining holdouts not started",
+    "independent fact and forecast testing not performed"
+  ],
+  "extra_human_approval": "NOT_INFERRED",
+  "framework_change": "NONE"
+}

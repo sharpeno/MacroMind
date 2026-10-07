@@ -1,0 +1,66 @@
+{
+  "reason": "Browser plugin not available; independent Playwright Edge",
+  "viewports": [
+    "1280x900",
+    "390x844"
+  ],
+  "checks": [
+    {
+      "name": "page identity",
+      "passed": true
+    },
+    {
+      "name": "not blank",
+      "passed": true
+    },
+    {
+      "name": "hindsight warning",
+      "passed": true
+    },
+    {
+      "name": "no overlay",
+      "passed": true
+    },
+    {
+      "name": "before excludes later evidence",
+      "passed": true
+    },
+    {
+      "name": "stage navigation",
+      "passed": true
+    },
+    {
+      "name": "scheduled not observed",
+      "passed": true
+    },
+    {
+      "name": "publication date distinct",
+      "passed": true
+    },
+    {
+      "name": "source unfolds",
+      "passed": true
+    },
+    {
+      "name": "withdrawal explicit",
+      "passed": true
+    },
+    {
+      "name": "teaching branch disclosed",
+      "passed": true
+    },
+    {
+      "name": "json accessible",
+      "passed": true
+    },
+    {
+      "name": "mobile no overflow",
+      "passed": true
+    },
+    {
+      "name": "console health",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

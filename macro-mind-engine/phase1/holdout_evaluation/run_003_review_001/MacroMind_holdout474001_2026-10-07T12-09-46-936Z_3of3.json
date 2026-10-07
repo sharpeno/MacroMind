@@ -1,0 +1,30 @@
+{
+  "schema": "macromind.holdout-comparison-review.v1",
+  "review_id": "holdout474_001",
+  "comparison_sha256": "f9daf09290cc4c945a862dec0a58cf0865a25f503c47b4cace03d1cf55c11f60",
+  "ids": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "decision": "accept",
+      "notes": ""
+    },
+    {
+      "id": "R02",
+      "decision": "accept",
+      "notes": ""
+    },
+    {
+      "id": "R03",
+      "decision": "accept",
+      "notes": ""
+    }
+  ],
+  "completed": 3,
+  "exported_at": "2026-10-07T12:09:46.935Z",
+  "framework_change": "NONE"
+}

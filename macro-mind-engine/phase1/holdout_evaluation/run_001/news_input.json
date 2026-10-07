@@ -1,0 +1,45 @@
+{
+  "frozen_at": "2026-10-05T18:01:04.978990+00:00",
+  "sources": [
+    {
+      "id": "N1486755",
+      "url": "https://www.cls.cn/detail/1486755",
+      "title": "美财长耶伦：美国有能力同时为以色列和乌克兰提供军事支持",
+      "ctime_utc": "2023-10-16T14:39:13+00:00",
+      "retrieved_snapshot": "sources/1486755.html",
+      "sha256": "41cfc016b87373720ca74410a645a9a2ea3cae79c249b89c2e9fd6674f18c812",
+      "epistemic_status": "MEDIA_REPORT_NOT_INDEPENDENTLY_VERIFIED"
+    },
+    {
+      "id": "N1486209",
+      "url": "https://www.cls.cn/detail/1486209",
+      "title": "以色列官方否认“临时停火”传闻 拉法口岸目前仍处于关闭状态",
+      "ctime_utc": "2023-10-16T08:30:26+00:00",
+      "retrieved_snapshot": "sources/1486209.html",
+      "sha256": "cb2afb0958bf3700ed8e7103f9c690f318e4d7dcd7cac17c8ad26a3e84dfe3a6",
+      "epistemic_status": "MEDIA_REPORT_NOT_INDEPENDENTLY_VERIFIED"
+    },
+    {
+      "id": "NWH",
+      "url": "https://www.presidency.ucsb.edu/documents/statement-press-secretary-karine-jean-pierre-president-bidens-travel-israel-and-jordan",
+      "title": "Statement by Press Secretary on President Biden's Travel to Israel and Jordan",
+      "display_date": "2023-10-16",
+      "source_type": "archived official statement; no precise publication time shown",
+      "observed_summary": "宣布10月18日访问以色列，表达支持并磋商后续安排；随后计划到约旦与约旦、埃及、巴勒斯坦权力机构领导人讨论加沙平民人道需求。仅为访问计划，不是实际行程结果。",
+      "retrieval": "web tool opened page; lines 59-65"
+    }
+  ],
+  "unavailable": [
+    {
+      "url": "https://www.cls.cn/detail/1487000",
+      "result": "articleDetail empty; errno404; not used as evidence"
+    }
+  ],
+  "cutoff": "2023-10-17 day-level upper boundary; video exact time unknown",
+  "leakage": [
+    "Episode title and metadata exposed",
+    "Model historical knowledge not blinded",
+    "Search snippets exposed Oct18 visit and later Jordan cancellation/hospital explosion; excluded from admitted facts but knowledge exposure cannot be undone"
+  ],
+  "scope": "Retrospective method transfer comparison, not valid as clean historical predictive backtest"
+}

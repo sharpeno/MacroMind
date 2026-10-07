@@ -1,0 +1,80 @@
+# MacroMind 首批五期试运行报告
+
+最终状态：**FIRST5_READY_FOR_HUMAN_REVIEW**。可开始人工质量复核，尚不能扩展到30–50期。
+
+## 结果如何理解
+
+已打通“字幕原话 → 助手整理的主张 → 模型重建的推理 → 隔离与审计 → 人工复核”的受控流程。原始材料未改动。结构可用只表示引用完整、符合当前契约，不表示主张真实或推理成立。
+
+全部1913条字幕已阅读并登记，其中699条保存为已读上下文但未逐条原子化。没有将这些条目从分母中删除，也没有测得提取召回率；是否需要补提取，要在质量复核中确认。
+
+提取由当前助手完成，模型精确版本、耗时和成本未记录；没有调用或虚构独立自动LLM提取器。数字等要素词项索引用于定位，完整原话是解释依据，不把词项命中当作成熟语义解析。
+
+入口：[HUMAN_REVIEW.html](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.html)；纯文本：[HUMAN_REVIEW.md](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.md)。
+
+## 每期实际结果
+
+|期数|字幕|候选主张|可用主张|候选对象|启用对象|隔离对象|可用链|疑点组|unknown字段|非引用不确定项|审计记录|
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|EP001|221|21|14|388|320|68|4|9|1009|11|2806|
+|EP002|425|20|15|680|626|54|4|8|1676|11|5455|
+|EP003|415|23|15|701|604|97|3|8|1758|9|5259|
+|EP004|342|22|14|555|478|77|2|10|1392|7|4175|
+|EP005|510|26|16|834|698|136|5|14|2071|13|6120|
+
+合计112条候选主张、74条可用主张、3158个候选对象、2726个启用对象、432个隔离对象、18条可用链。对象总数包含1913个原文片段，不能用对象总数充当分析能力指标。每期起始筛出和传播隔离量见 [statistics.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/statistics.json)。
+
+unknown统计以候选对象中null、unknown值的字段位置计数，包括同一信息在不同对象中的重复表达；不是独立问题数。人工已核听0条、已审核0条链。最低待审核10条链，另有49组已发现疑点；不虚构人工工时。
+
+## 关键隔离案例
+
+- EP001：cue114–116出现“预防式降息”与上下文方向冲突；就业数字及债券方向另待核对。
+- EP002：谈判消息对应、债券方向和技术成本数字暂缓；假想央行讲话保留为情景，不归为真实发言。
+- EP003：能源冲击传导时长含“8年”等疑点，其依赖的政策时间判断也被隔离。
+- EP004：药物术语、95%基体与专利、实验及疫苗例证待证；依赖该例证的成本结论按保守政策一并隔离，即使还有其他支持链。
+- EP005：杠杆倍数与周转次数的换算依据不足，相关6倍定量链及依赖结论暂缓。
+
+NOT_USABLE_NOW表示当前不能用来支撑下游，不表示作者没说过、资料不存在或命题为假。49组是当前助手发现的疑点，不是全部可能错误的保证。
+
+## 外部来源和时间边界
+
+20个新闻链接全部尝试；18个当前网页可读取，2个Reuters链接无法访问。标题、署名、页面时间、快照哈希及访问状态见 [reference_verification.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/reference_verification.json)。未知作者、更新时间、时区及精确抓取瞬间未伪造。新闻真实性和是否被作者实际引用均未由访问成功推定。
+
+EP004手套文章原样保留，全文阅读未发现明确对应。EP005初始annotation把融资段落配到N01，正式链接台账更正为N02；原记录保留且没有建立错误的canonical网页引用。网页中的数据差异不反向纠正原字幕。
+
+三期宏观样本只作主题对照：决策前概率 → 决策前政策路径问题 → 作者报告决策后的讨论。时区与历史版本未证实，跨期时间推理未启用，也未以EP003证明EP001预测成功。详见 [cross_episode_comparison.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/cross_episode_comparison.json)。
+
+## 验收逐项对照
+
+PASS按每行列明的范围成立；质量层面的未知另列，不合并成“内容全对”。
+
+|编号|要求|结果|范围及限制|证据|
+|---|---|---|---|---|
+|P01|原始材料与转换溯源|PASS|26个原始文件哈希不变；5期各自保留逐对象映射、原话和来源版本。|[immutability.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/immutability.json)、[input_manifest.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/input_manifest.json)、[EP001/field_mapping.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP001/field_mapping.json)|
+|P02|全范围处置记录|PASS|1913条全部阅读并登记。709条映射/上下文，505条需复核，699条作为已读上下文未逐条原子化；此项只验范围披露，不宣称穷尽提取。|[statistics.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/statistics.json)、[EP001/coverage.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP001/coverage.json)、[EP002/coverage.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP002/coverage.json)、[EP003/coverage.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP003/coverage.json)、[EP004/coverage.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP004/coverage.json)、[EP005/coverage.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP005/coverage.json)|
+|P03|原话定位及归属|PASS|启用主张都有原始cue和时间范围；18条推理关系均为模型重建。忠实度的人工质量判定尚未验证。|[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)、[HUMAN_REVIEW.html](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.html)|
+|P04|不确定内容处置|PASS|数字、单位、基准、否定、时间、条件、模态按原文保留并设词项索引；词项并非完整语义解析。49组已发现疑点全部待审，核听0条，不静默修正。|[source_discrepancies.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/source_discrepancies.json)、[EP001/evidence_components.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP001/evidence_components.json)、[EP005/review_issues.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP005/review_issues.json)|
+|P05|完整可用链与隔离传播|PASS|五期完整模式0ERROR、0未解析引用；每期有正例和隔离反例，失败推理支持的结论也隔离。|[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)、[EP003/activation.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP003/activation.json)、[EP005/activation.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/EP005/activation.json)|
+|P06|新闻内容与引用关系分开|PASS|20个链接均尝试；18个有当前内容，2个访问失败。未发现明确URL引用证明；历史版本、精确抓取瞬间未记录而标未知，保存访问会话日期及归档时刻。|[reference_verification.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/reference_verification.json)、[execution_incidents.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/execution_incidents.json)|
+|P07|类型、时间与归属边界|PASS|8个启用Scenario；16个预测候选未入Forecast。无已认证Heuristic、StructuralProcess或跨期推理连接；当前材料不叫盲测。|[cross_episode_comparison.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/cross_episode_comparison.json)、[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)|
+|P08|每期非空分析链|PASS|可用链依次4/4/3/2/5；链的经济学正确性没有由结构通过推定。|[statistics.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/statistics.json)、[HUMAN_REVIEW.html](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.html)|
+|P09|真实审计与复现|PASS|五期审计+EP001重复共6次。全部COMPLETED，全部INDETERMINATE、退出码1；四类业务哈希重复一致。重放已保存提取，不是独立重复语义提取。|[audit_results.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/audit_results.json)、[repeatability.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/repeatability.json)、[audits.command.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/audits.command.json)、[audits.stdout.txt](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/audits.stdout.txt)、[audits.stderr.txt](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/audits.stderr.txt)|
+|P10|守恒及工作量统计|PASS|3158候选=2726启用+432隔离。保留隔离分母；7906处空/unknown字段按候选对象字段位置计数，51条非引用不确定项，人工抽查0。|[statistics.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/statistics.json)、[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)|
+|P11|人工审阅包|PASS|10条重点链、重要隔离链及49组已发现疑点已交付；人工意见和正确率均未填写。|[HUMAN_REVIEW.html](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.html)、[HUMAN_REVIEW.md](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/HUMAN_REVIEW.md)、[human_review_records.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/human_review_records.json)|
+|P12|适当验证及旧测试保全|PASS|89项材料/执行检查通过；169个运行时、测试、契约保护文件无改动。旧584项身份和已存结果核对通过，本轮未无意义重跑全量套件。|[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)、[immutability.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/immutability.json)、[prior_test_identity_verification.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/prior_test_identity_verification.json)|
+
+## 原始验证和复现
+
+6次真实CLI审计的argv、stdout、stderr、退出码分别为 EPxxx_audit.command.json / stdout.txt / stderr.txt / result.json；Runner原始包在audit_runs中，统一索引见 [audit_results.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/audit_results.json)。执行均COMPLETED，但findings为INDETERMINATE、CLI退出码1；共有51条非引用不确定项。没有将它们写成零问题。
+
+89项检查明细：[checks.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/checks.json)。命令和原始输出：[finalize.command.json](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/finalize.command.json)、[finalize.stdout.txt](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/finalize.stdout.txt)、[finalize.stderr.txt](G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/run_001/finalize.stderr.txt)。编译器build_episode.py只组装人工撰写的annotation，不是自动语义提取器。所有运行时代码、契约和Registry不变；原584项测试结果及身份核验另存，不宣称本轮重跑584项。
+
+EP001重复审计的验证、归一化、聚合及语义摘要四类哈希一致。提取忠实度、独立重新提取的一致性、音频真实性、新闻事实及预测准确率均为NOT_VERIFIED。
+
+## 与系统目标的关系和下一步
+
+没有偏离“可切换分析者、分析新资料、可追溯、可持续验证”的目标。本轮完成的是首五期受控材料流转和审阅入口。尚未建立可靠的分析者方法模型、跨期同一方法身份、新新闻推演能力或盲测结果；不能把工程审计Pattern当作9527分析方法。
+
+接下来先审阅10条重点链和高风险原话。请按“EP编号/链编号 + 忠实或问题 + 必要修正”反馈；涉及音频的修正还需原视频证据。新反馈应另存版本，重新执行受影响链和审计，不能覆盖本轮证据。只有人工质量复核后才决定扩展30–50期，随后按原路线进入Pipeline Evaluation、Method Mining、Analyst Model、Skill及Holdout/Blind Evaluation。
+
+未完成：人工质量判定；49组疑点的核听/补证；699条上下文是否需要补提取的评估；历史时区和网页版本；正式Forecast判定契约；更大样本扩展。以上保留为待办，没有以“通过”代替。

@@ -1,0 +1,10 @@
+{
+  "objects": [
+    {
+      "id": "legacy",
+      "object_type": "Claim",
+      "ontology_version": "0.3",
+      "schema_version": "legacy"
+    }
+  ]
+}

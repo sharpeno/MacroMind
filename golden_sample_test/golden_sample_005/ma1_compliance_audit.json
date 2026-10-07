@@ -1,0 +1,224 @@
+{
+  "audited_at": "2026-09-26T15:34:12+08:00",
+  "scope": "supplement_only_no_baseline_mutation",
+  "baseline": [
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\golden_sample_005.json",
+      "sha256": "5faa6de981de98ab2a5b2bb230572ee04a2de43a577ad6d7c77dd216c4459324"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\golden_sample_005_report.md",
+      "sha256": "46a9286bdf2abff2d4213c906418e8a1dca68b6a961bdd6d66eed46d19a595d9"
+    },
+    {
+      "path": "G:\\youhegaojian\\迭代\\MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "sha256": "549bc9e0d524aead8048e57f2d6121288ff3e19ddda918b30e30e46909334bca"
+    },
+    {
+      "path": "C:\\Users\\无语\\.codex\\attachments\\547bb087-d209-4712-91fd-b6663b41b53a\\已粘贴的文本.txt",
+      "sha256": "3120a847198c5ecac69e3a29cee48fba9de61ebda5c5310cffea7825a8182733"
+    }
+  ],
+  "overall": "partially_compliant_requires_targeted_revision",
+  "field_findings": {
+    "method_fields_missing": {
+      "domain": 11,
+      "transferability": 11,
+      "recurrence_match": 11,
+      "matched_prior_signal_refs": 11,
+      "matched_scope": 11,
+      "recurrence_evidence": 11
+    },
+    "failure_fields_missing": {
+      "observed_action": 3,
+      "failure_assessment": 3,
+      "failure_type": 3,
+      "assessment_confidence": 3
+    },
+    "argument_fields_missing": {
+      "inference_modes": 18,
+      "expression_levels": 18,
+      "most_fragile_step": 18,
+      "inferential_distance": 18,
+      "creator_shortcuts": 18
+    },
+    "observation_baseline_source_ref_missing": 14,
+    "observation_recognition_stage_missing": 14,
+    "claim_recognition_stage_missing": 139,
+    "indicator_recognition_stage_missing": 14,
+    "observation_comparison_type_outside_enum": [
+      "O01",
+      "O02",
+      "O03",
+      "O04",
+      "O05",
+      "O06",
+      "O07",
+      "O08",
+      "O09",
+      "O10",
+      "O11",
+      "O12",
+      "O13",
+      "O14"
+    ],
+    "veracity_status_outside_enum": 139,
+    "failure_dual_observer_pass": true
+  },
+  "rules": [
+    {
+      "rule": "R056",
+      "status": "partial",
+      "evidence": "13条MR表有部分匹配理由，但11条Signal缺正式recurrence_match/matched_scope等字段，recurrence_status亦为自定义值。"
+    },
+    {
+      "rule": "R057",
+      "status": "partial",
+      "evidence": "MR07/MR08能定位具体子动作；MR01只有GS001摘要，应降uncertain；MR03的“执行条件”过宽，需补具体变量否则uncertain。"
+    },
+    {
+      "rule": "R058",
+      "status": "pass",
+      "evidence": "MS07—MS09均保存被观察推理者与模型标注者；但完整Failure Schema字段仍不齐。"
+    },
+    {
+      "rule": "R059",
+      "status": "pass",
+      "evidence": "三个Failure均未升级稳定Pattern或Skill。需把promotion_status规范化。"
+    },
+    {
+      "rule": "R060",
+      "status": "partial",
+      "evidence": "14条Observation都有比较框，但全部缺baseline_source_ref，类型也未按新增枚举规范。"
+    },
+    {
+      "rule": "R061",
+      "status": "partial",
+      "evidence": "未见把percentage point当percent；但倍数/差值和降低到/下降混淆使完整比较校验不能通过。"
+    },
+    {
+      "rule": "R062",
+      "status": "partial",
+      "evidence": "主要跨层结论拆开了；recognition_stage缺失，股价上涨X04/I06/O06误标valuation而非price。"
+    },
+    {
+      "rule": "R063",
+      "status": "partial",
+      "evidence": "C001→C026、C110→C111等边明确且进入Review；部分端点角色unknown或遗漏，仍需逐边检查。"
+    }
+  ],
+  "stress_tests": [
+    {
+      "test": "T01",
+      "status": "pass",
+      "evidence": "C001回收与C026低成本分开；AR04保留Shortcut，DA01独立诊断。"
+    },
+    {
+      "test": "T02",
+      "status": "pass",
+      "evidence": "X03/O10是着陆腿媒体能力声称，实飞次数未填20。"
+    },
+    {
+      "test": "T03",
+      "status": "pass",
+      "evidence": "StructuralProcess=0；EV01/EV02不自动变经济产业过程。"
+    },
+    {
+      "test": "T04",
+      "status": "pass",
+      "evidence": "技术与利润分Claim，TH01待验证；此pass仅表示边界保留。"
+    },
+    {
+      "test": "T05",
+      "status": "not_exercised",
+      "evidence": "本期无具体订单→收入→利润数据链可检验；不能声称已充分验证该规则。"
+    },
+    {
+      "test": "T06",
+      "status": "partial",
+      "evidence": "没有把发射成本与企业总成本明确等同；X10/O13降幅口径仍有编码问题。"
+    },
+    {
+      "test": "T07",
+      "status": "partial",
+      "evidence": "保留中国/SpaceX差异限制；AR04/AR08的跨案例可比性仍需更明确角色与范围。"
+    },
+    {
+      "test": "T08",
+      "status": "partial",
+      "evidence": "17 Scenario与10 Forecast分列；C005表达条件后会超越，因不可结算而排除的准入理由应复审，不能把low resolvability当一概排除标准。"
+    },
+    {
+      "test": "T09",
+      "status": "pass",
+      "evidence": "M01—M05及DA01未变成9527方法证据。"
+    },
+    {
+      "test": "T10",
+      "status": "pass",
+      "evidence": "双observer已保存；完整Failure字段待补。"
+    },
+    {
+      "test": "T11",
+      "status": "partial",
+      "evidence": "旧MR表有exact/partial/analogous机制，缺none/uncertain正式表示及Signal字段。"
+    },
+    {
+      "test": "T12",
+      "status": "needs_correction",
+      "evidence": "O01把比例当差值，O13将歧义70写成delta；全部Observation缺baseline_source_ref。"
+    }
+  ],
+  "recounted_summary": {
+    "source_count": 20,
+    "source_family_count": null,
+    "source_family_count_status": "not_separately_instantiated_in_baseline",
+    "origin_family_count": 15,
+    "claim_count": 139,
+    "claim_occurrence_count": 132,
+    "actor_count": 15,
+    "event_count": 6,
+    "structural_process_count": 0,
+    "indicator_count": 14,
+    "observation_count": 14,
+    "argument_count": 18,
+    "creator_argument_count": 17,
+    "model_diagnostic_argument_count": 1,
+    "mechanism_count": 3,
+    "new_mechanism_candidate_count": 2,
+    "reused_mechanism_candidate_count": 1,
+    "mechanism_usage_count": 3,
+    "scenario_count": 17,
+    "thesis_count": 2,
+    "forecast_count": 10,
+    "unconditional_forecast_count": 5,
+    "conditional_forecast_count": 0,
+    "branch_selection_forecast_count": 5,
+    "conditional_count_definition": "conditional denotes resolvable_conditional_forecast subtype only; branch selection counted separately",
+    "contradiction_count": 0,
+    "candidate_heuristic_count": 0,
+    "method_signal_count": 11,
+    "method_signal_counts": {
+      "attention": 1,
+      "question": 1,
+      "evidence_preference": 1,
+      "mechanism_usage": 1,
+      "branching": 1,
+      "judgment": 2,
+      "analogy": 1,
+      "falsification": 0,
+      "failure": 3
+    },
+    "review_queue_count": 37
+  },
+  "freeze_gate": {
+    "core_ontology_freeze_candidate": "Yes_with_scope_limit",
+    "formal_core_ontology_freeze": "Not Yet",
+    "golden005_audited_freeze": "Not Yet",
+    "new_core_object_required": "No",
+    "analyst_skill": "NOT READY",
+    "macromind_core_skill": "NOT READY"
+  },
+  "golden_status": "extraction_complete_ma1_revision_required_review_pending_not_frozen",
+  "status_note": "审计结论；尚未回写原对象。原37项Review与本次新增审计发现分别计数。"
+}

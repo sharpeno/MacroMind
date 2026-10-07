@@ -1,0 +1,14 @@
+PASS: positive application, all 5 methods represented, 9 steps trace to source, judgments bounded.
+PASS rejected: unknown_fact_ref
+PASS rejected: future_source
+PASS rejected: method_omitted
+PASS rejected: framework_substituted
+PASS rejected: blogger_attribution
+PASS rejected: false_blind_mode
+PASS rejected: score_eligible
+PASS rejected: fact_promoted
+PASS rejected: baseline_promoted
+PASS rejected: unverified_news_promoted
+PASS rejected: missing_withdrawal
+PASS rejected: broken_reasoning_ref
+PASS: frozen framework/case unchanged; 498 old files unchanged. Checks do not validate semantic reasoning.

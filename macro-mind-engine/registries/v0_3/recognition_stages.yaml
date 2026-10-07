@@ -1,0 +1,116 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "RecognitionStage",
+  "requires_unknown": true,
+  "source_refs": [
+    "Phase 1.0-1.2 Execution Prompt",
+    "GS004/GS005 accepted auxiliary fields; MA.1 schema_contract.json"
+  ],
+  "entries": [
+    {
+      "value": "planned",
+      "description": "RecognitionStage: planned; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "contracted",
+      "description": "RecognitionStage: contracted; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "ordered",
+      "description": "RecognitionStage: ordered; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "committed",
+      "description": "RecognitionStage: committed; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "delivered",
+      "description": "RecognitionStage: delivered; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "deployed",
+      "description": "RecognitionStage: deployed; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "utilized",
+      "description": "RecognitionStage: utilized; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "revenue_recognized",
+      "description": "RecognitionStage: revenue recognized; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "cash_collected",
+      "description": "RecognitionStage: cash collected; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "expensed",
+      "description": "RecognitionStage: expensed; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "depreciated",
+      "description": "RecognitionStage: depreciated; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "impaired",
+      "description": "RecognitionStage: impaired; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

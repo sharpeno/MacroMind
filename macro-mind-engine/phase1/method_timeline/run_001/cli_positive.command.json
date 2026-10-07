@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/run_method_timeline.py",
+    "--packet",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_timeline\\run_001\\T1.input.json",
+    "--previous",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_timeline\\run_001\\T0\\snapshot.json",
+    "--output",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_timeline\\run_001\\cli_replay_T1"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

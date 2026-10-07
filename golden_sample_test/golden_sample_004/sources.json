@@ -1,0 +1,332 @@
+[
+  {
+    "source_id": "S01",
+    "title": "原视频",
+    "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.mp4",
+    "source_type": "video",
+    "role": "primary_corpus",
+    "published_at": "2026-08-05T09:48:48+08:00",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "file_found_hashed_audio_not_reviewed",
+    "source_family_id": "F9527",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S01",
+    "sha256": "644c9e44b6d37b8ed487c8699ef119279633d12e5820ccae653c2449a044a3ff",
+    "bytes": 138029328
+  },
+  {
+    "source_id": "S02",
+    "title": "自动转写原文",
+    "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.自动转写.txt",
+    "source_type": "asr",
+    "role": "transcript",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "F9527",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "derived_from": [
+      "S01"
+    ],
+    "independence": "same_origin",
+    "source_version_ref": "V-S02",
+    "sha256": "22a3771d9306deef591fd49c16010e724d147cb2cf1ea577dd4bd5a238d77164",
+    "bytes": 45178
+  },
+  {
+    "source_id": "S03",
+    "title": "SRT原文",
+    "location": "G:\\BilibiliDown.v6.41.release\\download\\有何高见9527\\《第七百三四期》云平台是否能成为新一轮故事起点？-p01-16.srt",
+    "source_type": "asr_subtitle",
+    "role": "timestamp_anchor",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "F9527",
+    "origin_family_ids": [
+      "F9527"
+    ],
+    "derived_from": [
+      "S01"
+    ],
+    "independence": "same_origin",
+    "source_version_ref": "V-S03",
+    "sha256": "8391fc2d07ea5516edc933f502f55fc27058d60b0a7b2de1d9d29573339cf339",
+    "bytes": 74782
+  },
+  {
+    "source_id": "S04",
+    "title": "北美四朵云、卖铲人到用铲人",
+    "location": "https://www.cls.cn/detail/2444783",
+    "source_type": "article",
+    "role": "user_supplied_reference",
+    "published_at": "2026-08-04T09:38:00+08:00",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FCLS_A",
+    "origin_family_ids": [
+      "FAMZN",
+      "FMSFT",
+      "FGOOG",
+      "FBROKER",
+      "FMARKET_UNKNOWN"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S04"
+  },
+  {
+    "source_id": "S05",
+    "title": "DeepSeek-V4-Flash成本比较",
+    "location": "https://www.cls.cn/detail/2444045",
+    "source_type": "article",
+    "role": "user_supplied_reference",
+    "published_at": "2026-08-03T15:12:00+08:00",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FCLS_B",
+    "origin_family_ids": [
+      "FAA",
+      "FDEEPSEEK"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S05"
+  },
+  {
+    "source_id": "S06",
+    "title": "13州税收优惠政策进度",
+    "location": "https://wallstreetcn.com/articles/3778569",
+    "source_type": "article",
+    "role": "user_supplied_reference",
+    "published_at": "2026-08-03T16:40:00+08:00",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FWSCN",
+    "origin_family_ids": [
+      "FTHEINFORMATION",
+      "FSTATE_POLICY_UNRESOLVED"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S06"
+  },
+  {
+    "source_id": "S07",
+    "title": "金融危机以来美债信号",
+    "location": "https://www.cls.cn/detail/2434646",
+    "source_type": "article",
+    "role": "user_supplied_reference_not_observed_used_in_transcript",
+    "published_at": "2026-07-23",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FCLS_D",
+    "origin_family_ids": [
+      "FBOND_DATA_UNKNOWN"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S07"
+  },
+  {
+    "source_id": "S08",
+    "title": "何以解码中国共产党",
+    "location": "https://www.qstheory.cn/20260715/1ebf8503161c448a9027393008f810f7/c.html",
+    "source_type": "article",
+    "role": "user_supplied_reference",
+    "published_at": "2026-07-16T09:00:00+08:00",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FQIUSHI",
+    "origin_family_ids": [
+      "FQIUSHI"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S08"
+  },
+  {
+    "source_id": "S09",
+    "title": "V0.3.1-MA任务提示",
+    "location": "G:\\youhegaojian\\prompt\\V0.3.1.md",
+    "source_type": "prompt",
+    "role": "user_authorized_instruction",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FPROMPT",
+    "origin_family_ids": [
+      "FPROMPT"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S09",
+    "sha256": "b819614cc2d18e4a169d7792ffc12c1973212096d16b2f022b4a32c6811703ce",
+    "bytes": 29198
+  },
+  {
+    "source_id": "S10",
+    "title": "微软FY26Q4指标表",
+    "location": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics",
+    "source_type": "article",
+    "role": "model_supplement",
+    "published_at": "2026-07-29",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FMSFT",
+    "origin_family_ids": [
+      "FMSFT"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S10"
+  },
+  {
+    "source_id": "S11",
+    "title": "微软FY26Q4财报公告",
+    "location": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+    "source_type": "article",
+    "role": "model_supplement",
+    "published_at": "2026-07-29",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FMSFT",
+    "origin_family_ids": [
+      "FMSFT"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S11"
+  },
+  {
+    "source_id": "S12",
+    "title": "亚马逊Q2财报公告",
+    "location": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light",
+    "source_type": "article",
+    "role": "model_supplement",
+    "published_at": "2026-07-30",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FAMZN",
+    "origin_family_ids": [
+      "FAMZN"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S12"
+  },
+  {
+    "source_id": "S13",
+    "title": "Alphabet Q2公告SEC版本",
+    "location": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+    "source_type": "article",
+    "role": "model_supplement",
+    "published_at": "2026-07-22",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FGOOG",
+    "origin_family_ids": [
+      "FGOOG"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S13"
+  },
+  {
+    "source_id": "S14",
+    "title": "Artificial Analysis 0731评估",
+    "location": "https://artificialanalysis.ai/articles/deepseek-v4-flash-0731-scores-50-on-the-artificial-analysis-intelligence-index-10-points-above-previous-deepseek-v4-flash",
+    "source_type": "article",
+    "role": "model_supplement",
+    "published_at": "2026-07-31",
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FAA",
+    "origin_family_ids": [
+      "FAA"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S14"
+  },
+  {
+    "source_id": "S15",
+    "title": "GS001摘要（仅方法与注册表对比）",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_report.md",
+    "source_type": "prior_extraction_summary",
+    "role": "method_recurrence_registry_only",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "body_read",
+    "source_family_id": "FREGISTRY_GS001",
+    "origin_family_ids": [
+      "FREGISTRY_GS001"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S15",
+    "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+    "bytes": 1922
+  },
+  {
+    "source_id": "S16",
+    "title": "GS002对象（仅方法与注册表对比）",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_002\\golden_sample_002.json",
+    "source_type": "prior_extraction",
+    "role": "method_recurrence_registry_only",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "heuristics_and_registry_sections_read",
+    "source_family_id": "FREGISTRY_GS002",
+    "origin_family_ids": [
+      "FREGISTRY_GS002"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S16",
+    "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+    "bytes": 500557
+  },
+  {
+    "source_id": "S17",
+    "title": "GS003对象（仅方法与注册表对比）",
+    "location": "G:\\youhegaojian\\golden_sample_test\\golden_sample_003\\golden_sample_003.json",
+    "source_type": "prior_extraction",
+    "role": "method_recurrence_registry_only",
+    "published_at": null,
+    "recorded_at": null,
+    "captured_at": "2026-09-26T00:51:00+08:00",
+    "read_status": "heuristics_and_registry_sections_read",
+    "source_family_id": "FREGISTRY_GS003",
+    "origin_family_ids": [
+      "FREGISTRY_GS003"
+    ],
+    "derived_from": [],
+    "independence": "unknown",
+    "source_version_ref": "V-S17",
+    "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+    "bytes": 587765
+  }
+]

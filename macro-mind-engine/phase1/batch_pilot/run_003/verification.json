@@ -1,0 +1,190 @@
+[
+  {
+    "check": "EP001 allowed objects only",
+    "passed": true
+  },
+  {
+    "check": "EP001 raw source segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP001 old isolated objects remain isolated",
+    "passed": true
+  },
+  {
+    "check": "EP001 no validation errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP001 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP001/A01 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP001/A02 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002 allowed objects only",
+    "passed": true
+  },
+  {
+    "check": "EP002 raw source segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002 old isolated objects remain isolated",
+    "passed": true
+  },
+  {
+    "check": "EP002 no validation errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP002 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP002/A01 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002/A02 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP003 allowed objects only",
+    "passed": true
+  },
+  {
+    "check": "EP003 raw source segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP003 old isolated objects remain isolated",
+    "passed": true
+  },
+  {
+    "check": "EP003 no validation errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP003 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP003/A01 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP003/A02 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP004 allowed objects only",
+    "passed": true
+  },
+  {
+    "check": "EP004 raw source segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP004 old isolated objects remain isolated",
+    "passed": true
+  },
+  {
+    "check": "EP004 no validation errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP004 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP004/A02 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP004/A03 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005 allowed objects only",
+    "passed": true
+  },
+  {
+    "check": "EP005 raw source segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005 old isolated objects remain isolated",
+    "passed": true
+  },
+  {
+    "check": "EP005 no validation errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP005 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP005/A01 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005/A02 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005/A06 accepted subgraph unchanged",
+    "passed": true
+  },
+  {
+    "check": "Debt motivation supports only term extension",
+    "passed": true
+  },
+  {
+    "check": "No new claim extracted from context-only cue230",
+    "passed": true
+  },
+  {
+    "check": "C15 removed from forecast candidates",
+    "passed": true
+  },
+  {
+    "check": "C15 remains attributed background statement",
+    "passed": true
+  },
+  {
+    "check": "Gap223-235 added with exact evidence",
+    "passed": true
+  },
+  {
+    "check": "run_001 immutable artifact hashes",
+    "passed": true
+  },
+  {
+    "check": "run_002 immutable artifact hashes",
+    "passed": true
+  },
+  {
+    "check": "review_round_002 immutable artifact hashes",
+    "passed": true
+  },
+  {
+    "check": "25 original input files unchanged",
+    "passed": true
+  },
+  {
+    "check": "Six audits complete",
+    "passed": true
+  },
+  {
+    "check": "Repeatable stable audit outputs",
+    "passed": true
+  }
+]

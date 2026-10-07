@@ -1,0 +1,8 @@
+{
+  "latest_batch": "batch_002",
+  "raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_001\\batch_002\\raw\\MacroMind_run001_2026-10-03_165023_CST_10of2657_full_dc92b1b6.json",
+  "sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+  "reviewed_records": 10,
+  "diff_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_001\\batch_002\\diff_from_batch_001.json",
+  "next_actions_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_001\\batch_002\\next_actions.json"
+}

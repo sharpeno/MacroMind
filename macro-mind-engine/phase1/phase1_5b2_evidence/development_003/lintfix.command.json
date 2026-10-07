@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "--no-cache",
+    "--fix",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\audit\\continuity_index",
+    "G:\\youhegaojian\\macro-mind-engine\\tests\\audit_continuity",
+    "G:\\youhegaojian\\macro-mind-engine\\scripts\\verify_phase1_5b2.py"
+  ],
+  "cwd": "G:\\youhegaojian",
+  "exit_code": 0
+}

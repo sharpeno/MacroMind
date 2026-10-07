@@ -1,0 +1,6 @@
+{
+  "status": "INTERRUPTED_NOT_ACCEPTED",
+  "reason": "Real-size run exposed repeated source JSON parsing per record in provenance verification; execution interrupted via session Ctrl-C, exit 1. No acceptance is claimed.",
+  "fix": "Cache each already-captured source document once, preserve per-record JSON Pointer verification",
+  "next_step": "Add source-read count regression test; run fresh numbered formal acceptance; retain this directory"
+}

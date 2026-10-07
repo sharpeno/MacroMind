@@ -1,0 +1,38 @@
+{
+  "task_id": "task_22c8c048731042a3b0c2428318b956c2",
+  "attempt": "attempt_001",
+  "runtime_version": "0.1.0",
+  "review_status": "PENDING_HUMAN_REVIEW",
+  "semantic_acceptance": false,
+  "citation_check": "VERBATIM_MATCH_ONLY",
+  "input_pins": {
+    "inputs/method.txt": "d75cd87c5c46684bc76e0d5a49695737f525c2b4102d455c857c4a498007388f",
+    "inputs/news.txt": "3a570abd7d12dba4d59d40d42c9289ea3d03c9b644c96c535c54c6d7426a94a7",
+    "spec.json": "1243c430d1811476477eb474e3e6037f1c9b7ab65ea78b8c06bee088896e8499"
+  },
+  "analysis": {
+    "outcome": "analysis",
+    "summary": "合成测试：材料只支持试点计划，不能确认落地成效。",
+    "methods_used": [
+      "M01",
+      "M02"
+    ],
+    "claims": [
+      {
+        "statement": "测试材料记载了计划。",
+        "kind": "source_statement",
+        "citations": [
+          {
+            "document_id": "news",
+            "start_line": 2,
+            "end_line": 2,
+            "quote": "测试机构计划开展小规模试点。"
+          }
+        ]
+      }
+    ],
+    "gaps": [
+      "缺少实际执行与效果证据。"
+    ]
+  }
+}

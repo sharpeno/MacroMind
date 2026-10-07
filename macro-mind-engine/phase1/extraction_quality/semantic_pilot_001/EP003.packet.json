@@ -1,0 +1,114 @@
+{
+  "version": "1",
+  "episode": "EP003",
+  "source_digest": "5bfd7999a4923e8a8d85d7bc94312be471e390e4dc3cbd1a76c04c21b2b8945b",
+  "annotation_digest": "6e4042c2a0e4574756e6ec13af899dd09bcda88cb3b8ecab395dc9d49c325196",
+  "observer": "current_assistant; same-author nonblind self-review",
+  "items": [
+    {
+      "claim_id": "C16",
+      "original_statement": "博主把热点或需求转向其他市场作为猜想，并非确定结果。",
+      "proposed_statement": "博主提出一种猜想：如果美国市场的AI题材受挫，但相关期待仍未消失，新市场可能承接这部分热情；本段未明确承接市场及时间，也不代表资金转移已经发生。",
+      "action": "revise",
+      "evidence_cues": [
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334
+      ],
+      "dimensions": {
+        "speaker_role": {
+          "status": "addressed",
+          "assessment": "博主强调是自己的看法，并声明不作市场预测；不等于说法没有预测性内容。",
+          "cue_ids": [
+            318,
+            319,
+            320
+          ]
+        },
+        "modality": {
+          "status": "addressed",
+          "assessment": "可能出现、个人看法，保留猜想性质。",
+          "cue_ids": [
+            320,
+            321,
+            322
+          ]
+        },
+        "conditions": {
+          "status": "addressed",
+          "assessment": "原市场题材破裂，但支撑题材的期待未变，且美国市场不再相信该叙事时，新市场可能承接。",
+          "cue_ids": [
+            327,
+            328,
+            330,
+            331,
+            332,
+            333
+          ]
+        },
+        "time_scope": {
+          "status": "not_in_excerpt",
+          "assessment": "本段未给具体兑现时点。",
+          "cue_ids": []
+        },
+        "objects": {
+          "status": "addressed",
+          "assessment": "谈AI/AGI题材、美国市场和新的承接市场；没有在本片段给出确定目标市场。",
+          "cue_ids": [
+            328,
+            331,
+            332,
+            333
+          ]
+        },
+        "assumptions": {
+          "status": "addressed",
+          "assessment": "AI相关期待仍存在，是博主提出承接猜想的前提。",
+          "cue_ids": [
+            327,
+            328,
+            330,
+            331
+          ]
+        },
+        "reasoning_relation": {
+          "status": "addressed",
+          "assessment": "以平衡效应和民谣类比引出不同市场间承接的猜想，并非证实的因果规律。",
+          "cue_ids": [
+            324,
+            325,
+            326,
+            332,
+            333
+          ]
+        },
+        "alternatives": {
+          "status": "not_in_excerpt",
+          "assessment": "本段没有系统列出承接失败或其他情景。",
+          "cue_ids": []
+        },
+        "external_evidence": {
+          "status": "not_in_excerpt",
+          "assessment": "本段未提供资金实际转移或新市场承接的数据。",
+          "cue_ids": []
+        }
+      },
+      "forecast_use": "background_only",
+      "human_status": "PENDING"
+    }
+  ]
+}

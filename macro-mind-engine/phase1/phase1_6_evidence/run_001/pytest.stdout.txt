@@ -1,0 +1,31 @@
+........................................................................ [ 12%]
+........................................................................ [ 25%]
+........................................................................ [ 38%]
+........................................................................ [ 50%]
+........................................................................ [ 63%]
+...F.................................................................... [ 76%]
+........................................................................ [ 88%]
+...............................................................          [100%]
+================================== FAILURES ===================================
+____________ test_accepted_golden_passes_current_validator[GS004] _____________
+
+goldens = {'GS001': AdaptationResult(source_sha256='20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4', source_fa...erministic_hash': '3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204'}, 'source_unchanged': True}), ...}
+golden_engine = <macromind.compatibility.engine.CompatibilityEngine object at 0x0000023D12270B90>
+name = 'GS004'
+
+    @pytest.mark.parametrize("name", ["GS004", "GS005"])
+    def test_accepted_golden_passes_current_validator(goldens, golden_engine, name):
+        report = golden_engine.validator.validate(
+            goldens[name].canonical_bundle, {"validation_mode": "partial_bundle"}
+        )
+>       assert not report.errors, [
+            (e.rule_id, e.object_ref, e.field_path, e.related_refs) for e in report.errors
+        ]
+E       AssertionError: [('V-REF003', 'MU01', '/source_refs/0', ['SS-C026']), ('V-REF003', 'MU01', '/source_refs/1', ['SS-C027']), ('V-REF003'...C066']), ('V-REF003', 'MU02', '/source_refs/2', ['SS-C073']), ('V-REF003', 'MU03', '/source_refs/0', ['SS-C062']), ...]
+E       assert not [ValidationIssue(rule_id='V-REF003', rule_name='Allowed reference target type', category='Reference', severity='ERROR'...ked.', related_refs=['SS-C062'], evidence_refs=[], review_required=False, details={'allowed_types': ('Source',)}), ...]
+E        +  where [ValidationIssue(rule_id='V-REF003', rule_name='Allowed reference target type', category='Reference', severity='ERROR'...ked.', related_refs=['SS-C062'], evidence_refs=[], review_required=False, details={'allowed_types': ('Source',)}), ...] = ValidationReport(validator_version='0.1.0', ontology_version='0.3', schema_version='0.1.0', mode='partial_bundle', obj...eb711ea0c3b37f0bf52fa4e33d38ee59db3d', context_hash='bd4f336d86de2b5feb2ad8b6cad61813b6cc344eb94a6209246414ce968493e3').errors
+
+tests\golden_regression\test_golden_semantic_regression.py:173: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/golden_regression/test_golden_semantic_regression.py::test_accepted_golden_passes_current_validator[GS004]
+1 failed, 566 passed in 67.00s (0:01:06)

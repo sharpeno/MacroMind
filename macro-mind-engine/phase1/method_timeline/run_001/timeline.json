@@ -1,0 +1,752 @@
+[
+  {
+    "version": "timeline-1",
+    "id": "T0",
+    "as_of": "2024-08-23",
+    "mode": "retrospective_reconstruction",
+    "method_available_on": "2026-10-05",
+    "previous_sha256": null,
+    "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+    "sources": [
+      {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "path": "phase1/method_timeline/run_001/sources/signal.json",
+        "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60",
+        "kind": "signal"
+      }
+    ],
+    "judgments": [
+      {
+        "id": "policy",
+        "dimension": "policy",
+        "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+        "state": "provisional",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+        "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "execution",
+        "dimension": "execution",
+        "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+        "state": "unknown",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+        "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "broad_relief",
+        "dimension": "broad_effect",
+        "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+        "state": "provisional",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+        "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": true
+      },
+      {
+        "id": "hidden_plan",
+        "dimension": "hidden_plan",
+        "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+        "state": "unknown",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+        "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    ],
+    "semantic_acceptance": false,
+    "forecast_score_eligible": false,
+    "documents": {
+      "signal": {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "kind": "signal",
+        "title": "鲍威尔：Review and Outlook",
+        "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+        "excerpt": "The time has come for policy to adjust.",
+        "locator": "Near-Term Outlook for Policy，调整方向与后续数据的段落",
+        "summary": "讲话表达调整方向，但时间和节奏取决于新数据。此时本包没有9月具体决定。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm"
+      }
+    },
+    "changes": [
+      {
+        "id": "policy",
+        "action": "INITIAL",
+        "before": null,
+        "after": {
+          "id": "policy",
+          "dimension": "policy",
+          "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+          "state": "provisional",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+          "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "execution",
+        "action": "INITIAL",
+        "before": null,
+        "after": {
+          "id": "execution",
+          "dimension": "execution",
+          "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+          "state": "unknown",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+          "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "broad_relief",
+        "action": "INITIAL",
+        "before": null,
+        "after": {
+          "id": "broad_relief",
+          "dimension": "broad_effect",
+          "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+          "state": "provisional",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+          "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": true
+        }
+      },
+      {
+        "id": "hidden_plan",
+        "action": "INITIAL",
+        "before": null,
+        "after": {
+          "id": "hidden_plan",
+          "dimension": "hidden_plan",
+          "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+          "state": "unknown",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+          "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      }
+    ],
+    "engine_role": "Checks time/provenance and records authored updates; not semantic or predictive validation"
+  },
+  {
+    "version": "timeline-1",
+    "id": "T1",
+    "as_of": "2024-09-18",
+    "mode": "retrospective_reconstruction",
+    "method_available_on": "2026-10-05",
+    "previous_sha256": "7f9d192d3f11cb40508b54f0892af38b21d22764f8bb39ca6707422444921951",
+    "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+    "sources": [
+      {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "path": "phase1/method_timeline/run_001/sources/signal.json",
+        "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60",
+        "kind": "signal"
+      },
+      {
+        "id": "decision",
+        "published": "2024-09-18",
+        "event_date": "2024-09-18",
+        "path": "phase1/method_timeline/run_001/sources/decision.json",
+        "sha256": "69ff8b42ac35a566305185fb2f122c6f310ef2d9406cc7d53c4c88ac756b3ed9",
+        "kind": "announcement"
+      },
+      {
+        "id": "instruction",
+        "published": "2024-09-18",
+        "event_date": "2024-09-19",
+        "path": "phase1/method_timeline/run_001/sources/instruction.json",
+        "sha256": "44ec70eda7480d912ff6787d8b820d3f10c6de0e4720aa1b9efee4403ee98131",
+        "kind": "instruction"
+      }
+    ],
+    "judgments": [
+      {
+        "id": "policy",
+        "dimension": "policy",
+        "statement": "方向信号已变成具体措施：9月宣布下调50基点至4.75%–5%。",
+        "state": "announced",
+        "evidence_refs": [
+          "decision"
+        ],
+        "reason": "主判断从可能调整更新为已公布政策。",
+        "next_trigger": "后续新决定会更新区间；不默认路径固定。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "execution",
+        "dimension": "execution",
+        "statement": "9月19日实施安排已明确，预期影响短端；尚不写成已经观察到效果。",
+        "state": "scheduled",
+        "evidence_refs": [
+          "instruction"
+        ],
+        "reason": "相比T0已有可执行工具与日期，因此不再维持“没有具体安排”的基线。",
+        "next_trigger": "后续运行记录是否显示传导。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "broad_relief",
+        "dimension": "broad_effect",
+        "statement": "过宽效果分支仍待检验，不将宣布降息当作多数借贷成本已经下降。",
+        "state": "provisional",
+        "evidence_refs": [
+          "decision"
+        ],
+        "reason": "措施已公布，但未新增足够的广泛效果观察。",
+        "next_trigger": "寻找不同期限与借款主体的成本结果。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": true
+      },
+      {
+        "id": "hidden_plan",
+        "dimension": "hidden_plan",
+        "statement": "工具和实施安排支持存在准备，但仍不能确定内部提前量与非公开信息。",
+        "state": "unknown",
+        "evidence_refs": [
+          "instruction"
+        ],
+        "reason": "间接解释得到一些结构性支持，具体内部判断仍未知。",
+        "next_trigger": "需要决策过程与当时信息；不从措施存在倒推完整预案。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    ],
+    "semantic_acceptance": false,
+    "forecast_score_eligible": false,
+    "documents": {
+      "signal": {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "kind": "signal",
+        "title": "鲍威尔：Review and Outlook",
+        "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+        "excerpt": "The time has come for policy to adjust.",
+        "locator": "Near-Term Outlook for Policy，调整方向与后续数据的段落",
+        "summary": "讲话表达调整方向，但时间和节奏取决于新数据。此时本包没有9月具体决定。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm"
+      },
+      "decision": {
+        "id": "decision",
+        "published": "2024-09-18",
+        "event_date": "2024-09-18",
+        "kind": "announcement",
+        "title": "9月FOMC决定",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+        "excerpt": "by 1/2 percentage point to 4-3/4 to 5 percent",
+        "locator": "决定目标区间的段落",
+        "summary": "公布下调50基点至4.75%–5%；是9月的决定，不把这个区间当作11月仍然不变。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+      },
+      "instruction": {
+        "id": "instruction",
+        "published": "2024-09-18",
+        "event_date": "2024-09-19",
+        "kind": "instruction",
+        "title": "9月实施说明",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm",
+        "excerpt": "Effective September 19, 2024",
+        "locator": "国内政策操作指令开头及目标利率条款",
+        "summary": "实施指令自9月19日起生效；指令存在不等于已经观察到执行效果。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm"
+      }
+    },
+    "changes": [
+      {
+        "id": "policy",
+        "action": "UPDATE",
+        "before": {
+          "id": "policy",
+          "dimension": "policy",
+          "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+          "state": "provisional",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+          "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "policy",
+          "dimension": "policy",
+          "statement": "方向信号已变成具体措施：9月宣布下调50基点至4.75%–5%。",
+          "state": "announced",
+          "evidence_refs": [
+            "decision"
+          ],
+          "reason": "主判断从可能调整更新为已公布政策。",
+          "next_trigger": "后续新决定会更新区间；不默认路径固定。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "execution",
+        "action": "UPDATE",
+        "before": {
+          "id": "execution",
+          "dimension": "execution",
+          "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+          "state": "unknown",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+          "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "execution",
+          "dimension": "execution",
+          "statement": "9月19日实施安排已明确，预期影响短端；尚不写成已经观察到效果。",
+          "state": "scheduled",
+          "evidence_refs": [
+            "instruction"
+          ],
+          "reason": "相比T0已有可执行工具与日期，因此不再维持“没有具体安排”的基线。",
+          "next_trigger": "后续运行记录是否显示传导。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "broad_relief",
+        "action": "HOLD",
+        "before": {
+          "id": "broad_relief",
+          "dimension": "broad_effect",
+          "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+          "state": "provisional",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+          "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": true
+        },
+        "after": {
+          "id": "broad_relief",
+          "dimension": "broad_effect",
+          "statement": "过宽效果分支仍待检验，不将宣布降息当作多数借贷成本已经下降。",
+          "state": "provisional",
+          "evidence_refs": [
+            "decision"
+          ],
+          "reason": "措施已公布，但未新增足够的广泛效果观察。",
+          "next_trigger": "寻找不同期限与借款主体的成本结果。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": true
+        }
+      },
+      {
+        "id": "hidden_plan",
+        "action": "HOLD",
+        "before": {
+          "id": "hidden_plan",
+          "dimension": "hidden_plan",
+          "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+          "state": "unknown",
+          "evidence_refs": [
+            "signal"
+          ],
+          "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+          "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "hidden_plan",
+          "dimension": "hidden_plan",
+          "statement": "工具和实施安排支持存在准备，但仍不能确定内部提前量与非公开信息。",
+          "state": "unknown",
+          "evidence_refs": [
+            "instruction"
+          ],
+          "reason": "间接解释得到一些结构性支持，具体内部判断仍未知。",
+          "next_trigger": "需要决策过程与当时信息；不从措施存在倒推完整预案。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      }
+    ],
+    "engine_role": "Checks time/provenance and records authored updates; not semantic or predictive validation"
+  },
+  {
+    "version": "timeline-1",
+    "id": "T2",
+    "as_of": "2024-11-26",
+    "mode": "retrospective_reconstruction",
+    "method_available_on": "2026-10-05",
+    "previous_sha256": "c9ae7821007a15ac3b6cfc54992f971fd0dedfe47a50a0f77f0cb47909ec63a7",
+    "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+    "sources": [
+      {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "path": "phase1/method_timeline/run_001/sources/signal.json",
+        "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60",
+        "kind": "signal"
+      },
+      {
+        "id": "decision",
+        "published": "2024-09-18",
+        "event_date": "2024-09-18",
+        "path": "phase1/method_timeline/run_001/sources/decision.json",
+        "sha256": "69ff8b42ac35a566305185fb2f122c6f310ef2d9406cc7d53c4c88ac756b3ed9",
+        "kind": "announcement"
+      },
+      {
+        "id": "instruction",
+        "published": "2024-09-18",
+        "event_date": "2024-09-19",
+        "path": "phase1/method_timeline/run_001/sources/instruction.json",
+        "sha256": "44ec70eda7480d912ff6787d8b820d3f10c6de0e4720aa1b9efee4403ee98131",
+        "kind": "instruction"
+      },
+      {
+        "id": "nov_decision",
+        "published": "2024-11-07",
+        "event_date": "2024-11-07",
+        "path": "phase1/method_timeline/run_001/sources/nov_decision.json",
+        "sha256": "d8ec5332c8bf751d2898af8f710967993e0c788f6e51c7712ed94febe8074a37",
+        "kind": "announcement"
+      },
+      {
+        "id": "transmission",
+        "published": "2024-11-26",
+        "event_date": "2024-11-07",
+        "path": "phase1/method_timeline/run_001/sources/transmission.json",
+        "sha256": "d28539b58121973322a803367b4dea8b0c8a5d19d50ff400d15f893979c82235",
+        "kind": "execution"
+      },
+      {
+        "id": "borrowing",
+        "published": "2024-11-26",
+        "event_date": "2024-11-07",
+        "path": "phase1/method_timeline/run_001/sources/borrowing.json",
+        "sha256": "07196c620416e729b1a09bbb44bec22ed229610e304ffe962e6d1dd7d22508b4",
+        "kind": "outcome"
+      }
+    ],
+    "judgments": [
+      {
+        "id": "policy",
+        "dimension": "policy",
+        "statement": "11月已再宣布降息25基点至4.50%–4.75%，更新政策状态。",
+        "state": "announced",
+        "evidence_refs": [
+          "nov_decision"
+        ],
+        "reason": "仍为已公布政策这一状态，但具体幅度和区间更新，不复制过时参数。",
+        "next_trigger": "继续观察后续决定及其条件。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "execution",
+        "dimension": "execution",
+        "statement": "公开纪要提供了9月调整传导至短端参考利率的事后观察。",
+        "state": "observed",
+        "evidence_refs": [
+          "transmission"
+        ],
+        "reason": "从实施指令推进到执行观察；观察覆盖此前会议间时段，公开时间为11月26日。",
+        "next_trigger": "继续区分执行、不同市场传导和更广泛经济效果。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      },
+      {
+        "id": "broad_relief",
+        "dimension": "broad_effect",
+        "statement": "撤回“多数借贷成本会随降息同步下降”的过宽分支。",
+        "state": "withdrawn",
+        "evidence_refs": [
+          "borrowing"
+        ],
+        "reason": "公开记录给出相反现象。短端传导不等于广泛融资成本同步下降，应分期限和传导渠道重新分析。",
+        "next_trigger": "新判断应考虑长期利率、期限溢价等因素；本例不建立新的因果效果估计。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": true
+      },
+      {
+        "id": "hidden_plan",
+        "dimension": "hidden_plan",
+        "statement": "执行得到支持，但内部动机、事前掌握的信息和完整纠错方案仍未确证。",
+        "state": "unknown",
+        "evidence_refs": [
+          "transmission",
+          "borrowing"
+        ],
+        "reason": "有执行及反例不等于识别了唯一内部原因；既不默认全知，也不因不明而停止其他分析。",
+        "next_trigger": "只有新的过程证据才调整内部计划解释。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    ],
+    "semantic_acceptance": false,
+    "forecast_score_eligible": false,
+    "documents": {
+      "signal": {
+        "id": "signal",
+        "published": "2024-08-23",
+        "event_date": "2024-08-23",
+        "kind": "signal",
+        "title": "鲍威尔：Review and Outlook",
+        "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+        "excerpt": "The time has come for policy to adjust.",
+        "locator": "Near-Term Outlook for Policy，调整方向与后续数据的段落",
+        "summary": "讲话表达调整方向，但时间和节奏取决于新数据。此时本包没有9月具体决定。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm"
+      },
+      "decision": {
+        "id": "decision",
+        "published": "2024-09-18",
+        "event_date": "2024-09-18",
+        "kind": "announcement",
+        "title": "9月FOMC决定",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+        "excerpt": "by 1/2 percentage point to 4-3/4 to 5 percent",
+        "locator": "决定目标区间的段落",
+        "summary": "公布下调50基点至4.75%–5%；是9月的决定，不把这个区间当作11月仍然不变。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm"
+      },
+      "instruction": {
+        "id": "instruction",
+        "published": "2024-09-18",
+        "event_date": "2024-09-19",
+        "kind": "instruction",
+        "title": "9月实施说明",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm",
+        "excerpt": "Effective September 19, 2024",
+        "locator": "国内政策操作指令开头及目标利率条款",
+        "summary": "实施指令自9月19日起生效；指令存在不等于已经观察到执行效果。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a1.htm"
+      },
+      "nov_decision": {
+        "id": "nov_decision",
+        "published": "2024-11-07",
+        "event_date": "2024-11-07",
+        "kind": "announcement",
+        "title": "11月FOMC决定",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+        "excerpt": "by 1/4 percentage point to 4-1/2 to 4-3/4 percent",
+        "locator": "目标区间决定的段落",
+        "summary": "11月再下调25基点至4.50%–4.75%，更新政策状态。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm"
+      },
+      "transmission": {
+        "id": "transmission",
+        "published": "2024-11-26",
+        "event_date": "2024-11-07",
+        "kind": "execution",
+        "title": "11月会议纪要：短端传导",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20241107.htm",
+        "excerpt": "fully passing through to both secured and unsecured reference rates",
+        "locator": "Staff Review of the Financial Situation，短期融资市场段落",
+        "summary": "纪要回顾两次会议间的情况：9月调整传导到短期市场参考利率；不是截至11月26日每一天的实时观测。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241126a.htm"
+      },
+      "borrowing": {
+        "id": "borrowing",
+        "published": "2024-11-26",
+        "event_date": "2024-11-07",
+        "kind": "outcome",
+        "title": "11月会议纪要：借贷成本",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20241107.htm",
+        "excerpt": "borrowing costs for households and most businesses rose",
+        "locator": "Staff Review of the Financial Situation，国内信贷市场段落",
+        "summary": "纪要称家庭与多数企业的借贷成本同期上升，主要与长期国债收益率上升有关。",
+        "retrieved_on": "2026-10-05",
+        "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+        "published_date_evidence": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241126a.htm"
+      }
+    },
+    "changes": [
+      {
+        "id": "policy",
+        "action": "HOLD",
+        "before": {
+          "id": "policy",
+          "dimension": "policy",
+          "statement": "方向信号已变成具体措施：9月宣布下调50基点至4.75%–5%。",
+          "state": "announced",
+          "evidence_refs": [
+            "decision"
+          ],
+          "reason": "主判断从可能调整更新为已公布政策。",
+          "next_trigger": "后续新决定会更新区间；不默认路径固定。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "policy",
+          "dimension": "policy",
+          "statement": "11月已再宣布降息25基点至4.50%–4.75%，更新政策状态。",
+          "state": "announced",
+          "evidence_refs": [
+            "nov_decision"
+          ],
+          "reason": "仍为已公布政策这一状态，但具体幅度和区间更新，不复制过时参数。",
+          "next_trigger": "继续观察后续决定及其条件。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "execution",
+        "action": "UPDATE",
+        "before": {
+          "id": "execution",
+          "dimension": "execution",
+          "statement": "9月19日实施安排已明确，预期影响短端；尚不写成已经观察到效果。",
+          "state": "scheduled",
+          "evidence_refs": [
+            "instruction"
+          ],
+          "reason": "相比T0已有可执行工具与日期，因此不再维持“没有具体安排”的基线。",
+          "next_trigger": "后续运行记录是否显示传导。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "execution",
+          "dimension": "execution",
+          "statement": "公开纪要提供了9月调整传导至短端参考利率的事后观察。",
+          "state": "observed",
+          "evidence_refs": [
+            "transmission"
+          ],
+          "reason": "从实施指令推进到执行观察；观察覆盖此前会议间时段，公开时间为11月26日。",
+          "next_trigger": "继续区分执行、不同市场传导和更广泛经济效果。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      },
+      {
+        "id": "broad_relief",
+        "action": "WITHDRAW",
+        "before": {
+          "id": "broad_relief",
+          "dimension": "broad_effect",
+          "statement": "过宽效果分支仍待检验，不将宣布降息当作多数借贷成本已经下降。",
+          "state": "provisional",
+          "evidence_refs": [
+            "decision"
+          ],
+          "reason": "措施已公布，但未新增足够的广泛效果观察。",
+          "next_trigger": "寻找不同期限与借款主体的成本结果。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": true
+        },
+        "after": {
+          "id": "broad_relief",
+          "dimension": "broad_effect",
+          "statement": "撤回“多数借贷成本会随降息同步下降”的过宽分支。",
+          "state": "withdrawn",
+          "evidence_refs": [
+            "borrowing"
+          ],
+          "reason": "公开记录给出相反现象。短端传导不等于广泛融资成本同步下降，应分期限和传导渠道重新分析。",
+          "next_trigger": "新判断应考虑长期利率、期限溢价等因素；本例不建立新的因果效果估计。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": true
+        }
+      },
+      {
+        "id": "hidden_plan",
+        "action": "HOLD",
+        "before": {
+          "id": "hidden_plan",
+          "dimension": "hidden_plan",
+          "statement": "工具和实施安排支持存在准备，但仍不能确定内部提前量与非公开信息。",
+          "state": "unknown",
+          "evidence_refs": [
+            "instruction"
+          ],
+          "reason": "间接解释得到一些结构性支持，具体内部判断仍未知。",
+          "next_trigger": "需要决策过程与当时信息；不从措施存在倒推完整预案。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        },
+        "after": {
+          "id": "hidden_plan",
+          "dimension": "hidden_plan",
+          "statement": "执行得到支持，但内部动机、事前掌握的信息和完整纠错方案仍未确证。",
+          "state": "unknown",
+          "evidence_refs": [
+            "transmission",
+            "borrowing"
+          ],
+          "reason": "有执行及反例不等于识别了唯一内部原因；既不默认全知，也不因不明而停止其他分析。",
+          "next_trigger": "只有新的过程证据才调整内部计划解释。",
+          "attribution": "assistant_reconstruction",
+          "teaching_branch": false
+        }
+      }
+    ],
+    "engine_role": "Checks time/provenance and records authored updates; not semantic or predictive validation"
+  }
+]

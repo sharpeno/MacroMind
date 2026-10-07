@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "browser.command.json": "cdbba42a1bf68eb8f776fbb099c5cdd52e8b623860bfdb8e7d1f4c91b36833f4",
+    "browser.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "browser.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "browser.stdout.txt": "607f4eb4e6fba15d61ae227a88af4978926cdea08fe986013847cb70988e3601",
+    "build.py": "5285148fed33cfba298c287e43eda0b0bfab2b62852b4c58b9d339c510b23de0",
+    "current_README.before.md": "c95ca93969db71056c48b8814aa351349546cb6efe9deb3b4b3bb7f37942e56a",
+    "feedback.json": "d468c57999e9692a701f02182d66a1890605c09d04513d99ac19f065fa9fc48a",
+    "format.command.json": "1689be99d4096d5c48af945b10702dcc2245086fc25f419307e9721599ab8122",
+    "format.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "format.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "format.stdout.txt": "3bc53bf3e981a98a34a852e175bf9b77af841edea74fca595d9aedcbaf9a4938",
+    "full_tests.command.json": "dae88fba29c9714165e7762b03d84067238a2f73a731cca899bc9ba286865621",
+    "full_tests.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "full_tests.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "full_tests.stdout.txt": "a99c05867acb7bd69ca9b57c8b9114638774892bcabf27fbef2bc880f17d5821",
+    "inference.json": "37bf8752ad4b4ab3c3e3860e296de9478421ef3cd4f4f0256493a28cb44723f7",
+    "input_hashes.json": "d99083e4e2303bf37acde29790460bfb3a455cfae839b54ff6339590acfc40a7",
+    "integrity.json": "77b363897f3f6b7473d2a55d7a3357683584d2a05b0aacac0bd190b15c236ea8",
+    "latest.before.json": "f7dc553e707d6b0c1fa0228ebc2d4b2891e1f45d242588184e04d7f0cec4e878",
+    "lint.command.json": "fe870c1bf75645dacd0cee5814eefa668a2ff28703c431243f600ba46706fe10",
+    "lint.result.json": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+    "lint.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "lint.stdout.txt": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "PROGRESS.md": "50266963a23024c61f99c63311347bc893304f67205f4af35e2a638e4cd59606",
+    "REPORT.md": "56f485606fea3c950d1799c30e7bf9a9c1a6f0904058daced6f29f624ec4a497",
+    "TRACE.html": "065b1c2a62b8cbdcc5bba0bf1ab2f1056ed87e0713df27d54907492f2ba75918",
+    "verify.py": "f1f749b9bde5caee80a7bf6eda0b020a6519e30756afd4dd13467be36aaf9ffe"
+  },
+  "implementation": {
+    "src/macromind/methods/inference.py": "0f685c3f1877a7d2858670792a5644b8dc5028c23d12075a456303849619aef8",
+    "tests/methods/test_inference.py": "f59f34aef5d5ecb19e7486fa1fbf37f641757db55436a60b8b48cf954fcb95d7",
+    "docs/current/METHOD_INFERENCE.md": "c413a94a3789ba0fc4a3b3204805e5bd7cebe669a7c769bb65751720f2f8b79c"
+  },
+  "status": "USER_CORRECTION_IMPLEMENTED",
+  "semantic_acceptance": false
+}

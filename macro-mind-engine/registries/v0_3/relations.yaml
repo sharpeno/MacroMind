@@ -1,0 +1,184 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "name": "ASSERTED_BY",
+      "source_types": [
+        "Claim"
+      ],
+      "target_types": [
+        "Actor"
+      ],
+      "semantic_description": "Claim claimant attribution; identity evidence remains required.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "core_objects.json#Claim; P15"
+      ]
+    },
+    {
+      "name": "SUPPORTED_BY",
+      "source_types": [
+        "Claim",
+        "Thesis",
+        "Argument",
+        "StructuralProcess",
+        "Contradiction"
+      ],
+      "target_types": [
+        "Source",
+        "SourceSegment",
+        "Claim",
+        "Event",
+        "IndicatorObservation",
+        "Policy",
+        "Argument"
+      ],
+      "semantic_description": "Recorded support reference, not truth propagation or sufficient evidence.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "P01/P02/B03; Frozen Argument and StructuralProcess"
+      ]
+    },
+    {
+      "name": "DERIVED_FROM",
+      "source_types": [
+        "Claim",
+        "Argument",
+        "IndicatorObservation"
+      ],
+      "target_types": [
+        "Claim",
+        "Argument",
+        "SourceSegment",
+        "IndicatorObservation"
+      ],
+      "semantic_description": "Recorded derivation with reasoner attribution; no causal validity assertion.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "P15/P16; Argument graph"
+      ]
+    },
+    {
+      "name": "OBSERVED_AS",
+      "source_types": [
+        "Indicator"
+      ],
+      "target_types": [
+        "IndicatorObservation"
+      ],
+      "semantic_description": "Variable definition to time-specific observation.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "B05/P06"
+      ]
+    },
+    {
+      "name": "USES_MECHANISM",
+      "source_types": [
+        "Argument",
+        "MechanismUsage"
+      ],
+      "target_types": [
+        "Mechanism"
+      ],
+      "semantic_description": "Usage does not establish mechanism authorship.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "B07/B14/P09"
+      ]
+    },
+    {
+      "name": "REFERS_TO",
+      "source_types": [
+        "Assessment",
+        "ReviewQueueItem"
+      ],
+      "target_types": [
+        "Source",
+        "Claim",
+        "Event",
+        "StructuralProcess",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Mechanism",
+        "Argument",
+        "Thesis",
+        "Forecast",
+        "Contradiction",
+        "Assessment",
+        "Heuristic",
+        "SourceVersion",
+        "SourceSegment",
+        "SourceFamily",
+        "ClaimOccurrence",
+        "TranscriptCorrection",
+        "IndicatorObservation",
+        "InformationSet",
+        "ExpectationSnapshot",
+        "Scenario",
+        "ReviewQueueItem",
+        "AnalystMethodSignal",
+        "MechanismUsage"
+      ],
+      "semantic_description": "Explicit evaluation or review target; no target mutation.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "B10/B11"
+      ]
+    },
+    {
+      "name": "CONTRADICTS",
+      "source_types": [
+        "Claim"
+      ],
+      "target_types": [
+        "Claim"
+      ],
+      "semantic_description": "Recorded claim disagreement; not the Core structural Contradiction type.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "core_objects.json#Contradiction coverage_note"
+      ]
+    },
+    {
+      "name": "PART_OF",
+      "source_types": [
+        "SourceSegment"
+      ],
+      "target_types": [
+        "SourceVersion",
+        "Source"
+      ],
+      "semantic_description": "Source segment membership in carrier or captured version.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "B01; provenance_contract"
+      ]
+    },
+    {
+      "name": "VERSION_OF",
+      "source_types": [
+        "SourceVersion"
+      ],
+      "target_types": [
+        "Source"
+      ],
+      "semantic_description": "Versioned carrier reference, distinct from URL identity.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "P13; provenance_contract"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+[
+  {
+    "review_id": "MA1-COMPARISON-OB01",
+    "object_refs": [
+      "OB01",
+      "C003"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB02",
+    "object_refs": [
+      "OB02",
+      "C004"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB03",
+    "object_refs": [
+      "OB03",
+      "C005"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB04",
+    "object_refs": [
+      "OB04",
+      "C006"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB05",
+    "object_refs": [
+      "OB05",
+      "C007"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB06",
+    "object_refs": [
+      "OB06",
+      "C008"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB07",
+    "object_refs": [
+      "OB07",
+      "C009"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB08",
+    "object_refs": [
+      "OB08",
+      "C010"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB09",
+    "object_refs": [
+      "OB09",
+      "C016"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB10",
+    "object_refs": [
+      "OB10",
+      "C017"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB11",
+    "object_refs": [
+      "OB11",
+      "C019"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB12",
+    "object_refs": [
+      "OB12",
+      "C109"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB13",
+    "object_refs": [
+      "OB13",
+      "C020"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB14",
+    "object_refs": [
+      "OB14",
+      "C022"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB15",
+    "object_refs": [
+      "OB15",
+      "C023"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB16",
+    "object_refs": [
+      "OB16",
+      "C028"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB17",
+    "object_refs": [
+      "OB17",
+      "C039"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB18",
+    "object_refs": [
+      "OB18",
+      "C041"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB19",
+    "object_refs": [
+      "OB19",
+      "C042"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB20",
+    "object_refs": [
+      "OB20",
+      "C043"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB21",
+    "object_refs": [
+      "OB21",
+      "C044"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB22",
+    "object_refs": [
+      "OB22",
+      "C045"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB23",
+    "object_refs": [
+      "OB23",
+      "C046"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB24",
+    "object_refs": [
+      "OB24",
+      "C047"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB25",
+    "object_refs": [
+      "OB25",
+      "C049"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB26",
+    "object_refs": [
+      "OB26",
+      "C053"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB27",
+    "object_refs": [
+      "OB27",
+      "C075"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB28",
+    "object_refs": [
+      "OB28",
+      "C089"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB29",
+    "object_refs": [
+      "OB29",
+      "C090"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-COMPARISON-OB30",
+    "object_refs": [
+      "OB30",
+      "C091"
+    ],
+    "category": "comparison_basis",
+    "question": "原数值、单位、期间保留；比较基准/精度未唯一编码的部分保持null，按既有来源补全，禁止把原值自动当delta。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": false
+  },
+  {
+    "review_id": "MA1-ROLE-AR01",
+    "object_refs": [
+      "AR01"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR02",
+    "object_refs": [
+      "AR02"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR03",
+    "object_refs": [
+      "AR03"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR04",
+    "object_refs": [
+      "AR04"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR05",
+    "object_refs": [
+      "AR05"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR06",
+    "object_refs": [
+      "AR06"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR07",
+    "object_refs": [
+      "AR07"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR08",
+    "object_refs": [
+      "AR08"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR09",
+    "object_refs": [
+      "AR09"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR10",
+    "object_refs": [
+      "AR10"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR11",
+    "object_refs": [
+      "AR11"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-DA01",
+    "object_refs": [
+      "DA01"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR12",
+    "object_refs": [
+      "AR12"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR13",
+    "object_refs": [
+      "AR13"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR14",
+    "object_refs": [
+      "AR14"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR15",
+    "object_refs": [
+      "AR15"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ROLE-AR16",
+    "object_refs": [
+      "AR16"
+    ],
+    "category": "role_scope",
+    "question": "Claim角色字段原本缺失，保持unknown；逐条复核既有Argument Edge的跨角色边界，不补逻辑。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-RECURRENCE-MS01",
+    "object_refs": [
+      "MS01"
+    ],
+    "category": "recurrence",
+    "question": "旧repeated只给一般执行约束/摘要相似性，暂归uncertain；补具体变量和步骤后由人工定匹配精度。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-FUTURE-LEAK-MS02",
+    "object_refs": [
+      "MS02"
+    ],
+    "category": "future_sample_leakage",
+    "question": "旧候选B使用GS002/HC01，GS002内容日期2026-09-21晚于GS004的2026-08-05。仅保留Legacy，不作历史prior；人工确认样本序号与内容时间边界。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ATTRIBUTION-ME01",
+    "object_refs": [
+      "ME01"
+    ],
+    "category": "attribution",
+    "question": "共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ATTRIBUTION-ME02",
+    "object_refs": [
+      "ME02"
+    ],
+    "category": "attribution",
+    "question": "共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  },
+  {
+    "review_id": "MA1-ATTRIBUTION-ME03",
+    "object_refs": [
+      "ME03"
+    ],
+    "category": "attribution",
+    "question": "共享Mechanism原本没有reasoner/observer；不把Usage分析师复制为机制作者。保留未知，人工核对共享候选的抽象归属。",
+    "status": "open",
+    "decision": null,
+    "requires_human": true,
+    "blocks_verified_promotion": true
+  }
+]

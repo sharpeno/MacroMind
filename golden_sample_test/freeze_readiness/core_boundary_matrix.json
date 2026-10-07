@@ -1,0 +1,378 @@
+{
+  "boundaries": [
+    {
+      "boundary_id": "B01",
+      "boundary": "Source ↔ Claim",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "转载计独立支持；引述正确被当事实正确。"
+      ],
+      "resolution": "Source→片段/版本→Claim；独立 Assessment；按命题 origin 去重。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E02",
+        "E10",
+        "E41"
+      ],
+      "debt_refs": [
+        "D07",
+        "D20"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B02",
+      "boundary": "Claim ↔ Event",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "宣称封锁、拟开放或一次回收被当全部结果发生。"
+      ],
+      "resolution": "Claim 保存说法；Event 的状态和发生证据单列。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E05",
+        "E12",
+        "E25"
+      ],
+      "debt_refs": [
+        "D20"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B03",
+      "boundary": "Event ↔ StructuralProcess",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "一场冲突/一次回收被扩成格局或产业转型。"
+      ],
+      "resolution": "跨期证据门槛；证据不足保留 Claim/Thesis。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E03",
+        "E25",
+        "E32"
+      ],
+      "debt_refs": [
+        "D12"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B04",
+      "boundary": "Actor ↔ Geography",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS002",
+        "GS003"
+      ],
+      "known_failure_cases": [
+        "国家主体、海峡地域、卖铲人角色可能词面混同。"
+      ],
+      "resolution": "主体身份与 location/role 关系分开。",
+      "resolution_layer": "registry",
+      "evidence_refs": [
+        "E05",
+        "E14"
+      ],
+      "debt_refs": [
+        "D07",
+        "D20"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B05",
+      "boundary": "Indicator ↔ IndicatorObservation",
+      "status": "needs_field",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "比值当价格；库容当库存；目标当实绩。"
+      ],
+      "resolution": "指标定义稳定，观测带 value_kind、period、comparison、role/stage。",
+      "resolution_layer": "field",
+      "evidence_refs": [
+        "E05",
+        "E13",
+        "E20",
+        "E27"
+      ],
+      "debt_refs": [
+        "D16"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B06",
+      "boundary": "Policy ↔ Policy Event",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "已宣布但未来生效误判成未来污染或已经执行。"
+      ],
+      "resolution": "政策持久状态与宣布/实施事件分别记录并关联。",
+      "resolution_layer": "field",
+      "evidence_refs": [
+        "E05",
+        "E12"
+      ],
+      "debt_refs": [
+        "D05"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B07",
+      "boundary": "Mechanism ↔ Argument",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS002",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "一次故事当机制；共享机制变成主播完整推理。"
+      ],
+      "resolution": "机制保留可复用因果结构，Argument 保存本次前提和实际推理边。",
+      "resolution_layer": "relation",
+      "evidence_refs": [
+        "E06",
+        "E16",
+        "E18",
+        "E26"
+      ],
+      "debt_refs": [
+        "D10",
+        "D11"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B08",
+      "boundary": "Thesis ↔ Forecast",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS001",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "长期产业解释直接进入单一预测账本。"
+      ],
+      "resolution": "持久结构解释与带时间/条件的未来判断分别引用。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E01",
+        "E08",
+        "E25",
+        "E34"
+      ],
+      "debt_refs": [
+        "D03",
+        "D15"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B09",
+      "boundary": "Scenario ↔ Forecast",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "GS003 FC-C026 枚举两种可能；GS005 C005 条件未背书。"
+      ],
+      "resolution": "Scenario 保留分支；Forecast 必须满足主体判断准入；不以 resolvability 单独替代准入。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E08",
+        "E09",
+        "E24",
+        "E34"
+      ],
+      "debt_refs": [
+        "D03"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B10",
+      "boundary": "Assessment ↔ Claim",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS001",
+        "GS002",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "某推导无效被误作原子事实为假。"
+      ],
+      "resolution": "Assessment 指向目标/标准/观察者；不改写原 Claim。",
+      "resolution_layer": "field",
+      "evidence_refs": [
+        "E01",
+        "E41",
+        "E42"
+      ],
+      "debt_refs": [
+        "D20"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B11",
+      "boundary": "Assessment ↔ Reality",
+      "status": "needs_validator",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "官方说过、模型判错、文件披露被推成现实全部成立。"
+      ],
+      "resolution": "评价作用范围和真值不传播原则。",
+      "resolution_layer": "validator",
+      "evidence_refs": [
+        "E10",
+        "E41",
+        "E42"
+      ],
+      "debt_refs": [
+        "D20"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B12",
+      "boundary": "Heuristic ↔ AnalystMethodSignal",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "部分相似或事后观察当完整稳定规则。"
+      ],
+      "resolution": "局部行为观察→候选模式→规则，保留失败与匹配范围。",
+      "resolution_layer": "auxiliary_object",
+      "evidence_refs": [
+        "E04",
+        "E15",
+        "E17",
+        "E40"
+      ],
+      "debt_refs": [
+        "D14",
+        "D17"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B13",
+      "boundary": "Heuristic ↔ Skill Rule",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "候选规则直接可执行化。"
+      ],
+      "resolution": "Core Heuristic 可候选；Skill 需跨案稳定性、反例与验证。",
+      "resolution_layer": "review",
+      "evidence_refs": [
+        "E01",
+        "E04",
+        "E40"
+      ],
+      "debt_refs": [
+        "D14"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B14",
+      "boundary": "Mechanism ↔ MechanismUsage",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS004",
+        "GS005"
+      ],
+      "known_failure_cases": [
+        "使用者当机制创建者或 unknown 被补成 analyst。"
+      ],
+      "resolution": "共享机制和使用实例分别 attribution。",
+      "resolution_layer": "auxiliary_object",
+      "evidence_refs": [
+        "E18",
+        "E19",
+        "E26"
+      ],
+      "debt_refs": [
+        "D10"
+      ],
+      "core_change_required": false
+    },
+    {
+      "boundary_id": "B15",
+      "boundary": "Event ↔ Market Infrastructure Event subtype",
+      "status": "stable",
+      "evidence_goldens": [
+        "GS003"
+      ],
+      "known_failure_cases": [
+        "Platts 报价通知因重要性被升级新核心对象或过程。"
+      ],
+      "resolution": "以 Event subtype 和 registry 扩展表示通知动作。",
+      "resolution_layer": "registry",
+      "evidence_refs": [
+        "E12"
+      ],
+      "debt_refs": [
+        "D07"
+      ],
+      "core_change_required": false
+    }
+  ]
+}

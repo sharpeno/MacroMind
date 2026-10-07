@@ -1,0 +1,92 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MacroMind · 巴以冲突材料登记</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#193d42;background:#f4f7f6;line-height:1.6}
+*{box-sizing:border-box}body{margin:0}main{max-width:1160px;margin:auto;padding:28px 20px}
+h1{font-size:30px;margin:4px 0}h2{font-size:20px}p{margin:8px 0}.muted,small{color:#52676b}
+.panel,article{background:white;border:1px solid #cddcda;border-radius:12px;padding:20px;margin:16px 0}
+.bar,.grid{display:flex;gap:12px;flex-wrap:wrap}.grid>label{flex:1 1 280px}label{display:block;font-weight:600}
+input,textarea,select,button{font:inherit;border:1px solid #9fb9b5;border-radius:6px;padding:9px;background:white;color:inherit}
+input,textarea,select{width:100%}textarea{min-height:88px}button{cursor:pointer}button.primary{background:#12655b;color:white}
+button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #d9aa36}
+.bar>label{flex:1 1 200px}.bar button{align-self:end}.notice{background:#fff8df;border-left:4px solid #c59c39;padding:12px}
+#status{padding:10px 0;min-height:44px;font-weight:600;overflow-wrap:anywhere}summary{cursor:pointer;font-weight:650}
+.meta{overflow-wrap:anywhere;font-size:13px}article h2{margin:0 0 8px}.fields{margin-top:18px}.fields label{margin-bottom:12px}
+.badge{display:inline-block;background:#e4f2ec;border-radius:20px;padding:2px 10px;font-size:13px}
+@media(max-width:600px){main{padding:16px 12px}h1{font-size:25px}.panel,article{padding:14px}.bar button{width:100%}.grid>label{flex-basis:100%}}
+</style>
+<main>
+<small>MACROMIND / 材料入口 · conflict_001</small><h1>巴以冲突 · 统一材料登记</h1>
+<p>文件留在原目录，每份字幕一条记录。已有信息已填好；缺项可以留空，无需逐条补齐。</p>
+<div class="notice">本页仅登记材料，尚未提炼观点或分配开发／检验用途。文件名日期不是已核实的发布日期；字幕来源已确认，生成方式与准确性仍未知。</div>
+<section class="panel"><h2>保存与恢复</h2>
+<p>修改会暂存于当前浏览器。请用“另存登记文件”选择归档位置；不支持时使用下载，再把 JSON 放入下方 exports 文件夹。换浏览器或重新生成页面后，可导入导出的 JSON 恢复。</p>
+<p class="meta">建议归档：G:\youhegaojian\macro-mind-engine\phase1\material_intake\conflict_001\exports\</p>
+<div class="bar"><button class="primary" id="save">另存登记文件</button><button id="download">下载 JSON 备份</button><button id="import">导入登记文件</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+<p id="status" role="status" aria-live="polite"></p>
+</section>
+<section class="panel"><h2>批量补充</h2><p>仅应用到当前筛选结果；留空表示不修改。</p>
+<div class="bar"><label>博主<input id="bulkAuthor" placeholder="例如：9527"></label><label>获取方式<input id="bulkAcquisition" placeholder="整批统一填写"></label><button id="apply">应用到筛选结果</button></div></section>
+<section class="panel"><div class="bar"><label>搜索期号、标题或备注<input id="search" type="search" placeholder="例如：454、油价"></label><label>筛选<select id="filter"><option value="all">全部材料</option><option value="date">日期待核实</option><option value="url">缺视频链接</option><option value="notes">已有备注</option></select></label></div><p id="count"></p></section>
+<div id="rows"></div>
+<p class="muted">新增文件后运行同目录 build.py 更新清单及页面，再重新打开页面。相同文件的草稿可继续使用；内容改变会产生新记录，旧登记不会自动套用。导入按文件标识匹配，未知记录将被拒绝，不会静默丢弃。</p>
+</main>
+<script id="seed" type="application/json">__DATA__</script>
+<script>
+'use strict';
+const seed=JSON.parse(document.getElementById('seed').textContent), key='macromind.intake.conflict_001.v1';
+const fields=['author','acquisition','subtitle_generation','revision_status','date','date_status','date_evidence','video_url','original_news','supplementary_news','topic','notes'];
+let records=structuredClone(seed.records), storageOK=true;
+const $=id=>document.getElementById(id);
+function status(s){$('status').textContent=s}
+function validate(value){
+ if(!value||value.schema!==seed.schema||value.batch!==seed.batch||!Array.isArray(value.records))throw Error('不是本批次登记文件');
+ const ids=new Set();
+ for(const r of value.records){
+  if(!r||ids.has(r.id))throw Error('重复或无效记录'); ids.add(r.id);
+  const base=seed.records.find(x=>x.id===r.id);
+  if(!base||base.sha256!==r.sha256)throw Error('存在未知或已改变的原文件，请先核对目录并重新扫描');
+  for(const f of fields)if(typeof r[f]!=='string')throw Error('字段缺失或类型错误：'+f);
+  if(r.date&&!/^\d{4}-\d{2}-\d{2}$/.test(r.date))throw Error('日期格式应为 YYYY-MM-DD');
+  if(!['文件名提取，待核实','用户核实','未知'].includes(r.date_status))throw Error('日期状态无效');
+ }
+ return value;
+}
+function merge(value){for(const r of value.records){const dest=records.find(x=>x.id===r.id);for(const f of fields)dest[f]=r[f]}}
+function packet(){return {...seed,exported_at:new Date().toISOString(),records}}
+function persist(){try{localStorage.setItem(key,JSON.stringify(packet()));storageOK=true;status('已暂存当前浏览器；尚未写入归档文件，请另存或下载。')}catch(e){storageOK=false;status('浏览器无法保存草稿，请立即下载 JSON 备份。')}}
+try{const saved=localStorage.getItem(key);if(saved){merge(validate(JSON.parse(saved)));status('已恢复当前浏览器草稿。请定期导出归档。')}else status('已载入自动登记清单，尚无浏览器草稿。')}catch(e){status('草稿未自动载入：'+e.message+'。现显示初始清单，请保留旧导出文件。')}
+function visible(){const q=$('search').value.trim().toLowerCase(),f=$('filter').value;return records.filter(r=>(r.episode+' '+r.title+' '+r.notes).toLowerCase().includes(q)&&(f==='all'||f==='date'&&r.date_status!=='用户核实'||f==='url'&&!r.video_url||f==='notes'&&r.notes.trim()))}
+function control(r,f,title,type='text'){
+ const label=document.createElement('label');label.textContent=title;
+ const el=document.createElement(type==='textarea'?'textarea':type==='select'?'select':'input');
+ if(type==='select')for(const s of ['文件名提取，待核实','用户核实','未知'])el.add(new Option(s,s));
+ else if(type!=='textarea')el.type=type;
+ el.value=r[f];el.dataset.field=f;el.setAttribute('aria-label',title+' · 第'+r.episode+'期');
+ el.addEventListener('input',()=>{r[f]=el.value;persist();$('count').textContent='显示 '+visible().length+' / '+records.length+' 份；日期已核实 '+records.filter(x=>x.date_status==='用户核实').length+' 份'});
+ label.append(el);return label;
+}
+function render(){
+ $('rows').replaceChildren();const selected=visible();
+ $('count').textContent='显示 '+selected.length+' / '+records.length+' 份；日期已核实 '+records.filter(x=>x.date_status==='用户核实').length+' 份';
+ for(const r of selected){
+ const article=document.createElement('article');article.dataset.id=r.id;
+ const h=document.createElement('h2');h.textContent='第 '+r.episode+' 期 · '+r.title;article.append(h);
+ const p=document.createElement('p');p.className='badge';p.textContent='文件名日期 '+(r.filename_date||'未知')+' · 用途未分配';article.append(p);
+ const d=document.createElement('details'),s=document.createElement('summary');s.textContent='补充信息 / 查看登记';d.append(s);
+ const meta=document.createElement('p');meta.className='meta';meta.textContent='原文件：'+r.file+' ｜ SHA-256：'+r.sha256;d.append(meta);
+ const grid=document.createElement('div');grid.className='grid fields';
+ for(const [f,t,type] of [['author','博主'],['acquisition','获取方式'],['subtitle_generation','字幕生成方式'],['revision_status','字幕修订情况'],['date','发布日期','date'],['date_status','日期状态','select'],['date_evidence','日期核实依据'],['video_url','原视频链接'],['topic','主题'],['original_news','博主引用的新闻链接（每行一条）','textarea'],['supplementary_news','后来补找的佐证链接（每行一条）','textarea'],['notes','备注 / 待核实事项','textarea']])grid.append(control(r,f,t,type));
+ d.append(grid);article.append(d);$('rows').append(article);
+ }
+}
+$('search').addEventListener('input',render);$('filter').addEventListener('change',render);
+$('apply').onclick=()=>{const a=$('bulkAuthor').value.trim(),b=$('bulkAcquisition').value.trim();if(!a&&!b){status('请填写至少一个批量字段。');return}const rows=visible();for(const r of rows){if(a)r.author=a;if(b)r.acquisition=b}persist();render();status('已更新 '+rows.length+' 份；请导出归档。')};
+function filename(){return 'MacroMind_conflict001_metadata_'+new Date().toISOString().replace(/[:.]/g,'-')+'.json'}
+function download(){const blob=new Blob([JSON.stringify(packet(),null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename();a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('已发起下载，请确认下载完成，并将文件放入 exports 文件夹。')}
+$('download').onclick=download;
+$('save').onclick=async()=>{if(!window.showSaveFilePicker){download();return}try{const handle=await showSaveFilePicker({suggestedName:filename(),types:[{description:'材料登记 JSON',accept:{'application/json':['.json']}}]});const out=await handle.createWritable();await out.write(JSON.stringify(packet(),null,2));await out.close();status('登记文件已写入你选择的位置：'+handle.name)}catch(e){status(e.name==='AbortError'?'已取消另存；浏览器草稿仍保留。':'另存失败，请使用下载 JSON 备份：'+e.message)}};
+$('import').onclick=()=>$('file').click();
+$('file').onchange=async()=>{try{const file=$('file').files[0];if(!file)return;const value=validate(JSON.parse(await file.text()));if(!confirm('导入将覆盖 '+value.records.length+' 份匹配记录的填写内容。当前草稿请先导出。继续导入？'))return;merge(value);persist();render();status('已导入 '+value.records.length+' 份；'+(storageOK?'已暂存浏览器，请导出归档。':'浏览器无法暂存，请立即导出。'))}catch(e){status('导入失败，当前记录未改动：'+e.message)}finally{$('file').value=''}};
+render();
+</script></html>

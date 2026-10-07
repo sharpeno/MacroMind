@@ -1,0 +1,48 @@
+{
+  "source": {
+    "url": "https://www.cls.cn/detail/1487920",
+    "snapshot": "sources/cls.html",
+    "sha256": "1706a3ad9fd4311f2625bccb99f6444a2c4bd1ef2a70d77fd04fc076e9899d8c",
+    "retrieved_at": "2026-10-07T12:13:42.614882+00:00",
+    "unavailable": [
+      {
+        "url": "https://cn.nytimes.com/world/20231018/biden-israel-trip/",
+        "result": "web.open non-retryable failure; not read, excluded"
+      }
+    ]
+  },
+  "ctime_utc": "2023-10-17T14:32:14+00:00",
+  "cutoff": "2023-10-18 day-level, exact subtitle timing unknown",
+  "facts": [
+    {
+      "id": "F01",
+      "text": "报道9月零售销售环比0.7%，预期0.3%，8月金额上修；指标未扣除通胀。",
+      "status": "报道统计值与市场预期，未独立核对首发数据"
+    },
+    {
+      "id": "F02",
+      "text": "报道同比零售3.8%、CPI3.7%，但不同口径不能简单相减作为精确实际消费增速。",
+      "status": "区分名义与实际、环比与同比"
+    },
+    {
+      "id": "F03",
+      "text": "报道发布后美股开盘下跌、12月再加息市场定价上升。",
+      "status": "报道的市场反应，不等于美联储已决定"
+    },
+    {
+      "id": "F04",
+      "text": "报道援引经济学家预期学生贷款还款、罢工及政府关门风险可能使四季度消费放缓。",
+      "status": "具名观点及条件，不是已实现结果"
+    }
+  ],
+  "inherited_context": {
+    "case474_news_sha256": "899f0c8a2e6c4c3ab3c7b91817a5fef17f955b6add6fb3bacba8271bdcbd2ffb",
+    "use": "prior hospital attribution dispute and cancelled summit are context, not new proof of responsibility"
+  },
+  "limits": [
+    "NYT trip article unavailable; no fresh evidence of trip outcome from title alone",
+    "single retrieved macro report, no original vintage data independent check",
+    "no direct evidence linking retail release to specific Middle East decision",
+    "historical knowledge and earlier cases exposed"
+  ]
+}

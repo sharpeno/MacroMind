@@ -1,0 +1,27 @@
+{
+  "structural_integrity": "PASS",
+  "protected_files_checked": 170,
+  "diagnoses": 12,
+  "operations": 7,
+  "state_entries": 8,
+  "reconstruction_examples": 4,
+  "local_links_checked": 47,
+  "tampered_quote_rejected": true,
+  "sealed_files_checked": 0,
+  "semantic_approval": false,
+  "model_comparison_executed": false,
+  "remaining_unread_episodes": [
+    476,
+    478,
+    479,
+    480,
+    482,
+    484,
+    493,
+    495,
+    496,
+    509,
+    601
+  ],
+  "scope": "Only hashes, exact quotes, references, counts and recorded cutoff fields; no semantic or temporal-enforcement certification"
+}

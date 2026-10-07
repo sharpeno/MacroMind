@@ -1,0 +1,17 @@
+{
+  "frozen_sample_unchanged": true,
+  "policies_unchanged": true,
+  "implementation_unchanged": true,
+  "packages": [
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_003",
+      "count": 288,
+      "mismatches": []
+    },
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001",
+      "count": 124,
+      "mismatches": []
+    }
+  ]
+}

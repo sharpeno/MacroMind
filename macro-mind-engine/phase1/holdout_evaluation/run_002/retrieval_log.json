@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://world.people.com.cn/n1/2023/1017/c1002-40097009.html",
+    "file": "sources/people.html",
+    "sha256": "955685ac587e4f45f2ff3ee9575f09ec754ba1904513598582e4751f4be44237",
+    "status": "retrieved",
+    "encoding": "gb18030"
+  },
+  {
+    "url": "https://www.cls.cn/detail/1487337",
+    "file": "sources/cls.html",
+    "sha256": "f3f2f78c3025753dea6d51d098e4c882dd0a05a32cbc0a9dd904f93c9498a152",
+    "status": "retrieved",
+    "encoding": "utf-8"
+  },
+  {
+    "url": "https://cn.nytimes.com/world/20231010/hamas-israel-war/",
+    "status": "web.open non-retryable failure; excluded, not read"
+  }
+]

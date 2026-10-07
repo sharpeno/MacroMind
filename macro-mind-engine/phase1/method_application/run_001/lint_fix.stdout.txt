@@ -1,0 +1,27 @@
+E741 Ambiguous variable name: `O`
+ --> phase1\method_application\run_001\build_case.py:7:1
+  |
+5 | from pathlib import Path
+6 |
+7 | O = Path(__file__).resolve().parent
+  | ^
+
+E741 Ambiguous variable name: `O`
+  --> phase1\method_application\run_001\check_case.py:9:1
+   |
+ 7 | from pathlib import Path
+ 8 |
+ 9 | O = Path(__file__).resolve().parent
+   | ^
+10 | R = O.parents[2]
+   |
+
+E741 Ambiguous variable name: `O`
+ --> phase1\method_application\run_001\render.py:5:1
+  |
+3 | from pathlib import Path
+4 |
+5 | O = Path(__file__).resolve().parent
+  | ^
+
+Found 5 errors (2 fixed, 3 remaining).

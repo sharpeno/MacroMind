@@ -1,0 +1,15 @@
+{
+  "overlay_version": "CORE-ONTOLOGY-V0.3-FREEZE-COMMIT-1",
+  "historical_ledger_sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+  "historical_audit_nonblocking_debt_count": 20,
+  "freeze_debt_status_overlay": {
+    "D01": {
+      "status": "addressed_by_freeze_commit",
+      "at": "2026-09-27T00:45:14+08:00",
+      "scope": "Unique versioned canonical semantic contract consolidated; executable legacy data mapping remains Phase 1 work.",
+      "canonical_contract_sha256": "c6213568d9a27afb873544c1cce943b79233044910e27a77ddf16c675a5cba23",
+      "integrity_validation_sha256": "e009025ff6bcdb5ed8a4efdf694869939e129a73b16d539bf1c4e79737b58d6c"
+    }
+  },
+  "other_debts": "D02–D20 retain audit status; no resolution claimed."
+}

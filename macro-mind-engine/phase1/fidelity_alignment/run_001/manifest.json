@@ -1,0 +1,19 @@
+{
+  "analyst_state.json": "ba6350d44b5cdee12186a83e7efadf74bd2cfa7848c93c3d1b435765baabefda",
+  "build.py": "83940735e86b5524404c60d86a1818ec403fa67acaca2d315cff3cd5b657707c",
+  "diagnosis.json": "ac762018d410889bae4f426993cde5296f271f4f1388c90920d03191bbc2af14",
+  "DIAGNOSIS.md": "0f6f97a13a761db4ffa4e127933d1dc5136e755fec8cb53f02c4401346a3dff6",
+  "EVALUATION_PLAN.md": "881c830608ddd085584dee9a683ad4b0f6f6ca095bd7271670a0d6692f0e94b1",
+  "evidence.json": "3978a2e814f0bdbb19e11a56d97f76dc5a42b81b988bcc206a931a13a6dadf10",
+  "FRAMEWORK.md": "f54a944b4eb4012027958c01e3a56bb857a83a009a8de046fb71dc1d8c7bbc45",
+  "framework_candidate.json": "eaa7c489448902df677763e9dc36e97bbbd81e6ef38da11c5dae92acbfd4c8d2",
+  "OBJECTIVES.md": "6d07b23457e8871935225a4489f10096d89f8c13100d67ab415f21459303c1ed",
+  "progress.json": "94deac47512c45b1f9deab1c6e04440fac77fe04f937625c68ce38ba37b530b0",
+  "protected_inputs.json": "edfdf99b979494ecd930d0d05763e960d35b24d992a1c3a430943f3687ec3ce6",
+  "RECONSTRUCTION.md": "7074a50152a085d2ebb44a3ccdc92b39f698a9d435d18de2471904c8497afe50",
+  "reconstruction_examples.json": "ffc0899106b7fffd34e3075f5f5471cf682a7778ec08276719796982ab5b5aba",
+  "REPORT.md": "2868abeafebb960ba9087c0a5eb1e69a8ced9028a35928a511698cc7ec8f0c54",
+  "RUN_PROMPT.md": "9c1648599b0aafddb5050265c15435eca15a3edd9df0de94f33c61e103691dd3",
+  "validation.json": "dfd83041a6ce8862f92ba0c2443f8924ff8804479bd856299dc61a27e9c9b09f",
+  "verify.py": "e5e0a535f300234cdfaeb89909e7a1b52f89c2e54dd38e4e63e3de9eaf9c25a1"
+}

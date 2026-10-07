@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/run_method_prototype.py",
+    "--packet",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_prototype\\run_001\\counter.packet.json",
+    "--output",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_prototype\\run_001\\counter_trace"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

@@ -1,0 +1,33 @@
+{
+  "debts": {
+    "D03": {
+      "implemented": "V-FC001/002/003, V-BND001, V-TEMP002",
+      "remaining": "Conditional endorsement gap; GS003 legacy review and full Golden regression remain.",
+      "status": "partially_addressed_phase1_3"
+    },
+    "D04": {
+      "implemented": "V-TEMP001/003/004, V-AN001/002",
+      "remaining": "Unrecorded content times remain unknown; legacy adapters and full Golden regression remain.",
+      "status": "partially_addressed_phase1_3"
+    },
+    "D11": {
+      "implemented": "V-ARG001–006",
+      "remaining": "Typed denominator/unit/role transition semantics and selected-edge evidence remain absent.",
+      "status": "partially_addressed_phase1_3"
+    },
+    "D16": {
+      "implemented": "V-BND006, V-ARG006, V-SCH002",
+      "remaining": "No dimensional conversion or role/stage transition inference; legacy data alignment remains.",
+      "status": "partially_addressed_phase1_3"
+    },
+    "D20": {
+      "implemented": "V-BND003/004/005, V-AN003/004, V-GOV001/002/003",
+      "remaining": "Full Golden regression and Batch Pilot remain; no truth inference or Skill promotion.",
+      "status": "partially_addressed_phase1_3"
+    }
+  },
+  "historical_ledger_sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+  "other_debts": "Unchanged; no debt is marked resolved.",
+  "phase": "1.3",
+  "previous_overlay_sha256": "23f52de762df0c55a43bd3c4bf4d6e41aa9a7a82e79501c0ba746f9cf01d6165"
+}

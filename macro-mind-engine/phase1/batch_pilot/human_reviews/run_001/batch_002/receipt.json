@@ -1,0 +1,21 @@
+{
+  "batch": "batch_002",
+  "supersedes_snapshot": "batch_001",
+  "scope": "Corrected evidence association only; previous raw remains immutable",
+  "archived_raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_001\\batch_002\\raw\\MacroMind_run001_2026-10-03_165023_CST_10of2657_full_dc92b1b6.json",
+  "source_path": "C:\\Users\\无语\\Downloads\\MacroMind_run001_2026-10-03_165023_CST_10of2657_full_dc92b1b6.json",
+  "sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+  "received_at": "2026-10-03T08:52:10.034685+00:00",
+  "exported_at": "2026-10-03T08:50:23.315Z",
+  "dataset": "0c051a8441e40a8eaecc131aba8f3e5bda23bc1bc821ef9b33045b4266ff055d",
+  "counts": {
+    "total": 2657,
+    "reviewed": 10,
+    "faithful": 6,
+    "change": 4,
+    "changed_records": 2,
+    "newly_reviewed": 0
+  },
+  "validation": "All record identities matched; only two evidence texts and timestamps changed",
+  "scaleup_approved": false
+}

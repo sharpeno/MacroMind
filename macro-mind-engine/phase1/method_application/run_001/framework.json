@@ -1,0 +1,188 @@
+{
+  "id": "9527-methods-v0.1",
+  "frozen_on": "2026-10-05",
+  "state": "FROZEN_RESEARCH_PROTOCOL_NOT_VALIDATED_SKILL",
+  "source_packet": "phase1/analyst_tracking/run_001/analysis.json",
+  "source_packet_sha256": "e70b31fc5f482fbdd406bcdcf7fe20b5b77c55d750832db3c17aafdc564354a2",
+  "methods": [
+    {
+      "id": "M01",
+      "title": "用身份、承诺与失信代价约束动机推断",
+      "refs": [
+        "EP007/T02",
+        "EP007/T03",
+        "EP008/T01",
+        "EP001/C16",
+        "EP002/C14"
+      ],
+      "steps": "列出可选行动→比较各自与职位责任/承诺的冲突→提出基础判断→保留违约或其他约束占优的分支。",
+      "alternative": "新约束、经济恶化或政策工具变化可能压过信誉成本。",
+      "trigger": "检查后续正式决定、解释及行动；方向命中也不证明动机正确。",
+      "status": "CANDIDATE_NOT_VALIDATED_SKILL",
+      "steps_attribution": "ASSISTANT_OPERATIONALIZATION",
+      "applicability": [
+        "存在明确行动主体、公开承诺和至少两种可选行动"
+      ],
+      "required_inputs": [
+        "主体、职责与公开承诺",
+        "行动选项与代价",
+        "约束是否有证据"
+      ],
+      "procedure": [
+        "列出全部可行选项，不能把排除一项当成另一项必然",
+        "分别比较承诺、职位责任、执行成本及其他约束",
+        "提出条件性基础判断，并列出相反路径"
+      ],
+      "default_judgment": "有明确承诺时暂按其构成约束处理；不能据此认定一定兑现。",
+      "not_applicable_or_limited": "若主体/承诺不可识别则不适用；材料不足以排除选项时保持多个分支。",
+      "update_rule": "后续决定违背承诺或新约束出现，降低该约束权重；方向命中不证明动机。",
+      "operational_rule_author": "ASSISTANT",
+      "semantic_approval": "NOT_GRANTED"
+    },
+    {
+      "id": "M02",
+      "title": "拆开目标表态与可执行措施",
+      "refs": [
+        "EP007/T04",
+        "EP002/C12"
+      ],
+      "steps": "记录目标→检查工具、权限、执行与时限→在未见可执行改进前，不预先计入改善收益。",
+      "alternative": "方案可能尚未公开，目标也可能通过信誉间接影响行为。",
+      "trigger": "明确政策、执行迹象或效果出现时更新；不能将“暂无措施证据”写成“没有方案”。",
+      "status": "CANDIDATE_NOT_VALIDATED_SKILL",
+      "steps_attribution": "ASSISTANT_OPERATIONALIZATION",
+      "applicability": [
+        "事件涉及政策目标、公开措施或预期改善"
+      ],
+      "required_inputs": [
+        "目标与工具",
+        "宣布、实施、效果分别有哪些证据",
+        "观察范围和截止日"
+      ],
+      "procedure": [
+        "把目标、宣布、安排、执行、效果分开记录",
+        "检查措施的权限、对象、时限与传导环节",
+        "在没有新改进证据时不提前计入改善收益，但保留未公开方案可能"
+      ],
+      "default_judgment": "维持可观察的既有约束；未见措施时暂不计入措施收益，而非断言措施不存在。",
+      "not_applicable_or_limited": "只有口号时可形成观察基线，但不能写成政策实施或效果；不强求未知内部计划。",
+      "update_rule": "正式措施、可核验执行或实际效果出现时逐层升级；无效果或副作用证据可降低/撤回效果分支。",
+      "operational_rule_author": "ASSISTANT",
+      "semantic_approval": "NOT_GRANTED"
+    },
+    {
+      "id": "M03",
+      "title": "检查数据结构、参照基准与反馈循环",
+      "refs": [
+        "EP007/T05",
+        "EP008/T03",
+        "EP001/C10"
+      ],
+      "steps": "拆分总量→识别比较基准与一次性因素→检查信号是否由政策引导自身制造。",
+      "alternative": "总量改善也可能来自广泛持续增长；不能先认定数据失真再找理由。",
+      "trigger": "后续分项、修订及与原假设相反的信号进入时重评。不同机制单独保留。",
+      "status": "CANDIDATE_NOT_VALIDATED_SKILL",
+      "steps_attribution": "ASSISTANT_OPERATIONALIZATION",
+      "applicability": [
+        "存在汇总数字、比较基准或政策与市场反馈信号"
+      ],
+      "required_inputs": [
+        "数值原文、单位、时点、口径",
+        "分项或参照基准",
+        "信号产生过程"
+      ],
+      "procedure": [
+        "分别检查分项、比较基准、循环反馈，不能混成单一理由",
+        "有数字冲突就隔离相关计算，仍可分析其他定性内容",
+        "主动保留广泛改善等替代解释，不先认定数据虚假"
+      ],
+      "default_judgment": "只在已有口径内作判断；缺少分项时不从总量推得结构性改善。",
+      "not_applicable_or_limited": "没有数据或反馈信号时不适用；分项缺失则对应子步骤未决，不编造数据。",
+      "update_rule": "分项、修订、口径说明或独立信号出现时重评；反例可推翻原归因。",
+      "operational_rule_author": "ASSISTANT",
+      "semantic_approval": "NOT_GRANTED"
+    },
+    {
+      "id": "M04",
+      "title": "按条件追踪风险与叙事承接",
+      "refs": [
+        "EP007/T07",
+        "EP007/T08",
+        "EP008/T04",
+        "EP003/C16"
+      ],
+      "steps": "明确触发条件→列出传导机制与承接能力→在事实出现前作为情景保留。",
+      "alternative": "原叙事可能继续维持，或新市场无法承接；不能只收集支持材料。",
+      "trigger": "实际约束、资金或产业变化、新讲话否定/修正原条件时更新。",
+      "status": "CANDIDATE_NOT_VALIDATED_SKILL",
+      "steps_attribution": "ASSISTANT_OPERATIONALIZATION",
+      "applicability": [
+        "存在可明确表达的条件、传导路径和潜在承接方或效果"
+      ],
+      "required_inputs": [
+        "触发条件",
+        "中间机制及约束",
+        "承接能力/效果证据"
+      ],
+      "procedure": [
+        "逐环列出条件→机制→可能结果",
+        "分别标注已知事实、间接推断和未证实假设",
+        "保留条件不发生、传导受阻、承接不足的分支"
+      ],
+      "default_judgment": "触发条件未确认时保留为情景，不视为结果已出现；仍可给出在当前约束下的基础判断。",
+      "not_applicable_or_limited": "找不到可检验条件或机制时不输出确定预测；从AI转到别的领域须明确标为助手迁移。",
+      "update_rule": "条件落地但传导未出现时降低判断；明确反向事实出现时撤回相关分支。",
+      "operational_rule_author": "ASSISTANT",
+      "semantic_approval": "NOT_GRANTED"
+    },
+    {
+      "id": "M05",
+      "title": "形成判断，再用后来材料修正",
+      "refs": [
+        "EP007/T06",
+        "EP008/T06",
+        "EP008/T02"
+      ],
+      "steps": "保存当时判断与证据范围→新增材料按时间入链→分别记录维持、理由补充、修改、撤回。",
+      "alternative": "后续材料可能含事后解释或选择性回顾，不能当作先前预见的证据。",
+      "trigger": "先封存判断，再观察新材料；用未参与提炼的视频检验迁移能力。",
+      "status": "CANDIDATE_NOT_VALIDATED_SKILL",
+      "steps_attribution": "ASSISTANT_OPERATIONALIZATION",
+      "applicability": [
+        "已有当时判断或本轮可以先封存初始判断"
+      ],
+      "required_inputs": [
+        "当时可知的证据与方法版本",
+        "稳定判断编号",
+        "新增证据的发布时点"
+      ],
+      "procedure": [
+        "先封存方法和初始判断，后加入新的观察",
+        "逐项标记维持、理由补充、修改、撤回；不静默删掉错误",
+        "区分博主忠实度、事实正确性、方法有效性三项检验"
+      ],
+      "default_judgment": "没有新增观察就保留原判断和未决项，不伪造更新或命中。",
+      "not_applicable_or_limited": "没有后续材料时仅完成初始登记；事后选例或已知结果不可作为盲测。",
+      "update_rule": "任何新证据都与原判断逐项对照；定期复查需要单独启动，本轮不自动监控。",
+      "operational_rule_author": "ASSISTANT",
+      "semantic_approval": "NOT_GRANTED"
+    }
+  ],
+  "boundaries": [
+    "缺失不等于不存在；允许有适用范围与撤回条件的基础判断",
+    "原话、助手操作化、迁移到新案例三层分开",
+    "一次案例不能验证方法有效性、校准概率或收益",
+    "冻结表示此次应用不改规则，不表示人工批准或不可升级；规则修订使用新版本"
+  ],
+  "required_case_fields": [
+    "evidence cutoff",
+    "fact ledger",
+    "per-method applicability",
+    "reasoning steps",
+    "base judgment",
+    "alternatives",
+    "update triggers",
+    "unresolved items"
+  ],
+  "selection_plan": "先冻结规则，再尝试EP006引用清单中的经济制裁报道；不读取EP006字幕，不对照博主答案。标题和材料主题已看过，因此不宣称严格盲测。若链接无法核验，记录失败后在同一政策主题选择有可核验内容的原始发布。"
+}

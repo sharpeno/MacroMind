@@ -1,0 +1,383 @@
+{
+  "freeze_commit_version": "CORE-ONTOLOGY-V0.3-FREEZE-COMMIT-1",
+  "created_at": "2026-09-27T00:45:14+08:00",
+  "inputs": [
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_report.md",
+      "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+      "role": "final_golden_evidence",
+      "version": "summary_only",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "GS001",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002.json",
+      "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+      "role": "final_golden_evidence",
+      "version": "V0.2 legacy final available",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "GS002",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003.json",
+      "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+      "role": "final_golden_evidence",
+      "version": "V0.3 legacy final available",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "GS003",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004.ma1_accepted.json",
+      "sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+      "role": "final_golden_evidence",
+      "version": "MA.1 accepted finalized",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "GS004",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005.ma1_accepted.json",
+      "sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "role": "final_golden_evidence",
+      "version": "MA.1 accepted Hotfix 1.1",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "GS005",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3.md",
+      "sha256": "e2636e5a4ff7d608d8a4f67b48fe3fa60f18b8349e92a47ef115a0fd18ad8292",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "PROMPT",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/迭代/MacroMind V0.2 Patch.md",
+      "sha256": "075c4cd1a726a7ee874ea52510880e1d0e989073accae87a677fac976e562e8d",
+      "role": "historical_spec_or_local_contract",
+      "version": "0.2",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "V02",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/迭代/MacroMind Ontology  Schema  Extraction Spec V0.3 Patch.md",
+      "sha256": "882d0040ac8636d36f380f28618876e3f50af4a913a01e5074aa57a3a1c1fe21",
+      "role": "historical_spec_or_local_contract",
+      "version": "0.3",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "V03",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.md",
+      "sha256": "ea8c995af1771dd29ce5b9fba099adb0bb69e2158ea63599ec4ac9fc2dec1ca5",
+      "role": "historical_spec_or_local_contract",
+      "version": "0.3.1-MA",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "MA",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/迭代/MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "sha256": "549bc9e0d524aead8048e57f2d6121288ff3e19ddda918b30e30e46909334bca",
+      "role": "historical_spec_or_local_contract",
+      "version": "0.3.1-MA.1",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "MA1",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/prompt/V03.MD",
+      "sha256": "16253012fb76b3c9cf409acd1afe63d653c5dba8a80e7c3df9b4368fad3202a4",
+      "role": "historical_spec_or_local_contract",
+      "version": "V0.3 extraction prompt",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "EX03",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/prompt/V0.3.1.md",
+      "sha256": "b819614cc2d18e4a169d7792ffc12c1973212096d16b2f022b4a32c6811703ce",
+      "role": "historical_spec_or_local_contract",
+      "version": "V0.3.1-MA sample extraction prompt",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "EX031",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/prompt/V0.3追加.md",
+      "sha256": "17d4e431067b8f1028b0ad53756b0e42e0126faa966c4ea3e8d5df119031daef",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "HORMUZ",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/scenario_tree.json",
+      "sha256": "c1b201bf467ff8ecd78b08cf3721f2c6c2441c50b2380753901f5b051378290c",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G3SC",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/source_versions.json",
+      "sha256": "2d4433fadf99c55ecd9cb981d250a1cc93a93ad4c411c6f9035db9807c7a4249",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G3SV",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/gs004_finalization_log.json",
+      "sha256": "0a1fc33eacbc42813134b086d271b70f9091afe32b3d2cbe8541a0164b342210",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G4LOG",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/validation_after_finalization.json",
+      "sha256": "5d95945ecc440a775aea312a9533645960119d42ca114b8ea26a1f9b45cd82fb",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G4VAL",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/finalization/gs004_finalization_diff.md",
+      "sha256": "dcf5fd9c6f67b29e510c82d66e99e3f562b1ef9126360cb472560fa79ad91c7d",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G4DIFF",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/gs004_ma1_migration_report.md",
+      "sha256": "40e57cf6e73d54f0f5847cb949e5dcc59d64c3bc0a369e4e9ba59cc96daba20d",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G4MIG",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005_ma1_supplement.md",
+      "sha256": "42673793885a5233052858e2c51d86e0f625d7a3cfee45b6f5f7ef2e18307bc6",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5SUP",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/migration/ma1/diff_summary.md",
+      "sha256": "debde587b8cf65627e1f550d6f6a45e9c8a1396b1eeb57eebbdaa876d9a438a7",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5DIFF",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/finalization_log.json",
+      "sha256": "da6aaed9775ec70c58de3a818b531f755070cfa27d6592db45d96c6e37db885f",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5FIN",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/validation_after_finalization.json",
+      "sha256": "8fed8b6773db8648ee5b0052db871336e167d607829b653382c06a0ad9e5b882",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5OLDVAL",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/hotfix_log.json",
+      "sha256": "0a7551cf54623973af535f99f4ca063d5fb6cb6eaba7fcef5ed4cc700e1dc8a1",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5LOG",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/validation_after_hotfix_1_1.json",
+      "sha256": "2b23fb80b21e4177427e083d6d7ff47efe1e51723729d7f4621bb675b61c918b",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5VAL",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/finalization/hotfix_1_1/hotfix_diff.md",
+      "sha256": "82b0230b672b7763eed30f4bb726d0f42649d3ee9cc62942ca50e176126efec6",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "G5HOTDIFF",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/validate_gs004_ma1.py",
+      "sha256": "74f584cc0f0bcf408a95df1d20f5754b4d6d8d32e7080ae8e2dfd657bd7d4091",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "VAL4",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/migrate_gs005_ma1.py",
+      "sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "VAL5",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/migrate_gs004_ma1.py",
+      "sha256": "97b8384533fd5dcfe675e71316e707d2f58a1969dfeadab411ddab0104993b24",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "MIG4",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/migration/ma1/schema_contract.json",
+      "sha256": "bc237df23263089ee21633c6281f6f28bc862eb3203ee2f190513117659208e9",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "CONTRACT5",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_002/golden_sample_002_report.md",
+      "sha256": "6d790ba2ca3fd03d84e8259e400326246557bdd26584055abac75f8b4fac49c9",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "REPORT2",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_003/golden_sample_003_report.md",
+      "sha256": "cc479728e1ab04d53481deba0678e631427edeacb21e77e9419470254e722cbb",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "REPORT3",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_004/golden_sample_004_report.md",
+      "sha256": "4ad7e3f6ce9160986949f6028aaa4dcfd3642664b199fab10d77aca548638052",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "REPORT4",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/golden_sample_005/golden_sample_005_report.md",
+      "sha256": "46a9286bdf2abff2d4213c906418e8a1dca68b6a961bdd6d66eed46d19a595d9",
+      "role": "historical_spec_or_local_contract",
+      "version": "as_hashed",
+      "read_status": "read_for_history_and_provenance_only",
+      "source_id": "REPORT5",
+      "matches_audit_input_hash": true
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_blocker_register.json",
+      "sha256": "177502b5ad7f8e79d5cf70ae0eb556f705da7a0b3673ee6c0e27417623ffca98",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json",
+      "sha256": "ef919bd9e22e51a57c047869281b28ade0076352bb492538f7c3f3a3c3a65523",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json",
+      "sha256": "12755741664bb0810c88c52e9440715007efe12576d6ce397e6fc0098e1a00a8",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness_audit.md",
+      "sha256": "41b71a89bb57fd89684dce9e9c35d761f60398dbd42e7c716960c75ee7d073c6",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/evidence_catalog.json",
+      "sha256": "f4d2d229000ed635b8136ece4d5178e315aa7cc228d8259db1066e7f3b4a4bcc",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/freeze_debt_ledger.json",
+      "sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/golden_stress_test_matrix.json",
+      "sha256": "8847857b36e0be32763a28d02d233cd644fa037d38c547e644077dcdd114b24d",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/input_manifest.json",
+      "sha256": "3e6b55314d246ad445c4d39b33d545ee66a9ced9defa6d27cf550153c1365fdf",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/freeze_readiness/integrity_check.json",
+      "sha256": "f72e32b23b4b86131e9205d13f74afd8c32cb6205c8773f730d27328a85d1e49",
+      "role": "freeze_readiness_authority_or_support",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+      "read_status": "read_current_final"
+    },
+    {
+      "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+      "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+      "role": "explicit_user_authorized_freeze_commit_prompt",
+      "version": "CORE-ONTOLOGY-V0.3-FREEZE-COMMIT-1",
+      "read_status": "read_full"
+    }
+  ],
+  "historical_spec_note": "Standalone V0.3.1 Patch unavailable in supplied iteration files; V0.3.1.md is explicitly classified as a sample extraction prompt, never invented as a separate patch."
+}

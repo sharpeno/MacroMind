@@ -1,0 +1,66 @@
+{
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/method_application/run_002/TRACE.html",
+  "browser": "Edge / Playwright",
+  "reason": "Browser plugin not available",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    {
+      "name": "identity",
+      "pass": true
+    },
+    {
+      "name": "not_blank",
+      "pass": true
+    },
+    {
+      "name": "no_overlay",
+      "pass": true
+    },
+    {
+      "name": "five_rules",
+      "pass": true
+    },
+    {
+      "name": "four_actors",
+      "pass": true
+    },
+    {
+      "name": "rule_expands",
+      "pass": true
+    },
+    {
+      "name": "triggers_expand",
+      "pass": true
+    },
+    {
+      "name": "source_anchor",
+      "pass": true
+    },
+    {
+      "name": "all_internal_links",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile_expands",
+      "pass": true
+    },
+    {
+      "name": "console_health",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

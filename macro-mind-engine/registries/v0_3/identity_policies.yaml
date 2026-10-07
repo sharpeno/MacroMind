@@ -1,0 +1,56 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "entries": [
+    {
+      "object_type": "Actor",
+      "policy": "Display name is not identity. An alias maps to an Actor only with evidence; geography and narrative roles remain separate.",
+      "automatic_merge": false,
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "Frozen B01/B04/B05/B14; D07"
+      ]
+    },
+    {
+      "object_type": "Source",
+      "policy": "Carrier identity is separate from content truth. Same URL does not guarantee the same SourceVersion.",
+      "automatic_merge": false,
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "Frozen B01/B04/B05/B14; D07"
+      ]
+    },
+    {
+      "object_type": "SourceFamily",
+      "policy": "Shared article text can indicate shared origin; establish proposition/segment origin with evidence before grouping.",
+      "automatic_merge": false,
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "Frozen B01/B04/B05/B14; D07"
+      ]
+    },
+    {
+      "object_type": "Mechanism",
+      "policy": "Reusable causal structure and applicability determine identity; usage analyst does not become mechanism author.",
+      "automatic_merge": false,
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "Frozen B01/B04/B05/B14; D07"
+      ]
+    },
+    {
+      "object_type": "Indicator",
+      "policy": "Variable definition, population, unit and measurement basis determine identity; observations do not define the variable.",
+      "automatic_merge": false,
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "source_refs": [
+        "Frozen B01/B04/B05/B14; D07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "format": "method-prototype-1",
+  "method": {
+    "id": "9527.leadership_correction",
+    "version": "0.1-experimental",
+    "analyst": "有何高见9527",
+    "title": "提前准备、同行引导与择机纠错",
+    "attribution": "博主转述并认同；原始说法作者未给出，不能认作博主原创",
+    "originator": "unknown",
+    "available_on": "2026-10-04",
+    "summary": "博主认为，当群众犯错时，领导者应提前识别问题、准备纠错方案，同时先与群众站在一起、共同经历这一错误，在过程中引导大家认识问题，再于适当时机提出预先准备的方案，带领大家纠错。",
+    "summary_review": "user_wording_adopted",
+    "representation_review": "not_separately_human_reviewed",
+    "ordering": "对原话方法的分析整理，步骤可能交叠，不声称机械线性执行顺序",
+    "conditions": [
+      {
+        "id": "G1",
+        "label": "存在能推动调整的行动主体",
+        "question": "案例中是否存在能够提出方案并推动调整的行动主体？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "389",
+            "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。"
+          }
+        ]
+      },
+      {
+        "id": "G2",
+        "label": "正在讨论认识问题与调整既有做法",
+        "question": "案例是否涉及对既有判断或做法的认识与调整，而非只有价格变化？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "388",
+            "quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。"
+          }
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "id": "S1",
+        "label": "提前识别问题",
+        "question": "是否有当时材料表明，行动主体在问题被普遍认识前已识别问题？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "389",
+            "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。"
+          }
+        ]
+      },
+      {
+        "id": "S2",
+        "label": "提前准备纠错方案并控制错误程度",
+        "question": "是否有在行动前准备替代方案、并控制错误程度的证据？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "390",
+            "quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。"
+          },
+          {
+            "source": "ep002",
+            "record": "392",
+            "quote": "说到这个方式来呢，他提前没有准备好plan B呢，他没有发现自己的这个局势如此的被动，没有提前做好引导大家改出这个错误的准备呢。那不好意思，那美联储就是在行啊，脚踩西瓜皮划到哪里算哪里的祖祖训嘛。那鲍贝尔就这么过来的嘛，我之前跟大家说过的对吧？"
+          }
+        ]
+      },
+      {
+        "id": "S3",
+        "label": "与群众同行、共同经历错误并引导认识",
+        "question": "是否有与相关群体同行并引导其认识问题的具体过程证据？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "387",
+            "quote": "这个逻辑是非常非常通畅的，否则你当初就不会被市场绑架那市场就不会认为你应该通过加息来解决问题，或者换成啊更加有名的一句话，叫啥呢？叫做啊人民群众犯了错误，作为领导者应该怎么办？应该跟人民群众站在一起，跟人。"
+          },
+          {
+            "source": "ep002",
+            "record": "388",
+            "quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。"
+          },
+          {
+            "source": "ep002",
+            "record": "389",
+            "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。"
+          }
+        ]
+      },
+      {
+        "id": "S4",
+        "label": "在适当时机提出方案并带领纠错",
+        "question": "是否有在相关群体认识问题后择机提出预案、并带领纠错的证据？",
+        "basis": "assistant_operationalization",
+        "anchors": [
+          {
+            "source": "ep002",
+            "record": "390",
+            "quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。"
+          }
+        ]
+      }
+    ],
+    "limitations": [
+      "方法文字来自用户已确认的提取；条件与检查问题是助手操作化，尚未单独人工确认。",
+      "这是一种被转述并认同的做法，原始作者未知，不代表9527原创。",
+      "不能从事后调整倒推事前计划，也不能从宣布政策调整推定完整方法成立。",
+      "解释领导与纠错过程，不直接生成资产价格预测、交易建议或政策效果结论。",
+      "当前原型仅检查来源锚点和显式映射；不自动提取新新闻，也不自动验证语义。"
+    ],
+    "effectiveness_verified": false,
+    "skill_ready": false
+  },
+  "case": {
+    "id": "synthetic.counter",
+    "title": "虚构完整映射：仅验证程序",
+    "kind": "synthetic",
+    "mode": "as_of_analysis",
+    "as_of": "2026-10-04",
+    "question": "程序是否保留全部映射与证据，同时仍拒绝宣称方法有效？",
+    "alternatives": [
+      "即使流程描述完整，也不表示它导致成功；本例没有现实有效性含义。"
+    ],
+    "mapping_review": "not_human_reviewed"
+  },
+  "sources": {
+    "ep002": {
+      "path": "phase1/batch_pilot/run_005/EP002/segments.json",
+      "sha256": "4568a9e46c6258b9bee27b9e4f2ad81c915ebfd32b8cfb28096ed4cfbe418c42",
+      "role": "method",
+      "format": "segments",
+      "published": "2026-09-15",
+      "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+    },
+    "fixture": {
+      "path": "phase1/method_prototype/run_001/synthetic_records.json",
+      "sha256": "6b393f186fbc03b526a74f5683eee1dfc5887d5dbf45223e05f69f916b2076c9",
+      "role": "case",
+      "format": "records",
+      "published": "2026-10-04",
+      "url": null
+    }
+  },
+  "status": "COUNTEREVIDENCE",
+  "rows": [
+    {
+      "group": "condition",
+      "id": "G1",
+      "label": "存在能推动调整的行动主体",
+      "question": "案例中是否存在能够提出方案并推动调整的行动主体？",
+      "status": "supported",
+      "reason": "虚构材料明确写出该条件或步骤，仅作测试。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "389",
+          "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。",
+          "locator": "00:19:19,950 --> 00:19:39,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "G1",
+          "quote": "虚构项目组负责人有权提议并组织更换流程。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    },
+    {
+      "group": "condition",
+      "id": "G2",
+      "label": "正在讨论认识问题与调整既有做法",
+      "question": "案例是否涉及对既有判断或做法的认识与调整，而非只有价格变化？",
+      "status": "supported",
+      "reason": "虚构材料明确写出该条件或步骤，仅作测试。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "388",
+          "quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。",
+          "locator": "00:18:59,950 --> 00:19:19,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "G2",
+          "quote": "虚构团队正在重新认识既有流程的问题并讨论调整。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    },
+    {
+      "group": "step",
+      "id": "S1",
+      "label": "提前识别问题",
+      "question": "是否有当时材料表明，行动主体在问题被普遍认识前已识别问题？",
+      "status": "supported",
+      "reason": "虚构材料明确写出该条件或步骤，仅作测试。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "389",
+          "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。",
+          "locator": "00:19:19,950 --> 00:19:39,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "S1",
+          "quote": "虚构记录：负责人提前一周发现问题，此时团队尚未意识到问题。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    },
+    {
+      "group": "step",
+      "id": "S2",
+      "label": "提前准备纠错方案并控制错误程度",
+      "question": "是否有在行动前准备替代方案、并控制错误程度的证据？",
+      "status": "contradicted",
+      "reason": "此测试有反证：方案是在事后准备。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "390",
+          "quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。",
+          "locator": "00:19:39,950 --> 00:19:59,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        },
+        {
+          "source": "ep002",
+          "record": "392",
+          "quote": "说到这个方式来呢，他提前没有准备好plan B呢，他没有发现自己的这个局势如此的被动，没有提前做好引导大家改出这个错误的准备呢。那不好意思，那美联储就是在行啊，脚踩西瓜皮划到哪里算哪里的祖祖训嘛。那鲍贝尔就这么过来的嘛，我之前跟大家说过的对吧？",
+          "locator": "00:20:19,950 --> 00:20:39,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "counter",
+          "quote": "虚构记录：负责人确认直到问题发生后才首次准备方案。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    },
+    {
+      "group": "step",
+      "id": "S3",
+      "label": "与群众同行、共同经历错误并引导认识",
+      "question": "是否有与相关群体同行并引导其认识问题的具体过程证据？",
+      "status": "supported",
+      "reason": "虚构材料明确写出该条件或步骤，仅作测试。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "387",
+          "quote": "这个逻辑是非常非常通畅的，否则你当初就不会被市场绑架那市场就不会认为你应该通过加息来解决问题，或者换成啊更加有名的一句话，叫啥呢？叫做啊人民群众犯了错误，作为领导者应该怎么办？应该跟人民群众站在一起，跟人。",
+          "locator": "00:18:39,950 --> 00:18:59,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        },
+        {
+          "source": "ep002",
+          "record": "388",
+          "quote": "民群众一起去犯这个错误，让人民群众认识到这个错误的错误性。那通过这里边的话，积极的引导以身作则，让大家及早的认识到这里边的原则性根本性的错误，然后呢然后带领人民群众从错误中改正出来，这是做群众工作的一个好办法这。",
+          "locator": "00:18:59,950 --> 00:19:19,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        },
+        {
+          "source": "ep002",
+          "record": "389",
+          "quote": "话谁说的我就不说了是吧？大家有兴趣就就可以去查一下。但这是一个在这个潮流中真正要引领潮流的人应该做的事儿。首先要到人民群众中去，要符合大家的想法。然后跟大家一起犯错，犯了错以后呢，因为你站得高看得远，提前就看到这里有错误了。所以你。",
+          "locator": "00:19:19,950 --> 00:19:39,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "S3",
+          "quote": "虚构记录：负责人参与团队使用流程并引导大家识别问题。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    },
+    {
+      "group": "step",
+      "id": "S4",
+      "label": "在适当时机提出方案并带领纠错",
+      "question": "是否有在相关群体认识问题后择机提出预案、并带领纠错的证据？",
+      "status": "supported",
+      "reason": "虚构材料明确写出该条件或步骤，仅作测试。",
+      "author": "synthetic_fixture",
+      "method_evidence": [
+        {
+          "source": "ep002",
+          "record": "390",
+          "quote": "犯错的时候，你就可以控制这个错误的程度，对吧？你就提前的会准备好改正错误的手段。然后呢，在大家都一筹莫展的时候，发现错误的时候，你提及时出提示出来改正错误的这个机会，然后呢，然后把大家带领到正确的道路上来，这是实事求是的一个方法。否。",
+          "locator": "00:19:39,950 --> 00:19:59,950",
+          "url": "https://www.bilibili.com/video/BV12Cej62Exm/"
+        }
+      ],
+      "case_evidence": [
+        {
+          "source": "fixture",
+          "record": "S4",
+          "quote": "虚构记录：团队确认问题后，负责人提出预案并组织改正。",
+          "locator": "合成案例测试记录",
+          "url": null
+        }
+      ]
+    }
+  ],
+  "open_questions": [],
+  "counterevidence": [
+    "S2"
+  ],
+  "semantic_acceptance": false,
+  "effectiveness_verified": false,
+  "skill_ready": false,
+  "engine_role": "Validates anchors and derives status from authored mappings; no semantic inference"
+}

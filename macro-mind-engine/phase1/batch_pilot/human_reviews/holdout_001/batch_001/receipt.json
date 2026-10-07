@@ -1,0 +1,14 @@
+{
+  "received_at": "2026-10-03T20:25:29.898767+00:00",
+  "source_path": "C:\\Users\\无语\\Downloads\\MacroMind_holdout001_2026-10-04_042318_CST_5of5_full_d6ed493a.json",
+  "raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\raw\\MacroMind_holdout001_2026-10-04_042318_CST_5of5_full_d6ed493a.json",
+  "sha256": "b8d3bb004eb9f94f643e064013d36a59ef427bffec30066a949f7dcc9bf16d27",
+  "dataset": "63745e29e8c095322cdbcf3375676d43bea92221826b0985b321e7749df62a1f",
+  "record_count": 5,
+  "decisions": {
+    "keep_original": 3,
+    "change": 1,
+    "adopt_proposal": 1
+  },
+  "reviewer": "User submission; name blank"
+}

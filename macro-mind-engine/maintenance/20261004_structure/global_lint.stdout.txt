@@ -1,0 +1,540 @@
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\conftest.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit import AuditInputArtifact, AuditNormalizer
+  | |_______________________________________________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit import AuditInputArtifact, AuditNormalizer
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\test_continuity.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit import ContinuityAnnotation, RelationType
+  | |______________________________________________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit import ContinuityAnnotation, RelationType
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\test_immutability.py:1:1
+  |
+1 | / from copy import deepcopy
+2 | |
+3 | | import pytest
+4 | | from macromind.audit import AuditInputArtifact, AuditInputBundle, InputIntegrityError
+5 | | from macromind.audit.ids import digest_bytes
+  | |____________________________________________^
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.audit import AuditInputArtifact, AuditInputBundle, InputIntegrityError
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\test_normalization.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit import AuditInputBundle
+  | |____________________________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit import AuditInputBundle
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\test_provenance.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit.ids import record_id
+3 | | from macromind.audit.provenance import resolve_pointer
+  | |______________________________________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit.ids import record_id
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit\test_real_artifacts.py:1:1
+  |
+1 | / import json
+2 | | from pathlib import Path
+3 | |
+4 | | import pytest
+5 | | from macromind.audit import AuditInputArtifact, AuditInputBundle, AuditNormalizer
+6 | | from macromind.audit.ids import digest_bytes
+7 | | from macromind.audit.provenance import resolve_pointer
+  | |______________________________________________________^
+8 |
+9 |   ROOT = Path(__file__).resolve().parents[2]
+  |
+help: Organize imports
+  |
+4 | import pytest
+5 +
+6 | from macromind.audit import AuditInputArtifact, AuditInputBundle, AuditNormalizer
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\audit_continuity\test_explicit_continuity_index.py:3:1
+   |
+ 1 |   """Synthetic evidence only: explicit contexts, adversarial inputs and indexes."""
+ 2 |
+ 3 | / from copy import deepcopy
+ 4 | | from itertools import product
+ 5 | |
+ 6 | | import pytest
+ 7 | | from macromind.audit.continuity_index import (
+ 8 | |     ContinuityIndexer,
+ 9 | |     ContinuityIndexError,
+10 | |     load_input_bundle,
+11 | |     load_result_bytes,
+12 | |     serialize_input_bundle,
+13 | |     verify_result,
+14 | | )
+15 | | from macromind.audit.continuity_index.identity import membership_id, relation_key, result_semantics
+16 | | from macromind.audit.continuity_index.resolution import strict_json
+17 | | from macromind.audit.ids import canonical_bytes, digest_bytes, semantic_hash
+   | |____________________________________________________________________________^
+help: Organize imports
+  |
+6 | import pytest
+7 +
+8 | from macromind.audit.continuity_index import (
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit_patterns\test_conservation.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit.models import RecordType
+3 | | from macromind.audit.patterns import PatternAggregator, PatternInputError, validate_conservation
+4 | |
+5 | | from .helpers import bundle, record
+  | |___________________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit.models import RecordType
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit_patterns\test_disposition.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit.models import RecordType
+3 | | from macromind.audit.patterns import PatternAggregator, build_signature, disposition_for
+4 | |
+5 | | from .helpers import record
+  | |___________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit.models import RecordType
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\audit_patterns\test_real_phase1_5a.py:1:1
+   |
+ 1 | / import json
+ 2 | | from collections import Counter
+ 3 | | from pathlib import Path
+ 4 | |
+ 5 | | import pytest
+ 6 | | from macromind.audit.ids import digest_bytes, semantic_hash
+ 7 | | from macromind.audit.models import NormalizedAuditBundle
+ 8 | | from macromind.audit.patterns import PatternAggregator, validate_conservation
+ 9 | | from macromind.audit.patterns.signature import ELIGIBLE_TYPES
+   | |_____________________________________________________________^
+10 |
+11 |   ROOT = Path(__file__).resolve().parents[2]
+   |
+help: Organize imports
+  |
+5 | import pytest
+6 +
+7 | from macromind.audit.ids import digest_bytes, semantic_hash
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\audit_patterns\test_signature.py:1:1
+  |
+1 | / import pytest
+2 | | from macromind.audit.patterns import PatternAggregator, build_signature, normalize_path_shape
+3 | |
+4 | | from .helpers import record
+  | |___________________________^
+help: Organize imports
+  |
+1 | import pytest
+2 +
+3 | from macromind.audit.patterns import PatternAggregator, build_signature, normalize_path_shape
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\audit_runner\test_runner_pipeline.py:3:1
+   |
+ 1 |   """Synthetic orchestration tests; never relabel fixtures as real evidence."""
+ 2 |
+ 3 | / import json
+ 4 | | from pathlib import Path
+ 5 | |
+ 6 | | import pytest
+ 7 | | from macromind.audit.ids import canonical_bytes, digest_bytes
+ 8 | | from macromind.audit.runner import (
+ 9 | |     AuditRunner,
+10 | |     RunnerError,
+11 | |     compare_runs,
+12 | |     engine,
+13 | |     read_package,
+14 | |     storage,
+15 | |     tree_hash,
+16 | | )
+17 | | from macromind.cli.main import app
+18 | | from typer.testing import CliRunner
+   | |___________________________________^
+19 |
+20 |   ROOT = Path(__file__).resolve().parents[2]
+   |
+help: Organize imports
+   |
+6  | import pytest
+7  + from typer.testing import CliRunner
+8  +
+9  | from macromind.audit.ids import canonical_bytes, digest_bytes
+--------------------------------------------------------------------------------
+19 | from macromind.cli.main import app
+   - from typer.testing import CliRunner
+20 |
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\compatibility\conftest.py:1:1
+  |
+1 | / from pathlib import Path
+2 | |
+3 | | import pytest
+4 | | from macromind.compatibility import CompatibilityEngine
+  | |_______________________________________________________^
+5 |
+6 |   ROOT = Path(__file__).resolve().parents[2]
+  |
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.compatibility import CompatibilityEngine
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\compatibility\test_cli_compatibility.py:1:1
+  |
+1 | / import json
+2 | |
+3 | | import pytest
+4 | | from macromind.cli.main import app
+5 | | from typer.testing import CliRunner
+6 | |
+7 | | from .conftest import CONTRACT, REGISTRY
+8 | | from .helpers import legacy
+  | |___________________________^
+help: Organize imports
+  |
+3 | import pytest
+  - from macromind.cli.main import app
+4 | from typer.testing import CliRunner
+5 |
+6 + from macromind.cli.main import app
+7 +
+8 | from .conftest import CONTRACT, REGISTRY
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\compatibility\test_detector.py:1:1
+  |
+1 | / from copy import deepcopy
+2 | |
+3 | | import pytest
+4 | | from macromind.compatibility import detect_legacy_format
+5 | |
+6 | | from .helpers import legacy
+  | |___________________________^
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.compatibility import detect_legacy_format
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\compatibility\test_determinism.py:1:1
+  |
+1 | / import hashlib
+2 | | import json
+3 | |
+4 | | import pytest
+5 | | from macromind.compatibility.detector import serialized
+6 | |
+7 | | from .helpers import legacy
+  | |___________________________^
+help: Organize imports
+  |
+4 | import pytest
+5 +
+6 | from macromind.compatibility.detector import serialized
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\contract\test_contract.py:1:1
+  |
+1 | / import json
+2 | |
+3 | | import pytest
+4 | | from macromind.contract.loader import load_frozen_contract
+5 | | from macromind.contract.semantic_hash import calculate_file_sha256
+6 | | from macromind.errors import ContractIntegrityError
+  | |___________________________________________________^
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.contract.loader import load_frozen_contract
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\golden_regression\conftest.py:3:1
+  |
+1 |   """Real immutable Golden fixtures, never copied into invented canonical records."""
+2 |
+3 | / from pathlib import Path
+4 | |
+5 | | import pytest
+6 | | from macromind.compatibility import CompatibilityEngine
+  | |_______________________________________________________^
+7 |
+8 |   ROOT = Path(__file__).resolve().parents[2]
+  |
+help: Organize imports
+  |
+5 | import pytest
+6 +
+7 | from macromind.compatibility import CompatibilityEngine
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\golden_regression\test_activation_policy.py:3:1
+   |
+ 1 |   """Policy 1.0: real closure, reversible exclusion, and synthetic adversarial chains."""
+ 2 |
+ 3 | / from copy import deepcopy
+ 4 | |
+ 5 | | import pytest
+ 6 | | from macromind.compatibility.activation import ActivationEngine, prepare
+ 7 | | from macromind.compatibility.detector import digest
+ 8 | | from tests.validation.helpers import obj, step
+ 9 | |
+10 | | from .conftest import CONTRACT, REGISTRY
+   | |________________________________________^
+help: Organize imports
+  |
+5 | import pytest
+6 +
+7 | from macromind.compatibility.activation import ActivationEngine, prepare
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\golden_regression\test_golden_semantic_regression.py:3:1
+   |
+ 1 |   """Semantic invariants, not warning-count snapshots; failures remain visible."""
+ 2 |
+ 3 | / import json
+ 4 | | from copy import deepcopy
+ 5 | |
+ 6 | | import pytest
+ 7 | | from macromind.audit.ids import canonical_bytes, digest_bytes
+ 8 | | from tests.validation.helpers import forecast, has, obj, time
+ 9 | |
+10 | | from .conftest import PATHS, objects
+   | |____________________________________^
+help: Organize imports
+  |
+6 | import pytest
+7 +
+8 | from macromind.audit.ids import canonical_bytes, digest_bytes
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\registry\test_registry.py:1:1
+   |
+ 1 | / import json
+ 2 | | import shutil
+ 3 | | from pathlib import Path
+ 4 | |
+ 5 | | import pytest
+ 6 | | import yaml
+ 7 | | from macromind.contract.version import CORE_NAMES
+ 8 | | from macromind.errors import RegistryError, VersionError
+ 9 | | from macromind.registry._enums import ENUM_TYPES
+10 | | from macromind.registry.enums import generate_python_enums, read_yaml, render_python_enums
+11 | | from macromind.registry.loader import load_registry
+12 | | from macromind.registry.models import RegistryBundle
+13 | | from macromind.schema.auxiliary import AUXILIARY_MODELS
+14 | | from macromind.schema.core import CORE_MODELS
+   | |_____________________________________________^
+15 |
+16 |   ROOT = Path(__file__).resolve().parents[2]
+   |
+help: Organize imports
+  |
+6 | import yaml
+7 +
+8 | from macromind.contract.version import CORE_NAMES
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\schema\test_schema.py:1:1
+   |
+ 1 | / import hashlib
+ 2 | | import json
+ 3 | | from pathlib import Path
+ 4 | |
+ 5 | | import pytest
+ 6 | | from jsonschema import Draft202012Validator
+ 7 | | from macromind.contract.version import CORE_NAMES
+ 8 | | from macromind.registry._enums import ENUM_TYPES
+ 9 | | from macromind.schema.auxiliary import (
+10 | |     AUXILIARY_MODELS,
+11 | |     IndicatorObservation,
+12 | |     MechanismUsage,
+13 | |     Scenario,
+14 | | )
+15 | | from macromind.schema.base import MacroMindObjectBase
+16 | | from macromind.schema.common import ComparisonBasis, UnknownValue
+17 | | from macromind.schema.core import (
+18 | |     CORE_MODELS,
+19 | |     Argument,
+20 | |     Assessment,
+21 | |     Claim,
+22 | |     Forecast,
+23 | |     Indicator,
+24 | |     Mechanism,
+25 | | )
+26 | | from macromind.schema.export import export_schemas, schema_artifacts
+27 | | from pydantic import ValidationError
+   | |____________________________________^
+help: Organize imports
+   |
+6  | from jsonschema import Draft202012Validator
+7  + from pydantic import ValidationError
+8  +
+9  | from macromind.contract.version import CORE_NAMES
+--------------------------------------------------------------------------------
+28 | from macromind.schema.export import export_schemas, schema_artifacts
+   - from pydantic import ValidationError
+29 |
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> tests\test_cli.py:1:1
+   |
+ 1 | / import json
+ 2 | | import os
+ 3 | | import shutil
+ 4 | | import subprocess
+ 5 | | import sys
+ 6 | | from pathlib import Path
+ 7 | |
+ 8 | | from macromind.cli.main import app
+ 9 | | from typer.testing import CliRunner
+   | |___________________________________^
+10 |
+11 |   ROOT = Path(__file__).resolve().parents[1]
+   |
+help: Organize imports
+   |
+7  |
+   - from macromind.cli.main import app
+8  | from typer.testing import CliRunner
+9  |
+10 + from macromind.cli.main import app
+11 +
+12 | ROOT = Path(__file__).resolve().parents[1]
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\validation\conftest.py:1:1
+  |
+1 | / from pathlib import Path
+2 | |
+3 | | import pytest
+4 | | from macromind.validation import ValidatorEngine
+  | |________________________________________________^
+5 |
+6 |   ENGINE = Path(__file__).resolve().parents[2]
+  |
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.validation import ValidatorEngine
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\validation\test_cli_validate.py:1:1
+  |
+1 | / import json
+2 | |
+3 | | import pytest
+4 | | from macromind.cli.main import app
+5 | | from typer.testing import CliRunner
+6 | |
+7 | | from .conftest import CONTRACT, REGISTRY
+8 | | from .helpers import obj
+  | |________________________^
+help: Organize imports
+  |
+3 | import pytest
+  - from macromind.cli.main import app
+4 | from typer.testing import CliRunner
+5 |
+6 + from macromind.cli.main import app
+7 +
+8 | from .conftest import CONTRACT, REGISTRY
+  |
+
+I001 [*] Import block is un-sorted or un-formatted
+ --> tests\validation\test_engine.py:1:1
+  |
+1 | / from copy import deepcopy
+2 | |
+3 | | import pytest
+4 | | from macromind.validation import ValidationContext, ValidationInput, ValidationInputError
+5 | | from macromind.validation.catalog import RULES, rule_catalog
+6 | | from macromind.validation.index import MODEL_TYPES
+7 | |
+8 | | from .helpers import has, obj
+  | |_____________________________^
+help: Organize imports
+  |
+3 | import pytest
+4 +
+5 | from macromind.validation import ValidationContext, ValidationInput, ValidationInputError
+  |
+
+Found 26 errors.
+[*] 26 fixable with the `--fix` option.

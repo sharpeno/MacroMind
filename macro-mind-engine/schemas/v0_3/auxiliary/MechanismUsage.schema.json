@@ -1,0 +1,243 @@
+{
+  "$defs": {
+    "ExpressionLevel": {
+      "enum": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "title": "ExpressionLevel",
+      "type": "string"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:MechanismUsage",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Auxiliary mapping: frozen non-Core scope and validated MA.1; ontology_version=0.3.",
+  "properties": {
+    "analyst_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Using analyst",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Analyst Id"
+    },
+    "argument_refs": {
+      "description": "Arguments using mechanism",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Argument Refs",
+      "type": "array"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded confidence, no inference",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Confidence"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "domain_scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Domain of use",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Domain Scope"
+    },
+    "expression_level": {
+      "$ref": "#/$defs/ExpressionLevel",
+      "description": "Recorded usage expression",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "mechanism_ref": {
+      "description": "Shared mechanism used",
+      "field_origin": "validated_auxiliary_contract",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Mechanism Ref",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "MechanismUsage",
+      "default": "MechanismUsage",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Reasoner of this usage only",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Reasoner Id"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_refs": {
+      "description": "Usage evidence",
+      "field_origin": "validated_auxiliary_contract",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "usage_context": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Usage context",
+      "field_origin": "validated_auxiliary_contract",
+      "source_ref": "Frozen auxiliary scope/P13/P15; MA.1 accepted auxiliary contract",
+      "title": "Usage Context"
+    }
+  },
+  "required": [
+    "id",
+    "mechanism_ref",
+    "analyst_id",
+    "reasoner_id",
+    "usage_context",
+    "expression_level",
+    "source_refs",
+    "argument_refs",
+    "domain_scope",
+    "confidence"
+  ],
+  "title": "MechanismUsage",
+  "type": "object"
+}

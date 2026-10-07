@@ -1,0 +1,38 @@
+{
+  "new_claims": 14,
+  "inherited_claims": 17,
+  "connections": 6,
+  "methods": 5,
+  "protected_files": 553,
+  "source_files": 16,
+  "intake": {
+    "EP007": {
+      "cue_count": 83,
+      "contiguous_ids": true,
+      "valid_intervals": true,
+      "overlaps": 0,
+      "max_gap_seconds": 0.18,
+      "first_start_seconds": 0.0,
+      "last_end_seconds": 2305.578,
+      "video_duration_seconds": 2305.583469,
+      "tail_gap_seconds": 0.005469,
+      "every_srt_quote_found_in_txt": true,
+      "audio_listened": false,
+      "semantic_completeness": "NOT_ESTABLISHED"
+    },
+    "EP008": {
+      "cue_count": 72,
+      "contiguous_ids": true,
+      "valid_intervals": true,
+      "overlaps": 0,
+      "max_gap_seconds": 0.0,
+      "first_start_seconds": 0.09,
+      "last_end_seconds": 2086.498,
+      "video_duration_seconds": 2086.502766,
+      "tail_gap_seconds": 0.004766,
+      "every_srt_quote_found_in_txt": true,
+      "audio_listened": false,
+      "semantic_completeness": "NOT_ESTABLISHED"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MacroMind · v0.3 六项规则审阅</title>
+<style>
+:root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#173d41;background:#f3f7f5;line-height:1.7}*{box-sizing:border-box}body{margin:0}main{max-width:1080px;margin:auto;padding:28px 20px}h1{font-size:30px;margin:4px 0}h2{font-size:24px}h3{font-size:18px;margin-bottom:6px}p{margin:8px 0}.panel,article{border:1px solid #cfddda;border-radius:12px;background:white;padding:24px;margin:18px 0}small,.muted{color:#526d6b}.notice{background:#fff8df;border-left:4px solid #c19d3a;padding:12px}.bar,.grid{display:flex;gap:12px;flex-wrap:wrap}.grid>label{flex:1 1 320px}label{display:block;font-weight:600;margin:10px 0}select,textarea,button{font:inherit;border:1px solid #9fb9b4;border-radius:6px;padding:10px;color:inherit;background:white}select,textarea{width:100%}textarea{min-height:100px}button{cursor:pointer}button.primary{background:#116657;color:white}a{color:#116657}nav a{display:inline-block;margin:4px 12px 4px 0}summary{cursor:pointer;font-weight:650}blockquote{margin:12px 0;padding:12px 18px;background:#f2f7f5;border-left:3px solid #7aa794}blockquote p{margin:6px 0}#status{min-height:40px;font-weight:600;overflow-wrap:anywhere}.meta{font-size:13px;overflow-wrap:anywhere}.example{padding:12px;background:#f0f5f9}.audit{border-top:1px solid #d5e1dd;margin-top:22px;padding-top:12px}article{scroll-margin-top:15px}input:focus-visible,button:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #caa337}
+@media(max-width:600px){main{padding:16px 12px}h1{font-size:25px}h2{font-size:21px}.panel,article{padding:16px}.grid>label{flex-basis:100%}.bar button{width:100%}}
+</style>
+<main><small>MACROMIND / 方法草案 · 尚未启用</small><h1>v0.3 · 六项规则审阅</h1>
+<p>请判断是否忠实表达9527的分析思路，以及证据边界是否合适。不是请你判断相关新闻或预测是否正确。</p>
+<div class="notice">原v0.2保持有效研究版本。本页选择不会自动启用新框架，也不会打开15份留出字幕。确认后的导出文件还需核验、处理修订，再另行固定版本。</div>
+<section class="panel"><h2>填写与保存</h2><p>每项有两个选择：①方法是否忠实；②证据边界是否合适。无异议时意见可留空；需修改或不支持时，请说明原因。可以分次填写、导出和导入。</p>
+<p id="progress"></p><div class="bar"><button class="primary" id="save">另存审阅文件</button><button id="download">下载 JSON 备份</button><button id="import">导入此前审阅</button><button id="next">跳到下一项待审</button><input id="file" type="file" accept=".json,application/json" hidden></div>
+<p id="status" role="status" aria-live="polite"></p>
+<p class="meta">建议归档：G:\youhegaojian\macro-mind-engine\phase1\framework_review\v03_draft_001\exports\</p>
+<p class="muted">浏览器草稿不是正式归档。请另存到上述目录；不支持另存时，下载 JSON 后移入该目录。无法暂存时页面会提醒，仍可导出。</p>
+<nav id="nav" aria-label="规则导航"></nav></section><div id="cards"></div>
+<p class="muted">字幕原字保留，未核听；应用例子均注明用途。规则由助手整理，不能将证据边界都归为博主原话。</p></main>
+<script type="application/json" id="seed">__DATA__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('seed').textContent),$=id=>document.getElementById(id);
+const values=['pending','accept','revise','reject','uncertain'],key='macromind.frameworkReview.'+data.draft_sha256;
+let state=data.cards.map(c=>({id:c.id,fidelity:'pending',boundary:'pending',notes:'',suggestion:'',evidence_notes:''}));
+function status(s){$('status').textContent=s}
+function needsNote(r){return ['revise','reject'].includes(r.fidelity)||['revise','reject'].includes(r.boundary)}
+function complete(r){return r.fidelity!=='pending'&&r.boundary!=='pending'&&(!needsNote(r)||Boolean((r.notes+r.suggestion).trim()))}
+function progress(){const n=state.filter(complete).length,notes=state.filter(r=>needsNote(r)&&!(r.notes+r.suggestion).trim()).length;$('progress').textContent='已填写 '+n+' / 6 项（每项两个选择）'+(notes?'；'+notes+' 项修改/不支持意见待补充':'')+'。填写完成不等于全部同意。';return n}
+function packet(){return {schema:data.schema,review_id:data.review_id,draft_sha256:data.draft_sha256,exported_at:new Date().toISOString(),completed:state.filter(complete).length,activation:'NOT_ACTIVATED',records:state}}
+function validate(p){
+ if(!p||p.schema!==data.schema||p.review_id!==data.review_id||p.draft_sha256!==data.draft_sha256)throw Error('文件不属于当前草案版本');
+ if(!Array.isArray(p.records)||p.records.length!==6)throw Error('必须包含本草案6项记录');
+ const seen=new Set();
+ for(const r of p.records){if(!r||!data.cards.some(c=>c.id===r.id)||seen.has(r.id))throw Error('规则编号重复或未知');seen.add(r.id);
+ if(!values.includes(r.fidelity)||!values.includes(r.boundary))throw Error('审核选项无效');
+ for(const k of ['notes','suggestion','evidence_notes'])if(typeof r[k]!=='string'||r[k].length>100000)throw Error('意见字段错误或过长');}
+ return data.cards.map(c=>{const r=p.records.find(x=>x.id===c.id);return {id:c.id,fidelity:r.fidelity,boundary:r.boundary,notes:r.notes,suggestion:r.suggestion,evidence_notes:r.evidence_notes}});
+}
+function persist(){try{localStorage.setItem(key,JSON.stringify(packet()));status('已暂存当前浏览器；请另存或下载以完成归档。')}catch(e){status('无法暂存当前浏览器，请立即下载 JSON 备份。')}progress()}
+try{const s=localStorage.getItem(key);if(s){state=validate(JSON.parse(s));status('已恢复当前草案的浏览器记录。')}else status('6项均待审。可先展开原话证据，再选择意见。')}catch(e){status('草稿未载入：'+e.message+'。请保留旧导出文件。')}
+function node(tag,text,cls){const el=document.createElement(tag);if(text!==undefined)el.textContent=text;if(cls)el.className=cls;return el}
+function section(parent,title,text,cls){parent.append(node('h3',title),node('p',text,cls))}
+function select(r,field,label,labels){const l=node('label',label),s=node('select');s.dataset.field=field;s.setAttribute('aria-label',r.id+' '+label);values.forEach((v,i)=>s.add(new Option(labels[i],v)));s.value=r[field];s.onchange=()=>{r[field]=s.value;persist()};l.append(s);return l}
+function textarea(r,field,label){const l=node('label',label),t=node('textarea');t.dataset.field=field;t.setAttribute('aria-label',r.id+' '+label);t.value=r[field];t.oninput=()=>{r[field]=t.value;persist()};l.append(t);return l}
+function render(){
+ $('cards').replaceChildren();$('nav').replaceChildren();
+ for(const c of data.cards){
+ const r=state.find(x=>x.id===c.id),article=node('article');article.id=c.id;
+ const link=node('a',c.id+' '+c.title);link.href='#'+c.id;$('nav').append(link);
+ article.append(node('small',c.id+' → '+c.target+' · 待审草案'),node('h2',c.title));
+ section(article,'拟采用规则',c.rule);
+ section(article,'需要哪些信息',c.inputs.join('；'));
+ article.append(node('h3','怎么做'));const ol=node('ol');c.steps.forEach(s=>ol.append(node('li',s)));article.append(ol);
+ section(article,'证据不全时的基础判断',c.default);section(article,'什么情况需要更新',c.update);
+ section(article,'应用例子',c.example,'example');
+ section(article,'系统建议的证据边界（单独审阅）',c.boundary,'notice');
+ const details=node('details');details.append(node('summary','展开原话证据（'+c.evidence.length+'组）'));
+ for(const e of c.evidence){details.append(node('h3','第'+e.episode+'期 · '+e.unit));const quote=node('blockquote');
+ quote.append(node('small','cue '+e.cues[0].cue+'—'+e.cues.at(-1).cue+' · '+e.cues[0].time+' 至 '+e.cues.at(-1).time));
+ quote.append(node('p',e.cues.map(x=>x.text).join('')));details.append(quote)}
+ article.append(details);const audit=node('div',undefined,'audit'),grid=node('div',undefined,'grid');
+ grid.append(select(r,'fidelity','① 方法是否忠实',['待审','忠实，可采用','需要修改','原话不支持','暂不确定']),select(r,'boundary','② 证据边界是否合适',['待审','合适，可采用','需要修改','不支持此边界','暂不确定']));
+ audit.append(grid,textarea(r,'notes','意见或问题（需修改／不支持时说明）'),textarea(r,'suggestion','建议修订的表述（可选）'),textarea(r,'evidence_notes','核听或补充证据（可选）'));
+ article.append(audit);$('cards').append(article);
+ }progress();
+}
+function fname(){return 'MacroMind_v03draft001_'+new Date().toISOString().replace(/[:.]/g,'-')+'_'+state.filter(complete).length+'of6.json'}
+function download(){const url=URL.createObjectURL(new Blob([JSON.stringify(packet(),null,2)],{type:'application/json'})),a=node('a');a.href=url;a.download=fname();a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('已发起下载；请确认完成并归档。未完成项也已保留。')}
+$('download').onclick=download;
+$('save').onclick=async()=>{if(!window.showSaveFilePicker){download();return}try{const h=await showSaveFilePicker({suggestedName:fname(),types:[{description:'MacroMind 审阅',accept:{'application/json':['.json']}}]});const w=await h.createWritable();await w.write(JSON.stringify(packet(),null,2));await w.close();status('已写入所选位置：'+h.name+'。框架尚未自动启用。')}catch(e){status(e.name==='AbortError'?'另存已取消，现有填写保留。':'另存失败，请下载备份：'+e.message)}};
+$('import').onclick=()=>$('file').click();
+$('file').onchange=async()=>{try{const f=$('file').files[0];if(!f)return;if(f.size>5000000)throw Error('文件超过5MB');const incoming=validate(JSON.parse(await f.text()));if(!confirm('导入将覆盖当前六项填写内容。请先导出当前草稿，确认继续？'))return;state=incoming;render();persist();status('已导入当前版本的6项记录；请查看完成数并归档。')}catch(e){status('导入失败，现有填写未改变：'+e.message)}finally{$('file').value=''}};
+$('next').onclick=()=>{const r=state.find(x=>!complete(x));if(r){location.hash=r.id;$(r.id).querySelector('select').focus()}else status('六项均已填写。请导出提交，框架尚未自动启用。')};
+render();
+</script></html>

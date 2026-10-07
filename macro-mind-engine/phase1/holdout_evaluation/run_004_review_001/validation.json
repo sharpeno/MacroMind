@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "checks": [
+    "review identity and three unique decisions match",
+    "accepted notes retained, not discarded",
+    "archive bytes identical",
+    "old comparison and v0.3 sealed hashes match",
+    "user body text matches and quotes continuous"
+  ],
+  "human_status": "R01/R02 accepted with notes, R03 original revise; all supplied text applied",
+  "fact_forecast_validation": "NOT_PERFORMED"
+}

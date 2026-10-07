@@ -1,0 +1,287 @@
+{
+  "passed": true,
+  "mutation_test_count": 26,
+  "roundtrip_restores_original": true,
+  "candidate_sha256": "a3d55ac6cde9f2ef806ce2e2824ebcfff22a78d1acda0089d491905dabd6319d",
+  "tests": [
+    {
+      "name": "method_enum",
+      "expected_failures": [
+        "V-MA101"
+      ],
+      "actual_failures": [
+        "V-MA101"
+      ],
+      "passed": true
+    },
+    {
+      "name": "frequency_without_scope",
+      "expected_failures": [
+        "R056"
+      ],
+      "actual_failures": [
+        "R056"
+      ],
+      "passed": true
+    },
+    {
+      "name": "non_none_without_prior",
+      "expected_failures": [
+        "V-MA102"
+      ],
+      "actual_failures": [
+        "V-MA102"
+      ],
+      "passed": true
+    },
+    {
+      "name": "partial_without_scope",
+      "expected_failures": [
+        "V-MA103"
+      ],
+      "actual_failures": [
+        "R057",
+        "V-MA103"
+      ],
+      "passed": true
+    },
+    {
+      "name": "vague_recurrence",
+      "expected_failures": [
+        "R057"
+      ],
+      "actual_failures": [
+        "R057"
+      ],
+      "passed": true
+    },
+    {
+      "name": "missing_failure_reasoner",
+      "expected_failures": [
+        "R058",
+        "V-MA104"
+      ],
+      "actual_failures": [
+        "R058",
+        "V-MA104"
+      ],
+      "passed": true
+    },
+    {
+      "name": "missing_failure_observer",
+      "expected_failures": [
+        "R058",
+        "V-MA105"
+      ],
+      "actual_failures": [
+        "R058",
+        "V-ATTR",
+        "V-MA101",
+        "V-MA105"
+      ],
+      "passed": true
+    },
+    {
+      "name": "stable_single_failure",
+      "expected_failures": [
+        "R059"
+      ],
+      "actual_failures": [
+        "R059"
+      ],
+      "passed": true
+    },
+    {
+      "name": "missing_comparison_source",
+      "expected_failures": [
+        "R060",
+        "V-MA106"
+      ],
+      "actual_failures": [
+        "R060",
+        "V-MA106"
+      ],
+      "passed": true
+    },
+    {
+      "name": "unknown_role_guessed",
+      "expected_failures": [
+        "V-SEMANTICS"
+      ],
+      "actual_failures": [
+        "V-SEMANTICS"
+      ],
+      "passed": true
+    },
+    {
+      "name": "invalid_role",
+      "expected_failures": [
+        "R062"
+      ],
+      "actual_failures": [
+        "R062"
+      ],
+      "passed": true
+    },
+    {
+      "name": "missing_stage",
+      "expected_failures": [
+        "V-MA108"
+      ],
+      "actual_failures": [
+        "V-MA108"
+      ],
+      "passed": true
+    },
+    {
+      "name": "percent_to_percentage_points",
+      "expected_failures": [
+        "R061",
+        "V-MA107"
+      ],
+      "actual_failures": [
+        "R061",
+        "V-MA107"
+      ],
+      "passed": true
+    },
+    {
+      "name": "remove_role_review",
+      "expected_failures": [
+        "R063",
+        "V-MA109"
+      ],
+      "actual_failures": [
+        "R063",
+        "V-MA109"
+      ],
+      "passed": true
+    },
+    {
+      "name": "diagnostic_method_claim",
+      "expected_failures": [
+        "V-MA110"
+      ],
+      "actual_failures": [
+        "V-MA110"
+      ],
+      "passed": true
+    },
+    {
+      "name": "mixed_argument_model_edge",
+      "expected_failures": [
+        "V-MA110"
+      ],
+      "actual_failures": [
+        "V-MA110"
+      ],
+      "passed": true
+    },
+    {
+      "name": "diagnostic_recurrence_evidence",
+      "expected_failures": [
+        "V-MA110"
+      ],
+      "actual_failures": [
+        "V-MA110"
+      ],
+      "passed": true
+    },
+    {
+      "name": "future_sample_GS005",
+      "expected_failures": [
+        "V-MA111"
+      ],
+      "actual_failures": [
+        "V-MA111"
+      ],
+      "passed": true
+    },
+    {
+      "name": "future_sample_GS006",
+      "expected_failures": [
+        "V-MA111"
+      ],
+      "actual_failures": [
+        "V-MA111"
+      ],
+      "passed": true
+    },
+    {
+      "name": "chronologically_later_GS002",
+      "expected_failures": [
+        "V-MA111"
+      ],
+      "actual_failures": [
+        "V-MA111"
+      ],
+      "passed": true
+    },
+    {
+      "name": "duplicate_claim_id",
+      "expected_failures": [
+        "V-ID",
+        "V-ID-PRESERVE"
+      ],
+      "actual_failures": [
+        "V-ID",
+        "V-ID-PRESERVE",
+        "V-REF",
+        "V-SEMANTICS"
+      ],
+      "passed": true
+    },
+    {
+      "name": "dangling_reference",
+      "expected_failures": [
+        "V-REF"
+      ],
+      "actual_failures": [
+        "V-REF"
+      ],
+      "passed": true
+    },
+    {
+      "name": "invalid_distance",
+      "expected_failures": [
+        "V-DISTANCE"
+      ],
+      "actual_failures": [
+        "V-DISTANCE"
+      ],
+      "passed": true
+    },
+    {
+      "name": "model_edge_reattributed",
+      "expected_failures": [
+        "V-ATTR",
+        "V-SEMANTICS"
+      ],
+      "actual_failures": [
+        "V-ATTR",
+        "V-SEMANTICS"
+      ],
+      "passed": true
+    },
+    {
+      "name": "legacy_not_preserved",
+      "expected_failures": [
+        "V-LEGACY"
+      ],
+      "actual_failures": [
+        "V-LEGACY"
+      ],
+      "passed": true
+    },
+    {
+      "name": "false_derivation_promoted_to_reality_false",
+      "expected_failures": [
+        "V-TRUTH"
+      ],
+      "actual_failures": [
+        "V-TRUTH"
+      ],
+      "passed": true
+    }
+  ]
+}

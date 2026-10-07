@@ -1,0 +1,7 @@
+{
+  "status": "READY_FOR_HUMAN_REVIEW",
+  "errors": [],
+  "semantic_acceptance": false,
+  "compile_authorization": false,
+  "meaning": "Checks documentation completeness and source binding only; assessments may be wrong"
+}

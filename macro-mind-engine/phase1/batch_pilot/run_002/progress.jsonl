@@ -1,0 +1,7 @@
+{"time": "2026-10-03T09:03:32.357322+00:00", "stage": "BASELINE_CHECK", "unfinished": ["Verify baseline", "Revise", "Audit", "Review UI and verification"], "next_step": "Verify baseline"}
+{"time": "2026-10-03T09:03:32.599327+00:00", "stage": "ANNOTATIONS_AND_OVERLAYS_SAVED", "unfinished": ["Compile and audit", "Delta UI and verification"], "next_step": "Compile and audit"}
+{"time": "2026-10-03T09:03:53.113390+00:00", "stage": "COMPILED", "unfinished": ["Audit", "Delta UI and verification"], "next_step": "Audit"}
+{"time": "2026-10-03T09:04:21.607965+00:00", "stage": "AUDITS_COMPLETED", "unfinished": ["Delta UI and verification", "Report and manifest"], "next_step": "Delta UI and verification"}
+{"time": "2026-10-03T09:06:56.042087+00:00", "stage": "DATA_VERIFIED_UI_BUILT", "unfinished": ["Browser QA", "Final report and manifest"], "next_step": "Browser QA"}
+{"time": "2026-10-03T09:10:00.164018+00:00", "stage": "DATA_VERIFIED_UI_BUILT", "unfinished": ["Browser QA", "Final report and manifest"], "next_step": "Browser QA"}
+{"time": "2026-10-03T09:10:02.710897+00:00", "stage": "READY_FOR_DELTA_HUMAN_REVIEW", "unfinished": ["User reviews 7 delta groups (duration may remain uncertain)", "Independent audio verification pending", "Historical bank-source attribution and timing pending", "Original unresolved fields remain; no scale-up"], "next_step": "User reviews 7 delta groups (duration may remain uncertain)"}

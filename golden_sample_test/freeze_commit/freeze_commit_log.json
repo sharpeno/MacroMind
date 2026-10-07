@@ -1,0 +1,179 @@
+{
+  "executed_at": "2026-09-27T00:45:14+08:00",
+  "completed_at": "2026-09-27T00:45:15+08:00",
+  "freeze_commit_version": "CORE-ONTOLOGY-V0.3-FREEZE-COMMIT-1",
+  "freeze_commit": {
+    "completed": true
+  },
+  "formal_freeze_executed": true,
+  "status": "FROZEN",
+  "prompt_sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+  "input_manifest_sha256": "001ec7accd30157eef0aec9c2e0957a3d71dc100280b1721f664cfbd940dc4e2",
+  "audit_artifact_hashes": {
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/build_audit.py": "1bcb17557f5cbf8cc9748e821e7c0da6f86e79b22bf4b14655a761bf7acf6dd5",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/core_blocker_register.json": "177502b5ad7f8e79d5cf70ae0eb556f705da7a0b3673ee6c0e27417623ffca98",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/core_boundary_matrix.json": "ef919bd9e22e51a57c047869281b28ade0076352bb492538f7c3f3a3c3a65523",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness.json": "12755741664bb0810c88c52e9440715007efe12576d6ce397e6fc0098e1a00a8",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/core_ontology_v0.3_freeze_readiness_audit.md": "41b71a89bb57fd89684dce9e9c35d761f60398dbd42e7c716960c75ee7d073c6",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/evidence_catalog.json": "f4d2d229000ed635b8136ece4d5178e315aa7cc228d8259db1066e7f3b4a4bcc",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/freeze_debt_ledger.json": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/golden_stress_test_matrix.json": "8847857b36e0be32763a28d02d233cd644fa037d38c547e644077dcdd114b24d",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/input_manifest.json": "3e6b55314d246ad445c4d39b33d545ee66a9ced9defa6d27cf550153c1365fdf",
+    "G:/youhegaojian/golden_sample_test/freeze_readiness/integrity_check.json": "f72e32b23b4b86131e9205d13f74afd8c32cb6205c8773f730d27328a85d1e49"
+  },
+  "final_golden_hashes": {
+    "GS001": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+    "GS002": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+    "GS003": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+    "GS004": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+    "GS005": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023"
+  },
+  "canonical_output_hashes": [
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/CHANGE_POLICY.md",
+      "sha256": "0b91639f0125947b9ff117247b8db474c0bb616703d1a66028d743d9a9d72896"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_boundaries.json",
+      "sha256": "24f958b354493a6804663226d5777a287b0407d0d4b935f628a3612af44fbc4e"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_objects.json",
+      "sha256": "e784bda3d0564046af40a328af23e7447422ff926f937232b0e3a905f6d5ec42"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/CORE_ONTOLOGY_V0.3_FROZEN.md",
+      "sha256": "c6213568d9a27afb873544c1cce943b79233044910e27a77ddf16c675a5cba23"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_principles.json",
+      "sha256": "9ba0d8873fb17d4dac7adb55e0f359e23b032fa51b50574c4380c596f84deb06"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_debt_ledger.json",
+      "sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_debt_status_overlay.json",
+      "sha256": "a655bf26ab7c2326d184a538d1f2ac61ec9adc7deb2882301e2d4f5ba7a0afa3"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_manifest.json",
+      "sha256": "c914c025561baeac92f456515453fd57f75e36be950565f4047b8208d7a3bf0d"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/semantic_contract_projection.json",
+      "sha256": "4a99dabe1aacab24d4095a680352af99979ff58e2bba23149a5184fb85984ee6"
+    },
+    {
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/source_mapping.json",
+      "sha256": "c1ce4e43ef3e1bda426d748b372ce71bdce10adc06b818324878df19092db405"
+    }
+  ],
+  "all_changes": [
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/CHANGE_POLICY.md",
+      "sha256": "0b91639f0125947b9ff117247b8db474c0bb616703d1a66028d743d9a9d72896"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_boundaries.json",
+      "sha256": "24f958b354493a6804663226d5777a287b0407d0d4b935f628a3612af44fbc4e"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_objects.json",
+      "sha256": "e784bda3d0564046af40a328af23e7447422ff926f937232b0e3a905f6d5ec42"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/CORE_ONTOLOGY_V0.3_FROZEN.md",
+      "sha256": "c6213568d9a27afb873544c1cce943b79233044910e27a77ddf16c675a5cba23"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/core_principles.json",
+      "sha256": "9ba0d8873fb17d4dac7adb55e0f359e23b032fa51b50574c4380c596f84deb06"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_debt_ledger.json",
+      "sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_debt_status_overlay.json",
+      "sha256": "a655bf26ab7c2326d184a538d1f2ac61ec9adc7deb2882301e2d4f5ba7a0afa3"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/freeze_manifest.json",
+      "sha256": "c914c025561baeac92f456515453fd57f75e36be950565f4047b8208d7a3bf0d"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/semantic_contract_projection.json",
+      "sha256": "4a99dabe1aacab24d4095a680352af99979ff58e2bba23149a5184fb85984ee6"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/core_ontology/v0.3/source_mapping.json",
+      "sha256": "c1ce4e43ef3e1bda426d748b372ce71bdce10adc06b818324878df19092db405"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/codex_phase1_handoff.md",
+      "sha256": "4545b84eb4c7c61a8be69b9ece97ee4bfbbf059f858ed73eb59d6a239b1fdd8f"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/execute_freeze.py",
+      "sha256": "6c10bbb7d247435688de89e25d0e7a59d5e239bb01ca8640cc669d1f6f42e0ca"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/freeze_diff.md",
+      "sha256": "8ebfa029c99fd965988907ee1124cf334f24151388fe538f15802e2679483c79"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/freeze_integrity_validation.json",
+      "sha256": "e009025ff6bcdb5ed8a4efdf694869939e129a73b16d539bf1c4e79737b58d6c"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/input_manifest.json",
+      "sha256": "001ec7accd30157eef0aec9c2e0957a3d71dc100280b1721f664cfbd940dc4e2"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/protected_input_snapshot.json",
+      "sha256": "fbd72918d2845e38486d960df7fe1107a8f7e3f8edbfddf070f0dd6c82449c56"
+    },
+    {
+      "action": "create",
+      "path": "G:/youhegaojian/golden_sample_test/freeze_commit/publication_verification.json",
+      "sha256": "b25a3bbbc5de440affda420b2ed07ab7715f7e105261b30878211f31a203b642"
+    }
+  ],
+  "self_record_note": "This log is newly created and intentionally does not hash itself.",
+  "integrity_validator_result": {
+    "ERROR": 0,
+    "WARNING": 4,
+    "PASS": 32
+  },
+  "publication_verification_sha256": "b25a3bbbc5de440affda420b2ed07ab7715f7e105261b30878211f31a203b642",
+  "golden_files_modified": 0,
+  "audit_files_modified": 0,
+  "new_core_objects": 0,
+  "removed_core_objects": 0,
+  "core_semantic_changes": 0,
+  "historical_freeze_debts_preserved": 20,
+  "D01_overlay": "addressed_by_freeze_commit",
+  "production_import_ready": false,
+  "analyst_skill_status": "NOT_READY",
+  "macromind_core_skill_status": "NOT_READY",
+  "codex_phase1_status": "NOT_STARTED",
+  "git_commit_created": false
+}

@@ -1,0 +1,11 @@
+{
+  "episode": "473",
+  "selected_at": "2026-10-06T12:22:08.017381+00:00",
+  "selection": "next reserved episode in frozen order",
+  "subtitle_status": "UNREAD",
+  "framework_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "application_revision": "Explicit speaker/role/event/public stance/motive checklist approved after case472",
+  "adaptive_evaluation": "472 has informed application process; not an untouched fixed-policy aggregate evaluation",
+  "cutoff": "2023-10-17 day-level upper bound; video exact time unknown",
+  "no_target_inference": "title known, subtitle not read before answer lock"
+}

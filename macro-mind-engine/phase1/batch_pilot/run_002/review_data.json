@@ -1,0 +1,968 @@
+{
+  "version": 1,
+  "dataset": "a5eddbab90c0a05a919931152b51d3af10a4a6d3fefc0e89f49da3079baf55fe",
+  "items": [
+    {
+      "id": "EP001/A01/revision",
+      "episode": "EP001",
+      "kind": "推理链",
+      "title": "EP001/A01 · 修订后复审",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 46,
+          "time_range": "00:03:54,590 --> 00:03:57,410",
+          "quote": "而整体的很多很多的那些。"
+        },
+        {
+          "cue_id": 47,
+          "time_range": "00:03:57,410 --> 00:03:59,260",
+          "quote": "啊，不起眼的。"
+        },
+        {
+          "cue_id": 48,
+          "time_range": "00:03:59,260 --> 00:04:00,180",
+          "quote": "那些企业。"
+        },
+        {
+          "cue_id": 49,
+          "time_range": "00:04:00,180 --> 00:04:04,270",
+          "quote": "他们的这个PE他们的估值其实呢都已经非常非常的高了。"
+        },
+        {
+          "cue_id": 50,
+          "time_range": "00:04:04,270 --> 00:04:05,220",
+          "quote": "只是呢。"
+        },
+        {
+          "cue_id": 51,
+          "time_range": "00:04:05,220 --> 00:04:07,680",
+          "quote": "在那些亮眼的七姐媚之下。"
+        },
+        {
+          "cue_id": 52,
+          "time_range": "00:04:07,680 --> 00:04:10,050",
+          "quote": "他们整体的价格涨幅。"
+        },
+        {
+          "cue_id": 53,
+          "time_range": "00:04:10,050 --> 00:04:11,900",
+          "quote": "并不是特别的好看。"
+        },
+        {
+          "cue_id": 54,
+          "time_range": "00:04:11,900 --> 00:04:16,710",
+          "quote": "是吧这样的一个业绩非常非常差，但实际的这个PE非常高。"
+        },
+        {
+          "cue_id": 55,
+          "time_range": "00:04:16,710 --> 00:04:20,010",
+          "quote": "然后呢，整体的这个价格呢又不是特别的理想。"
+        },
+        {
+          "cue_id": 56,
+          "time_range": "00:04:20,010 --> 00:04:23,080",
+          "quote": "这么一个非常非常扭曲的组合。现在。"
+        },
+        {
+          "cue_id": 57,
+          "time_range": "00:04:23,080 --> 00:04:27,520",
+          "quote": "在美股呢，这实际上是一个比较普遍的现象，啥意思啊？"
+        },
+        {
+          "cue_id": 58,
+          "time_range": "00:04:27,520 --> 00:04:34,070",
+          "quote": "就是结合着现在美国的这个K型分化的大趋势，越来越严重的大趋势。"
+        },
+        {
+          "cue_id": 59,
+          "time_range": "00:04:34,070 --> 00:04:39,000",
+          "quote": "实际上呢，跟美国的经济方方面面贴得很近的。"
+        },
+        {
+          "cue_id": 60,
+          "time_range": "00:04:39,000 --> 00:04:40,860",
+          "quote": "实体消费部分。"
+        },
+        {
+          "cue_id": 61,
+          "time_range": "00:04:40,860 --> 00:04:46,150",
+          "quote": "他们的整体营收下降的是非常非常之厉害的。比如说。"
+        },
+        {
+          "cue_id": 62,
+          "time_range": "00:04:46,150 --> 00:04:47,280",
+          "quote": "耐克。"
+        },
+        {
+          "cue_id": 63,
+          "time_range": "00:04:47,280 --> 00:04:55,630",
+          "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。"
+        },
+        {
+          "cue_id": 64,
+          "time_range": "00:04:55,630 --> 00:04:59,250",
+          "quote": "他们的整体的这个包括沃尔玛里面卖的那些。"
+        },
+        {
+          "cue_id": 65,
+          "time_range": "00:04:59,250 --> 00:05:04,040",
+          "quote": "零售的食品商啊，饮料商啊，服务商这些东西。"
+        },
+        {
+          "cue_id": 66,
+          "time_range": "00:05:04,040 --> 00:05:11,300",
+          "quote": "他们整体的估值虽然在这轮美股暴涨的情况之下，没有成为上涨的主力。"
+        },
+        {
+          "cue_id": 67,
+          "time_range": "00:05:11,380 --> 00:05:15,850",
+          "quote": "但是实际上呢他们业绩下降的非常非常的厉害。"
+        },
+        {
+          "cue_id": 68,
+          "time_range": "00:05:15,850 --> 00:05:18,330",
+          "quote": "而估值还是维持着过去的那个。"
+        },
+        {
+          "cue_id": 69,
+          "time_range": "00:05:18,330 --> 00:05:20,820",
+          "quote": "在他业绩辉煌时代的那个高度。"
+        },
+        {
+          "cue_id": 70,
+          "time_range": "00:05:20,820 --> 00:05:23,190",
+          "quote": "这里边也有很大的泡沫。"
+        },
+        {
+          "cue_id": 72,
+          "time_range": "00:05:25,400 --> 00:05:28,400",
+          "quote": "如果说整体的环境不变的话。"
+        },
+        {
+          "cue_id": 73,
+          "time_range": "00:05:28,400 --> 00:05:29,710",
+          "quote": "他不承压的话。"
+        },
+        {
+          "cue_id": 74,
+          "time_range": "00:05:29,710 --> 00:05:31,140",
+          "quote": "这泡沫显不出来。"
+        },
+        {
+          "cue_id": 75,
+          "time_range": "00:05:31,140 --> 00:05:33,900",
+          "quote": "但是如果面临着题材转换的话。"
+        },
+        {
+          "cue_id": 76,
+          "time_range": "00:05:33,900 --> 00:05:37,610",
+          "quote": "大家拿着放大镜去看他们，一下子就穿帮了。"
+        },
+        {
+          "cue_id": 77,
+          "time_range": "00:05:37,610 --> 00:05:38,760",
+          "quote": "所以呢。"
+        },
+        {
+          "cue_id": 78,
+          "time_range": "00:05:38,760 --> 00:05:41,280",
+          "quote": "这个转换题材转换的热潮。"
+        },
+        {
+          "cue_id": 79,
+          "time_range": "00:05:41,280 --> 00:05:43,410",
+          "quote": "只转换了一个多星期，马上呢。"
+        },
+        {
+          "cue_id": 80,
+          "time_range": "00:05:43,410 --> 00:05:44,580",
+          "quote": "发现这些东西。"
+        },
+        {
+          "cue_id": 81,
+          "time_range": "00:05:44,580 --> 00:05:49,310",
+          "quote": "盛名之下，奇实难赋撑不起来题实题材转换的炒作。"
+        },
+        {
+          "cue_id": 82,
+          "time_range": "00:05:49,310 --> 00:05:51,240",
+          "quote": "又赶紧的又转回到了。"
+        },
+        {
+          "cue_id": 83,
+          "time_range": "00:05:51,240 --> 00:05:54,250",
+          "quote": "AI转回到了储存芯片，转回到了英伟达。"
+        },
+        {
+          "cue_id": 43,
+          "time_range": "00:03:44,920 --> 00:03:47,780",
+          "quote": "前几天，高盛，包括瑞银呢。"
+        },
+        {
+          "cue_id": 44,
+          "time_range": "00:03:47,780 --> 00:03:50,130",
+          "quote": "吹了一波题材转换，结果呢。"
+        },
+        {
+          "cue_id": 45,
+          "time_range": "00:03:50,130 --> 00:03:54,590",
+          "quote": "这转换的周期还不到一个星期，又从其他的又转回去了。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP001/A01",
+          "episode": "EP001",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "change",
+          "note": "",
+          "correction": "前文提到高盛、瑞银推动题材转换。博主认为，被转向的企业基本面难以支撑炒作，因此题材转换未能持续，资金又回流 AI 等热点。",
+          "evidence": "00:04:47,280 --> 00:04:55,630：录入namemo应为lululemon，tart应为target（TGT）\n00:03:45,000 --> 00:04:11,000：描述了题材转换的消费股，以及一些中小企业，这些企业本身PE就很高的情况。\n补充材料：\n1. 高盛：消费股可能成为年底前的意外赢家\n日期：2026年9月11日\n标题：What a Fed Rate Hike Could Mean for US Stocks\n链接：https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks?utm_source=chatgpt.com\n2. 瑞银：在AI保持强势时，把视线扩展到科技之外\n日期：2026年9月3日\n标题：Look beyond tech as AI strength persists\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html?utm_source=chatgpt.com\n3. 瑞银：油价上涨下，AI仓位应向电力、资源和医疗扩散\n标题：Brent tops 100: A milestone, not a turning point\n日期：2026年9月9日\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html?utm_source=chatgpt.com\n\n",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:48:55.910Z"
+        },
+        "本次主张变更": [
+          {
+            "编号": "EP001/C03",
+            "原表述": "博主认为一些实体消费相关企业营收受损，但估值仍维持过去较高水平，存在错配。",
+            "修订表述": "博主认为，一些非热门消费及中小企业盈利表现不佳、估值仍高，基本面难以支撑题材炒作。"
+          },
+          {
+            "编号": "EP001/C04",
+            "原表述": "博主把题材切换后又回流AI等热点，解释为被切换到的企业基本面难以支撑炒作。",
+            "修订表述": "博主认为，题材切换使这些企业的基本面问题受到关注，转换未能持续，资金又回流AI、存储芯片等热点。"
+          },
+          {
+            "编号": "EP001/C22",
+            "原表述": "新增",
+            "修订表述": "博主转述：高盛、瑞银此前推动过题材转换；这是博主对投行观点的归述，尚未核实对应研报。"
+          }
+        ],
+        "本次链变更": [
+          {
+            "编号": "EP001/A01",
+            "修订前": [
+              "A01",
+              [
+                "C03"
+              ],
+              "C04",
+              "企业盈利与估值错配使题材切换难持续，资金回到原热点。"
+            ],
+            "修订后": [
+              "A01",
+              [
+                "C22",
+                "C03"
+              ],
+              "C04",
+              "以博主转述的投行题材转换为背景，将基本面与估值错配连接到题材转换未持续、回流AI等热点；不据此认定投行建议已被外部证实。"
+            ]
+          }
+        ],
+        "用户转写修正": [
+          {
+            "episode": "EP001",
+            "review_id": "EP001/A01",
+            "original": {
+              "cue_id": 63,
+              "time_range": "00:04:47,280 --> 00:04:55,630",
+              "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。"
+            },
+            "user_reported_token": "录入namemo",
+            "suggested_text": "lululemon",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP001",
+            "review_id": "EP001/A01",
+            "original": {
+              "cue_id": 63,
+              "time_range": "00:04:47,280 --> 00:04:55,630",
+              "quote": "啊，录入namemo是吧，类似的这些东西啊，还有很多很多的消费，像沃尔玛啊，像这个tart是吧，这些东西。"
+            },
+            "user_reported_token": "tart",
+            "suggested_text": "target（TGT）",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          }
+        ],
+        "补充网页核对": [
+          {
+            "id": "EP001/bank/1",
+            "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+            "date_observed": "2026-09-11",
+            "title_observed": "What a Fed Rate Hike Could Mean for US Stocks",
+            "assessment": "高盛访谈讨论AI及消费机会。文内CPI已公布，视频则讨论今晚CPI；存在内容时序疑问。无法据此确认这是博主所指的前几天研报。",
+            "web_access": "CURRENT_PAGE_READ",
+            "historical_version_verified": false,
+            "creator_citation_verified": false,
+            "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+            "raw_evidence": "web_tool_raw.json"
+          },
+          {
+            "id": "EP001/bank/2",
+            "url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html",
+            "date_observed": "2026-09-03",
+            "title_observed": "Look beyond tech as AI strength persists",
+            "assessment": "瑞银CIO主张在保持AI配置基础上扩大投资范围，不等于退出AI，也不证明轮动失败。",
+            "web_access": "CURRENT_PAGE_READ",
+            "historical_version_verified": false,
+            "creator_citation_verified": false,
+            "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+            "raw_evidence": "web_tool_raw.json"
+          },
+          {
+            "id": "EP001/bank/3",
+            "url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html",
+            "date_observed": "2026-09-09",
+            "title_observed": "Brent tops 100: A milestone, not a turning point",
+            "assessment": "瑞银CIO讨论能源成本与拓宽配置；医疗表述带有能源影响加重的条件，不能去掉条件转述。",
+            "web_access": "CURRENT_PAGE_READ",
+            "historical_version_verified": false,
+            "creator_citation_verified": false,
+            "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+            "raw_evidence": "web_tool_raw.json"
+          }
+        ]
+      },
+      "priority": true,
+      "related": [
+        "EP001/A01"
+      ]
+    },
+    {
+      "id": "EP002/A01/revision",
+      "episode": "EP002",
+      "kind": "推理链",
+      "title": "EP002/A01 · 修订后复审",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 92,
+          "time_range": "00:05:00,070 --> 00:05:03,080",
+          "quote": "那这边受到影响了以后，我们这边一方面呢。"
+        },
+        {
+          "cue_id": 93,
+          "time_range": "00:05:03,080 --> 00:05:04,300",
+          "quote": "新能源推广。"
+        },
+        {
+          "cue_id": 94,
+          "time_range": "00:05:04,320 --> 00:05:06,450",
+          "quote": "把需求这边降了很多，对吧？"
+        },
+        {
+          "cue_id": 95,
+          "time_range": "00:05:06,450 --> 00:05:10,820",
+          "quote": "你油价上来了以后，市场动态平衡嘛，油价涨了以后，新能源就车就卖的好嘛。"
+        },
+        {
+          "cue_id": 96,
+          "time_range": "00:05:10,820 --> 00:05:12,040",
+          "quote": "那加油的就少嘛。"
+        },
+        {
+          "cue_id": 97,
+          "time_range": "00:05:12,040 --> 00:05:13,460",
+          "quote": "需求就变少了嘛。"
+        },
+        {
+          "cue_id": 98,
+          "time_range": "00:05:13,460 --> 00:05:14,550",
+          "quote": "另外一方面呢。"
+        },
+        {
+          "cue_id": 99,
+          "time_range": "00:05:14,550 --> 00:05:16,300",
+          "quote": "积极的跟俄罗斯这边谈。"
+        },
+        {
+          "cue_id": 100,
+          "time_range": "00:05:16,300 --> 00:05:19,460",
+          "quote": "啊，其他渠道的这个石油的进口啊，俄罗斯啊。"
+        },
+        {
+          "cue_id": 101,
+          "time_range": "00:05:19,460 --> 00:05:22,670",
+          "quote": "拉美呀，包括美国是吧？这石油的进口。"
+        },
+        {
+          "cue_id": 102,
+          "time_range": "00:05:22,670 --> 00:05:24,450",
+          "quote": "啊，就进行一个库存的补充。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP002/A01",
+          "episode": "EP002",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "change",
+          "note": "遗漏了“通过其他进口渠道补充库存”这一并列因素。cue 98–102 不直接支持“新能源替代减少需求”，不宜全部归入 C04",
+          "correction": "C04 的直接证据调整为 cue 92–97。另增一条主张：博主称，在中东石油供应受到影响后，中国也通过俄罗斯、拉美、美国等其他渠道进口石油，补充库存。两者是应对供应影响的并列因素。",
+          "evidence": "cue 98–102，00:05:13,460–00:05:24,450；“另外一方面呢”明确提示话题转入第二个因素",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:48:48.388Z"
+        },
+        "本次主张变更": [
+          {
+            "编号": "EP002/C04",
+            "原表述": "博主认为电动车等替代减少原油需求，影响油价上升空间。",
+            "修订表述": "博主认为电动车等替代减少原油需求，影响油价上升空间。"
+          },
+          {
+            "编号": "EP002/C21",
+            "原表述": "新增",
+            "修订表述": "博主另提到，与俄罗斯等渠道商谈，并通过俄罗斯、拉美、美国等渠道进口石油以补充库存；这是与需求替代并列的补充路径。"
+          }
+        ],
+        "本次链变更": [
+          {
+            "编号": "EP002/A01",
+            "修订前": [
+              "A01",
+              [
+                "C04"
+              ],
+              "C06",
+              "需求替代是作者下调油价上限设想的理由之一。"
+            ],
+            "修订后": [
+              "A01",
+              [
+                "C04"
+              ],
+              "C06",
+              "需求替代是作者下调油价上限设想的理由之一。"
+            ]
+          }
+        ],
+        "用户转写修正": []
+      },
+      "priority": true,
+      "related": [
+        "EP002/A01"
+      ]
+    },
+    {
+      "id": "EP004/A03/revision",
+      "episode": "EP004",
+      "kind": "推理链",
+      "title": "EP004/A03 · 修订后复审",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 303,
+          "time_range": "00:21:54,890 --> 00:21:59,810",
+          "quote": "一条呢就是认为你在有你这个药品确认是是百分之百全原创的。"
+        },
+        {
+          "cue_id": 304,
+          "time_range": "00:21:59,810 --> 00:22:19,810",
+          "quote": "出海有望，那绝对是明星企业。那未来都在你们的身上了。另外一条呢另外一条是你们确确实实眼下能挣钱。那既然能挣钱，而且呢因为你研发成本很低，那基本上没有什么研发的包袱，你挣了钱就可以分给股东。那你的这个收益率就会很高，那自然而然的资本市场也收钱。"
+        },
+        {
+          "cue_id": 305,
+          "time_range": "00:22:19,810 --> 00:22:39,810",
+          "quote": "来就这两条踩中这两条啊，这个市场上面，你通过这两个方向去筛筛出来的优质标的。那在一段时间之内，那绝对是非常有前途的有回报的。但是如果从这个长权的眼光来看的话，长期持有的角度来看的话，那肯定是前者是更有价值的。后者。"
+        },
+        {
+          "cue_id": 306,
+          "time_range": "00:22:39,810 --> 00:22:59,810",
+          "quote": "的随着这个规则的变变化。因为这个钱你通过像这种方式集采的方式，那集采每年每年都要谈的，每年每年都要改的通过这个方式的话，你的编辑收益是越来越少的，你的竞争对手是越来越多的那未来的话，这个路肯定是越来越不好走的。这个赛道上挤的人是越来越多的，竞争会越来越激烈的对吧？所以这样的话就。"
+        },
+        {
+          "cue_id": 291,
+          "time_range": "00:21:22,980 --> 00:21:25,690",
+          "quote": "生生命线就是能够进国彩的名单。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP004/A03",
+          "episode": "EP004",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "change",
+          "note": "C20 未明确提取博主对两类企业的价值排序：从长期持有角度，他更看好药品确为全原创、且出海有望的企业。",
+          "correction": "新增独立主张：博主认为，相比主要依靠低研发成本、集采规模及当期分红获利的企业，药品确为百分之百原创且出海有望的企业，从长期持有角度更有价值。保留原 C20 对两类盈利路径的区分。",
+          "evidence": "00:21:22,980 --> 00:21:25,690：国彩应为国采\n00:22:39,810 --> 00:22:59,810：编辑收益应为边际收益\ncue 303–304 提出“百分之百全原创”和“出海有望”；cue 305 明确表示，从长期持有角度“前者是更有价值的”；cue 306 对后一类模式未来收益和竞争压力的分析，可作为这一比较判断的理由之一。",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:35:15.401Z"
+        },
+        "本次主张变更": [
+          {
+            "编号": "EP004/C20",
+            "原表述": "博主区分原创出海的长期潜力与眼下低研发负担带来的分红收益。",
+            "修订表述": "博主区分两类企业：药品百分之百原创且出海有望的企业，以及眼下能盈利、研发负担较低并可向股东分红的企业。"
+          },
+          {
+            "编号": "EP004/C23",
+            "原表述": "新增",
+            "修订表述": "博主认为，两类企业在一段时间内都可能有回报；但从长期持有角度，药品百分之百原创且出海有望的前一类更有价值，相比之下后一类面临集采逐年谈判、边际收益下降及竞争增加的压力。"
+          }
+        ],
+        "本次链变更": [
+          {
+            "编号": "EP004/A03",
+            "修订前": [
+              "A03",
+              [
+                "C19",
+                "C21"
+              ],
+              "C20",
+              "当前采购收益与未来竞争压力构成两条盈利路径的比较。"
+            ],
+            "修订后": [
+              "A03",
+              [
+                "C20",
+                "C21"
+              ],
+              "C23",
+              "将两类商业模式及后一类的集采、竞争压力，连接到博主对原创且出海有望企业的长期相对价值判断；保留长期与出海条件。"
+            ]
+          }
+        ],
+        "用户转写修正": [
+          {
+            "episode": "EP004",
+            "review_id": "EP004/A03",
+            "original": {
+              "cue_id": 291,
+              "time_range": "00:21:22,980 --> 00:21:25,690",
+              "quote": "生生命线就是能够进国彩的名单。"
+            },
+            "user_reported_token": "国彩",
+            "suggested_text": "国采",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP004",
+            "review_id": "EP004/A03",
+            "original": {
+              "cue_id": 306,
+              "time_range": "00:22:39,810 --> 00:22:59,810",
+              "quote": "的随着这个规则的变变化。因为这个钱你通过像这种方式集采的方式，那集采每年每年都要谈的，每年每年都要改的通过这个方式的话，你的编辑收益是越来越少的，你的竞争对手是越来越多的那未来的话，这个路肯定是越来越不好走的。这个赛道上挤的人是越来越多的，竞争会越来越激烈的对吧？所以这样的话就。"
+            },
+            "user_reported_token": "编辑收益",
+            "suggested_text": "边际收益",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          }
+        ]
+      },
+      "priority": true,
+      "related": [
+        "EP004/A03"
+      ]
+    },
+    {
+      "id": "EP005/A01/revision",
+      "episode": "EP005",
+      "kind": "推理链",
+      "title": "EP005/A01 · 修订后复审",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 106,
+          "time_range": "00:07:39,680 --> 00:07:59,680",
+          "quote": "被诟病的广为诟病的就是这个租售比的问题嘛，就很多很多地段，租售比非常非常的扭曲，对吧？你买下来的话其实是很贵的，但是租的话其实挺便宜的，但是这个东西出现了以后是吧？慢慢的这租售比就会到一个比较正常的合理的一个范围里边。那你。"
+        },
+        {
+          "cue_id": 107,
+          "time_range": "00:07:59,680 --> 00:08:05,360",
+          "quote": "说那这个合理的范围到底是谁迁就着谁呀，是吧？租售比变了以后，到底是涨租金呢？"
+        },
+        {
+          "cue_id": 108,
+          "time_range": "00:08:05,360 --> 00:08:06,730",
+          "quote": "还是降房价呀。"
+        },
+        {
+          "cue_id": 109,
+          "time_range": "00:08:06,730 --> 00:08:11,550",
+          "quote": "这个就取决于市场的力量，往哪个方向推嘛，谁的议价权更强嘛？"
+        },
+        {
+          "cue_id": 114,
+          "time_range": "00:08:27,260 --> 00:08:29,610",
+          "quote": "有了这样的一个机制以后。"
+        },
+        {
+          "cue_id": 115,
+          "time_range": "00:08:29,610 --> 00:08:32,440",
+          "quote": "实际上呢就有一个市场的力量。"
+        },
+        {
+          "cue_id": 116,
+          "time_range": "00:08:32,440 --> 00:08:38,090",
+          "quote": "把这个足手比调到一个比较正常，比较公允，比较大家都接受的一个比例关系。"
+        },
+        {
+          "cue_id": 117,
+          "time_range": "00:08:38,420 --> 00:08:42,960",
+          "quote": "这个对于房地产市场这个双向的调节，这是个很好的事儿是吧？"
+        },
+        {
+          "cue_id": 110,
+          "time_range": "00:08:11,550 --> 00:08:15,210",
+          "quote": "所以通过观察租手比变化的趋势。"
+        },
+        {
+          "cue_id": 111,
+          "time_range": "00:08:15,210 --> 00:08:20,040",
+          "quote": "你就能够给你一个非常直观的一个标杆，一个指示器。"
+        },
+        {
+          "cue_id": 112,
+          "time_range": "00:08:20,040 --> 00:08:26,550",
+          "quote": "告诉你哪里的房子价格它是名副其实，哪里的房子的价格它是名不副实的。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP005/A01",
+          "episode": "EP005",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "change",
+          "note": "C06 遗漏了租售关系调整的两个方向：租金上涨或房价下降。需要保留具体分支，不能只概括为受市场议价权调节",
+          "correction": "博主认为，租售关系可能通过租金上涨或房价下降进行调整，具体方向取决于市场力量及双方议价权；观察调整趋势，可以辅助判断当地房价是否名副其实。建议拆分为“两个调整方向”和“用调整趋势判断价格合理性”两条主张。",
+          "evidence": "cue 107–108 明确列出两个方向；cue 109 说明方向取决于市场力量和议价权；cue 110–112 提出将变化趋势作为判断房价合理性的指标。",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:38:42.945Z"
+        },
+        "本次主张变更": [
+          {
+            "编号": "EP005/C06",
+            "原表述": "博主认为租售关系会受市场议价权调节，可观察其变化判断地段价格。",
+            "修订表述": "博主认为，当买房贵而租房便宜、租售关系偏离合理范围时，调整可能通过租金上涨，也可能通过房价下降实现；具体方向取决于市场力量与议价权。"
+          },
+          {
+            "编号": "EP005/C27",
+            "原表述": "新增",
+            "修订表述": "博主提出，观察租售比变化趋势，可作为判断不同地段房价是否名副其实的指标。"
+          }
+        ],
+        "本次链变更": [
+          {
+            "编号": "EP005/A01",
+            "修订前": [
+              "A01",
+              [
+                "C05"
+              ],
+              "C06",
+              "租金和融资成本差异通过市场参与影响租售关系，仍属作者分析。"
+            ],
+            "修订后": [
+              "A01",
+              [
+                "C05"
+              ],
+              "C06",
+              "从租金与购房成本的比较，连接到租售关系的两种可能调整方向；保留市场力量决定方向的条件，不新增单一价格低估判定。"
+            ]
+          },
+          {
+            "编号": "EP005/A07",
+            "修订前": null,
+            "修订后": [
+              "A07",
+              [
+                "C06"
+              ],
+              "C27",
+              "区分租金上涨与房价下降的调整方向，再记录博主提出的观察租售比趋势判断地段价格的方法；这是方法主张而非效果验证。"
+            ]
+          }
+        ],
+        "用户转写修正": [],
+        "保留限制": "原话未明确支持涨租金等于房价低估的一一对应规则；保留两种方向及观察用途。"
+      },
+      "priority": true,
+      "related": [
+        "EP005/A01"
+      ]
+    },
+    {
+      "id": "EP002/A02/revision",
+      "episode": "EP002",
+      "kind": "转写疑点",
+      "title": "EP002/A02 · 仅核对转写修正，原链认可保留",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 171,
+          "time_range": "00:08:13,920 --> 00:08:16,420",
+          "quote": "这个你这个Sop要是IPO了。"
+        },
+        {
+          "cue_id": 178,
+          "time_range": "00:08:30,910 --> 00:08:32,310",
+          "quote": "然法令讲完了。"
+        },
+        {
+          "cue_id": 186,
+          "time_range": "00:08:59,300 --> 00:09:00,070",
+          "quote": "No。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP002/A02",
+          "episode": "EP002",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "faithful",
+          "note": "",
+          "correction": "",
+          "evidence": "00:08:13,920 --> 00:08:16,420：SOP应为Anthropic\n00:08:30,910 --> 00:08:32,310：然法令讲完了应为发令枪晚了\n00:08:59,300 --> 00:09:00,070：No为误识别",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:15:41.758Z"
+        },
+        "本次主张变更": [],
+        "本次链变更": [],
+        "用户转写修正": [
+          {
+            "episode": "EP002",
+            "review_id": "EP002/A02",
+            "original": {
+              "cue_id": 171,
+              "time_range": "00:08:13,920 --> 00:08:16,420",
+              "quote": "这个你这个Sop要是IPO了。"
+            },
+            "user_reported_token": "SOP",
+            "suggested_text": "Anthropic",
+            "literal_token_present": false,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP002",
+            "review_id": "EP002/A02",
+            "original": {
+              "cue_id": 178,
+              "time_range": "00:08:30,910 --> 00:08:32,310",
+              "quote": "然法令讲完了。"
+            },
+            "user_reported_token": "然法令讲完了",
+            "suggested_text": "发令枪晚了",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP002",
+            "review_id": "EP002/A02",
+            "original": {
+              "cue_id": 186,
+              "time_range": "00:08:59,300 --> 00:09:00,070",
+              "quote": "No。"
+            },
+            "user_reported_token": "No",
+            "suggested_text": "删除误识别的No",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          }
+        ]
+      },
+      "priority": true,
+      "related": [
+        "EP002/A02"
+      ]
+    },
+    {
+      "id": "EP003/A01/revision",
+      "episode": "EP003",
+      "kind": "转写疑点",
+      "title": "EP003/A01 · 仅核对转写修正，原链认可保留",
+      "prompt": "请检查下方修订对照。若无问题可直接选择判定，无需填写注释。用户转写意见单独保留，助手未独立核听；原字幕不改写。",
+      "evidence": [
+        {
+          "cue_id": 12,
+          "time_range": "00:01:22,820 --> 00:01:27,140",
+          "quote": "日本这边也同步加20股币，相当于互相之间的相对关系不变。"
+        },
+        {
+          "cue_id": 73,
+          "time_range": "00:03:56,230 --> 00:03:57,350",
+          "quote": "比亿美元。"
+        },
+        {
+          "cue_id": 15,
+          "time_range": "00:01:30,430 --> 00:01:31,990",
+          "quote": "日元享升值。"
+        }
+      ],
+      "detail": {
+        "上次意见": {
+          "id": "EP003/A01",
+          "episode": "EP003",
+          "kind": "推理链",
+          "content_status": "pending",
+          "decision": "faithful",
+          "note": "",
+          "correction": "",
+          "evidence": "00:01:22,820 --> 00:01:27,140：20股币应为25BP\n00:03:56,230 --> 00:03:57,350：比亿美元应为比1美元\n00:01:30,430 --> 00:01:31,990：日元享升值应为日元想升值",
+          "reviewer": "",
+          "updated_at": "2026-10-03T08:25:44.352Z"
+        },
+        "本次主张变更": [],
+        "本次链变更": [],
+        "用户转写修正": [
+          {
+            "episode": "EP003",
+            "review_id": "EP003/A01",
+            "original": {
+              "cue_id": 12,
+              "time_range": "00:01:22,820 --> 00:01:27,140",
+              "quote": "日本这边也同步加20股币，相当于互相之间的相对关系不变。"
+            },
+            "user_reported_token": "20股币",
+            "suggested_text": "25BP",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP003",
+            "review_id": "EP003/A01",
+            "original": {
+              "cue_id": 73,
+              "time_range": "00:03:56,230 --> 00:03:57,350",
+              "quote": "比亿美元。"
+            },
+            "user_reported_token": "比亿美元",
+            "suggested_text": "比1美元",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          },
+          {
+            "episode": "EP003",
+            "review_id": "EP003/A01",
+            "original": {
+              "cue_id": 15,
+              "time_range": "00:01:30,430 --> 00:01:31,990",
+              "quote": "日元享升值。"
+            },
+            "user_reported_token": "日元享升值",
+            "suggested_text": "日元想升值",
+            "literal_token_present": true,
+            "status": "USER_PROPOSED_CORRECTION",
+            "assistant_audio_verified": false,
+            "applied_to_raw_source": false,
+            "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+          }
+        ]
+      },
+      "priority": true,
+      "related": [
+        "EP003/A01"
+      ]
+    },
+    {
+      "id": "EP001/duration/revision",
+      "episode": "EP001",
+      "kind": "转写疑点",
+      "title": "题材转换持续时长 · 可暂留待确认",
+      "prompt": "两种时长表述尚有差异，当前主张仅保留“未能持续”，未采用精确时长。可选择无法确认并继续，不影响其他修订反馈。",
+      "evidence": [
+        {
+          "cue_id": 45,
+          "time_range": "00:03:50,130 --> 00:03:54,590",
+          "quote": "这转换的周期还不到一个星期，又从其他的又转回去了。"
+        },
+        {
+          "cue_id": 78,
+          "time_range": "00:05:38,760 --> 00:05:41,280",
+          "quote": "这个转换题材转换的热潮。"
+        },
+        {
+          "cue_id": 79,
+          "time_range": "00:05:41,280 --> 00:05:43,410",
+          "quote": "只转换了一个多星期，马上呢。"
+        },
+        {
+          "cue_id": 80,
+          "time_range": "00:05:43,410 --> 00:05:44,580",
+          "quote": "发现这些东西。"
+        },
+        {
+          "cue_id": 81,
+          "time_range": "00:05:44,580 --> 00:05:49,310",
+          "quote": "盛名之下，奇实难赋撑不起来题实题材转换的炒作。"
+        },
+        {
+          "cue_id": 82,
+          "time_range": "00:05:49,310 --> 00:05:51,240",
+          "quote": "又赶紧的又转回到了。"
+        },
+        {
+          "cue_id": 83,
+          "time_range": "00:05:51,240 --> 00:05:54,250",
+          "quote": "AI转回到了储存芯片，转回到了英伟达。"
+        }
+      ],
+      "detail": {
+        "id": "EP001/duration",
+        "evidence_cues": [
+          45,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "issue": "题材转换持续时长有不到一个星期与一个多星期两种说法；修订主张不选定精确时长。",
+        "status": "UNRESOLVED_AUDIO_OR_CONTEXT_REVIEW"
+      },
+      "priority": true,
+      "related": [
+        "EP001/A01"
+      ]
+    }
+  ],
+  "original_run": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_002",
+  "videos": {
+    "EP001": "file:///G:/youhegaojian/batch_pilot_materials/EP001/%E3%80%8A%E7%AC%AC%E4%B8%83%E7%99%BE%E5%85%AD%E4%B8%80%E6%9C%9F%E3%80%8B%E7%BE%8E%E5%9B%BD%E5%85%AB%E6%9C%88PPI%E8%B7%B3%E6%B6%A8%EF%BC%8C%E7%BE%8E%E8%81%94%E5%82%A89%E6%9C%88%E5%8A%A0%E6%81%AF%E6%A6%82%E7%8E%87%E5%A4%A7%E5%A2%9E%EF%BC%8C%E7%BE%8E%E5%9B%BD%E6%9F%B4%E6%B2%B9%E5%B9%B3%E5%9D%87%E4%BB%B7%E6%A0%BC%E7%AA%81%E7%A0%B46%E7%BE%8E%E5%85%83%E4%B8%80%E5%8A%A0%E4%BB%91-p01-16.mp4",
+    "EP002": "file:///G:/youhegaojian/batch_pilot_materials/EP002/%E3%80%8A%E7%AC%AC%E4%B8%83%E7%99%BE%E5%85%AD%E4%B8%89%E6%9C%9F%E3%80%8B%E7%BE%8E%E8%81%94%E5%82%A89%E6%9C%88%E5%8A%A0%E6%81%AF%E5%B0%86%E8%BF%91%EF%BC%8C%E5%AF%B9%E5%B8%82%E5%9C%BA%E4%BC%9A%E4%BA%A7%E7%94%9F%E5%93%AA%E4%BA%9B%E5%BD%B1%E5%93%8D%EF%BC%9F-p01-16.mp4",
+    "EP003": "file:///G:/youhegaojian/batch_pilot_materials/EP003/%E3%80%8A%E7%AC%AC%E4%B8%83%E7%99%BE%E5%85%AD%E4%BA%94%E6%9C%9F%E3%80%8B%E7%BE%8E%E8%81%94%E5%82%A8%E6%97%B6%E9%9A%94%E4%B8%89%E5%B9%B4%E5%86%8D%E6%AC%A1%E5%8A%A0%E6%81%AF%EF%BC%8C%E4%BB%85%E6%AD%A4%E4%B8%80%E6%AC%A1%E8%BF%98%E6%98%AF%E7%B4%A7%E7%BC%A9%E5%BC%80%E5%A7%8B%EF%BC%9F%E6%B2%83%E4%BB%80%E5%8A%A0%E6%81%AF%EF%BC%8C%E7%89%B9%E6%9C%97%E6%99%AE%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F-p01-16.mp4",
+    "EP004": "file:///G:/youhegaojian/batch_pilot_materials/EP004/%E3%80%8A%E7%AC%AC%E4%B8%83%E7%99%BE%E5%85%AD%E3%80%87%E6%9C%9F%E3%80%8B%E5%88%9B%E6%96%B0%E8%8D%AF%E6%BD%9C%E5%8A%9B%E7%9C%8B%E4%BB%80%E4%B9%88%EF%BC%9F-p01-16.mp4",
+    "EP005": "file:///G:/youhegaojian/batch_pilot_materials/EP005/%E3%80%8A%E7%AC%AC%E4%B8%83%E7%99%BE%E4%BA%94%E5%9B%9B%E6%9C%9F%E3%80%8B%E6%88%BF%E5%9C%B0%E4%BA%A7%E6%96%B0%E8%A7%84%E4%BC%9A%E6%9C%89%E5%93%AA%E4%BA%9B%E5%BD%B1%E5%93%8D%EF%BC%9F-p01-16.mp4"
+  }
+}

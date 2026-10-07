@@ -1,0 +1,79 @@
+{
+  "browser": "Edge via Playwright",
+  "browser_availability": "Browser plugin not available",
+  "flow": "time line -> cross-period connection -> claim evidence -> video time anchor; mobile method expansion",
+  "url": "http://127.0.0.1:8768/TRACE.html#methods",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    {
+      "name": "identity",
+      "pass": true
+    },
+    {
+      "name": "not_blank",
+      "pass": true
+    },
+    {
+      "name": "no_error_overlay",
+      "pass": true
+    },
+    {
+      "name": "timeline_five",
+      "pass": true
+    },
+    {
+      "name": "evidence_cards_31",
+      "pass": true
+    },
+    {
+      "name": "nav_scroll",
+      "pass": true
+    },
+    {
+      "name": "evidence_anchor",
+      "pass": true
+    },
+    {
+      "name": "evidence_open",
+      "pass": true
+    },
+    {
+      "name": "quote_visible",
+      "pass": true
+    },
+    {
+      "name": "video_cue_link",
+      "pass": true
+    },
+    {
+      "name": "all_internal_links_resolve",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile_method_expands",
+      "pass": true
+    },
+    {
+      "name": "mobile_method_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "console_health",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

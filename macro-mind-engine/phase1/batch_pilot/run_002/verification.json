@@ -1,0 +1,154 @@
+[
+  {
+    "check": "347 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "check": "Original input files unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP001 raw segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP001 only allowed objects changed",
+    "passed": true
+  },
+  {
+    "check": "EP001 existing isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP001 no errors/reference uncertainty",
+    "passed": true
+  },
+  {
+    "check": "EP001 object conservation",
+    "passed": true
+  },
+  {
+    "check": "EP001/A02 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "EP002 raw segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002 only allowed objects changed",
+    "passed": true
+  },
+  {
+    "check": "EP002 existing isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP002 no errors/reference uncertainty",
+    "passed": true
+  },
+  {
+    "check": "EP002 object conservation",
+    "passed": true
+  },
+  {
+    "check": "EP002/A02 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "EP003 raw segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP003 only allowed objects changed",
+    "passed": true
+  },
+  {
+    "check": "EP003 existing isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP003 no errors/reference uncertainty",
+    "passed": true
+  },
+  {
+    "check": "EP003 object conservation",
+    "passed": true
+  },
+  {
+    "check": "EP003/A01 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "EP003/A02 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "EP004 raw segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP004 only allowed objects changed",
+    "passed": true
+  },
+  {
+    "check": "EP004 existing isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP004 no errors/reference uncertainty",
+    "passed": true
+  },
+  {
+    "check": "EP004 object conservation",
+    "passed": true
+  },
+  {
+    "check": "EP004/A02 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "EP005 raw segments unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005 only allowed objects changed",
+    "passed": true
+  },
+  {
+    "check": "EP005 existing isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP005 no errors/reference uncertainty",
+    "passed": true
+  },
+  {
+    "check": "EP005 object conservation",
+    "passed": true
+  },
+  {
+    "check": "EP005/A02 faithful chain preserved",
+    "passed": true
+  },
+  {
+    "check": "All six faithful chains carried forward",
+    "passed": true
+  },
+  {
+    "check": "10 corrections trace to unchanged source",
+    "passed": true
+  },
+  {
+    "check": "Six CLI audits completed with retained uncertainty",
+    "passed": true
+  },
+  {
+    "check": "Repeated audit four stable outputs equal",
+    "passed": true
+  },
+  {
+    "check": "Raw web tool output saved",
+    "passed": true
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "assessment": "Nonblocking under Prompt §§27,44–46,47–49,72,83; deterministic core checks remain possible.",
+  "gaps": [
+    {
+      "affected_debt": [
+        "D03"
+      ],
+      "blocks_phase1_3": false,
+      "current_outcome": "INDETERMINATE",
+      "missing_structure": "Typed condition endorsement and its evidence",
+      "recommended_future_action": "Propose a versioned representation after legacy compatibility review; keep current inputs unchanged.",
+      "required_semantics": "Subject endorses a conditional forecast",
+      "rule_id": "V-FC002",
+      "runtime_note": "Explicit uncertainty; no field invention."
+    },
+    {
+      "affected_debt": [
+        "D11",
+        "D16"
+      ],
+      "blocks_phase1_3": false,
+      "current_outcome": "INDETERMINATE",
+      "missing_structure": "Typed denominator and transition evidence on Argument edges",
+      "recommended_future_action": "Design explicit transition evidence in a separately authorized schema proposal.",
+      "required_semantics": "Inference preserves denominator, unit and role/stage semantics",
+      "rule_id": "V-ARG006",
+      "runtime_note": "Explicit uncertainty; no field invention."
+    },
+    {
+      "affected_debt": [
+        "D16"
+      ],
+      "blocks_phase1_3": false,
+      "current_outcome": "INDETERMINATE",
+      "missing_structure": "Controlled dimensional semantics; current delta_unit is free text",
+      "recommended_future_action": "Review unit representation with future schema policy; no automatic conversion.",
+      "required_semantics": "Comparison delta units and denominator are unambiguous",
+      "rule_id": "V-BND006",
+      "runtime_note": "Explicit uncertainty; no field invention."
+    },
+    {
+      "affected_debt": [
+        "D20",
+        "D11"
+      ],
+      "blocks_phase1_3": false,
+      "current_outcome": "INDETERMINATE",
+      "missing_structure": "Selected-edge evidence scope in AnalystMethodSignal references",
+      "recommended_future_action": "Add a separately reviewed evidence-scoping representation; mixed citations currently receive WARNING/review.",
+      "required_semantics": "Mixed Argument method evidence is scoped to creator steps",
+      "rule_id": "V-AN003",
+      "runtime_note": "WARNING for mixed Argument use, with review; underlying selected-edge eligibility is indeterminate."
+    },
+    {
+      "affected_debt": [
+        "D20"
+      ],
+      "blocks_phase1_3": false,
+      "current_outcome": "INDETERMINATE",
+      "missing_structure": "No structured Skill promotion evidence contract in canonical 0.1.0",
+      "recommended_future_action": "Leave Skill compilation/promotion to a later authorized phase; reject noncanonical promotion fields.",
+      "required_semantics": "Single signal cannot establish a validated Skill",
+      "rule_id": "V-GOV003",
+      "runtime_note": "Explicit uncertainty; no field invention."
+    }
+  ]
+}

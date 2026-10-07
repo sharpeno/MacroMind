@@ -1,0 +1,68 @@
+{
+  "conservative": true,
+  "created_during_acceptance_evidence_completion": true,
+  "debts": [
+    {
+      "current_status": "partially_addressed_phase1_1",
+      "debt_id": "D02",
+      "evidence": "Executable structural models, explicit unknown/null/missing handling and field mapping are available.",
+      "fresh_evidence_paths": [
+        "model_contract_check.json"
+      ],
+      "previous_blocks_core_freeze": false,
+      "previous_problem_type": "NON_BLOCKING_DEBT",
+      "previous_status": null,
+      "previous_status_note": "Historical ledger has no status key; do not invent a historical status. problem_type is reported verbatim.",
+      "remaining_work": "Legacy detection/adapters, migration and Golden regression remain later phases. No Golden was changed."
+    },
+    {
+      "current_status": "partially_addressed_phase1_2",
+      "debt_id": "D07",
+      "evidence": "Object, relation, enum, schema version and identity-policy registries load and enforce structural integrity.",
+      "fresh_evidence_paths": [
+        "registry_artifact_check.json"
+      ],
+      "previous_blocks_core_freeze": false,
+      "previous_problem_type": "NON_BLOCKING_DEBT",
+      "previous_status": null,
+      "previous_status_note": "Historical ledger has no status key; do not invent a historical status. problem_type is reported verbatim.",
+      "remaining_work": "Relations remain candidate; full-library identity resolution and proposition/segment origin deduplication are not implemented."
+    },
+    {
+      "current_status": "partially_addressed_phase1_1",
+      "debt_id": "D16",
+      "evidence": "ComparisonBasis, semantic_role/detail, recognition_stage and storage_role preserve supplied values and unknowns.",
+      "fresh_evidence_paths": [
+        "model_contract_check.json",
+        "fresh_test_report.json"
+      ],
+      "previous_blocks_core_freeze": false,
+      "previous_problem_type": "NON_BLOCKING_DEBT",
+      "previous_status": null,
+      "previous_status_note": "Historical ledger has no status key; do not invent a historical status. problem_type is reported verbatim.",
+      "remaining_work": "Unit/role/stage semantic checks and legacy data alignment remain deferred. No automatic numerical conversions exist."
+    },
+    {
+      "current_status": "partially_addressed_phase1_0_1_2",
+      "debt_id": "D18",
+      "evidence": "Read-only contract loading, deterministic schema generation, three CLI commands, structured logs and engineering gates exist.",
+      "fresh_evidence_paths": [
+        "fresh_contract_integrity_report.json",
+        "fresh_installed_cli_report.json"
+      ],
+      "previous_blocks_core_freeze": false,
+      "previous_problem_type": "NON_BLOCKING_DEBT",
+      "previous_status": null,
+      "previous_status_note": "Historical ledger has no status key; do not invent a historical status. problem_type is reported verbatim.",
+      "remaining_work": "General audit pipeline, adapters and Golden regression runner are not implemented. Production readiness remains false."
+    }
+  ],
+  "historical_ledger_path": "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3\\freeze_debt_ledger.json",
+  "historical_ledger_sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+  "old_gate_used_as_premise": false,
+  "overlay_created_during_acceptance_evidence_completion": false,
+  "overlay_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\debt_status_overlay.json",
+  "overlay_sha256": "23f52de762df0c55a43bd3c4bf4d6e41aa9a7a82e79501c0ba746f9cf01d6165",
+  "phase1_3_executed": false,
+  "started_at": "2026-09-27T14:09:46.173235+00:00"
+}

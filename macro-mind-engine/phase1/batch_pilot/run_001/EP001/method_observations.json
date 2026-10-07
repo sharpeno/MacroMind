@@ -1,0 +1,37 @@
+[
+  {
+    "id": "EP001/M01",
+    "cues": [
+      117,
+      118,
+      119,
+      120,
+      121
+    ],
+    "observation": "从多类资产反应寻找共同交易因素，暂不做稳定方法认定。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP001/M02",
+    "cues": [
+      143,
+      144
+    ],
+    "observation": "区分相对预期与指标自身变化的参照基准。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP001/M03",
+    "cues": [
+      197,
+      198,
+      199,
+      200
+    ],
+    "observation": "把主要约束与表面人际关系分开。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  }
+]

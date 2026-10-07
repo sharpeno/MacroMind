@@ -1,0 +1,76 @@
+{
+  "saved_at": "2026-10-05T09:02:28.276501+00:00",
+  "framework": "9527-methods-v0.2",
+  "status": "SEALED_BEFORE_454_455_TRANSCRIPT_READ",
+  "author": "assistant",
+  "cutoff": "2023-10-08 (day precision; source used dated 2023-10-07)",
+  "sources": [
+    {
+      "id": "N1",
+      "url": "https://www.cls.cn/detail/1478607",
+      "display_date": "2023-10-07 20:16",
+      "read_date": "2026-10-05",
+      "summary": "报道突袭与以方战争及报复表态；美方支持以方自卫，埃及等呼吁克制。",
+      "type": "MEDIA_REPORT_NOT_INDEPENDENT_FACT_VERIFICATION"
+    },
+    {
+      "id": "N2",
+      "url": "https://www.cls.cn/detail/1478636",
+      "used": false,
+      "reason": "滚动更新页面含10月9日信息，排除整页；读取时已曝光后续标题，不能声称盲测"
+    }
+  ],
+  "question": "仅凭当前新闻，冲突扩大与缓和各受什么条件约束？",
+  "methods": [
+    {
+      "id": "M01",
+      "status": "PARTIAL",
+      "analysis": "以方公开报复承诺形成行动压力；美方声援与埃及等呼吁克制体现外部不同方向。声援不等于无限军事介入，具体依赖与内部代价未知。"
+    },
+    {
+      "id": "M02",
+      "status": "PARTIAL",
+      "analysis": "报复承诺与恢复安全的目标不等于安全已经实现；呼吁克制也不等于停火机制已生效。暂不计入未见实施的缓和收益。"
+    },
+    {
+      "id": "M03",
+      "status": "LIMITED",
+      "analysis": "单篇动态报道不能构成可比时间序列，伤亡和袭击数字口径未交叉核验，不据此估算胜率或战争持续时间。"
+    },
+    {
+      "id": "M04",
+      "status": "CONDITIONAL",
+      "analysis": "若报复与反击持续，冲突扩大风险保留；若外部国家直接介入或能源运输实际受阻，再提高外溢风险判断。仅凭地区冲突不能确定油价方向或供应已受损。"
+    },
+    {
+      "id": "M05",
+      "status": "INITIAL_BASELINE",
+      "analysis": "建立待观察清单：正式动员和行动范围、可执行停火安排及落实、外部实际介入、能源运输受损。尚无后续更新结果。"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "J01",
+      "text": "当前保留冲突升级风险作为基础判断，尚不能断言地区全面战争必然发生。",
+      "alternatives": [
+        "有限报复后进入谈判",
+        "冲突持续但地域受限"
+      ],
+      "withdraw_or_update": "可核验停火落实降低风险；作战范围和外部直接介入扩大则上调。"
+    },
+    {
+      "id": "J02",
+      "text": "第三方利益、支持与实际策划责任须分别验证。该篇报道不足以确定幕后指挥者。",
+      "alternatives": [
+        "行为主体自主选择",
+        "外部影响但不直接指挥"
+      ],
+      "withdraw_or_update": "出现可核验指挥、资源或决策证据才改变归因。"
+    }
+  ],
+  "limitations": [
+    "不同新闻输入可能解释与博主差异，不能单独归因于框架",
+    "历史回溯，不是投资建议或现实事实验收",
+    "全部标题已曝光，后续滚动报道标题也已曝光"
+  ]
+}

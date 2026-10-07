@@ -1,0 +1,2399 @@
+{
+  "matching_policy": "Exact equality on listed identifier fields; matches are candidates, not automatic resolution. No fuzzy ID binding or sample-number chronology.",
+  "rows": [
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR01",
+      "field": "/final_conclusion",
+      "target": "C027",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/26",
+        "/09_veracity_assessments/26"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR01",
+      "field": "/premises/0",
+      "target": "C002",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/1",
+        "/09_veracity_assessments/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR01",
+      "field": "/premises/1",
+      "target": "C003",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/2",
+        "/09_veracity_assessments/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR01",
+      "field": "/premises/2",
+      "target": "C004",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/3",
+        "/09_veracity_assessments/3"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR02",
+      "field": "/final_conclusion",
+      "target": "C021",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/20",
+        "/09_veracity_assessments/20"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR02",
+      "field": "/premises/0",
+      "target": "C013",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/12",
+        "/09_veracity_assessments/12"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR02",
+      "field": "/premises/1",
+      "target": "C014",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/13",
+        "/09_veracity_assessments/13"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR02",
+      "field": "/premises/2",
+      "target": "C016",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/15",
+        "/09_veracity_assessments/15"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR03",
+      "field": "/final_conclusion",
+      "target": "C021",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/20",
+        "/09_veracity_assessments/20"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR03",
+      "field": "/premises/0",
+      "target": "C022",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/21",
+        "/09_veracity_assessments/21"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR03",
+      "field": "/premises/1",
+      "target": "C023",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/22",
+        "/09_veracity_assessments/22"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR03",
+      "field": "/premises/2",
+      "target": "C024",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/23",
+        "/09_veracity_assessments/23"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR03",
+      "field": "/premises/3",
+      "target": "C025",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/24",
+        "/09_veracity_assessments/24"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/final_conclusion",
+      "target": "C055",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/54",
+        "/09_veracity_assessments/54"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/premises/0",
+      "target": "C045",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/44",
+        "/09_veracity_assessments/44"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/premises/1",
+      "target": "C046",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/45",
+        "/09_veracity_assessments/45"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/premises/2",
+      "target": "C050",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/49",
+        "/09_veracity_assessments/49"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/premises/3",
+      "target": "C051",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/50",
+        "/09_veracity_assessments/50"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR04",
+      "field": "/premises/4",
+      "target": "C053",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/52",
+        "/09_veracity_assessments/52"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/final_conclusion",
+      "target": "C065",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/64",
+        "/09_veracity_assessments/64"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/premises/0",
+      "target": "C060",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/59",
+        "/07_actors_events_indicators_observations_policies/observations/18",
+        "/09_veracity_assessments/59"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/premises/1",
+      "target": "C061",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/60",
+        "/07_actors_events_indicators_observations_policies/observations/19",
+        "/09_veracity_assessments/60"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/premises/2",
+      "target": "C062",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/61",
+        "/09_veracity_assessments/61"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/premises/3",
+      "target": "C063",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/62",
+        "/09_veracity_assessments/62"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR05",
+      "field": "/premises/4",
+      "target": "C064",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/63",
+        "/09_veracity_assessments/63"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR06",
+      "field": "/final_conclusion",
+      "target": "C070",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/69",
+        "/09_veracity_assessments/69"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR06",
+      "field": "/premises/0",
+      "target": "C067",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/66",
+        "/07_actors_events_indicators_observations_policies/observations/3",
+        "/09_veracity_assessments/66"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR06",
+      "field": "/premises/1",
+      "target": "C068",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/67",
+        "/07_actors_events_indicators_observations_policies/observations/4",
+        "/09_veracity_assessments/67",
+        "/claim_occurrences/0"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR06",
+      "field": "/premises/2",
+      "target": "C069",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/68",
+        "/09_veracity_assessments/68"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR07",
+      "field": "/final_conclusion",
+      "target": "C118",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/117",
+        "/09_veracity_assessments/117"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR07",
+      "field": "/premises/0",
+      "target": "C071",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/70",
+        "/09_veracity_assessments/70"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR07",
+      "field": "/premises/1",
+      "target": "C072",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/71",
+        "/09_veracity_assessments/71"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR08",
+      "field": "/final_conclusion",
+      "target": "C088",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/87",
+        "/09_veracity_assessments/87"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR08",
+      "field": "/premises/0",
+      "target": "C029",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/28",
+        "/09_veracity_assessments/28"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR08",
+      "field": "/premises/1",
+      "target": "C030",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/29",
+        "/09_veracity_assessments/29"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR08",
+      "field": "/premises/2",
+      "target": "C076",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/75",
+        "/07_actors_events_indicators_observations_policies/observations/6",
+        "/09_veracity_assessments/75"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR08",
+      "field": "/premises/3",
+      "target": "C078",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/77",
+        "/07_actors_events_indicators_observations_policies/observations/8",
+        "/09_veracity_assessments/77"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/final_conclusion",
+      "target": "C107",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/106",
+        "/09_veracity_assessments/106"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/0",
+      "target": "C091",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/90",
+        "/07_actors_events_indicators_observations_policies/observations/11",
+        "/07_actors_events_indicators_observations_policies/observations/12",
+        "/09_veracity_assessments/90",
+        "/claim_occurrences/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/1",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/91",
+        "/07_actors_events_indicators_observations_policies/observations/13",
+        "/09_veracity_assessments/91",
+        "/claim_occurrences/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/2",
+      "target": "C093",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/92",
+        "/07_actors_events_indicators_observations_policies/observations/14",
+        "/09_veracity_assessments/92"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/3",
+      "target": "C095",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/94",
+        "/07_actors_events_indicators_observations_policies/observations/15",
+        "/09_veracity_assessments/94"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/4",
+      "target": "C096",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/95",
+        "/07_actors_events_indicators_observations_policies/observations/16",
+        "/09_veracity_assessments/95"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR09",
+      "field": "/premises/5",
+      "target": "C097",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/96",
+        "/07_actors_events_indicators_observations_policies/observations/17",
+        "/09_veracity_assessments/96"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR10",
+      "field": "/final_conclusion",
+      "target": "C106",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/105",
+        "/09_veracity_assessments/105"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR10",
+      "field": "/premises/0",
+      "target": "C102",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/101",
+        "/09_veracity_assessments/101"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/final_conclusion",
+      "target": "C115",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/114",
+        "/09_veracity_assessments/114"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/premises/0",
+      "target": "C078",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/77",
+        "/07_actors_events_indicators_observations_policies/observations/8",
+        "/09_veracity_assessments/77"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/premises/1",
+      "target": "C102",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/101",
+        "/09_veracity_assessments/101"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/premises/2",
+      "target": "C104",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/103",
+        "/09_veracity_assessments/103"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/premises/3",
+      "target": "C106",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/105",
+        "/09_veracity_assessments/105"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR11",
+      "field": "/premises/4",
+      "target": "C108",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/107",
+        "/09_veracity_assessments/107"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR12",
+      "field": "/final_conclusion",
+      "target": "C108",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/107",
+        "/09_veracity_assessments/107"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR12",
+      "field": "/premises/0",
+      "target": "C109",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/108",
+        "/09_veracity_assessments/108"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR12",
+      "field": "/premises/1",
+      "target": "C110",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/109",
+        "/09_veracity_assessments/109"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR12",
+      "field": "/premises/2",
+      "target": "C111",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/110",
+        "/09_veracity_assessments/110"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "AR12",
+      "field": "/premises/3",
+      "target": "C112",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/111",
+        "/09_veracity_assessments/111"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC01",
+      "field": "/claim_ref",
+      "target": "C011",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/10",
+        "/09_veracity_assessments/10"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC02",
+      "field": "/claim_ref",
+      "target": "C015",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/14",
+        "/09_veracity_assessments/14"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC03",
+      "field": "/claim_ref",
+      "target": "C018",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/17",
+        "/09_veracity_assessments/17"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC04",
+      "field": "/claim_ref",
+      "target": "C020",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/19",
+        "/09_veracity_assessments/19"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC05",
+      "field": "/claim_ref",
+      "target": "C021",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/20",
+        "/09_veracity_assessments/20"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC06",
+      "field": "/claim_ref",
+      "target": "C026",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/25",
+        "/09_veracity_assessments/25"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC07",
+      "field": "/claim_ref",
+      "target": "C063",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/62",
+        "/09_veracity_assessments/62"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC08",
+      "field": "/claim_ref",
+      "target": "C082",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/81",
+        "/09_veracity_assessments/81"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC09",
+      "field": "/claim_ref",
+      "target": "C085",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/84",
+        "/09_veracity_assessments/84"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC10",
+      "field": "/claim_ref",
+      "target": "C086",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/85",
+        "/09_veracity_assessments/85"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC11",
+      "field": "/claim_ref",
+      "target": "C087",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/86",
+        "/09_veracity_assessments/86"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC12",
+      "field": "/claim_ref",
+      "target": "C088",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/87",
+        "/09_veracity_assessments/87"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC13",
+      "field": "/claim_ref",
+      "target": "C090",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/89",
+        "/09_veracity_assessments/89"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC14",
+      "field": "/claim_ref",
+      "target": "C100",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/99",
+        "/09_veracity_assessments/99"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC15",
+      "field": "/claim_ref",
+      "target": "C118",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/117",
+        "/09_veracity_assessments/117"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC16",
+      "field": "/claim_ref",
+      "target": "C119",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/118",
+        "/09_veracity_assessments/118"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS002",
+      "rule": "V-REF004",
+      "object": "FC17",
+      "field": "/claim_ref",
+      "target": "C120",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/06_claims/119",
+        "/09_veracity_assessments/119"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S01",
+      "field": "/family_ref",
+      "target": "F9527",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S02",
+      "field": "/family_ref",
+      "target": "F9527",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S03",
+      "field": "/family_ref",
+      "target": "F9527",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S04",
+      "field": "/family_ref",
+      "target": "FCLS_OIL",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S05",
+      "field": "/family_ref",
+      "target": "FCLS_LIVE",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S06",
+      "field": "/family_ref",
+      "target": "FREUTERS_PLATTS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S07",
+      "field": "/family_ref",
+      "target": "FREUTERS_PLATTS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S08",
+      "field": "/family_ref",
+      "target": "FPLATTS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S09",
+      "field": "/family_ref",
+      "target": "FPLATTS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S10",
+      "field": "/family_ref",
+      "target": "FPLATTS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S11",
+      "field": "/family_ref",
+      "target": "FEIA_VORTEXA",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S12",
+      "field": "/family_ref",
+      "target": "FINSTRUCTIONS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS003",
+      "rule": "V-REF004",
+      "object": "S13",
+      "field": "/family_ref",
+      "target": "FINSTRUCTIONS",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU01",
+      "field": "/source_refs/0",
+      "target": "SS-C026",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU01",
+      "field": "/source_refs/1",
+      "target": "SS-C027",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU02",
+      "field": "/source_refs/0",
+      "target": "SS-C065",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU02",
+      "field": "/source_refs/1",
+      "target": "SS-C066",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU02",
+      "field": "/source_refs/2",
+      "target": "SS-C073",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU03",
+      "field": "/source_refs/0",
+      "target": "SS-C062",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU03",
+      "field": "/source_refs/1",
+      "target": "SS-C077",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "MU03",
+      "field": "/source_refs/2",
+      "target": "SS-C078",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "OB11",
+      "field": "/comparison_basis/baseline_source_ref",
+      "target": "SS-C017",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "OB12",
+      "field": "/comparison_basis/baseline_source_ref",
+      "target": "SS-C017",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "OB23",
+      "field": "/comparison_basis/baseline_source_ref",
+      "target": "SS-C045",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF003",
+      "object": "OB24",
+      "field": "/comparison_basis/baseline_source_ref",
+      "target": "SS-C045",
+      "canonical_target_type": "SourceSegment",
+      "declared_source_ref": "S03",
+      "expected_types": [
+        "Source"
+      ],
+      "exact_quarantine_matches": [],
+      "classification": "WRONG_CANONICAL_TYPE"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MS01",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS003/HC01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MS01",
+      "field": "/matched_prior_signal_refs/1",
+      "target": "GS001/summary:结构力量优先于政治人物",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MS03",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS003/HC02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MU01",
+      "field": "/mechanism_ref",
+      "target": "ME01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/0"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MU02",
+      "field": "/mechanism_ref",
+      "target": "ME02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "MU03",
+      "field": "/mechanism_ref",
+      "target": "ME03",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB01",
+      "field": "/indicator_ref",
+      "target": "IN01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/0"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB02",
+      "field": "/indicator_ref",
+      "target": "IN02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB03",
+      "field": "/indicator_ref",
+      "target": "IN03",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB04",
+      "field": "/indicator_ref",
+      "target": "IN04",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/3"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB05",
+      "field": "/indicator_ref",
+      "target": "IN05",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/4"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB06",
+      "field": "/indicator_ref",
+      "target": "IN06",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/5"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB07",
+      "field": "/indicator_ref",
+      "target": "IN07",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/6"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB08",
+      "field": "/indicator_ref",
+      "target": "IN08",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/7"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB09",
+      "field": "/indicator_ref",
+      "target": "IN09",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/8"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB10",
+      "field": "/indicator_ref",
+      "target": "IN10",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/9"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB11",
+      "field": "/indicator_ref",
+      "target": "IN11",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/10"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB12",
+      "field": "/indicator_ref",
+      "target": "IN12",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/11"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB13",
+      "field": "/indicator_ref",
+      "target": "IN13",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/12"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB14",
+      "field": "/indicator_ref",
+      "target": "IN14",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/13"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB15",
+      "field": "/indicator_ref",
+      "target": "IN15",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/14"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB16",
+      "field": "/indicator_ref",
+      "target": "IN16",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/15"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB17",
+      "field": "/indicator_ref",
+      "target": "IN17",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/16"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB18",
+      "field": "/indicator_ref",
+      "target": "IN18",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/17"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB19",
+      "field": "/indicator_ref",
+      "target": "IN19",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/18"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB20",
+      "field": "/indicator_ref",
+      "target": "IN20",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/19"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB21",
+      "field": "/indicator_ref",
+      "target": "IN_RPO",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/20"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB22",
+      "field": "/indicator_ref",
+      "target": "IN_RPO",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/20"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB23",
+      "field": "/indicator_ref",
+      "target": "IN22",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/21"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB24",
+      "field": "/indicator_ref",
+      "target": "IN23",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/22"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB25",
+      "field": "/indicator_ref",
+      "target": "IN24",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/23"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB26",
+      "field": "/indicator_ref",
+      "target": "IN25",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/24"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB27",
+      "field": "/indicator_ref",
+      "target": "IN26",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/25"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB28",
+      "field": "/indicator_ref",
+      "target": "IN27",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/26"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB29",
+      "field": "/indicator_ref",
+      "target": "IN28",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/27"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS004",
+      "rule": "V-REF004",
+      "object": "OB30",
+      "field": "/indicator_ref",
+      "target": "IN29",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/28"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "AR13",
+      "field": "/steps/0/conclusion_ref",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/08_CLAIMS/91"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "AR13",
+      "field": "/steps/1/conclusion_ref",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/08_CLAIMS/91"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "AR13",
+      "field": "/steps/4/premises/0",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/08_CLAIMS/91"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS02",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS001/summary:结构力量优先于政治人物",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS02",
+      "field": "/matched_prior_signal_refs/1",
+      "target": "GS002/HC02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS02",
+      "field": "/matched_prior_signal_refs/2",
+      "target": "GS003/HC01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS02",
+      "field": "/matched_prior_signal_refs/3",
+      "target": "GS004/MS01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS03",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS003/HC01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS03",
+      "field": "/matched_prior_signal_refs/1",
+      "target": "GS004/MS01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS03",
+      "field": "/matched_prior_signal_refs/2",
+      "target": "GS004/MS03",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS04",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS004/MS04",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS06",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS004/MS05",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS08",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS004/MS06",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MS10",
+      "field": "/matched_prior_signal_refs/0",
+      "target": "GS003/HC02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [],
+      "classification": "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MU01",
+      "field": "/mechanism_ref",
+      "target": "ME01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/0"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MU02",
+      "field": "/mechanism_ref",
+      "target": "ME02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "MU03",
+      "field": "/mechanism_ref",
+      "target": "GS004/ME02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/19_MECHANISMS/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O01",
+      "field": "/indicator_ref",
+      "target": "I01",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/0"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O02",
+      "field": "/indicator_ref",
+      "target": "I02",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/1"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O03",
+      "field": "/indicator_ref",
+      "target": "I03",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/2"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O04",
+      "field": "/indicator_ref",
+      "target": "I04",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/3"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O05",
+      "field": "/indicator_ref",
+      "target": "I05",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/4"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O06",
+      "field": "/indicator_ref",
+      "target": "I06",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/5"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O07",
+      "field": "/indicator_ref",
+      "target": "I07",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/6"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O08",
+      "field": "/indicator_ref",
+      "target": "I08",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/7"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O09",
+      "field": "/indicator_ref",
+      "target": "I09",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/8"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O10",
+      "field": "/indicator_ref",
+      "target": "I10",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/9"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O11",
+      "field": "/indicator_ref",
+      "target": "I11",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/10"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O12",
+      "field": "/indicator_ref",
+      "target": "I12",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/11"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O13",
+      "field": "/indicator_ref",
+      "target": "I13",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/12"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "O14",
+      "field": "/indicator_ref",
+      "target": "I14",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/13_INDICATORS_OBSERVATIONS/indicators/13"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "OC092",
+      "field": "/claim_ref",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/08_CLAIMS/91"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    },
+    {
+      "sample": "GS005",
+      "rule": "V-REF004",
+      "object": "VA-C092",
+      "field": "/target_ref",
+      "target": "C092",
+      "canonical_target_type": null,
+      "declared_source_ref": null,
+      "expected_types": null,
+      "exact_quarantine_matches": [
+        "/08_CLAIMS/91"
+      ],
+      "classification": "EXACT_QUARANTINE_ID_MATCH"
+    }
+  ],
+  "counts": {
+    "EXACT_QUARANTINE_ID_MATCH": 129,
+    "UNRESOLVED_NO_EXACT_QUARANTINE_MATCH": 27,
+    "WRONG_CANONICAL_TYPE": 12
+  }
+}

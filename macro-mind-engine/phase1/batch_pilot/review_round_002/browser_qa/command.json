@@ -1,0 +1,10 @@
+{
+  "argv": [
+    "C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+    "G:/youhegaojian/review-ui-qa/round002-test.cjs"
+  ],
+  "url": "http://127.0.0.1:8768/HUMAN_REVIEW.html",
+  "exit_code": 0,
+  "raw_results": "results.json",
+  "note": "Fresh test context only. Does not read user drafts. Local-file production page uses same embedded HTML/JS; native directory chooser not tested."
+}

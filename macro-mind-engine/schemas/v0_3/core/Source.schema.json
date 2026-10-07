@@ -1,0 +1,282 @@
+{
+  "$defs": {
+    "TimeReference": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded end, if known.",
+          "field_origin": "implementation_extension",
+          "title": "End"
+        },
+        "source_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Evidence for this temporal expression.",
+          "field_origin": "implementation_extension",
+          "title": "Source Ref"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded start, if known.",
+          "field_origin": "implementation_extension",
+          "title": "Start"
+        },
+        "text": {
+          "description": "Original temporal expression; no inferred exact date.",
+          "field_origin": "implementation_extension",
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TimeReference",
+      "type": "object"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Source",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Source; ontology_version=0.3.",
+  "properties": {
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "family_ref": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Origin family; no inferred independent support",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Family Ref"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "locator": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Carrier locator or original URL",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Locator"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "Source",
+      "default": "Source",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TimeReference"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Publication time, not assertion or capture time",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Published At"
+    },
+    "publisher": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Source publisher identity",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Publisher"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "segment_refs": {
+      "description": "Source segments",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Segment Refs",
+      "type": "array"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded source title",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Title"
+    },
+    "version_refs": {
+      "description": "Recorded source versions",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Source; core_principles.json",
+      "title": "Version Refs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "locator",
+    "publisher",
+    "published_at",
+    "version_refs",
+    "segment_refs",
+    "family_ref"
+  ],
+  "title": "Source",
+  "type": "object"
+}

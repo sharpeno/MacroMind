@@ -1,0 +1,85 @@
+{
+  "version": "timeline-1",
+  "id": "T1",
+  "as_of": "2024-09-18",
+  "mode": "retrospective_reconstruction",
+  "method_available_on": "2026-10-05",
+  "previous_sha256": "7f9d192d3f11cb40508b54f0892af38b21d22764f8bb39ca6707422444921951",
+  "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+  "sources": [
+    {
+      "id": "signal",
+      "published": "2024-08-23",
+      "event_date": "2024-08-23",
+      "kind": "signal",
+      "path": "phase1/method_timeline/run_001/sources/signal.json",
+      "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60"
+    },
+    {
+      "id": "decision",
+      "published": "2024-09-18",
+      "event_date": "2024-09-18",
+      "kind": "announcement",
+      "path": "phase1/method_timeline/run_001/sources/decision.json",
+      "sha256": "69ff8b42ac35a566305185fb2f122c6f310ef2d9406cc7d53c4c88ac756b3ed9"
+    },
+    {
+      "id": "instruction",
+      "published": "2024-09-18",
+      "event_date": "2024-09-19",
+      "kind": "instruction",
+      "path": "phase1/method_timeline/run_001/sources/instruction.json",
+      "sha256": "44ec70eda7480d912ff6787d8b820d3f10c6de0e4720aa1b9efee4403ee98131"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "policy",
+      "dimension": "policy",
+      "state": "announced",
+      "statement": "方向信号已变成具体措施：9月宣布下调50基点至4.75%–5%。",
+      "evidence_refs": [
+        "decision"
+      ],
+      "reason": "主判断从可能调整更新为已公布政策。",
+      "next_trigger": "后续新决定会更新区间；不默认路径固定。",
+      "teaching_branch": false
+    },
+    {
+      "id": "execution",
+      "dimension": "execution",
+      "state": "scheduled",
+      "statement": "9月19日实施安排已明确，预期影响短端；尚不写成已经观察到效果。",
+      "evidence_refs": [
+        "instruction"
+      ],
+      "reason": "相比T0已有可执行工具与日期，因此不再维持“没有具体安排”的基线。",
+      "next_trigger": "后续运行记录是否显示传导。",
+      "teaching_branch": false
+    },
+    {
+      "id": "broad_relief",
+      "dimension": "broad_effect",
+      "state": "provisional",
+      "statement": "过宽效果分支仍待检验，不将宣布降息当作多数借贷成本已经下降。",
+      "evidence_refs": [
+        "decision"
+      ],
+      "reason": "措施已公布，但未新增足够的广泛效果观察。",
+      "next_trigger": "寻找不同期限与借款主体的成本结果。",
+      "teaching_branch": true
+    },
+    {
+      "id": "hidden_plan",
+      "dimension": "hidden_plan",
+      "state": "unknown",
+      "statement": "工具和实施安排支持存在准备，但仍不能确定内部提前量与非公开信息。",
+      "evidence_refs": [
+        "instruction"
+      ],
+      "reason": "间接解释得到一些结构性支持，具体内部判断仍未知。",
+      "next_trigger": "需要决策过程与当时信息；不从措施存在倒推完整预案。",
+      "teaching_branch": false
+    }
+  ]
+}

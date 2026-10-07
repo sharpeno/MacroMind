@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "mutation_count": 21,
+  "roundtrip_restores_original": true,
+  "baseline_ERROR": 0,
+  "tests": [
+    {
+      "test": "illegal_method_enum",
+      "expected_failed_rules": [
+        "V-MA101"
+      ],
+      "actual_failed_rules": [
+        "V-MA101"
+      ],
+      "passed": true
+    },
+    {
+      "test": "repeated_missing_scope",
+      "expected_failed_rules": [
+        "R056",
+        "V-MA103"
+      ],
+      "actual_failed_rules": [
+        "R056",
+        "V-MA102",
+        "V-MA103"
+      ],
+      "passed": true
+    },
+    {
+      "test": "non_none_without_prior",
+      "expected_failed_rules": [
+        "V-MA102"
+      ],
+      "actual_failed_rules": [
+        "V-MA102"
+      ],
+      "passed": true
+    },
+    {
+      "test": "vague_summary_promoted",
+      "expected_failed_rules": [
+        "R057"
+      ],
+      "actual_failed_rules": [
+        "R057",
+        "V-AUDIT"
+      ],
+      "passed": true
+    },
+    {
+      "test": "missing_failure_reasoner",
+      "expected_failed_rules": [
+        "R058",
+        "V-MA104"
+      ],
+      "actual_failed_rules": [
+        "R058",
+        "V-MA104"
+      ],
+      "passed": true
+    },
+    {
+      "test": "missing_failure_observer",
+      "expected_failed_rules": [
+        "R058",
+        "V-MA105"
+      ],
+      "actual_failed_rules": [
+        "R058",
+        "V-MA101",
+        "V-MA105"
+      ],
+      "passed": true
+    },
+    {
+      "test": "stable_failure_promotion",
+      "expected_failed_rules": [
+        "R059"
+      ],
+      "actual_failed_rules": [
+        "R059"
+      ],
+      "passed": true
+    },
+    {
+      "test": "missing_baseline_source",
+      "expected_failed_rules": [
+        "R060",
+        "V-MA106"
+      ],
+      "actual_failed_rules": [
+        "R060",
+        "V-MA106"
+      ],
+      "passed": true
+    },
+    {
+      "test": "percent_to_points",
+      "expected_failed_rules": [
+        "R061",
+        "V-MA107"
+      ],
+      "actual_failed_rules": [
+        "R061",
+        "V-MA107"
+      ],
+      "passed": true
+    },
+    {
+      "test": "ratio_as_delta",
+      "expected_failed_rules": [
+        "V-NUMERIC",
+        "R061"
+      ],
+      "actual_failed_rules": [
+        "R061",
+        "V-MA107",
+        "V-NUMERIC"
+      ],
+      "passed": true
+    },
+    {
+      "test": "ambiguous_70_delta",
+      "expected_failed_rules": [
+        "V-NUMERIC"
+      ],
+      "actual_failed_rules": [
+        "V-NUMERIC"
+      ],
+      "passed": true
+    },
+    {
+      "test": "price_as_valuation",
+      "expected_failed_rules": [
+        "R062"
+      ],
+      "actual_failed_rules": [
+        "R062"
+      ],
+      "passed": true
+    },
+    {
+      "test": "missing_stage",
+      "expected_failed_rules": [
+        "V-MA108"
+      ],
+      "actual_failed_rules": [
+        "V-MA108"
+      ],
+      "passed": true
+    },
+    {
+      "test": "capability_as_actual_use",
+      "expected_failed_rules": [
+        "V-STAGE"
+      ],
+      "actual_failed_rules": [
+        "V-STAGE"
+      ],
+      "passed": true
+    },
+    {
+      "test": "remove_role_reviews",
+      "expected_failed_rules": [
+        "R063",
+        "V-MA109"
+      ],
+      "actual_failed_rules": [
+        "R063",
+        "V-MA109"
+      ],
+      "passed": true
+    },
+    {
+      "test": "diagnostic_as_method_evidence",
+      "expected_failed_rules": [
+        "V-MA110"
+      ],
+      "actual_failed_rules": [
+        "V-MA110"
+      ],
+      "passed": true
+    },
+    {
+      "test": "incorrect_distance",
+      "expected_failed_rules": [
+        "V-DISTANCE"
+      ],
+      "actual_failed_rules": [
+        "V-DISTANCE"
+      ],
+      "passed": true
+    },
+    {
+      "test": "unsupported_verified_promotion",
+      "expected_failed_rules": [
+        "V-TRUTH"
+      ],
+      "actual_failed_rules": [
+        "V-TRUTH"
+      ],
+      "passed": true
+    },
+    {
+      "test": "false_audio_confirmation",
+      "expected_failed_rules": [
+        "V-ASR"
+      ],
+      "actual_failed_rules": [
+        "V-ASR"
+      ],
+      "passed": true
+    },
+    {
+      "test": "bad_occurrence_unquarantined",
+      "expected_failed_rules": [
+        "V-OCCURRENCE"
+      ],
+      "actual_failed_rules": [
+        "V-OCCURRENCE"
+      ],
+      "passed": true
+    },
+    {
+      "test": "C005_exception_without_review",
+      "expected_failed_rules": [
+        "V-MA108"
+      ],
+      "actual_failed_rules": [
+        "R060",
+        "R062",
+        "V-MA106",
+        "V-MA108"
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "batch": "batch_001",
+  "source_path": "C:\\Users\\无语\\Downloads\\MacroMind_首五期审阅_2026-10-03T08-39-18-728Z.json",
+  "archived_raw_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\run_001\\batch_001\\raw\\MacroMind_首五期审阅_2026-10-03T08-39-18-728Z.json",
+  "sha256": "879aa114f12a89a69c82d50c2082afd4acc6cc891509565a7f068b5fa1f01ac8",
+  "dataset": "0c051a8441e40a8eaecc131aba8f3e5bda23bc1bc821ef9b33045b4266ff055d",
+  "exported_at": "2026-10-03T08:39:18.718Z",
+  "received_at": "2026-10-03T08:42:51.044583+00:00",
+  "reviewer_label": "user supplied in this chat; form reviewer blank",
+  "counts": {
+    "total_records": 2657,
+    "reviewed_priority_chains": 10,
+    "faithful": 6,
+    "change": 4,
+    "untouched": 2647
+  },
+  "validation": "dataset,2657 unique IDs,episode,category,priority set verified; original file also passed current browser validate/import with10 decisions restored",
+  "truth_verified": false,
+  "scaleup_approved": false
+}

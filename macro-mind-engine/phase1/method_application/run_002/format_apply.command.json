@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "format",
+    "phase1\\method_application\\run_002\\check.py",
+    "phase1\\method_application\\run_002\\render.py",
+    "phase1\\method_application\\run_002\\verify.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

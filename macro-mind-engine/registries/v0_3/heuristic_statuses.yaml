@@ -1,0 +1,28 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "HeuristicStatus",
+  "requires_unknown": true,
+  "source_refs": [
+    "core_objects.json#Heuristic",
+    "P11"
+  ],
+  "entries": [
+    {
+      "value": "candidate",
+      "description": "HeuristicStatus: candidate; records the supplied category, without inference.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

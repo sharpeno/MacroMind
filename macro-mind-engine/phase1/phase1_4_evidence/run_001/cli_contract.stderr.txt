@@ -1,0 +1,1 @@
+{"duration": 0.007512, "errors": [], "input_paths": ["G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"], "ontology_version": "0.3", "operation": "contract.verify", "output_paths": [], "run_id": "0237b564-d44c-4b3e-be69-803e0f263114", "version": "0.1.0", "warnings": []}

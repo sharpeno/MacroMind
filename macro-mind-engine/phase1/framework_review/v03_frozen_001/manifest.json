@@ -1,0 +1,11 @@
+{
+  "approval_receipt.json": "2871d25af3869f9b53492d8d4b3cf8eab9bb390d6368c24d06f256e69e2e9e31",
+  "finalize.py": "29ff5a2c8103b97ac56ae5c491f83970935d54d382642c8cc6c9a1fc453b8cef",
+  "framework.json": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "framework_lock.json": "6142dc27e95085419241bf3298d8d3c1892d5ba3940a102fd10fc15b355a0174",
+  "progress.json": "d3c84fe89c9d276471ecbda320a73f7110fc355bf5024ea2f001e26a1324ee10",
+  "REPORT.md": "46eeade55bb1f9a9af0ccf7cba1e0f2a41bfeab59d07fd109c4ca7c2478a2e3c",
+  "validation.json": "c9707b1d75b89d2212e6db44543d8aea39d5cf2f50c868ad2c2679a9a8466afd",
+  "validation.stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "validation.stdout.log": "01efda845ba8f88ef265c3c2a226279ef7d1a7dbc46767842ae5b4d0dae5afbf"
+}

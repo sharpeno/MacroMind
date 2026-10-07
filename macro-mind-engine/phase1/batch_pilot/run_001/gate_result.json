@@ -1,0 +1,152 @@
+{
+  "gate_status": "FIRST5_READY_FOR_HUMAN_REVIEW",
+  "gates": [
+    {
+      "id": "P01",
+      "title": "原始材料与转换溯源",
+      "status": "PASS",
+      "evidence": [
+        "immutability.json",
+        "input_manifest.json",
+        "EP001/field_mapping.json"
+      ],
+      "scope_note": "26个原始文件哈希不变；5期各自保留逐对象映射、原话和来源版本。"
+    },
+    {
+      "id": "P02",
+      "title": "全范围处置记录",
+      "status": "PASS",
+      "evidence": [
+        "statistics.json",
+        "EP001/coverage.json",
+        "EP002/coverage.json",
+        "EP003/coverage.json",
+        "EP004/coverage.json",
+        "EP005/coverage.json"
+      ],
+      "scope_note": "1913条全部阅读并登记。709条映射/上下文，505条需复核，699条作为已读上下文未逐条原子化；此项只验范围披露，不宣称穷尽提取。"
+    },
+    {
+      "id": "P03",
+      "title": "原话定位及归属",
+      "status": "PASS",
+      "evidence": [
+        "checks.json",
+        "HUMAN_REVIEW.html"
+      ],
+      "scope_note": "启用主张都有原始cue和时间范围；18条推理关系均为模型重建。忠实度的人工质量判定尚未验证。"
+    },
+    {
+      "id": "P04",
+      "title": "不确定内容处置",
+      "status": "PASS",
+      "evidence": [
+        "source_discrepancies.json",
+        "EP001/evidence_components.json",
+        "EP005/review_issues.json"
+      ],
+      "scope_note": "数字、单位、基准、否定、时间、条件、模态按原文保留并设词项索引；词项并非完整语义解析。49组已发现疑点全部待审，核听0条，不静默修正。"
+    },
+    {
+      "id": "P05",
+      "title": "完整可用链与隔离传播",
+      "status": "PASS",
+      "evidence": [
+        "checks.json",
+        "EP003/activation.json",
+        "EP005/activation.json"
+      ],
+      "scope_note": "五期完整模式0ERROR、0未解析引用；每期有正例和隔离反例，失败推理支持的结论也隔离。"
+    },
+    {
+      "id": "P06",
+      "title": "新闻内容与引用关系分开",
+      "status": "PASS",
+      "evidence": [
+        "reference_verification.json",
+        "execution_incidents.json"
+      ],
+      "scope_note": "20个链接均尝试；18个有当前内容，2个访问失败。未发现明确URL引用证明；历史版本、精确抓取瞬间未记录而标未知，保存访问会话日期及归档时刻。"
+    },
+    {
+      "id": "P07",
+      "title": "类型、时间与归属边界",
+      "status": "PASS",
+      "evidence": [
+        "cross_episode_comparison.json",
+        "checks.json"
+      ],
+      "scope_note": "8个启用Scenario；16个预测候选未入Forecast。无已认证Heuristic、StructuralProcess或跨期推理连接；当前材料不叫盲测。"
+    },
+    {
+      "id": "P08",
+      "title": "每期非空分析链",
+      "status": "PASS",
+      "evidence": [
+        "statistics.json",
+        "HUMAN_REVIEW.html"
+      ],
+      "scope_note": "可用链依次4/4/3/2/5；链的经济学正确性没有由结构通过推定。"
+    },
+    {
+      "id": "P09",
+      "title": "真实审计与复现",
+      "status": "PASS",
+      "evidence": [
+        "audit_results.json",
+        "repeatability.json",
+        "audits.command.json",
+        "audits.stdout.txt",
+        "audits.stderr.txt"
+      ],
+      "scope_note": "五期审计+EP001重复共6次。全部COMPLETED，全部INDETERMINATE、退出码1；四类业务哈希重复一致。重放已保存提取，不是独立重复语义提取。"
+    },
+    {
+      "id": "P10",
+      "title": "守恒及工作量统计",
+      "status": "PASS",
+      "evidence": [
+        "statistics.json",
+        "checks.json"
+      ],
+      "scope_note": "3158候选=2726启用+432隔离。保留隔离分母；7906处空/unknown字段按候选对象字段位置计数，51条非引用不确定项，人工抽查0。"
+    },
+    {
+      "id": "P11",
+      "title": "人工审阅包",
+      "status": "PASS",
+      "evidence": [
+        "HUMAN_REVIEW.html",
+        "HUMAN_REVIEW.md",
+        "human_review_records.json"
+      ],
+      "scope_note": "10条重点链、重要隔离链及49组已发现疑点已交付；人工意见和正确率均未填写。"
+    },
+    {
+      "id": "P12",
+      "title": "适当验证及旧测试保全",
+      "status": "PASS",
+      "evidence": [
+        "checks.json",
+        "immutability.json",
+        "prior_test_identity_verification.json"
+      ],
+      "scope_note": "89项材料/执行检查通过；169个运行时、测试、契约保护文件无改动。旧584项身份和已存结果核对通过，本轮未无意义重跑全量套件。"
+    }
+  ],
+  "quality": {
+    "human_semantic_accuracy": "NOT_VERIFIED",
+    "audio_fidelity": "NOT_VERIFIED",
+    "extraction_recall": "NOT_VERIFIED",
+    "external_truth": "NOT_VERIFIED",
+    "historical_information_availability": "NOT_VERIFIED",
+    "independent_extraction_reproducibility": "NOT_VERIFIED",
+    "scaleup": "NOT_ACCEPTED",
+    "skill": "NOT_READY"
+  },
+  "limitations": [
+    "699 cues retained as read context, not exhaustive atomic claims",
+    "No human-reviewed correctness labels",
+    "All source/author claims remain attributed rather than verified truth"
+  ]
+}

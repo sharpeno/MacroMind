@@ -1,0 +1,17 @@
+[
+  {
+    "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_004",
+    "files": 138,
+    "mismatches": []
+  },
+  {
+    "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\holdout_001",
+    "files": 38,
+    "mismatches": []
+  },
+  {
+    "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\calibrated_001",
+    "files": 42,
+    "mismatches": []
+  }
+]

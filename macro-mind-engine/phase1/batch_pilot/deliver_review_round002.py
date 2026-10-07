@@ -1,0 +1,57 @@
+import json,hashlib,shutil
+from pathlib import Path
+from datetime import datetime,timezone
+b=Path('G:/youhegaojian/macro-mind-engine/phase1/batch_pilot');o=b/'review_round_002';qa=Path('G:/youhegaojian/review-ui-qa/round002')
+def rd(p):return json.loads(p.read_bytes())
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def wr(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(o/'browser_qa').mkdir(exist_ok=True)
+for n in ['results.json','desktop.png','mobile.png']:shutil.copyfile(qa/n,o/'browser_qa'/n)
+shutil.copyfile('G:/youhegaojian/review-ui-qa/round002-test.cjs',o/'browser_qa/test.cjs')
+wr(o/'browser_qa/command.json',{'argv':['C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe','G:/youhegaojian/review-ui-qa/round002-test.cjs'],'url':'http://127.0.0.1:8768/HUMAN_REVIEW.html','exit_code':0,'raw_results':'results.json','note':'Fresh test context only. Does not read user drafts. Local-file production page uses same embedded HTML/JS; native directory chooser not tested.'})
+assert len(rd(o/'browser_qa/results.json')['checks'])==8
+for root,m in [(b/'run_001',rd(b/'run_001/acceptance_manifest.json')['generated_artifact_hashes']),(b/'run_002',rd(b/'run_002/revision_manifest.json')['artifacts'])]:assert all(sha(root/p)==h for p,h in m.items())
+(o/'REPORT.md').write_text('''# 第二轮小规模质量抽查
+
+已准备8项，覆盖EP001至EP005，未扩展视频材料、未修改canonical对象或原审计包。第一轮完成的10条链未重新打开。本轮是按风险选取的定向样本，不能用其通过比例推断全库准确率。
+
+## 这轮审什么
+
+1. EP001/A03：持续成本上涨是否是“利润缓冲只能暂时”的必要条件。
+2. EP002/cue223–235：转述市场看法与博主反驳是否区分，叙事转变是否漏提取；218–222仅提供上下文。
+3. EP003/C23：地缘风险主张是否遗漏美国权威受挑战这一具体解释。
+4. EP004/C15：回报设想的选中赢家前提、十年回顾范围是否保留。
+5. EP004/C22：从行业成功机制到市场定价差的步骤是否完整。
+6. EP005/A03：短债融资压力如何对应期限、成本、内外债三个维度。
+7. EP005/cue230：是否漏提取“调整后由通胀逐步覆盖债务”的作者观点；前后片段仅作上下文。
+8. EP005/A06：新旧房对象、时间、刚需例外及稳住不等于升值。
+
+候选补提取只是审核问题，并未自动入库。仅检查是否忠实反映博主，不要求验证观点的现实正确性、政策合法性或预测有效性。
+
+## 页面与使用
+
+打开HUMAN_REVIEW.html。每项顶部直接展示“本次待审表述”和“你需要核对什么”，原字幕默认折叠。无问题直接选择判定即可，无需注释。缺失时写需要补充的一句话；无法确认可保留未知。
+
+新增“条件与范围”的专用判定。模板也为未来转写修订复审定义“采用展示的修正文本／撤回建议保留原转写／还需修改／暂不能确认”，避免上一轮audio_ok歧义；本轮8项不要求重新核听已确认的6处纠正。
+
+导出文件名前缀MacroMind_round002，独立数据集，不可混用上次MacroMind_run002的7项文件。推荐在页面选择G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/human_reviews/review_round_002/exports；未选择则走浏览器下载。生成的HTML可直接本地打开，无需测试服务器。
+
+## 验证
+
+- 原run001 347个、run002 301个封存产物哈希保持不变。
+- 8个ID唯一，原字幕cue映射完整，未与此前10条已审链重叠。
+- 浏览器8项检查通过：8项重点提示、三类判定及草稿刷新、JSON导出、TXT导出、导入恢复、拒绝旧数据集、390px无横向溢出、无应用运行错误。
+- 使用Edge headless / Playwright，1440×1000及390×844；独立测试上下文，仅通过本地HTTP服务访问新生成页面，不读取用户浏览器草稿。Browser插件未提供。
+- results.json中若有favicon 404，只涉及测试服务器图标，不是表单错误。系统目录选择窗口、内置浏览器下载界面和音视频播放未实测。
+- 截图、原始浏览器结果与执行命令位于browser_qa/。selection_plan.json记录选样策略，verification.json记录数据检查，manifest.json记录产物哈希。
+
+## 下一步与未完成
+
+等待用户完成这8项并导出JSON。收到后按“认可／需要修订／漏提取／无法确认”逐项处理，只重跑确实受影响的验证，再判断是否需要另一小批质量检查。暂不扩大素材数量，不生成Skill。
+
+53项非引用未决信息、投行历史版本与引用关系、时长差异仍保持原状态；本次建页不意味着这些问题通过。旧7组复审无需重新填写。
+''',encoding='utf-8')
+wr(o/'progress.json',{'time':datetime.now(timezone.utc).isoformat(),'stage':'READY_FOR_SECOND_SAMPLE_REVIEW','completed':['8 risk-based source-linked review cards','Prior first10 excluded','Clear review text and task prompts','8 browser checks and immutable hashes verified'],'unfinished':['User reviews and exports 8-item JSON','Process new feedback and revalidate affected objects','Existing source/timing/uncertainty issues remain'],'next_step':'User opens HUMAN_REVIEW.html and reviews 8 new items','scale_up_approved':False})
+wr(b/'review_latest.json',{'round':'review_round_002','page':str(o/'HUMAN_REVIEW.html'),'report':str(o/'REPORT.md'),'progress':str(o/'progress.json'),'dataset':rd(o/'review_data.json')['dataset'],'status':'READY_FOR_SECOND_SAMPLE_REVIEW'})
+wr(o/'manifest.json',{'artifacts':{str(p.relative_to(o)):sha(p) for p in o.rglob('*') if p.is_file() and p.name!='manifest.json'},'builder':{'path':str(b/'build_review_round002.py'),'sha256':sha(b/'build_review_round002.py')}})
+print('Second sample delivered; 8 items, 8 browser checks, immutable packages retained.')

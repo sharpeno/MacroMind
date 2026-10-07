@@ -1,0 +1,375 @@
+{
+  "allowed_validation": [
+    "contract integrity",
+    "Pydantic structural validation",
+    "registry integrity"
+  ],
+  "cli_commands": {
+    "contract": [
+      "verify"
+    ],
+    "registry": [
+      "verify"
+    ],
+    "schema": [
+      "export"
+    ]
+  },
+  "created_during_acceptance_evidence_completion": true,
+  "custom_pydantic_or_semantic_validator_candidates": [],
+  "functions": [
+    {
+      "decorators": [],
+      "line": 22,
+      "name": "emit",
+      "path": "src/macromind/cli/main.py"
+    },
+    {
+      "decorators": [],
+      "line": 28,
+      "name": "log",
+      "path": "src/macromind/cli/main.py"
+    },
+    {
+      "decorators": [
+        "contract_app.command('verify')"
+      ],
+      "line": 46,
+      "name": "contract_verify",
+      "path": "src/macromind/cli/main.py"
+    },
+    {
+      "decorators": [
+        "registry_app.command('verify')"
+      ],
+      "line": 82,
+      "name": "registry_verify",
+      "path": "src/macromind/cli/main.py"
+    },
+    {
+      "decorators": [
+        "schema_app.command('export')"
+      ],
+      "line": 106,
+      "name": "schema_export",
+      "path": "src/macromind/cli/main.py"
+    },
+    {
+      "decorators": [],
+      "line": 10,
+      "name": "verify_manifest_hashes",
+      "path": "src/macromind/contract/integrity.py"
+    },
+    {
+      "decorators": [],
+      "line": 14,
+      "name": "_unique_pairs",
+      "path": "src/macromind/contract/loader.py"
+    },
+    {
+      "decorators": [],
+      "line": 23,
+      "name": "load_frozen_contract",
+      "path": "src/macromind/contract/loader.py"
+    },
+    {
+      "decorators": [],
+      "line": 65,
+      "name": "check",
+      "path": "src/macromind/contract/models.py"
+    },
+    {
+      "decorators": [],
+      "line": 9,
+      "name": "calculate_file_sha256",
+      "path": "src/macromind/contract/semantic_hash.py"
+    },
+    {
+      "decorators": [],
+      "line": 13,
+      "name": "calculate_semantic_contract_hash",
+      "path": "src/macromind/contract/semantic_hash.py"
+    },
+    {
+      "decorators": [],
+      "line": 18,
+      "name": "verify_semantic_hash",
+      "path": "src/macromind/contract/semantic_hash.py"
+    },
+    {
+      "decorators": [],
+      "line": 13,
+      "name": "__init__",
+      "path": "src/macromind/errors.py"
+    },
+    {
+      "decorators": [],
+      "line": 17,
+      "name": "_mapping",
+      "path": "src/macromind/registry/enums.py"
+    },
+    {
+      "decorators": [],
+      "line": 30,
+      "name": "read_yaml",
+      "path": "src/macromind/registry/enums.py"
+    },
+    {
+      "decorators": [],
+      "line": 40,
+      "name": "read_enum_sources",
+      "path": "src/macromind/registry/enums.py"
+    },
+    {
+      "decorators": [],
+      "line": 71,
+      "name": "render_python_enums",
+      "path": "src/macromind/registry/enums.py"
+    },
+    {
+      "decorators": [],
+      "line": 90,
+      "name": "generate_python_enums",
+      "path": "src/macromind/registry/enums.py"
+    },
+    {
+      "decorators": [],
+      "line": 4,
+      "name": "check_identity_policies",
+      "path": "src/macromind/registry/identity.py"
+    },
+    {
+      "decorators": [],
+      "line": 38,
+      "name": "_index",
+      "path": "src/macromind/registry/loader.py"
+    },
+    {
+      "decorators": [],
+      "line": 48,
+      "name": "load_registry",
+      "path": "src/macromind/registry/loader.py"
+    },
+    {
+      "decorators": [],
+      "line": 5,
+      "name": "check_object_types",
+      "path": "src/macromind/registry/object_types.py"
+    },
+    {
+      "decorators": [],
+      "line": 4,
+      "name": "check_relations",
+      "path": "src/macromind/registry/relations.py"
+    },
+    {
+      "decorators": [],
+      "line": 6,
+      "name": "check_schema_versions",
+      "path": "src/macromind/registry/schema_versions.py"
+    },
+    {
+      "decorators": [],
+      "line": 10,
+      "name": "semantic",
+      "path": "src/macromind/schema/base.py"
+    },
+    {
+      "decorators": [],
+      "line": 18,
+      "name": "auxiliary",
+      "path": "src/macromind/schema/base.py"
+    },
+    {
+      "decorators": [],
+      "line": 26,
+      "name": "extension",
+      "path": "src/macromind/schema/base.py"
+    },
+    {
+      "decorators": [],
+      "line": 13,
+      "name": "json_bytes",
+      "path": "src/macromind/schema/export.py"
+    },
+    {
+      "decorators": [],
+      "line": 17,
+      "name": "schema_artifacts",
+      "path": "src/macromind/schema/export.py"
+    },
+    {
+      "decorators": [],
+      "line": 43,
+      "name": "export_schemas",
+      "path": "src/macromind/schema/export.py"
+    }
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "reviewed_forbidden_logic": [
+    {
+      "evidence": "Forecast and Scenario contain field declarations only; no model methods or validators",
+      "implemented": false,
+      "logic": "Forecast admission validator"
+    },
+    {
+      "evidence": "InformationSet/AnalystMethodSignal store time and recurrence fields only",
+      "implemented": false,
+      "logic": "future-prior validator"
+    },
+    {
+      "evidence": "StructuralProcess contains reference lists without evidence thresholds",
+      "implemented": false,
+      "logic": "StructuralProcess sufficiency validator"
+    },
+    {
+      "evidence": "Assessment stores observer/target independently; no target mutation logic",
+      "implemented": false,
+      "logic": "truth-propagation validator"
+    },
+    {
+      "evidence": "Argument/ReasoningStep contain structural fields, no reasoning validity algorithm",
+      "implemented": false,
+      "logic": "Argument semantic validity validator"
+    }
+  ],
+  "runtime_modules": [
+    "cli",
+    "contract",
+    "registry",
+    "schema"
+  ],
+  "scanned_source_files": [
+    {
+      "lines": 3,
+      "path": "src/macromind/__init__.py",
+      "sha256": "83d2acfe9f5a203e31324c9bef077a930c6f700a94149086f1034c624889538b"
+    },
+    {
+      "lines": 1,
+      "path": "src/macromind/cli/__init__.py",
+      "sha256": "e889df0f35862ab174bbecc5ac906f605bc164f9b492ac99af9626f0037e1066"
+    },
+    {
+      "lines": 140,
+      "path": "src/macromind/cli/main.py",
+      "sha256": "c3326c25222794a1126867b57095c0d81dd563fc99031b3ef213dd7304412c4d"
+    },
+    {
+      "lines": 3,
+      "path": "src/macromind/contract/__init__.py",
+      "sha256": "ed66288266d6c419d4d4eb39154f676ff320a475eb61d15bcbc5fc7021e1e4d4"
+    },
+    {
+      "lines": 24,
+      "path": "src/macromind/contract/integrity.py",
+      "sha256": "930a448e6fec1700a12b436d5bcc436977fcaa35390fce7215fb69607a98ce6a"
+    },
+    {
+      "lines": 116,
+      "path": "src/macromind/contract/loader.py",
+      "sha256": "3992081cde6683064467842ca3d8f840b4656c139837cc1e6ad9bf860dce6af0"
+    },
+    {
+      "lines": 89,
+      "path": "src/macromind/contract/models.py",
+      "sha256": "439a4bbf6cf7cac120e4a2550e255694028671a3f14c989e7a4016d81c5581f3"
+    },
+    {
+      "lines": 19,
+      "path": "src/macromind/contract/semantic_hash.py",
+      "sha256": "ce4e1ab2a760df10f764034825feff28e3794497731b75c13cfdf2dc14c6490e"
+    },
+    {
+      "lines": 32,
+      "path": "src/macromind/contract/version.py",
+      "sha256": "07e07b5eaabdd71e4cc1a9e620dc06c7643f5aa511546a13ad40829c8f95f33c"
+    },
+    {
+      "lines": 27,
+      "path": "src/macromind/errors.py",
+      "sha256": "f13b9ac8c104c9b883f9163172ae71a2f6ae94b9a9111a90050f8dc69e8af79a"
+    },
+    {
+      "lines": 1,
+      "path": "src/macromind/registry/__init__.py",
+      "sha256": "8c53e48a240bb19e8a8bfece3e49742d04e15c6732b2accb776a1da65de4f88b"
+    },
+    {
+      "lines": 173,
+      "path": "src/macromind/registry/_enums.py",
+      "sha256": "03f5a6638ce84e9cdfc5bfcdb74feadb8b68e8b46d9a545445098cece0bc2adb"
+    },
+    {
+      "lines": 93,
+      "path": "src/macromind/registry/enums.py",
+      "sha256": "37da61071d20122809d35f6fa83a34b1bc924d7803c5c0926979aef8ca5015fd"
+    },
+    {
+      "lines": 9,
+      "path": "src/macromind/registry/identity.py",
+      "sha256": "7f41786e52248eb7aad3b42b2e56258a5c4702e186264d6fdd09d1406dc18f57"
+    },
+    {
+      "lines": 103,
+      "path": "src/macromind/registry/loader.py",
+      "sha256": "fcdb81ec1c791039c60adedca4f23c7f64a14e16e20e7cf4a78bea6a9374abb1"
+    },
+    {
+      "lines": 88,
+      "path": "src/macromind/registry/models.py",
+      "sha256": "f9a840f7d4116a0e9263f6433c7d911faa5b9e36a4421c5d335a624326cbcb3a"
+    },
+    {
+      "lines": 18,
+      "path": "src/macromind/registry/object_types.py",
+      "sha256": "f28ba933f8613fd1c019cfcb25f990c7ae0efba64e1af7c2d5e0ef161b7b1bc4"
+    },
+    {
+      "lines": 7,
+      "path": "src/macromind/registry/relations.py",
+      "sha256": "3f66563787a532a396f88353bd5fac5b3df84e95b8de636193b8f235c47d4c45"
+    },
+    {
+      "lines": 11,
+      "path": "src/macromind/registry/schema_versions.py",
+      "sha256": "32134660df374739407edff4a4f879650840f68b649463ac0c8444b35f438c67"
+    },
+    {
+      "lines": 1,
+      "path": "src/macromind/schema/__init__.py",
+      "sha256": "ba1064c6b69b24496f8d9a1bab1141b3edc4989df91dfc950cdd3d6b6d3f97b6"
+    },
+    {
+      "lines": 453,
+      "path": "src/macromind/schema/auxiliary/__init__.py",
+      "sha256": "28373a90f93eddb8892c1c66c4ff5c78a2eec595319b5c26a2e32bcbc61f58a7"
+    },
+    {
+      "lines": 51,
+      "path": "src/macromind/schema/base.py",
+      "sha256": "87f98e7410a6e13b832c09cd6974e307b8f28d94176f176ee0a1ac2b3e007b05"
+    },
+    {
+      "lines": 87,
+      "path": "src/macromind/schema/common.py",
+      "sha256": "cf7c84deaea954330ac53f7145cba587077d4347308c3c03967ea50e8b112533"
+    },
+    {
+      "lines": 493,
+      "path": "src/macromind/schema/core/__init__.py",
+      "sha256": "e97334e5df5ab4e17c8e58550db125d1ddcd8593acf2220e9b10636195560a36"
+    },
+    {
+      "lines": 57,
+      "path": "src/macromind/schema/export.py",
+      "sha256": "e9bb44e7a7f61851396cfab67df25982ee38efb552485cf042650c5ff9a0cf75"
+    }
+  ],
+  "schema_model_methods": [],
+  "scope_limit": "AST inventory plus direct inspection of actual function bodies and models; no claim that keyword scanning alone proves semantic absence",
+  "scope_violation": false,
+  "started_at": "2026-09-27T14:09:46.173235+00:00",
+  "violations": []
+}

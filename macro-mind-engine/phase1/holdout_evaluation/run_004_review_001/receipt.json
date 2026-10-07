@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-07T12:34:55.539520+00:00",
+  "file": "MacroMind_holdout475001_2026-10-07T12-33-10-308Z_3of3.json",
+  "sha256": "3fcfc4a291bcf6b0be1db36d9044e75f9f00c3ef4f2fb56522c78375c924903f",
+  "accepted_with_notes": [
+    "R01",
+    "R02"
+  ],
+  "revision_requested": [
+    "R03"
+  ],
+  "notes_applied": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "all_original_items_approved": false
+}

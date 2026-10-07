@@ -1,0 +1,12 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "schema_versions": [
+    "0.1.0"
+  ],
+  "compatibility": {
+    "PATCH": "non-breaking implementation/schema metadata adjustment",
+    "MINOR": "backward-compatible field/enum extension",
+    "MAJOR": "potential breaking schema change"
+  }
+}

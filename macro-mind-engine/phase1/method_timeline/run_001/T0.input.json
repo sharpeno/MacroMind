@@ -1,0 +1,69 @@
+{
+  "version": "timeline-1",
+  "id": "T0",
+  "as_of": "2024-08-23",
+  "mode": "retrospective_reconstruction",
+  "method_available_on": "2026-10-05",
+  "previous_sha256": null,
+  "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+  "sources": [
+    {
+      "id": "signal",
+      "published": "2024-08-23",
+      "event_date": "2024-08-23",
+      "kind": "signal",
+      "path": "phase1/method_timeline/run_001/sources/signal.json",
+      "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "policy",
+      "dimension": "policy",
+      "state": "provisional",
+      "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+      "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+      "teaching_branch": false
+    },
+    {
+      "id": "execution",
+      "dimension": "execution",
+      "state": "unknown",
+      "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+      "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+      "teaching_branch": false
+    },
+    {
+      "id": "broad_relief",
+      "dimension": "broad_effect",
+      "state": "provisional",
+      "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+      "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+      "teaching_branch": true
+    },
+    {
+      "id": "hidden_plan",
+      "dimension": "hidden_plan",
+      "state": "unknown",
+      "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+      "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+      "teaching_branch": false
+    }
+  ]
+}

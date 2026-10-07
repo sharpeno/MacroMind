@@ -1,0 +1,992 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "actual": true,
+      "check_id": "R01",
+      "description": "Registry loader succeeds",
+      "evidence": "load_registry(actual registry root)",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": [
+        "Actor",
+        "Argument",
+        "Assessment",
+        "Claim",
+        "Contradiction",
+        "Event",
+        "Forecast",
+        "Heuristic",
+        "Indicator",
+        "Mechanism",
+        "Policy",
+        "Source",
+        "StructuralProcess",
+        "Thesis"
+      ],
+      "check_id": "R02",
+      "description": "Core membership exact 14",
+      "evidence": "object_types.yaml",
+      "expected": [
+        "Actor",
+        "Argument",
+        "Assessment",
+        "Claim",
+        "Contradiction",
+        "Event",
+        "Forecast",
+        "Heuristic",
+        "Indicator",
+        "Mechanism",
+        "Policy",
+        "Source",
+        "StructuralProcess",
+        "Thesis"
+      ],
+      "status": "PASS"
+    },
+    {
+      "actual": [
+        "analysis_contexts",
+        "comparison_types",
+        "expression_levels",
+        "failure_types",
+        "recognition_stages",
+        "recurrence_matches",
+        "recurrence_statuses",
+        "semantic_roles",
+        "verification_statuses"
+      ],
+      "check_id": "R03",
+      "description": "Required vocabulary files",
+      "evidence": "Direct directory listing",
+      "expected": [
+        "analysis_contexts",
+        "comparison_types",
+        "expression_levels",
+        "failure_types",
+        "recognition_stages",
+        "recurrence_matches",
+        "recurrence_statuses",
+        "semantic_roles",
+        "verification_statuses"
+      ],
+      "status": "PASS"
+    },
+    {
+      "actual": "03f5a6638ce84e9cdfc5bfcdb74feadb8b68e8b46d9a545445098cece0bc2adb",
+      "check_id": "R04",
+      "description": "Generated enum bytes equal YAML rendering",
+      "evidence": "_enums.py and render_python_enums(actual YAML)",
+      "expected": "03f5a6638ce84e9cdfc5bfcdb74feadb8b68e8b46d9a545445098cece0bc2adb",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check_id": "R05",
+      "description": "Relation endpoints known",
+      "evidence": "relations.yaml + object_types.yaml",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": {
+        "ASSERTED_BY": "candidate",
+        "CONTRADICTS": "candidate",
+        "DERIVED_FROM": "candidate",
+        "OBSERVED_AS": "candidate",
+        "PART_OF": "candidate",
+        "REFERS_TO": "candidate",
+        "SUPPORTED_BY": "candidate",
+        "USES_MECHANISM": "candidate",
+        "VERSION_OF": "candidate"
+      },
+      "check_id": "R06",
+      "description": "All current relations remain candidate",
+      "evidence": "relations.yaml",
+      "expected": {
+        "ASSERTED_BY": "candidate",
+        "CONTRADICTS": "candidate",
+        "DERIVED_FROM": "candidate",
+        "OBSERVED_AS": "candidate",
+        "PART_OF": "candidate",
+        "REFERS_TO": "candidate",
+        "SUPPORTED_BY": "candidate",
+        "USES_MECHANISM": "candidate",
+        "VERSION_OF": "candidate"
+      },
+      "status": "PASS"
+    },
+    {
+      "actual": [],
+      "check_id": "R07",
+      "description": "LOCATED_IN/INSTANCE_OF not silently stabilized",
+      "evidence": "relations.yaml + REGISTRY_POLICY.md",
+      "expected": [],
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check_id": "R08",
+      "description": "Identity policies prohibit automatic merge",
+      "evidence": "identity_policies.yaml",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check_id": "duplicate_yaml_key",
+      "description": "duplicate_yaml_key rejected using actual parser",
+      "evidence": "Duplicate YAML mapping key: entries",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check_id": "unsafe_yaml",
+      "description": "unsafe_yaml rejected using actual parser",
+      "evidence": "Cannot read registry C:\\Users\\无语\\AppData\\Local\\Temp\\registry-negative-evidence-v1_r63w4\\unsafe_yaml.yaml: could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/apply:builtins.print'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/apply:builtins.p ... \n    ^",
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "actual": "0823a79ea1f98729ddbb2c3e4715eb711ea0c3b37f0bf52fa4e33d38ee59db3d",
+      "check_id": "R09",
+      "description": "Registry YAML serialization roundtrip",
+      "evidence": "Temporary copy only; safe_dump + actual load_registry",
+      "expected": "0823a79ea1f98729ddbb2c3e4715eb711ea0c3b37f0bf52fa4e33d38ee59db3d",
+      "status": "PASS"
+    },
+    {
+      "actual": true,
+      "check_id": "R10",
+      "description": "Every schema enum resolves through YAML",
+      "evidence": "schema nested definitions and actual YAML entries",
+      "expected": true,
+      "status": "PASS"
+    }
+  ],
+  "core_count": 14,
+  "created_during_acceptance_evidence_completion": true,
+  "deferred_relations": {
+    "INSTANCE_OF": "absent",
+    "LOCATED_IN": "absent"
+  },
+  "enum_count": 15,
+  "files": [
+    {
+      "path": "registries/v0_3/analysis_contexts.yaml",
+      "sha256": "64e65aac345bdf139b346733189f0312626e7a60cdbb11adf555ae1f46940ed1",
+      "size": 2048
+    },
+    {
+      "path": "registries/v0_3/comparison_types.yaml",
+      "sha256": "76affdd6f548c81622418f0292fe365f9aa9856f0b63bef07015f0934ef456cb",
+      "size": 3858
+    },
+    {
+      "path": "registries/v0_3/expression_levels.yaml",
+      "sha256": "9fd353f9763c10d04ec470d30d45c3bdf76ea2a55d48b65be274185740731fbd",
+      "size": 1618
+    },
+    {
+      "path": "registries/v0_3/failure_types.yaml",
+      "sha256": "fb240810099a4a0cb0379c52762d5083f719b94655a335152c127ddd02746af8",
+      "size": 3156
+    },
+    {
+      "path": "registries/v0_3/heuristic_statuses.yaml",
+      "sha256": "f8a4d765e717472cd4f26aaf3429b59275a44984dd8e85d9c9cdea3ab6ff297d",
+      "size": 717
+    },
+    {
+      "path": "registries/v0_3/identity_policies.yaml",
+      "sha256": "784e7091a6474f553a442e0c56229bab8bd59b7ca5bcba9ab632bff178eb1855",
+      "size": 1791
+    },
+    {
+      "path": "registries/v0_3/object_types.yaml",
+      "sha256": "78f10e4caa84b4deb8ad2c93213ca7a906f40fcebbc6e36dc8ee809e0a270987",
+      "size": 5459
+    },
+    {
+      "path": "registries/v0_3/recognition_stages.yaml",
+      "sha256": "d79a8ed445389d707f53274cf17f643eeed4bafd4d053d952547f34046658110",
+      "size": 3603
+    },
+    {
+      "path": "registries/v0_3/recurrence_matches.yaml",
+      "sha256": "81c696f89f964f06917349b17ccbba3f34208b8d690beac703b20c1ce4c73f29",
+      "size": 1772
+    },
+    {
+      "path": "registries/v0_3/recurrence_statuses.yaml",
+      "sha256": "b4db3430b04af33a52d8778469f43749ad06ae463e7c0c237153ce257265c2a0",
+      "size": 1573
+    },
+    {
+      "path": "registries/v0_3/relations.yaml",
+      "sha256": "a7bb863e2060df6f79c29ceef7863fa144f3432c007ac6d31b8bbca98261153e",
+      "size": 4412
+    },
+    {
+      "path": "registries/v0_3/resolution_statuses.yaml",
+      "sha256": "3c147c96d692f82b5bc57f686de063a171a302846dc998f52bf0d084ca1bf827",
+      "size": 1589
+    },
+    {
+      "path": "registries/v0_3/review_statuses.yaml",
+      "sha256": "9bbd06ee76b0a5bd3ed4b9438839a17ab4784299c33983b55f7b473ea51d83b5",
+      "size": 956
+    },
+    {
+      "path": "registries/v0_3/schema_versions.yaml",
+      "sha256": "05dbef478ecef7379373376967824c935c25b91b125cc948bc015e1c155c0928",
+      "size": 305
+    },
+    {
+      "path": "registries/v0_3/semantic_roles.yaml",
+      "sha256": "52eac4c403bf5f298bca56d985b0bd94d89294b07fe75d900b02c6264b29fc87",
+      "size": 6264
+    },
+    {
+      "path": "registries/v0_3/signal_types.yaml",
+      "sha256": "17fb0c3e2766c5cd1fc95294f9b68aaf97e8879e34fcb14162cc887471def9bf",
+      "size": 2627
+    },
+    {
+      "path": "registries/v0_3/transferabilities.yaml",
+      "sha256": "7540e0f92896c4b399ad23607627764d3bdef9a093d05e842cedab038c83b9ad",
+      "size": 1332
+    },
+    {
+      "path": "registries/v0_3/value_kinds.yaml",
+      "sha256": "bf7dd53059f55c5254b5f99e0de1c9d0898ec3d7153956b0d8c2da9562f36332",
+      "size": 1536
+    },
+    {
+      "path": "registries/v0_3/verification_statuses.yaml",
+      "sha256": "ca2145ce2ce9d00fc0d08cf9792a24c969d9ad99f27cddcbb9ff6531d223f58b",
+      "size": 2330
+    }
+  ],
+  "negative_tests": [
+    {
+      "case": "duplicate_yaml_key",
+      "error": "Duplicate YAML mapping key: entries",
+      "input": "entries: []\nentries: []\n",
+      "rejected": true
+    },
+    {
+      "case": "unsafe_yaml",
+      "error": "Cannot read registry C:\\Users\\无语\\AppData\\Local\\Temp\\registry-negative-evidence-v1_r63w4\\unsafe_yaml.yaml: could not determine a constructor for the tag 'tag:yaml.org,2002:python/object/apply:builtins.print'\n  in \"<unicode string>\", line 1, column 1:\n    !!python/object/apply:builtins.p ... \n    ^",
+      "input": "!!python/object/apply:builtins.print ['UNSAFE_TAG_MUST_NOT_EXECUTE']",
+      "rejected": true
+    }
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "relations": [
+    {
+      "introduced_in": "0.1.0",
+      "name": "ASSERTED_BY",
+      "semantic_description": "Claim claimant attribution; identity evidence remains required.",
+      "source_refs": [
+        "core_objects.json#Claim; P15"
+      ],
+      "source_types": [
+        "Claim"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Actor"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "SUPPORTED_BY",
+      "semantic_description": "Recorded support reference, not truth propagation or sufficient evidence.",
+      "source_refs": [
+        "P01/P02/B03; Frozen Argument and StructuralProcess"
+      ],
+      "source_types": [
+        "Claim",
+        "Thesis",
+        "Argument",
+        "StructuralProcess",
+        "Contradiction"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Source",
+        "SourceSegment",
+        "Claim",
+        "Event",
+        "IndicatorObservation",
+        "Policy",
+        "Argument"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "DERIVED_FROM",
+      "semantic_description": "Recorded derivation with reasoner attribution; no causal validity assertion.",
+      "source_refs": [
+        "P15/P16; Argument graph"
+      ],
+      "source_types": [
+        "Claim",
+        "Argument",
+        "IndicatorObservation"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Claim",
+        "Argument",
+        "SourceSegment",
+        "IndicatorObservation"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "OBSERVED_AS",
+      "semantic_description": "Variable definition to time-specific observation.",
+      "source_refs": [
+        "B05/P06"
+      ],
+      "source_types": [
+        "Indicator"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "IndicatorObservation"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "USES_MECHANISM",
+      "semantic_description": "Usage does not establish mechanism authorship.",
+      "source_refs": [
+        "B07/B14/P09"
+      ],
+      "source_types": [
+        "Argument",
+        "MechanismUsage"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Mechanism"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "REFERS_TO",
+      "semantic_description": "Explicit evaluation or review target; no target mutation.",
+      "source_refs": [
+        "B10/B11"
+      ],
+      "source_types": [
+        "Assessment",
+        "ReviewQueueItem"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Source",
+        "Claim",
+        "Event",
+        "StructuralProcess",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Mechanism",
+        "Argument",
+        "Thesis",
+        "Forecast",
+        "Contradiction",
+        "Assessment",
+        "Heuristic",
+        "SourceVersion",
+        "SourceSegment",
+        "SourceFamily",
+        "ClaimOccurrence",
+        "TranscriptCorrection",
+        "IndicatorObservation",
+        "InformationSet",
+        "ExpectationSnapshot",
+        "Scenario",
+        "ReviewQueueItem",
+        "AnalystMethodSignal",
+        "MechanismUsage"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "CONTRADICTS",
+      "semantic_description": "Recorded claim disagreement; not the Core structural Contradiction type.",
+      "source_refs": [
+        "core_objects.json#Contradiction coverage_note"
+      ],
+      "source_types": [
+        "Claim"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Claim"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "PART_OF",
+      "semantic_description": "Source segment membership in carrier or captured version.",
+      "source_refs": [
+        "B01; provenance_contract"
+      ],
+      "source_types": [
+        "SourceSegment"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "SourceVersion",
+        "Source"
+      ]
+    },
+    {
+      "introduced_in": "0.1.0",
+      "name": "VERSION_OF",
+      "semantic_description": "Versioned carrier reference, distinct from URL identity.",
+      "source_refs": [
+        "P13; provenance_contract"
+      ],
+      "source_types": [
+        "SourceVersion"
+      ],
+      "status": "candidate",
+      "target_types": [
+        "Source"
+      ]
+    }
+  ],
+  "schema_enum_resolution": [
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "Claim",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "Mechanism",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "Argument",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "enum": "ExpressionLevel",
+      "match": true,
+      "model": "Argument",
+      "registry_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "Forecast",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "not_applicable",
+        "not_evaluated",
+        "not_yet_evaluated",
+        "pending_review",
+        "unknown"
+      ],
+      "enum": "ResolutionStatus",
+      "match": true,
+      "model": "Forecast",
+      "registry_values": [
+        "not_applicable",
+        "not_evaluated",
+        "not_yet_evaluated",
+        "pending_review",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "verified",
+        "likely_true",
+        "uncertain",
+        "disputed",
+        "likely_false",
+        "false",
+        "unverifiable",
+        "unknown"
+      ],
+      "enum": "VerificationStatus",
+      "match": true,
+      "model": "Assessment",
+      "registry_values": [
+        "verified",
+        "likely_true",
+        "uncertain",
+        "disputed",
+        "likely_false",
+        "false",
+        "unverifiable",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "candidate",
+        "unknown"
+      ],
+      "enum": "HeuristicStatus",
+      "match": true,
+      "model": "Heuristic",
+      "registry_values": [
+        "candidate",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "none",
+        "yoy",
+        "qoq",
+        "mom",
+        "sequential",
+        "versus_consensus",
+        "versus_guidance",
+        "versus_baseline",
+        "versus_prior_period",
+        "percentage_point_change",
+        "absolute_delta",
+        "indexed_to",
+        "other",
+        "unknown"
+      ],
+      "enum": "ComparisonType",
+      "match": true,
+      "model": "IndicatorObservation",
+      "registry_values": [
+        "none",
+        "yoy",
+        "qoq",
+        "mom",
+        "sequential",
+        "versus_consensus",
+        "versus_guidance",
+        "versus_baseline",
+        "versus_prior_period",
+        "percentage_point_change",
+        "absolute_delta",
+        "indexed_to",
+        "other",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "planned",
+        "contracted",
+        "ordered",
+        "committed",
+        "delivered",
+        "deployed",
+        "utilized",
+        "revenue_recognized",
+        "cash_collected",
+        "expensed",
+        "depreciated",
+        "impaired",
+        "unknown"
+      ],
+      "enum": "RecognitionStage",
+      "match": true,
+      "model": "IndicatorObservation",
+      "registry_values": [
+        "planned",
+        "contracted",
+        "ordered",
+        "committed",
+        "delivered",
+        "deployed",
+        "utilized",
+        "revenue_recognized",
+        "cash_collected",
+        "expensed",
+        "depreciated",
+        "impaired",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "demand",
+        "order",
+        "contract",
+        "backlog",
+        "obligation",
+        "revenue",
+        "cash_receipt",
+        "capacity",
+        "utilization",
+        "asset",
+        "capex",
+        "depreciation",
+        "impairment",
+        "operating_expense",
+        "operating_cost",
+        "cash_flow",
+        "profit",
+        "margin",
+        "valuation",
+        "price",
+        "volume",
+        "inventory",
+        "other",
+        "unknown"
+      ],
+      "enum": "SemanticRole",
+      "match": true,
+      "model": "IndicatorObservation",
+      "registry_values": [
+        "demand",
+        "order",
+        "contract",
+        "backlog",
+        "obligation",
+        "revenue",
+        "cash_receipt",
+        "capacity",
+        "utilization",
+        "asset",
+        "capex",
+        "depreciation",
+        "impairment",
+        "operating_expense",
+        "operating_cost",
+        "cash_flow",
+        "profit",
+        "margin",
+        "valuation",
+        "price",
+        "volume",
+        "inventory",
+        "other",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "target",
+        "design_capacity",
+        "guidance",
+        "observed_value",
+        "unknown"
+      ],
+      "enum": "ValueKind",
+      "match": true,
+      "model": "IndicatorObservation",
+      "registry_values": [
+        "target",
+        "design_capacity",
+        "guidance",
+        "observed_value",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "InformationSet",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "open",
+        "resolved",
+        "unknown"
+      ],
+      "enum": "ReviewStatus",
+      "match": true,
+      "model": "ReviewQueueItem",
+      "registry_values": [
+        "open",
+        "resolved",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "enum": "AnalysisContext",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "enum": "ExpressionLevel",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "dimensional_error",
+        "scope_shift",
+        "denominator_shift",
+        "temporal_mismatch",
+        "unsupported_causal_jump",
+        "motive_overreach",
+        "analogy_overreach",
+        "object_role_shift",
+        "closed_explanation",
+        "other",
+        "unknown"
+      ],
+      "enum": "FailureType",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "dimensional_error",
+        "scope_shift",
+        "denominator_shift",
+        "temporal_mismatch",
+        "unsupported_causal_jump",
+        "motive_overreach",
+        "analogy_overreach",
+        "object_role_shift",
+        "closed_explanation",
+        "other",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "none",
+        "exact",
+        "partial",
+        "analogous",
+        "uncertain",
+        "unknown"
+      ],
+      "enum": "RecurrenceMatch",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "none",
+        "exact",
+        "partial",
+        "analogous",
+        "uncertain",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "first_observation",
+        "repeated",
+        "frequent",
+        "candidate_pattern",
+        "unknown"
+      ],
+      "enum": "RecurrenceStatus",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "first_observation",
+        "repeated",
+        "frequent",
+        "candidate_pattern",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "analogy_pattern",
+        "attention_pattern",
+        "branching_pattern",
+        "evidence_preference",
+        "failure_pattern",
+        "judgment_pattern",
+        "mechanism_usage",
+        "question_pattern",
+        "unknown"
+      ],
+      "enum": "SignalType",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "analogy_pattern",
+        "attention_pattern",
+        "branching_pattern",
+        "evidence_preference",
+        "failure_pattern",
+        "judgment_pattern",
+        "mechanism_usage",
+        "question_pattern",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "analyst_specific",
+        "domain_specific",
+        "potentially_general",
+        "unknown"
+      ],
+      "enum": "Transferability",
+      "match": true,
+      "model": "AnalystMethodSignal",
+      "registry_values": [
+        "analyst_specific",
+        "domain_specific",
+        "potentially_general",
+        "unknown"
+      ]
+    },
+    {
+      "actual_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "enum": "ExpressionLevel",
+      "match": true,
+      "model": "MechanismUsage",
+      "registry_values": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ]
+    }
+  ],
+  "started_at": "2026-09-27T14:09:06.462553+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "run": "run_001",
+  "report": "phase1/method_comparison/run_001/REPORT.md",
+  "trace": "phase1/method_comparison/run_001/TRACE.html",
+  "status": "PARTIAL_METHOD_ALIGNMENT_NOT_FULL_FIDELITY_ACCEPTANCE",
+  "framework_modified": false
+}

@@ -1,0 +1,1 @@
+{"checks": 41, "totals": {"candidate_objects": 3211, "active_objects": 2779, "normalized_claims": 121, "active_claims": 83, "active_arguments": 19, "nonreference_indeterminate": 53}, "status": "SEMANTIC001_FEEDBACK_IMPLEMENTED"}

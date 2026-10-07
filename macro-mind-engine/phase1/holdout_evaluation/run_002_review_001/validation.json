@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "checks": [
+    "source version and IDs verified",
+    "archive byte equality",
+    "all prior sealed files unchanged",
+    "replacement body and boundaries match user text",
+    "continuous quote ranges match already-read transcript"
+  ],
+  "semantic_status": "R03 accepted; R01/R02 original requires revision, user replacements applied; no separate reapproval claimed"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "PARTIAL_RECONSTRUCTION_NOT_COMPLETE_MEMORY",
+  "cutoff_rule": "Target N uses only observed_episode < N, with publication order separately established. Do not backdate retrospective claims.",
+  "entries": [
+    {
+      "id": "S472-control",
+      "observed_episode": 472,
+      "evidence_ref": "D472A",
+      "belief": "作者认为以色列管理脱节，以此解释拜登临时到访。",
+      "author_force": "strong_assertion",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S472-time",
+      "observed_episode": 472,
+      "evidence_ref": "D472C",
+      "belief": "到访争取起码3—5天和平，同时承认与会议的因果说不清。",
+      "author_force": "mixed_requires_split",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S473-cooperation",
+      "observed_episode": 473,
+      "evidence_ref": "D473B",
+      "belief": "合作发展力量可缓和供应风险预期，因中东失序而油价暴涨的剧本不太可能。",
+      "author_force": "directional_judgment",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S474-branches",
+      "observed_episode": 474,
+      "evidence_ref": "D474A",
+      "belief": "有意施压与非预期失控两支，后续是否继续袭击民用设施用作区分观察。",
+      "author_force": "hypotheses",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S474-iran",
+      "observed_episode": 474,
+      "evidence_ref": "D474B",
+      "belief": "伊朗未来一定下场；形式与期限未在此卡完整界定。",
+      "author_force": "strong_assertion",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S475-policy",
+      "observed_episode": 475,
+      "evidence_ref": "D475A",
+      "belief": "倾向不再加息，高息持续起作用，油价暴涨保留为例外。",
+      "author_force": "directional_judgment",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S475-channel",
+      "observed_episode": 475,
+      "evidence_ref": "D475B",
+      "belief": "消费上涨被作者称为证实旧注水判断，但具体管道看不到。",
+      "author_force": "claimed_confirmation",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    },
+    {
+      "id": "S475-priority",
+      "observed_episode": 475,
+      "evidence_ref": "D475C",
+      "belief": "国内调整优先与美以等待成本冲突，作者强断言美国不会被绑定。",
+      "author_force": "strong_assertion",
+      "verification_status": "NOT_INDEPENDENTLY_VERIFIED",
+      "earliest_original_statement": "UNKNOWN",
+      "available_for_own_episode_transfer": false,
+      "author": "ASSISTANT_RECONSTRUCTION"
+    }
+  ],
+  "missing_history": [
+    "完整472期之前状态",
+    "475提及旧观点的原始首发记录",
+    "完整更新与撤回关系"
+  ]
+}

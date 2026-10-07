@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="60" skipped="0" tests="72" time="1.567" timestamp="2026-10-02T23:59:41.377019+08:00" hostname="DESKTOP-L2SRCBH"><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[UNREVIEWED-UNREVIEWED]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'UNREVIEWED', right = 'UNREVIEWED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[UNREVIEWED-CANDIDATE]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'UNREVIEWED', right = 'CANDIDATE'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[UNREVIEWED-CONFIRMED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'UNREVIEWED', right = 'CONFIRMED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[UNREVIEWED-REJECTED]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'UNREVIEWED', right = 'REJECTED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CANDIDATE-UNREVIEWED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CANDIDATE', right = 'UNREVIEWED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CANDIDATE-CANDIDATE]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CANDIDATE', right = 'CANDIDATE'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CANDIDATE-CONFIRMED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CANDIDATE', right = 'CONFIRMED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CANDIDATE-REJECTED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CANDIDATE', right = 'REJECTED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CONFIRMED-UNREVIEWED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CONFIRMED', right = 'UNREVIEWED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CONFIRMED-CANDIDATE]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CONFIRMED', right = 'CANDIDATE'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CONFIRMED-CONFIRMED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CONFIRMED', right = 'CONFIRMED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[CONFIRMED-REJECTED]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'CONFIRMED', right = 'REJECTED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[REJECTED-UNREVIEWED]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'REJECTED', right = 'UNREVIEWED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[REJECTED-CANDIDATE]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'REJECTED', right = 'CANDIDATE'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[REJECTED-CONFIRMED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'REJECTED', right = 'CONFIRMED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_review_matrix[REJECTED-REJECTED]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">left = 'REJECTED', right = 'REJECTED'
+
+    @pytest.mark.parametrize("left,right", list(product(["UNREVIEWED", "CANDIDATE", "CONFIRMED", "REJECTED"], repeat=2)))
+    def test_review_matrix(left, right):
+&gt;       result = build([annotation(status=left), annotation(reviewer="bob", status=right)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[None-None]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = None, thread2 = None
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[None-T]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = None, thread2 = 'T'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[None-U]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = None, thread2 = 'U'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[T-None]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'T', thread2 = None
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[T-T]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'T', thread2 = 'T'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[T-U]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'T', thread2 = 'U'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[U-None]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'U', thread2 = None
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[U-T]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'U', thread2 = 'T'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_thread_matrix[U-U]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">thread1 = 'U', thread2 = 'U'
+
+    @pytest.mark.parametrize("thread1,thread2", list(product([None,"T","U"], repeat=2)))
+    def test_thread_matrix(thread1,thread2):
+&gt;       result = build([annotation(thread=thread1), annotation(reviewer="bob", thread=thread2)])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_candidate_cannot_borrow_confirmation" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_candidate_cannot_borrow_confirmation():
+&gt;       result = build([annotation(thread=None), annotation(reviewer="bob", status="CANDIDATE")])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:66: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_unresolved_candidate_conflicts_with_confirmed_thread" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_unresolved_candidate_conflicts_with_confirmed_thread():
+&gt;       result = build([annotation(), annotation(reviewer="bob", status="CANDIDATE", thread="unknown")])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:72: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_relation_identity_direction_kind_and_exclusions" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_relation_identity_direction_kind_and_exclusions():
+&gt;       r = build([annotation(), annotation(reviewer="bob",thread="U"), annotation(reviewer="carol", subject="B",related="A"), annotation(reviewer="dave",kind="COUNTER_EVIDENCE")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:78: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_no_transitive_or_cross_relation_conflict" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_no_transitive_or_cross_relation_conflict():
+&gt;       r = build([annotation(), annotation(reviewer="bob",subject="B",related="C"), annotation(reviewer="carol",thread="U")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_membership_dedup_complete_proof_and_reverse_indexes" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_membership_dedup_complete_proof_and_reverse_indexes():
+&gt;       v = verified([annotation(), annotation(reviewer="bob"), annotation(subject="B",related="C")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:95: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_self_relation_retains_both_roles" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_self_relation_retains_both_roles():
+&gt;       r = build([annotation(related="A")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:108: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_duplicate_ids_are_hard_errors[change0]" time="0.002"><failure message="AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'DUPLICATE_ANNOTATION_ID'&#10;  &#10;  - DUPLICATE_ANNOTATION_ID&#10;  + SNAPSHOT_SEMANTIC_MISMATCH">change = {}
+
+    @pytest.mark.parametrize("change", [{}, {"created_at":"2026-01-01T00:00:00Z"}, {"review_notes":"different"}, {"review_status":"REJECTED"}])
+    def test_duplicate_ids_are_hard_errors(change):
+        a = annotation()
+        with pytest.raises(ContinuityIndexError) as error:
+            verified([a,{**a,**change}])
+&gt;       assert error.value.code == ("DUPLICATE_ANNOTATION_ID" if not change else "ANNOTATION_ID_CONTENT_CONFLICT")
+E       AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'DUPLICATE_ANNOTATION_ID'
+E         
+E         - DUPLICATE_ANNOTATION_ID
+E         + SNAPSHOT_SEMANTIC_MISMATCH
+
+tests\audit_continuity\test_continuity.py:119: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_duplicate_ids_are_hard_errors[change1]" time="0.001"><failure message="AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'&#10;  &#10;  - ANNOTATION_ID_CONTENT_CONFLICT&#10;  + SNAPSHOT_SEMANTIC_MISMATCH">change = {'created_at': '2026-01-01T00:00:00Z'}
+
+    @pytest.mark.parametrize("change", [{}, {"created_at":"2026-01-01T00:00:00Z"}, {"review_notes":"different"}, {"review_status":"REJECTED"}])
+    def test_duplicate_ids_are_hard_errors(change):
+        a = annotation()
+        with pytest.raises(ContinuityIndexError) as error:
+            verified([a,{**a,**change}])
+&gt;       assert error.value.code == ("DUPLICATE_ANNOTATION_ID" if not change else "ANNOTATION_ID_CONTENT_CONFLICT")
+E       AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'
+E         
+E         - ANNOTATION_ID_CONTENT_CONFLICT
+E         + SNAPSHOT_SEMANTIC_MISMATCH
+
+tests\audit_continuity\test_continuity.py:119: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_duplicate_ids_are_hard_errors[change2]" time="0.002"><failure message="AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'&#10;  &#10;  - ANNOTATION_ID_CONTENT_CONFLICT&#10;  + SNAPSHOT_SEMANTIC_MISMATCH">change = {'review_notes': 'different'}
+
+    @pytest.mark.parametrize("change", [{}, {"created_at":"2026-01-01T00:00:00Z"}, {"review_notes":"different"}, {"review_status":"REJECTED"}])
+    def test_duplicate_ids_are_hard_errors(change):
+        a = annotation()
+        with pytest.raises(ContinuityIndexError) as error:
+            verified([a,{**a,**change}])
+&gt;       assert error.value.code == ("DUPLICATE_ANNOTATION_ID" if not change else "ANNOTATION_ID_CONTENT_CONFLICT")
+E       AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'
+E         
+E         - ANNOTATION_ID_CONTENT_CONFLICT
+E         + SNAPSHOT_SEMANTIC_MISMATCH
+
+tests\audit_continuity\test_continuity.py:119: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_duplicate_ids_are_hard_errors[change3]" time="0.001"><failure message="AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'&#10;  &#10;  - ANNOTATION_ID_CONTENT_CONFLICT&#10;  + SNAPSHOT_SEMANTIC_MISMATCH">change = {'review_status': 'REJECTED'}
+
+    @pytest.mark.parametrize("change", [{}, {"created_at":"2026-01-01T00:00:00Z"}, {"review_notes":"different"}, {"review_status":"REJECTED"}])
+    def test_duplicate_ids_are_hard_errors(change):
+        a = annotation()
+        with pytest.raises(ContinuityIndexError) as error:
+            verified([a,{**a,**change}])
+&gt;       assert error.value.code == ("DUPLICATE_ANNOTATION_ID" if not change else "ANNOTATION_ID_CONTENT_CONFLICT")
+E       AssertionError: assert 'SNAPSHOT_SEMANTIC_MISMATCH' == 'ANNOTATION_I...TENT_CONFLICT'
+E         
+E         - ANNOTATION_ID_CONTENT_CONFLICT
+E         + SNAPSHOT_SEMANTIC_MISMATCH
+
+tests\audit_continuity\test_continuity.py:119: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_confirmed_never_downgraded[change0]" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'CONTRACT_VALIDATION_ERROR'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">change = {'reviewer': None}
+
+    @pytest.mark.parametrize("change", [{"reviewer":None},{"reviewer":"  "},{"subject_ref":"missing"},{"related_ref":"missing"},{"thread_ref":"missing"}])
+    def test_invalid_confirmed_never_downgraded(change):
+&gt;       with pytest.raises(ContinuityIndexError, match="CONTRACT_VALIDATION_ERROR"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'CONTRACT_VALIDATION_ERROR'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:124: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_confirmed_never_downgraded[change1]" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'CONTRACT_VALIDATION_ERROR'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">change = {'reviewer': '  '}
+
+    @pytest.mark.parametrize("change", [{"reviewer":None},{"reviewer":"  "},{"subject_ref":"missing"},{"related_ref":"missing"},{"thread_ref":"missing"}])
+    def test_invalid_confirmed_never_downgraded(change):
+&gt;       with pytest.raises(ContinuityIndexError, match="CONTRACT_VALIDATION_ERROR"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'CONTRACT_VALIDATION_ERROR'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:124: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_confirmed_never_downgraded[change2]" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'CONTRACT_VALIDATION_ERROR'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">change = {'subject_ref': 'missing'}
+
+    @pytest.mark.parametrize("change", [{"reviewer":None},{"reviewer":"  "},{"subject_ref":"missing"},{"related_ref":"missing"},{"thread_ref":"missing"}])
+    def test_invalid_confirmed_never_downgraded(change):
+&gt;       with pytest.raises(ContinuityIndexError, match="CONTRACT_VALIDATION_ERROR"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'CONTRACT_VALIDATION_ERROR'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:124: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_confirmed_never_downgraded[change3]" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'CONTRACT_VALIDATION_ERROR'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">change = {'related_ref': 'missing'}
+
+    @pytest.mark.parametrize("change", [{"reviewer":None},{"reviewer":"  "},{"subject_ref":"missing"},{"related_ref":"missing"},{"thread_ref":"missing"}])
+    def test_invalid_confirmed_never_downgraded(change):
+&gt;       with pytest.raises(ContinuityIndexError, match="CONTRACT_VALIDATION_ERROR"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'CONTRACT_VALIDATION_ERROR'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:124: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_confirmed_never_downgraded[change4]" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'CONTRACT_VALIDATION_ERROR'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">change = {'thread_ref': 'missing'}
+
+    @pytest.mark.parametrize("change", [{"reviewer":None},{"reviewer":"  "},{"subject_ref":"missing"},{"related_ref":"missing"},{"thread_ref":"missing"}])
+    def test_invalid_confirmed_never_downgraded(change):
+&gt;       with pytest.raises(ContinuityIndexError, match="CONTRACT_VALIDATION_ERROR"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'CONTRACT_VALIDATION_ERROR'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:124: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_resolution_claim_is_recomputed_preserved" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_resolution_claim_is_recomputed_preserved():
+&gt;       r = build([annotation(status="CANDIDATE",subject="missing",resolution_status="RESOLVED")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:129: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_payload_cannot_supply_known_refs" time="0.001"><failure message="AssertionError: Regex pattern did not match.&#10;  Expected regex: 'PAYLOAD_KNOWN_REFS_FORBIDDEN'&#10;  Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '">def test_payload_cannot_supply_known_refs():
+&gt;       with pytest.raises(ContinuityIndexError, match="PAYLOAD_KNOWN_REFS_FORBIDDEN"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AssertionError: Regex pattern did not match.
+E         Expected regex: 'PAYLOAD_KNOWN_REFS_FORBIDDEN'
+E         Actual message: 'SNAPSHOT_SEMANTIC_MISMATCH: '
+
+tests\audit_continuity\test_continuity.py:139: AssertionError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_exact_refs_without_type_prefix_inference" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_exact_refs_without_type_prefix_inference():
+&gt;       r = build([annotation(subject=" A",status="CANDIDATE")])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:144: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_empty_real_and_three_identical_runs" time="0.002" /><testcase classname="tests.audit_continuity.test_continuity" name="test_order_filename_and_prose_invariant" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_order_filename_and_prose_invariant():
+        payloads=[annotation(),annotation(reviewer="bob",subject="B",related="C")]
+&gt;       original=build(payloads)
+                 ^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:159: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:39: in build
+    return ContinuityIndexer.build(verified(payloads, **kwargs))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_raw_bytes_unchanged_and_confirmed_reload" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">def test_raw_bytes_unchanged_and_confirmed_reload():
+        b,a,t=fixture([annotation()])
+        before=deepcopy(a)
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:171: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[{&quot;x&quot;:1,&quot;x&quot;:2}]" time="0.002" /><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[{&quot;x&quot;:NaN}]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[{&quot;x&quot;:Infinity}]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[{&quot;x&quot;:1e999}]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[\xff]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_strict_json[{]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[artifact]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'artifact'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[authority]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'authority'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[version]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'version'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[trust_hash]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'trust_hash'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[mixed]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'mixed'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[manifest]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'manifest'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[payload]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'payload'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[bundle_hash]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'bundle_hash'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[missing_source]" time="0.002"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'missing_source'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_untrusted_input_hard_errors[missing_snapshot]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'missing_snapshot'
+
+    @pytest.mark.parametrize("mutation", ["artifact", "authority", "version", "trust_hash", "mixed", "manifest", "payload", "bundle_hash", "missing_source", "missing_snapshot"])
+    def test_untrusted_input_hard_errors(mutation):
+        b,a,t=fixture([annotation()])
+&gt;       raw=serialize_input_bundle(b,a,t)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_snapshot_even_when_re_pinned[duplicate]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_snapshot_even_when_re_pinned[pointer]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_snapshot_even_when_re_pinned[hash]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_snapshot_even_when_re_pinned[semantic]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_invalid_snapshot_even_when_re_pinned[undeclared]" time="0.001" /><testcase classname="tests.audit_continuity.test_continuity" name="test_output_tampering[bytes]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'bytes'
+
+    @pytest.mark.parametrize("mutation", ["bytes","semantic","reverse","membership","provenance"])
+    def test_output_tampering(mutation):
+&gt;       v=verified([annotation()])
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_output_tampering[semantic]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'semantic'
+
+    @pytest.mark.parametrize("mutation", ["bytes","semantic","reverse","membership","provenance"])
+    def test_output_tampering(mutation):
+&gt;       v=verified([annotation()])
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_output_tampering[reverse]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'reverse'
+
+    @pytest.mark.parametrize("mutation", ["bytes","semantic","reverse","membership","provenance"])
+    def test_output_tampering(mutation):
+&gt;       v=verified([annotation()])
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_output_tampering[membership]" time="0.001"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'membership'
+
+    @pytest.mark.parametrize("mutation", ["bytes","semantic","reverse","membership","provenance"])
+    def test_output_tampering(mutation):
+&gt;       v=verified([annotation()])
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase><testcase classname="tests.audit_continuity.test_continuity" name="test_output_tampering[provenance]" time="0.055"><failure message="macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:">mutation = 'provenance'
+
+    @pytest.mark.parametrize("mutation", ["bytes","semantic","reverse","membership","provenance"])
+    def test_output_tampering(mutation):
+&gt;       v=verified([annotation()])
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\audit_continuity\test_continuity.py:226: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+tests\audit_continuity\test_continuity.py:34: in verified
+    raw = serialize_input_bundle(bundle, artifacts, trusted)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:65: in serialize_input_bundle
+    value["deterministic_hash"] = semantic_hash(decode(verified, check_semantic=False)[4])
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\inputs.py:30: in decode
+    snapshot = verify_snapshot(artifacts[bundle.resolution_snapshot], artifacts, trusted)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+src\macromind\audit\continuity_index\resolution.py:42: in verify_snapshot
+    require(semantic_hash(snapshot.semantic_payload()) == snapshot.semantic_hash, "SNAPSHOT_SEMANTIC_MISMATCH")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, code = 'SNAPSHOT_SEMANTIC_MISMATCH', location = ''
+
+    def require(condition, code, location=""):
+        if not condition:
+&gt;           raise ContinuityIndexError(code, location)
+E           macromind.audit.continuity_index.models.ContinuityIndexError: SNAPSHOT_SEMANTIC_MISMATCH:
+
+src\macromind\audit\continuity_index\resolution.py:9: ContinuityIndexError</failure></testcase></testsuite></testsuites>

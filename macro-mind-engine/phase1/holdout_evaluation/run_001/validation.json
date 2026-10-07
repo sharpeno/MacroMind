@@ -1,0 +1,45 @@
+{
+  "engineering_pass": true,
+  "checks": [
+    "locked protocol, news and pre-exposure answer unchanged",
+    "answer freeze precedes recorded transcript exposure; hashes bound",
+    "framework and earlier sealed studies unmodified",
+    "643 indexed cues; six-rule coverage; continuous review excerpts match source transcript",
+    "472 marked exposed, 14 remain unread; no invented human pass or accuracy",
+    "source snapshot hashes/date bounds valid; missing source and contamination disclosed",
+    "negative checks: tampered answer digest and truncated quote rejected"
+  ],
+  "ui": {
+    "pass": true,
+    "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/holdout_evaluation/run_001/TRACE.html",
+    "flow": "load -> next pending -> expand evidence -> review -> refresh -> export/import",
+    "browser": "Edge via Playwright; Browser plugin not available",
+    "viewports": [
+      "1440x1000",
+      "390x844"
+    ],
+    "checks": [
+      "identity, nonblank, no overlay",
+      "next pending, continuous quote expansion and full episode link",
+      "revision note validation and refresh persistence",
+      "partial/full export and import roundtrip; completed does not mean accepted",
+      "version rejected without mutation",
+      "duplicate rejected without mutation",
+      "unknown rejected without mutation",
+      "choice rejected without mutation",
+      "desktop/mobile, no overflow, console clean"
+    ],
+    "errors": [],
+    "limitations": [
+      "other browsers untested",
+      "isolated test choices are not human review"
+    ]
+  },
+  "semantic_result": "PARTIAL_METHOD_TRANSFER_WITH_CORE_REASONING_GAP",
+  "human_review": "PENDING",
+  "limitations": [
+    "process timestamps are local records, not independent attestation",
+    "historical source contamination prevents clean temporal backtest",
+    "one case with unequal source access; no general accuracy conclusion"
+  ]
+}

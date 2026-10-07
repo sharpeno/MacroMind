@@ -1,0 +1,30 @@
+{
+  "samples": 3,
+  "same_assistant_nonblind": true,
+  "baseline_frozen": true,
+  "actions": [
+    {
+      "id": "EP002/C16",
+      "action": "revise",
+      "packet_status": "READY_FOR_HUMAN_REVIEW",
+      "semantic_acceptance": false
+    },
+    {
+      "id": "EP003/C16",
+      "action": "revise",
+      "packet_status": "READY_FOR_HUMAN_REVIEW",
+      "semantic_acceptance": false
+    },
+    {
+      "id": "EP005/C20",
+      "action": "retain",
+      "packet_status": "READY_FOR_HUMAN_REVIEW",
+      "semantic_acceptance": false
+    }
+  ],
+  "candidate_revisions": 2,
+  "retained": 1,
+  "human_labels": "PENDING",
+  "semantic_improvement_proven": false,
+  "canonical_changes": 0
+}

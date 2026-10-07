@@ -1,0 +1,13 @@
+
+=================================== ERRORS ====================================
+_________ ERROR collecting tests/audit_continuity/test_continuity.py __________
+import file mismatch:
+imported module 'test_continuity' has this __file__ attribute:
+  G:\youhegaojian\macro-mind-engine\tests\audit\test_continuity.py
+which is not the same as the test file we want to collect:
+  G:\youhegaojian\macro-mind-engine\tests\audit_continuity\test_continuity.py
+HINT: remove __pycache__ / .pyc files and/or use a unique basename for your test file modules
+=========================== short test summary info ===========================
+ERROR tests/audit_continuity/test_continuity.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.81s

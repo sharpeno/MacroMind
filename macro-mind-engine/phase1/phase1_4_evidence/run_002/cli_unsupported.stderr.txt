@@ -1,0 +1,1 @@
+{"duration": 0.205283, "errors": [], "input_paths": ["G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_4_evidence\\run_002\\cli_unknown.json"], "ontology_version": "0.3", "operation": "compatibility.adapt", "output_paths": [], "run_id": "ca771276-4b0f-4a0f-b34d-06496573c8ab", "version": "0.1.0", "warnings": []}

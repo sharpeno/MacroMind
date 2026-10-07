@@ -1,0 +1,155 @@
+{
+  "adapters": [
+    {
+      "adapter_id": "compat.summary_only_legacy",
+      "adapter_version": "0.1.0",
+      "allowed_operations": [
+        "COPY",
+        "RENAME",
+        "WRAP",
+        "FLATTEN",
+        "EXPAND_STRUCTURAL",
+        "ENUM_MAP",
+        "REF_MAP",
+        "DEFAULT_UNKNOWN",
+        "DROP_NONSEMANTIC",
+        "PRESERVE_RAW",
+        "QUARANTINE",
+        "UNSUPPORTED"
+      ],
+      "fixture_coverage": "targeted_real_artifact",
+      "implementation": "macromind.compatibility.adapters.summary_only",
+      "implementation_module": "macromind.compatibility.adapters.summary_only",
+      "known_limitations": [
+        "No semantic reconstruction; unknown/partial/quarantine are expected."
+      ],
+      "loss_profile": "PARTIAL: raw summary only; reconstruction forbidden",
+      "source_family": "SUMMARY_ONLY_LEGACY",
+      "supported": true,
+      "supported_status": "supported_conservatively",
+      "target_ontology_version": "0.3",
+      "target_schema_version": "0.1.0"
+    },
+    {
+      "adapter_id": "compat.legacy_pre_ma",
+      "adapter_version": "0.1.0",
+      "allowed_operations": [
+        "COPY",
+        "RENAME",
+        "WRAP",
+        "FLATTEN",
+        "EXPAND_STRUCTURAL",
+        "ENUM_MAP",
+        "REF_MAP",
+        "DEFAULT_UNKNOWN",
+        "DROP_NONSEMANTIC",
+        "PRESERVE_RAW",
+        "QUARANTINE",
+        "UNSUPPORTED"
+      ],
+      "fixture_coverage": "targeted_real_artifact",
+      "implementation": "macromind.compatibility.adapters.numbered",
+      "implementation_module": "macromind.compatibility.adapters.numbered",
+      "known_limitations": [
+        "No semantic reconstruction; unknown/partial/quarantine are expected."
+      ],
+      "loss_profile": "PARTIAL/LOSSY_BUT_SAFE: missing semantics unknown or quarantined",
+      "source_family": "LEGACY_PRE_MA",
+      "supported": true,
+      "supported_status": "supported_conservatively",
+      "target_ontology_version": "0.3",
+      "target_schema_version": "0.1.0"
+    },
+    {
+      "adapter_id": "compat.v0_3_legacy",
+      "adapter_version": "0.1.0",
+      "allowed_operations": [
+        "COPY",
+        "RENAME",
+        "WRAP",
+        "FLATTEN",
+        "EXPAND_STRUCTURAL",
+        "ENUM_MAP",
+        "REF_MAP",
+        "DEFAULT_UNKNOWN",
+        "DROP_NONSEMANTIC",
+        "PRESERVE_RAW",
+        "QUARANTINE",
+        "UNSUPPORTED"
+      ],
+      "fixture_coverage": "targeted_real_artifact",
+      "implementation": "macromind.compatibility.adapters.numbered",
+      "implementation_module": "macromind.compatibility.adapters.numbered",
+      "known_limitations": [
+        "No semantic reconstruction; unknown/partial/quarantine are expected."
+      ],
+      "loss_profile": "PARTIAL/LOSSY_BUT_SAFE: explicit fields only",
+      "source_family": "V0_3_LEGACY",
+      "supported": true,
+      "supported_status": "supported_conservatively",
+      "target_ontology_version": "0.3",
+      "target_schema_version": "0.1.0"
+    },
+    {
+      "adapter_id": "compat.ma1_compat",
+      "adapter_version": "0.1.0",
+      "allowed_operations": [
+        "COPY",
+        "RENAME",
+        "WRAP",
+        "FLATTEN",
+        "EXPAND_STRUCTURAL",
+        "ENUM_MAP",
+        "REF_MAP",
+        "DEFAULT_UNKNOWN",
+        "DROP_NONSEMANTIC",
+        "PRESERVE_RAW",
+        "QUARANTINE",
+        "UNSUPPORTED"
+      ],
+      "fixture_coverage": "targeted_real_artifact",
+      "implementation": "macromind.compatibility.adapters.numbered",
+      "implementation_module": "macromind.compatibility.adapters.numbered",
+      "known_limitations": [
+        "No semantic reconstruction; unknown/partial/quarantine are expected."
+      ],
+      "loss_profile": "Lossless only if every semantic field is representable; accepted history retained",
+      "source_family": "MA1_COMPAT",
+      "supported": true,
+      "supported_status": "supported_conservatively",
+      "target_ontology_version": "0.3",
+      "target_schema_version": "0.1.0"
+    },
+    {
+      "adapter_id": "compat.canonical_0_1",
+      "adapter_version": "0.1.0",
+      "allowed_operations": [
+        "COPY",
+        "RENAME",
+        "WRAP",
+        "FLATTEN",
+        "EXPAND_STRUCTURAL",
+        "ENUM_MAP",
+        "REF_MAP",
+        "DEFAULT_UNKNOWN",
+        "DROP_NONSEMANTIC",
+        "PRESERVE_RAW",
+        "QUARANTINE",
+        "UNSUPPORTED"
+      ],
+      "fixture_coverage": "canonical_schema_synthetic_passthrough_only",
+      "implementation": "macromind.compatibility.adapters.numbered",
+      "implementation_module": "macromind.compatibility.adapters.numbered",
+      "known_limitations": [
+        "No semantic reconstruction; unknown/partial/quarantine are expected."
+      ],
+      "loss_profile": "Canonical pass-through; unsupported shapes quarantined",
+      "source_family": "CANONICAL_0_1",
+      "supported": true,
+      "supported_status": "supported_conservatively",
+      "target_ontology_version": "0.3",
+      "target_schema_version": "0.1.0"
+    }
+  ],
+  "compatibility_version": "0.1.0"
+}

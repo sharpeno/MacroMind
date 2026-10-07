@@ -1,0 +1,386 @@
+{
+  "$defs": {
+    "AnalysisContext": {
+      "enum": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "title": "AnalysisContext",
+      "type": "string"
+    },
+    "ExpressionLevel": {
+      "enum": [
+        "explicit",
+        "strongly_implied",
+        "mixed_explicit_strongly_implied",
+        "model_reconstruction",
+        "unknown"
+      ],
+      "title": "ExpressionLevel",
+      "type": "string"
+    },
+    "ReasoningStep": {
+      "additionalProperties": false,
+      "properties": {
+        "analysis_context": {
+          "$ref": "#/$defs/AnalysisContext",
+          "description": "Context of this edge.",
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "P15"
+        },
+        "conclusion_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Conclusion node reference; None when unrecorded.",
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "Argument/P08",
+          "title": "Conclusion Ref"
+        },
+        "expression_level": {
+          "$ref": "#/$defs/ExpressionLevel",
+          "description": "Attribution of expression, separate from truth.",
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "P15/P16"
+        },
+        "id": {
+          "description": "Stable step identifier within an Argument.",
+          "field_origin": "implementation_extension",
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "title": "Id",
+          "type": "string"
+        },
+        "premises": {
+          "description": "Premise node references.",
+          "field_origin": "frozen_semantic_requirement",
+          "items": {
+            "minLength": 1,
+            "pattern": ".*\\S.*",
+            "type": "string"
+          },
+          "source_ref": "Argument/P08",
+          "title": "Premises",
+          "type": "array"
+        },
+        "reasoner_id": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reasoner of this specific edge; never inherited by inference.",
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "P15",
+          "title": "Reasoner Id"
+        },
+        "source_refs": {
+          "description": "Evidence for this edge.",
+          "field_origin": "frozen_semantic_requirement",
+          "items": {
+            "minLength": 1,
+            "pattern": ".*\\S.*",
+            "type": "string"
+          },
+          "source_ref": "P01/P15",
+          "title": "Source Refs",
+          "type": "array"
+        },
+        "statement": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "$ref": "#/$defs/UnknownValue"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Recorded inference, without judging its validity.",
+          "field_origin": "frozen_semantic_requirement",
+          "source_ref": "Argument/P08",
+          "title": "Statement"
+        }
+      },
+      "required": [
+        "id",
+        "premises",
+        "conclusion_ref",
+        "statement",
+        "expression_level",
+        "reasoner_id",
+        "analysis_context",
+        "source_refs"
+      ],
+      "title": "ReasoningStep",
+      "type": "object"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Argument",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Argument; ontology_version=0.3.",
+  "properties": {
+    "analysis_context": {
+      "$ref": "#/$defs/AnalysisContext",
+      "description": "Reconstruction versus diagnostic context",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "creator_shortcuts": {
+      "description": "Creator shortcuts retained as expressed",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Creator Shortcuts",
+      "type": "array"
+    },
+    "expression_level": {
+      "$ref": "#/$defs/ExpressionLevel",
+      "description": "Recorded expression level",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json"
+    },
+    "final_conclusion": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Final conclusion reference",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Final Conclusion"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "inferential_distance": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Recorded distance and counting basis; edge count is not longest path",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Inferential Distance"
+    },
+    "intermediate_conclusions": {
+      "description": "Intermediate conclusion nodes",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Intermediate Conclusions",
+      "type": "array"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "most_fragile_step": {
+      "anyOf": [
+        {
+          "items": {
+            "minLength": 1,
+            "pattern": ".*\\S.*",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Local step refs or paths; unknown allowed",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Most Fragile Step"
+    },
+    "object_type": {
+      "const": "Argument",
+      "default": "Argument",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "premises": {
+      "description": "Premise references",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Premises",
+      "type": "array"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Argument reasoner",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Reasoner Id"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_refs": {
+      "description": "Argument sources",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "steps": {
+      "description": "Attributed inference graph edges",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "$ref": "#/$defs/ReasoningStep"
+      },
+      "source_ref": "core_objects.json#Argument; core_principles.json",
+      "title": "Steps",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "premises",
+    "steps",
+    "intermediate_conclusions",
+    "final_conclusion",
+    "expression_level",
+    "reasoner_id",
+    "analysis_context",
+    "inferential_distance",
+    "creator_shortcuts",
+    "most_fragile_step",
+    "source_refs"
+  ],
+  "title": "Argument",
+  "type": "object"
+}

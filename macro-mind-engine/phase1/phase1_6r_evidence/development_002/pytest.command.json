@@ -1,0 +1,1 @@
+{"argv": ["G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe", "-m", "pytest", "tests/golden_regression", "-q", "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_6r_evidence\\development_002\\tests.xml"], "cwd": "G:\\youhegaojian\\macro-mind-engine", "status": "FINISHED", "exit_code": 0}

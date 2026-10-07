@@ -1,0 +1,166 @@
+{
+  "version": "timeline-1",
+  "id": "T0",
+  "as_of": "2024-08-23",
+  "mode": "retrospective_reconstruction",
+  "method_available_on": "2026-10-05",
+  "previous_sha256": null,
+  "coverage": "按日截止的公开材料选样，不是全新闻库或完整实时信息集；判断由已知后续结果的助手回看编写。",
+  "sources": [
+    {
+      "id": "signal",
+      "published": "2024-08-23",
+      "event_date": "2024-08-23",
+      "path": "phase1/method_timeline/run_001/sources/signal.json",
+      "sha256": "fb769639b044886621bd49df6616926f87274818052f23ffc444d1bdb0114b60",
+      "kind": "signal"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "policy",
+      "dimension": "policy",
+      "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+      "state": "provisional",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+      "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+      "attribution": "assistant_reconstruction",
+      "teaching_branch": false
+    },
+    {
+      "id": "execution",
+      "dimension": "execution",
+      "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+      "state": "unknown",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+      "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+      "attribution": "assistant_reconstruction",
+      "teaching_branch": false
+    },
+    {
+      "id": "broad_relief",
+      "dimension": "broad_effect",
+      "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+      "state": "provisional",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+      "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+      "attribution": "assistant_reconstruction",
+      "teaching_branch": true
+    },
+    {
+      "id": "hidden_plan",
+      "dimension": "hidden_plan",
+      "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+      "state": "unknown",
+      "evidence_refs": [
+        "signal"
+      ],
+      "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+      "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+      "attribution": "assistant_reconstruction",
+      "teaching_branch": false
+    }
+  ],
+  "semantic_acceptance": false,
+  "forecast_score_eligible": false,
+  "documents": {
+    "signal": {
+      "id": "signal",
+      "published": "2024-08-23",
+      "event_date": "2024-08-23",
+      "kind": "signal",
+      "title": "鲍威尔：Review and Outlook",
+      "url": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm",
+      "excerpt": "The time has come for policy to adjust.",
+      "locator": "Near-Term Outlook for Policy，调整方向与后续数据的段落",
+      "summary": "讲话表达调整方向，但时间和节奏取决于新数据。此时本包没有9月具体决定。",
+      "retrieved_on": "2026-10-05",
+      "capture_scope": "Selected excerpt and assistant paraphrase checked against official current page; not a full historical-vintage archive",
+      "published_date_evidence": "https://www.federalreserve.gov/newsevents/speech/powell20240823a.htm"
+    }
+  },
+  "changes": [
+    {
+      "id": "policy",
+      "action": "INITIAL",
+      "before": null,
+      "after": {
+        "id": "policy",
+        "dimension": "policy",
+        "statement": "将政策朝放松方向调整作为工作判断，幅度和时点不预设。",
+        "state": "provisional",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "公开讲话提供方向信号；不能提前填入9月决定。",
+        "next_trigger": "等待具体决定与执行安排；若方向改变，应撤回或修订。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    },
+    {
+      "id": "execution",
+      "action": "INITIAL",
+      "before": null,
+      "after": {
+        "id": "execution",
+        "dimension": "execution",
+        "statement": "暂不计入尚未出现的具体措施所带来的实际改善。",
+        "state": "unknown",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "允许推测内部已有准备，但本包尚无执行安排或执行观察。",
+        "next_trigger": "出现工具、实施日及执行迹象后逐层更新。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    },
+    {
+      "id": "broad_relief",
+      "action": "INITIAL",
+      "before": null,
+      "after": {
+        "id": "broad_relief",
+        "dimension": "broad_effect",
+        "statement": "待检验的过宽分支：一旦降息，多数借贷成本会同步下降。",
+        "state": "provisional",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "为检验反证和撤回机制而事后设置的教学分支，未计入主判断，也不是博主观点。",
+        "next_trigger": "检查后续借贷成本；相反结果将撤回此分支。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": true
+      }
+    },
+    {
+      "id": "hidden_plan",
+      "action": "INITIAL",
+      "before": null,
+      "after": {
+        "id": "hidden_plan",
+        "dimension": "hidden_plan",
+        "statement": "可考虑内部准备的解释，不把具体预案或非公开信息计为事实。",
+        "state": "unknown",
+        "evidence_refs": [
+          "signal"
+        ],
+        "reason": "表态可以提供间接线索，不能唯一确定内部动机或信息内容。",
+        "next_trigger": "寻找同时期决策过程材料，并比较其他解释。",
+        "attribution": "assistant_reconstruction",
+        "teaching_branch": false
+      }
+    }
+  ],
+  "engine_role": "Checks time/provenance and records authored updates; not semantic or predictive validation"
+}

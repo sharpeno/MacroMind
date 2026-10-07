@@ -1,0 +1,79 @@
+{
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/method_application/run_001/TRACE.html",
+  "browser": "Edge / Playwright",
+  "browser_availability": "Browser plugin not available",
+  "flow": "baseline -> reasoning step -> news; fixed rule -> blogger quote; direct deep link; mobile update conditions",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    {
+      "name": "identity",
+      "pass": true
+    },
+    {
+      "name": "not_blank",
+      "pass": true
+    },
+    {
+      "name": "no_error_overlay",
+      "pass": true
+    },
+    {
+      "name": "five_methods",
+      "pass": true
+    },
+    {
+      "name": "two_judgments",
+      "pass": true
+    },
+    {
+      "name": "reasoning_anchor",
+      "pass": true
+    },
+    {
+      "name": "ancestor_details_auto_open",
+      "pass": true
+    },
+    {
+      "name": "news_evidence_visible",
+      "pass": true
+    },
+    {
+      "name": "blogger_quotes_expand",
+      "pass": true
+    },
+    {
+      "name": "all_internal_links_resolve",
+      "pass": true
+    },
+    {
+      "name": "direct_deep_link_opens",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile_update_conditions",
+      "pass": true
+    },
+    {
+      "name": "mobile_expansion_no_overflow",
+      "pass": true
+    },
+    {
+      "name": "console_health",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

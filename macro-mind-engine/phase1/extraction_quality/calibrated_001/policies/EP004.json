@@ -1,0 +1,74 @@
+{
+  "version": "1",
+  "episode": "EP004",
+  "source_sha256": "39e4c379eb86c73f91df42bfd6a82a02d480d1ed915c0750a997491159d0b785",
+  "baseline": {
+    "C01": "80d50064d67f9f270212e0fb16af2d72c9a87e03ded5a9e85e34049924cae18a",
+    "C02": "5be00856eea5f2722724851abc67452be7b8aa873219b8b115a3b77592a2291c",
+    "C03": "91ec4c5cbafaf5d76ba49cc59ed4ed7328c65ad65bdac7bd76479d918bfe43d2",
+    "C04": "277e20e1a930ba58a466b4a9189d46643703c4f3df1cf3826162f8e6141ef9e5",
+    "C05": "91e738b521769cbef730ef83e73f5a8382b097c0d7697c121ffb2d6ffb6d6b67",
+    "C06": "2eb5f1c5300e3a6deee7cb822f6061c3e103ff56d599c99b1f2000146c712b43",
+    "C07": "40eb8bde1ff0972199cb89c5b2de8d6750dbc45b8ef359ce66cc25a180f4e2fc",
+    "C08": "a84a4f37fda70a2cf453df65f062f6c7447c91c98b78e7e900f14ad914dfdc26",
+    "C09": "a5ebe2ba75aac8c05f867462bcdb5f71bd4200cdc0da96fadf4a0e88d76a671c",
+    "C10": "c633004d14fa479585ed0b2a9506b55f6c8f3e50430bbfb4e363f82e47f2817f",
+    "C11": "6de31f103db16832644b5571172984a4784c3926fbb0f94d114e449d106e63ee",
+    "C12": "08a4c5f54840473a31210789a80460aaeb4abf3efa60afd654e8b66b0cd62934",
+    "C13": "fb0286038ac75affa9cd3edf2e1ad7bea7232bd4cae66479ff4268100bb60964",
+    "C14": "661cdc8ef10d460146231d0abd113cfbb1e9d3dd77d3ec528da9038776b7cb6e",
+    "C15": "89e413d8cc2fdd035a8d5c72b3a8a8df0eb504538a03bf0318e4ebe57c2e33ca",
+    "C16": "6fe01bf8fa588501b0e94acac5c707c43f33869d8ff05d9ab60f7c101041fecd",
+    "C17": "112d2b5b4d09b16f24fdcf8e778bbf24198bca0e0e916abbde13e56c7e5f4267",
+    "C18": "c04df6c3e229383cd00525427db37b4ffdbb2154f8985e3eb66475205749e3b3",
+    "C19": "090d2e9f028e48bc0c0e12ec02a69f44f91174a762ca24ffae4f42e172a4b034",
+    "C20": "264b255f80d9268526a7daef4ca46e26bf9ae1f9a207a72c7c8aaf571f7f3437",
+    "C21": "80844907d7754208ce6d733db65079c014f8e8b944bb4aa83dbffac0a516772c",
+    "C22": "51252183411acb4151d721522df35f28b62b8609c9e4a5ca9fae5e7a3437b41a",
+    "C23": "74ab7109ba3fca82e8d5c80b46ce755cf05c51cecc0e19a2d0374363c54fface",
+    "A01": "75ae94c03c686d2372064f939033a4bbae0d661cfb2b127fd9710ad428fa5e57",
+    "A02": "b33052c1e8a96c34a5aecefa274cfd647d2774b958551dc91a6545174a3cafca",
+    "A03": "d4187247e68c8281d2e3276f8b39b78c823c5a57d24674aff062feec404f89d5",
+    "A04": "b1d002a2b764471616a002a1c47ae5ba7f5c8bf2ab6a5c37a5a112a8e782f5ab",
+    "A05": "e2248252cb1114214402edced390d7abdfd9d49ce0315cbde13ddffa69694ec4",
+    "S01": "6645b8014e9f3a9a95faa30becaa90b54c10d5240e74352524fe1d048246ff76",
+    "M01": "284ce0a37f121e3977435a6afcdef0e8fbbfef022b65eabcd6fe24d57e37e675",
+    "M02": "8972c6d936dda04079aad9a20e9d7014bd39567a77869816dee48bf16e0e0f6f",
+    "@forecast_candidates": "39674d0734d6e63ca256de7b5a38580da4554bf46ee8bd18a3f570c4eae747e9"
+  },
+  "reviewed_ids": [
+    "C08",
+    "C15"
+  ],
+  "facets": [
+    {
+      "claim": "C15",
+      "name": "展望前提与时间",
+      "required_text": [
+        "十年后",
+        "若能提前选中",
+        "未提供"
+      ]
+    },
+    {
+      "claim": "C22",
+      "name": "两条判断分支",
+      "required_text": [
+        "认识不足",
+        "市场机会",
+        "名不副实",
+        "避雷"
+      ]
+    }
+  ],
+  "edges": [],
+  "background_claims": [
+    "C15"
+  ],
+  "context_only_cues": [],
+  "review_evidence": [
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\review_round_002_delta\\batch_001\\receipt.json",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\receipt.json"
+  ]
+}

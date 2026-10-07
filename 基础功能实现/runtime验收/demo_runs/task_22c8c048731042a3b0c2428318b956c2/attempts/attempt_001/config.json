@@ -1,0 +1,11 @@
+{
+  "protocol": "chat_completions",
+  "base_url": "http://127.0.0.1:59239/v1",
+  "model": "scripted-fixture-not-an-llm",
+  "api_key_env": "MACROMIND_FIXTURE_UNUSED_KEY",
+  "timeout_seconds": 45,
+  "max_retries": 2,
+  "max_rounds": 8,
+  "chat_token_parameter": "max_completion_tokens",
+  "max_output_tokens": 3000
+}

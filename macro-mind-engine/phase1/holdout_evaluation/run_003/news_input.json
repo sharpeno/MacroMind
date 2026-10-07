@@ -1,0 +1,41 @@
+{
+  "source": {
+    "url": "https://world.people.com.cn/n1/2023/1018/c1002-40097726.html",
+    "retrieved_at": "2026-10-06T12:49:29.176504+00:00",
+    "snapshot": "sources/people.html",
+    "sha256": "94ce46886049e85de484c7091da8e2c64594ae7f7014eef6081ec6bd798135d9",
+    "encoding": "gb18030",
+    "initial_web_tool_result": "Unicode decoding error; fetched original public page and decoded declared character set"
+  },
+  "display_date": "2023-10-18 08:38",
+  "facts": [
+    {
+      "id": "F01",
+      "text": "报道提及医院爆炸与重大伤亡，并同时记载巴方指责以军、以军否认并指责杰哈德。",
+      "status": "伤亡报道与各方责任指控分开；责任和确切伤亡未独立确定"
+    },
+    {
+      "id": "F02",
+      "text": "报道引述阿巴斯称，他与约旦、埃及领导人决定取消在安曼与拜登的会晤。",
+      "status": "报道中的宣布；会晤渠道受阻，不等于全部外交终止"
+    },
+    {
+      "id": "F03",
+      "text": "多国及国际组织公开谴责，呼吁制止暴力、保护医疗与平民。",
+      "status": "不同主体和角色的公开态度，不能合并为同一实施安排"
+    },
+    {
+      "id": "F04",
+      "text": "报道记载土耳其外长提出未来协议可由其他国家担保执行，以及德国总理表达防止外溢的意向。",
+      "status": "方案与立场，不等于协议存在或执行"
+    }
+  ],
+  "inherited_context": "472/473 already exposed; prior analyst explanations are context, not independently verified news",
+  "limits": [
+    "single composite report, multiple attributed statements",
+    "responsibility disputed",
+    "exact target publication time unknown",
+    "no market time series",
+    "historical event and earlier future snippets known; not strict blind backtest"
+  ]
+}

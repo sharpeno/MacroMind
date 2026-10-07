@@ -1,0 +1,54 @@
+{
+  "files": {
+    "batch_pilot_materials/EP003/《第七百六五期》美联储时隔三年再次加息，仅此一次还是紧缩开始？沃什加息，特朗普怎么办？-p01-16.mp4": {
+      "sha256": "6737b1dbff56d6d9daa319a487636aa5f3f0cfaea644470187a1aff19acf00f8",
+      "bytes": 95767458
+    },
+    "batch_pilot_materials/EP003/《第七百六五期》美联储时隔三年再次加息，仅此一次还是紧缩开始？沃什加息，特朗普怎么办？-p01-16.自动转写.txt": {
+      "sha256": "dbb4b2764e006556a2248fe10759949c9f92281bc3670094c0d3c9b242fe17e7",
+      "bytes": 36315
+    },
+    "batch_pilot_materials/EP003/信息说明.md": {
+      "sha256": "bd2050dd80b015e765e481d33c7d15df73792a9750416ca0ac76c48243aa4e6c",
+      "bytes": 2098
+    },
+    "batch_pilot_materials/EP003/原始字幕.srt": {
+      "sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+      "bytes": 51865
+    },
+    "batch_pilot_materials/EP003/补充材料/引用清单.md": {
+      "sha256": "0d1696c8e532982d2643e7d181b025ced32fd4dd88ed2f2f31d2ca596012056d",
+      "bytes": 671
+    }
+  },
+  "extraction_primary": "原始字幕.srt",
+  "audio_checked": false,
+  "source_version": {
+    "id": "EP003/version/831e8a3d939b847e",
+    "object_type": "SourceVersion",
+    "schema_version": "0.1.0",
+    "ontology_version": "0.3",
+    "created_at": null,
+    "provenance_refs": [],
+    "metadata": {},
+    "source_ref": "EP003/source",
+    "version_label": "user-supplied ASR subtitle bytes",
+    "content_time": {
+      "state": "unknown"
+    },
+    "published_at": {
+      "text": "2026-09-17 09:36:31",
+      "start": null,
+      "end": null,
+      "source_ref": null
+    },
+    "captured_at": {
+      "state": "unknown"
+    },
+    "content_sha256": "831e8a3d939b847e13d69bfb15b7e860b8d6cfd4d25e3b50c06a5610428626cd",
+    "revision_status": "Original preserved; no audio correction",
+    "source_refs": [
+      "EP003/source"
+    ]
+  }
+}

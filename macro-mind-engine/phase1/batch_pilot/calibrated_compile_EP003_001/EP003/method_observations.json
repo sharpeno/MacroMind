@@ -1,0 +1,25 @@
+[
+  {
+    "id": "EP003/M01",
+    "cues": [
+      384,
+      385,
+      386,
+      387
+    ],
+    "observation": "区分相对位置与绝对表现。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP003/M02",
+    "cues": [
+      392,
+      393,
+      394
+    ],
+    "observation": "对比历史经验与当前市场反应的反差，再提出原因解释；仅记录本段分析过程，不证明解释正确。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  }
+]

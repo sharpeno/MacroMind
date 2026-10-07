@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "framework_id": "9527-methods-v0.3",
+  "sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "checks": [
+    "phase1\\framework_review\\v03_draft_002: sealed hashes match",
+    "phase1\\framework_review\\v03_draft_001: sealed hashes match",
+    "phase1\\conflict_study\\run_001: sealed hashes match",
+    "phase1\\conflict_study\\run_002: sealed hashes match",
+    "reviewed draft identity, six unique cards, prior engineering validation verified",
+    "all six approved rule texts and quote cues unchanged; context links resolve",
+    "approved extensions resolve to correct methods; inherited method approval not overstated",
+    "v0.2 baseline unchanged; holdout transcript content not accessed"
+  ]
+}

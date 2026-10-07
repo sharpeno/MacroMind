@@ -1,0 +1,146 @@
+[
+  {
+    "name": "All five final labels available",
+    "passed": true
+  },
+  {
+    "name": "EP001 exact canonical change scope",
+    "passed": true
+  },
+  {
+    "name": "EP001 original cues unchanged",
+    "passed": true
+  },
+  {
+    "name": "EP001 same active object IDs",
+    "passed": true
+  },
+  {
+    "name": "EP001 no errors or reference uncertainty",
+    "passed": true
+  },
+  {
+    "name": "EP002 exact canonical change scope",
+    "passed": true
+  },
+  {
+    "name": "EP002 original cues unchanged",
+    "passed": true
+  },
+  {
+    "name": "EP002 same active object IDs",
+    "passed": true
+  },
+  {
+    "name": "EP002 no errors or reference uncertainty",
+    "passed": true
+  },
+  {
+    "name": "EP003 exact canonical change scope",
+    "passed": true
+  },
+  {
+    "name": "EP003 original cues unchanged",
+    "passed": true
+  },
+  {
+    "name": "EP003 same active object IDs",
+    "passed": true
+  },
+  {
+    "name": "EP003 no errors or reference uncertainty",
+    "passed": true
+  },
+  {
+    "name": "EP004 exact canonical change scope",
+    "passed": true
+  },
+  {
+    "name": "EP004 original cues unchanged",
+    "passed": true
+  },
+  {
+    "name": "EP004 same active object IDs",
+    "passed": true
+  },
+  {
+    "name": "EP004 no errors or reference uncertainty",
+    "passed": true
+  },
+  {
+    "name": "EP005 exact canonical change scope",
+    "passed": true
+  },
+  {
+    "name": "EP005 original cues unchanged",
+    "passed": true
+  },
+  {
+    "name": "EP005 same active object IDs",
+    "passed": true
+  },
+  {
+    "name": "EP005 no errors or reference uncertainty",
+    "passed": true
+  },
+  {
+    "name": "EP002 approved revision accepted under calibrated policy",
+    "passed": true
+  },
+  {
+    "name": "EP002 approved revision needs review under frozen old policy",
+    "passed": true
+  },
+  {
+    "name": "EP002 known old error blocked by calibrated policy",
+    "passed": true
+  },
+  {
+    "name": "EP003 approved revision accepted under calibrated policy",
+    "passed": true
+  },
+  {
+    "name": "EP003 approved revision needs review under frozen old policy",
+    "passed": true
+  },
+  {
+    "name": "EP003 known old error blocked by calibrated policy",
+    "passed": true
+  },
+  {
+    "name": "EP004 rejected proposal not applied",
+    "passed": true
+  },
+  {
+    "name": "No new C08 wording constraint",
+    "passed": true
+  },
+  {
+    "name": "User custom C05 correction used verbatim",
+    "passed": true
+  },
+  {
+    "name": "run_001 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "name": "run_002 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "name": "run_003 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "name": "holdout_001 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "name": "run_001 sealed artifacts unchanged",
+    "passed": true
+  },
+  {
+    "name": "Two changed episode audits completed",
+    "passed": true
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "cutoff": "2023-10-17 day-level; cannot order exact video publication versus news",
+  "sources": [
+    {
+      "url": "https://world.people.com.cn/n1/2023/1017/c1002-40097009.html",
+      "file": "sources/people.html",
+      "sha256": "955685ac587e4f45f2ff3ee9575f09ec754ba1904513598582e4751f4be44237",
+      "status": "retrieved",
+      "encoding": "gb18030"
+    },
+    {
+      "url": "https://www.cls.cn/detail/1487337",
+      "file": "sources/cls.html",
+      "sha256": "f3f2f78c3025753dea6d51d098e4c882dd0a05a32cbc0a9dd904f93c9498a152",
+      "status": "retrieved",
+      "encoding": "utf-8"
+    },
+    {
+      "url": "https://cn.nytimes.com/world/20231010/hamas-israel-war/",
+      "status": "web.open non-retryable failure; excluded, not read"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "source": "people",
+      "text": "人民网转新华社报道普京10月17日上午抵达北京参加论坛。",
+      "type": "reported action; no speech text supplied"
+    },
+    {
+      "id": "F02",
+      "source": "cls",
+      "text": "财联社据央视报道中车长客与塞尔维亚主管部门签署动车组采购合同，计划于2025年投入使用。",
+      "type": "signed procurement vs future delivery/use separated"
+    },
+    {
+      "id": "F03",
+      "source": "cls",
+      "text": "报道引用中车长客技术负责人对产品平台及符合当地技术需求的说明。",
+      "type": "technical/organizational representation, not independent acceptance result"
+    }
+  ],
+  "inherited_context": {
+    "path": "../run_001/news_input.json",
+    "sha256": "c44595ac8ec2ac2f4011247032366f9a766dd91a6a6a55d5abdc812127902f2a",
+    "scope": "prior announced Biden visit and support; not new proof of success"
+  },
+  "limits": [
+    "NYT source unavailable and excluded",
+    "no oil price/supply series or summit agreements in admitted sources",
+    "472 transcript already read and user feedback incorporated",
+    "historical knowledge and prior search future snippets known; not strict blind prediction"
+  ]
+}

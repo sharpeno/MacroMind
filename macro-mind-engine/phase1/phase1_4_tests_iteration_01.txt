@@ -1,0 +1,18 @@
+........................F..............                                  [100%]
+================================== FAILURES ===================================
+__________________ test_null_unknown_missing_remain_distinct __________________
+
+compatibility = <macromind.compatibility.engine.CompatibilityEngine object at 0x000002ABC72D2A80>
+
+    def test_null_unknown_missing_remain_distinct(compatibility):
+        value=legacy([{'claim_id':'a','statement':None},{'claim_id':'b','statement':{'state':'unknown'}},{'claim_id':'c'}])
+        result=compatibility.adapt(value)
+        by_id={o['id']:o for o in result.canonical_bundle['objects']}
+>       assert by_id['a']['statement'] is None
+               ^^^^^^^^^^
+E       KeyError: 'a'
+
+macro-mind-engine\tests\compatibility\test_loss.py:18: KeyError
+=========================== short test summary info ===========================
+FAILED macro-mind-engine\tests\compatibility\test_loss.py::test_null_unknown_missing_remain_distinct
+1 failed, 38 passed in 10.48s

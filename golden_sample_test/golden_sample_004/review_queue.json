@@ -1,0 +1,449 @@
+[
+  {
+    "review_id": "RQ001",
+    "severity": "Critical",
+    "review_type": "excessive_inference",
+    "target_refs": [
+      "C020",
+      "AR01",
+      "MS06"
+    ],
+    "issue": "以90天/1天得90倍泡沫，量纲与估值对象错误。",
+    "required_action": "保留原推理；用正式现金流/估值模型另审，不能改写成主播做过。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ002",
+    "severity": "Critical",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C056",
+      "C059",
+      "AR04"
+    ],
+    "issue": "RPO从合同义务被转成成本/硬件冗余。",
+    "required_action": "核原声指代和订单说明；将合同存量、收入、产能、CapEx分开。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ003",
+    "severity": "Critical",
+    "review_type": "model_reconstruction_leakage",
+    "target_refs": [
+      "DA01",
+      "MS01",
+      "MS02",
+      "MS03",
+      "MS04",
+      "MS05",
+      "MS06",
+      "MS07",
+      "MS08"
+    ],
+    "issue": "DA01条件链不能成为9527方法训练正样本。",
+    "required_action": "校验Method只引用creator Claim与对应显式/强蕴含动作，保留标注者身份。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ004",
+    "severity": "High",
+    "review_type": "source_conflict",
+    "target_refs": [
+      "C022",
+      "X06",
+      "PO01"
+    ],
+    "issue": "13州已取消与4取消/暂停+9研究不一致。",
+    "required_action": "逐州官方法案、阶段、生效时间；不能把政策研究当完成。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ005",
+    "severity": "High",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C023",
+      "X07"
+    ],
+    "issue": "30亿美元/GW是设备税负情景，不是通用年度AI运营成本。",
+    "required_action": "保存税率、设备基数、州和更新周期。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ006",
+    "severity": "High",
+    "review_type": "numerical_conflict",
+    "target_refs": [
+      "C016",
+      "C017",
+      "C019",
+      "C109"
+    ],
+    "issue": "销售额精度与新闻共识币种不一致，差额被粗估20。",
+    "required_action": "读取公司明细及原共识数据；不能静默修复新闻“亿元”。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ007",
+    "severity": "High",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C041",
+      "C042",
+      "C043",
+      "C044",
+      "C045",
+      "C047"
+    ],
+    "issue": "Azure、Microsoft Cloud、商业RPO范围不同；百分点/百分比/环比混用。",
+    "required_action": "按公司指标定义单列，3.02个百分点和8.13%仅条件计算。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ008",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C003"
+    ],
+    "issue": "贝索斯套现1500亿缺币种、时间及交易材料。",
+    "required_action": "查原声明/申报并听音，不依据市值推套现额。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ009",
+    "severity": "High",
+    "review_type": "asr_uncertain",
+    "target_refs": [
+      "C001",
+      "TC01"
+    ],
+    "issue": "SpaceX财报名称未核。",
+    "required_action": "回听首20秒并核指定财报；不能自动改成Tesla。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ010",
+    "severity": "High",
+    "review_type": "asr_uncertain",
+    "target_refs": [
+      "C021",
+      "TC07"
+    ],
+    "issue": "3040亿5亿美元无法可靠解析。",
+    "required_action": "回听06:08–06:17；未确定数值不得做Observation点估计。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ011",
+    "severity": "High",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C028",
+      "C029",
+      "C030",
+      "X08",
+      "X09"
+    ],
+    "issue": "任务成本1%不等于硬件、云商总成本或等能力替换。",
+    "required_action": "锁模型版本/任务/缓存/能力/Token量，再评估调用弹性。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ012",
+    "severity": "High",
+    "review_type": "argument_bridge",
+    "target_refs": [
+      "C029",
+      "C030",
+      "AR03"
+    ],
+    "issue": "唯一选择与量价同时下降没有替代路径比较。",
+    "required_action": "检查效率促进需求的相反分支，不替主播补为已说。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ013",
+    "severity": "High",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C065",
+      "C068",
+      "C069",
+      "C073",
+      "M05"
+    ],
+    "issue": "折旧、减值、资本支出、现金盈利混为一层。",
+    "required_action": "区分资产批次、经济寿命、会计估计与总运营成本。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ014",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C069",
+      "C074",
+      "C075"
+    ],
+    "issue": "旧GPU替补兼容性、折旧很快跳升及数倍十倍无测算。",
+    "required_action": "取得设备结构和资产政策；幅度仅情景，不建十倍预测。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ015",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C084",
+      "C085",
+      "M08"
+    ],
+    "issue": "未核同口径销量与粉丝渗透，不能验证下降原因。",
+    "required_action": "查截止前月度交付、车型/价格/用户结构。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ016",
+    "severity": "High",
+    "review_type": "attribution_chain",
+    "target_refs": [
+      "C083",
+      "C088",
+      "C089",
+      "C090",
+      "C091",
+      "C092"
+    ],
+    "issue": "原公关回应和传播序列未取得。",
+    "required_action": "找到原版本、分子分母时间和覆盖集合；方法动作与事实结论分别评估。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ017",
+    "severity": "High",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C100",
+      "C108"
+    ],
+    "issue": "组织不能接受失败等动机来自主播推测。",
+    "required_action": "区分可见行为、内部动机和未来纠错；不升级为组织事实。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ018",
+    "severity": "High",
+    "review_type": "forecast_lineage",
+    "target_refs": [
+      "C015",
+      "C082",
+      "C108"
+    ],
+    "issue": "去年、五月、星期一、半年前预测未得原节目。",
+    "required_action": "不要反填历史Forecast；核原版本与时间。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ019",
+    "severity": "High",
+    "review_type": "scenario_forecast_confusion",
+    "target_refs": [
+      "C026",
+      "C075",
+      "C078"
+    ],
+    "issue": "强情态条件句也不自动入正式ledger。",
+    "required_action": "SC03等列候选，补可判定触发/结果/窗口后人工决定。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ020",
+    "severity": "High",
+    "review_type": "forecast_lineage",
+    "target_refs": [
+      "FC-C035",
+      "FC-C039",
+      "FC-C064",
+      "FC-C074",
+      "FC-C081",
+      "FC-C108"
+    ],
+    "issue": "窗口或指标普遍不足，回本预测原发言时间未锁。",
+    "required_action": "预注册判准；禁止用截止后的市场结果回填。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ021",
+    "severity": "Medium",
+    "review_type": "source_dependency",
+    "target_refs": [
+      "S04",
+      "S10",
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "issue": "新闻多公司起源混合，官方转述不能再算独立支持。",
+    "required_action": "使用片段origin family，不把同一财报算双源。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ022",
+    "severity": "Medium",
+    "review_type": "source_conflict",
+    "target_refs": [
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14"
+    ],
+    "issue": "当前网页不是cutoff历史快照。",
+    "required_action": "保留version_mutation_risk；剔除动态推荐、后续版本，不宣称消除全部污染风险。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ023",
+    "severity": "Medium",
+    "review_type": "analyst_attribution",
+    "target_refs": [
+      "S07",
+      "X10"
+    ],
+    "issue": "美债资料和卖铲/用铲标题不能被默认为主播显式机制。",
+    "required_action": "原片未搜到美债/收益率/债券/卖铲/用铲；语义阅读也未发现利率链。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ024",
+    "severity": "Medium",
+    "review_type": "speaker_slip_review",
+    "target_refs": [
+      "C071",
+      "C110",
+      "TC14"
+    ],
+    "issue": "2016十年类比与iPhone8并列、竹治料等ASR不清。",
+    "required_action": "回听后区分口误与机器错字。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ025",
+    "severity": "Medium",
+    "review_type": "method_signal_overreach",
+    "target_refs": [
+      "MS01",
+      "MS03",
+      "MS04",
+      "MS08"
+    ],
+    "issue": "复现是有限子动作，拒绝门槛非完整判断政策，单期分支非稳定风格。",
+    "required_action": "跨样本反例检验；不写成以后所有新闻都如此分析。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ026",
+    "severity": "Medium",
+    "review_type": "premature_heuristic_promotion",
+    "target_refs": [
+      "MS01",
+      "MS02",
+      "MS03",
+      "MS04",
+      "MS05",
+      "MS06",
+      "MS07",
+      "MS08"
+    ],
+    "issue": "方法信号不等于已验证Heuristic/Skill。",
+    "required_action": "本期新增CandidateHeuristic=0，保留未来复现和审查。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ027",
+    "severity": "Medium",
+    "review_type": "process_boundary",
+    "target_refs": [
+      "TH01",
+      "TH02"
+    ],
+    "issue": "两季度余额或一次反弹不足证明AI商业化及品牌结构过程。",
+    "required_action": "积累按同口径跨期数据并定义结构变量后再建Process。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ028",
+    "severity": "Medium",
+    "review_type": "mechanism_duplication",
+    "target_refs": [
+      "ME01",
+      "ME02",
+      "ME03"
+    ],
+    "issue": "没有完整共享机制库。",
+    "required_action": "只建共享候选和Usage，入库前查重，不创建9527专属复制机制。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ029",
+    "severity": "Medium",
+    "review_type": "unsupported_claim",
+    "target_refs": [
+      "C031",
+      "C032",
+      "C033",
+      "C035",
+      "C037"
+    ],
+    "issue": "国内工程使用的个人观察不能代表总体渗透，更不能证明美国未实现。",
+    "required_action": "补案例、分母、生产率评估及对照。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ030",
+    "severity": "Medium",
+    "review_type": "measurement_definition",
+    "target_refs": [
+      "C053"
+    ],
+    "issue": "合同40%购买云服务缺对象和行业分布。",
+    "required_action": "核具体项目；不可作为云行业统一成本率。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ031",
+    "severity": "Medium",
+    "review_type": "method_signal_overreach",
+    "target_refs": [
+      "C105",
+      "C107"
+    ],
+    "issue": "只能更差和观众二选一可能封闭解释。",
+    "required_action": "保留为单次推理薄弱点，未升级稳定failure_pattern。",
+    "status": "open"
+  },
+  {
+    "review_id": "RQ032",
+    "severity": "Low",
+    "review_type": "asr_uncertain",
+    "target_refs": [
+      "TC02",
+      "TC04",
+      "TC05",
+      "TC06",
+      "TC08",
+      "TC10",
+      "TC11",
+      "TC13"
+    ],
+    "issue": "名称与术语语义可纠，但未听音。",
+    "required_action": "候选与raw并存，accepted=0。",
+    "status": "open"
+  }
+]

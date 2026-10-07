@@ -1,0 +1,14 @@
+{
+  "baseline_count": 3712,
+  "changed_existing": [
+    "docs/current/README.md",
+    "docs/current/STATUS.md"
+  ],
+  "unexpected_changes": [],
+  "historical_seal_entries": 1576,
+  "seal_failures": [],
+  "original_inputs": 25,
+  "input_failures": [],
+  "local_links": 23,
+  "broken_links": []
+}

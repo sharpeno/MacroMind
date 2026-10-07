@@ -1,0 +1,17 @@
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:45.298437+00:00","stage":"capture"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:45.319279+00:00","stage":"capture"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:45.321278+00:00","stage":"foundation"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:45.529785+00:00","stage":"foundation"}
+{"event":"NOT_APPLICABLE","recorded_at":"2026-10-03T19:13:45.531785+00:00","stage":"adaptation"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:45.537786+00:00","stage":"validation"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:45.903427+00:00","stage":"validation"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:45.923689+00:00","stage":"normalization"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:46.232726+00:00","stage":"normalization"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:46.234722+00:00","stage":"patterns"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:46.437225+00:00","stage":"patterns"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:46.439564+00:00","stage":"continuity"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:46.444264+00:00","stage":"continuity"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:46.446784+00:00","stage":"report"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:46.505893+00:00","stage":"report"}
+{"event":"RUNNING","recorded_at":"2026-10-03T19:13:46.507893+00:00","stage":"persistence"}
+{"event":"COMPLETED","recorded_at":"2026-10-03T19:13:46.645020+00:00","stage":"persistence"}

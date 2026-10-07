@@ -1,0 +1,94 @@
+{
+  "format": "macromind-human-review",
+  "version": 2,
+  "dataset": "a5eddbab90c0a05a919931152b51d3af10a4a6d3fefc0e89f49da3079baf55fe",
+  "exported_at": "2026-10-03T09:17:13.054Z",
+  "reviewer": "",
+  "records": [
+    {
+      "id": "EP001/A01/revision",
+      "episode": "EP001",
+      "kind": "推理链",
+      "decision": "faithful",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:13.142Z"
+    },
+    {
+      "id": "EP002/A01/revision",
+      "episode": "EP002",
+      "kind": "推理链",
+      "decision": "faithful",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:15.139Z"
+    },
+    {
+      "id": "EP004/A03/revision",
+      "episode": "EP004",
+      "kind": "推理链",
+      "decision": "faithful",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:17.780Z"
+    },
+    {
+      "id": "EP005/A01/revision",
+      "episode": "EP005",
+      "kind": "推理链",
+      "decision": "faithful",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:22.073Z"
+    },
+    {
+      "id": "EP002/A02/revision",
+      "episode": "EP002",
+      "kind": "转写疑点",
+      "decision": "audio_ok",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:24.560Z"
+    },
+    {
+      "id": "EP003/A01/revision",
+      "episode": "EP003",
+      "kind": "转写疑点",
+      "decision": "audio_ok",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:53.426Z"
+    },
+    {
+      "id": "EP001/duration/revision",
+      "episode": "EP001",
+      "kind": "转写疑点",
+      "decision": "audio_ok",
+      "note": "",
+      "correction": "",
+      "evidence": "",
+      "content_status": "pending",
+      "reviewer": "",
+      "updated_at": "2026-10-03T09:15:57.954Z"
+    }
+  ],
+  "semantics": "Human opinions only; original evidence and gate are unchanged"
+}

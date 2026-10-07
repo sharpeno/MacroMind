@@ -1,0 +1,292 @@
+[
+  {
+    "command": [
+      "contract",
+      "verify",
+      "--contract-root",
+      "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"
+    ],
+    "exit_code": 0,
+    "stdout": {
+      "ERROR": 0,
+      "PASS": 44,
+      "WARNING": 0,
+      "boundary_count": 15,
+      "core_count": 14,
+      "report": {
+        "checks": [
+          {
+            "detail": "",
+            "name": "present:CORE_ONTOLOGY_V0.3_FROZEN.md",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:core_objects.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:core_boundaries.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:core_principles.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:freeze_manifest.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:freeze_debt_ledger.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:freeze_debt_status_overlay.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:CHANGE_POLICY.md",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:semantic_contract_projection.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "present:source_mapping.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:version",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:status",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:formal_freeze_executed",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:core_object_count",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:core_boundary_count",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:core_principle_count",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:core_blockers",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:freeze_readiness_decision",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:production_import_ready",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:analyst_skill_status",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest:macromind_core_skill_status",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest_artifact_set",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:CHANGE_POLICY.md",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:core_boundaries.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:core_objects.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:CORE_ONTOLOGY_V0.3_FROZEN.md",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:core_principles.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:freeze_debt_ledger.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:semantic_contract_projection.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:source_mapping.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "sha256:freeze_debt_status_overlay.json",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "exact_14_objects",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "manifest_object_list",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "exact_15_boundaries",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "exact_16_principles",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "semantic_hash",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection_version",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection:objects",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection:boundaries",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection:principles",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection:change_policy",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "projection:rule_details",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "source_mapping:objects",
+            "severity": "PASS"
+          },
+          {
+            "detail": "",
+            "name": "source_mapping:boundaries",
+            "severity": "PASS"
+          }
+        ],
+        "contract_version": "0.3",
+        "errors": [],
+        "status": "PASS",
+        "warnings": []
+      },
+      "semantic_hash": "8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424",
+      "status": "FROZEN",
+      "version": "0.3"
+    },
+    "log": {
+      "duration": 0.008854,
+      "errors": [],
+      "input_paths": [
+        "G:\\youhegaojian\\golden_sample_test\\core_ontology\\v0.3"
+      ],
+      "ontology_version": "0.3",
+      "operation": "contract.verify",
+      "output_paths": [],
+      "run_id": "50bc3941-5f0f-4605-80ba-76ffb09be7bc",
+      "version": "0.1.0",
+      "warnings": []
+    }
+  },
+  {
+    "command": [
+      "registry",
+      "verify",
+      "--registry-root",
+      "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+    ],
+    "exit_code": 1,
+    "stdout": {
+      "errors": [
+        "Generated enums are stale or incompatible with this schema build; regenerate and re-export schemas"
+      ],
+      "status": "ERROR"
+    },
+    "log": {
+      "duration": 0.189966,
+      "errors": [
+        "Generated enums are stale or incompatible with this schema build; regenerate and re-export schemas"
+      ],
+      "input_paths": [
+        "G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"
+      ],
+      "ontology_version": "0.3",
+      "operation": "registry.verify",
+      "output_paths": [],
+      "run_id": "af25bc18-8768-4f13-8a2e-f552956d9f62",
+      "version": "0.1.0",
+      "warnings": []
+    }
+  }
+]

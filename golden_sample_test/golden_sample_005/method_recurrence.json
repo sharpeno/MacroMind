@@ -1,0 +1,178 @@
+[
+  {
+    "recurrence_id": "MR01",
+    "prior_ref": "GS001/summary:结构力量优先于政治人物",
+    "current_signal_refs": [
+      "MS02"
+    ],
+    "match_type": "analogous",
+    "match_status": "matched",
+    "shared_operation": "资金与任务约束被用来解释主体行为",
+    "not_shared_or_unknown": "GS001只有摘要；不能验证具体判断步骤或原句。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR02",
+    "prior_ref": "GS002/HC01",
+    "current_signal_refs": [],
+    "match_type": null,
+    "match_status": "not_observed",
+    "shared_operation": "未观察到增量看趋势、存量看空间的完整动作",
+    "not_shared_or_unknown": "星链规模讨论不能冒充同一增量/存量方法；GS002较晚。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR03",
+    "prior_ref": "GS002/HC02",
+    "current_signal_refs": [
+      "MS02"
+    ],
+    "match_type": "analogous",
+    "match_status": "matched",
+    "shared_operation": "追问结果背后的执行条件",
+    "not_shared_or_unknown": "本期不是确权、债权人谈判或化债成本；不可判exact。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR04",
+    "prior_ref": "GS003/HC01",
+    "current_signal_refs": [
+      "MS02",
+      "MS03"
+    ],
+    "match_type": "partial",
+    "match_status": "matched",
+    "shared_operation": "追问叙事的实际执行能力和约束",
+    "not_shared_or_unknown": "本期不含海峡实际控制标准，也未统一核验国内经济复用。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR05",
+    "prior_ref": "GS003/HC02",
+    "current_signal_refs": [
+      "MS10"
+    ],
+    "match_type": "partial",
+    "match_status": "matched",
+    "shared_operation": "按资金环境分阶段比较支持能力",
+    "not_shared_or_unknown": "未使用冲突阶段划分和双方持续成本计算。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR06",
+    "prior_ref": "GS004/MS01",
+    "current_signal_refs": [
+      "MS02",
+      "MS03"
+    ],
+    "match_type": "partial",
+    "match_status": "matched",
+    "shared_operation": "资金与持续成本约束复现",
+    "not_shared_or_unknown": "没有完整重现GS004组织执行边界的全部操作。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR07",
+    "prior_ref": "GS004/MS03",
+    "current_signal_refs": [
+      "MS03"
+    ],
+    "match_type": "partial",
+    "match_status": "matched",
+    "shared_operation": "资本硬件寿命影响持续成本",
+    "not_shared_or_unknown": "本期没有明确完整周期回报比较，不能把寿命子动作判exact。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR08",
+    "prior_ref": "GS004/MS04",
+    "current_signal_refs": [
+      "MS04"
+    ],
+    "match_type": "partial",
+    "match_status": "matched",
+    "shared_operation": "拒绝价格/单点消息作为充分证据",
+    "not_shared_or_unknown": "本期对象、正向接受条件不同。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR09",
+    "prior_ref": "GS004/MS05",
+    "current_signal_refs": [
+      "MS06"
+    ],
+    "match_type": "analogous",
+    "match_status": "matched",
+    "shared_operation": "跨案例找可迁移机制",
+    "not_shared_or_unknown": "手机习惯或折旧与月球融资不是同一共享机制。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR10",
+    "prior_ref": "GS004/MS06",
+    "current_signal_refs": [
+      "MS08"
+    ],
+    "match_type": "analogous",
+    "match_status": "matched",
+    "shared_operation": "从一个比例跳到另一个结论量",
+    "not_shared_or_unknown": "时间比→泡沫倍数与卫星数→网速成本变量不同；不能叫同一错误已复现。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR11",
+    "prior_ref": "GS004/MS02",
+    "current_signal_refs": [],
+    "match_type": null,
+    "match_status": "not_observed",
+    "shared_operation": "无明确同口径分母审查复现",
+    "not_shared_or_unknown": "本期数字口径多处未澄清，不能借模型纠错补出方法。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR12",
+    "prior_ref": "GS004/MS07",
+    "current_signal_refs": [],
+    "match_type": null,
+    "match_status": "not_observed",
+    "shared_operation": "未观察到非粉丝视角与转化对象审查",
+    "not_shared_or_unknown": "资本客户话题不等于公关人群方法。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  },
+  {
+    "recurrence_id": "MR13",
+    "prior_ref": "GS004/MS08",
+    "current_signal_refs": [],
+    "match_type": null,
+    "match_status": "not_observed",
+    "shared_operation": "未观察到跑早/跑晚分支全导向同结果的模式",
+    "not_shared_or_unknown": "本期AI融资分支不同。",
+    "evaluation_time": "2026-09-26T05:30:44+08:00",
+    "historical_evidence_use": false,
+    "stable_skill_promotion": false
+  }
+]

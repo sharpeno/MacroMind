@@ -1,0 +1,8 @@
+{
+  "sequence": 1,
+  "stage": "BEFORE_CASE_NEWS_FETCH",
+  "files": {
+    "framework.json": "25177d076c7b5e2cf2ed0c67a725688f7fecf96ef8d9d2db115e43a27f2acc7e",
+    "framework_evidence.json": "e5e894869bdc838f868dcc6961585f97b5eca14173671aa9a985bb5dee8d39c7"
+  }
+}

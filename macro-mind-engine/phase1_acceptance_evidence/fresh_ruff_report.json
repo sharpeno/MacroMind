@@ -1,0 +1,28 @@
+{
+  "command": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "G:\\youhegaojian\\macro-mind-engine\\src",
+    "G:\\youhegaojian\\macro-mind-engine\\tests",
+    "G:\\youhegaojian\\macro-mind-engine\\scripts"
+  ],
+  "created_during_acceptance_evidence_completion": true,
+  "cwd": "G:\\youhegaojian",
+  "environment_overrides": {
+    "PYTHONUTF8": "1"
+  },
+  "exit_code": 0,
+  "mypy": "not configured; not added",
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "ruff_version": "0.16.9",
+  "started_at": "2026-09-27T14:09:14.838895+00:00",
+  "stderr": "",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout": "All checks passed!\n",
+  "stdout_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+}

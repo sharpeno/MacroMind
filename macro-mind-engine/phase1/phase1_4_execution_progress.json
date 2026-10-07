@@ -1,0 +1,20 @@
+{
+  "completed": {
+    "evidence_run": "phase1/phase1_4_evidence/run_002",
+    "existing": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 207,
+      "SKIPPED": 0
+    },
+    "gate": "READY_FOR_PHASE_1_5",
+    "new": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 44,
+      "SKIPPED": 0
+    }
+  },
+  "pending": [],
+  "stage": "acceptance_complete"
+}

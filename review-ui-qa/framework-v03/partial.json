@@ -1,0 +1,58 @@
+{
+  "schema": "macromind.framework-review.v1",
+  "review_id": "v03_draft_001",
+  "draft_sha256": "9301ba9a3e9621a413418173462282cff1d7e8bbd64f87207c631f32561a5093",
+  "exported_at": "2026-10-05T12:18:17.558Z",
+  "completed": 1,
+  "activation": "NOT_ACTIVATED",
+  "records": [
+    {
+      "id": "C01",
+      "fidelity": "revise",
+      "boundary": "accept",
+      "notes": "需要保留基础判断，不要求信息齐全才推演。",
+      "suggestion": "",
+      "evidence_notes": ""
+    },
+    {
+      "id": "C02",
+      "fidelity": "pending",
+      "boundary": "pending",
+      "notes": "",
+      "suggestion": "",
+      "evidence_notes": ""
+    },
+    {
+      "id": "C03",
+      "fidelity": "pending",
+      "boundary": "pending",
+      "notes": "",
+      "suggestion": "",
+      "evidence_notes": ""
+    },
+    {
+      "id": "C04",
+      "fidelity": "pending",
+      "boundary": "pending",
+      "notes": "",
+      "suggestion": "",
+      "evidence_notes": ""
+    },
+    {
+      "id": "C05",
+      "fidelity": "pending",
+      "boundary": "pending",
+      "notes": "",
+      "suggestion": "",
+      "evidence_notes": ""
+    },
+    {
+      "id": "C06",
+      "fidelity": "pending",
+      "boundary": "pending",
+      "notes": "",
+      "suggestion": "",
+      "evidence_notes": ""
+    }
+  ]
+}

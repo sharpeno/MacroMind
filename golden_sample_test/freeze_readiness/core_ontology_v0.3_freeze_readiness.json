@@ -1,0 +1,1077 @@
+{
+  "audit_version": "CORE-ONTOLOGY-V0.3-FREEZE-READINESS-1",
+  "audit_generated_at": "2026-09-26T15:03:56.616833+00:00",
+  "scope": [
+    "GS001",
+    "GS002",
+    "GS003",
+    "GS004",
+    "GS005"
+  ],
+  "core_object_count": 14,
+  "decision": "READY_TO_FREEZE_WITH_NONBLOCKING_DEBTS",
+  "freeze_recommendation": true,
+  "core_blockers": [],
+  "new_core_object_required": false,
+  "core_boundary_changes_required": false,
+  "nonblocking_debt_count": 20,
+  "critical_debt_count": 0,
+  "critical_debt_count_definition": "No core-blocking critical debt. Ledger severity uses low/medium/high only; high is not silently renamed critical.",
+  "high_severity_nonblocking_debt_count": 13,
+  "golden_results": {
+    "GS001": "PASS_WITH_LIMITATION",
+    "GS002": "PASS_WITH_LIMITATION",
+    "GS003": "PASS_WITH_LIMITATION",
+    "GS004": "PASS_WITH_LIMITATION",
+    "GS005": "PASS_WITH_LIMITATION"
+  },
+  "gate_results": {
+    "GATE-01": "PASS_WITH_DEBT",
+    "GATE-02": "PASS_WITH_DEBT",
+    "GATE-03": "PASS_WITH_DEBT",
+    "GATE-04": "PASS_WITH_DEBT",
+    "GATE-05": "PASS_WITH_DEBT",
+    "GATE-06": "PASS_WITH_DEBT",
+    "GATE-07": "PASS_WITH_DEBT",
+    "GATE-08": "PASS_WITH_DEBT",
+    "GATE-09": "PASS_WITH_DEBT",
+    "GATE-10": "PASS_WITH_DEBT",
+    "GATE-11": "PASS_WITH_DEBT",
+    "GATE-12": "PASS_WITH_DEBT"
+  },
+  "core_objects": {
+    "Source": "freeze_with_note",
+    "Claim": "freeze_with_note",
+    "Event": "freeze_with_note",
+    "StructuralProcess": "freeze_with_note",
+    "Actor": "freeze_with_note",
+    "Indicator": "freeze_with_note",
+    "Policy": "freeze_with_note",
+    "Mechanism": "freeze_with_note",
+    "Argument": "freeze_with_note",
+    "Thesis": "freeze_with_note",
+    "Forecast": "freeze_with_note",
+    "Contradiction": "freeze_with_note",
+    "Assessment": "freeze_with_note",
+    "Heuristic": "freeze_with_note"
+  },
+  "core_object_assessments": [
+    {
+      "object_name": "Source",
+      "core_definition": "信息载体及其来源身份；真实性评价与载体存在分离。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "跨版本/转载不是新 Core。"
+        }
+      ],
+      "known_debts": [
+        "D06",
+        "D07",
+        "D19"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E01",
+        "E10",
+        "E11"
+      ],
+      "coverage_note": "跨版本/转载不是新 Core。"
+    },
+    {
+      "object_name": "Claim",
+      "core_definition": "带说话者、时间、Population、量词、模态与来源的可断言命题。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "原话、事件与真实性不合并。"
+        }
+      ],
+      "known_debts": [
+        "D02",
+        "D05",
+        "D08",
+        "D20"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E02",
+        "E23",
+        "E41"
+      ],
+      "coverage_note": "原话、事件与真实性不合并。"
+    },
+    {
+      "object_name": "Event",
+      "core_definition": "具有相对明确时间边界的状态变化；宣布/生效/发生分别记录。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "通知是已宣布事件，不推出所宣称结果已实现。"
+        }
+      ],
+      "known_debts": [
+        "D05",
+        "D06"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E05",
+        "E12",
+        "E25"
+      ],
+      "coverage_note": "通知是已宣布事件，不推出所宣称结果已实现。"
+    },
+    {
+      "object_name": "StructuralProcess",
+      "core_definition": "跨一段时间持续发生、由多时期观测/时间序列/多事件政策支持的现实结构变化。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "需求正例与拒绝升格负例已覆盖；正式正例尚无。"
+        }
+      ],
+      "known_debts": [
+        "D12"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E03",
+        "E25",
+        "E32"
+      ],
+      "coverage_note": "需求正例与拒绝升格负例已覆盖；正式正例尚无。",
+      "coverage_level": "conceptual_positive_and_negative_admission_only_no_formal_positive_instance"
+    },
+    {
+      "object_name": "Actor",
+      "core_definition": "具有行动或决策归属的主体；同名地理位置和叙事角色不是主体身份。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "国家作为主体与作为地理范围须分开引用。"
+        }
+      ],
+      "known_debts": [
+        "D07",
+        "D20"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E05",
+        "E14"
+      ],
+      "coverage_note": "国家作为主体与作为地理范围须分开引用。"
+    },
+    {
+      "object_name": "Indicator",
+      "core_definition": "可重复使用的指标定义及口径；某时值由辅助 Observation 承载。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "flow/stock、价格/量、目标/实际为定义或观测字段。"
+        }
+      ],
+      "known_debts": [
+        "D11",
+        "D16"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E05",
+        "E13",
+        "E20",
+        "E27"
+      ],
+      "coverage_note": "flow/stock、价格/量、目标/实际为定义或观测字段。"
+    },
+    {
+      "object_name": "Policy",
+      "core_definition": "持续有效的制度/政策安排；宣布、调整、执行是相关 Event。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "PL01 与 EV05 分开，未来生效不等于未来信息。"
+        }
+      ],
+      "known_debts": [
+        "D05",
+        "D07"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E05",
+        "E12"
+      ],
+      "coverage_note": "PL01 与 EV05 分开，未来生效不等于未来信息。"
+    },
+    {
+      "object_name": "Mechanism",
+      "core_definition": "在适用条件下可跨案例复用的因果机制；使用实例不等于共享机制作者。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "candidate 状态不妨碍类型存在。"
+        }
+      ],
+      "known_debts": [
+        "D07",
+        "D10"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E06",
+        "E18",
+        "E19"
+      ],
+      "coverage_note": "candidate 状态不妨碍类型存在。"
+    },
+    {
+      "object_name": "Argument",
+      "core_definition": "连接前提、推理边、中间与最终结论的论证；保存表达层、reasoner、距离及脆弱环节。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "model bridge 与 creator shortcut 不同；无需拆分 Core。"
+        }
+      ],
+      "known_debts": [
+        "D11",
+        "D17"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E06",
+        "E16",
+        "E26"
+      ],
+      "coverage_note": "model bridge 与 creator shortcut 不同；无需拆分 Core。"
+    },
+    {
+      "object_name": "Thesis",
+      "core_definition": "对事件、过程、指标组合的持久解释或结构判断，可由后续证据支持/反驳。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "现实过程本身不重复包装成 Thesis。"
+        }
+      ],
+      "known_debts": [
+        "D12",
+        "D15"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E01",
+        "E03",
+        "E25"
+      ],
+      "coverage_note": "现实过程本身不重复包装成 Thesis。"
+    },
+    {
+      "object_name": "Forecast",
+      "core_definition": "主体对未来结果承担的判断：Claim + cutoff + window + modality + resolution criteria，受准入门槛约束。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "条件推演与押注区别；低可判定性不自动排除明确判断。"
+        }
+      ],
+      "known_debts": [
+        "D03",
+        "D15"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E08",
+        "E24",
+        "E34",
+        "E43"
+      ],
+      "coverage_note": "条件推演与押注区别；低可判定性不自动排除明确判断。"
+    },
+    {
+      "object_name": "Contradiction",
+      "core_definition": "跨时持续、多个目标/约束冲突并由多个 Event/Thesis 与互动支持的结构性张力。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "仅负例/拒绝自动生成覆盖；不能等同 claim_relation=CONTRADICTS。"
+        }
+      ],
+      "known_debts": [
+        "D13",
+        "D20"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E07",
+        "E33"
+      ],
+      "coverage_note": "仅负例/拒绝自动生成覆盖；不能等同 claim_relation=CONTRADICTS。",
+      "coverage_level": "negative_admission_only_no_formal_positive_instance"
+    },
+    {
+      "object_name": "Assessment",
+      "core_definition": "特定观察者按标准、时点和信息集对目标作出的评价。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "评价不是现实本身；source fidelity 不向因果真实性传播。"
+        }
+      ],
+      "known_debts": [
+        "D08",
+        "D20"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E01",
+        "E41",
+        "E42"
+      ],
+      "coverage_note": "评价不是现实本身；source fidelity 不向因果真实性传播。"
+    },
+    {
+      "object_name": "Heuristic",
+      "core_definition": "潜在跨事件复用的分析动作或检查规则，具有适用范围、限制和失败条件；可处于候选状态。",
+      "definition_stability": "stable",
+      "tested_by_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "boundary_conflicts": [
+        {
+          "type": "resolved_or_nonblocking",
+          "description": "MethodSignal 是局部观察，SkillRule 是经验证可执行产物；没有降级 Core 的结构证据。"
+        }
+      ],
+      "known_debts": [
+        "D14",
+        "D17"
+      ],
+      "recommended_freeze_status": "freeze_with_note",
+      "evidence_refs": [
+        "E01",
+        "E04",
+        "E17",
+        "E40"
+      ],
+      "coverage_note": "MethodSignal 是局部观察，SkillRule 是经验证可执行产物；没有降级 Core 的结构证据。",
+      "coverage_level": "candidate_only_no_validated_skill"
+    }
+  ],
+  "gate_details": [
+    {
+      "gate_id": "GATE-01",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E01",
+        "E03",
+        "E25",
+        "E32",
+        "E33"
+      ],
+      "reason": "14 类足以表达所见核心对象；不把摘要/负例当正例完整覆盖。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D12",
+        "D13",
+        "D19"
+      ]
+    },
+    {
+      "gate_id": "GATE-02",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E09",
+        "E12",
+        "E19",
+        "E25"
+      ],
+      "reason": "未发现必须新增第 15 类型的重复结构；四个候选通过七问后均不满足新增必要性。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D03",
+        "D07"
+      ]
+    },
+    {
+      "gate_id": "GATE-03",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E05",
+        "E13",
+        "E16",
+        "E24",
+        "E35"
+      ],
+      "reason": "15 条边界都有现有非 Core 解法；实现校验和历史准入仍有债。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D03",
+        "D11",
+        "D16",
+        "D20"
+      ]
+    },
+    {
+      "gate_id": "GATE-04",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E03",
+        "E25",
+        "E32"
+      ],
+      "reason": "单事件与跨期过程规则稳定；过程正式正例不足，需试点补证。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D12"
+      ]
+    },
+    {
+      "gate_id": "GATE-05",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E08",
+        "E09",
+        "E24",
+        "E34"
+      ],
+      "reason": "条件树、主体预测承诺、持久解释可分；GS003 旧准入不能视作全数通过。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D03",
+        "D15"
+      ]
+    },
+    {
+      "gate_id": "GATE-06",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E06",
+        "E16",
+        "E18",
+        "E19",
+        "E26"
+      ],
+      "reason": "共享因果机制、案例论证和机制使用实例可分别表达。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D10",
+        "D11"
+      ]
+    },
+    {
+      "gate_id": "GATE-07",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E01",
+        "E41",
+        "E42"
+      ],
+      "reason": "来源、命题、评价作用范围与现实区分明确；需防 verified 标签传播。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D07",
+        "D20"
+      ]
+    },
+    {
+      "gate_id": "GATE-08",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E05",
+        "E10",
+        "E11",
+        "E15",
+        "E28"
+      ],
+      "reason": "多时间轴可表达未来生效、滚动版本与事后比较；metadata 与通用规则待补。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D04",
+        "D05",
+        "D06"
+      ]
+    },
+    {
+      "gate_id": "GATE-09",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E16",
+        "E17",
+        "E18",
+        "E26"
+      ],
+      "reason": "reasoner/observer、analysis_context、expression_level 足以隔离主体行为和模型评价。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D10",
+        "D17"
+      ]
+    },
+    {
+      "gate_id": "GATE-10",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E15",
+        "E19",
+        "E20",
+        "E23",
+        "E35"
+      ],
+      "reason": "已见 MA/MA.1 新问题均落辅助、字段、registry、validator 或 review；未见核心缺口。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D11",
+        "D16",
+        "D17"
+      ]
+    },
+    {
+      "gate_id": "GATE-11",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E06",
+        "E08",
+        "E15",
+        "E25",
+        "E28"
+      ],
+      "reason": "主动搜索到的重复问题均有非 Core 隔离方式；尚无 A1–A5 实证。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D03",
+        "D04",
+        "D12",
+        "D13"
+      ]
+    },
+    {
+      "gate_id": "GATE-12",
+      "status": "PASS_WITH_DEBT",
+      "evidence": [
+        "E22",
+        "E30",
+        "E31",
+        "E32",
+        "E35"
+      ],
+      "reason": "已有稳定语义合同可启动 Phase 1 的 schema/validator 工程；须先整理版本化规范，并非生产导入合同已实现。",
+      "blocking_issue": null,
+      "debt_refs": [
+        "D01",
+        "D18"
+      ]
+    }
+  ],
+  "temporal_audit": {
+    "temporal_model_status": "stable",
+    "chronology": [
+      {
+        "golden_id": "GS003",
+        "knowledge_cutoff": "2026-03-03T17:30:00+08:00"
+      },
+      {
+        "golden_id": "GS004",
+        "knowledge_cutoff": "2026-08-05T09:48:48+08:00"
+      },
+      {
+        "golden_id": "GS005",
+        "knowledge_cutoff": "2026-08-20T10:37:33+08:00"
+      },
+      {
+        "golden_id": "GS002",
+        "knowledge_cutoff": "2026-09-21T10:32:21+08:00"
+      }
+    ],
+    "unplaced": [
+      "GS001"
+    ],
+    "axes": [
+      {
+        "axis": "knowledge_cutoff",
+        "assessment": "资格边界按样本信息集保存，未知不可由编号推断。",
+        "evidence_refs": [
+          "E05",
+          "E10",
+          "E15",
+          "E28"
+        ]
+      },
+      {
+        "axis": "asserted_at",
+        "assessment": "录制时间未知保持 null；publication proxy 与 media offset 单列。",
+        "evidence_refs": [
+          "E23",
+          "E05"
+        ]
+      },
+      {
+        "axis": "reference_time",
+        "assessment": "命题谈论的时期/Population 与实际说话时间分开。",
+        "evidence_refs": [
+          "E02",
+          "E07"
+        ]
+      },
+      {
+        "axis": "prediction_window",
+        "assessment": "可未知；不由评估时点倒填。",
+        "evidence_refs": [
+          "E08",
+          "E43"
+        ]
+      },
+      {
+        "axis": "captured_at",
+        "assessment": "抓取晚不自动意味着全部内容晚；但无历史快照存在修改风险。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "published_at",
+        "assessment": "整页发布日期不代表所有滚动条目时间。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "SourceVersion",
+        "assessment": "保留 entry 时间、capture、cutoff eligibility、hash/未知历史修订。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "InformationSet",
+        "assessment": "按 cutoff 与用途区分 creator reconstruction、外部核验、事后方法比较。",
+        "evidence_refs": [
+          "E15",
+          "E28"
+        ]
+      },
+      {
+        "axis": "Forecast resolution time",
+        "assessment": "标准设定/批准/实际评估时间分开；未批准 model criteria 不评分。",
+        "evidence_refs": [
+          "E08",
+          "E43"
+        ]
+      },
+      {
+        "axis": "recurrence chronology",
+        "assessment": "GS003→GS004→GS005→GS002；GS001 无可排序 cutoff；evaluation_time 不重写历史先后。",
+        "evidence_refs": [
+          "E15",
+          "E28",
+          "E36"
+        ]
+      },
+      {
+        "axis": "Event action times",
+        "assessment": "announced/decided/scheduled/effective/occurred 不合并，EV03 是已知未来安排。",
+        "evidence_refs": [
+          "E05",
+          "E12"
+        ]
+      }
+    ],
+    "debt_refs": [
+      "D04",
+      "D05",
+      "D06",
+      "D15"
+    ],
+    "historical_leakage_in_gs005_mr03": "not_established_explicit_retrospective_comparison_consumer_ambiguity_remains"
+  },
+  "counterexample_candidates": [
+    {
+      "counterexample_id": "CE01",
+      "golden_ref": [
+        "GS002"
+      ],
+      "object_ref": "SC08 / TH01",
+      "problem": "旧版本无法直接建立金融结构变化对象。",
+      "why_it_might_be_core": "曾真缺持续现实过程类型。",
+      "why_existing_structure_may_still_be_enough": "当前 V0.3 已有 StructuralProcess；旧 JSON 尚无实例是历史迁移/覆盖债。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E03",
+        "E32"
+      ],
+      "debt_refs": [
+        "D02",
+        "D12"
+      ]
+    },
+    {
+      "counterexample_id": "CE02",
+      "golden_ref": [
+        "GS003",
+        "GS005"
+      ],
+      "object_ref": "FC-C026 / SC01(C005)",
+      "problem": "同是条件分支，旧 GS003 有 Forecast，GS005 仅 Scenario。",
+      "why_it_might_be_core": "若所有分支都算承诺会系统性污染预测账本。",
+      "why_existing_structure_may_still_be_enough": "条件树已有辅助载体；更新准入并复核旧分类可修复，不改 Forecast 核心定义。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E08",
+        "E09",
+        "E24",
+        "E34"
+      ],
+      "debt_refs": [
+        "D03"
+      ]
+    },
+    {
+      "counterexample_id": "CE03",
+      "golden_ref": [
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "MS02 / MR03",
+      "problem": "较晚 GS002 被放进 prior_ref，两个样本治理形态不同。",
+      "why_it_might_be_core": "可能导致跨期方法复现证据倒灌。",
+      "why_existing_structure_may_still_be_enough": "GS004 已隔离；GS005 明确 evaluation_time 与 historical_evidence_use=false。尚未证明历史污染，但消费者需按时间资格区分事后比较。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E15",
+        "E28",
+        "E36",
+        "E37"
+      ],
+      "debt_refs": [
+        "D04"
+      ]
+    },
+    {
+      "counterexample_id": "CE04",
+      "golden_ref": [
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "ME01–03 / MechanismUsage",
+      "problem": "共享机制创建者未知，实际使用者却已知。",
+      "why_it_might_be_core": "一个对象可能同时承担共享知识和主体行为身份。",
+      "why_existing_structure_may_still_be_enough": "Usage 已能分离，unknown 是知识缺口，不是无法表达作者。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E18",
+        "E19",
+        "E26"
+      ],
+      "debt_refs": [
+        "D10"
+      ]
+    },
+    {
+      "counterexample_id": "CE05",
+      "golden_ref": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "StructuralProcess collections / SC08",
+      "problem": "当前正式正例缺席，定义是否只在纸面成立？",
+      "why_it_might_be_core": "可能隐藏过程粒度、起止和生命周期不稳定。",
+      "why_existing_structure_may_still_be_enough": "已有持续性/多时点门槛与拒绝单 Event 升格证据；无发现不可分类现实对象。正例不足限制置信度，需专项试点。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E03",
+        "E25",
+        "E32"
+      ],
+      "debt_refs": [
+        "D12"
+      ]
+    },
+    {
+      "counterexample_id": "CE06",
+      "golden_ref": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "Contradiction collections / CF01–04",
+      "problem": "结构矛盾始终 0，与 CONTRADICTS 是否重叠？",
+      "why_it_might_be_core": "名字相似可能误合并逻辑不一致和持续结构张力。",
+      "why_existing_structure_may_still_be_enough": "命题冲突为 Relation，结构张力有多事件/多 Thesis/持续互动要求；负例合理，正例尚待。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E07",
+        "E33"
+      ],
+      "debt_refs": [
+        "D13",
+        "D20"
+      ]
+    },
+    {
+      "counterexample_id": "CE07",
+      "golden_ref": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "HC01/HC02 / MethodSignal",
+      "problem": "新增 MethodSignal 后，Heuristic 是否应降辅助层？",
+      "why_it_might_be_core": "可能出现同一方法双重建模。",
+      "why_existing_structure_may_still_be_enough": "观察实例不同于可复用规则；candidate 身份不等于 validated；没有无法消除的跨样本重叠。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E01",
+        "E04",
+        "E17",
+        "E40"
+      ],
+      "debt_refs": [
+        "D14",
+        "D17"
+      ]
+    },
+    {
+      "counterexample_id": "CE08",
+      "golden_ref": [
+        "GS002",
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "AR06 / AR01 / AR04",
+      "problem": "从数量到价格、时间比到泡沫倍数、回收到降本反复跳跃。",
+      "why_it_might_be_core": "可能需要经济阶段/产业转型第 15 类型。",
+      "why_existing_structure_may_still_be_enough": "Indicator/Observation roles + Argument 边 + Thesis/Process 足以标明缺条件；错误在推理而非类型不足。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E06",
+        "E16",
+        "E25",
+        "E26",
+        "E27"
+      ],
+      "debt_refs": [
+        "D11",
+        "D16"
+      ]
+    },
+    {
+      "counterexample_id": "CE09",
+      "golden_ref": [
+        "GS003"
+      ],
+      "object_ref": "EV06–08 / LV01–10",
+      "problem": "通知及滚动条目是否已成独立核心实体？",
+      "why_it_might_be_core": "市场规则变化、版本溯源重要且多次出现。",
+      "why_existing_structure_may_still_be_enough": "通知仍有事件边界；版本与条目保留辅助身份。重要性不足以证明 Core 必要。",
+      "final_classification": "NON_BLOCKING_DEBT",
+      "evidence_refs": [
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "debt_refs": [
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "counterexample_id": "CE10",
+      "golden_ref": [
+        "GS004",
+        "GS005"
+      ],
+      "object_ref": "VA-C020 / OC130",
+      "problem": "schema 合格仍可能有评价范围或证据片段错误。",
+      "why_it_might_be_core": "Source→Claim 的语义链接可能表面完整实际失真。",
+      "why_existing_structure_may_still_be_enough": "指针与内容分别校验；审查对齐和 Assessment scope 即可，不更改 Source/Claim 边界。",
+      "final_classification": "DATA_REVIEW",
+      "evidence_refs": [
+        "E29",
+        "E42"
+      ],
+      "debt_refs": [
+        "D08",
+        "D20"
+      ]
+    }
+  ],
+  "new_core_necessity_tests": [
+    {
+      "candidate": "Scenario",
+      "recommend_new_core_object": false,
+      "answers": {
+        "Q1": "现有体系可表达：Claim + auxiliary Scenario + admitted Forecast；不存在已证明的无法表达。",
+        "Q2": "可使用类型/阶段/准入字段；分支关系不等于预测承诺。复杂分支/观察记录可超出单字段但不超出辅助层。",
+        "Q3": "可以使用有 ID 与 provenance 的辅助对象；未发现不足。",
+        "Q4": "对象间条件/支持/使用/阶段关系可以保留，不需新 Core。",
+        "Q5": "评价部分由 Assessment 表达；条件结构或现实动作不全是评价，但已有对象/辅助层可承担。",
+        "Q6": "本次相关样本：GS003, GS005；至少两个案例有相关概念，但不构成不能表达的重复缺口。",
+        "Q7": "没有证明不新增就必然产生且非核心层无法隔离的重复错误；错误准入/角色偷换/归因可由字段、关系、校验及 review 修复。"
+      }
+    },
+    {
+      "candidate": "IndustrialTransitionStage",
+      "recommend_new_core_object": false,
+      "answers": {
+        "Q1": "现有体系可表达：Event + Indicator/Observation + StructuralProcess + Thesis + Argument；不存在已证明的无法表达。",
+        "Q2": "可使用类型/阶段/准入字段；阶段是定义/观测/论证的属性，不是独立不可表达现实实体。复杂分支/观察记录可超出单字段但不超出辅助层。",
+        "Q3": "可以使用有 ID 与 provenance 的辅助对象；未发现不足。",
+        "Q4": "对象间条件/支持/使用/阶段关系可以保留，不需新 Core。",
+        "Q5": "评价部分由 Assessment 表达；条件结构或现实动作不全是评价，但已有对象/辅助层可承担。",
+        "Q6": "本次相关样本：GS002, GS005；至少两个案例有相关概念，但不构成不能表达的重复缺口。",
+        "Q7": "没有证明不新增就必然产生且非核心层无法隔离的重复错误；错误准入/角色偷换/归因可由字段、关系、校验及 review 修复。"
+      }
+    },
+    {
+      "candidate": "AnalystMethodSignal",
+      "recommend_new_core_object": false,
+      "answers": {
+        "Q1": "现有体系可表达：analyst-plane auxiliary observation + Heuristic candidate；不存在已证明的无法表达。",
+        "Q2": "可使用类型/阶段/准入字段；观察方法行为不等于已抽象规则。复杂分支/观察记录可超出单字段但不超出辅助层。",
+        "Q3": "可以使用有 ID 与 provenance 的辅助对象；未发现不足。",
+        "Q4": "对象间条件/支持/使用/阶段关系可以保留，不需新 Core。",
+        "Q5": "评价部分由 Assessment 表达；条件结构或现实动作不全是评价，但已有对象/辅助层可承担。",
+        "Q6": "本次相关样本：GS004, GS005；至少两个案例有相关概念，但不构成不能表达的重复缺口。",
+        "Q7": "没有证明不新增就必然产生且非核心层无法隔离的重复错误；错误准入/角色偷换/归因可由字段、关系、校验及 review 修复。"
+      }
+    },
+    {
+      "candidate": "MarketInfrastructureEvent",
+      "recommend_new_core_object": false,
+      "answers": {
+        "Q1": "现有体系可表达：Event subtype + Policy relation；不存在已证明的无法表达。",
+        "Q2": "可使用类型/阶段/准入字段；有时间边界的通知动作。复杂分支/观察记录可超出单字段但不超出辅助层。",
+        "Q3": "可以使用有 ID 与 provenance 的辅助对象；未发现不足。",
+        "Q4": "对象间条件/支持/使用/阶段关系可以保留，不需新 Core。",
+        "Q5": "评价部分由 Assessment 表达；条件结构或现实动作不全是评价，但已有对象/辅助层可承担。",
+        "Q6": "本次相关样本：GS003；只有一个 Golden，尚不满足跨案必要性。",
+        "Q7": "没有证明不新增就必然产生且非核心层无法隔离的重复错误；错误准入/角色偷换/归因可由字段、关系、校验及 review 修复。"
+      }
+    }
+  ],
+  "analyst_skill_status": "NOT_READY",
+  "macromind_core_skill_status": "NOT_READY",
+  "production_import_ready": false,
+  "formal_freeze_executed": false,
+  "next_step": "Core Ontology V0.3 Freeze Commit (separate authorization/task); then versioned contract and Codex Phase 1 schema/validator/registry work.",
+  "limitations": [
+    "GS001 summary only; no invented machine-readable objects or chronology.",
+    "GS002/003 legacy extraction, not fully MA.1 migrated or knowledge validated.",
+    "StructuralProcess and Contradiction formal positive coverage absent; Heuristic validated-skill coverage absent.",
+    "Latest local validation reused with accepted-file hash binding; no migration or factual verification rerun.",
+    "Readiness is bounded by five cases, not a statistical guarantee for 30–50 or 1900 episodes."
+  ]
+}

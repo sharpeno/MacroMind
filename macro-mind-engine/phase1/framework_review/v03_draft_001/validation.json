@@ -1,0 +1,9 @@
+{
+  "status": "PASS_STRUCTURE_NOT_SEMANTIC_APPROVAL",
+  "cards": 6,
+  "evidence_groups": 12,
+  "parent_and_development_artifacts_unchanged": true,
+  "draft_bound_to_review_by_sha256": true,
+  "holdout_read": false,
+  "ui_result": "G:/youhegaojian/review-ui-qa/framework-v03/result.json"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "EP001/bank/1",
+    "url": "https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks",
+    "date_observed": "2026-09-11",
+    "title_observed": "What a Fed Rate Hike Could Mean for US Stocks",
+    "assessment": "高盛访谈讨论AI及消费机会。文内CPI已公布，视频则讨论今晚CPI；存在内容时序疑问。无法据此确认这是博主所指的前几天研报。",
+    "web_access": "CURRENT_PAGE_READ",
+    "historical_version_verified": false,
+    "creator_citation_verified": false,
+    "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+    "raw_evidence": "web_tool_raw.json"
+  },
+  {
+    "id": "EP001/bank/2",
+    "url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html",
+    "date_observed": "2026-09-03",
+    "title_observed": "Look beyond tech as AI strength persists",
+    "assessment": "瑞银CIO主张在保持AI配置基础上扩大投资范围，不等于退出AI，也不证明轮动失败。",
+    "web_access": "CURRENT_PAGE_READ",
+    "historical_version_verified": false,
+    "creator_citation_verified": false,
+    "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+    "raw_evidence": "web_tool_raw.json"
+  },
+  {
+    "id": "EP001/bank/3",
+    "url": "https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html",
+    "date_observed": "2026-09-09",
+    "title_observed": "Brent tops 100: A milestone, not a turning point",
+    "assessment": "瑞银CIO讨论能源成本与拓宽配置；医疗表述带有能源影响加重的条件，不能去掉条件转述。",
+    "web_access": "CURRENT_PAGE_READ",
+    "historical_version_verified": false,
+    "creator_citation_verified": false,
+    "admission": "SUPPLEMENTAL_BACKGROUND_ONLY",
+    "raw_evidence": "web_tool_raw.json"
+  }
+]

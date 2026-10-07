@@ -1,0 +1,32 @@
+{
+  "adapter_id": "compat.legacy_pre_ma",
+  "adapter_version": "0.1.0",
+  "canonical_bundle_hash": "b46856f38209c18c0ced366d447dd2639e47e44a1ce46e01540a8b52a6d134a7",
+  "canonical_object_count": 228,
+  "detection_status": "STRONG",
+  "loss_count": 6442,
+  "mapping_ledger_hash": "9dfd3fec16154cc4dfcee805bcbe22ca022bf439d5b9fd54201e2f5f66624a54",
+  "quarantined_object_count": 345,
+  "source_family": "LEGACY_PRE_MA",
+  "source_object_count": 573,
+  "source_sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+  "source_unchanged": true,
+  "status": "PARTIAL",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknown_count": 4195,
+  "validator_summary": {
+    "deterministic_hash": "d04762618ae0b88bd26785a4bb5cb420688ff7573714b05a77113546042fb046",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 228,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 366,
+      "NOT_APPLICABLE": 16,
+      "PASS": 1096,
+      "WARNING": 33
+    },
+    "validator_version": "0.1.0"
+  }
+}

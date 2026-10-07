@@ -1,0 +1,294 @@
+{
+  "$defs": {
+    "TimeReference": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded end, if known.",
+          "field_origin": "implementation_extension",
+          "title": "End"
+        },
+        "source_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Evidence for this temporal expression.",
+          "field_origin": "implementation_extension",
+          "title": "Source Ref"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded start, if known.",
+          "field_origin": "implementation_extension",
+          "title": "Start"
+        },
+        "text": {
+          "description": "Original temporal expression; no inferred exact date.",
+          "field_origin": "implementation_extension",
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TimeReference",
+      "type": "object"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    },
+    "VerificationStatus": {
+      "enum": [
+        "verified",
+        "likely_true",
+        "uncertain",
+        "disputed",
+        "likely_false",
+        "false",
+        "unverifiable",
+        "unknown"
+      ],
+      "title": "VerificationStatus",
+      "type": "string"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Assessment",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Assessment; ontology_version=0.3.",
+  "properties": {
+    "assessment_kind": {
+      "description": "Kind of assessment, independent of truth",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Assessment Kind",
+      "type": "string"
+    },
+    "assessment_time": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TimeReference"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Evaluation time",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Assessment Time"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "criteria": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Evaluation criteria",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Criteria"
+    },
+    "detail": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Assessment detail, never written back to reality",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Detail"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "information_set_ref": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Information available to observer",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Information Set Ref"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "object_type": {
+      "const": "Assessment",
+      "default": "Assessment",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "observer": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observer making this assessment",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Observer"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "target_ref": {
+      "description": "Target evaluated",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Assessment; core_principles.json",
+      "title": "Target Ref",
+      "type": "string"
+    },
+    "verification_status": {
+      "$ref": "#/$defs/VerificationStatus",
+      "description": "Attributed verification judgment",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Assessment; core_principles.json"
+    }
+  },
+  "required": [
+    "id",
+    "observer",
+    "target_ref",
+    "assessment_kind",
+    "criteria",
+    "information_set_ref",
+    "assessment_time",
+    "verification_status",
+    "detail"
+  ],
+  "title": "Assessment",
+  "type": "object"
+}

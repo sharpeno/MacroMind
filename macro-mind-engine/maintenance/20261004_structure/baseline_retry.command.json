@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "pytest",
+    "-q",
+    "--basetemp=G:\\youhegaojian\\macro-mind-engine\\maintenance\\20261004_structure\\baseline_tmp"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

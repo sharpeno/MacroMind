@@ -1,0 +1,177 @@
+Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call (https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4)
+citeturn17search0 [wordlim: 200] Published: last month; Crawled: today; Microsoft Fiscal Year 2026 Fourth Quarter Earnings Conference Call ... On the Microsoft Investor Relations website, you can find our earnings press release and financial summary slide deck, which is intended to supplement our prepared remarks during today’s call and provides the reconciliation of differences between GAAP and non-GAAP financial measures. ... To date, Purview has audited over 50 billion Copilot interactions to meet compliance obligations, up nearly 360% year-over-year. ... Earnings per share was $4.74, an increase of 23%, when adjusted for the impact from our investment in OpenAI. ... And finally, we returned $10.2 billion to shareholders through dividends and share repurchases, bringing our total cash returned to shareholders to over $43 billion for the full fiscal year. ... Commercial remaining performance obligation grew 84% to $678 billion. ... And we expect our Q1 effective tax rate to be approximately 20%.
+
+Cash flow from operations was $55.4 billion, up 30% driven by strong cloud billings and collections, partially offset by an increase in operating lease payments. And free cash flow was $19.6 billion reflecting higher capital expenditures.
+
+And finally, we returned $10.2 billion to shareholders through dividends and share repurchases, bringing our total cash returned to shareholders to over $43 billion for the full fiscal year.
+
+Now, to our commercial results.
+
+Commercial bookings grew 18% when excluding the impact from OpenAI driven by strong execution in our core annuity sales motions and reflecting broad customer demand across geographies and customer segments. Bookings increased 10% and 11% in constant currency when including Azure commitments from OpenAI.
+
+Commercial remaining performance obligation grew 84% to $678 billion. All sequential commercial RPO growth was driven by commitments from customers outside of frontier model companies. And RPO increased 25% when excluding OpenAI. 
+
+RPO, including OpenAI, has a weighted average duration of 2.3 years. And roughly 30% will be recognized in revenue in the next 12 months, up 37% year-over-year. The remaining portion recognized beyond the next 12 months increased 112%.
+
+Microsoft Cloud revenue was $59.3 billion and grew 27%, reflecting strong demand across Azure and our first-party AI applications and services. And for the full year, our cloud revenue surpassed $214 billion, with nearly 90% from customers outside of frontier model companies.
+
+Microsoft Cloud gross margin percentage was better than expected at 65%, and down year-over-year driven by sales mix shift to Azure, as well as continued investments in AI infrastructure and increased product usage, partially offset by ongoing efficiency gains noted earlier.
+
+--------------------------------------------------------------------------------
+FY26 Q4 - Metrics - Investor Relations - Microsoft (https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/metrics)
+citeturn17search1 [wordlim: 200] Crawled: yesterday; Investor Relations ... Commercial remaining performance obligation Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods  | $368  | $368  | $392  | $625  | $627  | $678  | $678 ... Microsoft 365 Commercial seat growth (y/y) Microsoft 365 Commercial seat growth: the number of Microsoft 365 Commercial seats at end of period where seats are paid users covered by a Microsoft 365 Commercial subscription  | 6%  | 6%  | 6%  | 6%  | 6%  | 6%  | 6% ... Azure and other cloud services revenue growth (y/y)* Revenue from Azure and other cloud services, including cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services  | 39% / 39%  | 34% / 35%  | 40% / 39%  | 39% / 38%  | 40% / 39%  | 43% / 43%  | 41% / 40% ... src=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/SlidesFY26Q4.pptx)
+
+Investor Relations
+
+Earnings Release FY26 Q4
+
+## Investor Metrics
+
+Investor Metrics
+(in billions, except for percentages)  | Q425  | FY25  | Q126  | Q226  | Q326  | Q426  | FY26
+--- | --- | --- | --- | --- | --- | --- | ---
+Commercial (Includes commercial portion of LinkedIn) Commercial (Includes commercial portion of LinkedIn)  |  |  |  |  |  |  | 
+Commercial bookings growth (y/y)* For commercial products and cloud services, sum of revenue growth, plus change in balance of unearned revenue plus the change in contracted not billed balance  | 37% / 30%  | 38%  | 112% / 111%  | 230% / 228%  | -4% / -6%  | 10% / 11%  | 83%
+Commercial remaining performance obligation Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods  | $368  | $368  | $392  | $625  | $627  | $678  | $678
+Microsoft Cloud revenue Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365  | $46.7  | $168.9  | $49.1  | $51.5  | $54.5  | $59.3  | $214.4
+--------------------------------------------------------------------------------
+FY26 Q4 - Press Releases - Investor Relations - Microsoft (https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast)
+citeturn17search2 [wordlim: 200] Published: last month; Crawled: today; Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion. ... ·        Azure and other cloud services revenue increased 43%Revenue in More Personal Computing was $12.9 billion and decreased 4% (down 5% in constant currency), with the following business highlights: ... Microsoft returned $10.2 billion to shareholders in the form of dividends and share repurchases in the fourth quarter of fiscal year 2026.
+--------------------------------------------------------------------------------
+ (https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm)
+citeturn17search3 [wordlim: 200] Published: last month; Crawled: last month; AMAZON.COM ANNOUNCES SECOND QUARTER RESULTS ... •AWS segment sales increased 37% year-over-year to $42.2 billion. ... •AWS segment operating income was $16.6 billion, compared with $10.2 billion in second quarter 2025.
+--------------------------------------------------------------------------------
+10-K (https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm)
+citeturn17search4 [wordlim: 200] Published: last month; Crawled: last month; Microsoft Cloud revenue increased 27% to $214.4 billion. ... Commercial remaining performance obligation increased 84% to $678 billion. ... The following table summarizes the payments due by fiscal year for our outstanding contractual obligations as of June 30, 2026:
+--------------------------------------------------------------------------------
+Home page (https://www.microsoft.com/en-us/investor/default?t_id=c1279321-5415-42e0-a945-b4e9b92fa7fc)
+citeturn17search5 [wordlim: 200] Crawled: last week; Image: Microsoft FY26 Q4 Earnings ... July 29, 2026 ... ### Fiscal Year 2027 Segments and Investor Metrics
+--------------------------------------------------------------------------------
+Amazon.com, Inc. - Amazon.com Announces Second Quarter Results (https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx?mode=light)
+citeturn17search6 [wordlim: 200] Published: last month; Crawled: yesterday;   * Announced an investment of $1 billion to create AWS Forward Deployed Engineering, a team of AI engineers embedded directly with customers to co-develop and deploy agentic AI solutions in days rather than months. ... Amazon Now is available in nine countries and over 250 cities and towns globally, and customers love it, with over 80% growth in gross sales and units sold quarter-over-quarter and over 60% more customers served quarter-over-quarter. ... The following forward-looking statements reflect Amazon.com’s expectations as of July 30, 2026, and are subject to substantial uncertainty. ... Net sales  | $  | 36,761  |    |    | $  | 42,197  |    |    | $  | 70,274  |    |    | $  | 81,986  |
+--------------------------------------------------------------------------------
+amzn-20260630 (https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm)
+citeturn17search7 [wordlim: 200] Published: last month; Crawled: last month; AMAZON.COM, INC. ... 10,786,313,572 shares of common stock, par value $0.01 per share, outstanding as of July 22, 2026AMAZON.COM, INC. ... | Management’s Discussion and Analysis of Financial Condition and Results of Operations  | 26
+--------------------------------------------------------------------------------
+Quarterly earnings (https://www.aboutamazon.com/news/tag/quarterly-earnings)
+citeturn17search8 [wordlim: 200] Crawled: yesterday; Q2 Earnings: Andy Jassy on why AWS is booming and what it means for customers ... July 30, 2026 ... Amazon.com announces second quarter results
+--------------------------------------------------------------------------------
+Amazon-com-to-Webcast-Second-Quarter-2026-Financial-Results-Conference-Call - US Press Center (https://press.aboutamazon.com/2026/7/amazon-com-to-webcast-second-quarter-2026-financial-results-conference-call)
+citeturn17search9 [wordlim: 200] Published: 2 months ago; Crawled: yesterday; # Amazon.com to Webcast Second Quarter 2026 Financial Results Conference Call
+--------------------------------------------------------------------------------
+DeepSeek V4-Flash Is the Cheapest AI Model to Run: 3 Cents | The Bot Post (https://thebotpost.com/ai-news/deepseek-v4-flash-cheapest-ai-model-artificial-analysis)
+citeturn17search10 [wordlim: 200] Published: last month; Crawled: 3 weeks ago; Independent firm Artificial Analysis says DeepSeek's V4-Flash is by far the cheapest well-known AI model to actually run — about $0.03 per test battery versus $0.86 for Kimi K3, $1.86 for GPT-5.6 Sol and $3.15 for Claude Fable 5.
+--------------------------------------------------------------------------------
+DeepSeek V4-Flash Is 105 Times Cheaper Than Claude Fable 5 (https://acecampai.substack.com/p/deepseek-v4-flash-is-105-times-cheaper)
+citeturn17search11 [wordlim: 200] Published: last month; Crawled: yesterday; # DeepSeek V4-Flash Is 105 Times Cheaper Than Claude Fable 5 ... This update did not adjust model pricing or infrastructure, but raised the Artificial Analysis comprehensive capability index from 40 to 50, Terminal-Bench 2.1 from 62% to 79%, and GDPval-AA v2 from 1189 to 1559 Elo.Meanwhile, the average API bill for V4-Flash to complete a comprehensive evaluation task is about $0.03, only about 1/105 of Claude Fable 5.
+--------------------------------------------------------------------------------
+AMZN-2026.03.31-EX99.1 (https://s2.q4cdn.com/299287126/files/doc_earnings/2026/q1/earnings-result/AMZN-Q1-2026-Earnings-Release.pdf)
+citeturn17search12 [wordlim: 200] Published: 4 months ago; • Announced new customer agreements with Delta Air Lines to bring free, high-speed Amazon Leo-powered Wi‑Fi to hundreds of aircraft beginning in 2028; Vodafone to extend mobile coverage across Europe and Africa; and the DP World Tour to provide satellite-powered connectivity across 42 professional golf tournaments annually. ... The following forward-looking statements reflect Amazon.com’s expectations as of April 29, 2026, and are subject to substantial uncertainty. ... • Operating income is expected to be between $20.0 billion and $24.0 billion, compared with $19.2 billion in second quarter 2025.
+--------------------------------------------------------------------------------
+New DeepSeek V4-Flash achieves 50 on ArtificalAnalysis Index, 1 point below GLM-5.2 and GPT-5.6 Luna (https://www.reddit.com/r/LocalLLaMA/comments/1vbk5ob/new_deepseek_v4flash_achieves_50_on/)
+citeturn17reddit13 [wordlim: 200] Published: last month; It's showing a 10x cost increase compared to original deepseek v4 flash. ... EDIT: They fixed it, it is now showing as $0.03
+--------------------------------------------------------------------------------
+Microsoft FY26 Q4: Strong Azure Growth With Resilient Free Cash Flow (https://www.reddit.com/r/MSFT/comments/1vau8bb/microsoft_fy26_q4_strong_azure_growth_with/)
+citeturn17reddit14 [wordlim: 200] Published: last month; In the quarter ended June 2026, Azure accelerated to 43% with next quarter guided to 45%, capex was not raised, operating margin held, and free cash flow stayed positive. ... Of the $41 billion of capex, $5.6 billion took the form of finance leases, so cash capital spending was under $36 billion — leaving free cash flow near $19.6 billion. ... When bookings run ahead of recognised revenue, the contract balance compounds — remaining performance obligations rose $50 billion to $678 billion. ... Productivity is steady rather than exciting: Microsoft 365 Commercial Cloud grew 14%, with the E3-to-E5-to-E7 ladder quietly lifting effective pricing — E7 bundles the $30 Copilot, agents and upgraded security for $99 against roughly $120 standalone — but getting customers to pay for AI is slower than hoped.
+--------------------------------------------------------------------------------
+43% Azure growth and 84% RPO growth (https://www.reddit.com/r/stocks/comments/1va7lwa/43_azure_growth_and_84_rpo_growth/)
+citeturn17reddit15 [wordlim: 200] Published: last month; * Azure growth: **43%*** Microsoft Cloud revenue: **$59.3 billion**, up **27%*** Commercial backlog/RPO: **$678 billion**, up **84%** ...         [Wednesday July 29 2026] [+4 votes]
+--------------------------------------------------------------------------------
+Microsoft (MSFT): The Good, the Bad, and the Ugly from MSFT's Earnings Call (https://www.reddit.com/r/EarningsCalls/comments/1vbudd9/microsoft_msft_the_good_the_bad_and_the_ugly_from/)
+citeturn17reddit16 [wordlim: 200] Published: last month; [Friday July 31 2026] [+9 votes] ... - **Strong Azure Momentum**: Azure revenue grew **43%** in Q4, ahead of expectations, driven by efficiency gains and faster capacity delivery- **Massive RPO Growth**: Commercial remaining performance obligation grew **84%** to **$678 billion**, indicating strong future revenue visibility- **Copilot Adoption Surge**: Over **30 million paid Microsoft 365 Copilot seats** with net seat adds more than doubling QoQ
+--------------------------------------------------------------------------------
+FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention (https://arxiv.org/abs/2606.09079)
+citeturn17academia17 [wordlim: 200] Published: 3 months ago; Title: FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention
+--------------------------------------------------------------------------------
+Is this a joke, Artificial Analysis? (https://www.reddit.com/r/DeepSeek/comments/1wcws96/is_this_a_joke_artificial_analysis/)
+citeturn17reddit18 [wordlim: 200] Published: 2 weeks ago; What do you guys think about DS 4.1 Flash's new spot on the Artificial Analysis leaderboard? ... Now in the latest version of AA (v4.3) Astra is on par with fable. ... I've been programming for 20 years, and any AI works for me if I ask the right questions; it's just that one—like GLM 5.2—charges me $3, whereas DeepSeek v4-flash-0731 did the same job for a ridiculously lower price.
+--------------------------------------------------------------------------------
+MSFT Quarterly Revenue $90 billion (up 18% YoY) (https://www.reddit.com/r/stocks/comments/1va7kxp/msft_quarterly_revenue_90_billion_up_18_yoy/)
+citeturn17reddit19 [wordlim: 200] Published: last month; "Microsoft Cloud revenue was $59.3 billion and increased 27%, and commercial remaining performance obligation increased 84% to $678 billion." ... Calculation: *ROIC = Net Operating Profit after Tax / Invested Capital = (Annualised Operating Income x (1 - Tax percentage)) / (Stakeholder Equity + Long term debt - Cash and short term investments) = (4 x 40.6 x (1 - 0.188)) / (442.4 + 31.1 - 76.8) = 131.9 / 396.7 = 33%*
+--------------------------------------------------------------------------------
+Amazon Q2 earnings: AWS margin rose to 39.4% while growth sped up (https://www.reddit.com/r/amzn/comments/1vbj6kw/amazon_q2_earnings_aws_margin_rose_to_394_while/)
+citeturn17reddit20 [wordlim: 200] Published: last month; [Friday July 31 2026] [+41 votes] ... Amazon's cloud didn't just grow this quarter — it accelerated, and it did so while getting more profitable.1、AWS revenue was $42.2B, with growth speeding up 9 points to 37% — acceleration on an already large base.
+--------------------------------------------------------------------------------
+UNITED STATES (https://fortune.com/company-assets/1861/quartr/quarterly-report-10-q-4dcb1-2026-04-29-20-09-09.pdf)
+citeturn17search21 [wordlim: 25] Published: 4 months ago; Financial Condition and Results of Operations” and “Risk Factors” (Part II, Item 1A of this Form 10-Q). ... Highlights from the third quarter of fiscal year 2026 compared with the third quarter of fiscal year 2025 included: ... Microsoft Cloud revenue increased 29% to $54.5 billion. ... Commercial remaining performance obligation increased 99% to $627 billion.
+--------------------------------------------------------------------------------
+AMZN Quarterly Revenue $200.6 billion (up 20% YoY) (https://www.reddit.com/r/stocks/comments/1vb4umz/amzn_quarterly_revenue_2006_billion_up_20_yoy/)
+citeturn17reddit22 [wordlim: 200] Published: last month; Crawled: 4 weeks ago; Calculation: *ROIC = Net Operating Profit after Tax / Invested Capital = (Annualised Operating Income x (1 - Tax percentage)) / (Stakeholder Equity + Long term Debt - Cash and short term investments) = (4 x 27.5 x (1 - 0.226)) / (551.6 + 65.6 - 123) = 85.14/494.2  = 17%* ...   [Thursday July 30 2026] [+23 votes] ...       You do realize Google ADDED more cloud revenue quarter over quarter than Amazon? ...       Jassy said  Amazon Web Services (AWS) could eventually become a **$1 trillion annual revenue business** over time. ... [Thursday July 30 2026] [+42 votes] ... You can tell Amazon was not trading up pre-earnings, it was actually the opposite.
+--------------------------------------------------------------------------------
+DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression (https://arxiv.org/abs/2609.19969)
+citeturn17academia23 [wordlim: 200] Published: last week; Model checkpoints are available at https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash.
+--------------------------------------------------------------------------------
+AMZN: AWS on a Tear, Finally Back with the Pack! (https://www.reddit.com/r/u_Dolphin_research/comments/1vbnbgi/amzn_aws_on_a_tear_finally_back_with_the_pack/)
+citeturn17reddit24 [wordlim: 200] Published: last month; TL;DR Amazon's Q2 2026 — the three months ended June 2026 — is the quarter it caught up with the rest of big tech. ... AWS revenue was $42.2 billion in Q2 2026, up 37% year over year against 28% in Q1.
+--------------------------------------------------------------------------------
+AMAZON.COM ANNOUNCES SECOND QUARTER RESULTS (https://ir.aboutamazon.com/files/doc_financials/2023/q2/Q2-2023-Amazon-Earnings-Release.pdf)
+citeturn17search25 [wordlim: 200] Published: 1.9 years ago; Amazon Elastic Compute Cloud (Amazon EC2) P5 instances, the latest generation instances optimized for ... The general availability of Amazon Security Lake, which centralizes security data from AWS, on-premises,
+--------------------------------------------------------------------------------
+Amazon.com, Inc (https://s2.q4cdn.com/299287126/files/doc_financials/2026/ar/Amazon-2025-Annual-Report.pdf)
+citeturn17search26 [wordlim: 200] Published: 5 months ago; 2/ Amazon is smack in the middle of this land rush, and companies are choosing AWS for AI. ... Second, as customers expand their use of AI, they want their inference to reside near their other applications and data (for latency reasons), and much more of it resides in AWS than anywhere else. ... [As an aside, two large AWS customers have already asked if they could buy *all* of our Graviton instance capacity in 2026 (Graviton is our widely-adopted custom CPU chip)—we can’t agree to these requests given other customers’ needs, but it gives you an idea of the demand.]
+--------------------------------------------------------------------------------
+Amazon to boost spending on AI and other technology by $20 billion after strong Q2 results (https://apnews.com/article/b4ce02b4666a35b8975823c5c22072ee)
+citeturn17news27 [wordlim: 100] Published: last month; Amazon to boost spending on AI and other technology by $20 billion after strong Q2 resultsDate: Thu Jul 30 20:26:36 2026 UTC ... NEW YORK (AP) - Amazon said it will be increasing this year's capital spending on technology, mostly artificial intelligence, by an additional 10% after the tech and e-commerce giant delivered strong profits and net sales during for fiscal second quarter, helped by surging growth in its prominent cloud computing unit.The Seattle-based company said Thursday that sales in its cloud computing unit called AWS rose 37% during the April-June period, faster than the 28% clip in the previous quarter and marking the fastest rate of growth in 18 quarters.
+Amazon to boost spending on AI and other technology by $20 billion after strong Q2 results
+Date: Thu Jul 30 20:26:36 2026 UTC
+Location: New York, New York, United States
+
+NEW YORK (AP) - Amazon said it will be increasing this year's capital spending on technology, mostly artificial intelligence, by an additional 10% after the tech and e-commerce giant delivered strong profits and net sales during for fiscal second quarter, helped by surging growth in its prominent cloud computing unit.
+The Seattle-based company said Thursday that sales in its cloud computing unit called AWS rose 37% during the April-June period, faster than the 28% clip in the previous quarter and marking the fastest rate of growth in 18 quarters.
+CEO and President Andy Jassy disclosed to investors on the call that Amazon now expects capital spending to total $220 billion, which also includes outlays on robots, semiconductors and satellites. That's up from the $200 billion investment plan that was announced in February and well above the $128 billion in capital spending for all of last year. --------------------------------------------------------------------------------
+DeepSeek-V4-Flash on AMD gfx90a: Correctness Recovery and Inference Performance Engineering (https://arxiv.org/abs/2609.15627)
+citeturn17academia28 [wordlim: 200] Published: last week; Title: DeepSeek-V4-Flash on AMD gfx90a: Correctness Recovery and Inference Performance Engineering ... We present the enablement, correctness recovery, and performance engineering of DeepSeek-V4-Flash inference on AMD Instinct MI250 GPUs using the gfx90a/CDNA2 architecture.
+--------------------------------------------------------------------------------
+Amazon revenue soars as AI investments pay off (https://www.axios.com/2026/07/30/amazon-earnings-revenue-ai)
+citeturn17news29 [wordlim: 100] Published: last month; Amazon's AI cloud business soared in the second quarter, driving far higher revenue than expected, though the company's free cash flow also turned negative as it invests heavily in the business. ... Zoom in: Amazon's North America sales rose 16%, international sales increased 15%, and AWS sales jumped 37%.Yes, but: Amazon's free cash flow in the 12-month period ended June 30 amounted to an outflow of $7.6 billion, down from an inflow of $18.2 billion in the comparable period a year earlier.
+Amazon revenue soars as AI investments pay off
+Date: Thu Jul 30 20:37:12 2026 UTC
+
+Amazon revenue soars as AI investments pay off
+
+Amazon's AI cloud business soared in the second quarter, driving far higher revenue than expected, though the company's free cash flow also turned negative as it invests heavily in the business.
+Why it matters: The surging AI economy - centered around cloud companies like Amazon, hyperscalers and data center investments - is booming, even as questions are mounting about whether it's sustainable.
+Driving the news: Amazon delivered a 20% increase in net sales to $200.6 billion, easily topping S&P Capital IQ expectations of $196.4 billion.
+Zoom in: Amazon's North America sales rose 16%, international sales increased 15%, and AWS sales jumped 37%.
+Yes, but: Amazon's free cash flow in the 12-month period ended June 30 amounted to an outflow of $7.6 billion, down from an inflow of $18.2 billion in the comparable period a year earlier.
+--------------------------------------------------------------------------------
+I predict DeepSeek V4 Flash 0731's Artificial Analysis score to be 57 ± 1 point (Kimi K3 Level) (https://www.reddit.com/r/LocalLLaMA/comments/1vbj3cn/i_predict_deepseek_v4_flash_0731s_artificial/)
+citeturn17reddit30 [wordlim: 200] Published: last month; Deepseek's new model V4 Flash 0731 is much better, I (Claude lol) did a bit of linear regression with a leave one out style verification to predict its AA Score, and that puts it at Kimi K3 level, which is just absurd to me for its price!
+--------------------------------------------------------------------------------
+Amazon jumped 15%: AWS grew 37%, but free cash flow disappeared (https://www.reddit.com/r/StocksTool/comments/1vdc7xt/amazon_jumped_15_aws_grew_37_but_free_cash_flow/)
+citeturn17reddit31 [wordlim: 200] Published: last month; Amazon generated $200.6 billion in second-quarter revenue, up 20% year over year. ... The number that really moved the stock, though, was AWS: $42.2 billion in revenue, 36.7% growth and $16.6 billion in operating income. ... Amazon spent $53.1 billion on capital expenditure in the quarter alone and raised its 2026 investment plan to roughly $220 billion.
+--------------------------------------------------------------------------------
+$AMZN 2026-Q2 Earnings Call Summary (Jul 30, 2026) (https://www.reddit.com/r/earningsdigest/comments/1vbovie/amzn_2026q2_earnings_call_summary_jul_30_2026/)
+citeturn17reddit32 [wordlim: 200] Published: last month; [Friday July 31 2026] [+1 votes]Amazon reported another exceptionally strong quarter with revenue reaching $200.6 billion, a 20% year-over-year increase, driven by robust growth in AWS, advertising, and retail businesses.
+--------------------------------------------------------------------------------
+Adapting Tree-Structured Speculative Decoding to DeepSeek-V4 for Efficient Inference (https://arxiv.org/abs/2609.24698)
+citeturn17academia33 [wordlim: 200] Published: 4 days ago; We integrate tree-structured speculative decoding into the DeepSeek-V4-Flash pipeline via branch-aware causal verification, temporary state isolation, and accepted-path state refresh, keeping verification and compressed-state updates consistent across branches.
+--------------------------------------------------------------------------------
+Microsoft beats Wall Street expectations with $90B in revenue (https://apnews.com/article/f7dff4fb9d51a2bdec56a13e5da1053d)
+citeturn17news34 [wordlim: 100] Published: last month; Date: Wed Jul 29 21:20:50 2026 UTC ... Analysts surveyed by FactSet Research had expected the company to earn $4.24 per share on revenue of $87.62 billion this quarter.Microsoft Cloud revenue was $59.3 billion this quarter, up 27% year-over-year. ... Azure and other cloud services revenue increased 43%.
+Microsoft beats Wall Street expectations with $90B in revenue
+Date: Wed Jul 29 21:20:50 2026 UTC
+
+Microsoft posted strong results for its quarterly earnings on Wednesday, beating expectations and showing strong growth in its cloud computing platform and a boost in paid AI users. 
+The Redmond, Washington, company earned $90 billion, or $4.81 per share, in the April-June quarter. That is up 18% from the same period a year earlier. Analysts surveyed by FactSet Research had expected the company to earn $4.24 per share on revenue of $87.62 billion this quarter. 
+Microsoft Cloud revenue was $59.3 billion this quarter, up 27% year-over-year. That growth reflects the demand across Microsoft's cloud computing platform Azure, as well as its first-party AI applications and services. Azure and other cloud services revenue increased 43%. 
+For the full fiscal year, which closed out at the end of June, the company brought in $331.8 billion in revenue. 
+"This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million paid seats, reflecting the confidence customers are placing in us to power their AI transformation," CEO Satya Nadella said in a statement Wednesday. 
+--------------------------------------------------------------------------------
+China's DeepSeek rolls out a long-anticipated update of its AI model (https://apnews.com/article/d2ed33f2521917193616e061674d5f92)
+citeturn17news35 [wordlim: 100] Published: 5 months ago; But it was DeepSeek's specialized "reasoning" AI model, called R1, that took markets by surprise with its release in January 2025. ... The "flash" version of V4 performs on a par with the "pro" version on simple agent tasks and has reasoning capabilities closely approaching it, DeepSeek said.
+V4 is a successor to V3, an AI model that DeepSeek released in late 2024.
+But it was DeepSeek's specialized "reasoning" AI model, called R1, that took markets by surprise with its release in January 2025. DeepSeek claimed it was more cost-effective than OpenAI's similar model and it became a symbol of how China was catching up with the U.S. in technological advancements.
+DeepSeek said the "V4 Pro Max" version has "superior performance" in terms of standard reasoning benchmarks relative to OpenAI's GPT-5.2 model and Google's Gemini 3.0-Pro. It falls "marginally" short of GPT-5.4 and Gemini 3.1-Pro, it said. DeepSeek's release came hours after OpenAI released its new GPT-5.5 model on Thursday.
+In terms of "agentic" capabilities, the Chinese company said the V4 "pro" version could outperform Claude's Sonnet 4.5 and approaches the level of Claude's Opus 4.5 model based on its own evaluation.
+The "flash" version of V4 performs on a par with the "pro" version on simple agent tasks and has reasoning capabilities closely approaching it, DeepSeek said.
+--------------------------------------------------------------------------------
+DeepSeek (chatbot) (https://en.wikipedia.org/wiki/DeepSeek_%28chatbot%29)
+citeturn17search36 [wordlim: 200] Crawled: 4 months ago; DeepSeek V4 Flash / ... DeepSeek (; stylized as deepseek) is a generative artificial intelligence chatbot developed by the Chinese company DeepSeek. ... DeepSeek's success against larger and more established rivals has been described as "upending AI" and initiating "a global AI space race".
+--------------------------------------------------------------------------------
+DeepSeek-V4 (https://zh.wikipedia.org/wiki/DeepSeek-V4)
+citeturn17search37 [wordlim: 200] Crawled: 4 months ago; DeepSeek-V4是深度求索（DeepSeek）于2026年4月24日以預覽版形式發布的人工智能大型语言模型，分為V4-Pro與V4-Flash兩個版本，是深度求索的第四代旗艦模型。 ... - deepseek-ai/DeepSeek-V4-Pro.
+--------------------------------------------------------------------------------
+DeepSeek (https://en.wikipedia.org/wiki/DeepSeek)
+citeturn17search38 [wordlim: 200] Crawled: 4 months ago; On April 24, 2026, DeepSeek released a preview of its V4 series, including the 1.6-trillion parameter DeepSeek-V4-Pro and the 284-billion parameter DeepSeek-V4-Flash, both featuring a 1-million token context window, under the MIT License.DeepSeek's V4 LLM has been adopted by key semiconductor manufacturers and artificial intelligence chipmakers such as Huawei and Cambricon. ... - deepseek-ai/DeepSeek-V2.5 · Hugging Face.
+

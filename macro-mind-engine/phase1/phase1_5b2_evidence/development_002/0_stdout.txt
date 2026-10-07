@@ -1,0 +1,226 @@
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:194:30
+    |
+192 |     raw=serialize_input_bundle(b,a,t)
+193 |     b=strict_json(raw)
+194 |     if mutation == "artifact": a["objects"] += b" "
+    |                              ^
+195 |     elif mutation == "authority": t["authority_id"]="other"
+196 |     elif mutation == "version": t["source_version"]="other"
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:195:33
+    |
+193 |     b=strict_json(raw)
+194 |     if mutation == "artifact": a["objects"] += b" "
+195 |     elif mutation == "authority": t["authority_id"]="other"
+    |                                 ^
+196 |     elif mutation == "version": t["source_version"]="other"
+197 |     elif mutation == "trust_hash": t["snapshot_sha256"]="0"*64
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:196:31
+    |
+194 |     if mutation == "artifact": a["objects"] += b" "
+195 |     elif mutation == "authority": t["authority_id"]="other"
+196 |     elif mutation == "version": t["source_version"]="other"
+    |                               ^
+197 |     elif mutation == "trust_hash": t["snapshot_sha256"]="0"*64
+198 |     elif mutation == "mixed": b["input_manifest"][0]["data_kind"]="REAL"
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:197:34
+    |
+195 |     elif mutation == "authority": t["authority_id"]="other"
+196 |     elif mutation == "version": t["source_version"]="other"
+197 |     elif mutation == "trust_hash": t["snapshot_sha256"]="0"*64
+    |                                  ^
+198 |     elif mutation == "mixed": b["input_manifest"][0]["data_kind"]="REAL"
+199 |     elif mutation == "manifest": b["input_manifest"].append(b["input_manifest"][0])
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:198:29
+    |
+196 |     elif mutation == "version": t["source_version"]="other"
+197 |     elif mutation == "trust_hash": t["snapshot_sha256"]="0"*64
+198 |     elif mutation == "mixed": b["input_manifest"][0]["data_kind"]="REAL"
+    |                             ^
+199 |     elif mutation == "manifest": b["input_manifest"].append(b["input_manifest"][0])
+200 |     elif mutation == "payload": b["annotation_payloads"][0]["review_notes"]="altered"
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:199:32
+    |
+197 |     elif mutation == "trust_hash": t["snapshot_sha256"]="0"*64
+198 |     elif mutation == "mixed": b["input_manifest"][0]["data_kind"]="REAL"
+199 |     elif mutation == "manifest": b["input_manifest"].append(b["input_manifest"][0])
+    |                                ^
+200 |     elif mutation == "payload": b["annotation_payloads"][0]["review_notes"]="altered"
+201 |     elif mutation == "bundle_hash": b["deterministic_hash"]="0"*64
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:200:31
+    |
+198 |     elif mutation == "mixed": b["input_manifest"][0]["data_kind"]="REAL"
+199 |     elif mutation == "manifest": b["input_manifest"].append(b["input_manifest"][0])
+200 |     elif mutation == "payload": b["annotation_payloads"][0]["review_notes"]="altered"
+    |                               ^
+201 |     elif mutation == "bundle_hash": b["deterministic_hash"]="0"*64
+202 |     elif mutation == "missing_source": b["annotation_sources"]=[]
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:201:35
+    |
+199 |     elif mutation == "manifest": b["input_manifest"].append(b["input_manifest"][0])
+200 |     elif mutation == "payload": b["annotation_payloads"][0]["review_notes"]="altered"
+201 |     elif mutation == "bundle_hash": b["deterministic_hash"]="0"*64
+    |                                   ^
+202 |     elif mutation == "missing_source": b["annotation_sources"]=[]
+203 |     elif mutation == "missing_snapshot": b["resolution_snapshot"]="missing"
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:202:38
+    |
+200 |     elif mutation == "payload": b["annotation_payloads"][0]["review_notes"]="altered"
+201 |     elif mutation == "bundle_hash": b["deterministic_hash"]="0"*64
+202 |     elif mutation == "missing_source": b["annotation_sources"]=[]
+    |                                      ^
+203 |     elif mutation == "missing_snapshot": b["resolution_snapshot"]="missing"
+204 |     with pytest.raises(ContinuityIndexError):
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:203:40
+    |
+201 |     elif mutation == "bundle_hash": b["deterministic_hash"]="0"*64
+202 |     elif mutation == "missing_source": b["annotation_sources"]=[]
+203 |     elif mutation == "missing_snapshot": b["resolution_snapshot"]="missing"
+    |                                        ^
+204 |     with pytest.raises(ContinuityIndexError):
+205 |         load_input_bundle(canonical_bytes(b),a,t)
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:212:31
+    |
+210 |     b,a,t=fixture([annotation()])
+211 |     s=strict_json(a["snapshot"])
+212 |     if mutation == "duplicate": s["references"].append(s["references"][0])
+    |                               ^
+213 |     elif mutation == "pointer": s["references"][0]["source_pointer"]="/absent"
+214 |     elif mutation == "hash": s["references"][0]["source_artifact_hash"]="0"*64
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:213:31
+    |
+211 |     s=strict_json(a["snapshot"])
+212 |     if mutation == "duplicate": s["references"].append(s["references"][0])
+213 |     elif mutation == "pointer": s["references"][0]["source_pointer"]="/absent"
+    |                               ^
+214 |     elif mutation == "hash": s["references"][0]["source_artifact_hash"]="0"*64
+215 |     elif mutation == "undeclared": s["source_artifact_hashes"]={}
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:214:28
+    |
+212 |     if mutation == "duplicate": s["references"].append(s["references"][0])
+213 |     elif mutation == "pointer": s["references"][0]["source_pointer"]="/absent"
+214 |     elif mutation == "hash": s["references"][0]["source_artifact_hash"]="0"*64
+    |                            ^
+215 |     elif mutation == "undeclared": s["source_artifact_hashes"]={}
+216 |     semantic={k:v for k,v in s.items() if k != "semantic_hash"}
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:215:34
+    |
+213 |     elif mutation == "pointer": s["references"][0]["source_pointer"]="/absent"
+214 |     elif mutation == "hash": s["references"][0]["source_artifact_hash"]="0"*64
+215 |     elif mutation == "undeclared": s["source_artifact_hashes"]={}
+    |                                  ^
+216 |     semantic={k:v for k,v in s.items() if k != "semantic_hash"}
+217 |     semantic["references"]=sorted(semantic["references"],key=lambda x:x["ref"])
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:224:45
+    |
+222 |     b["source_artifact_hashes"]["snapshot"]=h
+223 |     next(x for x in b["input_manifest"] if x["artifact_id"]=="snapshot")["sha256"]=h
+224 |     with pytest.raises(ContinuityIndexError): serialize_input_bundle(b,a,t)
+    |                                             ^
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:234:49
+    |
+232 |     expected=digest_bytes(raw)
+233 |     if mutation == "bytes":
+234 |         with pytest.raises(ContinuityIndexError): load_result_bytes(raw+b" ",expected,v)
+    |                                                 ^
+235 |         return
+236 |     if mutation == "semantic": r.annotations[next(iter(r.annotations))]["review_status"]="REJECTED"
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:236:30
+    |
+234 |         with pytest.raises(ContinuityIndexError): load_result_bytes(raw+b" ",expected,v)
+235 |         return
+236 |     if mutation == "semantic": r.annotations[next(iter(r.annotations))]["review_status"]="REJECTED"
+    |                              ^
+237 |     elif mutation == "reverse": r.relation_index.relation_by_annotation.clear()
+238 |     elif mutation == "membership": next(iter(r.membership_index.memberships_by_id.values()))["supporting_relations"].clear()
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:237:31
+    |
+235 |         return
+236 |     if mutation == "semantic": r.annotations[next(iter(r.annotations))]["review_status"]="REJECTED"
+237 |     elif mutation == "reverse": r.relation_index.relation_by_annotation.clear()
+    |                               ^
+238 |     elif mutation == "membership": next(iter(r.membership_index.memberships_by_id.values()))["supporting_relations"].clear()
+239 |     elif mutation == "provenance": r.provenance["bundle_byte_hash"]="0"*64
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:238:34
+    |
+236 |     if mutation == "semantic": r.annotations[next(iter(r.annotations))]["review_status"]="REJECTED"
+237 |     elif mutation == "reverse": r.relation_index.relation_by_annotation.clear()
+238 |     elif mutation == "membership": next(iter(r.membership_index.memberships_by_id.values()))["supporting_relations"].clear()
+    |                                  ^
+239 |     elif mutation == "provenance": r.provenance["bundle_byte_hash"]="0"*64
+240 |     # Even an attacker recomputing both hashes must not bypass source verification.
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:239:34
+    |
+237 |     elif mutation == "reverse": r.relation_index.relation_by_annotation.clear()
+238 |     elif mutation == "membership": next(iter(r.membership_index.memberships_by_id.values()))["supporting_relations"].clear()
+239 |     elif mutation == "provenance": r.provenance["bundle_byte_hash"]="0"*64
+    |                                  ^
+240 |     # Even an attacker recomputing both hashes must not bypass source verification.
+241 |     r=r.model_copy(update={"deterministic_hash":semantic_hash(result_semantics(r))})
+    |
+
+E701 Multiple statements on one line (colon)
+   --> macro-mind-engine\tests\audit_continuity\test_continuity.py:243:45
+    |
+241 |     r=r.model_copy(update={"deterministic_hash":semantic_hash(result_semantics(r))})
+242 |     raw=canonical_bytes(r.model_dump(mode="json"))
+243 |     with pytest.raises(ContinuityIndexError): load_result_bytes(raw,digest_bytes(raw),v)
+    |                                             ^
+
+Found 29 errors (8 fixed, 21 remaining).

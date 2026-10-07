@@ -1,0 +1,171 @@
+{
+  "additional_checks": {
+    "format_exit": 0,
+    "new_tests_all_pass": true,
+    "pytest_exit": 0,
+    "ruff_exit": 0,
+    "scope_clean": true
+  },
+  "evidence_run": "phase1/phase1_5a_evidence/run_003",
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "phase1_5b": "NOT_STARTED",
+    "phase1_5c": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production": "NOT_READY"
+  },
+  "gates": [
+    {
+      "description": "Phase 1.4 final state still accepted",
+      "evidence": "phase1/phase1_5a_evidence/run_003/phase1_4_verification.json",
+      "gate_id": "A01",
+      "status": "PASS"
+    },
+    {
+      "description": "Existing tests all PASS",
+      "evidence": "phase1/phase1_5a_evidence/run_003/test_report.json",
+      "gate_id": "A02",
+      "status": "PASS"
+    },
+    {
+      "description": "Supported artifacts normalize",
+      "evidence": "phase1/phase1_5a_evidence/run_003/real_normalization_checks.json",
+      "gate_id": "A03",
+      "status": "PASS"
+    },
+    {
+      "description": "Unsupported input preserved/reported",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A04",
+      "status": "PASS"
+    },
+    {
+      "description": "Source hashes verified",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A05",
+      "status": "PASS"
+    },
+    {
+      "description": "Every AuditRecord traceable",
+      "evidence": "phase1/phase1_5a_evidence/run_003/real_normalization_checks.json",
+      "gate_id": "A06",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic record IDs",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A07",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic output",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A08",
+      "status": "PASS"
+    },
+    {
+      "description": "Filename/path invariance",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A09",
+      "status": "PASS"
+    },
+    {
+      "description": "Severity preserved",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A10",
+      "status": "PASS"
+    },
+    {
+      "description": "Unknown/Indeterminate preserved",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A11",
+      "status": "PASS"
+    },
+    {
+      "description": "Source inputs unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A12",
+      "status": "PASS"
+    },
+    {
+      "description": "Frozen unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A13",
+      "status": "PASS"
+    },
+    {
+      "description": "Golden unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A14",
+      "status": "PASS"
+    },
+    {
+      "description": "Schema unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A15",
+      "status": "PASS"
+    },
+    {
+      "description": "Registry unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A16",
+      "status": "PASS"
+    },
+    {
+      "description": "Validator unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A17",
+      "status": "PASS"
+    },
+    {
+      "description": "Compatibility unchanged",
+      "evidence": "phase1/phase1_5a_evidence/run_003/immutability_report.json",
+      "gate_id": "A18",
+      "status": "PASS"
+    },
+    {
+      "description": "Continuity defaults unreviewed",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A19",
+      "status": "PASS"
+    },
+    {
+      "description": "No automatic Thread creation",
+      "evidence": "phase1/phase1_5a_evidence/run_003/tests.xml",
+      "gate_id": "A20",
+      "status": "PASS"
+    },
+    {
+      "description": "No LLM/network/NLP",
+      "evidence": "phase1/phase1_5a_evidence/run_003/scope_check.json",
+      "gate_id": "A21",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5B NOT_STARTED",
+      "evidence": "phase1/phase1_5a_evidence/run_003/scope_check.json",
+      "gate_id": "A22",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.5C NOT_STARTED",
+      "evidence": "phase1/phase1_5a_evidence/run_003/scope_check.json",
+      "gate_id": "A23",
+      "status": "PASS"
+    },
+    {
+      "description": "Phase 1.6 NOT_STARTED",
+      "evidence": "phase1/phase1_5a_evidence/run_003/scope_check.json",
+      "gate_id": "A24",
+      "status": "PASS"
+    },
+    {
+      "description": "Analyst Model/Skills NOT_READY",
+      "evidence": "phase1/phase1_5a_evidence/run_003/scope_check.json",
+      "gate_id": "A25",
+      "status": "PASS"
+    }
+  ],
+  "status": "READY_FOR_PHASE_1_5B"
+}

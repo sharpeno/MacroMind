@@ -1,0 +1,106 @@
+{
+  "inputs": [
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004.json",
+      "sha256": "3d3fe899b3cd82c667857cccd1e340dc5be0451e28b9ff602c7a7c4e52b19163",
+      "bytes": 647764,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004_report.md",
+      "sha256": "4ad7e3f6ce9160986949f6028aaa4dcfd3642664b199fab10d77aca548638052",
+      "bytes": 600138,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\validation.json",
+      "sha256": "89e1ec41f0acf6bf3176cb437b5d8e501cb5d2603f04300c2e31ac0e3159bc6a",
+      "bytes": 612,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\prompt\\V0.3.1-minor.md",
+      "sha256": "ab3ba4541a6fa25da714e1f5b2814cf0bccaf02b1220d8ae9fc947cee47a346c",
+      "bytes": 14437,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\迭代\\MacroMind V0.3.1-MA.md",
+      "sha256": "ea8c995af1771dd29ce5b9fba099adb0bb69e2158ea63599ec4ac9fc2dec1ca5",
+      "bytes": 26178,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\迭代\\MacroMind V0.3.1-MA.1 Minor Patch.md",
+      "sha256": "549bc9e0d524aead8048e57f2d6121288ff3e19ddda918b30e30e46909334bca",
+      "bytes": 10812,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\prompt\\MA.1 Lightweight Migration Prompt.md",
+      "sha256": "495334b5dfe2a534d5a82f7cb53a4332fb91cda123f718afe6a9e69cd842e369",
+      "bytes": 25044,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_report.md",
+      "sha256": "20e588f192b8db87c3b24dd261ca8dc6d26c742d507ad0ea4fbff3fa067eaec4",
+      "bytes": 1922,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_002\\golden_sample_002.json",
+      "sha256": "dd9f8e661519ff7dc1f802cd76a585402fe19dc2b4f9468cd5e74c2262d109da",
+      "bytes": 500557,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_002\\golden_sample_002_report.md",
+      "sha256": "6d790ba2ca3fd03d84e8259e400326246557bdd26584055abac75f8b4fac49c9",
+      "bytes": 226633,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_003\\golden_sample_003.json",
+      "sha256": "82e7f0e09aa7501f01fa806ce7c9cd489c318bf02814c010094d2cc44029e632",
+      "bytes": 587765,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_003\\golden_sample_003_report.md",
+      "sha256": "cc479728e1ab04d53481deba0678e631427edeacb21e77e9419470254e722cbb",
+      "bytes": 553617,
+      "purpose": "schema_or_history_input"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\golden_sample_005.ma1_accepted.json",
+      "sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "bytes": 760236,
+      "purpose": "structure_and_engineering_only_not_recurrence_evidence"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_005\\migration\\ma1\\schema_contract.json",
+      "sha256": "bc237df23263089ee21633c6281f6f28bc862eb3203ee2f190513117659208e9",
+      "bytes": 3003,
+      "purpose": "structure_and_engineering_only_not_recurrence_evidence"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\migrate_gs005_ma1.py",
+      "sha256": "5c05c3c601bebc4899aae8931650bf7b924ced3c1126bb4d183bb7e8064c29d7",
+      "bytes": 35467,
+      "purpose": "structure_and_engineering_only_not_recurrence_evidence"
+    }
+  ],
+  "input_missing": [
+    {
+      "input": "GS001 complete machine-readable method/heuristic/thesis registry",
+      "status": "input_missing",
+      "impact": "Only golden_report.md summary available; no exact method evidence or date confirmation"
+    },
+    {
+      "input": "Independent production MA.1 JSON Schema / complete global registry",
+      "status": "input_missing",
+      "impact": "Use MA.1 patch and local registries; no production-import certification"
+    }
+  ]
+}

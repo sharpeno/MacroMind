@@ -1,0 +1,57 @@
+{
+  "browser": "Edge headless via Playwright",
+  "reason": "Browser plugin not available",
+  "viewports": [
+    "1280x900",
+    "390x844"
+  ],
+  "results": [
+    {
+      "name": "page identity",
+      "passed": true
+    },
+    {
+      "name": "content",
+      "passed": true
+    },
+    {
+      "name": "uncertainty visible",
+      "passed": true
+    },
+    {
+      "name": "six cards",
+      "passed": true
+    },
+    {
+      "name": "step anchor",
+      "passed": true
+    },
+    {
+      "name": "evidence expands",
+      "passed": true
+    },
+    {
+      "name": "cue 390 present",
+      "passed": true
+    },
+    {
+      "name": "missing evidence explicit",
+      "passed": true
+    },
+    {
+      "name": "json accessible",
+      "passed": true
+    },
+    {
+      "name": "mobile no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "no runtime errors",
+      "passed": false
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+}

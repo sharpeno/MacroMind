@@ -1,0 +1,12 @@
+{
+  "phase1_5a": {
+    "gate": "READY_FOR_PHASE_1_5B",
+    "hash_count": 91,
+    "mismatches": []
+  },
+  "phase1_5b1": {
+    "gate": "READY_FOR_PHASE_1_5B_2",
+    "hash_count": 81,
+    "mismatches": []
+  }
+}

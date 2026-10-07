@@ -1,0 +1,19 @@
+{
+  "immutable_checks": [
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001",
+      "files": 347,
+      "mismatches": []
+    },
+    {
+      "root": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_002",
+      "files": 301,
+      "mismatches": []
+    }
+  ],
+  "unique_ids": 8,
+  "first10_overlap": false,
+  "evidence_cue_integrity": true,
+  "pending_decisions": 8,
+  "data_generation_only_no_audit_rerun_needed": true
+}

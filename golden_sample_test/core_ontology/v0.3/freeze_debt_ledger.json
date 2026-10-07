@@ -1,0 +1,410 @@
+{
+  "debt_count": 20,
+  "debts": [
+    {
+      "debt_id": "D01",
+      "category": "D1 Schema",
+      "description": "整理唯一版本化语义合同与跨版映射；当前定义分散在 V0.3/MA/MA.1 及样本 Prompt，未找到独立 V0.3.1 Patch 文件。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "pre_phase1",
+      "evidence_refs": [
+        "E32",
+        "E34",
+        "E35"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D02",
+      "category": "D1 Schema",
+      "description": "GS001–003 未补齐 MA.1 字段，保留旧值/null/unknown；迁移须另立任务、不得把缺字段当核心失败。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E01",
+        "E03",
+        "E08"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D03",
+      "category": "D2 Validator",
+      "description": "建立通用 Scenario/Forecast admission 检查；复核 GS003 FC-C026 等旧 conditional_forecast，不把 46 条全部当新规合格预测。",
+      "affected_goldens": [
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E08",
+        "E09",
+        "E24",
+        "E34"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D04",
+      "category": "D6 Temporal Metadata",
+      "description": "将 recurrence comparison_time、样本内容时间、历史 prior eligibility 分开；GS005 MR03 较晚 GS002 只属事后比较，GS004 隔离规则需通用化。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E15",
+        "E28",
+        "E36",
+        "E37"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D05",
+      "category": "D6 Temporal Metadata",
+      "description": "GS001 cutoff 未知，其他样本 recorded_at 未知；发布代理、视频偏移不能变成真实 asserted_at。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E01",
+        "E05",
+        "E10",
+        "E23"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D06",
+      "category": "D6 Temporal Metadata",
+      "description": "抓取时间晚于发布，滚动源缺历史快照；保留版本突变风险和未知条目隔离。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E10",
+        "E11",
+        "E15"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D07",
+      "category": "D3 Registry",
+      "description": "正式全库对象/关系/枚举及 identity registry 不完整；同源转载须按命题及片段 origin family 去重。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E05",
+        "E11",
+        "E18",
+        "E35"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D08",
+      "category": "D4 Data Quality",
+      "description": "数字、ASR、来源元数据与 GS005 OC130 对齐风险待人工核验；候选文本规范化不等于听音确认。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E20",
+        "E27",
+        "E29"
+      ],
+      "problem_type": "DATA_REVIEW"
+    },
+    {
+      "debt_id": "D09",
+      "category": "D5 Review Queue",
+      "description": "知识 Review 继续独立：GS002 41、GS003 36，GS004 最终 78、GS005 最终 68；这些数量不是核心阻塞数。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E21",
+        "E22",
+        "E30"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D10",
+      "category": "D7 Analyst Modeling",
+      "description": "GS004 共享机制 attribution unknown 是已接受的未知；使用者/作者/观测者身份不相互填充。",
+      "affected_goldens": [
+        "GS004",
+        "GS005"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "analyst_mining",
+      "evidence_refs": [
+        "E18",
+        "E19",
+        "E26"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D11",
+      "category": "D2 Validator",
+      "description": "Argument 图须验证 role/stage 转换、单位/分母、图距离、shortcut 和 fragile-step 定位；链存在不等于推理成立。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E06",
+        "E16",
+        "E20",
+        "E26",
+        "E27"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D12",
+      "category": "D8 Evaluation",
+      "description": "StructuralProcess 缺正式实例正例：GS002 提出过程但未实例化，GS003–005 均 0。另建跨期充分证据的正例和生命周期测试。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E03",
+        "E32",
+        "E25"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D13",
+      "category": "D8 Evaluation",
+      "description": "Contradiction 在 GS002–005 均 0，GS001 摘要无实例证明；须补长期互动正例与命题冲突负例，不能声称正例覆盖。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E07",
+        "E33"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D14",
+      "category": "D8 Evaluation",
+      "description": "Heuristic 只有摘要或候选；缺跨样本已验证规则、失败率与独立反例集，不足以生成 Skill。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "pre_skill",
+      "evidence_refs": [
+        "E01",
+        "E04",
+        "E17",
+        "E40"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D15",
+      "category": "D8 Evaluation",
+      "description": "Forecast resolution criteria 的 creator/model/human/scoring 时间分开；缺后验结算并非 Ontology 问题，不允许事后改口径评分。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "batch_pilot",
+      "evidence_refs": [
+        "E08",
+        "E24",
+        "E43"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D16",
+      "category": "D1 Schema",
+      "description": "comparison_basis、semantic_role、recognition_stage 和 storage_role 按来源保留 unknown；单位、目标/实绩、订单/收入/现金不可自动转换。",
+      "affected_goldens": [
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E13",
+        "E20",
+        "E23",
+        "E27"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D17",
+      "category": "D7 Analyst Modeling",
+      "description": "Failure origin 与 observed reasoner/annotation observer 分开；partial/analogous/uncertain 不得升级完整复现或稳定方法。",
+      "affected_goldens": [
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "analyst_mining",
+      "evidence_refs": [
+        "E15",
+        "E17",
+        "E28",
+        "E35"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D18",
+      "category": "D9 Runtime / Tooling",
+      "description": "建立只读导入、版本选择、审计留痕和回归 runner；本地 0 ERROR 不能作为生产认证，GS005 历史失败不能覆盖 Hotfix 成功。",
+      "affected_goldens": [
+        "GS004",
+        "GS005"
+      ],
+      "severity": "high",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E22",
+        "E30",
+        "E31",
+        "E38",
+        "E39"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D19",
+      "category": "D8 Evaluation",
+      "description": "GS001 只有摘要，覆盖声明需保留 summary_only，不能重建不存在的对象 ID/时间/图；有原始包后另行补审。",
+      "affected_goldens": [
+        "GS001"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "later",
+      "evidence_refs": [
+        "E01",
+        "E02"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    },
+    {
+      "debt_id": "D20",
+      "category": "D2 Validator",
+      "description": "Actor/Geography/narrative role、Assessment target 与事实真值不传播需批量负例检查，防止词面同名和 verified 标志误读。",
+      "affected_goldens": [
+        "GS001",
+        "GS002",
+        "GS003",
+        "GS004",
+        "GS005"
+      ],
+      "severity": "medium",
+      "blocks_core_freeze": false,
+      "recommended_phase": "codex_phase1",
+      "evidence_refs": [
+        "E07",
+        "E14",
+        "E41",
+        "E42"
+      ],
+      "problem_type": "NON_BLOCKING_DEBT"
+    }
+  ]
+}

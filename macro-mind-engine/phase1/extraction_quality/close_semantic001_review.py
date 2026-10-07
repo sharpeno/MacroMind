@@ -1,0 +1,69 @@
+import sys
+sys.path.insert(0,'G:/youhegaojian/macro-mind-engine/phase1/extraction_quality')
+from apply_semantic001_review import *
+assert rd(O/'verification.command.json')['exit_code']==0 and rd(O/'quality_tests.command.json')['exit_code']==0
+report='''# semantic001 校准意见落实
+
+3/3条意见已接收归档，实际判定为修改1条、采用候选1条、保留1条。本轮反馈已落实为run_005，不要求对同样文字重复确认。
+
+## EP002：补出方法，而不是继续堆政策细节
+
+用户指出的核心方法遗漏成立于本次人工判定。助手上一轮补充主要停留在政策情景层，没有充分抽出可复用的领导与纠错方法。
+
+新增EP002/C23，原样使用用户提供的方法表述：提前识别问题并准备方案，与群众站在一起、共同经历错误，过程中引导认识问题，再择机提出预先准备的方案，带领纠错。新增M03作为助手方法观察，不当作已证明的博主Heuristic或Skill。
+
+EP002/C16单列假想央行讲话的应用例证，证据收窄至396–400，保留“不是央行已经发表的讲话”。方法与应用关系记录在method_evidence.json，未伪造一个从方法必然推出政策结论的Argument。侧记不等于已扩展核心本体或新增全系统推理类型。
+
+方法步骤可以交叠；顺序是对原话的分析整理，不把它写成经过验证的机械操作规程。cue389说“话谁说的我就不说了”，因此只记录博主转述并认同，原始作者未知，不能认作博主原创。
+
+### 补充证据
+
+- cue387–389（00:18:39,950—00:19:39,950）：与群众同行、引导认识及提前识别。
+- cue390（00:19:39,950—00:19:59,950）：明确提前准备纠错手段，并在大家认识问题时提出纠错机会、带领改正；同时提到控制错误程度。
+- cue392（00:20:19,950—00:20:39,950）：以没有提前准备plan B作为反面说明。
+- cue396（00:21:39,950—00:21:59,950）：在央行情境中说明准备plan B及选择时机。
+
+method_evidence.json保存上述逐字字幕和步骤定位。原始字幕未改写。
+
+## 其他两条
+
+EP003/C16采用用户已确认的候选，保留AI期待未消失、美国市场题材受挫、新市场可能承接的前提和猜想性质。
+
+EP005/C20按keep_original判定完整保留，不强行扩写。
+
+## 本次校准对自检流程的结论
+
+九项记录完整，不保证抓到核心方法：EP002仍出现方法遗漏，用户给出了更关键的提取方向。EP003候选被采用，EP005保留建议被认可。只能报告这三个实际结果，不能推断流程已提升全库准确率。
+
+后续在现有九项自检之外，应明确问：本段是在讲可复用的做法，还是展示该做法的一个案例？如果两者都有，应分开记录，并保留步骤、适用条件和原文锚点。这个发现已列为后续流程改进要求；未在本轮静默修改封存的自检实现，也不把增加一个问题当成完整方法提取器。
+
+## 验证和真实状态
+
+41项数据检查通过，包括用户方法文字原样采用、方法/应用证据分离、cue390补证、原隔离保留、变更范围、原文不变、用户保留项不变及规则回退拦截。现有40项质量测试再次通过。核心运行时代码未改，没有重复跑全量624项，也没有把上轮结果写成本轮执行。
+
+EP002和EP003两次新审计均完成，仍为INDETERMINATE；其余三期数据未变，复用之前的审计引用。共121条归一化主张、83条结构可用主张、19条结构可用链；3211个候选对象、2779个结构可用对象、432个隔离对象。候选对象净减少2，是C16缩窄及新C23的出现位置重分配所致，不是删除原始字幕。53项非引用未决信息保持不变。
+
+原run004、semantic_pilot001、calibrated001封存产物哈希验证一致。新的固定规则有独立版本与哈希，不覆盖原自检试验。方法原文按用户意见落实，应用措辞及M03观察按用户指示编写，不虚构另一次人工批准。
+
+## 证据与下一步
+
+原审核文件：phase1/batch_pilot/human_reviews/semantic_pilot_001/batch_001/raw。
+
+本目录保存输入注释、独立规则版本、受控编译命令和输出、verification.*、quality_tests.*与calibration_results.json。run_005保存canonical_diff.json、method_evidence.json及两期新审计包。
+
+下一步更接近系统目标的工作是建立小型“方法—适用条件—分析步骤—应用案例—原话证据”的框架表达原型，先用已审方法验证表达能力，而不是继续无止境要求人工扩写摘要。方法有效性、调用新新闻的分析能力及Skill准入仍需后续独立验证。
+
+原有投行历史引用与时序、精确时长及53项非引用未决继续保留；未批准规模扩样或框架有效性。全库26项导入排序lint问题未在本次数据修订中处理。
+'''
+(O/'REPORT.md').write_text(report,encoding='utf-8')
+# Useful plain-language evidence record independent of machine JSON.
+(R/'METHOD_REVIEW.md').write_text('# EP002方法与应用分离\n\n'+next(c[2] for c in rd(R/'EP002/annotation.json')['claims'] if c[0]=='C23')+'\n\n方法证据：cue387–392；预先准备和提出时机详见cue390。假想央行应用例证：cue396–400。\n\n来源归属：博主转述并认同，原始作者未知。方法有效性未验证，不认定为Skill。完整步骤证据见method_evidence.json。\n',encoding='utf-8')
+progress('SEMANTIC001_FEEDBACK_IMPLEMENTED',['Prototype explicit method/conditions/steps/application/evidence representation using reviewed material','Method effectiveness, original source timing and 53 uncertainty findings remain unresolved'])
+wr(R/'progress.json',{'stage':'SEMANTIC001_FEEDBACK_IMPLEMENTED','completed':['User method text extracted as C23','Hypothetical application separated in C16','Accepted EP003 candidate applied','EP005 unchanged','41 checks and 40 quality tests passed'],'unfinished':['Method effectiveness and provenance gaps unresolved'],'report':str(O/'REPORT.md')})
+wr(A/'latest_resolution.json',{'status':'IMPLEMENTED','version':'run_005','report':str(O/'REPORT.md'),'repeat_review_requested':False})
+wr(A.parent/'latest.json',{'batch':'batch_001','receipt':str(A/'receipt.json'),'report':str(O/'REPORT.md'),'status':'IMPLEMENTED'})
+wr(Q/'latest.json',{'run':'semantic_calibrated_001','report':str(O/'REPORT.md'),'progress':str(O/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
+wr(B/'revision_latest.json',{'run':'run_005','report':str(O/'REPORT.md'),'progress':str(R/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
+wr(B/'review_latest.json',{'round':'semantic_pilot_001','report':str(O/'REPORT.md'),'receipt':str(A/'receipt.json'),'status':'FEEDBACK_IMPLEMENTED'})
+for dest,file in [(R,'revision_manifest.json'),(A,'manifest.json'),(O,'manifest.json')]:wr(dest/file,{'artifacts':{str(p.relative_to(dest)):sha(p) for p in dest.rglob('*') if p.is_file() and p.name!=file}})
+print('Semantic calibration closed; run005 sealed.')

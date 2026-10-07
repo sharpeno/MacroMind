@@ -1,0 +1,368 @@
+{
+  "additional_checks": {
+    "historical_scope_preserved": true,
+    "new_test_count": 122,
+    "pytest_exit": 0,
+    "ruff_exit": 1,
+    "ruff_format_exit": 0
+  },
+  "evidence_run": "phase1/phase1_3_evidence/run_001",
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "batch_pilot": "NOT_STARTED",
+    "macromind_core_skill": "NOT_READY",
+    "phase1_4": "NOT_STARTED",
+    "production": "NOT_READY",
+    "production_import_ready": false
+  },
+  "gates": [
+    {
+      "description": "Frozen Contract still PASS",
+      "evidence": "phase1/phase1_3_evidence/run_001/contract_integrity.json",
+      "gate_id": "G01",
+      "status": "PASS"
+    },
+    {
+      "description": "Unchanged prior 84 tests pass",
+      "evidence": "phase1/phase1_3_evidence/run_001/tests.xml",
+      "gate_id": "G02",
+      "status": "PASS"
+    },
+    {
+      "description": "Validator loads and installed CLI works",
+      "evidence": "phase1/phase1_3_evidence/run_001/installed_cli_report.json",
+      "gate_id": "G03",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic catalog with valid traceability",
+      "evidence": "phase1/validator_rule_catalog.json",
+      "gate_id": "G04",
+      "status": "PASS"
+    },
+    {
+      "description": "ID uniqueness",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_duplicate_unknown_and_invalid_targets"
+        ]
+      },
+      "gate_id": "G05",
+      "status": "PASS"
+    },
+    {
+      "description": "Reference resolution",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_reference_contracts[Source-version_refs-SourceVersion]",
+          "test_reference_contracts[Source-segment_refs-SourceSegment]",
+          "test_reference_contracts[Source-family_ref-SourceFamily]",
+          "test_reference_contracts[Claim-source_refs-Source]",
+          "test_reference_contracts[StructuralProcess-event_refs-Event]",
+          "test_reference_contracts[StructuralProcess-observation_refs-IndicatorObservation]",
+          "test_reference_contracts[StructuralProcess-policy_refs-Policy]",
+          "test_reference_contracts[Policy-actor_refs-Actor]",
+          "test_reference_contracts[Policy-event_refs-Event]",
+          "test_reference_contracts[Event-policy_refs-Policy]",
+          "test_reference_contracts[Forecast-claim_ref-Claim]",
+          "test_reference_contracts[Assessment-information_set_ref-InformationSet]",
+          "test_reference_contracts[MechanismUsage-mechanism_ref-Mechanism]",
+          "test_reference_contracts[ClaimOccurrence-claim_ref-Claim]",
+          "test_reference_contracts[ClaimOccurrence-source_segment_ref-SourceSegment]",
+          "test_reference_contracts[ClaimOccurrence-source_version_ref-SourceVersion]",
+          "test_reference_contracts[ClaimOccurrence-origin_family_ref-SourceFamily]",
+          "test_only_explicit_self_reference_forbidden",
+          "test_asymmetric_policy_event_is_valid"
+        ]
+      },
+      "gate_id": "G06",
+      "status": "PASS"
+    },
+    {
+      "description": "Complete/partial modes",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_cli_context_mode_override_and_bad_json",
+          "test_modes[complete_bundle-ERROR]",
+          "test_modes[partial_bundle-INDETERMINATE]"
+        ]
+      },
+      "gate_id": "G07",
+      "status": "PASS"
+    },
+    {
+      "description": "Source/Claim provenance boundary",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_occurrence_version_source_conflict",
+          "test_source_family_never_counts_independent_support",
+          "test_unknown_segment_version_and_incomplete_claim_sources"
+        ]
+      },
+      "gate_id": "G08",
+      "status": "PASS"
+    },
+    {
+      "description": "Conservative Scenario/Forecast admission",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_structurally_supported_and_unknown_window",
+          "test_conditional_endorsement_is_not_inferred[None]",
+          "test_conditional_endorsement_is_not_inferred[branch1]",
+          "test_conditional_endorsement_is_not_inferred[selected branch text]",
+          "test_scenario_stays_scenario_and_shared_claim_warns",
+          "test_forecast_explicit_temporal_conflicts[change0]",
+          "test_forecast_explicit_temporal_conflicts[change1]",
+          "test_forecast_wrong_claim_type",
+          "test_resolvability_alone_does_not_prove_admission"
+        ]
+      },
+      "gate_id": "G09",
+      "status": "PASS"
+    },
+    {
+      "description": "Future prior chronology",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_recurrence_eligibility[repeated]",
+          "test_recurrence_eligibility[frequent]",
+          "test_recurrence_eligibility[candidate_pattern]",
+          "test_future_after_either_limit[knowledge_cutoff]",
+          "test_future_after_either_limit[current_content_time]",
+          "test_real_source_content_not_capture_date"
+        ]
+      },
+      "gate_id": "G10",
+      "status": "PASS"
+    },
+    {
+      "description": "Names are not chronology",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_golden_number_and_label_metamorphism"
+        ]
+      },
+      "gate_id": "G11",
+      "status": "PASS"
+    },
+    {
+      "description": "Argument graph",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_dag_attribution_preserved",
+          "test_graph_cycle_and_self_cycle",
+          "test_step_alias_cycle",
+          "test_duplicate_orphan_and_bad_node_refs"
+        ]
+      },
+      "gate_id": "G12",
+      "status": "PASS"
+    },
+    {
+      "description": "Fragile step validation",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_fragile_reference[fragile0-ERROR]",
+          "test_fragile_reference[None-INDETERMINATE]",
+          "test_fragile_reference[fragile2-INDETERMINATE]",
+          "test_fragile_reference[fragile3-PASS]",
+          "test_fragile_reference[fragile4-PASS]"
+        ]
+      },
+      "gate_id": "G13",
+      "status": "PASS"
+    },
+    {
+      "description": "Model reconstruction guard",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_direct_model_evidence[expression_level-model_reconstruction]",
+          "test_direct_model_evidence[analysis_context-model_diagnostic]",
+          "test_mixed_argument_and_heuristic_guard",
+          "test_no_skill_promotion",
+          "test_observer_is_not_inherited_or_required_to_differ"
+        ]
+      },
+      "gate_id": "G14",
+      "status": "PASS"
+    },
+    {
+      "description": "Assessment truth non-propagation",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_assessment_status_never_changes_claim[verified]",
+          "test_assessment_status_never_changes_claim[false]",
+          "test_assessment_status_never_changes_claim[uncertain]",
+          "test_mechanism_usage_does_not_copy_authorship[usage_analyst]",
+          "test_mechanism_usage_does_not_copy_authorship[mechanism_author]",
+          "test_actor_location_roles_do_not_merge_identity"
+        ]
+      },
+      "gate_id": "G15",
+      "status": "PASS"
+    },
+    {
+      "description": "Review independence",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_review_metamorphic_schema_reference_temporal_independence"
+        ]
+      },
+      "gate_id": "G16",
+      "status": "PASS"
+    },
+    {
+      "description": "Unknown never becomes a guess",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_unresolved_criterion_and_window_start",
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[None]",
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[unit1]",
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[%]",
+          "test_roles_stages_are_not_automatically_equivalent",
+          "test_unknown_prior_and_naive_datetime",
+          "test_interval_reversal_and_no_text_parsing",
+          "test_single_endpoint_does_not_invent_an_instant[start]",
+          "test_single_endpoint_does_not_invent_an_instant[end]"
+        ]
+      },
+      "gate_id": "G17",
+      "status": "PASS"
+    },
+    {
+      "description": "No Event to Process promotion",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_no_process_promotion[refs0]",
+          "test_no_process_promotion[refs1]"
+        ]
+      },
+      "gate_id": "G18",
+      "status": "PASS"
+    },
+    {
+      "description": "No automatic delta/pp conversion",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[None]",
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[unit1]",
+          "test_no_percent_to_pp_conversion_and_unknown_baseline[%]"
+        ]
+      },
+      "gate_id": "G19",
+      "status": "PASS"
+    },
+    {
+      "description": "Deterministic semantic report",
+      "evidence": {
+        "junit": "phase1/phase1_3_evidence/run_001/tests.xml",
+        "test_names": [
+          "test_catalog_deterministic_and_all_rules_executed",
+          "test_snapshot_and_supported_inputs",
+          "test_semantic_hash_changes_with_context_and_input"
+        ]
+      },
+      "gate_id": "G20",
+      "status": "PASS"
+    },
+    {
+      "description": "Frozen files unchanged",
+      "evidence": "phase1/phase1_3_immutability_report.json",
+      "gate_id": "G21",
+      "status": "PASS"
+    },
+    {
+      "description": "Golden files unchanged",
+      "evidence": "phase1/phase1_3_immutability_report.json",
+      "gate_id": "G22",
+      "status": "PASS"
+    },
+    {
+      "description": "Schema unchanged",
+      "evidence": "phase1/phase1_3_immutability_report.json",
+      "gate_id": "G23",
+      "status": "PASS"
+    },
+    {
+      "description": "Registry unchanged",
+      "evidence": "phase1/phase1_3_immutability_report.json",
+      "gate_id": "G24",
+      "status": "PASS"
+    },
+    {
+      "description": "No Legacy Adapter",
+      "evidence": {
+        "forbidden_modules_found": [],
+        "source_scope": "src/macromind"
+      },
+      "gate_id": "G25",
+      "status": "PASS"
+    },
+    {
+      "description": "No Audit Runner",
+      "evidence": {
+        "forbidden_modules_found": [],
+        "source_scope": "src/macromind"
+      },
+      "gate_id": "G26",
+      "status": "PASS"
+    },
+    {
+      "description": "No Golden Regression",
+      "evidence": {
+        "forbidden_modules_found": [],
+        "source_scope": "src/macromind"
+      },
+      "gate_id": "G27",
+      "status": "PASS"
+    },
+    {
+      "description": "Production import remains false",
+      "evidence": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "batch_pilot": "NOT_STARTED",
+        "macromind_core_skill": "NOT_READY",
+        "phase1_4": "NOT_STARTED",
+        "production": "NOT_READY",
+        "production_import_ready": false
+      },
+      "gate_id": "G28",
+      "status": "PASS"
+    },
+    {
+      "description": "Skills remain NOT_READY",
+      "evidence": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "batch_pilot": "NOT_STARTED",
+        "macromind_core_skill": "NOT_READY",
+        "phase1_4": "NOT_STARTED",
+        "production": "NOT_READY",
+        "production_import_ready": false
+      },
+      "gate_id": "G29",
+      "status": "PASS"
+    }
+  ],
+  "phase": "1.3",
+  "registry_gap_count": 0,
+  "schema_gap_count": 5,
+  "status": "NOT_READY_VALIDATOR_BLOCKER"
+}

@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "maintenance\\20261004_structure\\check_integrity.py"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

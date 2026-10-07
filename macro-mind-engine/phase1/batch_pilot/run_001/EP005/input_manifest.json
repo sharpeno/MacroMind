@@ -1,0 +1,54 @@
+{
+  "files": {
+    "batch_pilot_materials/EP005/《第七百五四期》房地产新规会有哪些影响？-p01-16.mp4": {
+      "sha256": "304fecd9bda39a50f2ba68787ad51d57cc5ebf3c339a142792faee8d841dacb3",
+      "bytes": 96045340
+    },
+    "batch_pilot_materials/EP005/《第七百五四期》房地产新规会有哪些影响？-p01-16.自动转写.txt": {
+      "sha256": "0698977587ee34f27437561675b4ba648563ae3b2357652b358d31659284a9a4",
+      "bytes": 36722
+    },
+    "batch_pilot_materials/EP005/信息说明.md": {
+      "sha256": "ba32994ac862e7dadc5fd07b66bd851328c75807180fcf72f3537453e8c5f2ee",
+      "bytes": 1712
+    },
+    "batch_pilot_materials/EP005/原始字幕.srt": {
+      "sha256": "3beb7b302f9848ac29650c705f04bcf7f3b21cd7fa67ab02b60f27fbfc095dc1",
+      "bytes": 56189
+    },
+    "batch_pilot_materials/EP005/补充材料/引用清单.md": {
+      "sha256": "923c18ae34ad5277bd5685e2db4013e422689ccf43b9a1aa060d2bd855949882",
+      "bytes": 258
+    }
+  },
+  "extraction_primary": "原始字幕.srt",
+  "audio_checked": false,
+  "source_version": {
+    "id": "EP005/version/3beb7b302f9848ac",
+    "object_type": "SourceVersion",
+    "schema_version": "0.1.0",
+    "ontology_version": "0.3",
+    "created_at": null,
+    "provenance_refs": [],
+    "metadata": {},
+    "source_ref": "EP005/source",
+    "version_label": "user-supplied ASR subtitle bytes",
+    "content_time": {
+      "state": "unknown"
+    },
+    "published_at": {
+      "text": "2026-09-02 10:23:44",
+      "start": null,
+      "end": null,
+      "source_ref": null
+    },
+    "captured_at": {
+      "state": "unknown"
+    },
+    "content_sha256": "3beb7b302f9848ac29650c705f04bcf7f3b21cd7fa67ab02b60f27fbfc095dc1",
+    "revision_status": "Original preserved; no audio correction",
+    "source_refs": [
+      "EP005/source"
+    ]
+  }
+}

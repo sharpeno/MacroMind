@@ -1,0 +1,353 @@
+{
+  "ontology_version": "0.3",
+  "freeze_status": "FROZEN",
+  "principles": [
+    {
+      "principle_id": "P01",
+      "title": "Source / Claim / Reality Separation",
+      "frozen_rule": "Source ≠ Claim ≠ Reality 来源存在 不等于 来源内容为真。 准确引用 不等于 引用命题为现实事实。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P01 Source / Claim / Reality Separation"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P02",
+      "title": "Truth Non-Propagation",
+      "frozen_rule": "Truth不得自动从： Premise 传播到： Interpretation Causal Claim Conclusion Thesis 每层需独立证据或明确推理归属。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P02 Truth Non-Propagation"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P03",
+      "title": "Event / StructuralProcess",
+      "frozen_rule": "单个Event不得自动升级为StructuralProcess。 StructuralProcess要求跨时间持续证据。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P03 Event / StructuralProcess"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P04",
+      "title": "Scenario / Forecast",
+      "frozen_rule": "Scenario表达： 条件分支 / possible branch。 Forecast要求： 主体对未来结果承担判断。 未endorsed的IF-THEN不得自动进入Forecast Ledger。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P04 Scenario / Forecast"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P05",
+      "title": "Thesis / Forecast",
+      "frozen_rule": "持久结构解释不等于时间绑定预测。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P05 Thesis / Forecast"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P06",
+      "title": "Indicator / Observation",
+      "frozen_rule": "Indicator定义变量。 IndicatorObservation记录实际时点观测。 Target Design Capacity Guidance Observed Value 不得混用。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P06 Indicator / Observation"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P07",
+      "title": "Policy / Policy Event",
+      "frozen_rule": "Policy为持续状态。 宣布、实施、调整是Event。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P07 Policy / Policy Event"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P08",
+      "title": "Mechanism / Argument",
+      "frozen_rule": "Mechanism是可复用因果模型。 Argument是特定reasoner在特定语境中的实际推理链。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P08 Mechanism / Argument"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P09",
+      "title": "Mechanism / MechanismUsage",
+      "frozen_rule": "机制使用者 不自动成为 机制作者。 unknown不得为了字段完整被补成analyst。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P09 Mechanism / MechanismUsage"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P10",
+      "title": "Assessment / Reality",
+      "frozen_rule": "模型评价： “推理不足” 不等于： “原子事实为假”。 Assessment真值不得向Reality传播。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P10 Assessment / Reality"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P11",
+      "title": "Heuristic Lifecycle",
+      "frozen_rule": "AnalystMethodSignal → Repeated Signal → Candidate Pattern → Heuristic → Validated Skill Rule 单次Signal不得直接成为Skill Rule。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P11 Heuristic Lifecycle"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P12",
+      "title": "Unknown > Guess",
+      "frozen_rule": "信息不足时： unknown / null / review 优于模型猜测。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P12 Unknown > Guess"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P13",
+      "title": "Temporal Integrity",
+      "frozen_rule": "历史分析必须遵守： Knowledge Cutoff Information Set Source Version Content Chronology 不得使用未来信息改写历史判断。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P13 Temporal Integrity"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P14",
+      "title": "Golden Number ≠ Time",
+      "frozen_rule": "GS001、GS002等编号不是时间顺序。 recurrence prior资格必须按： content chronology 判断。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P14 Golden Number ≠ Time"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P15",
+      "title": "Reasoner / Observer Separation",
+      "frozen_rule": "必须区分： analyst statement analyst reasoning model reconstruction model diagnostic human adjudication reasoner_id analysis_context annotation_observer 不得混用。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P15 Reasoner / Observer Separation"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    },
+    {
+      "principle_id": "P16",
+      "title": "Model Reconstruction Boundary",
+      "frozen_rule": "model_reconstruction 不得直接成为： Analyst Method evidence 除非存在原始explicit或strongly implied证据。",
+      "ontology_version": "0.3",
+      "freeze_status": "FROZEN",
+      "source_commit_prompt_ref": {
+        "path": "G:/youhegaojian/prompt/MacroMind Core Ontology V0.3 Freeze Commit.md",
+        "sha256": "f2cf6189f53d2b29c777f575da297c969aa329f5eea8bb34ca8b14fee8aeeb38",
+        "anchor": "P16 Model Reconstruction Boundary"
+      },
+      "rule_derivation": "exact_prompt_text_whitespace_normalized"
+    }
+  ],
+  "accepted_audit_rule_details": {
+    "temporal_integrity": [
+      {
+        "axis": "knowledge_cutoff",
+        "assessment": "资格边界按样本信息集保存，未知不可由编号推断。",
+        "evidence_refs": [
+          "E05",
+          "E10",
+          "E15",
+          "E28"
+        ]
+      },
+      {
+        "axis": "asserted_at",
+        "assessment": "录制时间未知保持 null；publication proxy 与 media offset 单列。",
+        "evidence_refs": [
+          "E23",
+          "E05"
+        ]
+      },
+      {
+        "axis": "reference_time",
+        "assessment": "命题谈论的时期/Population 与实际说话时间分开。",
+        "evidence_refs": [
+          "E02",
+          "E07"
+        ]
+      },
+      {
+        "axis": "prediction_window",
+        "assessment": "可未知；不由评估时点倒填。",
+        "evidence_refs": [
+          "E08",
+          "E43"
+        ]
+      },
+      {
+        "axis": "captured_at",
+        "assessment": "抓取晚不自动意味着全部内容晚；但无历史快照存在修改风险。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "published_at",
+        "assessment": "整页发布日期不代表所有滚动条目时间。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "SourceVersion",
+        "assessment": "保留 entry 时间、capture、cutoff eligibility、hash/未知历史修订。",
+        "evidence_refs": [
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "axis": "InformationSet",
+        "assessment": "按 cutoff 与用途区分 creator reconstruction、外部核验、事后方法比较。",
+        "evidence_refs": [
+          "E15",
+          "E28"
+        ]
+      },
+      {
+        "axis": "Forecast resolution time",
+        "assessment": "标准设定/批准/实际评估时间分开；未批准 model criteria 不评分。",
+        "evidence_refs": [
+          "E08",
+          "E43"
+        ]
+      },
+      {
+        "axis": "recurrence chronology",
+        "assessment": "GS003→GS004→GS005→GS002；GS001 无可排序 cutoff；evaluation_time 不重写历史先后。",
+        "evidence_refs": [
+          "E15",
+          "E28",
+          "E36"
+        ]
+      },
+      {
+        "axis": "Event action times",
+        "assessment": "announced/decided/scheduled/effective/occurred 不合并，EV03 是已知未来安排。",
+        "evidence_refs": [
+          "E05",
+          "E12"
+        ]
+      }
+    ],
+    "provenance_contract": "现有类型加辅助对象能够回答溯源问题；部分值未知是数据债，不是架构无法表示。\n\n| 问题 | 可表达结构与本次证据 | 限制 |\n| --- | --- | --- |\n| 谁说的/什么时候说 | Claim.claimant/asserted_by、SourceSegment、asserted_at/proxy；E05、E23 | 录制时间未知不可用发布时间加偏移推算 |\n| 基于哪个来源/是否转载 | Source→Version/Segment→ClaimOccurrence；origin family；E10、E11、E29 | 同源传播不增加独立支持；OC130 需内容对齐复核 |\n| 模型是否补推理 | Argument expression_level、reasoner/context、DA01；E16、E26 | 模型桥接不归主播方法 |\n| 哪次迁移/谁裁决 | migration/finalization metadata、prompt path/hash、decision_origin；E21、E38、E39 | 用户提供的外部裁决有来源记录，非独立身份鉴定 |\n| 网页是否改过 | SourceVersion captured_at、历史快照/编辑未知状态；E10、E11 | 能表达风险，不宣称历史网页未修改 |",
+    "reasoner_observer_contract": "analyst statement 由 Claim 与源片段固定；analyst reasoning 由 explicit/strongly_implied 边承载；model reconstruction/diagnostic 由独立 reasoner_id、analysis_context、expression_level 承载；human adjudication 保存 decision_origin、来源 Prompt 哈希和 resolved_at。\n\nGS004 AR05 的模型补链不计入主播方法证据，DA01 与 creator graph 分离。Failure 分开 observed_reasoner_id 与 annotation_observer；标签属于评价者判断，failure_origin 未核时维持 unknown。ME01–03 作者未知与 MU 的使用者已知并不矛盾。字段和辅助层已能表达，归为 D10/D17，不新增“推理观察者” Core。（E16–E19、E26、E35、E38–E39）",
+    "forecast_scenario_thesis_contract": "**Forecast**：主体对未来结果承担的判断，以 Claim、KnowledgeCutoff、PredictionWindow、ModalStrength、ResolutionCriteria 为骨架，并保留主体、条件、原模态和来源。window/criteria 不明可降低可判定性并进入 review，不能自行造一个承诺。\n\n**Scenario**：条件—结果或分支树，允许仅讨论可能性，没有必然的概率押注或选支。**Thesis**：跨单个时点的解释/结构判断，由 Argument 和证据支持，可持续修正，不等同过程本体或预测账本项。\n\n最小判别：先问是否有主体的未来判断，再问条件被如何使用、是否选支；若只是枚举“可能 A 也可能 B”，保留场景；若解释的是持久原因/结构意义，建立 Thesis。明确但模糊时间的未来判断可保留低 resolvability，不能以不够好评分为由抹去原判断。\n\nForecast admission gate：unconditional_forecast、明确 branch_selection 或满足条件承诺与可判定要求的 resolvable_conditional_forecast。Scenario-only gate：没有主体背书/选支或仅条件推演；GS005 C005/SC01 的已验收理由正是 condition_not_endorsed_no_branch_selection。Thesis durability gate：超越单条新闻复述，包含原因/后果/结构意义之一，有来源论证链和后续支持反证接口。\n\nGS003 FC-C026 的两种未来分支及 Addendum 旧准入习惯值得重审，46 条不能整批宣称现代 admission 合格。现有 Scenario 已足以保留它们；D03 是规则对齐而不是新增核心类型。GS005 10 Forecast 与17 Scenario 提供实际区分证据。creator/model/human resolution criteria 和实际评分时间必须隔离。（E08、E09、E24、E34、E43）",
+    "event_structural_process_contract": "Process 至少要求持久、跨时和多时期 Observation/时间序列/多个 Event 或 Policy 的支持；证据数量必须同时满足时间与现实变化语义，重复转载不能凑数。事件重要性、技术突破修辞、连续数天战争都不是自动升格条件。\n\nGS002 的融资结构变化给出明确正向需求，V0.3 已提供对象；旧 JSON 仅在 Thesis/议题中提出，未建正式 Process。GS003–005 的 Process 集合均为空，合理保留负例但暴露 D12。GS005 的单次回收→操作复用→经济复用→商业可行→产业转型可以通过 Event、指标/观测、Argument、Thesis 及将来证据充分的 Process 表达；当前模型补链不是已发生过程。没有发现既不能归 Event 又不能由 Process/Claim/Thesis 表达的现实对象。（E03、E25、E32）",
+    "argument_mechanism_contract": "Argument 保存本次 premise→inference edge→intermediate conclusion→final conclusion，边标 expression level/reasoner，另保存 inferential distance、creator shortcut 和 most_fragile_step。Mechanism 是可跨案例的因果结构，MechanismUsage 是本案如何使用。\n\nGS002 数量到成本、GS004 时间比到90倍与 RPO 成本化、GS005 回收到降本，都是 Argument 可表达且可标缺陷的跨越；并非因为结论有问题就需要拆 Argument Core。GS004 AR05 显式步骤与模型补边分离，creator shortcut 保留其表达性质，不伪装完整证明。图边数与最长路径不能互代，脆弱环节必须可定位、unknown 可 review。（E06、E16、E18、E19、E26；D10/D11）"
+  },
+  "explicitly_non_core_objects": [
+    "SourceVersion",
+    "SourceEntry",
+    "SourceSegment",
+    "SourceFamily",
+    "ClaimOccurrence",
+    "TranscriptCorrection",
+    "IndicatorObservation",
+    "InformationSet",
+    "ExpectationSnapshot",
+    "SourceSegmentAnnotation",
+    "Scenario",
+    "ReviewQueue",
+    "AnalystModel",
+    "AnalystMethodSignal",
+    "MechanismUsage"
+  ],
+  "explicitly_not_frozen": [
+    "field-level schema details",
+    "enum registries",
+    "semantic_role enum",
+    "recognition_stage enum",
+    "failure taxonomy",
+    "recurrence taxonomy",
+    "validator implementation",
+    "validator rule count",
+    "database schema",
+    "DuckDB / SQLite / Neo4j implementation",
+    "Context Manifest",
+    "retrieval strategy",
+    "Agent Runtime",
+    "Hermes integration",
+    "MCP/API",
+    "Skill format",
+    "Analyst Model format",
+    "UI",
+    "Prompt templates",
+    "Model selection"
+  ]
+}

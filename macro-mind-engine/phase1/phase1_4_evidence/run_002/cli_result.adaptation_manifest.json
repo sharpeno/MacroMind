@@ -1,0 +1,32 @@
+{
+  "adapter_id": "compat.v0_3_legacy",
+  "adapter_version": "0.1.0",
+  "canonical_bundle_hash": "d663da0d9122fe2ac449d7f0020b5db04dc19e7b96937b51d09375f8ef00334c",
+  "canonical_object_count": 1,
+  "detection_status": "STRONG",
+  "loss_count": 5,
+  "mapping_ledger_hash": "9d141c4817799e1249c910155bdc045cf5718ae83fc3db5e04754a36286008d0",
+  "quarantined_object_count": 0,
+  "source_family": "V0_3_LEGACY",
+  "source_object_count": 1,
+  "source_sha256": "951b531971b73a15f2f27806d756c5afb6ece25ff30dff05769fd2dd8dca12bc",
+  "source_unchanged": true,
+  "status": "LOSSY_BUT_SAFE",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknown_count": 13,
+  "validator_summary": {
+    "deterministic_hash": "c711e4f129df0e44d01e441ee215da49e338524f64e95c2f827b342d36b2f84f",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 1,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 0,
+      "NOT_APPLICABLE": 31,
+      "PASS": 5,
+      "WARNING": 1
+    },
+    "validator_version": "0.1.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "adapter_id": "compat.ma1_compat",
+  "adapter_version": "0.1.0",
+  "canonical_bundle_hash": "1c168ac51946efe37403b28ce5f78612b01022223379462d30a88291bf429fbd",
+  "canonical_object_count": 680,
+  "detection_status": "EXACT",
+  "loss_count": 7191,
+  "mapping_ledger_hash": "9f2ee431c79c1ccecd288934231664170c3484c8a98913dca1e54505f94d725c",
+  "quarantined_object_count": 141,
+  "source_family": "MA1_COMPAT",
+  "source_object_count": 821,
+  "source_sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+  "source_unchanged": true,
+  "status": "PARTIAL",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknown_count": 3975,
+  "validator_summary": {
+    "deterministic_hash": "b3e6a1161dfe8f9bfa0b61d9ef98ac873267cd3b8b9654312fd66d529b0107a6",
+    "errors": [],
+    "mode": "partial_bundle",
+    "object_count": 680,
+    "outcome_counts": {
+      "ERROR": 0,
+      "INDETERMINATE": 633,
+      "NOT_APPLICABLE": 6,
+      "PASS": 4424,
+      "WARNING": 141
+    },
+    "validator_version": "0.1.0"
+  }
+}

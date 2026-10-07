@@ -1,0 +1,545 @@
+{
+  "executed_at": "2026-09-26T22:38:44+08:00",
+  "completed": true,
+  "input_manifest": [
+    {
+      "path": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md",
+      "sha256": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004.ma1_candidate.json",
+      "sha256": "a3d55ac6cde9f2ef806ce2e2824ebcfff22a78d1acda0089d491905dabd6319d"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004.ma1_candidate.pre_finalization.json",
+      "sha256": "a3d55ac6cde9f2ef806ce2e2824ebcfff22a78d1acda0089d491905dabd6319d"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\validate_gs004_ma1.py",
+      "sha256": "74f584cc0f0bcf408a95df1d20f5754b4d6d8d32e7080ae8e2dfd657bd7d4091"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\migrate_gs004_ma1.py",
+      "sha256": "97b8384533fd5dcfe675e71316e707d2f58a1969dfeadab411ddab0104993b24"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\gs004_ma1_gap_report.json",
+      "sha256": "f25f7659aeda780768e30adbabfcf7ca9e457130ff78f8f808ed4d3a57f014e4"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\migration\\ma1\\diff_summary.md",
+      "sha256": "0e81b63d8b693709c45288ab889602d05a930c6e8e3827621d75545e829ba6ed"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\gs004_ma1_migration_report.md",
+      "sha256": "40e57cf6e73d54f0f5847cb949e5dcc59d64c3bc0a369e4e9ba59cc96daba20d"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\migration\\ma1\\input_manifest.json",
+      "sha256": "a5d7d70272bde04fbfb983c458f0109007c484d5fb17b23135dce6934813e1e6"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\migration\\ma1\\validation_after_ma1.json",
+      "sha256": "ec2196e7b63aa256b6db8c3cf45eff0117267387899adfae336b57f4de265a64"
+    },
+    {
+      "path": "G:\\youhegaojian\\golden_sample_test\\golden_sample_004\\golden_sample_004.pre_ma1.json",
+      "sha256": "3d3fe899b3cd82c667857cccd1e340dc5be0451e28b9ff602c7a7c4e52b19163"
+    }
+  ],
+  "human_decisions": {
+    "MA1-RECURRENCE-MS01": "accept_migrated_uncertain",
+    "MA1-FUTURE-LEAK-MS02": "accept_quarantined_future_prior",
+    "MA1-ATTRIBUTION-ME01": "accept_unknown_shared_mechanism_attribution",
+    "MA1-ATTRIBUTION-ME02": "accept_unknown_shared_mechanism_attribution",
+    "MA1-ATTRIBUTION-ME03": "accept_unknown_shared_mechanism_attribution",
+    "MA1-COMPARISON-OB20": "accept_raw_value_comparison_unknown"
+  },
+  "output_sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+  "integrity_checks": {
+    "all_semantic_sections_unchanged": true,
+    "other_reviews_unchanged": true,
+    "all_object_ids_counts_unchanged": true,
+    "frozen_false": true,
+    "production_import_ready_false": true,
+    "freeze_readiness_input_unchanged": true,
+    "candidate_backup_and_all_previous_artifacts_unchanged": true,
+    "validator_unchanged": true
+  },
+  "semantic_fields_changed": 0,
+  "active_recurrence_evidence_changes": 0,
+  "temporal_scan": {
+    "cutoff": "2026-08-05T09:48:48+08:00",
+    "new_future_sample_leakage_discovered": false,
+    "findings": [],
+    "active_reference_checks": [
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/matched_prior_signal_refs",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/matched_prior_signal_refs",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_evidence",
+        "ref": "GS001",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_evidence",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/attention_patterns/0/recurrence_evidence",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/matched_prior_signal_refs",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/26_ANALYST_METHOD_SIGNALS/mechanism_usage_signals/0/recurrence_evidence",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/0/prior_refs",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/0/prior_refs",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/0/recurrence_evidence",
+        "ref": "GS001",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/0/recurrence_evidence",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/0/recurrence_evidence",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/2/prior_refs",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/final_questions/J 复现性/2/recurrence_evidence",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/0/prior_refs",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/0/prior_refs",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/0/recurrence_evidence",
+        "ref": "GS001",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/0/recurrence_evidence",
+        "ref": "GS001/summary:结构力量优先于政治人物",
+        "content_date": null,
+        "eligibility": "summary_date_unknown_existing_uncertain"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/0/recurrence_evidence",
+        "ref": "GS003/HC01",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/2/prior_refs",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      },
+      {
+        "json_path": "/auxiliary/method_recurrence/2/recurrence_evidence",
+        "ref": "GS003/HC02",
+        "content_date": "2026-03-03T17:30:00+08:00",
+        "eligibility": "prior_by_content_date"
+      }
+    ],
+    "policy": "Content chronology precedes Golden numbering; GS001 unknown date remains a previously adjudicated uncertain summary, not verified historical evidence."
+  },
+  "remaining_reviews": {
+    "migration_reviews": 46,
+    "original_reviews": 32,
+    "total": 78,
+    "explicitly_blocking": 17,
+    "blocking_status_unspecified": 32
+  },
+  "validation_before": {
+    "ERROR": 0,
+    "WARNING": 86,
+    "PASS": 3388
+  },
+  "validation_after": {
+    "ERROR": 0,
+    "WARNING": 80,
+    "PASS": 3388
+  },
+  "changes": [
+    {
+      "json_path": "/finalization",
+      "old_present": false,
+      "new_value": {
+        "version": "GS004-MA1-FINALIZATION-1",
+        "executed_at": "2026-09-26T22:38:44+08:00",
+        "resolved_reviews": [
+          "MA1-RECURRENCE-MS01",
+          "MA1-FUTURE-LEAK-MS02",
+          "MA1-ATTRIBUTION-ME01",
+          "MA1-ATTRIBUTION-ME02",
+          "MA1-ATTRIBUTION-ME03",
+          "MA1-COMPARISON-OB20"
+        ],
+        "human_decisions": {
+          "MA1-RECURRENCE-MS01": "accept_migrated_uncertain",
+          "MA1-FUTURE-LEAK-MS02": "accept_quarantined_future_prior",
+          "MA1-ATTRIBUTION-ME01": "accept_unknown_shared_mechanism_attribution",
+          "MA1-ATTRIBUTION-ME02": "accept_unknown_shared_mechanism_attribution",
+          "MA1-ATTRIBUTION-ME03": "accept_unknown_shared_mechanism_attribution",
+          "MA1-COMPARISON-OB20": "accept_raw_value_comparison_unknown"
+        },
+        "semantic_objects_regenerated": false,
+        "claim_ids_changed": false,
+        "argument_ids_changed": false,
+        "method_signal_ids_changed": false,
+        "future_sample_leakage_accepted_as_evidence": false,
+        "prompt_path": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md",
+        "prompt_sha256": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083",
+        "validator_path": "G:\\youhegaojian\\golden_sample_test\\validate_gs004_ma1.py",
+        "validator_sha256": "74f584cc0f0bcf408a95df1d20f5754b4d6d8d32e7080ae8e2dfd657bd7d4091",
+        "candidate_sha256": "a3d55ac6cde9f2ef806ce2e2824ebcfff22a78d1acda0089d491905dabd6319d",
+        "backup_sha256": "a3d55ac6cde9f2ef806ce2e2824ebcfff22a78d1acda0089d491905dabd6319d",
+        "completed": true,
+        "validation_passed": true,
+        "acceptance_gate": "passed_local_ma1_finalization",
+        "prior_validation": {
+          "path": "migration/ma1/validation_after_ma1.json",
+          "sha256": "ec2196e7b63aa256b6db8c3cf45eff0117267387899adfae336b57f4de265a64",
+          "ERROR": 0,
+          "WARNING": 86,
+          "PASS": 3388
+        },
+        "validation": {
+          "ERROR": 0,
+          "WARNING": 80,
+          "PASS": 3388,
+          "status": "WARNING"
+        },
+        "remaining_reviews": {
+          "migration_reviews": 46,
+          "original_reviews": 32,
+          "total": 78,
+          "explicitly_blocking": 17,
+          "blocking_status_unspecified": 32
+        },
+        "new_future_sample_leakage_discovered": false
+      }
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/decision",
+      "old_value": null,
+      "new_value": "accept_raw_value_comparison_unknown"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/19/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/decision",
+      "old_value": null,
+      "new_value": "accept_migrated_uncertain"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/47/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/decision",
+      "old_value": null,
+      "new_value": "accept_quarantined_future_prior"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/48/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/decision",
+      "old_value": null,
+      "new_value": "accept_unknown_shared_mechanism_attribution"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/49/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/decision",
+      "old_value": null,
+      "new_value": "accept_unknown_shared_mechanism_attribution"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/50/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/blocks_verified_promotion",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/decision",
+      "old_value": null,
+      "new_value": "accept_unknown_shared_mechanism_attribution"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/decision_origin",
+      "old_present": false,
+      "new_value": "externally_adjudicated_human_decision_supplied_by_user"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/decision_source",
+      "old_present": false,
+      "new_value": "G:\\youhegaojian\\prompt\\GS004-MA.1 Finalization Commit.md"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/decision_source_sha256",
+      "old_present": false,
+      "new_value": "bdb85c16d6e669eaee6fc223c51b3ae0fe378cfa9736f3766c48cd2ef9bf4083"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/requires_human",
+      "old_value": true,
+      "new_value": false
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/resolved_at",
+      "old_present": false,
+      "new_value": "2026-09-26T22:38:44+08:00"
+    },
+    {
+      "json_path": "/ma1_manual_review_queue/51/status",
+      "old_value": "open",
+      "new_value": "resolved"
+    },
+    {
+      "json_path": "/ma1_migration/golden_status",
+      "old_value": "ma1_migrated_validation_pass_manual_review_pending",
+      "new_value": "ma1_migration_accepted_knowledge_review_pending"
+    },
+    {
+      "json_path": "/ma1_migration/human_acceptance",
+      "old_value": false,
+      "new_value": true
+    },
+    {
+      "json_path": "/ma1_migration/ma1_compliance",
+      "old_value": "migrated_local_validation_pass_manual_review_pending",
+      "new_value": "migrated_local_validation_pass_human_accepted"
+    },
+    {
+      "json_path": "/ma1_migration/validation/WARNING",
+      "old_value": 86,
+      "new_value": 80
+    }
+  ],
+  "source_discrepancy": "Prompt describes OB20 review as enrichment; actual candidate blocks_verified_promotion=true. Explicit finalization decision sets false; both values retained in diff.",
+  "errors": []
+}

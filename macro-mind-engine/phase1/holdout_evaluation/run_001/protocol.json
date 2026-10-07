@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-05T17:59:14.142072+00:00",
+  "target_episode": "472",
+  "selection": "first reserved episode in frozen chronological split; selected before content read",
+  "framework_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3",
+  "target_subtitle_status": "UNREAD",
+  "date_precision": "day; cannot independently order video versus same-day articles",
+  "sources": [
+    "https://www.cls.cn/detail/1486755",
+    "https://www.cls.cn/detail/1487000",
+    "https://www.cls.cn/detail/1486209"
+  ],
+  "cutoff_policy": "freeze retrieved news only; reject any source after 2023-10-17 and disclose same-day order unknown",
+  "evaluation": [
+    "six approved rules applied or explicitly limited",
+    "freeze answer before subtitle exposure",
+    "whole episode read after exposure recorded",
+    "compare overlapping themes with continuous context and opposing evidence",
+    "fidelity not truth; no percentage accuracy from one case"
+  ],
+  "historical_knowledge": "not blinded; titles and metadata already exposed"
+}

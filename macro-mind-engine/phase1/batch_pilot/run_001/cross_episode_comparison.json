@@ -1,0 +1,35 @@
+{
+  "status": "TOPIC_COMPARISON_ONLY",
+  "canonical_cross_episode_edges": 0,
+  "temporal_guard": "NOT_VERIFIED: input publication timezone and historical news versions unknown",
+  "blind_evaluation": false,
+  "observations": [
+    {
+      "topic": "加息是否发生与路径",
+      "EP001": [
+        "EP001/C01",
+        "EP001/C02",
+        "EP001/C21"
+      ],
+      "EP002": [
+        "EP002/C01",
+        "EP002/C11",
+        "EP002/C13"
+      ],
+      "EP003": [
+        "EP003/C01",
+        "EP003/C03",
+        "EP003/C08"
+      ],
+      "interpretation": "用户时间标签下可见主题从决策前判断转到作者报告决策后路径讨论；不回填早期信息集，不认定预测兑现。"
+    },
+    {
+      "topic": "概率归属",
+      "interpretation": "EP001的95%/99%是作者主观判断；新闻中的市场概率和不同日期报道不得混为同一概率序列。"
+    },
+    {
+      "topic": "方法",
+      "interpretation": "可记录相对基准、激励和约束的主题连续性；未建立同一方法的跨期身份或有效性。"
+    }
+  ]
+}

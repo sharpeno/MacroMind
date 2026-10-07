@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "ruff",
+    "check",
+    "--fix",
+    "--no-cache",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "G:\\youhegaojian\\macro-mind-engine\\tests\\golden_regression"
+  ],
+  "cwd": "G:\\youhegaojian",
+  "exit_code": 0
+}

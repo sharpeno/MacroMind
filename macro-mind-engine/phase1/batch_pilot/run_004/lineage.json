@@ -1,0 +1,16 @@
+{
+  "previous": "run_003",
+  "human_review_receipt": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\human_reviews\\holdout_001\\batch_001\\receipt.json",
+  "changed_episodes": [
+    "EP002",
+    "EP003"
+  ],
+  "unchanged_episodes_reused": [
+    "EP001",
+    "EP004",
+    "EP005"
+  ],
+  "transcription_overlay": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_003\\transcript_overlay_reference.json",
+  "ep004_c08": "Original explicitly retained; assistant proposal not applied",
+  "semantics": "User-approved paraphrase changes only; no external truth verification"
+}

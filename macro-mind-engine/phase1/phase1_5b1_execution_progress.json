@@ -1,0 +1,46 @@
+{
+  "completed": [
+    "implementation",
+    "raw tests",
+    "real aggregation",
+    "immutability",
+    "gate evaluation"
+  ],
+  "flags": {
+    "analyst_model": "NOT_READY",
+    "analyst_skill": "NOT_READY",
+    "phase1_5b2": "NOT_STARTED",
+    "phase1_5c": "NOT_STARTED",
+    "phase1_6": "NOT_STARTED",
+    "production": "NOT_READY"
+  },
+  "next_step": "Phase 1.5B-2 remains NOT_STARTED; await separate instruction",
+  "stage": "complete",
+  "unfinished": [],
+  "verification": {
+    "evidence_run": "phase1/phase1_5b1_evidence/run_002",
+    "gate": "READY_FOR_PHASE_1_5B_2",
+    "real_statistics": {
+      "eligible_records": 7311,
+      "largest_pattern_occurrence_count": 131,
+      "opaque_excluded_records": 9499,
+      "pattern_count": 281,
+      "patterns_by_record_type": {
+        "ADAPTATION_LOSS": 203,
+        "QUARANTINE": 9,
+        "REGISTRY_GAP": 8,
+        "SCHEMA_GAP": 24,
+        "VALIDATION_FINDING": 37
+      },
+      "summary_only_records": 308,
+      "total_records": 26220,
+      "trace_only_records": 9102
+    },
+    "tests": {
+      "ERROR": 0,
+      "FAILED": 0,
+      "PASSED": 394,
+      "SKIPPED": 0
+    }
+  }
+}

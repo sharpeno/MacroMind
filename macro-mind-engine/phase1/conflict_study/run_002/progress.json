@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-10-05T12:09:43.824953+00:00",
+  "completed": [
+    "剩余13期完整字幕阅读，共8184片段",
+    "39项选择性提炼及原文时间定位",
+    "13节点时间线",
+    "6项复现候选及6类风险",
+    "结构验证和9项负向测试",
+    "REPORT.md与EVIDENCE.md"
+  ],
+  "development_total": {
+    "episodes": 15,
+    "cues": 9620,
+    "selected_units": 49
+  },
+  "pending": [
+    "关键语义人工审阅",
+    "v0.3草案与封存",
+    "15份留出逐例检验",
+    "外部事实与预测结果验证"
+  ],
+  "reserved_transcripts_read": [],
+  "framework_changed": false,
+  "validation": "validation.json",
+  "raw_outputs": [
+    "validation.stdout.log",
+    "validation.stderr.log"
+  ],
+  "next": "形成v0.3草案与集中语义审阅；不得预读留出或改写旧判断",
+  "commands": [
+    ".venv/Scripts/python.exe -X utf8 phase1/conflict_study/run_002/build_analysis.py",
+    ".venv/Scripts/python.exe -X utf8 phase1/conflict_study/run_002/verify.py"
+  ],
+  "reading_audit": {
+    "full_text_episodes": [
+      "456",
+      "457",
+      "458",
+      "459",
+      "460",
+      "462",
+      "464",
+      "465",
+      "466",
+      "468",
+      "469",
+      "470",
+      "471"
+    ],
+    "snapshots": "reading_outputs/",
+    "truncation_recovery": [
+      "457全篇重读",
+      "458 cue0—29补读",
+      "456 cue580—594补读"
+    ],
+    "audio_checked": false
+  }
+}

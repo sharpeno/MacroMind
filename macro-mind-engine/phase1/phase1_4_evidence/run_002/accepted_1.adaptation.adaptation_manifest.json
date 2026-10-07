@@ -1,0 +1,273 @@
+{
+  "adapter_id": "compat.ma1_compat",
+  "adapter_version": "0.1.0",
+  "canonical_bundle_hash": "8487f6dd550dea55b810e62449e07d0e4212924ff6d99524606544892ea0beb3",
+  "canonical_object_count": 563,
+  "detection_status": "EXACT",
+  "loss_count": 9458,
+  "mapping_ledger_hash": "0b56c890ad4d221eab8df33a6590ae4b2a27b7918bbd0ec3b3825361d76b3be7",
+  "quarantined_object_count": 247,
+  "source_family": "MA1_COMPAT",
+  "source_object_count": 810,
+  "source_sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+  "source_unchanged": true,
+  "status": "PARTIAL",
+  "target_ontology_version": "0.3",
+  "target_schema_version": "0.1.0",
+  "unknown_count": 4066,
+  "validator_summary": {
+    "deterministic_hash": "3d3437b9e45557f29f15ebe05463500111d7b66939ce3f88dbb37ddc7ed6c204",
+    "errors": [
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/0",
+        "message": "Reference target type checked.",
+        "object_ref": "MU01",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C026"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/1",
+        "message": "Reference target type checked.",
+        "object_ref": "MU01",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C027"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/0",
+        "message": "Reference target type checked.",
+        "object_ref": "MU02",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C065"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/1",
+        "message": "Reference target type checked.",
+        "object_ref": "MU02",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C066"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/2",
+        "message": "Reference target type checked.",
+        "object_ref": "MU02",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C073"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/0",
+        "message": "Reference target type checked.",
+        "object_ref": "MU03",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C062"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/1",
+        "message": "Reference target type checked.",
+        "object_ref": "MU03",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C077"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/source_refs/2",
+        "message": "Reference target type checked.",
+        "object_ref": "MU03",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C078"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/comparison_basis/baseline_source_ref",
+        "message": "Reference target type checked.",
+        "object_ref": "OB11",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C017"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/comparison_basis/baseline_source_ref",
+        "message": "Reference target type checked.",
+        "object_ref": "OB12",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C017"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/comparison_basis/baseline_source_ref",
+        "message": "Reference target type checked.",
+        "object_ref": "OB23",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C045"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      },
+      {
+        "category": "Reference",
+        "details": {
+          "allowed_types": [
+            "Source"
+          ]
+        },
+        "evidence_refs": [],
+        "field_path": "/comparison_basis/baseline_source_ref",
+        "message": "Reference target type checked.",
+        "object_ref": "OB24",
+        "outcome": "ERROR",
+        "related_refs": [
+          "SS-C045"
+        ],
+        "review_required": false,
+        "rule_id": "V-REF003",
+        "rule_name": "Allowed reference target type",
+        "severity": "ERROR"
+      }
+    ],
+    "mode": "partial_bundle",
+    "object_count": 563,
+    "outcome_counts": {
+      "ERROR": 12,
+      "INDETERMINATE": 495,
+      "NOT_APPLICABLE": 6,
+      "PASS": 3467,
+      "WARNING": 132
+    },
+    "validator_version": "0.1.0"
+  }
+}

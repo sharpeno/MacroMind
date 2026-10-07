@@ -1,0 +1,48 @@
+[
+  {
+    "claim_ref": "EP004/C14",
+    "status": "CANDIDATE_NOT_ADMITTED",
+    "reason": "Cutoff timezone/content time and operational resolution criteria not independently established; preserve expressed prediction but do not fabricate forecast contract.",
+    "quote_cue_ids": [
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ]
+  },
+  {
+    "claim_ref": "EP004/C15",
+    "status": "CANDIDATE_NOT_ADMITTED",
+    "reason": "Cutoff timezone/content time and operational resolution criteria not independently established; preserve expressed prediction but do not fabricate forecast contract.",
+    "quote_cue_ids": [
+      234,
+      235,
+      236,
+      237
+    ]
+  },
+  {
+    "claim_ref": "EP004/C17",
+    "status": "CANDIDATE_NOT_ADMITTED",
+    "reason": "Cutoff timezone/content time and operational resolution criteria not independently established; preserve expressed prediction but do not fabricate forecast contract.",
+    "quote_cue_ids": [
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274
+    ]
+  }
+]

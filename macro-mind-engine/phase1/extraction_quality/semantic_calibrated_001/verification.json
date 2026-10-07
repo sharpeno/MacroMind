@@ -1,0 +1,166 @@
+[
+  {
+    "check": "EP001 allowed canonical scope",
+    "passed": true
+  },
+  {
+    "check": "EP001 raw cues unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP001 prior isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP001 no errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP001 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP002 allowed canonical scope",
+    "passed": true
+  },
+  {
+    "check": "EP002 raw cues unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002 prior isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP002 no errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP002 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP003 allowed canonical scope",
+    "passed": true
+  },
+  {
+    "check": "EP003 raw cues unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP003 prior isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP003 no errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP003 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP004 allowed canonical scope",
+    "passed": true
+  },
+  {
+    "check": "EP004 raw cues unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP004 prior isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP004 no errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP004 conservation",
+    "passed": true
+  },
+  {
+    "check": "EP005 allowed canonical scope",
+    "passed": true
+  },
+  {
+    "check": "EP005 raw cues unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP005 prior isolation retained",
+    "passed": true
+  },
+  {
+    "check": "EP005 no errors or reference unknowns",
+    "passed": true
+  },
+  {
+    "check": "EP005 conservation",
+    "passed": true
+  },
+  {
+    "check": "Method uses user text verbatim",
+    "passed": true
+  },
+  {
+    "check": "Method and application have disjoint evidence",
+    "passed": true
+  },
+  {
+    "check": "Preparation and timing evidence includes cue390",
+    "passed": true
+  },
+  {
+    "check": "Application remains explicitly hypothetical",
+    "passed": true
+  },
+  {
+    "check": "No invented deductive Argument added",
+    "passed": true
+  },
+  {
+    "check": "Method not called proven Skill",
+    "passed": true
+  },
+  {
+    "check": "Approved EP003 proposal applied exactly",
+    "passed": true
+  },
+  {
+    "check": "EP005 retained unchanged",
+    "passed": true
+  },
+  {
+    "check": "run_004 sealed bytes unchanged",
+    "passed": true
+  },
+  {
+    "check": "semantic_pilot_001 sealed bytes unchanged",
+    "passed": true
+  },
+  {
+    "check": "calibrated_001 sealed bytes unchanged",
+    "passed": true
+  },
+  {
+    "check": "EP002 new policy passes approved scope",
+    "passed": true
+  },
+  {
+    "check": "EP002 obsolete extraction blocked",
+    "passed": true
+  },
+  {
+    "check": "EP003 new policy passes approved scope",
+    "passed": true
+  },
+  {
+    "check": "EP003 obsolete extraction blocked",
+    "passed": true
+  },
+  {
+    "check": "Two changed audits completed",
+    "passed": true
+  }
+]

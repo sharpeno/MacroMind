@@ -1,0 +1,43 @@
+[
+  {
+    "id": "EP002/M01",
+    "cues": [
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222
+    ],
+    "observation": "区分行动是否发生、次数和持续时间。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP002/M02",
+    "cues": [
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362
+    ],
+    "observation": "区分私人关系与职位约束。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  }
+]

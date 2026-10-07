@@ -1,0 +1,21 @@
+{
+  "exact_token_mismatch": [
+    {
+      "episode": "EP002",
+      "review_id": "EP002/A02",
+      "original": {
+        "cue_id": 171,
+        "time_range": "00:08:13,920 --> 00:08:16,420",
+        "quote": "这个你这个Sop要是IPO了。"
+      },
+      "user_reported_token": "SOP",
+      "suggested_text": "Anthropic",
+      "literal_token_present": false,
+      "status": "USER_PROPOSED_CORRECTION",
+      "assistant_audio_verified": false,
+      "applied_to_raw_source": false,
+      "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33"
+    }
+  ],
+  "policy": "Timestamp uniquely locates original cue; user token spelling can differ. No automatic raw string replacement, original quote shown beside user correction."
+}

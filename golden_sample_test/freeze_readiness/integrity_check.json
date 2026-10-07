@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "input_files_checked": 34,
+  "all_audited_inputs_unchanged": true,
+  "accepted_log_hash_bindings": {
+    "GS004": {
+      "accepted_sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+      "log_output_sha256": "6571da09a9beef29eebc11ec7565249656a25dd5a3a2d9ad6e3d5473922ccf87",
+      "matches": true
+    },
+    "GS005": {
+      "accepted_sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "log_output_sha256": "27f8b6393a641f5ede22585cf0048ec5eaf71c5a777c769184889dc6a89cc023",
+      "matches": true
+    }
+  },
+  "evidence_selectors_resolved": 43,
+  "golden_count": 5,
+  "core_objects": 14,
+  "boundary_count": 15,
+  "gate_count": 12,
+  "markdown_sections": 24,
+  "debt_count": 20,
+  "golden_mutation_performed": false,
+  "migration_rerun": false,
+  "validator_rerun": false,
+  "production_import_ready": false,
+  "formal_freeze_executed": false
+}

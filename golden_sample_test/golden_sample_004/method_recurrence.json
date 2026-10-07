@@ -1,0 +1,35 @@
+[
+  {
+    "candidate": "A 公开叙事后看执行能力/约束",
+    "status": "repeated",
+    "prior_refs": [
+      "GS003/HC01"
+    ],
+    "current_refs": [
+      "MS01"
+    ],
+    "scope": "同类分析动作，主题与具体结论不同"
+  },
+  {
+    "candidate": "B 增量看趋势、存量看空间",
+    "status": "unclear",
+    "prior_refs": [
+      "GS002/HC01"
+    ],
+    "current_refs": [
+      "MS02"
+    ],
+    "scope": "本期有存量/增量拆分，但未观察到存量推潜在空间的完整规则，不能硬判复现"
+  },
+  {
+    "candidate": "C 分阶段比较持续成本与承受能力",
+    "status": "repeated",
+    "prior_refs": [
+      "GS003/HC02"
+    ],
+    "current_refs": [
+      "MS03"
+    ],
+    "scope": "本期把硬件使用周期与回报对比；只复现成本/周期子模式，不含上期60天算法"
+  }
+]

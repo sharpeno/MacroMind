@@ -1,0 +1,51 @@
+{
+  "positive_contract": true,
+  "negative_cases": [
+    {
+      "name": "altered_quote",
+      "rejected": true
+    },
+    {
+      "name": "missing_method",
+      "rejected": true
+    },
+    {
+      "name": "missing_evidence",
+      "rejected": true
+    },
+    {
+      "name": "wrong_baseline_ref",
+      "rejected": true
+    },
+    {
+      "name": "false_equal_inputs",
+      "rejected": true
+    },
+    {
+      "name": "false_score",
+      "rejected": true
+    },
+    {
+      "name": "altered_judgment",
+      "rejected": true
+    },
+    {
+      "name": "promoted_truth",
+      "rejected": true
+    },
+    {
+      "name": "unapproved_rule_change",
+      "rejected": true
+    },
+    {
+      "name": "unjustified_full_pass",
+      "rejected": true
+    }
+  ],
+  "protected_files_unchanged": 591,
+  "source_files_unchanged": 3,
+  "cue_count": 363,
+  "qualitative_verdict": "PARTIAL_METHOD_ALIGNMENT_NOT_FULL_FIDELITY_ACCEPTANCE",
+  "fidelity_score": "NOT_COMPUTED",
+  "world_facts": "NOT_VERIFIED"
+}

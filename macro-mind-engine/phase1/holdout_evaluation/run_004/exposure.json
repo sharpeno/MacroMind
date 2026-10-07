@@ -1,0 +1,8 @@
+{
+  "episode": "475",
+  "recorded_before_read_at": "2026-10-07T12:15:12.384030+00:00",
+  "answer_lock_sha256": "6cda77b3acd90a74bb7be3da1ac29f2f00fcb34fe660f625c0cdcc6baf10e2fd",
+  "answer_sha256": "ffa190ac9a68ecb95f7d2a1b1e283b92c68b5fa11c0481c446526a446418bf69",
+  "status": "EXPOSED_FOR_EVALUATION_NOT_UNREAD_HOLDOUT",
+  "other_reserved_episodes_accessed": []
+}

@@ -1,0 +1,87 @@
+E702 Multiple statements on one line (semicolon)
+   --> macro-mind-engine\scripts\verify_phase1_4.py:337:19
+    |
+335 |     for i,node in enumerate(accepted):
+336 |         selections.append((f'accepted_{i+1}',WORKSPACE/node['artifact'],'Accepted metadata plus output-hash-linked completed finaliza…
+337 |     result_rows=[]; results=[]; schema_gaps=[]; registry_gaps=[]
+    |                   ^
+338 |     mapping_ok=True
+339 |     for label,path,authority in selections:
+    |
+
+E702 Multiple statements on one line (semicolon)
+   --> macro-mind-engine\scripts\verify_phase1_4.py:337:31
+    |
+335 |     for i,node in enumerate(accepted):
+336 |         selections.append((f'accepted_{i+1}',WORKSPACE/node['artifact'],'Accepted metadata plus output-hash-linked completed finaliza…
+337 |     result_rows=[]; results=[]; schema_gaps=[]; registry_gaps=[]
+    |                               ^
+338 |     mapping_ok=True
+339 |     for label,path,authority in selections:
+    |
+
+E702 Multiple statements on one line (semicolon)
+   --> macro-mind-engine\scripts\verify_phase1_4.py:337:47
+    |
+335 |     for i,node in enumerate(accepted):
+336 |         selections.append((f'accepted_{i+1}',WORKSPACE/node['artifact'],'Accepted metadata plus output-hash-linked completed finaliza…
+337 |     result_rows=[]; results=[]; schema_gaps=[]; registry_gaps=[]
+    |                                               ^
+338 |     mapping_ok=True
+339 |     for label,path,authority in selections:
+    |
+
+F821 Undefined name `sys`
+   --> macro-mind-engine\scripts\verify_phase1_4.py:402:32
+    |
+400 |     step('targeted_adaptation_complete',summaries['status_counts'],['Final tests/lint/CLI','Immutability/scope','G01-G39 and manifest…
+401 |
+402 |     test_cmd=command('pytest',[sys.executable,'-X','utf8','-m','pytest',ROOT/'tests','-q','-W','error',f'--junitxml={run / "tests.xml…
+    |                                ^^^
+403 |     def cases_from(path):
+404 |         return [dict(name=c.attrib['name'],classname=c.attrib.get('classname',''),status='FAIL' if c.find('failure') is not None else…
+    |
+
+F821 Undefined name `sys`
+   --> macro-mind-engine\scripts\verify_phase1_4.py:413:32
+    |
+411 |     same_collection={(c['classname'],c['name']) for c in old_cases}=={(c['classname'],c['name']) for c in baseline_cases}
+412 |     save('phase1_4_test_report.json',{'existing_before_phase1_4':counts(old_cases),'phase1_4_new':counts(new_cases),'total':counts(ca…
+413 |     lint=command('ruff_check',[sys.executable,'-m','ruff','check','--config',ROOT/'pyproject.toml',ROOT/'src',ROOT/'tests',Path(__fil…
+    |                                ^^^
+414 |     fmt=command('ruff_format',[sys.executable,'-m','ruff','format','--check','--config',ROOT/'pyproject.toml',ROOT/'src/macromind/com…
+415 |     step('tests_and_lint_complete',{'tests':counts(cases),'lint_exit':lint['exit_code'],'format_exit':fmt['exit_code']},['Installed C…
+    |
+
+F821 Undefined name `sys`
+   --> macro-mind-engine\scripts\verify_phase1_4.py:414:32
+    |
+412 |     save('phase1_4_test_report.json',{'existing_before_phase1_4':counts(old_cases),'phase1_4_new':counts(new_cases),'total':counts(ca…
+413 |     lint=command('ruff_check',[sys.executable,'-m','ruff','check','--config',ROOT/'pyproject.toml',ROOT/'src',ROOT/'tests',Path(__fil…
+414 |     fmt=command('ruff_format',[sys.executable,'-m','ruff','format','--check','--config',ROOT/'pyproject.toml',ROOT/'src/macromind/com…
+    |                                ^^^
+415 |     step('tests_and_lint_complete',{'tests':counts(cases),'lint_exit':lint['exit_code'],'format_exit':fmt['exit_code']},['Installed C…
+    |
+
+F821 Undefined name `sys`
+   --> macro-mind-engine\scripts\verify_phase1_4.py:417:21
+    |
+415 |     step('tests_and_lint_complete',{'tests':counts(cases),'lint_exit':lint['exit_code'],'format_exit':fmt['exit_code']},['Installed C…
+416 |
+417 |     executable=Path(sys.executable).parent/('macromind.exe' if os.name=='nt' else 'macromind')
+    |                     ^^^
+418 |     write(run/'cli_canonical.json',{'objects':[]})
+419 |     write(run/'cli_legacy.json',{'02_SOURCES':[],'08_CLAIMS':[{'claim_id':'c','statement':'recorded'}],'12_STRUCTURAL_PROCESSES':[],'…
+    |
+
+F821 Undefined name `sys`
+   --> macro-mind-engine\scripts\verify_phase1_4.py:557:30
+    |
+556 | if __name__ == "__main__":
+557 |     if '--inventory-only' in sys.argv:
+    |                              ^^^
+558 |         inventory()
+559 |     else:
+    |
+
+Found 11 errors (3 fixed, 8 remaining).

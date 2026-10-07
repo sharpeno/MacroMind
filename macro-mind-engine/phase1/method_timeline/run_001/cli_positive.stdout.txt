@@ -1,0 +1,1 @@
+{"status": "SNAPSHOT_SAVED", "output": "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_timeline\\run_001\\cli_replay_T1", "forecast_score_eligible": false}

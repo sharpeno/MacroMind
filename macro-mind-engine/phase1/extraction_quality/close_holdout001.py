@@ -1,0 +1,60 @@
+import sys
+sys.path.insert(0,'G:/youhegaojian/macro-mind-engine/phase1/extraction_quality')
+from apply_holdout001 import *
+assert rd(O/'verification.command.json')['exit_code']==0 and rd(O/'quality_regressions.command.json')['exit_code']==0
+report='''# holdout_001 人工校准与修订收尾
+
+5/5条用户意见已原样归档，数据集、项目编号与校准页一致。此批意见已处理完成，采用的文字均来自用户明确修正或明确采用的已展示候选，不再要求对同样文字重复确认。
+
+## 逐项处理
+
+| 项目 | 用户判定 | 最终处理 |
+|---|---|---|
+| EP001/C02 | 保留原提取，附解释 | 保留；说明性备注不被错误当作修改命令 |
+| EP002/C05 | 需要另作修改，提供完整文字 | 原样采用用户修正；保留库存接近见底的断言，并明确“官方测算”是博主解释中的假设前提 |
+| EP003/C18 | 采用候选修订 | 采用此前展示的市场交易压力及冲浪者比喻表述 |
+| EP004/C08 | 保留原提取 | 撤回助手的修改建议；未增加“必须显式写修改条件”的专门约束 |
+| EP005/C21 | 保留原提取 | 不修改 |
+
+最新结构化版本为run_004。仅EP002/C05和EP003/C18两个canonical对象发生变化；其余对象、原始字幕及此前已确认的转写修订引用保持不变。
+
+## 这次检验实际说明什么
+
+助手提出3处疑似问题，用户确认2处需要修改、另1处选择保留；助手未提出问题的2条也都被用户保留。EP002的用户修正还比助手候选更明确地区分“解释中的假设”与“缺来源的官方事实”。因此不能把助手提出的全部疑问直接当成真实错误。
+
+冻结的机器门禁对5条旧基线都通过，没有主动识别上述2处语义问题，也没有将任何一条声明为语义验收通过。工程门禁的作用仍是防止已知错误回退和控制变更，尚未证明能自动提升新内容的语义提取准确率。
+
+这只是5条定向样本、同一助手复核加用户校准，不报告全库准确率、召回率或泛化提升。该批现已成为已审案例，不再能作为未来新规则的独立留出样本。
+
+## 规则与证据版本
+
+原holdout_001样本、报告及run_001规则保持冻结，未覆盖原来“待校准”的历史状态。新的校准结果见本目录calibration_results.json；新的固定规则在policies/，哈希在policy_manifest.json。新规则仅加入用户已确认的库存判断强度/假设归属、市场压力约束；原C08未加入被用户否定的专门措辞规则。
+
+两处已批准的新文字在旧固定规则下仍会要求复核，说明没有绕过原门禁；经有依据的规则版本更新后再通过新入口编译。将已知旧错误重新带回新规则时会被阻断。这是学习已审案例的回归效果，不是泛化证明。
+
+## 验证结果
+
+- 36项数据与校准检查通过，包括精确两对象变更、用户文字原样采用、保留项不变、原隔离对象集合不变、引用完整、历史包不可变以及旧/新规则对照。
+- 既有26项质量回归检查再次通过。核心运行时代码未变，此次未重复跑全量610项，也不把上轮全量结果写作本轮新执行。
+- 仅重跑受影响的EP002、EP003两次真实审计，均COMPLETED、INDETERMINATE；EP001、EP004、EP005引用上一版有效审计并保持数据字节不变。
+- 总计120条归一化主张、82条结构可用主张、19条结构可用链；3213个候选对象，2781个结构可用对象、432个隔离对象。53项非引用未决信息保留，无新增引用错误。
+
+新旧注释、规则、编译命令和原始输出位于本目录；canonical前后差异及审计包在phase1/batch_pilot/run_004。verification.*和quality_regressions.*为本轮实际执行记录。原始审核文件位于phase1/batch_pilot/human_reviews/holdout_001/batch_001/raw。
+
+## 下一步与剩余事项
+
+该批审阅已闭环，不再重复提交这5条。下一阶段应把“保留作者断言强度”“区分假设前提与外部事实”“保留具体原因机制”等语义自检要求用于后续提取，再用另一批未参与规则设计的材料检验。当前没有自动语义提取器，不能只增加关键词规则就声称这一能力已完成。
+
+投行历史版本、引用时序、精确时长和原53项未决信息仍未解决；未批准规模扩样、框架效果或Skill。全库26项既有导入排序lint问题也未在本次数据修订中处理。
+'''
+(O/'REPORT.md').write_text(report,encoding='utf-8')
+progress('HOLDOUT001_CALIBRATION_FEEDBACK_CLOSED',['Apply semantic self-check requirements to future extraction; not yet an automated extractor','Use a fresh independent sample for future generalization evaluation','Original source/timing uncertainty and 53 findings remain'])
+wr(R/'progress.json',{'stage':'USER_APPROVED_HOLDOUT_CORRECTIONS_APPLIED','completed':['Two exact human-approved claim corrections','Three original statements retained','Two changed episode audits completed'],'unfinished':['Original 53 nonreference findings and source issues remain'],'quality_report':str(O/'REPORT.md')})
+wr(A/'latest_resolution.json',{'status':'HOLDOUT001_CALIBRATION_FEEDBACK_CLOSED','report':str(O/'REPORT.md'),'version':'run_004','no_repeat_review_needed':True})
+wr(A.parent/'latest.json',{'batch':'batch_001','receipt':str(A/'receipt.json'),'report':str(O/'REPORT.md'),'status':'CLOSED'})
+wr(Q/'latest.json',{'run':'calibrated_001','report':str(O/'REPORT.md'),'progress':str(O/'progress.json'),'status':'HOLDOUT001_CALIBRATION_FEEDBACK_CLOSED'})
+wr(B/'revision_latest.json',{'run':'run_004','report':str(O/'REPORT.md'),'progress':str(R/'progress.json'),'status':'USER_APPROVED_HOLDOUT_CORRECTIONS_APPLIED'})
+wr(B/'review_latest.json',{'round':'holdout_001','receipt':str(A/'receipt.json'),'report':str(O/'REPORT.md'),'status':'HOLDOUT001_CALIBRATION_FEEDBACK_CLOSED'})
+for dest,filename in [(R,'revision_manifest.json'),(A,'manifest.json'),(O,'manifest.json')]:
+ wr(dest/filename,{'artifacts':{str(p.relative_to(dest)):sha(p) for p in dest.rglob('*') if p.is_file() and p.name!=filename}})
+print('Holdout feedback closed; run004 sealed; no repeated review required.')

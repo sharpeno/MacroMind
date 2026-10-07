@@ -1,0 +1,9 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine"
+}

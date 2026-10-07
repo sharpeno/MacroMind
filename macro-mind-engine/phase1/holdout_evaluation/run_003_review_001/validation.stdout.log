@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "checks": [
+    "sealed run_003 and v0.3 hashes match",
+    "review schema, version hash and three unique IDs match",
+    "all three actual decisions accept",
+    "archive bytes identical"
+  ],
+  "human_approval": "three comparison descriptions accepted",
+  "not_claimed": [
+    "original answer fully matches analyst",
+    "factual or forecast correctness",
+    "framework update"
+  ]
+}

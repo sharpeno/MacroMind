@@ -1,0 +1,87 @@
+{
+  "browser": "Edge headless via Playwright",
+  "browser_plugin": "Absent: Browser plugin not available",
+  "url": "file:///G:/youhegaojian/macro-mind-engine/phase1/batch_pilot/review_ui_v2/HUMAN_REVIEW.html",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    {
+      "name": "page identity, meaningful render,10 priority chains",
+      "status": "PASS"
+    },
+    {
+      "name": "decision,three text fields,reviewer,save and reload; text not executed",
+      "status": "PASS"
+    },
+    {
+      "name": "all14 categories have functioning decisions and opinion fields",
+      "status": "PASS"
+    },
+    {
+      "name": "news content verification separate from citation judgment",
+      "status": "PASS"
+    },
+    {
+      "name": "episode/category/search filters,empty state,pagination",
+      "status": "PASS"
+    },
+    {
+      "name": "original quote expansion and timestamped local video link",
+      "status": "PASS"
+    },
+    {
+      "name": "actual JSON download contains all2657 IDs and edited fields",
+      "status": "PASS"
+    },
+    {
+      "name": "readable TXT download",
+      "status": "PASS"
+    },
+    {
+      "name": "cancel import unchanged;confirmed import and subsequent reload restore fields",
+      "status": "PASS"
+    },
+    {
+      "name": "reject wrong dataset without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "reject duplicate ID without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid option without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "reject invalid text without mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "mobile390px no horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "no browser console/page errors",
+      "status": "PASS"
+    },
+    {
+      "name": "storage denial clearly reported;JSON export still works",
+      "status": "PASS"
+    }
+  ],
+  "console_errors": [],
+  "limitations": [
+    "In-app browser-specific download UI not tested",
+    "Video link target inspected; audio content not reviewed",
+    "Test feedback is synthetic QA, not human approval"
+  ]
+}

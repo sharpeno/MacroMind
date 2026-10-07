@@ -1,0 +1,29 @@
+{
+  "phase": "1.0-1.2",
+  "ontology_version": "0.3",
+  "historical_ledger": "../../golden_sample_test/core_ontology/v0.3/freeze_debt_ledger.json",
+  "historical_ledger_sha256": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+  "debts": {
+    "D02": {
+      "status": "partially_addressed_phase1_1",
+      "completed": "Executable structural models, explicit unknown/null/missing handling and field mapping are available.",
+      "remaining": "Legacy detection/adapters, migration and Golden regression remain later phases. No Golden was changed."
+    },
+    "D07": {
+      "status": "partially_addressed_phase1_2",
+      "completed": "Object, relation, enum, schema version and identity-policy registries load and enforce structural integrity.",
+      "remaining": "Relations remain candidate; full-library identity resolution and proposition/segment origin deduplication are not implemented."
+    },
+    "D16": {
+      "status": "partially_addressed_phase1_1",
+      "completed": "ComparisonBasis, semantic_role/detail, recognition_stage and storage_role preserve supplied values and unknowns.",
+      "remaining": "Unit/role/stage semantic checks and legacy data alignment remain deferred. No automatic numerical conversions exist."
+    },
+    "D18": {
+      "status": "partially_addressed_phase1_0_1_2",
+      "completed": "Read-only contract loading, deterministic schema generation, three CLI commands, structured logs and engineering gates exist.",
+      "remaining": "General audit pipeline, adapters and Golden regression runner are not implemented. Production readiness remains false."
+    }
+  },
+  "unchanged_debts": "All other historical debt statuses are unchanged, including D03, D04, D11 and D20. No debt is marked resolved."
+}

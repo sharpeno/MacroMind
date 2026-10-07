@@ -1,0 +1,926 @@
+[
+  {
+    "occurrence_id": "OC001",
+    "claim_id": "C001",
+    "source_segment_ref": "SS-C001",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC002",
+    "claim_id": "C002",
+    "source_segment_ref": "SS-C002",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC003",
+    "claim_id": "C003",
+    "source_segment_ref": "SS-C003",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC004",
+    "claim_id": "C004",
+    "source_segment_ref": "SS-C004",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC005",
+    "claim_id": "C005",
+    "source_segment_ref": "SS-C005",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC006",
+    "claim_id": "C006",
+    "source_segment_ref": "SS-C006",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC007",
+    "claim_id": "C007",
+    "source_segment_ref": "SS-C007",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC008",
+    "claim_id": "C008",
+    "source_segment_ref": "SS-C008",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC009",
+    "claim_id": "C009",
+    "source_segment_ref": "SS-C009",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC010",
+    "claim_id": "C010",
+    "source_segment_ref": "SS-C010",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC011",
+    "claim_id": "C011",
+    "source_segment_ref": "SS-C011",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC012",
+    "claim_id": "C012",
+    "source_segment_ref": "SS-C012",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC013",
+    "claim_id": "C013",
+    "source_segment_ref": "SS-C013",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC014",
+    "claim_id": "C014",
+    "source_segment_ref": "SS-C014",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC015",
+    "claim_id": "C015",
+    "source_segment_ref": "SS-C015",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC016",
+    "claim_id": "C016",
+    "source_segment_ref": "SS-C016",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC017",
+    "claim_id": "C017",
+    "source_segment_ref": "SS-C017",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC018",
+    "claim_id": "C018",
+    "source_segment_ref": "SS-C018",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC019",
+    "claim_id": "C019",
+    "source_segment_ref": "SS-C019",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC020",
+    "claim_id": "C020",
+    "source_segment_ref": "SS-C020",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC021",
+    "claim_id": "C021",
+    "source_segment_ref": "SS-C021",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC022",
+    "claim_id": "C022",
+    "source_segment_ref": "SS-C022",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC023",
+    "claim_id": "C023",
+    "source_segment_ref": "SS-C023",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC024",
+    "claim_id": "C024",
+    "source_segment_ref": "SS-C024",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC025",
+    "claim_id": "C025",
+    "source_segment_ref": "SS-C025",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC026",
+    "claim_id": "C026",
+    "source_segment_ref": "SS-C026",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC027",
+    "claim_id": "C027",
+    "source_segment_ref": "SS-C027",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC028",
+    "claim_id": "C028",
+    "source_segment_ref": "SS-C028",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC029",
+    "claim_id": "C029",
+    "source_segment_ref": "SS-C029",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC030",
+    "claim_id": "C030",
+    "source_segment_ref": "SS-C030",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC031",
+    "claim_id": "C031",
+    "source_segment_ref": "SS-C031",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC032",
+    "claim_id": "C032",
+    "source_segment_ref": "SS-C032",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC033",
+    "claim_id": "C033",
+    "source_segment_ref": "SS-C033",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC034",
+    "claim_id": "C034",
+    "source_segment_ref": "SS-C034",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC035",
+    "claim_id": "C035",
+    "source_segment_ref": "SS-C035",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC036",
+    "claim_id": "C036",
+    "source_segment_ref": "SS-C036",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC037",
+    "claim_id": "C037",
+    "source_segment_ref": "SS-C037",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC038",
+    "claim_id": "C038",
+    "source_segment_ref": "SS-C038",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC039",
+    "claim_id": "C039",
+    "source_segment_ref": "SS-C039",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC040",
+    "claim_id": "C040",
+    "source_segment_ref": "SS-C040",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC041",
+    "claim_id": "C041",
+    "source_segment_ref": "SS-C041",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC042",
+    "claim_id": "C042",
+    "source_segment_ref": "SS-C042",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC043",
+    "claim_id": "C043",
+    "source_segment_ref": "SS-C043",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC044",
+    "claim_id": "C044",
+    "source_segment_ref": "SS-C044",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC045",
+    "claim_id": "C045",
+    "source_segment_ref": "SS-C045",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC046",
+    "claim_id": "C046",
+    "source_segment_ref": "SS-C046",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC047",
+    "claim_id": "C047",
+    "source_segment_ref": "SS-C047",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC048",
+    "claim_id": "C048",
+    "source_segment_ref": "SS-C048",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC049",
+    "claim_id": "C049",
+    "source_segment_ref": "SS-C049",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC050",
+    "claim_id": "C050",
+    "source_segment_ref": "SS-C050",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC051",
+    "claim_id": "C051",
+    "source_segment_ref": "SS-C051",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC052",
+    "claim_id": "C052",
+    "source_segment_ref": "SS-C052",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC053",
+    "claim_id": "C053",
+    "source_segment_ref": "SS-C053",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC054",
+    "claim_id": "C054",
+    "source_segment_ref": "SS-C054",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC055",
+    "claim_id": "C055",
+    "source_segment_ref": "SS-C055",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC056",
+    "claim_id": "C056",
+    "source_segment_ref": "SS-C056",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC057",
+    "claim_id": "C057",
+    "source_segment_ref": "SS-C057",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC058",
+    "claim_id": "C058",
+    "source_segment_ref": "SS-C058",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC059",
+    "claim_id": "C059",
+    "source_segment_ref": "SS-C059",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC060",
+    "claim_id": "C060",
+    "source_segment_ref": "SS-C060",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC061",
+    "claim_id": "C061",
+    "source_segment_ref": "SS-C061",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC062",
+    "claim_id": "C062",
+    "source_segment_ref": "SS-C062",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC063",
+    "claim_id": "C063",
+    "source_segment_ref": "SS-C063",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC064",
+    "claim_id": "C064",
+    "source_segment_ref": "SS-C064",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC065",
+    "claim_id": "C065",
+    "source_segment_ref": "SS-C065",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC066",
+    "claim_id": "C066",
+    "source_segment_ref": "SS-C066",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC067",
+    "claim_id": "C067",
+    "source_segment_ref": "SS-C067",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC068",
+    "claim_id": "C068",
+    "source_segment_ref": "SS-C068",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC069",
+    "claim_id": "C069",
+    "source_segment_ref": "SS-C069",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC070",
+    "claim_id": "C070",
+    "source_segment_ref": "SS-C070",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC071",
+    "claim_id": "C071",
+    "source_segment_ref": "SS-C071",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC072",
+    "claim_id": "C072",
+    "source_segment_ref": "SS-C072",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC073",
+    "claim_id": "C073",
+    "source_segment_ref": "SS-C073",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC074",
+    "claim_id": "C074",
+    "source_segment_ref": "SS-C074",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC075",
+    "claim_id": "C075",
+    "source_segment_ref": "SS-C075",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC076",
+    "claim_id": "C076",
+    "source_segment_ref": "SS-C076",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC077",
+    "claim_id": "C077",
+    "source_segment_ref": "SS-C077",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC078",
+    "claim_id": "C078",
+    "source_segment_ref": "SS-C078",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC079",
+    "claim_id": "C079",
+    "source_segment_ref": "SS-C079",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC080",
+    "claim_id": "C080",
+    "source_segment_ref": "SS-C080",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC081",
+    "claim_id": "C081",
+    "source_segment_ref": "SS-C081",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC082",
+    "claim_id": "C082",
+    "source_segment_ref": "SS-C082",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC083",
+    "claim_id": "C083",
+    "source_segment_ref": "SS-C083",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC084",
+    "claim_id": "C084",
+    "source_segment_ref": "SS-C084",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC085",
+    "claim_id": "C085",
+    "source_segment_ref": "SS-C085",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC086",
+    "claim_id": "C086",
+    "source_segment_ref": "SS-C086",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC087",
+    "claim_id": "C087",
+    "source_segment_ref": "SS-C087",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC088",
+    "claim_id": "C088",
+    "source_segment_ref": "SS-C088",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC089",
+    "claim_id": "C089",
+    "source_segment_ref": "SS-C089",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC090",
+    "claim_id": "C090",
+    "source_segment_ref": "SS-C090",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC091",
+    "claim_id": "C091",
+    "source_segment_ref": "SS-C091",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC092",
+    "claim_id": "C092",
+    "source_segment_ref": "SS-C092",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC093",
+    "claim_id": "C093",
+    "source_segment_ref": "SS-C093",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC094",
+    "claim_id": "C094",
+    "source_segment_ref": "SS-C094",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC095",
+    "claim_id": "C095",
+    "source_segment_ref": "SS-C095",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC096",
+    "claim_id": "C096",
+    "source_segment_ref": "SS-C096",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC097",
+    "claim_id": "C097",
+    "source_segment_ref": "SS-C097",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC098",
+    "claim_id": "C098",
+    "source_segment_ref": "SS-C098",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC099",
+    "claim_id": "C099",
+    "source_segment_ref": "SS-C099",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC100",
+    "claim_id": "C100",
+    "source_segment_ref": "SS-C100",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC101",
+    "claim_id": "C101",
+    "source_segment_ref": "SS-C101",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC102",
+    "claim_id": "C102",
+    "source_segment_ref": "SS-C102",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC103",
+    "claim_id": "C103",
+    "source_segment_ref": "SS-C103",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC104",
+    "claim_id": "C104",
+    "source_segment_ref": "SS-C104",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC105",
+    "claim_id": "C105",
+    "source_segment_ref": "SS-C105",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC106",
+    "claim_id": "C106",
+    "source_segment_ref": "SS-C106",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC107",
+    "claim_id": "C107",
+    "source_segment_ref": "SS-C107",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC108",
+    "claim_id": "C108",
+    "source_segment_ref": "SS-C108",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC109",
+    "claim_id": "C109",
+    "source_segment_ref": "SS-C109",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC110",
+    "claim_id": "C110",
+    "source_segment_ref": "SS-C110",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC111",
+    "claim_id": "C111",
+    "source_segment_ref": "SS-C111",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC112",
+    "claim_id": "C112",
+    "source_segment_ref": "SS-C112",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC113",
+    "claim_id": "C113",
+    "source_segment_ref": "SS-C113",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC114",
+    "claim_id": "C114",
+    "source_segment_ref": "SS-C114",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC115",
+    "claim_id": "C115",
+    "source_segment_ref": "SS-C115",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC116",
+    "claim_id": "C116",
+    "source_segment_ref": "SS-C116",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC117",
+    "claim_id": "C117",
+    "source_segment_ref": "SS-C117",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC118",
+    "claim_id": "C118",
+    "source_segment_ref": "SS-C118",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC119",
+    "claim_id": "C119",
+    "source_segment_ref": "SS-C119",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC120",
+    "claim_id": "C120",
+    "source_segment_ref": "SS-C120",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC121",
+    "claim_id": "C121",
+    "source_segment_ref": "SS-C121",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC122",
+    "claim_id": "C122",
+    "source_segment_ref": "SS-C122",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC123",
+    "claim_id": "C123",
+    "source_segment_ref": "SS-C123",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  },
+  {
+    "occurrence_id": "OC124",
+    "claim_id": "C024",
+    "source_segment_ref": "SS-OC124",
+    "information_gain": "redundant",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC125",
+    "claim_id": "C030",
+    "source_segment_ref": "SS-OC125",
+    "information_gain": "low",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC126",
+    "claim_id": "C030",
+    "source_segment_ref": "SS-OC126",
+    "information_gain": "redundant",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC127",
+    "claim_id": "C044",
+    "source_segment_ref": "SS-OC127",
+    "information_gain": "low",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC128",
+    "claim_id": "C045",
+    "source_segment_ref": "SS-OC128",
+    "information_gain": "low",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC129",
+    "claim_id": "C027",
+    "source_segment_ref": "SS-OC129",
+    "information_gain": "medium",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC130",
+    "claim_id": "C003",
+    "source_segment_ref": "SS-OC130",
+    "information_gain": "low",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC131",
+    "claim_id": "C112",
+    "source_segment_ref": "SS-OC131",
+    "information_gain": "low",
+    "occurrence_type": "restatement"
+  },
+  {
+    "occurrence_id": "OC132",
+    "claim_id": "C124",
+    "source_segment_ref": "SS-C124",
+    "information_gain": "high",
+    "occurrence_type": "initial"
+  }
+]

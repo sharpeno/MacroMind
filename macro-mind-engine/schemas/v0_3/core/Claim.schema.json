@@ -1,0 +1,373 @@
+{
+  "$defs": {
+    "AnalysisContext": {
+      "enum": [
+        "historical_reconstruction",
+        "historical_reconstruction_and_method_observation",
+        "method_observation_after_argument_extraction",
+        "model_diagnostic",
+        "verification_not_creator_reconstruction",
+        "unknown"
+      ],
+      "title": "AnalysisContext",
+      "type": "string"
+    },
+    "TimeReference": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded end, if known.",
+          "field_origin": "implementation_extension",
+          "title": "End"
+        },
+        "source_ref": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": ".*\\S.*",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Evidence for this temporal expression.",
+          "field_origin": "implementation_extension",
+          "title": "Source Ref"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Recorded start, if known.",
+          "field_origin": "implementation_extension",
+          "title": "Start"
+        },
+        "text": {
+          "description": "Original temporal expression; no inferred exact date.",
+          "field_origin": "implementation_extension",
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text"
+      ],
+      "title": "TimeReference",
+      "type": "object"
+    },
+    "UnknownValue": {
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "const": "unknown",
+          "default": "unknown",
+          "description": "Explicit known-but-undetermined value.",
+          "field_origin": "implementation_extension",
+          "title": "State",
+          "type": "string"
+        }
+      },
+      "title": "UnknownValue",
+      "type": "object"
+    }
+  },
+  "$id": "urn:macromind:ontology:0.3:schema:0.1.0:Claim",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Frozen object definition: core_objects.json#Claim; ontology_version=0.3.",
+  "properties": {
+    "analysis_context": {
+      "$ref": "#/$defs/AnalysisContext",
+      "description": "Analysis context",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json"
+    },
+    "annotation_observer": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Observer recording the claim",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Annotation Observer"
+    },
+    "asserted_at": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TimeReference"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Assertion time, preserved independently of publication",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Asserted At"
+    },
+    "claimant": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Speaker or claimant attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Claimant"
+    },
+    "created_at": {
+      "anyOf": [
+        {
+          "format": "date-time",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Record creation time; None means not recorded.",
+      "field_origin": "implementation_extension",
+      "title": "Created At"
+    },
+    "id": {
+      "description": "Stable opaque identity. Display names do not establish identity.",
+      "field_origin": "implementation_extension",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "title": "Id",
+      "type": "string"
+    },
+    "metadata": {
+      "additionalProperties": true,
+      "default": {},
+      "description": "Implementation metadata, never a substitute for canonical fields.",
+      "field_origin": "implementation_extension",
+      "title": "Metadata",
+      "type": "object"
+    },
+    "modal_strength": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Original modality, without invented strength",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Modal Strength"
+    },
+    "object_type": {
+      "const": "Claim",
+      "default": "Claim",
+      "description": "Registered object discriminator.",
+      "field_origin": "implementation_extension",
+      "title": "Object Type",
+      "type": "string"
+    },
+    "ontology_version": {
+      "const": "0.3",
+      "default": "0.3",
+      "description": "Referenced frozen ontology version.",
+      "field_origin": "implementation_extension",
+      "title": "Ontology Version",
+      "type": "string"
+    },
+    "population": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Population the proposition quantifies over",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Population"
+    },
+    "provenance_refs": {
+      "default": [],
+      "description": "Provenance record references; empty means no refs recorded.",
+      "field_origin": "implementation_extension",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "title": "Provenance Refs",
+      "type": "array"
+    },
+    "quantifier": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Original quantifier",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Quantifier"
+    },
+    "reasoner_id": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Reasoner attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Reasoner Id"
+    },
+    "reference_time": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/TimeReference"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Time the proposition concerns",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Reference Time"
+    },
+    "schema_version": {
+      "const": "0.1.0",
+      "default": "0.1.0",
+      "description": "Implementation schema version, independent of ontology.",
+      "field_origin": "implementation_extension",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scope": {
+      "anyOf": [
+        {
+          "minLength": 1,
+          "pattern": ".*\\S.*",
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/UnknownValue"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Scope of assertion",
+      "field_origin": "frozen_semantic_requirement",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Scope"
+    },
+    "source_refs": {
+      "description": "Source attribution",
+      "field_origin": "frozen_semantic_requirement",
+      "items": {
+        "minLength": 1,
+        "pattern": ".*\\S.*",
+        "type": "string"
+      },
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Source Refs",
+      "type": "array"
+    },
+    "statement": {
+      "description": "Asserted proposition",
+      "field_origin": "frozen_semantic_requirement",
+      "minLength": 1,
+      "pattern": ".*\\S.*",
+      "source_ref": "core_objects.json#Claim; core_principles.json",
+      "title": "Statement",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "statement",
+    "claimant",
+    "asserted_at",
+    "reference_time",
+    "population",
+    "quantifier",
+    "modal_strength",
+    "scope",
+    "source_refs",
+    "reasoner_id",
+    "analysis_context",
+    "annotation_observer"
+  ],
+  "title": "Claim",
+  "type": "object"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "macromind.holdout-comparison-review.v1",
+  "review_id": "holdout472_001",
+  "comparison_sha256": "35f10f33bd12b5d79a8cabc032c72ccc50679a2f1ed6825b1b7f64db5e4b5f1d",
+  "ids": [
+    "R01",
+    "R02",
+    "R03"
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "decision": "revise",
+      "notes": "测试：需保留不确定性。"
+    },
+    {
+      "id": "R02",
+      "decision": "pending",
+      "notes": ""
+    },
+    {
+      "id": "R03",
+      "decision": "pending",
+      "notes": ""
+    }
+  ],
+  "completed": 1,
+  "exported_at": "2026-10-05T18:04:51.023Z",
+  "framework_change": "NONE"
+}

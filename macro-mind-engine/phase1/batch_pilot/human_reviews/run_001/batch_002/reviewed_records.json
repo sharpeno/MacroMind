@@ -1,0 +1,122 @@
+[
+  {
+    "id": "EP001/A01",
+    "episode": "EP001",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "change",
+    "note": "",
+    "correction": "前文提到高盛、瑞银推动题材转换。博主认为，被转向的企业基本面难以支撑炒作，因此题材转换未能持续，资金又回流 AI 等热点。",
+    "evidence": "00:04:47,280 --> 00:04:55,630：录入namemo应为lululemon，tart应为target（TGT）\n00:03:45,000 --> 00:04:11,000：描述了题材转换的消费股，以及一些中小企业，这些企业本身PE就很高的情况。\n补充材料：\n1. 高盛：消费股可能成为年底前的意外赢家\n日期：2026年9月11日\n标题：What a Fed Rate Hike Could Mean for US Stocks\n链接：https://www.goldmansachs.com/insights/the-markets/what-a-fed-rate-hike-could-mean-for-us-stocks?utm_source=chatgpt.com\n2. 瑞银：在AI保持强势时，把视线扩展到科技之外\n日期：2026年9月3日\n标题：Look beyond tech as AI strength persists\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-03092026.html?utm_source=chatgpt.com\n3. 瑞银：油价上涨下，AI仓位应向电力、资源和医疗扩散\n标题：Brent tops 100: A milestone, not a turning point\n日期：2026年9月9日\n链接：https://www.ubs.com/global/en/wealthmanagement/insights/chief-investment-office/house-view/daily/2026/latest-09092026.html?utm_source=chatgpt.com\n\n",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:48:55.910Z"
+  },
+  {
+    "id": "EP001/A02",
+    "episode": "EP001",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "reviewer": "",
+    "updated_at": "2026-10-03T07:46:08.189Z"
+  },
+  {
+    "id": "EP002/A01",
+    "episode": "EP002",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "change",
+    "note": "遗漏了“通过其他进口渠道补充库存”这一并列因素。cue 98–102 不直接支持“新能源替代减少需求”，不宜全部归入 C04",
+    "correction": "C04 的直接证据调整为 cue 92–97。另增一条主张：博主称，在中东石油供应受到影响后，中国也通过俄罗斯、拉美、美国等其他渠道进口石油，补充库存。两者是应对供应影响的并列因素。",
+    "evidence": "cue 98–102，00:05:13,460–00:05:24,450；“另外一方面呢”明确提示话题转入第二个因素",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:48:48.388Z"
+  },
+  {
+    "id": "EP002/A02",
+    "episode": "EP002",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "00:08:13,920 --> 00:08:16,420：SOP应为Anthropic\n00:08:30,910 --> 00:08:32,310：然法令讲完了应为发令枪晚了\n00:08:59,300 --> 00:09:00,070：No为误识别",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:15:41.758Z"
+  },
+  {
+    "id": "EP003/A01",
+    "episode": "EP003",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "00:01:22,820 --> 00:01:27,140：20股币应为25BP\n00:03:56,230 --> 00:03:57,350：比亿美元应为比1美元\n00:01:30,430 --> 00:01:31,990：日元享升值应为日元想升值",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:25:44.352Z"
+  },
+  {
+    "id": "EP003/A02",
+    "episode": "EP003",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:26:37.162Z"
+  },
+  {
+    "id": "EP004/A02",
+    "episode": "EP004",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:27:38.670Z"
+  },
+  {
+    "id": "EP004/A03",
+    "episode": "EP004",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "change",
+    "note": "C20 未明确提取博主对两类企业的价值排序：从长期持有角度，他更看好药品确为全原创、且出海有望的企业。",
+    "correction": "新增独立主张：博主认为，相比主要依靠低研发成本、集采规模及当期分红获利的企业，药品确为百分之百原创且出海有望的企业，从长期持有角度更有价值。保留原 C20 对两类盈利路径的区分。",
+    "evidence": "00:21:22,980 --> 00:21:25,690：国彩应为国采\n00:22:39,810 --> 00:22:59,810：编辑收益应为边际收益\ncue 303–304 提出“百分之百全原创”和“出海有望”；cue 305 明确表示，从长期持有角度“前者是更有价值的”；cue 306 对后一类模式未来收益和竞争压力的分析，可作为这一比较判断的理由之一。",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:35:15.401Z"
+  },
+  {
+    "id": "EP005/A01",
+    "episode": "EP005",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "change",
+    "note": "C06 遗漏了租售关系调整的两个方向：租金上涨或房价下降。需要保留具体分支，不能只概括为受市场议价权调节",
+    "correction": "博主认为，租售关系可能通过租金上涨或房价下降进行调整，具体方向取决于市场力量及双方议价权；观察调整趋势，可以辅助判断当地房价是否名副其实。建议拆分为“两个调整方向”和“用调整趋势判断价格合理性”两条主张。",
+    "evidence": "cue 107–108 明确列出两个方向；cue 109 说明方向取决于市场力量和议价权；cue 110–112 提出将变化趋势作为判断房价合理性的指标。",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:38:42.945Z"
+  },
+  {
+    "id": "EP005/A02",
+    "episode": "EP005",
+    "kind": "推理链",
+    "content_status": "pending",
+    "decision": "faithful",
+    "note": "",
+    "correction": "",
+    "evidence": "",
+    "reviewer": "",
+    "updated_at": "2026-10-03T08:39:03.470Z"
+  }
+]

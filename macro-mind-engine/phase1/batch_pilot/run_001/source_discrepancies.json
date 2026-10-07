@@ -1,0 +1,72 @@
+[
+  {
+    "id": "D01",
+    "episode": "EP001",
+    "cues": [
+      114,
+      115,
+      116
+    ],
+    "issue": "原话前值4.7与当前新闻有修订前值4.8的不同版本；不能用网页改字幕或证明当时信息集。",
+    "status": "PENDING",
+    "references": [
+      "EP001-N01",
+      "EP001-N04"
+    ]
+  },
+  {
+    "id": "D02",
+    "episode": "EP001",
+    "cues": [
+      211,
+      212
+    ],
+    "issue": "就业数值与新闻叙述存在疑点；原字幕保留，不从新闻反向自动纠正。",
+    "status": "PENDING",
+    "references": [
+      "EP001-N02"
+    ]
+  },
+  {
+    "id": "D03",
+    "episode": "EP003",
+    "cues": [
+      343,
+      344,
+      345,
+      346
+    ],
+    "issue": "房贷与国债期限口径需核对，新闻与字幕表述不可直接等同。",
+    "status": "PENDING",
+    "references": [
+      "EP003-N03"
+    ]
+  },
+  {
+    "id": "D04",
+    "episode": "EP005",
+    "cues": [
+      1,
+      2,
+      3,
+      11,
+      12,
+      13
+    ],
+    "issue": "作者对封顶、交付和资金释放的概括与新闻所列条件不完全相同；不是法规认证。",
+    "status": "PENDING",
+    "references": [
+      "EP005-N01"
+    ]
+  },
+  {
+    "id": "D05",
+    "episode": "EP004",
+    "cues": [],
+    "issue": "手套行业链接未找到明确字幕关联，原样保留。",
+    "status": "NO_CONFIRMED_ASSOCIATION",
+    "references": [
+      "EP004-N02"
+    ]
+  }
+]

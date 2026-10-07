@@ -1,0 +1,122 @@
+[
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 171,
+      "time_range": "00:08:13,920 --> 00:08:16,420",
+      "quote": "这个你这个Sop要是IPO了。"
+    },
+    "user_reported_token": "SOP",
+    "suggested_text": "Anthropic",
+    "literal_token_present": false,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "Sop",
+    "corrected_quote": "这个你这个Anthropic要是IPO了。",
+    "empty_cue_reason": null,
+    "clarification_file": "user_clarification.json"
+  },
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 178,
+      "time_range": "00:08:30,910 --> 00:08:32,310",
+      "quote": "然法令讲完了。"
+    },
+    "user_reported_token": "然法令讲完了",
+    "suggested_text": "发令枪晚了",
+    "literal_token_present": true,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "然法令讲完了",
+    "corrected_quote": "发令枪晚了。",
+    "empty_cue_reason": null,
+    "clarification_file": "user_clarification.json"
+  },
+  {
+    "episode": "EP002",
+    "review_id": "EP002/A02",
+    "original": {
+      "cue_id": 186,
+      "time_range": "00:08:59,300 --> 00:09:00,070",
+      "quote": "No。"
+    },
+    "user_reported_token": "No",
+    "suggested_text": "删除误识别的No",
+    "literal_token_present": true,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "No",
+    "corrected_quote": "",
+    "empty_cue_reason": "User-confirmed ASR hallucination removed; original cue retained",
+    "clarification_file": "user_clarification.json"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 12,
+      "time_range": "00:01:22,820 --> 00:01:27,140",
+      "quote": "日本这边也同步加20股币，相当于互相之间的相对关系不变。"
+    },
+    "user_reported_token": "20股币",
+    "suggested_text": "25BP",
+    "literal_token_present": true,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "20股币",
+    "corrected_quote": "日本这边也同步加25BP，相当于互相之间的相对关系不变。",
+    "empty_cue_reason": null,
+    "clarification_file": "user_clarification.json"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 73,
+      "time_range": "00:03:56,230 --> 00:03:57,350",
+      "quote": "比亿美元。"
+    },
+    "user_reported_token": "比亿美元",
+    "suggested_text": "比1美元",
+    "literal_token_present": true,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "比亿美元",
+    "corrected_quote": "比1美元。",
+    "empty_cue_reason": null,
+    "clarification_file": "user_clarification.json"
+  },
+  {
+    "episode": "EP003",
+    "review_id": "EP003/A01",
+    "original": {
+      "cue_id": 15,
+      "time_range": "00:01:30,430 --> 00:01:31,990",
+      "quote": "日元享升值。"
+    },
+    "user_reported_token": "日元享升值",
+    "suggested_text": "日元想升值",
+    "literal_token_present": true,
+    "status": "USER_CONFIRMED_ADOPTED",
+    "assistant_audio_verified": false,
+    "applied_to_raw_source": false,
+    "review_input_sha256": "658bd9784db92f34d009688cc2bce62b9401dc3592bdb8bc1dec4ec9a4992d33",
+    "matched_original_token": "日元享升值",
+    "corrected_quote": "日元想升值。",
+    "empty_cue_reason": null,
+    "clarification_file": "user_clarification.json"
+  }
+]

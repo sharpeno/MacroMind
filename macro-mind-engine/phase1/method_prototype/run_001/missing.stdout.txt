@@ -1,0 +1,1 @@
+{"status": "INSUFFICIENT_SCOPE_EVIDENCE", "output": "G:\\youhegaojian\\macro-mind-engine\\phase1\\method_prototype\\run_001\\missing_trace", "skill_ready": false}

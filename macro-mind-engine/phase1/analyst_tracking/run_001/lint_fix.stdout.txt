@@ -1,0 +1,65 @@
+B023 Function definition does not bind loop variable `info`
+  --> phase1\analyst_tracking\run_001\build.py:52:52
+   |
+50 |     info = (folder / '信息说明.md').read_text(encoding='utf-8-sig')
+51 |     def get(field):
+52 |         return re.search(r'^' + field + r'：(.+)$', info, re.M).group(1).strip()
+   |                                                     ^^^^
+53 |     episodes[ep] = dict(episode=ep, published_at=get('发布时间'), date_basis='USER_METADATA_NOT_EXTERNALLY_VERIFIED', title=get('标题'…
+54 |     sources = list(folder.rglob('*')) if ep in ['EP007', 'EP008'] else [folder / '信息说明.md']
+   |
+
+B905 `zip()` without an explicit `strict=` parameter
+  --> phase1\analyst_tracking\run_001\build.py:79:47
+   |
+77 |     dump(ep + '.ffprobe.result.json', {'exit_code': probe.returncode})
+78 |     duration = float(json.loads(probe.stdout)['format']['duration']) if probe.returncode == 0 else None
+79 |     gaps = [b['start'] - a['end'] for a, b in zip(cues, cues[1:])]
+   |                                               ^^^^^^^^^^^^^^^^^^^
+80 |     text = (folder / '转写稿.txt').read_text(encoding='utf-8-sig')
+81 |     txt_matches = all(c['quote'] in text for c in cues)
+   |
+help: Add explicit value for parameter `strict=`
+
+E702 Multiple statements on one line (semicolon)
+ --> phase1\analyst_tracking\run_001\verify.py:7:13
+  |
+5 | from pathlib import Path
+6 |
+7 | r=Path.cwd();o=r/'phase1/analyst_tracking/run_001'
+  |             ^
+8 | cmds={
+9 | 'render':[sys.executable,'-X','utf8',str(o/'render.py')],
+  |
+
+E701 Multiple statements on one line (colon)
+  --> phase1\analyst_tracking\run_001\verify.py:15:120
+   |
+13 | for name,args in cmds.items():
+14 |  (o/(name+'.command.json')).write_text(json.dumps({'argv':args,'cwd':str(r)},indent=2))
+15 |  with (o/(name+'.stdout.txt')).open('w',encoding='utf-8') as a,(o/(name+'.stderr.txt')).open('w',encoding='utf-8') as b:res=subprocess…
+   |                                                                                                                        ^
+16 |  (o/(name+'.result.json')).write_text(json.dumps({'exit_code':res.returncode}));print(name,res.returncode,flush=True)
+17 |  if res.returncode: raise SystemExit(res.returncode)
+   |
+
+E702 Multiple statements on one line (semicolon)
+  --> phase1\analyst_tracking\run_001\verify.py:16:80
+   |
+14 |  (o/(name+'.command.json')).write_text(json.dumps({'argv':args,'cwd':str(r)},indent=2))
+15 |  with (o/(name+'.stdout.txt')).open('w',encoding='utf-8') as a,(o/(name+'.stderr.txt')).open('w',encoding='utf-8') as b:res=subprocess…
+16 |  (o/(name+'.result.json')).write_text(json.dumps({'exit_code':res.returncode}));print(name,res.returncode,flush=True)
+   |                                                                                ^
+17 |  if res.returncode: raise SystemExit(res.returncode)
+   |
+
+E701 Multiple statements on one line (colon)
+  --> phase1\analyst_tracking\run_001\verify.py:17:19
+   |
+15 |  with (o/(name+'.stdout.txt')).open('w',encoding='utf-8') as a,(o/(name+'.stderr.txt')).open('w',encoding='utf-8') as b:res=subprocess…
+16 |  (o/(name+'.result.json')).write_text(json.dumps({'exit_code':res.returncode}));print(name,res.returncode,flush=True)
+17 |  if res.returncode: raise SystemExit(res.returncode)
+   |                   ^
+
+Found 8 errors (2 fixed, 6 remaining).
+No fixes available (1 hidden fix can be enabled with the `--unsafe-fixes` option).

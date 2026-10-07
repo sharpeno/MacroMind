@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "ruff",
+    "format",
+    "--no-cache",
+    "--config",
+    "G:\\youhegaojian\\macro-mind-engine\\pyproject.toml",
+    "G:\\youhegaojian\\macro-mind-engine\\src\\macromind\\audit\\patterns",
+    "G:\\youhegaojian\\macro-mind-engine\\tests\\audit_patterns"
+  ],
+  "exit_code": 0
+}

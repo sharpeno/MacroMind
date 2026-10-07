@@ -1,0 +1,37 @@
+[
+  {
+    "id": "EP005/M01",
+    "cues": [
+      107,
+      108,
+      109,
+      110,
+      111,
+      112
+    ],
+    "observation": "观察租售关系与议价权，区分调整方向。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP005/M02",
+    "cues": [
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338
+    ],
+    "observation": "把政策放回其历史需求阶段。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "design": "3 fresh-context agents, one per arm; each runs sequential472-475",
+  "model": "inherited parent; no override",
+  "reasoning": "inherited; no override",
+  "temperature_seed": "not exposed; uncontrolled",
+  "repeats": 1,
+  "case_isolation_limit": "same ordered trajectory, each agent retains own earlier answers; not fresh per case",
+  "treatment": "method only; common files identical",
+  "projection": {
+    "included_method_fields": [
+      "id",
+      "title",
+      "steps",
+      "alternative",
+      "trigger",
+      "applicability",
+      "required_inputs",
+      "procedure",
+      "default_judgment",
+      "not_applicable_or_limited",
+      "update_rule",
+      "output_fields_v02"
+    ],
+    "included_card_fields": [
+      "id",
+      "target",
+      "title",
+      "rule",
+      "inputs",
+      "steps",
+      "default",
+      "update",
+      "boundary"
+    ],
+    "omitted": "corpus excerpts, teaching examples, lineage and review metadata; operative rule text retained verbatim",
+    "source_sha256": "1fd4023e9bfe48a7fb820c7fb8f504c2f6ebc4ffc586b27e4ac0538649f9d3c3"
+  },
+  "contamination": "candidate developed using all target cases",
+  "rules": [
+    "no web",
+    "no target subtitles",
+    "no sibling arms",
+    "save each output before reading next case",
+    "no rewrite after submission"
+  ],
+  "authorization": "user explicitly approved 3 independent subagents",
+  "created_at": "2026-10-07T13:32:13.534800+00:00"
+}

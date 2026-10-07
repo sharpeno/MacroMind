@@ -1,0 +1,1 @@
+{"duration": 0.193915, "errors": [], "input_paths": ["G:\\youhegaojian\\macro-mind-engine\\registries\\v0_3"], "ontology_version": "0.3", "operation": "registry.verify", "output_paths": [], "run_id": "fa28d430-70c2-4e25-a691-6100fb5cd444", "version": "0.1.0", "warnings": []}

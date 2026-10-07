@@ -1,0 +1,10 @@
+{
+  "sample_sha256": "c23e601752a71c64186016baff4869197c7d5e86e1d2bf74d9282f2caa9a326b",
+  "policy_hashes": {
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001\\policies\\EP001.json": "ceb6699fe8075ae1bd0d629577d34d84ee1636bc7de0b56397859d8514d7b3bc",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001\\policies\\EP002.json": "c172072d2f905f2effd9231dc1cbda2a0f4eb861c46dcde518ab010ab3b0f6e9",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001\\policies\\EP003.json": "ad4cd075fdee53cc6bf81225062cdd721725ae3147dac080dcf0b9359b871fd0",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001\\policies\\EP004.json": "98252ea1098265029d0abeba49dfca0ebf1e9981ad6cf9ee43d229be7f967d95",
+    "G:\\youhegaojian\\macro-mind-engine\\phase1\\extraction_quality\\run_001\\policies\\EP005.json": "6cedb3db08585b6b6259536442de4a64e60d92afd872b5c3c089ec88a2c54e33"
+  }
+}

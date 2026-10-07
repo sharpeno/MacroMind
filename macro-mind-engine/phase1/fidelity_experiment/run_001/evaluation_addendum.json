@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-07T13:36:31.238384+00:00",
+  "generation_status": "no answers present at addendum creation",
+  "change": "Before grading, randomly relabel whole arms K/P/T and present answers without directory names; keep mapping unread until scores are saved. No change to inputs or rubric.",
+  "limits": "Root knows target and candidate design; method references/style may reveal identity. Label masking is not independent or guaranteed blinded review.",
+  "reason": "Implement anonymous ordering required by objectives while retaining transparent scorer limitations"
+}

@@ -1,0 +1,199 @@
+{
+  "EP001": [],
+  "EP002": [
+    {
+      "id": "EP002/C05",
+      "before": {
+        "id": "EP002/C05",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0120",
+            "EP002/cue/0121",
+            "EP002/cue/0122",
+            "EP002/cue/0123",
+            "EP002/cue/0124",
+            "EP002/cue/0125",
+            "EP002/cue/0126",
+            "EP002/cue/0127",
+            "EP002/cue/0128",
+            "EP002/cue/0129",
+            "EP002/cue/0130"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主从中国重新补库存推测其他国家库存可能不足；这是推测，未证实。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP002/C05",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0120",
+            "EP002/cue/0121",
+            "EP002/cue/0122",
+            "EP002/cue/0123",
+            "EP002/cue/0124",
+            "EP002/cue/0125",
+            "EP002/cue/0126",
+            "EP002/cue/0127",
+            "EP002/cue/0128",
+            "EP002/cue/0129",
+            "EP002/cue/0130"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主将中国开始补充石油库存，解释为其他国家石油库存已接近见底的信号，并假设中国官方已对此作出测算。这是博主对补库行为及其决策依据的解释；“官方测算”属于该解释中的假设前提。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    }
+  ],
+  "EP003": [
+    {
+      "id": "EP003/C18",
+      "before": {
+        "id": "EP003/C18",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP003/cue/0351",
+            "EP003/cue/0352",
+            "EP003/cue/0353"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为政治人物也受到其所处制度与利益条件的约束。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP003/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "after": {
+        "id": "EP003/C18",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP003/cue/0351",
+            "EP003/cue/0352",
+            "EP003/cue/0353"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主认为，政治人物不能凭个人意愿主宰市场趋势；面对市场交易压力，他们的立场和政策选择会受到约束。他用“冲浪者而非浪潮制造者”来说明这一判断。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP003/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      }
+    }
+  ],
+  "EP004": [],
+  "EP005": []
+}

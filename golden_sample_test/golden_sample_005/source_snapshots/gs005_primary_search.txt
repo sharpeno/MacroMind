@@ -1,0 +1,230 @@
+FCC Approves Next-Gen Satellite Constellation (https://docs.fcc.gov/public/attachments/DOC-417881A1.pdf)
+citeturn30search12 [wordlim: 200] WASHINGTON, January 9, 2026 — Today, the FCC granted Space Exploration Holdings, LLC (SpaceX) a major authorization to advance its second-generation Starlink satellite system, marking a significant milestone in global broadband connectivity. ... Media Contact: MediaRelations@fcc.gov / (202) 418-0500
+FCC Approves Next-Gen Satellite Constellation  
+*Enabling Better, Faster Broadband throughout America*
+
+WASHINGTON, January 9, 2026 — Today, the FCC granted Space Exploration Holdings, LLC (SpaceX) a major authorization to advance its second-generation Starlink satellite system, marking a significant milestone in global broadband connectivity.
+
+Under this grant, SpaceX is authorized to construct, deploy, and operate an additional 7,500 Gen2 Starlink satellites, bringing the total to 15,000 satellites worldwide. This expansion will enable SpaceX to deliver high-speed, low-latency internet service globally, including enhanced mobile and supplemental coverage from space. The FCC’s decision today benefited in particular from the work and collaboration provided by the Commerce Department and NTIA.
+
+Chairman Carr issued the following statement:
+
+“President Trump is restoring America’s technology leadership. And this FCC authorization is a game-changer for enabling next-generation services. By authorizing 15,000 new and advanced satellites, the FCC has given SpaceX the green light to deliver unprecedented satellite broadband capabilities, strengthen competition, and help ensure that no community is left behind.”
+
+Additional Background Information:
+
+The FCC’s decision allows SpaceX to:
+
+- Upgrade the Gen2 Starlink satellites with advanced form factors and cutting-edge technology.
+- Operate across Ku-, Ka-, V-, E-, and W-band frequencies, supporting both Fixed Satellite Service (FSS) and Mobile Satellite Service (MSS).
+- Waive obsolete requirements that prevented overlapping beam coverage and enhanced capacity.
+- Add new orbital shells at altitudes ranging from 340 km to 485 km, optimizing coverage and performance.
+- Provide direct-to-cell connectivity outside the United States and supplemental coverage within the U.S., paving the way for next-generation mobile services.
+
+###
+
+Media Contact: MediaRelations@fcc.gov / (202) 418-0500  
+@FCC / www.fcc.gov--------------------------------------------------------------------------------
+In China, rocket launches fuel tourism and space-age dreams (https://www.timeslive.co.za/news/world/2026-08-20-in-china-rocket-launches-fuel-tourism-and-space-age-dreams/)
+citeturn30search0 [wordlim: 200] Published: last month; Crawled: last month; # In China, rocket launches fuel tourism and space-age dreams ... August 20, 2026 at 8:55 am 4 min read ... In China, rocket launches fuel tourism and space-age dreams
+
+# In China, rocket launches fuel tourism and space-age dreams
+
+## Mars landscapes, astronaut ice cream and pop art capture imaginations
+
+August 20, 2026 at 8:55 am 4 min read
+
+Image: Reuters Agency
+
+Reuters
+
+Expand
+
+Image
+
+A woman wearing a spacesuit costume poses with a model of a rocket at Volcano No 6 at the Wulanhada Volcano Geopark in Ulanqab, Inner Mongolia autonomous region, China. Picture: (Maxim Shemetov)
+
+On a sweltering August night, thousands on China’s Hainan island thronged the beaches around the Wenchang Space Launch Site, phones raised, waiting for a show.
+
+Shortly after 8pm, the Long March 7A rocket blasted off. The crowd roared as its ascent lit up the night sky.
+
+Moments later, the uncrewed rocket turned into a ball of fire in midair, an unforeseen blast confirmed by Chinese state media a few hours afterwards.
+
+Many appeared unaware of what had happened as the fiery spectacle sent the beach crowd into a frenzy.
+
+“Wow,” many people shouted in a collective cheer.
+
+Rocket launches are becoming showcases of China’s space ambitions and holiday experiences, even when space missions do not always go as planned.
+
+In China, rocket launches fuel tourism and space-age dreams
+
+Among those watching was Fu Jinhua, a 38-year-old tourist from the southern province of Guangdong, who had brought his parrot, Yangzai.
+
+“Guangdong is subtropical and quite humid, so I thought I’d ... soak up the atmosphere and watch the rocket,” he said.
+
+Fu said he expects within 20 years, ordinary Chinese people would be able to go to space for fun, like taking a high-speed train or plane.
+
+“Maybe in 10 or 20 years we’ll have our own version of Elon Musk, and we might even be able to move to Mars. Who knows?” he said.
+
+Once highly classified in remote deserts, China’s space launches have increasingly been open to public viewing as the country’s ambitions accelerate in a race with the US. Plans include a crewed moon landing by 2030, followed by a crewed mission to Mars.
+--------------------------------------------------------------------------------
+Federal Communications Commission                                                                 DA 26-36 (https://docs.fcc.gov/public/attachments/DA-26-36A1_Rcd.pdf)
+citeturn30search13 [wordlim: 200] Published: last month; ⁵ In October 2024, SpaceX filed the Gen2 Upgrade Applications, collectively requesting to modify the orbital parameters and frequency operations of the previously-authorized and pending Gen2 Starlink satellites. ... 31, 2025) (SpaceX January 31, 2025 Letter). ... *See* *Space Exploration Holdings, LLC, Request for Orbital Deployment and Operating Authority for the SpaceX Gen2 NGSO Satellite System*, Order and Authorization, 37 FCC Rcd 14882, 14887-88, 14889-93, paras. 6, 9, n.35, n.51, n.52, n.54, n.55, n.56, n.57, n.58, n.59, n.60, n.61 (2022) (*SpaceX Gen2 First Partial Grant*) (describing the record before the Commission adopted the *SpaceX Gen2 First Partial Grant*).
+The Gen2 Upgrade Applications were placed on public notice on February 7, 2025.⁷
+
+III. DISCUSSION
+
+4. After review of the record, we find partial grant of SpaceX’s Gen2 Upgrade Applications, with conditions, serves the public interest. Below, we address the various outstanding issues raised by SpaceX’s applications and comments in the record.
+
+A. New Satellites and Orbital Flexibility
+
+5. We grant SpaceX authority to deploy a second tranche of 7,500 Gen2 Starlink satellites, bringing the total size of the authorized Gen2 Starlink constellation to 15,000 satellites. While SpaceX requests action on its entire proposed 29,988-satellite constellation,⁸ we proceed incrementally here.⁹
+
+⁴ Gen2 Upgrade Amendment, Narrative at 8-13; Gen2 Upgrade Modification, Narrative at 11-16.  
+⁵ For a complete description of the history of SpaceX’s authorizations, see the Previous Grants section of the above grant.  
+⁶ *See generally* SpaceX Gen2 Upgrade Modification; SpaceX Gen2 Upgrade Amendment. The Gen2 Upgrade Modification focused on changes to the orbital configuration of the previously-authorized 7,500 Gen2 Starlink satellites, while the amendment requested changes to the orbital configuration of the pending portion of the Gen2 application, as amended, and also requested additional frequency bands and associated waiver requests. --------------------------------------------------------------------------------
+Pioneering mRNA technology - Moderna (https://www.modernatx.com/ir-insights-phase-3-intesmeran)
+citeturn30search1 [wordlim: 200] Published: last month; Crawled: today; 19 August 2026 ... Along with our partners at Merck, we announced positive results from the Phase 3 INTerpath-001 study of intismeran autogene, our investigational individualized neoantigen therapy, in combination with pembrolizumab as adjuvant treatment in patients with completely resected Stage IIB-IV melanoma. ... Together with Merck, we are now studying intismeran in combination with pembrolizumab and other anti-cancer therapies, and as a monotherapy, across multiple tumor types and stages of disease, including melanoma, lung, bladder and kidney cancers.
+
+Blogs / IR Insights: Recapping Positive Phase...
+
+19 August 2026
+
+# IR Insights: Recapping Positive Phase 3 Topline Results for Intismeran Autogene Plus Pembrolizumab in Adjuvant Melanoma
+
+Stéphane Bancel
+
+CEO of Moderna
+
+Image: IR Insights: Intismeran
+
+Today marks an extraordinary milestone for Moderna, for mRNA science and, most importantly, for patients with cancer.
+
+Along with our partners at Merck, we announced positive results from the Phase 3 INTerpath-001 study of intismeran autogene, our investigational individualized neoantigen therapy, in combination with pembrolizumab as adjuvant treatment in patients with completely resected Stage IIB-IV melanoma. This marks the first and only combination regimen to demonstrate a clinically meaningful improvement over pembrolizumab alone, a current standard-of-care for these patients.
+
+I sat down for an episode of IR Insights alongside David Berman, our Chief Development Officer, to reflect on what this means:
+
+IR Insights: Intismeran
+--------------------------------------------------------------------------------
+Scientific & Medical Meetings - Moderna (https://investors.modernatx.com/scientific-medical-meetings)
+citeturn30search2 [wordlim: 200] Crawled: yesterday; ### AACR 2026 (mRNA-4359 First-Line metastatic melanoma Phase 1/2 data) ... April 19, 2026
+--------------------------------------------------------------------------------
+SpaceX gets FCC approval to launch 7,500 more Starlink satellites | TechCrunch (https://techcrunch.com/2026/01/10/spacex-gets-fcc-approval-to-launch-7500-more-starlink-satellites/)
+citeturn30search3 [wordlim: 25] Published: 8 months ago; Crawled: yesterday; 2:11 PM PST · January 10, 2026 ... SpaceX must launch 50% of the approved Starlink satellites by December 1, 2028, and the remaining 50% by December 2031, the FCC says.
+--------------------------------------------------------------------------------
+Federal Communications Commission (https://docs.fcc.gov/public/attachments/DOC-424235A1.pdf)
+citeturn30search14 [wordlim: 200] Crawled: last month; On August 14, 2026, the Commission released the 2026 Section 706 Report, FCC 26-55, in the above captioned proceeding. ...    “Starlink alone has reported a total of over 10,200 on-orbit broadband and mobile satellites and has grown its global subscriber base from 6 million to 12 million between June 30, 2025 and June 30, 2026.” ...    “370 See Space Exploration Technologies Corp., Quarterly Report (Form 10-Q), at 34, 36 (Aug. 4, 2026) (total satellite deployments and subscriber counts, respectively), https://www.sec.gov/ix?
+--------------------------------------------------------------------------------
+rtyuio (https://www.nationalacademies.org/cdn/materials/a165047c-c7f1-4a82-ba41-cc1d5e7ffff3)
+citeturn30search15 [wordlim: 200] Published: 6 months ago; (1/2026)-FCC authorized SpaceX to deploy and operate 7,500 second-generation (Gen2) Starlink ... -Order addressed only a portion of SpaceX’s broader 2020 application for 30,000 next-
+--------------------------------------------------------------------------------
+SpaceX gets FCC permission to launch another 7,500 Starlink satellites - Ars Technica (https://arstechnica.com/tech-policy/2026/01/spacex-gets-fcc-permission-to-launch-another-7500-starlink-satellites/)
+citeturn30search4 [wordlim: 100] Published: 8 months ago; Crawled: yesterday; Jon Brodkin – Jan 9, 2026 7:52 pm | 143 ... Starlink requests for FCC authorization often face opposition from other satellite firms, and the application for 15,000 more satellites is no exception.
+--------------------------------------------------------------------------------
+Federal Communications Commission                                                                 FCC 22-91 (https://docs.fcc.gov/public/attachments/FCC-22-91A1_Rcd.pdf)
+citeturn30search16 [wordlim: 200] Published: 2.8 years ago; 91 See generally SpaceX Third Modification Partial Grant, 36 FCC Rcd 122 (IB 2021)(granting SpaceX authority to deploy ten satellites to modified operational altitudes while the Commission continued to consider the more complex issues raised on the record of the third SpaceX modification of its Gen1 Starlink system).92 See SpaceX August 2, 2021 Ex Parte Attachment at 3; SpaceX September 22, 2021 Ex Parte at 1; SpaceX November 10, 2021 Ex parte Attachment at 3; SpaceX December 6, 2021 Ex Parte at 1; SpaceX December 20, 2021 Ex Parte at 1; SpaceX Consolidated Opposition at I, 3; SpaceX May 18, 2022 Ex Parte at 1.
+--------------------------------------------------------------------------------
+Investor Relations - Moderna (https://investors.modernatx.com/)
+citeturn30search5 [wordlim: 200] Crawled: today; # Investor Relations Overview ... September 23, 2026 ... ### Bernstein Insights Healthcare Leaders and Disruptors - 3rd Annual Healthcare Forum ... Ir@modernatx.com
+--------------------------------------------------------------------------------
+Moderna Inc. (via Public) / Merck and Moderna Announce Phase 3 INTerpath-001 Trial of Intismeran Autogene Plus KEYTRUDA® Met Endpoints of Recurrence-Free Survival (RFS) and Distant Metastasis-Free Survival (DMFS) in Patients With Completely Resected Stage IIB-IV Melanoma (https://ebs.publicnow.com/view/C7BD68F3EE4215EDD3E47267B64191AEDECFCE02)
+citeturn30search6 [wordlim: 200] Published: last month; Crawled: today; 08/19/2026 | Press release | Distributed by Public on 08/19/2026 05:09 ... This represents the first positive Phase 3 readout for an individualized neoantigen therapy (INT) and for an mRNA-based cancer therapy, as well as the first Phase 3 study to demonstrate a clinically meaningful improvement over KEYTRUDA alone, a standard-of-care immunotherapy, in the adjuvant setting for patients with resected melanoma. ... This is the first Phase 3 study to show that intismeran, a treatment designed based on the unique mutational 'fingerprint' of a patient's own tumor, given in combination with pembrolizumab can reduce the risk of recurrence or death in patients with completely resected stage IIB-IV melanoma compared to KEYTRUDA alone," said Professor Georgina Long, the study's principal investigator and medical director of Melanoma Institute Australia, Chair of Melanoma Medical Oncology and Translational Research at the University of Sydney.
+--------------------------------------------------------------------------------
+Quarterly Results - Moderna (https://investors.modernatx.com/quarterly-results)
+citeturn30search7 [wordlim: 200] Published: last month; Crawled: yesterday; [Button: Q2 2026][Button: Q1 2026][Button: Q4 2025][Button: Q3 2025] ... Anticipates potential approval of Moderna's fifth product with the August 5th PDUFA date for mFLUSIVA, the Company's seasonal influenza vaccine candidate ... Ir@modernatx.com
+--------------------------------------------------------------------------------
+A selection of our best news photography from Reuters photojournalists around the world | Reuters (https://www.downtownmelody.com/_x/d3d3LnJldXRlcnMuY29t/pictures/)
+citeturn30search8 [wordlim: 200] Crawled: yesterday;   * August 20, 2026In China, rocket launches fuel tourism and space-age dreams
+--------------------------------------------------------------------------------
+FCC - Federal Communications Commission (via Public) / FCC Approves Next-Gen Satellite Constellation (https://www.publicnow.com/view/2767A96B5410BD4753A03C2BE751F873B0A1D4C4)
+citeturn30search9 [wordlim: 200] Published: 8 months ago; Crawled: 6 days ago; The FCC granted SpaceX a major authorization to advance its second-generation Starlink satellite system, marking a significant milestone in global broadband connectivity. ... FCC - Federal Communications Commission published this content on January 09, 2026, and is solely responsible for the information contained herein.
+--------------------------------------------------------------------------------
+Page 2 World News | Rock Hill Herald (https://www.heraldonline.com/news/nation-world/world/page%3D2/)
+citeturn30search10 [wordlim: 200] Published: last month; Crawled: last month; Updated August 20, 2026 at 1:21 PM ... ### In China, rocket launches fuel tourism and space-age dreams
+--------------------------------------------------------------------------------
+FCC approves 7,500 additional Starlink Gen2 satellites - service will benefit from higher throughput and lower latency worldwide (https://www.tomshardware.com/tech-industry/fcc-approves-7500-additional-starlink-gen2-satellites)
+citeturn30search11 [wordlim: 200] Published: 8 months ago; FCC approves 7,500 additional Starlink Gen2 satellites — service will benefit from higher throughput and lower latency worldwideDate: Sun Jan 11 15:29:12 2026 UTC
+--------------------------------------------------------------------------------
+Federal Communications Commission                                                                 FCC 26-55 (https://docs.fcc.gov/public/attachments/FCC-26-55A1.pdf)
+citeturn30search17 [wordlim: 200] Crawled: last month; Federal Communications Commission                                                                 FCC 26-55 ... (Continued from previous page) Lab, Starlink Capacity Analysis v0.2 (July 28, 2025), https://thexlab.org/wp-content/uploads/2025/07/Starlink_Analysis_Working_Paper_v0.2.pdf (Starlink Capacity Analysis v0.2); Omar Gallaa, CNET, Some Starlink Customers Report Getting Hit With Massive Demand Surcharge (July 15, 2026), https://www.cnet.com/tech/services-and-software/starlink-customers-report-demand-surcharges/ (July 2026 CNET Starlink Surcharge); Starlink, What is a Demand Surcharge?, https://starlink.com/sb/support/article/63d885d3-c269-21f9-69d6-3ed1b2fd18e9 (last visited Aug.
+--------------------------------------------------------------------------------
+FCC approves next-gen Starlink constellation [additional 7,500 sats, bringing total to 15,000] (https://www.reddit.com/r/spacex/comments/1q8n5ml/fcc_approves_nextgen_starlink_constellation/)
+citeturn30reddit18 [wordlim: 200] Published: 8 months ago;           7500 m * 1 m² * 10*-8 kg/m³/s = 0.000075 kg/s ...                 Given that we have sats down to 200km, ending up with 150km for an “air-breathing satellite” (that really sounds wonderfully weird to me) seems reasonable. ...         [Saturday January 10 2026] [+0 votes] ...   That's why SpaceX must get FCC approval for all Starlink operations.
+--------------------------------------------------------------------------------
+Moderna ($MRNA) Stock Hub: Phase 3 Melanoma Success Changes the Story (https://www.reddit.com/r/MerlintraderPub/comments/1vslgee/moderna_mrna_stock_hub_phase_3_melanoma_success/)
+citeturn30reddit19 [wordlim: 200] Published: last month; [Wednesday August 19 2026] [+2 votes] ... Moderna’s investment thesis changed materially on August 19, 2026.The pivotal INTerpath-001 study of individualized neoantigen therapy intismeran autogene plus Merck’s KEYTRUDA achieved its reported Phase 3 efficacy objectives in high-risk resected melanoma.
+--------------------------------------------------------------------------------
+SpaceX just got approval to launch another 7,500 next-gen Starlink satellites into orbit (https://www.techradar.com/computing/internet/spacex-just-got-approval-to-launch-another-7-500-next-gen-starlink-satellites-into-orbit)
+citeturn30news20 [wordlim: 100] Published: 8 months ago; Date: Sun Jan 11 17:30:00 2026 UTCSpaceX already has 7,500 of its Starlink Gen2 satellites in orbit, and just got the green light from the Federal Communications Commission (FCC) in the US to launch 7,500 more - taking the total up to 15,000. ... President Trump is restoring America's technology leadership.NEW today, the FCC authorized SpaceX to deploy & operate up to 15,000 next-gen satellites - enabling even better, faster, and more advanced Internet services in the country.🚀🇺🇸🚀🇺🇸🚀🇺🇸🚀 pic.twitter.com/zz2sXJ8bXG January 9, 2026
+SpaceX just got approval to launch another 7,500 next-gen Starlink satellites into orbit
+Date: Sun Jan 11 17:30:00 2026 UTC
+
+SpaceX already has 7,500 of its Starlink Gen2 satellites in orbit, and just got the green light from the Federal Communications Commission (FCC) in the US to launch 7,500 more - taking the total up to 15,000.
+The news was announced by FCC chairman Brendan Carr (via Wccftech), and in Carr's own words on social media this decision is going to enable "even better, faster, and more advanced internet services in the country".
+Connect to a Gen2 satellite via a Starlink dish, and you're promising higher capacities and lower latencies compared to the first-generation models. The updated satellites have a 20x increase in throughput, and are easier to connect to.
+At the same time, the FCC has also given SpaceX permission to operate its Starlink satellites across a wider range of frequencies and in a greater number of orbital configurations, which should ensure more reliable and speedier service.
+
+Safety measures
+
+President Trump is restoring America's technology leadership.NEW today, the FCC authorized SpaceX to deploy & operate up to 15,000 next-gen satellites - enabling even better, faster, and more advanced Internet services in the country.🚀🇺🇸🚀🇺🇸🚀🇺🇸🚀 pic.twitter.com/zz2sXJ8bXGJanuary 9, 2026
+Questions have been raised about how crowded the edges of Earth's atmosphere are getting, and SpaceX did originally want to put almost 30,000 Gen2 satellites in space back in 2020. Now, the FCC thinks it's safe to go from 7,500 to 15,000.
+It's also worth noting that SpaceX has recently lowered the altitude of 4,400 of its satellites to reduce the risk of collisions with other satellites and objects in space (including the International Space Station of course).
+That move will no doubt have been taken into account as the FCC weighed up its latest decision. Extra satellites also mean that Starlink will now be able to provide direct-to-cell connectivity outside the US, where it has a partnership with T-Mobile.
+Half of the newly approved satellites must be launched and in position by December 1, 2028, the FCC says. The other half then need to be operational by December 2031, so it might take a while before customers notice better service.
+Follow TechRadar on Google News and add us as a preferred source to get our expert news, reviews, and opinion in your feeds. Make sure to click the Follow button!
+And of course you can also follow TechRadar on TikTok for news, reviews, unboxings in video form, and get regular updates from us on WhatsApp too.
+--------------------------------------------------------------------------------
+FCC approves SpaceX plan to deploy additional 7,500 Starlink satellites (https://www.reddit.com/r/Starlink/comments/1q8npgm/fcc_approves_spacex_plan_to_deploy_additional/)
+citeturn30reddit21 [wordlim: 200] Published: 8 months ago; [Friday January 09 2026] [+175 votes] ... At this rate, even if they put fiber in my neighborhood in the next five years (which they won't) Starlink could be almost as good anyways...
+--------------------------------------------------------------------------------
+SpaceX gets FCC approval to launch 7,500 more Starlink satellites (https://www.reddit.com/r/technology/comments/1q9w207/spacex_gets_fcc_approval_to_launch_7500_more/)
+citeturn30reddit22 [wordlim: 200] Published: 8 months ago;             [Sunday January 11 2026] [+0 votes] ...                 [Sunday January 11 2026] [+0 votes] ... The Starlink network already comprises about ~9,000 satellites, with plans to expand to a total of 45,000. ...   I don’t know how this stuff works but my first thought was why does the FCC have jurisdiction over space?
+--------------------------------------------------------------------------------
+FCC approves 7,500 additional Starlink satellites (https://www.reddit.com/r/Astroxia_SRT/comments/1q9mxzw/fcc_approves_7500_additional_starlink_satellites/)
+citeturn30reddit23 [wordlim: 200] Published: 8 months ago; [Sunday January 11 2026] [+1 votes] ... The Federal Communications Commission on Jan. 9 approved a second tranche of 7,500 Starlink Gen2 satellites, expanding the size of SpaceX’s authorized next-generation constellation.
+--------------------------------------------------------------------------------
+Big Win for SpaceX as FCC Clears It to Upgrade Starlink With Gigabit Speeds (https://www.reddit.com/r/Starlink/comments/1q8pti2/big_win_for_spacex_as_fcc_clears_it_to_upgrade/)
+citeturn30reddit24 [wordlim: 200] Published: 8 months ago; [Saturday January 10 2026] [+181 votes] ... [Saturday January 10 2026] [+1 votes] ... Just got my starlink' in this week and I'm loving it!
+--------------------------------------------------------------------------------
+2025 Year End Report (https://www.reddit.com/r/Starlink/comments/1q24ug4/2025_year_end_report/)
+citeturn30reddit25 [wordlim: 200] Published: 8 months ago; [Friday January 02 2026] [+22 votes]Get ready for crazy speeds in 2026 with StarLink V3 satellites launching in the near future.
+--------------------------------------------------------------------------------
+Amazon finally bit the bullet and asked for help! (https://www.reddit.com/r/Starlink/comments/1qrzd7g/amazon_finally_bit_the_bullet_and_asked_for_help/)
+citeturn30reddit26 [wordlim: 200] Published: 7 months ago; [Saturday January 31 2026] [+104 votes]Amazon has asked FCC for a 2 year extension, blaming  "launch suppliers" for their inability to meet the July 2026 deadline and buying enough Falcon launches to at least become minimally operational by this summer. ... I really like Starlink and it's been extremely useful for me roaming around Australia.
+--------------------------------------------------------------------------------
+List of Starlink and Starshield launches (https://en.wikipedia.org/wiki/List_of_Starlink_and_Starshield_launches)
+citeturn30search27 [wordlim: 200] Crawled: 4 months ago; List of Starlink and Starshield launches ... 343 | Group6-88 | v2 mini | 2026-002 | 4 January 2026, 06:48 | Cape Canaveral, SLC-40 |  | 43.0° | 29 |  | 29 | Success |344 | Group6-96 | v2 mini | 2026-003 | 9 January 2026, 21:41 | Cape Canaveral, SLC-40 |  | 43.0° | 29 |  | 29 | Success |
+--------------------------------------------------------------------------------
+Starlink (https://en.wikipedia.org/wiki/Starlink)
+citeturn30search28 [wordlim: 200] Crawled: 4 months ago; Starlink Reaches 7 Million Users Worldwide, Expands to 150 Countries. ... On December 1, 2022, the FCC issued an approval for SpaceX to launch the initial 7500 satellites for its second-generation (Gen2) constellation, in three low-Earth-orbit orbital shell s, at 525, 530, and 535km (326, 329 and 332 miles) altitude. ... Other airlines who have announced deals with Starlink include Zipair Tokyo in January 2023, Air France in September 2024, WestJet and Air New Zealand in December 2024, airBaltic in February 2025, SAS in May 2025, Virgin Atlantic in July 2025, Alaska Airlines in August 2025, Air Canada in September 2025, FlyDubai in November 2025,  Gulf Air in January 2026, and Southwest Airlines in February 2026.
+--------------------------------------------------------------------------------
+"SpaceX gets FCC nod to launch 7.500 more Starlink satellites" - The Financial Express | First of 4 articles in multi-source coverage pack (https://www.reddit.com/r/SymbyNews/comments/1q8rx1n/spacex_gets_fcc_nod_to_launch_7500_more_starlink/)
+citeturn30reddit29 [wordlim: 200] Published: 8 months ago; [Saturday January 10 2026] [+1 votes] ... Coverage includes: "FCC Approves SpaceX Plan to Deploy Additional 7,500 Starlink Satellites | The Federal Communications Commission said on Friday it has approved SpaceX's request to deploy another 7,500 second-generation Starlink satellites as it works to boost internet service worldwide." - Newsmax
+--------------------------------------------------------------------------------
+Liste der Starlink-Satellitenstarts (https://de.wikipedia.org/wiki/Liste_der_Starlink-Satellitenstarts)
+citeturn30search30 [wordlim: 200] Crawled: 4 months ago; Liste der Starlink-Satellitenstarts ... 2018 – 2019 – 2020 – 2021 – 2022 – 2023 – 2024 – 2025 – 2026
+--------------------------------------------------------------------------------
+Vandenberg Space Launch Complex 4 (https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4)
+citeturn30search31 [wordlim: 200] Crawled: 4 months ago; 241 | 17 January 2026 | 04:39 | Falcon 9 Block 5 | 1100-2 | NROL-105 | Success | NRO launch. ... 243 | 25 January 2026 | 17:30 | Falcon 9 Block 5 | 1097-6 | Starlink Group 17–20 | Success |
+--------------------------------------------------------------------------------
+List of Falcon 9 and Falcon Heavy launches (https://en.wikipedia.org/wiki/List_of_Falcon_9_and_Falcon_Heavy_launches)
+citeturn30search32 [wordlim: 200] Crawled: 4 months ago; - FCC gives SpaceX "green light" to expand Starlink constellation to 15,000 satellites.January 9, 2026. ... 45 hours, 0 min, 0 sec between SL6-97 and SL6-98 from SLC-40.
+--------------------------------------------------------------------------------
+Cape Canaveral Space Launch Complex 40 (https://en.wikipedia.org/wiki/Cape_Canaveral_Space_Launch_Complex_40)
+citeturn30search33 [wordlim: 200] Crawled: 4 months ago; 354 | 4 January 2026 | 06:48 | Falcon 9 Block 5 | 11011 | Starlink Group 6–88 | Success |
+--------------------------------------------------------------------------------
+SpaceX gets green light to grow Starlink to roughly 15,000 satellites | SpaceX has argued that these upgrades are necessary to keep satellite broadband competitive with terrestrial fiber and cable, as well as with emerging rivals like Amazon's Project Kuiper. (https://www.reddit.com/r/EnoughMuskSpam/comments/1qkmtlc/spacex_gets_green_light_to_grow_starlink_to/)
+citeturn30reddit34 [wordlim: 200] Published: 8 months ago; [Friday January 23 2026] [+30 votes] ... If I can get a gig or two over fibre for less per month than starlink (possibly, maybe, occasionally up to 400Mbps down), it's a no brainer...
+--------------------------------------------------------------------------------
+Selected Potential Moderna Catalysts Through EOY 2026 (https://www.reddit.com/r/ModernaStock/comments/1vyusof/selected_potential_moderna_catalysts_through_eoy/)
+citeturn30reddit35 [wordlim: 200] Published: last month; [Wednesday August 26 2026] [+19 votes] ... Full Phase 3 INT melanoma data and other INT related news, potentially at ESMO, Oct. ... (Watch "VACCINE BREAKTHROUGH: Personalized cancer treatment takes major leap" on Youtube minute 5:02)
+--------------------------------------------------------------------------------
+SpaceX Faces More Pushback Over Plans to Launch 15K Cellular Starlink Satellites (https://www.reddit.com/r/space2030/comments/1q5wwgo/spacex_faces_more_pushback_over_plans_to_launch/)
+citeturn30reddit36 [wordlim: 200] Published: 8 months ago; [Tuesday January 06 2026] [+41 votes] ... Bluebirds are in the 500km Leo orbit not 750. ...         With 15000 proposed satellites by starlink and their shorter lifespan in the 350-400km altitude will generate huge amount of space debris, just by the sheer count of satellites.
+--------------------------------------------------------------------------------
+我国首次成功实施重复使用运载火箭陆地回收 (https://www.cnsa.gov.cn/n6758823/n6758838/c10768762/content.html)
+citeturn30view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.cnsa.gov.cn/n6758823/n6758838/c10768762/content.html","lineno":null}); Total lines: 53
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn30view1 [wordlim: 200] Source: open({"ref_id":"https://www.reuters.com/investigates/special-report/space-exploration-china-culture/","lineno":null}); Total lines: 1
+

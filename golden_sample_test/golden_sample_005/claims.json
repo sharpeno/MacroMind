@@ -1,0 +1,5375 @@
+[
+  {
+    "claim_id": "C001",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "朱雀三号回收成功。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C001",
+    "source_segment_refs": [
+      "SS-C001"
+    ],
+    "atomicity_group_id": "AG-1",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C002",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国花十年追上美国十年前的回收水平。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C002",
+    "source_segment_refs": [
+      "SS-C002"
+    ],
+    "atomicity_group_id": "AG-1",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C003",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX近十年没有明显跨越式技术进步。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C003",
+    "source_segment_refs": [
+      "SS-C003",
+      "SS-OC130"
+    ],
+    "atomicity_group_id": "AG-2",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ26"
+    ]
+  },
+  {
+    "claim_id": "C004",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国当前水平与美国主流相差不大，差距只是数据积累。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C004",
+    "source_segment_refs": [
+      "SS-C004"
+    ],
+    "atomicity_group_id": "AG-3",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ26"
+    ]
+  },
+  {
+    "claim_id": "C005",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "如果中国保持当前进步速度，很快会超过美国。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C005",
+    "source_segment_refs": [
+      "SS-C005"
+    ],
+    "atomicity_group_id": "AG-10",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C006",
+    "segment_id": [
+      "SEG01"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "回收技术门槛是中国独立攻克，而非因为马斯克开源。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C006",
+    "source_segment_refs": [
+      "SS-C006"
+    ],
+    "atomicity_group_id": "AG-16",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C007",
+    "segment_id": [
+      "SEG02"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "此次成功验证了举国体制饱和式研发有效。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C007",
+    "source_segment_refs": [
+      "SS-C007"
+    ],
+    "atomicity_group_id": "AG-29",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C008",
+    "segment_id": [
+      "SEG02"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国此前实现海上回收；具体方式转写为信往回舟。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C008",
+    "source_segment_refs": [
+      "SS-C008"
+    ],
+    "atomicity_group_id": "AG-31",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C009",
+    "segment_id": [
+      "SEG02"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "国家队承担风险更大的探索，商业航天跟进并重视商业价值，形成互补。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C009",
+    "source_segment_refs": [
+      "SS-C009"
+    ],
+    "atomicity_group_id": "AG-36",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C010",
+    "segment_id": [
+      "SEG02"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国公私协作方式可能比美国依赖SpaceX更可靠。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C010",
+    "source_segment_refs": [
+      "SS-C010"
+    ],
+    "atomicity_group_id": "AG-53",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C011",
+    "segment_id": [
+      "SEG02"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "蓝色起源等竞争者在规模化和可靠性方面缺乏明显进展。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C011",
+    "source_segment_refs": [
+      "SS-C011"
+    ],
+    "atomicity_group_id": "AG-55",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ26"
+    ]
+  },
+  {
+    "claim_id": "C012",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "航天进展和2030年登月的重要意义之一是争取话语权。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C012",
+    "source_segment_refs": [
+      "SS-C012"
+    ],
+    "atomicity_group_id": "AG-86",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C013",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "人类未来可能走意识上传与虚拟化的向内发展路径。",
+    "claim_type": "hypothetical_assumption",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C013",
+    "source_segment_refs": [
+      "SS-C013"
+    ],
+    "atomicity_group_id": "AG-96",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C014",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "人类未来可能走向太空并成为太空生命。",
+    "claim_type": "hypothetical_assumption",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C014",
+    "source_segment_refs": [
+      "SS-C014"
+    ],
+    "atomicity_group_id": "AG-112",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C015",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "地球生命走向太空类似水生生命走上陆地。",
+    "claim_type": "analogy",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C015",
+    "source_segment_refs": [
+      "SS-C015"
+    ],
+    "atomicity_group_id": "AG-115",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C016",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "低成本把物资送入太空是向外发展的基础，可复用火箭是第一步。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C016",
+    "source_segment_refs": [
+      "SS-C016"
+    ],
+    "atomicity_group_id": "AG-131",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C017",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "若建成太空电梯，运输成本还会下降。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C017",
+    "source_segment_refs": [
+      "SS-C017"
+    ],
+    "atomicity_group_id": "AG-135",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C018",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空发射站之后可开发月球行星，再进行星际远航。",
+    "claim_type": "hypothetical_assumption",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C018",
+    "source_segment_refs": [
+      "SS-C018"
+    ],
+    "atomicity_group_id": "AG-140",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C019",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX上市叙事结合了AI和太空算力。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C019",
+    "source_segment_refs": [
+      "SS-C019"
+    ],
+    "atomicity_group_id": "AG-151",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C020",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空算力在散热方面没有优势。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C020",
+    "source_segment_refs": [
+      "SS-C020"
+    ],
+    "atomicity_group_id": "AG-159",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C021",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空算力在运输成本方面没有优势。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C021",
+    "source_segment_refs": [
+      "SS-C021"
+    ],
+    "atomicity_group_id": "AG-161",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C022",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空太阳能发电可能折损更小。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C022",
+    "source_segment_refs": [
+      "SS-C022"
+    ],
+    "atomicity_group_id": "AG-162",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C023",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空发电的不稳定性更强。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C023",
+    "source_segment_refs": [
+      "SS-C023"
+    ],
+    "atomicity_group_id": "AG-165",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C024",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空算力是借SpaceX独有运输优势包装的资本故事。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C024",
+    "source_segment_refs": [
+      "SS-C024",
+      "SS-OC124"
+    ],
+    "atomicity_group_id": "AG-167",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C025",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX运输成本为其他竞争者的十分之一。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "SpaceX vs unnamed competitors",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C025",
+    "source_segment_refs": [
+      "SS-C025"
+    ],
+    "atomicity_group_id": "AG-169",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "ratio_to_competitors",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 0.1,
+      "delta_unit": "ratio"
+    },
+    "semantic_role": "operating_cost",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C026",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国掌握回收技术后，已经也能非常低成本地把物资送入太空。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C026",
+    "source_segment_refs": [
+      "SS-C026"
+    ],
+    "atomicity_group_id": "AG-174",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "operating_cost",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C027",
+    "segment_id": [
+      "SEG04"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国入场削弱SpaceX太空算力故事的独特性。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C027",
+    "source_segment_refs": [
+      "SS-C027",
+      "SS-OC129"
+    ],
+    "atomicity_group_id": "AG-176",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C028",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "长鑫已上市；实体名称需核验。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C028",
+    "source_segment_refs": [
+      "SS-C028"
+    ],
+    "atomicity_group_id": "AG-184",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ21"
+    ]
+  },
+  {
+    "claim_id": "C029",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "长江相关企业准备上市；主体和状态需核验。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C029",
+    "source_segment_refs": [
+      "SS-C029"
+    ],
+    "atomicity_group_id": "AG-185",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ21"
+    ]
+  },
+  {
+    "claim_id": "C030",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "宇树已上市；转写存在语速、语数等变体。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C030",
+    "source_segment_refs": [
+      "SS-C030",
+      "SS-OC125",
+      "SS-OC126"
+    ],
+    "atomicity_group_id": "AG-188",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ21"
+    ]
+  },
+  {
+    "claim_id": "C031",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国尚无相应已上市机器人题材企业。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C031",
+    "source_segment_refs": [
+      "SS-C031"
+    ],
+    "atomicity_group_id": "AG-190",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C032",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "特斯拉Model X产线用于擎天柱机器人生产。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C032",
+    "source_segment_refs": [
+      "SS-C032"
+    ],
+    "atomicity_group_id": "AG-194",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ21"
+    ]
+  },
+  {
+    "claim_id": "C033",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国机器人企业上市高估值打破只有华尔街能够募资的叙事。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C033",
+    "source_segment_refs": [
+      "SS-C033"
+    ],
+    "atomicity_group_id": "AG-197",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C034",
+    "segment_id": [
+      "SEG05"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "回收技术突破打开巨大商业想象空间。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C034",
+    "source_segment_refs": [
+      "SS-C034"
+    ],
+    "atomicity_group_id": "AG-208",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C035",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX火星移民故事空间有限，因而转向太空算力。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C035",
+    "source_segment_refs": [
+      "SS-C035"
+    ],
+    "atomicity_group_id": "AG-213",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C036",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空辐射使精密芯片较快损坏。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C036",
+    "source_segment_refs": [
+      "SS-C036"
+    ],
+    "atomicity_group_id": "AG-221",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C037",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "芯片损坏较快会提高折旧或替换成本。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C037",
+    "source_segment_refs": [
+      "SS-C037"
+    ],
+    "atomicity_group_id": "AG-224",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C038",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX把每克物质送入太空仍需大几百美元。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "SpaceX launch; orbit/payload unknown",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C038",
+    "source_segment_refs": [
+      "SS-C038"
+    ],
+    "atomicity_group_id": "AG-227",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "cost_per_mass",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "operating_cost",
+    "verified_knowledge_eligible": false,
+    "raw_value": "一克/大几百美元",
+    "normalized_value": null,
+    "review_refs": [
+      "RQ02"
+    ]
+  },
+  {
+    "claim_id": "C039",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "太空算力芯片可能一两年至三四年就损坏需要替换。",
+    "claim_type": "hypothetical_assumption",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C039",
+    "source_segment_refs": [
+      "SS-C039"
+    ],
+    "atomicity_group_id": "AG-230",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C040",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "地面扩大太阳能布局并综合使用多种能源可能成本更低。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C040",
+    "source_segment_refs": [
+      "SS-C040"
+    ],
+    "atomicity_group_id": "AG-237",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ27"
+    ]
+  },
+  {
+    "claim_id": "C041",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国已经通过转写所称六网升级实践综合能源方案。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C041",
+    "source_segment_refs": [
+      "SS-C041"
+    ],
+    "atomicity_group_id": "AG-243",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ24"
+    ]
+  },
+  {
+    "claim_id": "C042",
+    "segment_id": [
+      "SEG06"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "若不靠太空算力故事，SpaceX高估值缺乏支撑。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C042",
+    "source_segment_refs": [
+      "SS-C042"
+    ],
+    "atomicity_group_id": "AG-246",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C043",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链是SpaceX唯一现在赚钱的项目。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C043",
+    "source_segment_refs": [
+      "SS-C043"
+    ],
+    "atomicity_group_id": "AG-249",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "profit",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ20"
+    ]
+  },
+  {
+    "claim_id": "C044",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链当前有20万颗卫星；保留转写数字待核。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "Starlink satellites; orbit/operational status unspecified",
+    "quantifier": "20万",
+    "certainty_expressed": null,
+    "source_segment": "SS-C044",
+    "source_segment_refs": [
+      "SS-C044",
+      "SS-OC127"
+    ],
+    "atomicity_group_id": "AG-251",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "raw_value": "20万颗",
+    "normalized_value": 200000,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C045",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播转述马斯克第二阶段计划发射200万颗星链卫星。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "Starlink claimed stage-two plan",
+    "quantifier": "200万",
+    "certainty_expressed": null,
+    "source_segment": "SS-C045",
+    "source_segment_refs": [
+      "SS-C045",
+      "SS-OC128"
+    ],
+    "atomicity_group_id": "AG-254",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "attribution_chain": [
+      "analyst_youhegaojian9527",
+      "Elon Musk (reported not original verified)"
+    ],
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C046",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "卫星数量增加十倍会使带宽增加十倍。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": "10倍",
+    "certainty_expressed": null,
+    "source_segment": "SS-C046",
+    "source_segment_refs": [
+      "SS-C046"
+    ],
+    "atomicity_group_id": "AG-259",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "conditional_tenfold",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 10,
+      "delta_unit": "倍; cost direction ambiguous"
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C047",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "卫星数量增加十倍会使网速增加十倍。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": "10倍",
+    "certainty_expressed": null,
+    "source_segment": "SS-C047",
+    "source_segment_refs": [
+      "SS-C047"
+    ],
+    "atomicity_group_id": "AG-260",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "conditional_tenfold",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 10,
+      "delta_unit": "倍; cost direction ambiguous"
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C048",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "规模扩大后成本可下降十倍。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": "10倍",
+    "certainty_expressed": null,
+    "source_segment": "SS-C048",
+    "source_segment_refs": [
+      "SS-C048"
+    ],
+    "atomicity_group_id": "AG-261",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "conditional_tenfold",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 10,
+      "delta_unit": "倍; cost direction ambiguous"
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C049",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链扩容循环完成后可完全替代地面光纤网络。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C049",
+    "source_segment_refs": [
+      "SS-C049"
+    ],
+    "atomicity_group_id": "AG-264",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C050",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链必须先融资部署网络，才有更好服务和市场渗透。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C050",
+    "source_segment_refs": [
+      "SS-C050"
+    ],
+    "atomicity_group_id": "AG-268",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C051",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "军方曾持续支持星链从零到20万颗的建设。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C051",
+    "source_segment_refs": [
+      "SS-C051"
+    ],
+    "atomicity_group_id": "AG-268",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ01"
+    ]
+  },
+  {
+    "claim_id": "C052",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链服务曾用于俄乌战场并成为对乌克兰施压的工具。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C052",
+    "source_segment_refs": [
+      "SS-C052"
+    ],
+    "atomicity_group_id": "AG-269",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C053",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "军方现有需求已经满足，缺乏为十倍扩容出钱的动力。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C053",
+    "source_segment_refs": [
+      "SS-C053"
+    ],
+    "atomicity_group_id": "AG-269",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ20"
+    ]
+  },
+  {
+    "claim_id": "C054",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "马斯克找不到支持宏大扩容的更多财源。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C054",
+    "source_segment_refs": [
+      "SS-C054"
+    ],
+    "atomicity_group_id": "AG-270",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ20"
+    ]
+  },
+  {
+    "claim_id": "C055",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "需求数量扩大带动供应链规模后，竞争壁垒会增强。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C055",
+    "source_segment_refs": [
+      "SS-C055"
+    ],
+    "atomicity_group_id": "AG-270",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C056",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "若航天需求被激活，中国工业产能会转化为成本竞争优势。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C056",
+    "source_segment_refs": [
+      "SS-C056"
+    ],
+    "atomicity_group_id": "AG-278",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "operating_cost",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C057",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX没有利用十年窗口充分补齐需求与产业规模。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C057",
+    "source_segment_refs": [
+      "SS-C057"
+    ],
+    "atomicity_group_id": "AG-282",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ20"
+    ]
+  },
+  {
+    "claim_id": "C058",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国月球及太空计划兼有需求和国家任务，可由国家投资拉动产业循环。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C058",
+    "source_segment_refs": [
+      "SS-C058"
+    ],
+    "atomicity_group_id": "AG-297",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C059",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "朱雀三号背后的企业准备在雄安建设航天产业链；主体转写蓝天航天。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C059",
+    "source_segment_refs": [
+      "SS-C059"
+    ],
+    "atomicity_group_id": "AG-305",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ22"
+    ]
+  },
+  {
+    "claim_id": "C060",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "国家投资与商业发射将强化中国火箭供应链。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": "到时候…把闭环搞起来",
+    "source_segment": "SS-C060",
+    "source_segment_refs": [
+      "SS-C060"
+    ],
+    "atomicity_group_id": "AG-311",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "capacity",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ29"
+    ]
+  },
+  {
+    "claim_id": "C061",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "形成成本优势后，中国将统合世界所有火箭发射需求。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "world rocket launch demand",
+    "quantifier": "all",
+    "certainty_expressed": "所有/全部",
+    "source_segment": "SS-C061",
+    "source_segment_refs": [
+      "SS-C061"
+    ],
+    "atomicity_group_id": "AG-315",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ29"
+    ]
+  },
+  {
+    "claim_id": "C062",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播转述马斯克称只有中国可以与美国竞争。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C062",
+    "source_segment_refs": [
+      "SS-C062"
+    ],
+    "atomicity_group_id": "AG-319",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ25"
+    ]
+  },
+  {
+    "claim_id": "C063",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "借曹操刘备煮酒论英雄解释马斯克赞许中国时的居高临下。",
+    "claim_type": "historical_analogy",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C063",
+    "source_segment_refs": [
+      "SS-C063"
+    ],
+    "atomicity_group_id": "AG-325",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ25"
+    ]
+  },
+  {
+    "claim_id": "C064",
+    "segment_id": [
+      "SEG08"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "国家投资和需求可能使中国航天产业链规模增长快于美国。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "China vs US aerospace supply chain scale",
+    "quantifier": null,
+    "certainty_expressed": "很有可能/可能",
+    "source_segment": "SS-C064",
+    "source_segment_refs": [
+      "SS-C064"
+    ],
+    "atomicity_group_id": "AG-344",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ29"
+    ]
+  },
+  {
+    "claim_id": "C065",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "Moderna黑色素瘤治疗研究出现利好消息。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C065",
+    "source_segment_refs": [
+      "SS-C065"
+    ],
+    "atomicity_group_id": "AG-355",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ17"
+    ]
+  },
+  {
+    "claim_id": "C066",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "Moderna市值在消息后增加190%多；同句另称翻两倍。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C066",
+    "source_segment_refs": [
+      "SS-C066"
+    ],
+    "atomicity_group_id": "AG-357",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "market_cap_change",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 190,
+      "delta_unit": "percent_more_than"
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "raw_value": "翻了两倍，190%多",
+    "review_refs": [
+      "RQ09"
+    ]
+  },
+  {
+    "claim_id": "C067",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "Moderna大涨体现AI创造的流动性充裕。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C067",
+    "source_segment_refs": [
+      "SS-C067"
+    ],
+    "atomicity_group_id": "AG-354",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C068",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "若AI泡沫破裂，流动性和借债投资意愿会下降。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C068",
+    "source_segment_refs": [
+      "SS-C068"
+    ],
+    "atomicity_group_id": "AG-357",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C069",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "流动性消失后，未来产业融资支持将不足。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C069",
+    "source_segment_refs": [
+      "SS-C069"
+    ],
+    "atomicity_group_id": "AG-358",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C070",
+    "segment_id": [
+      "SEG09"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "下行期可借国家信用发行国债，间接投资未来项目。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C070",
+    "source_segment_refs": [
+      "SS-C070"
+    ],
+    "atomicity_group_id": "AG-359",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C071",
+    "segment_id": [
+      "SEG10"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国长期国债表现糟糕说明长期信用破产。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C071",
+    "source_segment_refs": [
+      "SS-C071"
+    ],
+    "atomicity_group_id": "AG-364",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ11"
+    ]
+  },
+  {
+    "claim_id": "C072",
+    "segment_id": [
+      "SEG10"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "贝森特采取短债换长债式操作；转写称QT及Operation Twist。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C072",
+    "source_segment_refs": [
+      "SS-C072"
+    ],
+    "atomicity_group_id": "AG-371",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ10"
+    ]
+  },
+  {
+    "claim_id": "C073",
+    "segment_id": [
+      "SEG10"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "回购说明美国长债正常发行已卖不掉、没人买，只能自己买。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C073",
+    "source_segment_refs": [
+      "SS-C073"
+    ],
+    "atomicity_group_id": "AG-379",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ11"
+    ]
+  },
+  {
+    "claim_id": "C074",
+    "segment_id": [
+      "SEG10"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "若人们不信任一国政府，长期信任需求会转移给更有能力的政府。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C074",
+    "source_segment_refs": [
+      "SS-C074"
+    ],
+    "atomicity_group_id": "AG-384",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C075",
+    "segment_id": [
+      "SEG10"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "国家未来规划加上回收技术突破，使中国投资故事比美国更吸引人。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C075",
+    "source_segment_refs": [
+      "SS-C075"
+    ],
+    "atomicity_group_id": "AG-388",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C076",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "海南开发曾吸引大量资金，后来烂尾。",
+    "claim_type": "historical_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C076",
+    "source_segment_refs": [
+      "SS-C076"
+    ],
+    "atomicity_group_id": "AG-401",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C077",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "类比海南开发，如果中国登月后开发月球，也可吸引投资。",
+    "claim_type": "historical_analogy",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C077",
+    "source_segment_refs": [
+      "SS-C077"
+    ],
+    "atomicity_group_id": "AG-401",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C078",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "让外国资本参与中国未来投资可缓解其对中国出口获利的不满。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C078",
+    "source_segment_refs": [
+      "SS-C078"
+    ],
+    "atomicity_group_id": "AG-406",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C079",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "借华尔街吸纳世界财富的模式解释中国航天叙事的融资可能。",
+    "claim_type": "historical_analogy",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C079",
+    "source_segment_refs": [
+      "SS-C079"
+    ],
+    "atomicity_group_id": "AG-413",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C080",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "金融和航天投资故事可以并存，中美投资也非必然非此即彼。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C080",
+    "source_segment_refs": [
+      "SS-C080"
+    ],
+    "atomicity_group_id": "AG-421",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C081",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "同题材下信任越高融资成本越低，不信任则成本更高。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C081",
+    "source_segment_refs": [
+      "SS-C081"
+    ],
+    "atomicity_group_id": "AG-427",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "funding",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C082",
+    "segment_id": [
+      "SEG11"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "成本压力可以迫使竞争方提升效率，效率落后者可能被淘汰。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C082",
+    "source_segment_refs": [
+      "SS-C082"
+    ],
+    "atomicity_group_id": "AG-432",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C083",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "更多技术赶超案例可积累话语权并提高中国资产估值。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C083",
+    "source_segment_refs": [
+      "SS-C083"
+    ],
+    "atomicity_group_id": "AG-443",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C084",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "近几年美元持续贬值、人民币持续升值。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C084",
+    "source_segment_refs": [
+      "SS-C084"
+    ],
+    "atomicity_group_id": "AG-458",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ19"
+    ]
+  },
+  {
+    "claim_id": "C085",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "当前人民币兑美元报价为6点7几；报价口径未明。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C085",
+    "source_segment_refs": [
+      "SS-C085"
+    ],
+    "atomicity_group_id": "AG-464",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ19"
+    ]
+  },
+  {
+    "claim_id": "C086",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美元走弱导致日元被动升值。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C086",
+    "source_segment_refs": [
+      "SS-C086"
+    ],
+    "atomicity_group_id": "AG-465",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C087",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "人民币继续升至6.5问题不大。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "未来，未定截止日",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "RMB/USD quote; onshore/offshore and fixing/spot unknown",
+    "quantifier": null,
+    "certainty_expressed": "问题不大",
+    "source_segment": "SS-C087",
+    "source_segment_refs": [
+      "SS-C087"
+    ],
+    "atomicity_group_id": "AG-466",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ19"
+    ]
+  },
+  {
+    "claim_id": "C088",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播称年初曾预测2026年人民币大概率强劲升值。",
+    "claim_type": "retrospective_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "retrospective",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "2026年初（被声称的预测时间）",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C088",
+    "source_segment_refs": [
+      "SS-C088"
+    ],
+    "atomicity_group_id": "AG-470",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "original_forecast_source": null,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C089",
+    "segment_id": [
+      "SEG12"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国技术突破削弱美国资源，资源不足推动特朗普受迫性失误。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C089",
+    "source_segment_refs": [
+      "SS-C089"
+    ],
+    "atomicity_group_id": "AG-473",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C090",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国官方债务已突破40万亿美元。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C090",
+    "source_segment_refs": [
+      "SS-C090"
+    ],
+    "atomicity_group_id": "AG-482",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ12"
+    ]
+  },
+  {
+    "claim_id": "C091",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国债务在2022年突破30万亿美元。",
+    "claim_type": "historical_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "past",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C091",
+    "source_segment_refs": [
+      "SS-C091"
+    ],
+    "atomicity_group_id": "AG-483",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ12"
+    ]
+  },
+  {
+    "claim_id": "C092",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国债务在四年内增加约10万亿美元。",
+    "claim_type": "derived_claim",
+    "derivation_type": "creator_arithmetic",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": {
+      "start": "2022",
+      "end": "2026"
+    },
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C092",
+    "source_segment_refs": [
+      "SS-C092"
+    ],
+    "atomicity_group_id": "AG-484",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "absolute_change",
+      "baseline_period": "2022",
+      "baseline_value": 30,
+      "delta_value": 10,
+      "delta_unit": "USD trillion"
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ12"
+    ]
+  },
+  {
+    "claim_id": "C093",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播称耶伦2023年国会听证预测到2028年美债达40万亿美元。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "past",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C093",
+    "source_segment_refs": [
+      "SS-C093"
+    ],
+    "atomicity_group_id": "AG-486",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ13"
+    ]
+  },
+  {
+    "claim_id": "C094",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "当前美债达到40万亿比上述预测提前约一年半。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "past",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C094",
+    "source_segment_refs": [
+      "SS-C094"
+    ],
+    "atomicity_group_id": "AG-491",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ13"
+    ]
+  },
+  {
+    "claim_id": "C095",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美债从40万亿增至50万亿美元绝对不需四年。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "US federal debt; definition unstated",
+    "quantifier": null,
+    "certainty_expressed": "绝对不要4年",
+    "source_segment": "SS-C095",
+    "source_segment_refs": [
+      "SS-C095"
+    ],
+    "atomicity_group_id": "AG-494",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ14"
+    ]
+  },
+  {
+    "claim_id": "C096",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播倾向美债2028年突破50万亿美元，一两年为所选分支。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "2028",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "US federal debt; definition unstated",
+    "quantifier": null,
+    "certainty_expressed": "很有可能",
+    "source_segment": "SS-C096",
+    "source_segment_refs": [
+      "SS-C096"
+    ],
+    "atomicity_group_id": "AG-496",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ14"
+    ]
+  },
+  {
+    "claim_id": "C097",
+    "segment_id": [
+      "SEG13"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "朱雀三号等技术追赶削弱支撑美元坚挺的根基。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C097",
+    "source_segment_refs": [
+      "SS-C097"
+    ],
+    "atomicity_group_id": "AG-499",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C098",
+    "segment_id": [
+      "SEG14"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "SpaceX前段时间上市并带动市值大涨；主播自纠年初说法。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C098",
+    "source_segment_refs": [
+      "SS-C098"
+    ],
+    "atomicity_group_id": "AG-514",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C099",
+    "segment_id": [
+      "SEG14"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "资本市场要故事承接AI流动性，而竞争者使维持故事的成本上升。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C099",
+    "source_segment_refs": [
+      "SS-C099"
+    ],
+    "atomicity_group_id": "AG-519",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C100",
+    "segment_id": [
+      "SEG14"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "前几天某火箭发射失败，引发网络嘲讽；型号转写长长试仪。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C100",
+    "source_segment_refs": [
+      "SS-C100"
+    ],
+    "atomicity_group_id": "AG-529",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ23"
+    ]
+  },
+  {
+    "claim_id": "C101",
+    "segment_id": [
+      "SEG14"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中美发射失败舆论双重标准反映对中国威胁美国领先叙事的担心。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C101",
+    "source_segment_refs": [
+      "SS-C101"
+    ],
+    "atomicity_group_id": "AG-533",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C102",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国可见的领先叙事只剩芯片和航天等少数领域。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C102",
+    "source_segment_refs": [
+      "SS-C102"
+    ],
+    "atomicity_group_id": "AG-546",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C103",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国用AI高估值和融资规模作为技术领先的证明。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C103",
+    "source_segment_refs": [
+      "SS-C103"
+    ],
+    "atomicity_group_id": "AG-550",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C104",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "美国官方禁止中国AI模型；范围未知。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C104",
+    "source_segment_refs": [
+      "SS-C104"
+    ],
+    "atomicity_group_id": "AG-556",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ18"
+    ]
+  },
+  {
+    "claim_id": "C105",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播声称特朗普自己的公司通过特许经营出售中国模型访问权牟利。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C105",
+    "source_segment_refs": [
+      "SS-C105"
+    ],
+    "atomicity_group_id": "AG-558",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ04"
+    ]
+  },
+  {
+    "claim_id": "C106",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中美AI能力差距不大。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C106",
+    "source_segment_refs": [
+      "SS-C106"
+    ],
+    "atomicity_group_id": "AG-561",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ18"
+    ]
+  },
+  {
+    "claim_id": "C107",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国AI具有显著成本优势但未反映在估值中。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C107",
+    "source_segment_refs": [
+      "SS-C107"
+    ],
+    "atomicity_group_id": "AG-562",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ18"
+    ]
+  },
+  {
+    "claim_id": "C108",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "中国AI股票泡沫小于美国。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C108",
+    "source_segment_refs": [
+      "SS-C108"
+    ],
+    "atomicity_group_id": "AG-566",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ18"
+    ]
+  },
+  {
+    "claim_id": "C109",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播再次称Moderna单日涨三倍；涨幅与倍数口径不明。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "present_or_recent_report",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": "相对录制时间，精确日期unknown",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C109",
+    "source_segment_refs": [
+      "SS-C109"
+    ],
+    "atomicity_group_id": "AG-571",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_price_or_market_cap",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": "涨三倍"
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ09"
+    ]
+  },
+  {
+    "claim_id": "C110",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "个性化黑色素瘤治疗听起来价格不便宜。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C110",
+    "source_segment_refs": [
+      "SS-C110"
+    ],
+    "atomicity_group_id": "AG-575",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ16"
+    ]
+  },
+  {
+    "claim_id": "C111",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "治疗昂贵意味着企业盈利空间很小。",
+    "claim_type": "inference",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C111",
+    "source_segment_refs": [
+      "SS-C111"
+    ],
+    "atomicity_group_id": "AG-578",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "profit",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ16"
+    ]
+  },
+  {
+    "claim_id": "C112",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "单次治疗技术突破不足以支撑大幅上涨的市值，还需要后续技术完善。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C112",
+    "source_segment_refs": [
+      "SS-C112",
+      "SS-OC131"
+    ],
+    "atomicity_group_id": "AG-579",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ16"
+    ]
+  },
+  {
+    "claim_id": "C113",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "主播将不能长期欺骗所有人的名言由里根自纠为林肯。",
+    "claim_type": "reported_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "past",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C113",
+    "source_segment_refs": [
+      "SS-C113"
+    ],
+    "atomicity_group_id": "AG-589",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ33"
+    ]
+  },
+  {
+    "claim_id": "C114",
+    "segment_id": [
+      "SEG15"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "以欺骗不能长期持续类比资本泡沫不能长久维系。",
+    "claim_type": "analogy",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C114",
+    "source_segment_refs": [
+      "SS-C114"
+    ],
+    "atomicity_group_id": "AG-593",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C115",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "国家会平衡未来产业投资节奏，避免估值暴涨让研究者转向炒股。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "中国国家投资决策",
+    "quantifier": null,
+    "certainty_expressed": "肯定/会有平衡",
+    "source_segment": "SS-C115",
+    "source_segment_refs": [
+      "SS-C115"
+    ],
+    "atomicity_group_id": "AG-601",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ29"
+    ]
+  },
+  {
+    "claim_id": "C116",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "官方航天待遇偏低暂时约束行业估值。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C116",
+    "source_segment_refs": [
+      "SS-C116"
+    ],
+    "atomicity_group_id": "AG-611",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C117",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "成功商业公司带来关注并改善航天人才待遇，形成正循环。",
+    "claim_type": "conditional_claim",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "hypothetical_or_conditional",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C117",
+    "source_segment_refs": [
+      "SS-C117"
+    ],
+    "atomicity_group_id": "AG-616",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C118",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "年轻人进入这些新技术领域有可能赚到钱。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "进入新技术领域的年轻人",
+    "quantifier": null,
+    "certainty_expressed": "有可能",
+    "source_segment": "SS-C118",
+    "source_segment_refs": [
+      "SS-C118"
+    ],
+    "atomicity_group_id": "AG-623",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "profit",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ29"
+    ]
+  },
+  {
+    "claim_id": "C119",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "过去航天难赚钱是因为话语权不在中国手中。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "past",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C119",
+    "source_segment_refs": [
+      "SS-C119"
+    ],
+    "atomicity_group_id": "AG-626",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C120",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "未来航天会创造大量财富，趋势在转写35年的时间内更明显。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": "不信走着瞧；趋势越来越明显",
+    "source_segment": "SS-C120",
+    "source_segment_refs": [
+      "SS-C120"
+    ],
+    "atomicity_group_id": "AG-631",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "unspecified_comparison",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "profit",
+    "verified_knowledge_eligible": false,
+    "raw_prediction_window": "35年的时间",
+    "prediction_window_normalized": null,
+    "review_refs": [
+      "RQ15"
+    ]
+  },
+  {
+    "claim_id": "C121",
+    "segment_id": [
+      "SEG16"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "未来航天将产生新富豪。",
+    "claim_type": "forecast",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "future",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "航天领域",
+    "quantifier": null,
+    "certainty_expressed": "会有",
+    "source_segment": "SS-C121",
+    "source_segment_refs": [
+      "SS-C121"
+    ],
+    "atomicity_group_id": "AG-634",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ15"
+    ]
+  },
+  {
+    "claim_id": "C122",
+    "segment_id": [
+      "SEG03"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "产业竞争正在洗牌，尖端行业尤其猛烈。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C122",
+    "source_segment_refs": [
+      "SS-C122"
+    ],
+    "atomicity_group_id": "AG-82",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "C123",
+    "segment_id": [
+      "SEG14"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "反复试验失败不可怕，最终会取得成功。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C123",
+    "source_segment_refs": [
+      "SS-C123"
+    ],
+    "atomicity_group_id": "AG-540",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  },
+  {
+    "claim_id": "X01",
+    "segment_id": null,
+    "claimant": "蓝箭航天",
+    "claimant_id": "蓝箭航天",
+    "statement": "官方转载蓝箭通报：8月19日07:35发射。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19",
+    "reference_time": "2026-08-19T07:35:00+08:00",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X01",
+    "source_segment_refs": [
+      "SS-X01"
+    ],
+    "atomicity_group_id": "X01",
+    "reasoner_id": "蓝箭航天",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "X02",
+    "segment_id": null,
+    "claimant": "蓝箭航天",
+    "claimant_id": "蓝箭航天",
+    "statement": "官方转载蓝箭通报：8月19日07:41一级陆地回收。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19",
+    "reference_time": "2026-08-19T07:41:00+08:00",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X02",
+    "source_segment_refs": [
+      "SS-X02"
+    ],
+    "atomicity_group_id": "X02",
+    "reasoner_id": "蓝箭航天",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "X03",
+    "segment_id": null,
+    "claimant": "央视新闻（原采访者unknown）",
+    "claimant_id": "央视新闻（原采访者unknown）",
+    "statement": "央视报道所称20次复用能力的对象是着陆腿。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19T12:59:09+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "朱雀三号着陆腿",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X03",
+    "source_segment_refs": [
+      "SS-X03"
+    ],
+    "atomicity_group_id": "X03",
+    "reasoner_id": "央视新闻（原采访者unknown）",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": "technology",
+    "verified_knowledge_eligible": false,
+    "value": 20,
+    "value_status": "claimed_capability_design_target_or_engineering_estimate_unresolved",
+    "demonstrated_reuse_count": null,
+    "review_refs": [
+      "RQ07"
+    ]
+  },
+  {
+    "claim_id": "X04",
+    "segment_id": null,
+    "claimant": "财联社",
+    "claimant_id": "财联社",
+    "statement": "财联社报道Moderna盘前股价上涨超过80%。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19T19:50:00+08:00",
+    "reference_time": "2026-08-19盘前",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "Moderna common stock premarket",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X04",
+    "source_segment_refs": [
+      "SS-X04"
+    ],
+    "atomicity_group_id": "X04",
+    "reasoner_id": "财联社",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "premarket_price_change",
+      "baseline_period": "previous_close",
+      "baseline_value": null,
+      "delta_value": 80,
+      "delta_unit": "percent_more_than"
+    },
+    "semantic_role": "valuation",
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ09"
+    ]
+  },
+  {
+    "claim_id": "X05",
+    "segment_id": null,
+    "claimant": "Moderna",
+    "claimant_id": "Moderna",
+    "statement": "Moderna公告其与Merck合作的III期联合疗法取得积极主要结果。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19",
+    "reference_time": "2026-08-19",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X05",
+    "source_segment_refs": [
+      "SS-X05"
+    ],
+    "atomicity_group_id": "X05",
+    "reasoner_id": "Moderna",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ17"
+    ]
+  },
+  {
+    "claim_id": "X06",
+    "segment_id": null,
+    "claimant": "US Treasury",
+    "claimant_id": "US Treasury",
+    "statement": "财政部宣布长期债流动性支持回购每次上限从20亿美元提高至至少40亿美元。",
+    "claim_type": "policy_announcement",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19",
+    "reference_time": "2026-08-19",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X06",
+    "source_segment_refs": [
+      "SS-X06"
+    ],
+    "atomicity_group_id": "X06",
+    "reasoner_id": "US Treasury",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "announced_limit_increase",
+      "baseline_period": "prior_operation_limit",
+      "baseline_value": 2,
+      "delta_value": 2,
+      "delta_unit": "USD billion_at_least"
+    },
+    "semantic_role": "policy_operation_limit",
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "X07",
+    "segment_id": null,
+    "claimant": "US Treasury",
+    "claimant_id": "US Treasury",
+    "statement": "回购调整计划9月9日生效，持续至11月4日。",
+    "claim_type": "reported_plan",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "planned",
+    "asserted_at": "2026-08-19",
+    "reference_time": "2026-09-09/2026-11-04",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X07",
+    "source_segment_refs": [
+      "SS-X07"
+    ],
+    "atomicity_group_id": "X07",
+    "reasoner_id": "US Treasury",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "X08",
+    "segment_id": null,
+    "claimant": "FCC",
+    "claimant_id": "FCC",
+    "statement": "FCC一月授权Gen2总量15,000颗，授权不等于已在轨。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-01-09",
+    "reference_time": "2026-01-09",
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "Gen2 only",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X08",
+    "source_segment_refs": [
+      "SS-X08"
+    ],
+    "atomicity_group_id": "X08",
+    "reasoner_id": "FCC",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "value": 15000,
+    "value_status": "regulatory_authorization",
+    "review_refs": []
+  },
+  {
+    "claim_id": "X09",
+    "segment_id": null,
+    "claimant": "蓝箭航天（经财联社）",
+    "claimant_id": "蓝箭航天（经财联社）",
+    "statement": "蓝箭称一级硬件多次复用可摊薄发射成本。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19T08:01:00+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X09",
+    "source_segment_refs": [
+      "SS-X09"
+    ],
+    "atomicity_group_id": "X09",
+    "reasoner_id": "蓝箭航天（经财联社）",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "X10",
+    "segment_id": null,
+    "claimant": "央视新闻（原受访者unknown）",
+    "claimant_id": "央视新闻（原受访者unknown）",
+    "statement": "报道预期成本将降低到70%以上，降到与下降的口径存在歧义。",
+    "claim_type": "reported_claim",
+    "derivation_type": "external_source_paraphrase",
+    "temporal_mode": "reported",
+    "asserted_at": "2026-08-19T12:59:09+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-X10",
+    "source_segment_refs": [
+      "SS-X10"
+    ],
+    "atomicity_group_id": "X10",
+    "reasoner_id": "央视新闻（原受访者unknown）",
+    "analysis_context": "verification_not_creator_reconstruction",
+    "comparison_basis": {
+      "comparison_type": "lower_to_vs_lower_by_ambiguous",
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": 70,
+      "delta_unit": "percent"
+    },
+    "semantic_role": "operating_cost",
+    "verified_knowledge_eligible": false,
+    "value_status": "media_projection_not_observed",
+    "review_refs": [
+      "RQ08"
+    ]
+  },
+  {
+    "claim_id": "M01",
+    "segment_id": null,
+    "claimant": "model_gpt6",
+    "claimant_id": "model_gpt6",
+    "statement": "只有回收事件不能证明稳定复飞，需同硬件编号的多次任务和成功率。",
+    "claim_type": "model_diagnostic",
+    "derivation_type": "model_reconstruction",
+    "temporal_mode": "atemporal",
+    "asserted_at": "2026-09-26T05:30:44+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": null,
+    "source_segment_refs": [],
+    "context_source_segment_refs": [
+      "SS-C001"
+    ],
+    "atomicity_group_id": "M01",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "M02",
+    "segment_id": null,
+    "claimant": "model_gpt6",
+    "claimant_id": "model_gpt6",
+    "statement": "判断经济复用需损伤、翻修时间/成本、替换部件、复飞可靠性、回收载荷损失、频次。",
+    "claim_type": "model_diagnostic",
+    "derivation_type": "model_reconstruction",
+    "temporal_mode": "atemporal",
+    "asserted_at": "2026-09-26T05:30:44+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": null,
+    "source_segment_refs": [],
+    "context_source_segment_refs": [
+      "SS-C026"
+    ],
+    "atomicity_group_id": "M02",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "M03",
+    "segment_id": null,
+    "claimant": "model_gpt6",
+    "claimant_id": "model_gpt6",
+    "statement": "单位成本需同轨道、载荷、可靠性、含固定成本及回收设备的完整口径。",
+    "claim_type": "model_diagnostic",
+    "derivation_type": "model_reconstruction",
+    "temporal_mode": "atemporal",
+    "asserted_at": "2026-09-26T05:30:44+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": null,
+    "source_segment_refs": [],
+    "context_source_segment_refs": [
+      "SS-C026"
+    ],
+    "atomicity_group_id": "M03",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "M04",
+    "segment_id": null,
+    "claimant": "model_gpt6",
+    "claimant_id": "model_gpt6",
+    "statement": "商业可行性还需付费客户、签约/交付、收入确认和现金流，订单不能直接转成利润。",
+    "claim_type": "model_diagnostic",
+    "derivation_type": "model_reconstruction",
+    "temporal_mode": "atemporal",
+    "asserted_at": "2026-09-26T05:30:44+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": null,
+    "source_segment_refs": [],
+    "context_source_segment_refs": [
+      "SS-C061"
+    ],
+    "atomicity_group_id": "M04",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "M05",
+    "segment_id": null,
+    "claimant": "model_gpt6",
+    "claimant_id": "model_gpt6",
+    "statement": "产业结构变化需跨期可比Observation或跨期Event，单个回收不够。",
+    "claim_type": "model_diagnostic",
+    "derivation_type": "model_reconstruction",
+    "temporal_mode": "atemporal",
+    "asserted_at": "2026-09-26T05:30:44+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": null,
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": null,
+    "source_segment_refs": [],
+    "context_source_segment_refs": [
+      "SS-C120"
+    ],
+    "atomicity_group_id": "M05",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": []
+  },
+  {
+    "claim_id": "C124",
+    "segment_id": [
+      "SEG07"
+    ],
+    "claimant": "analyst_youhegaojian9527",
+    "claimant_id": "analyst_youhegaojian9527",
+    "statement": "星链现有规模已经饱和。",
+    "claim_type": "interpretation",
+    "derivation_type": "explicit_transcript_normalized_no_fact_repair",
+    "temporal_mode": "unknown",
+    "asserted_at": null,
+    "asserted_at_basis": "recorded_at_unknown",
+    "publication_proxy": "2026-08-20T10:37:33+08:00",
+    "reference_time": null,
+    "knowledge_cutoff": "2026-08-20T10:37:33+08:00",
+    "population": "Starlink business scope unspecified",
+    "quantifier": null,
+    "certainty_expressed": null,
+    "source_segment": "SS-C124",
+    "source_segment_refs": [
+      "SS-C124"
+    ],
+    "atomicity_group_id": "AG-251",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "comparison_basis": {
+      "comparison_type": null,
+      "baseline_period": null,
+      "baseline_value": null,
+      "delta_value": null,
+      "delta_unit": null
+    },
+    "semantic_role": null,
+    "verified_knowledge_eligible": false,
+    "review_refs": [
+      "RQ34"
+    ]
+  }
+]

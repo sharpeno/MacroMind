@@ -1,0 +1,13 @@
+{
+  "conflicting_signatures": [],
+  "evidence": [
+    "V0_3_LEGACY"
+  ],
+  "explicit_version": {},
+  "family": "V0_3_LEGACY",
+  "matched_signatures": [
+    "V0_3_LEGACY"
+  ],
+  "shape_hash": "f9bd4bad57195ceec56cfab673dd43d451f57df5f4f446e1e81729a4c94ee383",
+  "status": "STRONG"
+}

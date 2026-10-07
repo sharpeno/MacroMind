@@ -1,0 +1,1739 @@
+[
+  {
+    "argument_id": "AR01",
+    "title": "追上十年前水平被解释为追上今日主流",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C001",
+      "C003"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "C002",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C002",
+        "to_claim": "C004",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C003",
+        "to_claim": "C004",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C004",
+        "to_claim": "C005",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C005"
+    ],
+    "claim_refs": [
+      "C001",
+      "C002",
+      "C003",
+      "C004",
+      "C005"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 3,
+    "edge_count": 4,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "最弱处3→4：单一回收里程碑不能覆盖载荷、复飞、频次、可靠性和成本；条件速度也未量化。",
+    "source_segment_refs": [
+      "SS-C001",
+      "SS-C002",
+      "SS-C003",
+      "SS-C004",
+      "SS-C005"
+    ]
+  },
+  {
+    "argument_id": "AR02",
+    "title": "独立攻关与公私研发互补",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C001",
+      "C008",
+      "C011"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "C006",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C001",
+        "to_claim": "C007",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C008",
+        "to_claim": "C009",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C001",
+        "to_claim": "C009",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C009",
+        "to_claim": "C010",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C011",
+        "to_claim": "C010",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C006",
+      "C007",
+      "C010"
+    ],
+    "claim_refs": [
+      "C001",
+      "C006",
+      "C007",
+      "C008",
+      "C009",
+      "C010",
+      "C011"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 2,
+    "edge_count": 6,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "排除其他国家未成功并不能证明技术来源；两个任务不构成举国研发相对效率的充分反事实。",
+    "source_segment_refs": [
+      "SS-C001",
+      "SS-C006",
+      "SS-C007",
+      "SS-C008",
+      "SS-C009",
+      "SS-C010",
+      "SS-C011"
+    ]
+  },
+  {
+    "argument_id": "AR03",
+    "title": "低成本运输作为远期开发前提",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C015",
+      "C016",
+      "C012"
+    ],
+    "steps": [
+      {
+        "from_claim": "C015",
+        "to_claim": "C014",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C016",
+        "to_claim": "C017",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C017",
+        "to_claim": "C018",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C018",
+        "to_claim": "C034",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C014",
+      "C034"
+    ],
+    "claim_refs": [
+      "C014",
+      "C015",
+      "C016",
+      "C017",
+      "C018",
+      "C034",
+      "C012"
+    ],
+    "inference_mode": "analogy",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 3,
+    "edge_count": 4,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "limitations": "这是文明情景；低成本运输非充分条件，太空电梯和市场制度均未建立；生物演化类比无工程预测力。",
+    "source_segment_refs": [
+      "SS-C014",
+      "SS-C015",
+      "SS-C016",
+      "SS-C017",
+      "SS-C018",
+      "SS-C034",
+      "SS-C012"
+    ],
+    "source_case": "水生生命上陆/远期太空设想",
+    "target_case": "人类进入太空",
+    "shared_mechanism": "环境边界扩展",
+    "limits_of_analogy": "演化隐喻没有技术时间、投资回报可比性"
+  },
+  {
+    "argument_id": "AR04",
+    "title": "回收成功被直接转成低成本及竞争叙事",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C001",
+      "C025"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "C026",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C025",
+        "to_claim": "C027",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C026",
+        "to_claim": "C027",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C026",
+        "to_claim": "C034",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C027",
+      "C034"
+    ],
+    "claim_refs": [
+      "C001",
+      "C025",
+      "C026",
+      "C027",
+      "C034"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 2,
+    "edge_count": 4,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 2,
+    "limitations": "关键错误入口1→26：没有复飞、翻修总成本、回收载荷损失与频次数据；不能把竞争者成本搬到中国。",
+    "source_segment_refs": [
+      "SS-C001",
+      "SS-C025",
+      "SS-C026",
+      "SS-C027",
+      "SS-C034"
+    ]
+  },
+  {
+    "argument_id": "AR05",
+    "title": "太空算力的成本与估值质疑",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C020",
+      "C021",
+      "C022",
+      "C023",
+      "C036",
+      "C038",
+      "C039",
+      "C040"
+    ],
+    "steps": [
+      {
+        "from_claim": "C036",
+        "to_claim": "C037",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C039",
+        "to_claim": "C037",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C037",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C038",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C020",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C021",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C023",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C022",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C040",
+        "to_claim": "C024",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C024",
+        "to_claim": "C042",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C042"
+    ],
+    "claim_refs": [
+      "C020",
+      "C021",
+      "C022",
+      "C023",
+      "C024",
+      "C036",
+      "C037",
+      "C038",
+      "C039",
+      "C040",
+      "C042"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 3,
+    "edge_count": 10,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "limitations": "一克几百美元高风险；寿命、轨道、抗辐射、散热工程及可比地面成本均未测算；昂贵不等于所有场景不经济。",
+    "source_segment_refs": [
+      "SS-C020",
+      "SS-C021",
+      "SS-C022",
+      "SS-C023",
+      "SS-C024",
+      "SS-C036",
+      "SS-C037",
+      "SS-C038",
+      "SS-C039",
+      "SS-C040",
+      "SS-C042"
+    ]
+  },
+  {
+    "argument_id": "AR06",
+    "title": "中国企业上市的融资示范",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "historical_analogy",
+    "premises": [
+      "C028",
+      "C029",
+      "C030",
+      "C031",
+      "C032"
+    ],
+    "steps": [
+      {
+        "from_claim": "C028",
+        "to_claim": "C033",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C029",
+        "to_claim": "C033",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C030",
+        "to_claim": "C033",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C031",
+        "to_claim": "C033",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C032",
+        "to_claim": "C033",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C033",
+        "to_claim": "C034",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C034"
+    ],
+    "claim_refs": [
+      "C028",
+      "C029",
+      "C030",
+      "C031",
+      "C032",
+      "C033",
+      "C034"
+    ],
+    "inference_mode": "historical_analogy",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 2,
+    "edge_count": 6,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "limitations": "上市状态需原始披露；高估值不等于可持续募资、更不等于航天现金流，行业类比范围有限。",
+    "source_segment_refs": [
+      "SS-C028",
+      "SS-C029",
+      "SS-C030",
+      "SS-C031",
+      "SS-C032",
+      "SS-C033",
+      "SS-C034"
+    ],
+    "source_case": "存储、机器人企业上市",
+    "target_case": "航天产业融资机会",
+    "shared_mechanism": "技术题材吸引资本",
+    "limits_of_analogy": "上市地点、监管、客户和盈利模式各异"
+  },
+  {
+    "argument_id": "AR07",
+    "title": "星链扩容飞轮及资金瓶颈",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C043",
+      "C044",
+      "C051",
+      "C052",
+      "C055",
+      "C124"
+    ],
+    "steps": [
+      {
+        "from_claim": "C044",
+        "to_claim": "C045",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C045",
+        "to_claim": "C046",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C045",
+        "to_claim": "C047",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C046",
+        "to_claim": "C048",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C047",
+        "to_claim": "C048",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C048",
+        "to_claim": "C049",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C045",
+        "to_claim": "C050",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C051",
+        "to_claim": "C053",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C052",
+        "to_claim": "C053",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C053",
+        "to_claim": "C054",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C050",
+        "to_claim": "C054",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C054",
+        "to_claim": "C057",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C055",
+        "to_claim": "C057",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C043",
+      "C049",
+      "C057"
+    ],
+    "claim_refs": [
+      "C043",
+      "C044",
+      "C045",
+      "C046",
+      "C047",
+      "C048",
+      "C049",
+      "C050",
+      "C051",
+      "C052",
+      "C053",
+      "C054",
+      "C055",
+      "C057",
+      "C124"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 4,
+    "edge_count": 13,
+    "longest_path_length": 4,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 3,
+    "limitations": "20万/200万必须音频核对；卫星数量不是带宽、用户速度、单位成本的线性充分变量；政府意愿和无融资结论均无财务证据。",
+    "source_segment_refs": [
+      "SS-C043",
+      "SS-C044",
+      "SS-C045",
+      "SS-C046",
+      "SS-C047",
+      "SS-C048",
+      "SS-C049",
+      "SS-C050",
+      "SS-C051",
+      "SS-C052",
+      "SS-C053",
+      "SS-C054",
+      "SS-C055",
+      "SS-C057",
+      "SS-C124"
+    ]
+  },
+  {
+    "argument_id": "AR08",
+    "title": "国家任务到产业规模及全球发射集中",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C001",
+      "C058",
+      "C059"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "C056",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C058",
+        "to_claim": "C060",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C059",
+        "to_claim": "C060",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C060",
+        "to_claim": "C056",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C056",
+        "to_claim": "C061",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C060",
+        "to_claim": "C064",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C061",
+      "C064"
+    ],
+    "claim_refs": [
+      "C001",
+      "C056",
+      "C058",
+      "C059",
+      "C060",
+      "C061",
+      "C064"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 3,
+    "edge_count": 6,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "最弱处56→61：成本优势不代表全球需求全流入，忽略国家安全、采购、贸易与客户结构；计划不等于capex到账或订单。",
+    "source_segment_refs": [
+      "SS-C001",
+      "SS-C056",
+      "SS-C058",
+      "SS-C059",
+      "SS-C060",
+      "SS-C061",
+      "SS-C064"
+    ]
+  },
+  {
+    "argument_id": "AR09",
+    "title": "AI流动性退潮与国债融资替代",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C065",
+      "C066",
+      "C068"
+    ],
+    "steps": [
+      {
+        "from_claim": "C065",
+        "to_claim": "C067",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C066",
+        "to_claim": "C067",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C068",
+        "to_claim": "C069",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C069",
+        "to_claim": "C070",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C067",
+      "C070"
+    ],
+    "claim_refs": [
+      "C065",
+      "C066",
+      "C067",
+      "C068",
+      "C069",
+      "C070"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 2,
+    "edge_count": 4,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "价格涨幅不能识别AI流动性的资金来源；下行也可能有其他融资渠道，国债信用不能自动证明项目效率。",
+    "source_segment_refs": [
+      "SS-C065",
+      "SS-C066",
+      "SS-C067",
+      "SS-C068",
+      "SS-C069",
+      "SS-C070"
+    ]
+  },
+  {
+    "argument_id": "AR10",
+    "title": "财政回购到主权信任迁移",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C072"
+    ],
+    "steps": [
+      {
+        "from_claim": "C072",
+        "to_claim": "C073",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C073",
+        "to_claim": "C071",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C071",
+        "to_claim": "C074",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C074",
+        "to_claim": "C075",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C075"
+    ],
+    "claim_refs": [
+      "C071",
+      "C072",
+      "C073",
+      "C074",
+      "C075"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 4,
+    "edge_count": 4,
+    "longest_path_length": 4,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 2,
+    "limitations": "回购≠一级市场无人购买；OT类比≠QT；信任流失不必转向单一国家，政策自身目的与主播解释须分开。",
+    "source_segment_refs": [
+      "SS-C071",
+      "SS-C072",
+      "SS-C073",
+      "SS-C074",
+      "SS-C075"
+    ]
+  },
+  {
+    "argument_id": "AR11",
+    "title": "海南月球和华尔街的融资类比",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "historical_analogy",
+    "premises": [
+      "C076",
+      "C079",
+      "C080"
+    ],
+    "steps": [
+      {
+        "from_claim": "C076",
+        "to_claim": "C077",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C077",
+        "to_claim": "C075",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C079",
+        "to_claim": "C078",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C075",
+        "to_claim": "C081",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C081",
+        "to_claim": "C082",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C078",
+      "C080",
+      "C082"
+    ],
+    "claim_refs": [
+      "C075",
+      "C076",
+      "C077",
+      "C078",
+      "C079",
+      "C080",
+      "C081",
+      "C082"
+    ],
+    "inference_mode": "historical_analogy",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 4,
+    "edge_count": 5,
+    "longest_path_length": 4,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "limitations": "海南房地产与月球的可达性、产权、现金流、退出机制不可直接比；华尔街金融中介能力不是故事本身。",
+    "source_segment_refs": [
+      "SS-C075",
+      "SS-C076",
+      "SS-C077",
+      "SS-C078",
+      "SS-C079",
+      "SS-C080",
+      "SS-C081",
+      "SS-C082"
+    ],
+    "source_case": "海南开发/华尔街吸纳资金",
+    "target_case": "月球开发与中国资本吸引力",
+    "shared_mechanism": "未来叙事聚集融资",
+    "limits_of_analogy": "区位、产权、退出、工程风险及失败史不同"
+  },
+  {
+    "argument_id": "AR12",
+    "title": "技术案例到话语权和人民币",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C001",
+      "C033",
+      "C081",
+      "C084",
+      "C085",
+      "C086"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "C027",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C027",
+        "to_claim": "C075",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C033",
+        "to_claim": "C075",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C075",
+        "to_claim": "C083",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C083",
+        "to_claim": "C087",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C084",
+        "to_claim": "C087",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C085",
+        "to_claim": "C087",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C086",
+        "to_claim": "C087",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C083",
+        "to_claim": "C089",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C089",
+        "to_claim": "C097",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C027",
+        "to_claim": "C099",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C081",
+        "to_claim": "C083",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C087",
+      "C097",
+      "C099"
+    ],
+    "claim_refs": [
+      "C001",
+      "C027",
+      "C033",
+      "C075",
+      "C081",
+      "C083",
+      "C084",
+      "C085",
+      "C086",
+      "C087",
+      "C089",
+      "C097",
+      "C099"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 5,
+    "edge_count": 12,
+    "longest_path_length": 5,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 2,
+    "limitations": "83→87以及89→97最弱：缺跨境资金、利差、风险溢价、国际收支与储备配置证据。此为叙事链，不是计量识别。",
+    "source_segment_refs": [
+      "SS-C001",
+      "SS-C027",
+      "SS-C033",
+      "SS-C075",
+      "SS-C081",
+      "SS-C083",
+      "SS-C084",
+      "SS-C085",
+      "SS-C086",
+      "SS-C087",
+      "SS-C089",
+      "SS-C097",
+      "SS-C099"
+    ]
+  },
+  {
+    "argument_id": "AR13",
+    "title": "债务历史增量外推加速",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C090",
+      "C091",
+      "C093"
+    ],
+    "steps": [
+      {
+        "from_claim": "C090",
+        "to_claim": "C092",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C091",
+        "to_claim": "C092",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C093",
+        "to_claim": "C094",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C090",
+        "to_claim": "C094",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C092",
+        "to_claim": "C095",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C094",
+        "to_claim": "C095",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C095",
+        "to_claim": "C096",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C096",
+        "to_claim": "C097",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C097"
+    ],
+    "claim_refs": [
+      "C090",
+      "C091",
+      "C092",
+      "C093",
+      "C094",
+      "C095",
+      "C096",
+      "C097"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 4,
+    "edge_count": 8,
+    "longest_path_length": 4,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "历史4年增加10万亿不足推出未来2年；50万亿需赤字、利息和名义增长假设，30/40/50必须同口径。",
+    "source_segment_refs": [
+      "SS-C090",
+      "SS-C091",
+      "SS-C092",
+      "SS-C093",
+      "SS-C094",
+      "SS-C095",
+      "SS-C096",
+      "SS-C097"
+    ]
+  },
+  {
+    "argument_id": "AR14",
+    "title": "估值叙事和选择性舆论的解释",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C098",
+      "C100",
+      "C102",
+      "C103",
+      "C104",
+      "C105"
+    ],
+    "steps": [
+      {
+        "from_claim": "C098",
+        "to_claim": "C099",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C100",
+        "to_claim": "C101",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C102",
+        "to_claim": "C101",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C103",
+        "to_claim": "C106",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C104",
+        "to_claim": "C106",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C105",
+        "to_claim": "C106",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C106",
+        "to_claim": "C107",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C107",
+        "to_claim": "C108",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C099",
+      "C101",
+      "C108"
+    ],
+    "claim_refs": [
+      "C098",
+      "C099",
+      "C100",
+      "C101",
+      "C102",
+      "C103",
+      "C104",
+      "C105",
+      "C106",
+      "C107",
+      "C108"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 3,
+    "edge_count": 8,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 2,
+    "limitations": "由政策/牟利传言判断AI技术相等跳跃过大；主体、政策范围、模型基准和成本定义未明；动机推测不能用作事实。",
+    "source_segment_refs": [
+      "SS-C098",
+      "SS-C099",
+      "SS-C100",
+      "SS-C101",
+      "SS-C102",
+      "SS-C103",
+      "SS-C104",
+      "SS-C105",
+      "SS-C106",
+      "SS-C107",
+      "SS-C108"
+    ]
+  },
+  {
+    "argument_id": "AR15",
+    "title": "昂贵治疗到利润及估值拒绝门槛",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C065",
+      "C066",
+      "C109",
+      "C110",
+      "C113"
+    ],
+    "steps": [
+      {
+        "from_claim": "C110",
+        "to_claim": "C111",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C111",
+        "to_claim": "C112",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C066",
+        "to_claim": "C112",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C109",
+        "to_claim": "C112",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C113",
+        "to_claim": "C114",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C065",
+      "C112",
+      "C114"
+    ],
+    "claim_refs": [
+      "C065",
+      "C066",
+      "C109",
+      "C110",
+      "C111",
+      "C112",
+      "C113",
+      "C114"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "explicit",
+    "hop_count": 2,
+    "edge_count": 5,
+    "longest_path_length": 2,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 1,
+    "limitations": "110→111最弱：患者价格高不等于企业单位成本高或利润低；缺医保支付、市场规模、毛利和适应症数据；名言不提供泡沫结算时间。",
+    "source_segment_refs": [
+      "SS-C065",
+      "SS-C066",
+      "SS-C109",
+      "SS-C110",
+      "SS-C111",
+      "SS-C112",
+      "SS-C113",
+      "SS-C114"
+    ]
+  },
+  {
+    "argument_id": "AR16",
+    "title": "资本关注人才激励与航天财富前景",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "argument",
+    "premises": [
+      "C034",
+      "C060",
+      "C115",
+      "C116",
+      "C119"
+    ],
+    "steps": [
+      {
+        "from_claim": "C034",
+        "to_claim": "C120",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C060",
+        "to_claim": "C117",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C115",
+        "to_claim": "C117",
+        "expression_level": "strongly_implied",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C116",
+        "to_claim": "C117",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C117",
+        "to_claim": "C118",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C117",
+        "to_claim": "C120",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": true,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C119",
+        "to_claim": "C120",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      },
+      {
+        "from_claim": "C120",
+        "to_claim": "C121",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C118",
+      "C121"
+    ],
+    "claim_refs": [
+      "C034",
+      "C060",
+      "C115",
+      "C116",
+      "C117",
+      "C118",
+      "C119",
+      "C120",
+      "C121"
+    ],
+    "inference_mode": "causal_inference",
+    "expression_level": "mixed_explicit_strongly_implied",
+    "hop_count": 3,
+    "edge_count": 8,
+    "longest_path_length": 3,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 2,
+    "limitations": "34→120和117→120缺持续客户、交付、现金流和利润证据；35年疑似3—5年但未回听，不定结算窗。",
+    "source_segment_refs": [
+      "SS-C034",
+      "SS-C060",
+      "SS-C115",
+      "SS-C116",
+      "SS-C117",
+      "SS-C118",
+      "SS-C119",
+      "SS-C120",
+      "SS-C121"
+    ]
+  },
+  {
+    "argument_id": "AR17",
+    "title": "煮酒论英雄类比竞争者话语",
+    "reasoner_id": "analyst_youhegaojian9527",
+    "analysis_context": "historical_reconstruction",
+    "argument_type": "historical_analogy",
+    "premises": [
+      "C062"
+    ],
+    "steps": [
+      {
+        "from_claim": "C062",
+        "to_claim": "C063",
+        "expression_level": "explicit",
+        "relation": "creator_inference_not_verified_causation",
+        "is_shortcut": false,
+        "reasoner_id": "analyst_youhegaojian9527"
+      }
+    ],
+    "conclusion": [
+      "C063"
+    ],
+    "claim_refs": [
+      "C062",
+      "C063"
+    ],
+    "inference_mode": "historical_analogy",
+    "expression_level": "explicit",
+    "hop_count": 1,
+    "edge_count": 1,
+    "longest_path_length": 1,
+    "model_bridge_count": 0,
+    "explicit_shortcut_count": 0,
+    "limitations": "文学/历史叙事不能证实马斯克实际心理与原话时点。",
+    "source_segment_refs": [
+      "SS-C062",
+      "SS-C063"
+    ],
+    "source_case": "曹操与刘备煮酒论英雄的通俗叙事",
+    "target_case": "马斯克评价中国竞争力",
+    "shared_mechanism": "领先者界定谁配做对手",
+    "limits_of_analogy": "文学情节、真实人物动机和商业竞争不能视为同一事实"
+  },
+  {
+    "argument_id": "DA01",
+    "title": "Event→经济复用→商业与产业结果的模型证据门槛",
+    "reasoner_id": "model_gpt6",
+    "analysis_context": "model_diagnostic",
+    "premises": [
+      "C001"
+    ],
+    "claim_refs": [
+      "C001",
+      "M01",
+      "M02",
+      "M03",
+      "M04",
+      "M05"
+    ],
+    "steps": [
+      {
+        "from_claim": "C001",
+        "to_claim": "M01",
+        "expression_level": "model_reconstruction",
+        "relation": "requires_evidence_not_historical_causal_assertion",
+        "reasoner_id": "model_gpt6"
+      },
+      {
+        "from_claim": "M01",
+        "to_claim": "M02",
+        "expression_level": "model_reconstruction",
+        "relation": "requires_evidence_not_historical_causal_assertion",
+        "reasoner_id": "model_gpt6"
+      },
+      {
+        "from_claim": "M02",
+        "to_claim": "M03",
+        "expression_level": "model_reconstruction",
+        "relation": "requires_evidence_not_historical_causal_assertion",
+        "reasoner_id": "model_gpt6"
+      },
+      {
+        "from_claim": "M03",
+        "to_claim": "M04",
+        "expression_level": "model_reconstruction",
+        "relation": "requires_evidence_not_historical_causal_assertion",
+        "reasoner_id": "model_gpt6"
+      },
+      {
+        "from_claim": "M04",
+        "to_claim": "M05",
+        "expression_level": "model_reconstruction",
+        "relation": "requires_evidence_not_historical_causal_assertion",
+        "reasoner_id": "model_gpt6"
+      }
+    ],
+    "conclusion": [
+      "M05"
+    ],
+    "inference_mode": "diagnostic_requirements",
+    "expression_level": "model_reconstruction",
+    "hop_count": 5,
+    "edge_count": 5,
+    "longest_path_length": 5,
+    "model_bridge_count": 5,
+    "explicit_shortcut_count": 0,
+    "limitations": "五跳为审计粒度的证据门槛图，不是产业必经时间表，更不是9527已经表达过的链。"
+  }
+]

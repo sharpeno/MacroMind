@@ -1,0 +1,4875 @@
+{
+  "pre_admission": [
+    {
+      "object": {
+        "id": "EP002/C03",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0048",
+            "EP002/cue/0049",
+            "EP002/cue/0050",
+            "EP002/cue/0051",
+            "EP002/cue/0052",
+            "EP002/cue/0053",
+            "EP002/cue/0054",
+            "EP002/cue/0055",
+            "EP002/cue/0056",
+            "EP002/cue/0057",
+            "EP002/cue/0058",
+            "EP002/cue/0059",
+            "EP002/cue/0060",
+            "EP002/cue/0061",
+            "EP002/cue/0062",
+            "EP002/cue/0063",
+            "EP002/cue/0064",
+            "EP002/cue/0065",
+            "EP002/cue/0066",
+            "EP002/cue/0067",
+            "EP002/cue/0068",
+            "EP002/cue/0069",
+            "EP002/cue/0070"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "谈判消息、否认与收益率变化的事件叙述，人名、数值及对应关系需核对。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+      "review_status": "PENDING_AUDIO_OR_HUMAN",
+      "source_mapping": {
+        "object_ref": "EP002/C03",
+        "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP002\\原始字幕.srt",
+        "source_sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+        "cue_ids": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ],
+        "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+        "fields": {
+          "id": {
+            "value": "EP002/C03",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "object_type": {
+            "value": "Claim",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "schema_version": {
+            "value": "0.1.0",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "ontology_version": {
+            "value": "0.3",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "created_at": {
+            "value": null,
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "provenance_refs": {
+            "value": [],
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "metadata": {
+            "value": {
+              "source_segment_refs": [
+                "EP002/cue/0048",
+                "EP002/cue/0049",
+                "EP002/cue/0050",
+                "EP002/cue/0051",
+                "EP002/cue/0052",
+                "EP002/cue/0053",
+                "EP002/cue/0054",
+                "EP002/cue/0055",
+                "EP002/cue/0056",
+                "EP002/cue/0057",
+                "EP002/cue/0058",
+                "EP002/cue/0059",
+                "EP002/cue/0060",
+                "EP002/cue/0061",
+                "EP002/cue/0062",
+                "EP002/cue/0063",
+                "EP002/cue/0064",
+                "EP002/cue/0065",
+                "EP002/cue/0066",
+                "EP002/cue/0067",
+                "EP002/cue/0068",
+                "EP002/cue/0069",
+                "EP002/cue/0070"
+              ],
+              "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+              "truth_verified": false,
+              "human_review": "PENDING"
+            },
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "statement": {
+            "value": "谈判消息、否认与收益率变化的事件叙述，人名、数值及对应关系需核对。",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "claimant": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "asserted_at": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "reference_time": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "population": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "quantifier": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "modal_strength": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "scope": {
+            "value": "Assistant-normalized attributed utterance; not verified fact",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "source_refs": {
+            "value": [
+              "EP002/source"
+            ],
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "reasoner_id": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "analysis_context": {
+            "value": "historical_reconstruction",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          },
+          "annotation_observer": {
+            "value": "observer:current_assistant:model_version_unrecorded",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": {
+        "id": "EP002/C17",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0402",
+            "EP002/cue/0403",
+            "EP002/cue/0404",
+            "EP002/cue/0405",
+            "EP002/cue/0406",
+            "EP002/cue/0407",
+            "EP002/cue/0408",
+            "EP002/cue/0409",
+            "EP002/cue/0410",
+            "EP002/cue/0411"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "技术名称、Token市场占比和成本比较需核对，暂不启用相关定量主张。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+      "review_status": "PENDING_AUDIO_OR_HUMAN",
+      "source_mapping": {
+        "object_ref": "EP002/C17",
+        "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP002\\原始字幕.srt",
+        "source_sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+        "cue_ids": [
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411
+        ],
+        "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+        "fields": {
+          "id": {
+            "value": "EP002/C17",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "object_type": {
+            "value": "Claim",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "schema_version": {
+            "value": "0.1.0",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "ontology_version": {
+            "value": "0.3",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "created_at": {
+            "value": null,
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "provenance_refs": {
+            "value": [],
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "metadata": {
+            "value": {
+              "source_segment_refs": [
+                "EP002/cue/0402",
+                "EP002/cue/0403",
+                "EP002/cue/0404",
+                "EP002/cue/0405",
+                "EP002/cue/0406",
+                "EP002/cue/0407",
+                "EP002/cue/0408",
+                "EP002/cue/0409",
+                "EP002/cue/0410",
+                "EP002/cue/0411"
+              ],
+              "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+              "truth_verified": false,
+              "human_review": "PENDING"
+            },
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "statement": {
+            "value": "技术名称、Token市场占比和成本比较需核对，暂不启用相关定量主张。",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "claimant": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "asserted_at": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "reference_time": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "population": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "quantifier": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "modal_strength": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "scope": {
+            "value": "Assistant-normalized attributed utterance; not verified fact",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "source_refs": {
+            "value": [
+              "EP002/source"
+            ],
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "reasoner_id": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "analysis_context": {
+            "value": "historical_reconstruction",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          },
+          "annotation_observer": {
+            "value": "observer:current_assistant:model_version_unrecorded",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              402,
+              403,
+              404,
+              405,
+              406,
+              407,
+              408,
+              409,
+              410,
+              411
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": {
+        "id": "EP002/C18",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0414",
+            "EP002/cue/0415",
+            "EP002/cue/0416",
+            "EP002/cue/0417",
+            "EP002/cue/0418",
+            "EP002/cue/0419",
+            "EP002/cue/0420",
+            "EP002/cue/0421"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主回顾通胀公布后的资产方向，债券价格、利率和概率数值对应需核对。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+      "review_status": "PENDING_AUDIO_OR_HUMAN",
+      "source_mapping": {
+        "object_ref": "EP002/C18",
+        "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP002\\原始字幕.srt",
+        "source_sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+        "cue_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+        "fields": {
+          "id": {
+            "value": "EP002/C18",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "object_type": {
+            "value": "Claim",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "schema_version": {
+            "value": "0.1.0",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "ontology_version": {
+            "value": "0.3",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "created_at": {
+            "value": null,
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "provenance_refs": {
+            "value": [],
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "metadata": {
+            "value": {
+              "source_segment_refs": [
+                "EP002/cue/0414",
+                "EP002/cue/0415",
+                "EP002/cue/0416",
+                "EP002/cue/0417",
+                "EP002/cue/0418",
+                "EP002/cue/0419",
+                "EP002/cue/0420",
+                "EP002/cue/0421"
+              ],
+              "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+              "truth_verified": false,
+              "human_review": "PENDING"
+            },
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "statement": {
+            "value": "博主回顾通胀公布后的资产方向，债券价格、利率和概率数值对应需核对。",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "claimant": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "asserted_at": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "reference_time": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "population": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "quantifier": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "modal_strength": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "scope": {
+            "value": "Assistant-normalized attributed utterance; not verified fact",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "source_refs": {
+            "value": [
+              "EP002/source"
+            ],
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "reasoner_id": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "analysis_context": {
+            "value": "historical_reconstruction",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          },
+          "annotation_observer": {
+            "value": "observer:current_assistant:model_version_unrecorded",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              414,
+              415,
+              416,
+              417,
+              418,
+              419,
+              420,
+              421
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": {
+        "id": "EP002/C20",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0089",
+            "EP002/cue/0090",
+            "EP002/cue/0091"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "原油进口比例字幕存在多个相邻数值和含混断句。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "reason": "ASR_OR_MEANING_REVIEW_REQUIRED",
+      "review_status": "PENDING_AUDIO_OR_HUMAN",
+      "source_mapping": {
+        "object_ref": "EP002/C20",
+        "source_file": "G:\\youhegaojian\\batch_pilot_materials\\EP002\\原始字幕.srt",
+        "source_sha256": "50dc67770ca38ac7366397074094b66732cfc25186ac6d8497d6221c47f14f6b",
+        "cue_ids": [
+          89,
+          90,
+          91
+        ],
+        "provenance_class": "ASR_TRANSCRIPT_NOT_AUDIO_VERIFIED",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded",
+        "fields": {
+          "id": {
+            "value": "EP002/C20",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "object_type": {
+            "value": "Claim",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "schema_version": {
+            "value": "0.1.0",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "ontology_version": {
+            "value": "0.3",
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "created_at": {
+            "value": null,
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "provenance_refs": {
+            "value": [],
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "metadata": {
+            "value": {
+              "source_segment_refs": [
+                "EP002/cue/0089",
+                "EP002/cue/0090",
+                "EP002/cue/0091"
+              ],
+              "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+              "truth_verified": false,
+              "human_review": "PENDING"
+            },
+            "origin": "implementation_or_source_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "statement": {
+            "value": "原油进口比例字幕存在多个相邻数值和含混断句。",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "claimant": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "asserted_at": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "reference_time": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "population": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "quantifier": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "modal_strength": {
+            "value": {
+              "state": "unknown"
+            },
+            "origin": "declared_unknown",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "scope": {
+            "value": "Assistant-normalized attributed utterance; not verified fact",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "source_refs": {
+            "value": [
+              "EP002/source"
+            ],
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "reasoner_id": {
+            "value": "analyst:9527:user_attributed",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "analysis_context": {
+            "value": "historical_reconstruction",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          },
+          "annotation_observer": {
+            "value": "observer:current_assistant:model_version_unrecorded",
+            "origin": "assistant_mapping_of_named_cues_or_input_metadata",
+            "cue_ids": [
+              89,
+              90,
+              91
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "activation_repair_pool": [
+    {
+      "object_ref": "EP002/A05",
+      "object_type": "Argument",
+      "source_path": "/objects/673",
+      "raw_payload": {
+        "id": "EP002/A05",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            414,
+            415,
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424
+          ]
+        },
+        "premises": [
+          "EP002/C18"
+        ],
+        "steps": [
+          {
+            "id": "EP002/A05/step1",
+            "premises": [
+              "EP002/C18"
+            ],
+            "conclusion_ref": "EP002/C19",
+            "statement": "资产反应与政策落地的比较存在待核对前提，整链暂缓。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP002/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP002/C19",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP002/source"
+        ]
+      },
+      "projected_payload": {
+        "id": "EP002/A05",
+        "object_type": "Argument",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "edge_attribution": "Assistant reconstructs relationship among attributed claims; no claim that speaker explicitly enumerated these edges",
+          "cue_ids": [
+            414,
+            415,
+            416,
+            417,
+            418,
+            419,
+            420,
+            421,
+            422,
+            423,
+            424
+          ]
+        },
+        "premises": [
+          "EP002/C18"
+        ],
+        "steps": [
+          {
+            "id": "EP002/A05/step1",
+            "premises": [
+              "EP002/C18"
+            ],
+            "conclusion_ref": "EP002/C19",
+            "statement": "资产反应与政策落地的比较存在待核对前提，整链暂缓。",
+            "expression_level": "model_reconstruction",
+            "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+            "analysis_context": "historical_reconstruction",
+            "source_refs": [
+              "EP002/source"
+            ]
+          }
+        ],
+        "intermediate_conclusions": [],
+        "final_conclusion": "EP002/C19",
+        "expression_level": "model_reconstruction",
+        "reasoner_id": "observer:current_assistant:model_version_unrecorded",
+        "analysis_context": "historical_reconstruction",
+        "inferential_distance": {
+          "state": "unknown"
+        },
+        "creator_shortcuts": [],
+        "most_fragile_step": {
+          "state": "unknown"
+        },
+        "source_refs": [
+          "EP002/source"
+        ]
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/A05",
+          "field_path": "/premises/0",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        },
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/A05",
+          "field_path": "/steps/0/premises/0",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0048",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/451",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0048",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0048",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0048",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0048",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0048",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0049",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/452",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0049",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0049",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0049",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0049",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0049",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0050",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/453",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0050",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0050",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0050",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0050",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0050",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0051",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/454",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0051",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0051",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0051",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0051",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0051",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0052",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/455",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0052",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0052",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0052",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0052",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0052",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0053",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/456",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0053",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0053",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0053",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0053",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0053",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0054",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/457",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0054",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0054",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0054",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0054",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0054",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0055",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/458",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0055",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0055",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0055",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0055",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0055",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0056",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/459",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0056",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0056",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0056",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0056",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0056",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0057",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/460",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0057",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0057",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0057",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0057",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0057",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0058",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/461",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0058",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0058",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0058",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0058",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0058",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0059",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/462",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0059",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0059",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0059",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0059",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0059",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0060",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/463",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0060",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0060",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0060",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0060",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0060",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0061",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/464",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0061",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0061",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0061",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0061",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0061",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0062",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/465",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0062",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0062",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0062",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0062",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0062",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0063",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/466",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0063",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0063",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0063",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0063",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0063",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0064",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/467",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0064",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0064",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0064",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0064",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0064",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0065",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/468",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0065",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0065",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0065",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0065",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0065",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0066",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/469",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0066",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0066",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0066",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0066",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0066",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0067",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/470",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0067",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0067",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0067",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0067",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0067",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0068",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/471",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0068",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0068",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0068",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0068",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0068",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0069",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/472",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0069",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0069",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0069",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0069",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0069",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C03/occurrence/0070",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/473",
+      "raw_payload": {
+        "id": "EP002/C03/occurrence/0070",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0070",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C03/occurrence/0070",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C03",
+        "source_segment_ref": "EP002/cue/0070",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C03/occurrence/0070",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C03"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0402",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/643",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0402",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0402",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0402",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0402",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0402",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0403",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/644",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0403",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0403",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0403",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0403",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0403",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0404",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/645",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0404",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0404",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0404",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0404",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0404",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0405",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/646",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0405",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0405",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0405",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0405",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0405",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0406",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/647",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0406",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0406",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0406",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0406",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0406",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0407",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/648",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0407",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0407",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0407",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0407",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0407",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0408",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/649",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0408",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0408",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0408",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0408",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0408",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0409",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/650",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0409",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0409",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0409",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0409",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0409",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0410",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/651",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0410",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0410",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0410",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0410",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0410",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C17/occurrence/0411",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/652",
+      "raw_payload": {
+        "id": "EP002/C17/occurrence/0411",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0411",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C17/occurrence/0411",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C17",
+        "source_segment_ref": "EP002/cue/0411",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C17/occurrence/0411",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C17"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0414",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/653",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0414",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0414",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0414",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0414",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0414",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0415",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/654",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0415",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0415",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0415",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0415",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0415",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0416",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/655",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0416",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0416",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0416",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0416",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0416",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0417",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/656",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0417",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0417",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0417",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0417",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0417",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0418",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/657",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0418",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0418",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0418",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0418",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0418",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0419",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/658",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0419",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0419",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0419",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0419",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0419",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0420",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/659",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0420",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0420",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0420",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0420",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0420",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C18/occurrence/0421",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/660",
+      "raw_payload": {
+        "id": "EP002/C18/occurrence/0421",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0421",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C18/occurrence/0421",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C18",
+        "source_segment_ref": "EP002/cue/0421",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C18/occurrence/0421",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C18"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C19",
+      "object_type": "Claim",
+      "source_path": "/objects/661",
+      "raw_payload": {
+        "id": "EP002/C19",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0421",
+            "EP002/cue/0422",
+            "EP002/cue/0423",
+            "EP002/cue/0424"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主提醒市场提前定价与正式政策落地不是同一阶段。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "projected_payload": {
+        "id": "EP002/C19",
+        "object_type": "Claim",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {
+          "source_segment_refs": [
+            "EP002/cue/0421",
+            "EP002/cue/0422",
+            "EP002/cue/0423",
+            "EP002/cue/0424"
+          ],
+          "normalization": "assistant paraphrase; exact ASR quotes in claim ledger",
+          "truth_verified": false,
+          "human_review": "PENDING"
+        },
+        "statement": "博主提醒市场提前定价与正式政策落地不是同一阶段。",
+        "claimant": "analyst:9527:user_attributed",
+        "asserted_at": {
+          "state": "unknown"
+        },
+        "reference_time": {
+          "state": "unknown"
+        },
+        "population": {
+          "state": "unknown"
+        },
+        "quantifier": {
+          "state": "unknown"
+        },
+        "modal_strength": {
+          "state": "unknown"
+        },
+        "scope": "Assistant-normalized attributed utterance; not verified fact",
+        "source_refs": [
+          "EP002/source"
+        ],
+        "reasoner_id": "analyst:9527:user_attributed",
+        "analysis_context": "historical_reconstruction",
+        "annotation_observer": "observer:current_assistant:model_version_unrecorded"
+      },
+      "reasons": [
+        {
+          "rule_id": "ACT-DEPENDENCY",
+          "field_path": "/inference_support",
+          "related_refs": [
+            "EP002/A05"
+          ],
+          "reason": "Evidence dependency unavailable; entire dependent object deferred.",
+          "dependency_kind": "RECORDED_ARGUMENT_SUPPORT"
+        },
+        {
+          "rule_id": "ACT-DEPENDENCY",
+          "field_path": "/inference_support",
+          "related_refs": [
+            "EP002/A05"
+          ],
+          "reason": "Evidence dependency unavailable; entire dependent object deferred.",
+          "dependency_kind": "RECORDED_ARGUMENT_SUPPORT"
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 2,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C19/occurrence/0421",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/662",
+      "raw_payload": {
+        "id": "EP002/C19/occurrence/0421",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0421",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C19/occurrence/0421",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0421",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C19/occurrence/0421",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C19"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 3,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C19/occurrence/0422",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/663",
+      "raw_payload": {
+        "id": "EP002/C19/occurrence/0422",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0422",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C19/occurrence/0422",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0422",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C19/occurrence/0422",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C19"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 3,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C19/occurrence/0423",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/664",
+      "raw_payload": {
+        "id": "EP002/C19/occurrence/0423",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0423",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C19/occurrence/0423",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0423",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C19/occurrence/0423",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C19"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 3,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C19/occurrence/0424",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/665",
+      "raw_payload": {
+        "id": "EP002/C19/occurrence/0424",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0424",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C19/occurrence/0424",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C19",
+        "source_segment_ref": "EP002/cue/0424",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C19/occurrence/0424",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C19"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 3,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C20/occurrence/0089",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/666",
+      "raw_payload": {
+        "id": "EP002/C20/occurrence/0089",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0089",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C20/occurrence/0089",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0089",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C20/occurrence/0089",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C20"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C20/occurrence/0090",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/667",
+      "raw_payload": {
+        "id": "EP002/C20/occurrence/0090",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0090",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C20/occurrence/0090",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0090",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C20/occurrence/0090",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C20"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    },
+    {
+      "object_ref": "EP002/C20/occurrence/0091",
+      "object_type": "ClaimOccurrence",
+      "source_path": "/objects/668",
+      "raw_payload": {
+        "id": "EP002/C20/occurrence/0091",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0091",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "projected_payload": {
+        "id": "EP002/C20/occurrence/0091",
+        "object_type": "ClaimOccurrence",
+        "schema_version": "0.1.0",
+        "ontology_version": "0.3",
+        "created_at": null,
+        "provenance_refs": [],
+        "metadata": {},
+        "claim_ref": "EP002/C20",
+        "source_segment_ref": "EP002/cue/0091",
+        "source_version_ref": "EP002/version/50dc67770ca38ac7",
+        "origin_family_ref": null,
+        "asserted_at": {
+          "state": "unknown"
+        }
+      },
+      "reasons": [
+        {
+          "rule_id": "V-REF004",
+          "rule_name": "Complete bundle resolution",
+          "category": "Reference",
+          "severity": "ERROR",
+          "outcome": "ERROR",
+          "object_ref": "EP002/C20/occurrence/0091",
+          "field_path": "/claim_ref",
+          "message": "Unresolved reference.",
+          "related_refs": [
+            "EP002/C20"
+          ],
+          "evidence_refs": [],
+          "review_required": false,
+          "details": {
+            "reason": "absent_from_bundle"
+          }
+        }
+      ],
+      "status": "DEFERRED_NOT_USABLE",
+      "round": 1,
+      "activation_condition": "Supplement evidence or an unambiguous versioned conversion, then recompute dependency closure and validation."
+    }
+  ],
+  "semantics": "NOT_USABLE_NOW is not FALSE or nonexistent"
+}

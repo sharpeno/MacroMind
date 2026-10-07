@@ -1,0 +1,329 @@
+{
+  "validator_version": "CORE-ONTOLOGY-FREEZE-INTEGRITY-1",
+  "validated_at": "2026-09-27T00:45:14+08:00",
+  "phase": "staged_artifacts_before_formal_manifest_publication",
+  "scope": "Freeze packaging integrity only, not Golden factual validation or Phase 1 implementation.",
+  "ERROR": 0,
+  "WARNING": 4,
+  "PASS": 32,
+  "hard_checks": [
+    {
+      "check_id": "FZ-001",
+      "status": "PASS",
+      "evidence": {
+        "count": 14
+      }
+    },
+    {
+      "check_id": "FZ-002",
+      "status": "PASS",
+      "evidence": {
+        "actual": [
+          "Source",
+          "Claim",
+          "Event",
+          "StructuralProcess",
+          "Actor",
+          "Indicator",
+          "Policy",
+          "Mechanism",
+          "Argument",
+          "Thesis",
+          "Forecast",
+          "Contradiction",
+          "Assessment",
+          "Heuristic"
+        ],
+        "expected": [
+          "Source",
+          "Claim",
+          "Event",
+          "StructuralProcess",
+          "Actor",
+          "Indicator",
+          "Policy",
+          "Mechanism",
+          "Argument",
+          "Thesis",
+          "Forecast",
+          "Contradiction",
+          "Assessment",
+          "Heuristic"
+        ]
+      }
+    },
+    {
+      "check_id": "FZ-003",
+      "status": "PASS",
+      "evidence": {
+        "new": []
+      }
+    },
+    {
+      "check_id": "FZ-004",
+      "status": "PASS",
+      "evidence": {
+        "removed": []
+      }
+    },
+    {
+      "check_id": "FZ-005",
+      "status": "PASS",
+      "evidence": {
+        "register_sha256": "177502b5ad7f8e79d5cf70ae0eb556f705da7a0b3673ee6c0e27417623ffca98"
+      }
+    },
+    {
+      "check_id": "FZ-006",
+      "status": "PASS",
+      "evidence": {
+        "decision": "READY_TO_FREEZE_WITH_NONBLOCKING_DEBTS"
+      }
+    },
+    {
+      "check_id": "FZ-007",
+      "status": "PASS",
+      "evidence": {
+        "boundary_count": 15
+      }
+    },
+    {
+      "check_id": "FZ-008",
+      "status": "PASS",
+      "evidence": {
+        "core_change_required_values": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "check_id": "FZ-009",
+      "status": "PASS",
+      "evidence": {
+        "ledger_hash": "51be1edb402cd6a188fe27826876727fd14d030b53412cd577d2bd91ded9b52c",
+        "historical_count": 20
+      }
+    },
+    {
+      "check_id": "FZ-010",
+      "status": "PASS",
+      "evidence": {
+        "blocking_core_debt": 0
+      }
+    },
+    {
+      "check_id": "FZ-011",
+      "status": "PASS",
+      "evidence": {
+        "files_compared": 127,
+        "snapshot_file": "protected_input_snapshot.json",
+        "comparison": "file inventory and raw bytes SHA256 before/after"
+      }
+    },
+    {
+      "check_id": "FZ-012",
+      "status": "PASS",
+      "evidence": {
+        "reason": "All Golden files byte-identical; no extraction/migration/finalization code executed."
+      }
+    },
+    {
+      "check_id": "FZ-013",
+      "status": "PASS",
+      "evidence": {
+        "definitions_exact_copy": true,
+        "boundary_rules_exact_copy": true,
+        "principles_source": "user-authorized prompt P01–P16; whitespace-only normalization",
+        "semantic_hash": "8cca78e0444041e692029b3d32374058d6e62bef369726cce84db92a92a8e424",
+        "scope": "Mechanical consolidation plus reviewed semantic preservation, not automated theorem proving."
+      }
+    },
+    {
+      "check_id": "FZ-014",
+      "status": "PASS",
+      "evidence": {
+        "audit_files_compared": 10,
+        "historical_formal_freeze_executed": false
+      }
+    },
+    {
+      "check_id": "FZ-015",
+      "status": "PASS",
+      "evidence": {
+        "contract": "CORE_ONTOLOGY_V0.3_FROZEN.md",
+        "section_count": 18
+      }
+    },
+    {
+      "check_id": "FZ-016",
+      "status": "PASS",
+      "evidence": {
+        "contract_sha256": "c6213568d9a27afb873544c1cce943b79233044910e27a77ddf16c675a5cba23"
+      }
+    },
+    {
+      "check_id": "FZ-017",
+      "status": "PASS",
+      "evidence": {
+        "principles": [
+          "P13",
+          "P14"
+        ],
+        "axes": 11
+      }
+    },
+    {
+      "check_id": "FZ-018",
+      "status": "PASS",
+      "evidence": {
+        "section": "9. Provenance",
+        "input_records": 44
+      }
+    },
+    {
+      "check_id": "FZ-019",
+      "status": "PASS",
+      "evidence": {
+        "principles": [
+          "P15",
+          "P16"
+        ]
+      }
+    },
+    {
+      "check_id": "FZ-020",
+      "status": "PASS",
+      "evidence": {
+        "principles": [
+          "P01",
+          "P02",
+          "P10"
+        ]
+      }
+    },
+    {
+      "check_id": "FZ-021",
+      "status": "PASS",
+      "evidence": {
+        "boundary": "B09",
+        "detail": "accepted audit section 15"
+      }
+    },
+    {
+      "check_id": "FZ-022",
+      "status": "PASS",
+      "evidence": {
+        "boundary": "B03"
+      }
+    },
+    {
+      "check_id": "FZ-023",
+      "status": "PASS",
+      "evidence": {
+        "boundaries": [
+          "B12",
+          "B13"
+        ],
+        "principle": "P11"
+      }
+    },
+    {
+      "check_id": "FZ-024",
+      "status": "PASS",
+      "evidence": {
+        "production_import_ready": false
+      }
+    },
+    {
+      "check_id": "FZ-025",
+      "status": "PASS",
+      "evidence": {
+        "analyst_skill_status": "NOT_READY"
+      }
+    },
+    {
+      "check_id": "FZ-026",
+      "status": "PASS",
+      "evidence": {
+        "macromind_core_skill_status": "NOT_READY"
+      }
+    }
+  ],
+  "supplemental_checks": [
+    {
+      "check_id": "FZ-X01",
+      "status": "PASS",
+      "evidence": "All supplied input hashes match audited versions and commit baseline."
+    },
+    {
+      "check_id": "FZ-X02",
+      "status": "PASS",
+      "evidence": "All 16 principles present, exact prompt text with whitespace normalized."
+    },
+    {
+      "check_id": "FZ-X03",
+      "status": "PASS",
+      "evidence": "Staged output SHA256 read back from disk."
+    },
+    {
+      "check_id": "FZ-X04",
+      "status": "PASS",
+      "evidence": "Object status, provenance and allowed extension fields complete."
+    },
+    {
+      "check_id": "FZ-X05-GS004",
+      "status": "PASS",
+      "evidence": "Latest accepted Golden bound to finalization/hotfix output hash."
+    },
+    {
+      "check_id": "FZ-X05-GS005",
+      "status": "PASS",
+      "evidence": "Latest accepted Golden bound to finalization/hotfix output hash."
+    }
+  ],
+  "warnings": [
+    {
+      "code": "FZ-W01",
+      "debt_refs": [
+        "D19"
+      ],
+      "message": "GS001 summary only; complete machine-readable evidence unavailable."
+    },
+    {
+      "code": "FZ-W02",
+      "debt_refs": [
+        "D12"
+      ],
+      "message": "StructuralProcess formal positive instance missing."
+    },
+    {
+      "code": "FZ-W03",
+      "debt_refs": [
+        "D13"
+      ],
+      "message": "Contradiction formal positive instance missing."
+    },
+    {
+      "code": "FZ-W04",
+      "debt_refs": [
+        "D14"
+      ],
+      "message": "Heuristic validated Skill example missing; candidate is not Skill."
+    }
+  ],
+  "status": "PASS_WITH_WARNINGS"
+}

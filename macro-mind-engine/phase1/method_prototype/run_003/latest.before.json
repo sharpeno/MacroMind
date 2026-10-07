@@ -1,0 +1,9 @@
+{
+  "run": "run_002",
+  "report": "phase1/method_prototype/run_002/REPORT.md",
+  "trace": "phase1/method_prototype/run_002/TRACE.html",
+  "progress": "phase1/method_prototype/run_002/PROGRESS.md",
+  "status": "USER_CORRECTION_IMPLEMENTED",
+  "canonical_run_unchanged": "run_005",
+  "semantic_acceptance": false
+}

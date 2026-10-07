@@ -1,0 +1,65 @@
+{
+  "golden_id": "GS004",
+  "audit_phase": "A_read_only",
+  "claims": {
+    "total": 131,
+    "missing_semantic_role": 131,
+    "missing_recognition_stage": 131,
+    "incomplete_comparison_basis": 131
+  },
+  "indicators": {
+    "total": 29,
+    "missing_semantic_role": 29,
+    "missing_recognition_stage": 29
+  },
+  "observations": {
+    "total": 30,
+    "incomplete_comparison_basis": 30,
+    "missing_baseline_source_ref": 30,
+    "missing_recognition_stage": 30
+  },
+  "arguments": {
+    "total": 17,
+    "missing_inference_modes": 17,
+    "missing_expression_levels": 17,
+    "missing_inferential_distance": 0,
+    "missing_creator_shortcuts": 0,
+    "missing_most_fragile_step": 0
+  },
+  "method_signals": {
+    "total": 8,
+    "missing_domain": 0,
+    "missing_transferability": 0,
+    "missing_recurrence_match": 8,
+    "missing_matched_scope": 8,
+    "invalid_recurrence_status": 0
+  },
+  "failure_signals": {
+    "total": 1,
+    "missing_observed_reasoner_id": 1,
+    "missing_annotation_observer": 0,
+    "missing_observed_action": 1,
+    "missing_failure_assessment": 1,
+    "missing_failure_type": 1
+  },
+  "veracity_assessments": {
+    "total": 131,
+    "missing_verification_status": 131
+  },
+  "narrative_assessment_count": 4,
+  "future_sample_leakage_found": true,
+  "GS005_or_higher_prior_found": false,
+  "leakage_detail": "Existing candidate B uses GS002/HC01; GS002 content cutoff 2026-09-21 is later than GS004 2026-08-05. Registry order is not historical chronology.",
+  "input_missing": [
+    {
+      "input": "GS001 complete machine-readable method/heuristic/thesis registry",
+      "status": "input_missing",
+      "impact": "Only golden_report.md summary available; no exact method evidence or date confirmation"
+    },
+    {
+      "input": "Independent production MA.1 JSON Schema / complete global registry",
+      "status": "input_missing",
+      "impact": "Use MA.1 patch and local registries; no production-import certification"
+    }
+  ]
+}

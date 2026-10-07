@@ -1,0 +1,31 @@
+...................F........................................             [100%]
+================================== FAILURES ===================================
+_______________________ test_entire_bundle_preverified ________________________
+
+artifact = <function artifact.<locals>.build at 0x000001C18E4F2C00>
+normalizer = <macromind.audit.normalize.AuditNormalizer object at 0x000001C18E45F170>
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001C18E45FAD0>
+
+    def test_entire_bundle_preverified(artifact, normalizer, monkeypatch):
+        from macromind.audit import normalize
+    
+        a = artifact({"issues": [{}]})
+        b = artifact({"issues": []})
+        b.content["issues"].append({"bad": True})
+    
+        def forbidden(*args):
+            pytest.fail("Normalization began before all hashes verified")
+    
+        monkeypatch.setattr(normalize, "_source_items", forbidden)
+        with pytest.raises(InputIntegrityError):
+>           normalizer.normalize_bundle(AuditInputBundle(validation_reports=[a, b]))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           pydantic_core._pydantic_core.ValidationError: 1 validation error for AuditInputBundle
+E           validation_reports.1
+E             Value error, Source SHA-256 mismatch [type=value_error, input_value=AuditInputArtifact(artifa...}, expected_sha256=None), input_type=AuditInputArtifact]
+E               For further information visit https://errors.pydantic.dev/2.13/v/value_error
+
+tests\audit\test_immutability.py:61: ValidationError
+=========================== short test summary info ===========================
+FAILED tests/audit/test_immutability.py::test_entire_bundle_preverified - pyd...
+1 failed, 59 passed in 1.04s

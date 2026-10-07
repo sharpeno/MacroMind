@@ -1,0 +1,112 @@
+[
+  {
+    "version_id": "LV01",
+    "source_id": "S05",
+    "item_published_at": "2026-03-03T04:19:00+08:00",
+    "topic": "伊朗军方顾问声称关闭；报道同时注明尚无革命卫队官方声明",
+    "cutoff_status": "eligible_by_displayed_timestamp",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV02",
+    "source_id": "S05",
+    "item_published_at": "2026-03-03T00:58:00+08:00",
+    "topic": "特朗普称计划4至5周、可更久，并声称摧毁舰艇",
+    "cutoff_status": "eligible_by_displayed_timestamp",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV03",
+    "source_id": "S05",
+    "item_published_at": "2026-03-02T12:27:00+08:00",
+    "topic": "拉里贾尼表态不与美国谈判",
+    "cutoff_status": "eligible_by_displayed_timestamp",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV04",
+    "source_id": "S05",
+    "item_published_at": "2026-03-01T21:54:00+08:00",
+    "topic": "革命卫队声称向林肯号发射4枚导弹",
+    "cutoff_status": "eligible_by_displayed_timestamp",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV05",
+    "source_id": "S05",
+    "item_published_at": "2026-03-02",
+    "topic": "以色列拟逐步重新开放空域；最早当地当晚",
+    "cutoff_status": "eligible_by_displayed_timestamp",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": "日期已知，时刻未可靠记录；仅作为计划报道，不能当成实际开放"
+  },
+  {
+    "version_id": "LV06",
+    "source_id": "S05",
+    "item_published_at": "2026-03-03T21:26:00+08:00",
+    "topic": "王毅与以外长通话",
+    "cutoff_status": "post_cutoff",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV07",
+    "source_id": "S05",
+    "item_published_at": "2026-03-03T23:08:00+08:00",
+    "topic": "伊朗战果声明",
+    "cutoff_status": "post_cutoff",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV08",
+    "source_id": "S05",
+    "item_published_at": "2026-03-04",
+    "topic": "后续直播条目整组",
+    "cutoff_status": "post_cutoff",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV09",
+    "source_id": "S05",
+    "item_published_at": "2026-03-05",
+    "topic": "后续直播条目整组",
+    "cutoff_status": "post_cutoff",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  },
+  {
+    "version_id": "LV10",
+    "source_id": "S05",
+    "item_published_at": null,
+    "topic": "无独立条目时间的当前页标题、页首综述",
+    "cutoff_status": "review_required",
+    "captured_at": "2026-09-25T18:21:18+08:00",
+    "historical_snapshot_available": false,
+    "edit_history_known": false,
+    "note": null
+  }
+]

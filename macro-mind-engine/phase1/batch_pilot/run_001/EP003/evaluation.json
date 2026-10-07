@@ -1,0 +1,110 @@
+{
+  "episode": "EP003",
+  "cues": 415,
+  "coverage": {
+    "MAPPED_CLAIM_AND_CONTEXT": 183,
+    "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 154,
+    "REVIEW_REQUIRED": 78
+  },
+  "candidate_objects": 701,
+  "pre_admission_deferred": 6,
+  "activation_deferred": 91,
+  "active_objects": 604,
+  "active_types": {
+    "Argument": 3,
+    "Claim": 15,
+    "ClaimOccurrence": 167,
+    "Scenario": 2,
+    "Source": 1,
+    "SourceSegment": 415,
+    "SourceVersion": 1
+  },
+  "normalized_claims": 23,
+  "active_claims": 15,
+  "arguments": 5,
+  "active_arguments": 3,
+  "forecast_candidates_not_admitted": 5,
+  "audio_issue_groups": 8,
+  "nonreference_indeterminate": 9,
+  "warnings": 0,
+  "human_review": "PENDING",
+  "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+  "candidate_unknown_field_count": 1758,
+  "unknown_fields": {
+    "Source.created_at": 1,
+    "Source.published_at.start": 1,
+    "Source.published_at.end": 1,
+    "Source.published_at.source_ref": 1,
+    "Source.family_ref": 1,
+    "SourceVersion.created_at": 1,
+    "SourceVersion.content_time": 1,
+    "SourceVersion.published_at.start": 1,
+    "SourceVersion.published_at.end": 1,
+    "SourceVersion.published_at.source_ref": 1,
+    "SourceVersion.captured_at": 1,
+    "SourceSegment.created_at": 415,
+    "SourceSegment.content_time": 415,
+    "Claim.created_at": 23,
+    "Claim.asserted_at": 23,
+    "Claim.reference_time": 23,
+    "Claim.population": 23,
+    "Claim.quantifier": 23,
+    "Claim.modal_strength": 23,
+    "ClaimOccurrence.created_at": 254,
+    "ClaimOccurrence.origin_family_ref": 254,
+    "ClaimOccurrence.asserted_at": 254,
+    "Argument.created_at": 5,
+    "Argument.inferential_distance": 5,
+    "Argument.most_fragile_step": 5,
+    "Scenario.created_at": 2
+  },
+  "isolated_objects": 97,
+  "audit": {
+    "counts": {
+      "continuity": {
+        "annotations": 0,
+        "memberships": 0,
+        "relations": 0,
+        "review_conflicts": 0,
+        "thread_assignment_conflicts": 0
+      },
+      "dispositions": {
+        "OPAQUE_EXCLUDED": 0,
+        "PATTERN_ELIGIBLE": 5259,
+        "SUMMARY_ONLY": 0,
+        "TRACE_ONLY": 0
+      },
+      "patterns": 49,
+      "record_types": {
+        "VALIDATION_FINDING": 5259
+      },
+      "records": 5259,
+      "review_items": 9
+    },
+    "coverage": {
+      "analyst_model": "NOT_READY",
+      "analyst_skill": "NOT_READY",
+      "continuity_business_coverage": "NOT_DEMONSTRATED",
+      "continuity_input": "NOT_PROVIDED",
+      "data_kind": "REAL",
+      "input_mode": "CANONICAL",
+      "phase1_6_executed": false,
+      "production": "NOT_READY"
+    },
+    "execution_status": "COMPLETED",
+    "exit_code": 1,
+    "findings_status": "INDETERMINATE",
+    "manifest_sha256": "08265ad0ee42d4c5cb2f397c21aab91b73d4d67f355e9a577c0f5b1d48962462",
+    "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_d8295db74e3b415f818cbc888bb40527"
+  },
+  "manual_work": {
+    "assistant_cues_read": 415,
+    "human_reviewed_claims": 0,
+    "human_reviewed_chains": 0,
+    "audio_cues_verified": 0,
+    "pending_issue_groups": 8,
+    "pending_minimum_chain_reviews": 2,
+    "estimated_hours": "NOT_ESTIMATED"
+  },
+  "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+}

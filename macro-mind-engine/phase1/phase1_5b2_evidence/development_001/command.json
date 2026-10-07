@@ -1,0 +1,12 @@
+{
+  "argv": [
+    "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "G:\\youhegaojian\\macro-mind-engine\\tests\\audit_continuity",
+    "-q",
+    "--junitxml=G:\\youhegaojian\\macro-mind-engine\\phase1\\phase1_5b2_evidence\\development_001\\junit.xml"
+  ],
+  "cwd": "G:\\youhegaojian\\macro-mind-engine",
+  "exit_code": 1
+}

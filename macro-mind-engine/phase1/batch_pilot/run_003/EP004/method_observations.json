@@ -1,0 +1,39 @@
+[
+  {
+    "id": "EP004/M01",
+    "cues": [
+      190,
+      191,
+      192,
+      194
+    ],
+    "observation": "分解出海潜力的渠道、知识产权与执行障碍。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  },
+  {
+    "id": "EP004/M02",
+    "cues": [
+      319,
+      320,
+      321,
+      322,
+      323,
+      324,
+      325,
+      326,
+      327,
+      328,
+      329,
+      330,
+      331,
+      332,
+      333,
+      334,
+      335
+    ],
+    "observation": "从行业演化和成功机制判断空间，再对照市场认知；区分认识不足带来的机会与名不副实的风险。",
+    "reasoner": "observer:current_assistant:model_version_unrecorded",
+    "status": "MODEL_OBSERVATION_NOT_CREATOR_HEURISTIC_OR_SKILL"
+  }
+]

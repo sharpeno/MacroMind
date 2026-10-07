@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "all_claim_fields_present",
+    "one_veracity_assessment_per_claim",
+    "every_forecast_claim_has_forecast",
+    "all_argument_claim_and_evidence_references_resolve",
+    "every_argument_has_limitations",
+    "semantic_segments_cover_all_cues_once",
+    "theses_have_resolvable_trace_chains",
+    "raw_input_SHA256_unchanged",
+    "no_quarantined_post_cutoff_source_in_veracity_support"
+  ],
+  "txt_srt_text_equal_ignoring_whitespace_and_txt_time_labels": true,
+  "summary": {
+    "creator_claim_count": 125,
+    "model_reconstruction_claim_count": 6,
+    "claim_count": 131,
+    "argument_count": 12,
+    "mechanism_count": 3,
+    "thesis_count": 3,
+    "forecast_count": 17,
+    "contradiction_count": 0,
+    "heuristic_count": 2,
+    "review_queue_count": 41,
+    "review_by_priority": {
+      "Critical": 7,
+      "High": 20,
+      "Medium": 12,
+      "Low": 2
+    },
+    "semantic_segments": 17,
+    "sources": 19,
+    "source_cues": 731,
+    "assessment_count": 131,
+    "veracity_counts": {
+      "uncertain": 86,
+      "verified": 2,
+      "likely_true": 24,
+      "unverifiable": 14,
+      "likely_false": 4,
+      "disputed": 1
+    }
+  },
+  "limits": [
+    "not an audio verification",
+    "not an independent statistical replication",
+    "not a certification of causal validity",
+    "web pages lack archived as-of versions"
+  ]
+}

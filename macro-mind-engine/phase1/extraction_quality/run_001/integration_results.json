@@ -1,0 +1,11 @@
+{
+  "baseline_checks": 5,
+  "blocked_wrong_edge": true,
+  "changed_unreviewed_content_exit1": true,
+  "tampered_policy_exit2": true,
+  "blocked_runs_created_no_compile_output": true,
+  "guarded_compile_byte_identical_active_bundle": true,
+  "trial_path": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\quality_compile_trial_001",
+  "semantic_acceptance": false,
+  "held_out_semantic_accuracy": "NOT_MEASURED; unreviewed claim change only tests review routing"
+}

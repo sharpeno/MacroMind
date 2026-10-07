@@ -1,0 +1,1 @@
+{"checks": 38, "totals": {"cues": 1913, "candidate_objects": 3181, "active_objects": 2749, "normalized_claims": 116, "active_claims": 78, "active_arguments": 19, "nonreference_indeterminate": 53}, "review_groups": 7, "inputs": 15}

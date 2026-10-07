@@ -1,0 +1,26 @@
+{
+  "completed": [
+    "30份清单与原文件SHA-256",
+    "用户确认的整批来源元数据",
+    "可填写、批量编辑、浏览器暂存、JSON下载与导入页面"
+  ],
+  "pending": [
+    "后续研究进度见 followup；登记与划分已完成"
+  ],
+  "verified": {
+    "source_files_unchanged": 30,
+    "ui_result": "G:\\youhegaojian\\review-ui-qa\\intake001\\result.json",
+    "raw_stdout": "G:\\youhegaojian\\review-ui-qa\\intake001\\stdout.log",
+    "raw_stderr": "G:\\youhegaojian\\review-ui-qa\\intake001\\stderr.log"
+  },
+  "limitations": [
+    "标题日期已获用户认可；非独立核实的精确公开时间",
+    "字幕生成方式未知，未核听",
+    "原生另存对话框未自动化验证，下载与导入已实测"
+  ],
+  "commands": {
+    "build": ".venv/Scripts/python.exe -X utf8 phase1/material_intake/conflict_001/build.py",
+    "ui": "\"C:/Users/无语/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe\" \"G:/youhegaojian/review-ui-qa/intake001/check.cjs\""
+  },
+  "followup": "../../conflict_study/run_001/progress.json"
+}

@@ -1,0 +1,12 @@
+{
+  "url": "https://www.cls.cn/detail/1487920",
+  "snapshot": "sources/cls.html",
+  "sha256": "1706a3ad9fd4311f2625bccb99f6444a2c4bd1ef2a70d77fd04fc076e9899d8c",
+  "retrieved_at": "2026-10-07T12:13:42.614882+00:00",
+  "unavailable": [
+    {
+      "url": "https://cn.nytimes.com/world/20231018/biden-israel-trip/",
+      "result": "web.open non-retryable failure; not read, excluded"
+    }
+  ]
+}

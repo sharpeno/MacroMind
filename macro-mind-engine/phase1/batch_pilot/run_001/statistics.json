@@ -1,0 +1,552 @@
+[
+  {
+    "episode": "EP001",
+    "cues": 221,
+    "coverage": {
+      "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 72,
+      "MAPPED_CLAIM_AND_CONTEXT": 90,
+      "REVIEW_REQUIRED": 59
+    },
+    "candidate_objects": 388,
+    "pre_admission_deferred": 7,
+    "activation_deferred": 61,
+    "active_objects": 320,
+    "active_types": {
+      "Argument": 4,
+      "Claim": 14,
+      "ClaimOccurrence": 78,
+      "Scenario": 1,
+      "Source": 1,
+      "SourceSegment": 221,
+      "SourceVersion": 1
+    },
+    "normalized_claims": 21,
+    "active_claims": 14,
+    "arguments": 5,
+    "active_arguments": 4,
+    "forecast_candidates_not_admitted": 3,
+    "audio_issue_groups": 9,
+    "nonreference_indeterminate": 11,
+    "warnings": 0,
+    "human_review": "PENDING",
+    "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+    "candidate_unknown_field_count": 1009,
+    "unknown_fields": {
+      "Source.created_at": 1,
+      "Source.published_at.start": 1,
+      "Source.published_at.end": 1,
+      "Source.published_at.source_ref": 1,
+      "Source.family_ref": 1,
+      "SourceVersion.created_at": 1,
+      "SourceVersion.content_time": 1,
+      "SourceVersion.published_at.start": 1,
+      "SourceVersion.published_at.end": 1,
+      "SourceVersion.published_at.source_ref": 1,
+      "SourceVersion.captured_at": 1,
+      "SourceSegment.created_at": 221,
+      "SourceSegment.content_time": 221,
+      "Claim.created_at": 21,
+      "Claim.asserted_at": 21,
+      "Claim.reference_time": 21,
+      "Claim.population": 21,
+      "Claim.quantifier": 21,
+      "Claim.modal_strength": 21,
+      "ClaimOccurrence.created_at": 138,
+      "ClaimOccurrence.origin_family_ref": 138,
+      "ClaimOccurrence.asserted_at": 138,
+      "Argument.created_at": 5,
+      "Argument.inferential_distance": 5,
+      "Argument.most_fragile_step": 5,
+      "Scenario.created_at": 1
+    },
+    "isolated_objects": 68,
+    "audit": {
+      "counts": {
+        "continuity": {
+          "annotations": 0,
+          "memberships": 0,
+          "relations": 0,
+          "review_conflicts": 0,
+          "thread_assignment_conflicts": 0
+        },
+        "dispositions": {
+          "OPAQUE_EXCLUDED": 0,
+          "PATTERN_ELIGIBLE": 2806,
+          "SUMMARY_ONLY": 0,
+          "TRACE_ONLY": 0
+        },
+        "patterns": 49,
+        "record_types": {
+          "VALIDATION_FINDING": 2806
+        },
+        "records": 2806,
+        "review_items": 11
+      },
+      "coverage": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "continuity_business_coverage": "NOT_DEMONSTRATED",
+        "continuity_input": "NOT_PROVIDED",
+        "data_kind": "REAL",
+        "input_mode": "CANONICAL",
+        "phase1_6_executed": false,
+        "production": "NOT_READY"
+      },
+      "execution_status": "COMPLETED",
+      "exit_code": 1,
+      "findings_status": "INDETERMINATE",
+      "manifest_sha256": "51276b8ab3b6c45dce607ad05fc0df18694ea923fc4b979cbcdc04c3a9f396c7",
+      "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_27a696bcc7254656a0261083d61a6f83"
+    },
+    "manual_work": {
+      "assistant_cues_read": 221,
+      "human_reviewed_claims": 0,
+      "human_reviewed_chains": 0,
+      "audio_cues_verified": 0,
+      "pending_issue_groups": 9,
+      "pending_minimum_chain_reviews": 2,
+      "estimated_hours": "NOT_ESTIMATED"
+    },
+    "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+  },
+  {
+    "episode": "EP002",
+    "cues": 425,
+    "coverage": {
+      "REVIEW_REQUIRED": 123,
+      "MAPPED_CLAIM_AND_CONTEXT": 153,
+      "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 149
+    },
+    "candidate_objects": 680,
+    "pre_admission_deferred": 4,
+    "activation_deferred": 50,
+    "active_objects": 626,
+    "active_types": {
+      "Argument": 4,
+      "Claim": 15,
+      "ClaimOccurrence": 178,
+      "Scenario": 2,
+      "Source": 1,
+      "SourceSegment": 425,
+      "SourceVersion": 1
+    },
+    "normalized_claims": 20,
+    "active_claims": 15,
+    "arguments": 5,
+    "active_arguments": 4,
+    "forecast_candidates_not_admitted": 3,
+    "audio_issue_groups": 8,
+    "nonreference_indeterminate": 11,
+    "warnings": 0,
+    "human_review": "PENDING",
+    "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+    "candidate_unknown_field_count": 1676,
+    "unknown_fields": {
+      "Source.created_at": 1,
+      "Source.published_at.start": 1,
+      "Source.published_at.end": 1,
+      "Source.published_at.source_ref": 1,
+      "Source.family_ref": 1,
+      "SourceVersion.created_at": 1,
+      "SourceVersion.content_time": 1,
+      "SourceVersion.published_at.start": 1,
+      "SourceVersion.published_at.end": 1,
+      "SourceVersion.published_at.source_ref": 1,
+      "SourceVersion.captured_at": 1,
+      "SourceSegment.created_at": 425,
+      "SourceSegment.content_time": 425,
+      "Claim.created_at": 20,
+      "Claim.asserted_at": 20,
+      "Claim.reference_time": 20,
+      "Claim.population": 20,
+      "Claim.quantifier": 20,
+      "Claim.modal_strength": 20,
+      "ClaimOccurrence.created_at": 226,
+      "ClaimOccurrence.origin_family_ref": 226,
+      "ClaimOccurrence.asserted_at": 226,
+      "Argument.created_at": 5,
+      "Argument.inferential_distance": 5,
+      "Argument.most_fragile_step": 5,
+      "Scenario.created_at": 2
+    },
+    "isolated_objects": 54,
+    "audit": {
+      "counts": {
+        "continuity": {
+          "annotations": 0,
+          "memberships": 0,
+          "relations": 0,
+          "review_conflicts": 0,
+          "thread_assignment_conflicts": 0
+        },
+        "dispositions": {
+          "OPAQUE_EXCLUDED": 0,
+          "PATTERN_ELIGIBLE": 5455,
+          "SUMMARY_ONLY": 0,
+          "TRACE_ONLY": 0
+        },
+        "patterns": 49,
+        "record_types": {
+          "VALIDATION_FINDING": 5455
+        },
+        "records": 5455,
+        "review_items": 11
+      },
+      "coverage": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "continuity_business_coverage": "NOT_DEMONSTRATED",
+        "continuity_input": "NOT_PROVIDED",
+        "data_kind": "REAL",
+        "input_mode": "CANONICAL",
+        "phase1_6_executed": false,
+        "production": "NOT_READY"
+      },
+      "execution_status": "COMPLETED",
+      "exit_code": 1,
+      "findings_status": "INDETERMINATE",
+      "manifest_sha256": "c015215557770521b1a8270a9d4b40b755879e3b79a34bcefafc282175426745",
+      "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_55bdd55301e44766a4e2c0a8c99c5a18"
+    },
+    "manual_work": {
+      "assistant_cues_read": 425,
+      "human_reviewed_claims": 0,
+      "human_reviewed_chains": 0,
+      "audio_cues_verified": 0,
+      "pending_issue_groups": 8,
+      "pending_minimum_chain_reviews": 2,
+      "estimated_hours": "NOT_ESTIMATED"
+    },
+    "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+  },
+  {
+    "episode": "EP003",
+    "cues": 415,
+    "coverage": {
+      "MAPPED_CLAIM_AND_CONTEXT": 183,
+      "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 154,
+      "REVIEW_REQUIRED": 78
+    },
+    "candidate_objects": 701,
+    "pre_admission_deferred": 6,
+    "activation_deferred": 91,
+    "active_objects": 604,
+    "active_types": {
+      "Argument": 3,
+      "Claim": 15,
+      "ClaimOccurrence": 167,
+      "Scenario": 2,
+      "Source": 1,
+      "SourceSegment": 415,
+      "SourceVersion": 1
+    },
+    "normalized_claims": 23,
+    "active_claims": 15,
+    "arguments": 5,
+    "active_arguments": 3,
+    "forecast_candidates_not_admitted": 5,
+    "audio_issue_groups": 8,
+    "nonreference_indeterminate": 9,
+    "warnings": 0,
+    "human_review": "PENDING",
+    "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+    "candidate_unknown_field_count": 1758,
+    "unknown_fields": {
+      "Source.created_at": 1,
+      "Source.published_at.start": 1,
+      "Source.published_at.end": 1,
+      "Source.published_at.source_ref": 1,
+      "Source.family_ref": 1,
+      "SourceVersion.created_at": 1,
+      "SourceVersion.content_time": 1,
+      "SourceVersion.published_at.start": 1,
+      "SourceVersion.published_at.end": 1,
+      "SourceVersion.published_at.source_ref": 1,
+      "SourceVersion.captured_at": 1,
+      "SourceSegment.created_at": 415,
+      "SourceSegment.content_time": 415,
+      "Claim.created_at": 23,
+      "Claim.asserted_at": 23,
+      "Claim.reference_time": 23,
+      "Claim.population": 23,
+      "Claim.quantifier": 23,
+      "Claim.modal_strength": 23,
+      "ClaimOccurrence.created_at": 254,
+      "ClaimOccurrence.origin_family_ref": 254,
+      "ClaimOccurrence.asserted_at": 254,
+      "Argument.created_at": 5,
+      "Argument.inferential_distance": 5,
+      "Argument.most_fragile_step": 5,
+      "Scenario.created_at": 2
+    },
+    "isolated_objects": 97,
+    "audit": {
+      "counts": {
+        "continuity": {
+          "annotations": 0,
+          "memberships": 0,
+          "relations": 0,
+          "review_conflicts": 0,
+          "thread_assignment_conflicts": 0
+        },
+        "dispositions": {
+          "OPAQUE_EXCLUDED": 0,
+          "PATTERN_ELIGIBLE": 5259,
+          "SUMMARY_ONLY": 0,
+          "TRACE_ONLY": 0
+        },
+        "patterns": 49,
+        "record_types": {
+          "VALIDATION_FINDING": 5259
+        },
+        "records": 5259,
+        "review_items": 9
+      },
+      "coverage": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "continuity_business_coverage": "NOT_DEMONSTRATED",
+        "continuity_input": "NOT_PROVIDED",
+        "data_kind": "REAL",
+        "input_mode": "CANONICAL",
+        "phase1_6_executed": false,
+        "production": "NOT_READY"
+      },
+      "execution_status": "COMPLETED",
+      "exit_code": 1,
+      "findings_status": "INDETERMINATE",
+      "manifest_sha256": "08265ad0ee42d4c5cb2f397c21aab91b73d4d67f355e9a577c0f5b1d48962462",
+      "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_d8295db74e3b415f818cbc888bb40527"
+    },
+    "manual_work": {
+      "assistant_cues_read": 415,
+      "human_reviewed_claims": 0,
+      "human_reviewed_chains": 0,
+      "audio_cues_verified": 0,
+      "pending_issue_groups": 8,
+      "pending_minimum_chain_reviews": 2,
+      "estimated_hours": "NOT_ESTIMATED"
+    },
+    "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+  },
+  {
+    "episode": "EP004",
+    "cues": 342,
+    "coverage": {
+      "MAPPED_CLAIM_AND_CONTEXT": 129,
+      "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 135,
+      "REVIEW_REQUIRED": 78
+    },
+    "candidate_objects": 555,
+    "pre_admission_deferred": 6,
+    "activation_deferred": 71,
+    "active_objects": 478,
+    "active_types": {
+      "Argument": 2,
+      "Claim": 14,
+      "ClaimOccurrence": 117,
+      "Scenario": 1,
+      "Source": 1,
+      "SourceSegment": 342,
+      "SourceVersion": 1
+    },
+    "normalized_claims": 22,
+    "active_claims": 14,
+    "arguments": 5,
+    "active_arguments": 2,
+    "forecast_candidates_not_admitted": 3,
+    "audio_issue_groups": 10,
+    "nonreference_indeterminate": 7,
+    "warnings": 0,
+    "human_review": "PENDING",
+    "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+    "candidate_unknown_field_count": 1392,
+    "unknown_fields": {
+      "Source.created_at": 1,
+      "Source.published_at.start": 1,
+      "Source.published_at.end": 1,
+      "Source.published_at.source_ref": 1,
+      "Source.family_ref": 1,
+      "SourceVersion.created_at": 1,
+      "SourceVersion.content_time": 1,
+      "SourceVersion.published_at.start": 1,
+      "SourceVersion.published_at.end": 1,
+      "SourceVersion.published_at.source_ref": 1,
+      "SourceVersion.captured_at": 1,
+      "SourceSegment.created_at": 342,
+      "SourceSegment.content_time": 342,
+      "Claim.created_at": 22,
+      "Claim.asserted_at": 22,
+      "Claim.reference_time": 22,
+      "Claim.population": 22,
+      "Claim.quantifier": 22,
+      "Claim.modal_strength": 22,
+      "ClaimOccurrence.created_at": 183,
+      "ClaimOccurrence.origin_family_ref": 183,
+      "ClaimOccurrence.asserted_at": 183,
+      "Argument.created_at": 5,
+      "Argument.inferential_distance": 5,
+      "Argument.most_fragile_step": 5,
+      "Scenario.created_at": 1
+    },
+    "isolated_objects": 77,
+    "audit": {
+      "counts": {
+        "continuity": {
+          "annotations": 0,
+          "memberships": 0,
+          "relations": 0,
+          "review_conflicts": 0,
+          "thread_assignment_conflicts": 0
+        },
+        "dispositions": {
+          "OPAQUE_EXCLUDED": 0,
+          "PATTERN_ELIGIBLE": 4175,
+          "SUMMARY_ONLY": 0,
+          "TRACE_ONLY": 0
+        },
+        "patterns": 49,
+        "record_types": {
+          "VALIDATION_FINDING": 4175
+        },
+        "records": 4175,
+        "review_items": 7
+      },
+      "coverage": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "continuity_business_coverage": "NOT_DEMONSTRATED",
+        "continuity_input": "NOT_PROVIDED",
+        "data_kind": "REAL",
+        "input_mode": "CANONICAL",
+        "phase1_6_executed": false,
+        "production": "NOT_READY"
+      },
+      "execution_status": "COMPLETED",
+      "exit_code": 1,
+      "findings_status": "INDETERMINATE",
+      "manifest_sha256": "38a994643817c537cff2f6d6b209fe1ab5b12d8ecc6d805a7ff63d0c16b93d0b",
+      "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_144a6bbd46f14e60ac83caa8984191d1"
+    },
+    "manual_work": {
+      "assistant_cues_read": 342,
+      "human_reviewed_claims": 0,
+      "human_reviewed_chains": 0,
+      "audio_cues_verified": 0,
+      "pending_issue_groups": 10,
+      "pending_minimum_chain_reviews": 2,
+      "estimated_hours": "NOT_ESTIMATED"
+    },
+    "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+  },
+  {
+    "episode": "EP005",
+    "cues": 510,
+    "coverage": {
+      "REVIEW_REQUIRED": 167,
+      "READ_CONTEXT_NOT_ATOMICALLY_EXTRACTED": 189,
+      "MAPPED_CLAIM_AND_CONTEXT": 154
+    },
+    "candidate_objects": 834,
+    "pre_admission_deferred": 9,
+    "activation_deferred": 127,
+    "active_objects": 698,
+    "active_types": {
+      "Argument": 5,
+      "Claim": 16,
+      "ClaimOccurrence": 163,
+      "Scenario": 2,
+      "Source": 1,
+      "SourceSegment": 510,
+      "SourceVersion": 1
+    },
+    "normalized_claims": 26,
+    "active_claims": 16,
+    "arguments": 6,
+    "active_arguments": 5,
+    "forecast_candidates_not_admitted": 2,
+    "audio_issue_groups": 14,
+    "nonreference_indeterminate": 13,
+    "warnings": 0,
+    "human_review": "PENDING",
+    "extraction_recall": "NOT_MEASURED; block-level full coverage is not exhaustive atomic claim extraction",
+    "candidate_unknown_field_count": 2071,
+    "unknown_fields": {
+      "Source.created_at": 1,
+      "Source.published_at.start": 1,
+      "Source.published_at.end": 1,
+      "Source.published_at.source_ref": 1,
+      "Source.family_ref": 1,
+      "SourceVersion.created_at": 1,
+      "SourceVersion.content_time": 1,
+      "SourceVersion.published_at.start": 1,
+      "SourceVersion.published_at.end": 1,
+      "SourceVersion.published_at.source_ref": 1,
+      "SourceVersion.captured_at": 1,
+      "SourceSegment.created_at": 510,
+      "SourceSegment.content_time": 510,
+      "Claim.created_at": 26,
+      "Claim.asserted_at": 26,
+      "Claim.reference_time": 26,
+      "Claim.population": 26,
+      "Claim.quantifier": 26,
+      "Claim.modal_strength": 26,
+      "ClaimOccurrence.created_at": 288,
+      "ClaimOccurrence.origin_family_ref": 288,
+      "ClaimOccurrence.asserted_at": 288,
+      "Argument.created_at": 6,
+      "Argument.inferential_distance": 6,
+      "Argument.most_fragile_step": 6,
+      "Scenario.created_at": 2
+    },
+    "isolated_objects": 136,
+    "audit": {
+      "counts": {
+        "continuity": {
+          "annotations": 0,
+          "memberships": 0,
+          "relations": 0,
+          "review_conflicts": 0,
+          "thread_assignment_conflicts": 0
+        },
+        "dispositions": {
+          "OPAQUE_EXCLUDED": 0,
+          "PATTERN_ELIGIBLE": 6120,
+          "SUMMARY_ONLY": 0,
+          "TRACE_ONLY": 0
+        },
+        "patterns": 49,
+        "record_types": {
+          "VALIDATION_FINDING": 6120
+        },
+        "records": 6120,
+        "review_items": 13
+      },
+      "coverage": {
+        "analyst_model": "NOT_READY",
+        "analyst_skill": "NOT_READY",
+        "continuity_business_coverage": "NOT_DEMONSTRATED",
+        "continuity_input": "NOT_PROVIDED",
+        "data_kind": "REAL",
+        "input_mode": "CANONICAL",
+        "phase1_6_executed": false,
+        "production": "NOT_READY"
+      },
+      "execution_status": "COMPLETED",
+      "exit_code": 1,
+      "findings_status": "INDETERMINATE",
+      "manifest_sha256": "360e2f3bacc379cc59f0d9da44071245d14ed50d7775839caa64f9d58e3b9347",
+      "run_dir": "G:\\youhegaojian\\macro-mind-engine\\phase1\\batch_pilot\\run_001\\audit_runs\\run_622d625f405b403eaccfd1e8d2112a21"
+    },
+    "manual_work": {
+      "assistant_cues_read": 510,
+      "human_reviewed_claims": 0,
+      "human_reviewed_chains": 0,
+      "audio_cues_verified": 0,
+      "pending_issue_groups": 14,
+      "pending_minimum_chain_reviews": 2,
+      "estimated_hours": "NOT_ESTIMATED"
+    },
+    "semantic_extraction_scope": "Selected claims only; all other cues preserved with topic disposition. Recall and correctness not measured."
+  }
+]

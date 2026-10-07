@@ -1,0 +1,204 @@
+{
+  "ontology_version": "0.3",
+  "registry_version": "0.1.0",
+  "enum_name": "SemanticRole",
+  "requires_unknown": true,
+  "source_refs": [
+    "Phase 1.0-1.2 Execution Prompt",
+    "GS004/GS005 accepted auxiliary fields; MA.1 schema_contract.json"
+  ],
+  "entries": [
+    {
+      "value": "demand",
+      "description": "SemanticRole: demand; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "order",
+      "description": "SemanticRole: order; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "contract",
+      "description": "SemanticRole: contract; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "backlog",
+      "description": "SemanticRole: backlog; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "obligation",
+      "description": "SemanticRole: obligation; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "revenue",
+      "description": "SemanticRole: revenue; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "cash_receipt",
+      "description": "SemanticRole: cash receipt; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "capacity",
+      "description": "SemanticRole: capacity; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "utilization",
+      "description": "SemanticRole: utilization; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "asset",
+      "description": "SemanticRole: asset; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "capex",
+      "description": "SemanticRole: capex; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "depreciation",
+      "description": "SemanticRole: depreciation; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "impairment",
+      "description": "SemanticRole: impairment; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "operating_expense",
+      "description": "SemanticRole: operating expense; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "operating_cost",
+      "description": "SemanticRole: operating cost; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "cash_flow",
+      "description": "SemanticRole: cash flow; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "profit",
+      "description": "SemanticRole: profit; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "margin",
+      "description": "SemanticRole: margin; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "valuation",
+      "description": "SemanticRole: valuation; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "price",
+      "description": "SemanticRole: price; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "volume",
+      "description": "SemanticRole: volume; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "inventory",
+      "description": "SemanticRole: inventory; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "other",
+      "description": "SemanticRole: other; records the supplied category, without inference.",
+      "status": "stable",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    },
+    {
+      "value": "unknown",
+      "description": "Field is recognized; available evidence does not determine its value.",
+      "status": "candidate",
+      "introduced_in": "0.1.0",
+      "deprecated": false,
+      "replacement": null
+    }
+  ]
+}

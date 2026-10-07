@@ -1,0 +1,52 @@
+{
+  "created_during_acceptance_evidence_completion": true,
+  "failures": [
+    {
+      "current_status": "fresh JUnit write verified",
+      "evidence": {
+        "excerpt": "The initial attempt also passed test cases but failed writing JUnit XML because of",
+        "line": 7,
+        "path": "docs/EXECUTION_LOG.md"
+      },
+      "failure": "First JUnit write PermissionError",
+      "fix": "Successful historical rerun used workspace root and absolute JUnit path",
+      "original_evidence_path": "docs/EXECUTION_LOG.md",
+      "preserved_evidence_type": "pre-existing narrative record; raw failing terminal transcript was not saved as a workspace file",
+      "regression_test": "Fresh pytest run writes fresh_all-tests.xml; report exit and parsed cases verified"
+    },
+    {
+      "current_status": "verified by fresh tests",
+      "failure": "Generated enum formatter drift",
+      "fix": "Formatter exclusion **/_enums.py; regenerate only derived enum artifact",
+      "original_errors": [
+        "Generated enums are stale or incompatible with this schema build; regenerate and re-export schemas"
+      ],
+      "original_evidence_path": "phase1/installed_cli_report.json",
+      "original_exit_code": 1,
+      "preserved_evidence_type": "original saved structured failed CLI result",
+      "regression_test": "test_R011_generated_deterministic; test_registry_fail_closed[stale_enums]; fresh registry byte comparison"
+    },
+    {
+      "current_status": "verified by fresh tests",
+      "evidence": {
+        "excerpt": "reader exposed a Windows code-page mismatch when the schema-export log contained a",
+        "line": 52,
+        "path": "docs/EXECUTION_LOG.md"
+      },
+      "failure": "Windows encoding failure with Chinese temporary path",
+      "fix": "CLI json.dumps ensure_ascii=True keeps JSON parseable across Windows code pages",
+      "original_evidence_path": "docs/EXECUTION_LOG.md",
+      "preserved_evidence_type": "pre-existing narrative record; raw failing subprocess-reader traceback was not saved as a workspace file",
+      "regression_test": "test_json_logs_survive_windows_legacy_codepage + fresh installed CLI with GBK/Chinese path"
+    }
+  ],
+  "fresh_pass_does_not_replace_historical_failure": true,
+  "historical_raw_evidence_limitations": [
+    "JUnit and encoding failures have preserved narratives, not original raw failure logs. Fresh passing checks do not prove/recreate the exact historical failure run."
+  ],
+  "old_gate_used_as_premise": false,
+  "phase1_3_executed": false,
+  "records_deleted": false,
+  "retroactive_success_claim": false,
+  "started_at": "2026-09-27T14:09:46.173235+00:00"
+}

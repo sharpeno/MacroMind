@@ -1,0 +1,83 @@
+{
+  "browser": "Edge via Playwright",
+  "reason": "Browser plugin not available",
+  "viewports": [
+    "1280x900",
+    "390x844"
+  ],
+  "checks": [
+    {
+      "name": "identity",
+      "passed": true
+    },
+    {
+      "name": "meaningful body",
+      "passed": true
+    },
+    {
+      "name": "no error overlay",
+      "passed": true
+    },
+    {
+      "name": "two baseline cards",
+      "passed": true
+    },
+    {
+      "name": "provisional baseline visible",
+      "passed": true
+    },
+    {
+      "name": "updates expand",
+      "passed": true
+    },
+    {
+      "name": "observation scope explicit",
+      "passed": true
+    },
+    {
+      "name": "guidance baseline visible",
+      "passed": true
+    },
+    {
+      "name": "case navigation",
+      "passed": true
+    },
+    {
+      "name": "inference expanded",
+      "passed": true
+    },
+    {
+      "name": "alternatives and weakening visible",
+      "passed": true
+    },
+    {
+      "name": "original certainty preserved",
+      "passed": true
+    },
+    {
+      "name": "observation trace",
+      "passed": true
+    },
+    {
+      "name": "raw observation available",
+      "passed": true
+    },
+    {
+      "name": "transfer distinguished",
+      "passed": true
+    },
+    {
+      "name": "structured data",
+      "passed": true
+    },
+    {
+      "name": "mobile fits",
+      "passed": true
+    },
+    {
+      "name": "console healthy",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

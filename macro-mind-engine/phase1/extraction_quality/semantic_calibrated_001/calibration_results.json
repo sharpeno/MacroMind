@@ -1,0 +1,24 @@
+{
+  "samples": 3,
+  "outcomes": [
+    {
+      "id": "EP002/C16",
+      "human_decision": "change",
+      "outcome": "SELF_REVIEW_INCOMPLETE_METHOD_OMISSION",
+      "action": "Added reusable method claim C23 and M03 observation; narrowed C16 to hypothetical application",
+      "lesson": "Nine completed dimensions did not ensure the central reusable method was extracted. More policy detail was not the missing method."
+    },
+    {
+      "id": "EP003/C16",
+      "human_decision": "adopt_proposal",
+      "outcome": "PROPOSAL_ACCEPTED"
+    },
+    {
+      "id": "EP005/C20",
+      "human_decision": "keep_original",
+      "outcome": "RETENTION_ACCEPTED"
+    }
+  ],
+  "generalization_proven": false,
+  "repeat_review_requested": false
+}

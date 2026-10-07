@@ -1,0 +1,27 @@
+{
+  "objects": [
+    {
+      "analysis_context": "unknown",
+      "annotation_observer": null,
+      "asserted_at": null,
+      "claimant": null,
+      "created_at": null,
+      "id": "claim",
+      "metadata": {},
+      "modal_strength": null,
+      "object_type": "Claim",
+      "ontology_version": "0.3",
+      "population": null,
+      "provenance_refs": [],
+      "quantifier": null,
+      "reasoner_id": null,
+      "reference_time": null,
+      "schema_version": "0.1.0",
+      "scope": null,
+      "source_refs": [
+        "outside-bundle"
+      ],
+      "statement": "synthetic"
+    }
+  ]
+}

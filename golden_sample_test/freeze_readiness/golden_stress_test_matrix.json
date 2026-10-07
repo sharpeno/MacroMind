@@ -1,0 +1,284 @@
+{
+  "golden_stress_test_cards": [
+    {
+      "golden_id": "GS001",
+      "domain": "利率决策、市场预期与宏观叙事",
+      "evidence_completeness": "partial",
+      "core_objects_exercised": [
+        "Source",
+        "Claim",
+        "Event",
+        "Assessment",
+        "Argument",
+        "Mechanism",
+        "Thesis",
+        "Forecast",
+        "Heuristic"
+      ],
+      "core_boundaries_tested": [
+        "B01",
+        "B08",
+        "B10",
+        "B11",
+        "B13"
+      ],
+      "new_problem_discovered": "只有摘要；旧 source_conflict 后经时间范围裁决收窄；Expectation/Population 不需新 Core。",
+      "problem_type": "NON_BLOCKING_DEBT",
+      "additional_problem_types": [
+        "DATA_REVIEW"
+      ],
+      "existing_ontology_can_express": "yes",
+      "required_fix_layer": [
+        "field",
+        "auxiliary_object",
+        "review"
+      ],
+      "core_change_required": "no",
+      "evidence_refs": [
+        "E01",
+        "E02"
+      ],
+      "debt_refs": [
+        "D05",
+        "D19",
+        "D20"
+      ],
+      "result": "PASS_WITH_LIMITATION",
+      "notes": "PASS 指当前 Core 表达能力；不是全部数据正确、现代 schema 合格或生产就绪。StructuralProcess/Contradiction 的负例覆盖另列，不计正式正例。"
+    },
+    {
+      "golden_id": "GS002",
+      "domain": "中国金融结构、债务处置与资本配置",
+      "evidence_completeness": "structured_legacy",
+      "core_objects_exercised": [
+        "Source",
+        "Claim",
+        "Event",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Assessment",
+        "Argument",
+        "Mechanism",
+        "Thesis",
+        "Forecast",
+        "Heuristic"
+      ],
+      "core_boundaries_tested": [
+        "B01",
+        "B03",
+        "B05",
+        "B06",
+        "B07",
+        "B12"
+      ],
+      "new_problem_discovered": "SC08 曾是 V0.2 类型缺口，已由当前 StructuralProcess 解决；数量到价格、分类到化债结果仍须证据。",
+      "problem_type": "NON_BLOCKING_DEBT",
+      "additional_problem_types": [
+        "DATA_REVIEW"
+      ],
+      "existing_ontology_can_express": "yes",
+      "required_fix_layer": [
+        "field",
+        "validator",
+        "review"
+      ],
+      "core_change_required": "no",
+      "evidence_refs": [
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07"
+      ],
+      "debt_refs": [
+        "D02",
+        "D08",
+        "D11",
+        "D12",
+        "D13"
+      ],
+      "result": "PASS_WITH_LIMITATION",
+      "notes": "PASS 指当前 Core 表达能力；不是全部数据正确、现代 schema 合格或生产就绪。StructuralProcess/Contradiction 的负例覆盖另列，不计正式正例。"
+    },
+    {
+      "golden_id": "GS003",
+      "domain": "霍尔木兹冲突、能源库存与市场基础设施",
+      "evidence_completeness": "structured_legacy",
+      "core_objects_exercised": [
+        "Source",
+        "Claim",
+        "Event",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Assessment",
+        "Argument",
+        "Mechanism",
+        "Thesis",
+        "Forecast",
+        "Heuristic"
+      ],
+      "core_boundaries_tested": [
+        "B02",
+        "B03",
+        "B04",
+        "B05",
+        "B08",
+        "B09",
+        "B15"
+      ],
+      "new_problem_discovered": "条件分支可表达但旧账本准入需复核；滚动源历史版本不全，库存语义需细分。",
+      "problem_type": "NON_BLOCKING_DEBT",
+      "additional_problem_types": [
+        "DATA_REVIEW"
+      ],
+      "existing_ontology_can_express": "yes",
+      "required_fix_layer": [
+        "field",
+        "auxiliary_object",
+        "validator",
+        "review"
+      ],
+      "core_change_required": "no",
+      "evidence_refs": [
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E40"
+      ],
+      "debt_refs": [
+        "D03",
+        "D06",
+        "D12",
+        "D13",
+        "D16"
+      ],
+      "result": "PASS_WITH_LIMITATION",
+      "notes": "PASS 指当前 Core 表达能力；不是全部数据正确、现代 schema 合格或生产就绪。StructuralProcess/Contradiction 的负例覆盖另列，不计正式正例。"
+    },
+    {
+      "golden_id": "GS004",
+      "domain": "AI 云资本开支、收入与折旧、叙事分析",
+      "evidence_completeness": "accepted_local_ma1_knowledge_review_pending",
+      "core_objects_exercised": [
+        "Source",
+        "Claim",
+        "Event",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Assessment",
+        "Argument",
+        "Mechanism",
+        "Thesis",
+        "Forecast"
+      ],
+      "core_boundaries_tested": [
+        "B03",
+        "B05",
+        "B07",
+        "B09",
+        "B10",
+        "B12",
+        "B14"
+      ],
+      "new_problem_discovered": "未来 GS002 prior 已隔离；机制 attribution 已接受 unknown；量纲和角色跨越保留审查。",
+      "problem_type": "NON_BLOCKING_DEBT",
+      "additional_problem_types": [
+        "DATA_REVIEW"
+      ],
+      "existing_ontology_can_express": "yes",
+      "required_fix_layer": [
+        "field",
+        "auxiliary_object",
+        "registry",
+        "validator",
+        "review"
+      ],
+      "core_change_required": "no",
+      "evidence_refs": [
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22"
+      ],
+      "debt_refs": [
+        "D10",
+        "D11",
+        "D16",
+        "D17",
+        "D18"
+      ],
+      "result": "PASS_WITH_LIMITATION",
+      "notes": "PASS 指当前 Core 表达能力；不是全部数据正确、现代 schema 合格或生产就绪。StructuralProcess/Contradiction 的负例覆盖另列，不计正式正例。"
+    },
+    {
+      "golden_id": "GS005",
+      "domain": "火箭回收、经济复用与产业商业化",
+      "evidence_completeness": "accepted_hotfix_1_1_knowledge_review_pending",
+      "core_objects_exercised": [
+        "Source",
+        "Claim",
+        "Event",
+        "Actor",
+        "Indicator",
+        "Policy",
+        "Assessment",
+        "Argument",
+        "Mechanism",
+        "Thesis",
+        "Forecast"
+      ],
+      "core_boundaries_tested": [
+        "B02",
+        "B03",
+        "B05",
+        "B07",
+        "B09",
+        "B12",
+        "B14"
+      ],
+      "new_problem_discovered": "C005 Scenario-only 已裁决；技术到产业的补链归模型；未来样本事后比较与历史 prior 的消费者语义需统一。",
+      "problem_type": "NON_BLOCKING_DEBT",
+      "additional_problem_types": [
+        "DATA_REVIEW"
+      ],
+      "existing_ontology_can_express": "yes",
+      "required_fix_layer": [
+        "field",
+        "auxiliary_object",
+        "validator",
+        "review"
+      ],
+      "core_change_required": "no",
+      "evidence_refs": [
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30"
+      ],
+      "debt_refs": [
+        "D03",
+        "D04",
+        "D08",
+        "D11",
+        "D16",
+        "D18"
+      ],
+      "result": "PASS_WITH_LIMITATION",
+      "notes": "PASS 指当前 Core 表达能力；不是全部数据正确、现代 schema 合格或生产就绪。StructuralProcess/Contradiction 的负例覆盖另列，不计正式正例。"
+    }
+  ]
+}

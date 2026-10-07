@@ -1,0 +1,37 @@
+{
+  "id": "ECB01",
+  "url": "https://www.ecb.europa.eu/press/pr/date/2025/html/ecb.mp250605~3b5f67d007.en.html",
+  "published": "2025-06-05",
+  "retrieved": "2026-10-05",
+  "kind": "OFFICIAL_ANNOUNCEMENT_NOT_OUTCOME",
+  "excerpt": "The Governing Council is not pre-committing to a particular rate path.",
+  "locator": "利率政策路径段落，Key ECB interest rates之前",
+  "notes": [
+    {
+      "id": "E1",
+      "text": "宣布三项关键利率各降25基点，6月11日起生效。",
+      "locator": "Key ECB interest rates"
+    },
+    {
+      "id": "E2",
+      "text": "利率调整依据通胀前景与政策传导评估；目标是中期通胀稳定在2%。",
+      "locator": "开头及政策立场段落"
+    },
+    {
+      "id": "E3",
+      "text": "2025年整体通胀预测2.0%，不含能源食品为2.4%；均为预测。",
+      "locator": "开头预测段落"
+    },
+    {
+      "id": "E4",
+      "text": "强调贸易不确定性影响投资和出口，同时提到融资条件对经济的支持。",
+      "locator": "增长和全球冲击段落"
+    },
+    {
+      "id": "E5",
+      "text": "不预先承诺利率路径；APP与PEPP到期本金不再投资。",
+      "locator": "政策路径和资产购买组合段落"
+    }
+  ],
+  "limits": "官方公布能确认宣布内容，不能独立证明未来预测、执行效果或决策者全部动机；不是当日网页历史存档。"
+}

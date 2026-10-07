@@ -1,0 +1,14 @@
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "static_artifacts", "detail": "Catalog, rule docs, gaps and conservative debt overlay generated; not acceptance evidence."}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "tests", "detail": {"PASSED": 206, "FAILED": 0, "ERROR": 0, "SKIPPED": 0}}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "lint", "detail": {"check_exit": 1, "format_exit": 0}}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "CLI", "detail": {"installed_executable": "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe", "passed": true}}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "immutability", "detail": {"checked": 241, "passed": true, "historical_changes": ["src/macromind/cli/main.py"]}}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "gate", "detail": "NOT_READY_VALIDATOR_BLOCKER"}
+{"run": "phase1/phase1_3_evidence/run_001", "stage": "manifest", "detail": "Writing source/evidence hashes and final result."}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "static_artifacts", "detail": "Catalog, rule docs, gaps and conservative debt overlay generated; not acceptance evidence."}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "tests", "detail": {"PASSED": 207, "FAILED": 0, "ERROR": 0, "SKIPPED": 0}}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "lint", "detail": {"check_exit": 0, "format_exit": 0}}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "CLI", "detail": {"installed_executable": "G:\\youhegaojian\\macro-mind-engine\\.venv\\Scripts\\macromind.exe", "passed": true}}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "immutability", "detail": {"checked": 241, "passed": true, "historical_changes": ["src/macromind/cli/main.py"]}}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "gate", "detail": "READY_FOR_PHASE_1_4"}
+{"run": "phase1/phase1_3_evidence/run_002", "stage": "manifest", "detail": "Writing source/evidence hashes and final result."}

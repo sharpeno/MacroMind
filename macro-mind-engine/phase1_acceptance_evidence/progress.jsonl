@@ -1,0 +1,32 @@
+{"at": "2026-09-27T14:08:54.907185+00:00", "stage": "01_required_artifacts", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:54.960631+00:00", "stage": "01_required_artifacts", "status": "COMPLETE", "output_sha256": {"required_artifacts_presence.json": "059ba03b477bc94e21af5845b6e75ceaaa705376660bcf8f263e0aa1d0278384"}}
+{"at": "2026-09-27T14:08:54.962631+00:00", "stage": "02_architecture", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:54.971631+00:00", "stage": "02_architecture", "status": "COMPLETE", "output_sha256": {"architecture_check.json": "c7df97ad49c5c7c469958181935eae2657e257f5a95248c5ca7970b4b8e65c04"}}
+{"at": "2026-09-27T14:08:54.972630+00:00", "stage": "03_source_inventory", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:55.088634+00:00", "stage": "03_source_inventory", "status": "COMPLETE", "output_sha256": {"source_inventory.json": "0604a7587e8acb1a1e9c28e40d11f685ac9a53469e7f08b7b04f6b9a23e9751d"}}
+{"at": "2026-09-27T14:08:55.090631+00:00", "stage": "04_source_snapshot", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:55.204191+00:00", "stage": "04_source_snapshot", "status": "COMPLETE", "output_sha256": {"phase1_0_1_2_source_snapshot.zip": "4ffc6ec0dad4d1fb603625ab9f6c0c88b77969fbf67536c5fdd24bec27b5e154", "phase1_0_1_2_source_snapshot.sha256": "9aaefe9e0debfa405ecd3501adb1bb1d46d4e0af1453631cb99bffc658c8108c", "snapshot_check.json": "99c6e2612b2e7d9adf57841fd8f7c17ea698da29c18db36ffacb7230bce3b304", "frozen_contract_reference.json": "ce52233e0b305491cc3ff4f82478d9f59fd91d9a709d4d965380d8d179c44dca"}}
+{"at": "2026-09-27T14:08:55.206136+00:00", "stage": "05_fresh_contract", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:55.227136+00:00", "stage": "05_fresh_contract", "status": "COMPLETE", "output_sha256": {"fresh_contract_integrity_report.json": "4c888d63b25f0e7e354dc4858864547b1a0734133f0c3d9faebb6cf49097d9f8"}}
+{"at": "2026-09-27T14:08:55.228136+00:00", "stage": "06_fresh_immutability", "status": "RUNNING"}
+{"at": "2026-09-27T14:08:56.158550+00:00", "stage": "06_fresh_immutability", "status": "COMPLETE", "output_sha256": {"fresh_immutability_report.json": "05f01393fa12d6a86ea49f98fda16405a1ffa4f88e763c0b66bacd513006f819"}}
+{"at": "2026-09-27T14:09:06.491518+00:00", "stage": "07_fresh_tests", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:14.837894+00:00", "stage": "07_fresh_tests", "status": "COMPLETE", "output_sha256": {"fresh_test_report.json": "ea3ccaf7b943558f30635af2d501badd52097612cd1de3d4d1c4ba343ebf7ebc", "fresh_all-tests.xml": "773c1e05c184b2346240188268ef9ecff9f41a214923159cb707cf036199faab", "fresh_pytest.stdout.txt": "e6770a307da8e675bb403d8c1af01b166f549c2040838bc18df2e2dafb2bdcad", "fresh_pytest.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}
+{"at": "2026-09-27T14:09:14.838895+00:00", "stage": "08_fresh_ruff", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:15.349851+00:00", "stage": "08_fresh_ruff", "status": "COMPLETE", "output_sha256": {"fresh_ruff_report.json": "5c0954e780e8938979816104f4d64ec7b50cd61c1e9f7c2c20e5d5480e6bca70", "fresh_ruff.stdout.txt": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0", "fresh_ruff.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}
+{"at": "2026-09-27T14:09:15.350851+00:00", "stage": "09_installed_cli", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:17.780198+00:00", "stage": "09_installed_cli", "status": "COMPLETE", "output_sha256": {"fresh_installed_cli_report.json": "60c5cce01712db4dc041b3fb1e033bf8a17702ed9e843c9c572e63b15b2d0246"}}
+{"at": "2026-09-27T14:09:17.782198+00:00", "stage": "10_schema_draft_and_integrity", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:18.391335+00:00", "stage": "10_schema_draft_and_integrity", "status": "COMPLETE", "output_sha256": {"schema_draft_check.json": "48ac5bec60bb8d628b9d57467206b0aa6453e1968bdfdc65d8b54289c0f8b729", "schema_artifact_check.json": "9416a72aab6930320c9339ccffe3ff7aca64ef0df4a0af9f32f0f3ebafb77171", "model_contract_check.json": "8a8e50a1c18d62bd0d98eb0e14ba81236c4b23a0003762f9110e6ee73a8a6762"}}
+{"at": "2026-09-27T14:09:18.392333+00:00", "stage": "11_registry_integrity", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:19.432239+00:00", "stage": "11_registry_integrity", "status": "COMPLETE", "output_sha256": {"registry_artifact_check.json": "3a9e281463790ce140dede80c01f64a101d42c2f6caa8036391f62ef0510a80c"}}
+{"at": "2026-09-27T14:09:46.206235+00:00", "stage": "12_authority_and_scope", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:46.390760+00:00", "stage": "12_authority_and_scope", "status": "COMPLETE", "output_sha256": {"registry_authority_check.json": "fa147adeab3fbecd7aee7fb8608dfc50bcbabf443e84bd0ec7d9d3ff0173c182", "scope_check.json": "8a3959883c903c494840aa1fc71be6c0110ed5b5fea7132f2cbca16a5ef015cf"}}
+{"at": "2026-09-27T14:09:46.392760+00:00", "stage": "13_debt_overlay", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:46.399760+00:00", "stage": "13_debt_overlay", "status": "COMPLETE", "output_sha256": {"debt_overlay_check.json": "1274c0fe032caf65dc9253b4e15b85c9201f5da9d8f04bc5b8e972dd321acd46"}}
+{"at": "2026-09-27T14:09:46.402761+00:00", "stage": "14_historical_failures", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:46.409762+00:00", "stage": "14_historical_failures", "status": "COMPLETE", "output_sha256": {"historical_failure_check.json": "a431b78aea980eb51ccc7d1e6b5dffb634cb3003a1775237fdecaa214808e1bc"}}
+{"at": "2026-09-27T14:09:46.411760+00:00", "stage": "15_required_deliverables_matrix", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:46.948638+00:00", "stage": "15_required_deliverables_matrix", "status": "COMPLETE", "output_sha256": {"determinism_check.json": "f034863baa0bf975d5fe128d7ce8b814f9338a1b84034605046ec2a98ab7245e", "readiness_flags_check.json": "762bf63784d68aaaba6334cc90d897dbbe414b1c7b4aeb3ca9cecb8b3d50c15d", "required_deliverables_check.json": "e8475bb2da0f0122ce69b269779702b7bae3a94508b2ae30b6a576e6f9f45f15"}}
+{"at": "2026-09-27T14:09:46.950632+00:00", "stage": "16_evidence_gate", "status": "RUNNING"}
+{"at": "2026-09-27T14:09:46.965631+00:00", "stage": "16_evidence_gate", "status": "COMPLETE", "output_sha256": {"acceptance_blockers.json": "db34dd7086c33e51b83273ae965de00fb85df473e9fc143df3d20c9f0974cd6e", "evidence_gate.json": "11cbee31e49ae5a02f8b37f940ad457994c9fd6a86e0fdf4211fc5f68f1c1a91"}}
