@@ -1,11 +1,12 @@
 import sys,json,hashlib,shutil,subprocess,os
 from pathlib import Path
 from datetime import datetime,timezone
-ROOT=Path('G:/youhegaojian/macro-mind-engine');sys.path.insert(0,str(ROOT/'src'))
+ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'src'))
 from macromind.quality.annotations import digest,records,assess
 B=ROOT/'phase1/batch_pilot';Q=ROOT/'phase1/extraction_quality';OLD=B/'run_004';R=B/'run_005';H=Q/'semantic_pilot_001';O=Q/'semantic_calibrated_001';A=B/'human_reviews/semantic_pilot_001/batch_001'
 def rd(p):return json.loads(p.read_bytes())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return p.resolve().relative_to(ROOT.resolve()).as_posix()
 def wr(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def progress(stage,pending):
  v={'time':datetime.now(timezone.utc).isoformat(),'stage':stage,'unfinished':pending,'next_step':pending[0] if pending else 'This feedback closed; evaluate method representation next'};wr(O/'progress.json',v)

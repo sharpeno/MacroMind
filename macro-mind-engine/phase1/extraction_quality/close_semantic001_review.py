@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0,'G:/youhegaojian/macro-mind-engine/phase1/extraction_quality')
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parent))
 from apply_semantic001_review import *
 assert rd(O/'verification.command.json')['exit_code']==0 and rd(O/'quality_tests.command.json')['exit_code']==0
 report='''# semantic001 校准意见落实
@@ -59,11 +60,11 @@ EP002和EP003两次新审计均完成，仍为INDETERMINATE；其余三期数据
 # Useful plain-language evidence record independent of machine JSON.
 (R/'METHOD_REVIEW.md').write_text('# EP002方法与应用分离\n\n'+next(c[2] for c in rd(R/'EP002/annotation.json')['claims'] if c[0]=='C23')+'\n\n方法证据：cue387–392；预先准备和提出时机详见cue390。假想央行应用例证：cue396–400。\n\n来源归属：博主转述并认同，原始作者未知。方法有效性未验证，不认定为Skill。完整步骤证据见method_evidence.json。\n',encoding='utf-8')
 progress('SEMANTIC001_FEEDBACK_IMPLEMENTED',['Prototype explicit method/conditions/steps/application/evidence representation using reviewed material','Method effectiveness, original source timing and 53 uncertainty findings remain unresolved'])
-wr(R/'progress.json',{'stage':'SEMANTIC001_FEEDBACK_IMPLEMENTED','completed':['User method text extracted as C23','Hypothetical application separated in C16','Accepted EP003 candidate applied','EP005 unchanged','41 checks and 40 quality tests passed'],'unfinished':['Method effectiveness and provenance gaps unresolved'],'report':str(O/'REPORT.md')})
-wr(A/'latest_resolution.json',{'status':'IMPLEMENTED','version':'run_005','report':str(O/'REPORT.md'),'repeat_review_requested':False})
-wr(A.parent/'latest.json',{'batch':'batch_001','receipt':str(A/'receipt.json'),'report':str(O/'REPORT.md'),'status':'IMPLEMENTED'})
-wr(Q/'latest.json',{'run':'semantic_calibrated_001','report':str(O/'REPORT.md'),'progress':str(O/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
-wr(B/'revision_latest.json',{'run':'run_005','report':str(O/'REPORT.md'),'progress':str(R/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
-wr(B/'review_latest.json',{'round':'semantic_pilot_001','report':str(O/'REPORT.md'),'receipt':str(A/'receipt.json'),'status':'FEEDBACK_IMPLEMENTED'})
+wr(R/'progress.json',{'stage':'SEMANTIC001_FEEDBACK_IMPLEMENTED','completed':['User method text extracted as C23','Hypothetical application separated in C16','Accepted EP003 candidate applied','EP005 unchanged','41 checks and 40 quality tests passed'],'unfinished':['Method effectiveness and provenance gaps unresolved'],'report':ref(O/'REPORT.md')})
+wr(A/'latest_resolution.json',{'status':'IMPLEMENTED','version':'run_005','report':ref(O/'REPORT.md'),'repeat_review_requested':False})
+wr(A.parent/'latest.json',{'batch':'batch_001','receipt':ref(A/'receipt.json'),'report':ref(O/'REPORT.md'),'status':'IMPLEMENTED'})
+wr(Q/'latest.json',{'run':'semantic_calibrated_001','report':ref(O/'REPORT.md'),'progress':ref(O/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
+wr(B/'revision_latest.json',{'run':'run_005','report':ref(O/'REPORT.md'),'progress':ref(R/'progress.json'),'status':'SEMANTIC001_FEEDBACK_IMPLEMENTED'})
+wr(B/'review_latest.json',{'round':'semantic_pilot_001','report':ref(O/'REPORT.md'),'receipt':ref(A/'receipt.json'),'status':'FEEDBACK_IMPLEMENTED'})
 for dest,file in [(R,'revision_manifest.json'),(A,'manifest.json'),(O,'manifest.json')]:wr(dest/file,{'artifacts':{str(p.relative_to(dest)):sha(p) for p in dest.rglob('*') if p.is_file() and p.name!=file}})
 print('Semantic calibration closed; run005 sealed.')

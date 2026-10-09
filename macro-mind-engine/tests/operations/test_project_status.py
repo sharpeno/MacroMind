@@ -26,6 +26,49 @@ def test_path_cannot_escape(tmp_path):
         nav.inside(tmp_path, "../outside.json")
 
 
+@pytest.mark.parametrize(
+    "value",
+    [
+        "phase1/batch_pilot/run_005/progress.json",
+        "phase1\\batch_pilot\\run_005\\progress.json",
+    ],
+)
+def test_portable_relative_paths_resolve(value):
+    expected = ROOT / "phase1/batch_pilot/run_005/progress.json"
+    assert nav.resolve_project_path(ROOT, value) == expected.resolve()
+
+
+@pytest.mark.parametrize(
+    "value",
+    [
+        r"G:\youhegaojian\macro-mind-engine\phase1\batch_pilot\run_005\progress.json",
+        "/Users/another-user/Workspace/MacroMind/macro-mind-engine/phase1/batch_pilot/run_005/progress.json",
+    ],
+)
+def test_legacy_absolute_paths_resolve_inside_current_engine(value):
+    expected = ROOT / "phase1/batch_pilot/run_005/progress.json"
+    assert nav.resolve_project_path(ROOT, value) == expected.resolve()
+
+
+@pytest.mark.parametrize(
+    "value",
+    [
+        "../outside.json",
+        r"C:\other-project\secret.json",
+        r"\\server\share\secret.json",
+        "/Users/another-user/phase1/secret.json",
+    ],
+)
+def test_unsafe_absolute_and_traversal_paths_are_rejected(value):
+    with pytest.raises(ValueError):
+        nav.resolve_project_path(ROOT, value)
+
+
+def test_portable_path_uses_posix_repository_relative_form():
+    path = ROOT / "phase1" / "batch_pilot" / "run_005" / "progress.json"
+    assert nav.portable_path(path, ROOT) == "phase1/batch_pilot/run_005/progress.json"
+
+
 def test_missing_path_fails(tmp_path):
     with pytest.raises(ValueError, match="Missing"):
         nav.inside(tmp_path, "missing.json")

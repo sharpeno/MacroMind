@@ -1,9 +1,10 @@
 import json,hashlib,shutil
 from pathlib import Path
 from datetime import datetime,timezone
-ROOT=Path('G:/youhegaojian/macro-mind-engine');B=ROOT/'phase1/batch_pilot';O=ROOT/'phase1/extraction_quality/holdout_001';Q=ROOT/'phase1/extraction_quality/run_001'
+ROOT=Path(__file__).resolve().parents[2];B=ROOT/'phase1/batch_pilot';O=ROOT/'phase1/extraction_quality/holdout_001';Q=ROOT/'phase1/extraction_quality/run_001'
 def rd(p):return json.loads(p.read_bytes())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return p.resolve().relative_to(ROOT.resolve()).as_posix()
 def wr(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 assert sha(O/'frozen_sample.json')==rd(O/'precheck_manifest.json')['sample_sha256'];assert all(sha(Path(p))==h for p,h in rd(O/'precheck_manifest.json')['policy_hashes'].items())
 checks=[]
@@ -60,7 +61,7 @@ HUMAN_REVIEW.html包含5条校准卡：2条可判断原提取保留/另作修改
 (O/'REPORT.md').write_text(report,encoding='utf-8')
 v={'time':datetime.now(timezone.utc).isoformat(),'stage':'FROZEN_CHECK_COMPLETE_HUMAN_CALIBRATION_PENDING','completed':['5 non-overlapping samples frozen','5 guard CLI checks executed','Same-assistant semantic second-pass: 3 potential mismatches, 2 no-clear-mismatch','8 UI checks passed','Policies and canonical data unchanged'],'unfinished':['Human calibration of 5 judgments','No confirmed error count or population accuracy','No revisions applied to canonical data; original unresolved fields remain'],'next_step':'User exports MacroMind_holdout001 review JSON','improvement_proven':False}
 wr(O/'progress.json',v)
-wr(ROOT/'phase1/extraction_quality/latest.json',{'run':'holdout_001','report':str(O/'REPORT.md'),'page':str(O/'HUMAN_REVIEW.html'),'progress':str(O/'progress.json'),'status':v['stage']})
-wr(B/'review_latest.json',{'round':'holdout_001','report':str(O/'REPORT.md'),'page':str(O/'HUMAN_REVIEW.html'),'progress':str(O/'progress.json'),'status':v['stage']})
+wr(ROOT/'phase1/extraction_quality/latest.json',{'run':'holdout_001','report':ref(O/'REPORT.md'),'page':ref(O/'HUMAN_REVIEW.html'),'progress':ref(O/'progress.json'),'status':v['stage']})
+wr(B/'review_latest.json',{'round':'holdout_001','report':ref(O/'REPORT.md'),'page':ref(O/'HUMAN_REVIEW.html'),'progress':ref(O/'progress.json'),'status':v['stage']})
 wr(O/'manifest.json',{'artifacts':{str(p.relative_to(O)):sha(p) for p in O.rglob('*') if p.is_file() and p.name!='manifest.json'}})
 print(json.dumps({'samples':5,'guard_passes':5,'potential_semantic_mismatches':3,'human_ground_truth':'PENDING','ui_checks':8}))

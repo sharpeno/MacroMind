@@ -3,7 +3,7 @@
 import argparse
 import hashlib
 import json
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -12,10 +12,55 @@ def read(path):
     return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
-def inside(root, value):
-    path = (root / value).resolve()
-    if not path.is_relative_to(root.resolve()):
+def sha256_file(path):
+    with Path(path).open("rb") as stream:
+        if hasattr(hashlib, "file_digest"):
+            return hashlib.file_digest(stream, "sha256").hexdigest()
+        digest = hashlib.sha256()
+        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
+            digest.update(chunk)
+        return digest.hexdigest()
+
+
+def portable_path(path, root):
+    """Return a repository-relative POSIX path for persisted project references."""
+    return Path(path).resolve().relative_to(Path(root).resolve()).as_posix()
+
+
+def resolve_project_path(root, value):
+    """Resolve current relative paths and safe legacy absolute paths."""
+    root = Path(root).resolve()
+    text = str(value).strip()
+    if not text:
+        raise ValueError("Empty project path")
+
+    posix = PurePosixPath(text)
+    windows = PureWindowsPath(text)
+    if not posix.is_absolute() and not windows.is_absolute():
+        relative = PurePosixPath(text.replace("\\", "/"))
+    else:
+        if posix.is_absolute() and not windows.is_absolute():
+            local_absolute = Path(text.replace("\\", "/")).resolve()
+            if local_absolute.is_relative_to(root):
+                if local_absolute == root:
+                    raise ValueError(f"Path outside engine: {value}")
+                return local_absolute
+        normalized = text.replace("\\", "/")
+        marker = "/macro-mind-engine/"
+        if marker not in normalized:
+            raise ValueError(f"Unsupported project path: {value}")
+        relative = PurePosixPath(normalized.split(marker, 1)[1])
+
+    if ".." in relative.parts:
         raise ValueError(f"Path outside engine: {value}")
+    path = (root / Path(*relative.parts)).resolve()
+    if not path.is_relative_to(root):
+        raise ValueError(f"Path outside engine: {value}")
+    return path
+
+
+def inside(root, value):
+    path = resolve_project_path(root, value)
     if not path.exists():
         raise ValueError(f"Missing path: {path}")
     return path
@@ -27,8 +72,7 @@ def verify_manifest(root, path):
         raise ValueError(f"Empty manifest: {path}")
     for name, expected in entries.items():
         target = inside(root, str(path.parent / name))
-        with target.open("rb") as stream:
-            actual = hashlib.file_digest(stream, "sha256").hexdigest()
+        actual = sha256_file(target)
         if actual != expected:
             raise ValueError(f"Sealed artifact changed: {target}")
     return len(entries)

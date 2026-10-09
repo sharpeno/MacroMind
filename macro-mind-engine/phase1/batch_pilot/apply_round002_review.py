@@ -1,9 +1,10 @@
 import json,hashlib,shutil,sys,subprocess,os
 from pathlib import Path
 from datetime import datetime,timezone
-B=Path('G:/youhegaojian/macro-mind-engine/phase1/batch_pilot');ROOT=B.parents[1];OLD=B/'run_002';R=B/'run_003';ARCH=B/'human_reviews/review_round_002/batch_001'
+B=Path(__file__).resolve().parent;ROOT=B.parents[1];OLD=B/'run_002';R=B/'run_003';ARCH=B/'human_reviews/review_round_002/batch_001'
 def rd(p):return json.loads(p.read_bytes())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return p.resolve().relative_to(ROOT.resolve()).as_posix()
 def wr(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def progress(stage,pending):
  v={'time':datetime.now(timezone.utc).isoformat(),'stage':stage,'unfinished':pending,'next_step':pending[0] if pending else 'Await review of assistant-derived changes; no scale-up'};wr(R/'progress.json',v)

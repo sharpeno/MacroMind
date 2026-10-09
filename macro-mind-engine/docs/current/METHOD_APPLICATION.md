@@ -9,7 +9,7 @@
 
 规则和案例分别封存；检查器可以运行，但不自动生成语义推理。新闻仅有单一媒体报道，事实、基础判断、条件分支分开。未阅读EP006字幕，尚未对照博主观点；后续对照须另存版本，不能改写原答案。
 
-复核结构时，在工程目录执行 `.venv/Scripts/python.exe -X utf8 phase1/method_application/run_001/check_case.py` 会重新写入确定性的validation.json；真正只读的文件一致性复核应读取manifest后计算哈希。不要在封存目录重跑verify.py，它会重写验证日志。
+复核结构时，在工程目录执行 `uv run python -X utf8 phase1/method_application/run_001/check_case.py` 会重新写入确定性的validation.json；真正只读的文件一致性复核应读取manifest后计算哈希。不要在封存目录重跑verify.py，它会重写验证日志。
 
 最新研究候选：[v0.2规则与应用](../../phase1/method_application/run_002/REPORT.md)，v0.1保留为历史基线。
 
