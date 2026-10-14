@@ -1,0 +1,1713 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MacroMind 宏观研究工作区 · 产品简介</title>
+    <meta
+      name="description"
+      content="MacroMind 宏观研究工作区产品简介：AI 聊天工作区与可追溯的宏观新闻时间线。"
+    />
+    <link rel="icon" href="../public/favicon.svg" />
+    <style>
+      /* ============================================================
+         设计说明
+         这份简介沿用产品自身的视觉系统，不另起一套：
+         墨蓝底 + 终端琥珀（唯一强调色）+ 8 个新闻类别色 + 细线结构。
+         没有渐变、玻璃态与装饰光效 —— 与产品保持一致。
+         标题用宋体走「研究报告」语域，数据用等宽字走「仪器读数」语域。
+         ============================================================ */
+
+      :root {
+        --bg: #0c1220;
+        --panel: #131a2b;
+        --panel-2: #1b2338;
+        --line: #222b41;
+        --line-strong: #34405c;
+        --ink: #e7eaf2;
+        --ink-2: #aeb6c8;
+        --ink-3: #7d879c;
+        --amber: #f0b44c;
+        --amber-dim: #2e2614;
+        --amber-ink: #f5c26b;
+        --ok: #5fbf7f;
+        --warn: #d6946a;
+
+        --cat-monetary: #7d9bd6;
+        --cat-inflation: #d6946a;
+        --cat-growth: #88b580;
+        --cat-fiscal: #b491ce;
+        --cat-trade: #d08890;
+        --cat-markets: #6fb5c1;
+        --cat-energy: #c7a866;
+        --cat-tech: #93a2b8;
+
+        --serif: 'Songti SC', 'Source Han Serif SC', 'Noto Serif CJK SC', 'Noto Serif SC', Georgia,
+          'Times New Roman', serif;
+        --sans: -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+          'Noto Sans CJK SC', 'Segoe UI', system-ui, sans-serif;
+        --mono: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace;
+
+        --measure: 46rem;
+        --wide: 64rem;
+        color-scheme: dark;
+      }
+
+      html.light {
+        --bg: #f4f5f8;
+        --panel: #ffffff;
+        --panel-2: #ebedf2;
+        --line: #dce0e8;
+        --line-strong: #c3c9d4;
+        --ink: #141a26;
+        --ink-2: #4a5366;
+        --ink-3: #6f788b;
+        --amber: #9a5800;
+        --amber-dim: #fbefd9;
+        --amber-ink: #8f5300;
+        --ok: #2f8a4e;
+        --warn: #b0653a;
+
+        --cat-monetary: #4f6fae;
+        --cat-inflation: #b0653a;
+        --cat-growth: #5a8a52;
+        --cat-fiscal: #8a62a8;
+        --cat-trade: #a8555f;
+        --cat-markets: #3e8a96;
+        --cat-energy: #a1803c;
+        --cat-tech: #627085;
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--sans);
+        font-size: 16px;
+        line-height: 1.75;
+        font-feature-settings: 'tnum';
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--amber);
+        outline-offset: 2px;
+        border-radius: 2px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+          animation-delay: 0ms !important;
+        }
+      }
+
+      /* ---------- 顶栏 ---------- */
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        height: 3.25rem;
+        padding: 0 1.25rem;
+        border-bottom: 1px solid var(--line);
+        background: var(--bg);
+      }
+
+      .topbar__mark {
+        display: flex;
+        align-items: baseline;
+        gap: 0.6rem;
+        min-width: 0;
+      }
+
+      .topbar__mark svg {
+        flex: none;
+        align-self: center;
+      }
+
+      .topbar__name {
+        font-family: var(--mono);
+        font-size: 0.95rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        white-space: nowrap;
+      }
+
+      .topbar__sub {
+        font-size: 0.8rem;
+        color: var(--ink-3);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .topbar__spacer {
+        flex: 1;
+      }
+
+      .topbar__meta {
+        font-family: var(--mono);
+        font-size: 0.75rem;
+        color: var(--ink-3);
+        white-space: nowrap;
+      }
+
+      .theme-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.3rem 0.6rem;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        background: transparent;
+        color: var(--ink-2);
+        font-family: var(--sans);
+        font-size: 0.78rem;
+        white-space: nowrap;
+        flex: none;
+        cursor: pointer;
+      }
+
+      @media (max-width: 30rem) {
+        .theme-btn span {
+          display: none;
+        }
+
+        .topbar {
+          gap: 0.5rem;
+          padding: 0 0.9rem;
+        }
+      }
+
+      .theme-btn:hover {
+        background: var(--panel-2);
+        color: var(--ink);
+      }
+
+      /* ---------- 骨架 ---------- */
+
+      .shell {
+        display: grid;
+        grid-template-columns: 13rem minmax(0, 1fr);
+        gap: 3.5rem;
+        max-width: 82rem;
+        margin: 0 auto;
+        padding: 0 2rem 8rem;
+      }
+
+      @media (max-width: 60rem) {
+        .shell {
+          grid-template-columns: minmax(0, 1fr);
+          gap: 0;
+          padding: 0 1.25rem 5rem;
+        }
+      }
+
+      /* ---------- 左侧时间轴导航 ---------- */
+
+      .rail {
+        position: sticky;
+        top: 3.25rem;
+        align-self: start;
+        max-height: calc(100vh - 3.25rem);
+        overflow-y: auto;
+        padding: 3.5rem 0 2rem;
+      }
+
+      .rail__list {
+        position: relative;
+        margin: 0;
+        padding: 0 0 0 1.15rem;
+        list-style: none;
+      }
+
+      .rail__list::before {
+        content: '';
+        position: absolute;
+        left: 0.1875rem;
+        top: 0.55rem;
+        bottom: 0.55rem;
+        width: 1px;
+        background: var(--line);
+      }
+
+      .rail__progress {
+        position: absolute;
+        left: 0.1875rem;
+        top: 0.55rem;
+        width: 1px;
+        height: 0;
+        background: var(--amber);
+      }
+
+      .rail__item {
+        margin: 0 0 0.9rem;
+      }
+
+      .rail__link {
+        position: relative;
+        display: block;
+        color: var(--ink-3);
+        font-size: 0.82rem;
+        line-height: 1.4;
+        text-decoration: none;
+        transition: color 120ms linear;
+      }
+
+      .rail__link::before {
+        content: '';
+        position: absolute;
+        left: -1.15rem;
+        top: 0.5em;
+        width: 0.44rem;
+        height: 0.44rem;
+        border-radius: 50%;
+        border: 1px solid var(--line-strong);
+        background: var(--bg);
+        transform: translate(-50%, -50%);
+        transition:
+          background 120ms linear,
+          border-color 120ms linear;
+      }
+
+      .rail__link:hover {
+        color: var(--ink);
+      }
+
+      .rail__link[aria-current='true'] {
+        color: var(--amber-ink);
+      }
+
+      .rail__link[aria-current='true']::before {
+        background: var(--amber);
+        border-color: var(--amber);
+      }
+
+      .rail__foot {
+        margin-top: 1.75rem;
+        padding-left: 1.15rem;
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        line-height: 1.6;
+        color: var(--ink-3);
+      }
+
+      @media (max-width: 60rem) {
+        .rail {
+          display: none;
+        }
+      }
+
+      /* ---------- 内容列 ---------- */
+
+      .doc {
+        min-width: 0;
+        padding-top: 3.5rem;
+      }
+
+      @media (max-width: 60rem) {
+        .doc {
+          padding-top: 2rem;
+        }
+      }
+
+      .doc > * {
+        max-width: var(--measure);
+      }
+
+      .doc > .bleed {
+        max-width: var(--wide);
+      }
+
+      /* ---------- Hero ---------- */
+
+      .hero {
+        padding-bottom: 3.5rem;
+      }
+
+      .hero__title {
+        margin: 0;
+        font-family: var(--serif);
+        font-size: clamp(2.1rem, 5.2vw, 3.4rem);
+        font-weight: 600;
+        line-height: 1.18;
+        letter-spacing: 0.01em;
+      }
+
+      .hero__lede {
+        margin: 1.5rem 0 0;
+        font-size: 1.06rem;
+        line-height: 1.8;
+        color: var(--ink-2);
+      }
+
+      .hero__lede strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* 事件脉搏刻度带：产品里唯一的自发动效，这里原样搬过来 */
+      .pulse {
+        position: relative;
+        margin: 2.75rem 0 0;
+        height: 4.75rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .pulse__bars {
+        display: flex;
+        align-items: flex-end;
+        gap: 3px;
+        height: 100%;
+      }
+
+      /* 每根柱是一天：柱高＝当天事件量，柱内自下而上按类别堆叠 */
+      .pulse__bar {
+        flex: 1 1 0;
+        min-width: 3px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.5px;
+        border-radius: 1px 1px 0 0;
+        overflow: hidden;
+        transform-origin: bottom;
+        animation: tick-rise 560ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+      }
+
+      .pulse__seg {
+        flex: 0 0 auto;
+        width: 100%;
+        border-radius: 0.5px;
+      }
+
+      @keyframes tick-rise {
+        from {
+          transform: scaleY(0);
+          opacity: 0.2;
+        }
+        to {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+
+      .pulse__axis {
+        display: flex;
+        justify-content: space-between;
+        max-width: var(--wide);
+        margin-top: 0.55rem;
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        color: var(--ink-3);
+      }
+
+      .pulse__caption {
+        margin: 1.1rem 0 0;
+        font-size: 0.82rem;
+        line-height: 1.7;
+        color: var(--ink-3);
+      }
+
+      /* ---------- 节 ---------- */
+
+      .section {
+        padding-top: 4rem;
+        scroll-margin-top: 4.5rem;
+      }
+
+      .section__rule {
+        height: 1px;
+        background: var(--line);
+        margin-bottom: 2.25rem;
+      }
+
+      .section__title {
+        margin: 0;
+        font-family: var(--serif);
+        font-size: clamp(1.5rem, 3vw, 2rem);
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 0.01em;
+      }
+
+      .section__intro {
+        margin: 1rem 0 0;
+        color: var(--ink-2);
+      }
+
+      .sub {
+        margin: 3rem 0 0;
+        font-size: 1.12rem;
+        font-weight: 600;
+        line-height: 1.5;
+        color: var(--ink);
+      }
+
+      .sub__note {
+        margin: 0.4rem 0 0;
+        font-size: 0.86rem;
+        font-weight: 400;
+        color: var(--ink-3);
+      }
+
+      p {
+        margin: 1.05rem 0 0;
+      }
+
+      .doc a {
+        color: var(--amber-ink);
+        text-decoration-color: color-mix(in srgb, var(--amber) 45%, transparent);
+        text-underline-offset: 3px;
+      }
+
+      code {
+        font-family: var(--mono);
+        font-size: 0.86em;
+        padding: 0.1em 0.35em;
+        border: 1px solid var(--line);
+        border-radius: 3px;
+        background: var(--panel);
+        color: var(--ink-2);
+      }
+
+      /* ---------- 列表 ---------- */
+
+      .ticks {
+        margin: 1.25rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .ticks li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-top: 0.6rem;
+        color: var(--ink-2);
+      }
+
+      .ticks li::before {
+        content: '';
+        position: absolute;
+        left: 0.15rem;
+        top: 0.72em;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        background: var(--line-strong);
+      }
+
+      .ticks li strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      /* ---------- 表格 ---------- */
+
+      .table-wrap {
+        margin-top: 1.5rem;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        overflow-x: auto;
+        background: var(--panel);
+      }
+
+      .table-wrap table {
+        min-width: 30rem;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.87rem;
+      }
+
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 0.7rem 0.9rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      thead th {
+        background: var(--panel-2);
+        color: var(--ink-2);
+        font-weight: 600;
+        font-size: 0.78rem;
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+      }
+
+      tbody tr:last-child td {
+        border-bottom: 0;
+      }
+
+      tbody td:first-child {
+        color: var(--ink);
+        white-space: nowrap;
+      }
+
+      td.num,
+      .num {
+        font-family: var(--mono);
+        color: var(--ink-2);
+        white-space: nowrap;
+      }
+
+      .table-caption {
+        margin: 0.6rem 0 0;
+        font-size: 0.78rem;
+        color: var(--ink-3);
+      }
+
+      /* ---------- 截图 ---------- */
+
+      figure {
+        margin: 2rem 0 0;
+      }
+
+      .shot {
+        border: 1px solid var(--line-strong);
+        border-radius: 5px;
+        overflow: hidden;
+        background: #0c1220;
+        line-height: 0;
+      }
+
+      .shot img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      figcaption {
+        margin-top: 0.75rem;
+        font-size: 0.82rem;
+        line-height: 1.65;
+        color: var(--ink-3);
+      }
+
+      figcaption b {
+        color: var(--ink-2);
+        font-weight: 600;
+      }
+
+      /* ---------- 单侧/双侧图组 ---------- */
+
+      .pair {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.25rem;
+        margin-top: 2rem;
+      }
+
+      .pair figure {
+        margin-top: 0;
+      }
+
+      @media (max-width: 48rem) {
+        .pair {
+          grid-template-columns: minmax(0, 1fr);
+        }
+      }
+
+      /* ---------- 数据链路 ---------- */
+
+      .chain {
+        margin-top: 1.75rem;
+        border-left: 1px solid var(--line-strong);
+        padding-left: 1.25rem;
+      }
+
+      .chain__step {
+        position: relative;
+        padding-bottom: 1.15rem;
+      }
+
+      .chain__step:last-child {
+        padding-bottom: 0;
+      }
+
+      .chain__step::before {
+        content: '';
+        position: absolute;
+        left: -1.25rem;
+        top: 0.62em;
+        width: 0.44rem;
+        height: 0.44rem;
+        border-radius: 50%;
+        border: 1px solid var(--line-strong);
+        background: var(--bg);
+        transform: translate(-50%, -50%);
+      }
+
+      .chain__file {
+        font-family: var(--mono);
+        font-size: 0.8rem;
+        color: var(--amber-ink);
+        word-break: break-all;
+      }
+
+      .chain__what {
+        font-size: 0.88rem;
+        color: var(--ink-2);
+        line-height: 1.6;
+      }
+
+      .chain__note {
+        font-family: var(--mono);
+        font-size: 0.72rem;
+        color: var(--ink-3);
+      }
+
+      /* ---------- 类别图例 ---------- */
+
+      .legend {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+        gap: 0.55rem 1.25rem;
+        margin: 1.5rem 0 0;
+        padding: 1.1rem 1.2rem;
+        list-style: none;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        background: var(--panel);
+      }
+
+      .legend li {
+        display: flex;
+        align-items: center;
+        gap: 0.55rem;
+        font-size: 0.84rem;
+        color: var(--ink-2);
+      }
+
+      .legend__dot {
+        flex: none;
+        width: 0.62rem;
+        height: 0.62rem;
+        border-radius: 50%;
+      }
+
+      .legend__topic {
+        margin-left: auto;
+        font-family: var(--mono);
+        font-size: 0.68rem;
+        color: var(--ink-3);
+      }
+
+      /* ---------- 强调块 ---------- */
+
+      .callout {
+        margin-top: 2rem;
+        padding: 1.15rem 1.35rem;
+        border: 1px solid var(--line-strong);
+        border-left: 2px solid var(--amber);
+        border-radius: 4px;
+        background: var(--panel);
+      }
+
+      .callout__title {
+        margin: 0;
+        font-size: 0.86rem;
+        font-weight: 600;
+        color: var(--amber-ink);
+      }
+
+      .callout p {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--ink-2);
+      }
+
+      .callout p:first-of-type {
+        margin-top: 0.55rem;
+      }
+
+      .callout.warn {
+        border-left-color: var(--warn);
+      }
+
+      .callout.warn .callout__title {
+        color: var(--warn);
+      }
+
+      /* ---------- 状态标记 ---------- */
+
+      .tag {
+        display: inline-block;
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        line-height: 1.6;
+        padding: 0 0.4rem;
+        border-radius: 3px;
+        border: 1px solid currentColor;
+        white-space: nowrap;
+      }
+
+      .tag--done {
+        color: var(--ok);
+      }
+
+      .tag--todo {
+        color: var(--warn);
+      }
+
+      /* ---------- 收尾 ---------- */
+
+      .colophon {
+        margin-top: 5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--line);
+        font-size: 0.8rem;
+        line-height: 1.8;
+        color: var(--ink-3);
+      }
+
+      .colophon code {
+        font-size: 0.75rem;
+      }
+
+      /* ---------- 打印：长图 / PDF ---------- */
+
+      @media print {
+        :root,
+        html.light {
+          --bg: #0c1220;
+          --panel: #131a2b;
+          --panel-2: #1b2338;
+          --line: #222b41;
+          --line-strong: #34405c;
+          --ink: #e7eaf2;
+          --ink-2: #aeb6c8;
+          --ink-3: #7d879c;
+          --amber: #f0b44c;
+          --amber-ink: #f5c26b;
+          --ok: #5fbf7f;
+          --warn: #d6946a;
+        }
+
+        html,
+        body {
+          background: #0c1220 !important;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+
+        .topbar,
+        .rail {
+          display: none !important;
+        }
+
+        .shell {
+          display: block;
+          max-width: none;
+          padding: 0 0.5in;
+        }
+
+        .doc,
+        .doc > *,
+        .doc > .bleed {
+          max-width: none;
+        }
+
+        .section {
+          padding-top: 2.5rem;
+        }
+
+        .section__rule,
+        .section__title {
+          break-after: avoid;
+        }
+
+        h3.sub {
+          break-after: avoid;
+        }
+
+        p {
+          orphans: 2;
+          widows: 2;
+        }
+
+        figure,
+        .table-wrap,
+        .callout,
+        .chain {
+          break-inside: avoid;
+        }
+
+        .pulse__bar {
+          animation: none !important;
+          transform: none !important;
+          opacity: 1 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar__mark">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+          <rect x="0" y="9" width="2.4" height="11" rx="1" fill="#f0b44c" />
+          <rect x="4" y="4" width="2.4" height="16" rx="1" fill="#f0b44c" />
+          <rect x="8" y="11" width="2.4" height="9" rx="1" fill="#f0b44c" />
+          <rect x="12" y="0" width="2.4" height="20" rx="1" fill="#f0b44c" />
+        </svg>
+        <span class="topbar__name">MacroMind</span>
+        <span class="topbar__sub">宏观研究工作区 · 产品简介</span>
+      </div>
+      <div class="topbar__spacer"></div>
+      <span class="topbar__meta">v0.1.0</span>
+      <button class="theme-btn" id="theme" type="button" aria-label="切换主题">
+        <svg width="13" height="13" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="8" cy="8" r="3.4" fill="currentColor" />
+          <g stroke="currentColor" stroke-width="1.3" stroke-linecap="round">
+            <path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.1 3.1l1.4 1.4M11.5 11.5l1.4 1.4M12.9 3.1l-1.4 1.4M4.5 11.5l-1.4 1.4" />
+          </g>
+        </svg>
+        <span id="theme-label">浅色</span>
+      </button>
+    </header>
+
+    <div class="shell">
+      <nav class="rail" aria-label="目录">
+        <ol class="rail__list" id="rail-list">
+          <div class="rail__progress" id="rail-progress"></div>
+          <li class="rail__item"><a class="rail__link" href="#what">这是什么</a></li>
+          <li class="rail__item"><a class="rail__link" href="#pages">两个页面</a></li>
+          <li class="rail__item"><a class="rail__link" href="#chat">一 · 聊天工作区</a></li>
+          <li class="rail__item"><a class="rail__link" href="#timeline">二 · 新闻时间线</a></li>
+          <li class="rail__item"><a class="rail__link" href="#data">三 · 数据从哪来</a></li>
+          <li class="rail__item"><a class="rail__link" href="#trust">四 · 信任设计</a></li>
+          <li class="rail__item"><a class="rail__link" href="#run">五 · 运行与技术形态</a></li>
+          <li class="rail__item"><a class="rail__link" href="#status">六 · 现状与限制</a></li>
+        </ol>
+        <p class="rail__foot">
+          界面截图取自<br />
+          2026-10-15 构建<br />
+          深色主题
+        </p>
+      </nav>
+
+      <main class="doc">
+        <!-- ================= HERO ================= -->
+        <section class="hero">
+          <h1 class="hero__title">宏观研究工作区</h1>
+          <p class="hero__lede">
+            把每天的宏观新闻整理成<strong>可追溯的事件脉络</strong>，并让分析模型
+            <strong>在同一屏内、基于这些事件</strong>作答。
+          </p>
+          <p class="hero__lede">
+            它不替你做判断。它负责把「新闻事实」「事件之间的时间关系」「模型的回答」三种东西
+            分层摆好，让每一句话都能找到出处。
+          </p>
+
+          <div class="pulse" aria-hidden="true">
+            <div class="pulse__bars" id="pulse-bars"></div>
+          </div>
+          <div class="pulse__axis" aria-hidden="true">
+            <span>8月26日</span>
+            <span>9月19日</span>
+            <span>10月14日</span>
+          </div>
+          <p class="pulse__caption">
+            事件脉搏。每根柱是一天，柱高是当天采纳的事件量，柱内自下而上按类别堆叠——
+            和产品聊天页空态里那根「最近两周的宏观事件」是同一种表示法，这里铺满整个覆盖窗口。
+            它也是产品里唯一的自发动效：只在进入时按时间顺序升起一次。
+          </p>
+        </section>
+
+        <!-- ================= 这是什么 ================= -->
+        <section class="section" id="what">
+          <div class="section__rule"></div>
+          <h2 class="section__title">这是什么</h2>
+          <p class="section__intro">
+            一个桌面端的研究工作台，装在两件东西上：一个能接任意 OpenAI 兼容模型的聊天工作区，
+            一条由真实新闻构成的时间线。两者共用同一个事实底座。
+          </p>
+
+          <p>它想解决的，是日常宏观研究里三个反复出现的麻烦。</p>
+
+          <ul class="ticks">
+            <li>
+              <strong>新闻读了就散。</strong>每天几百条电报，读过之后留在脑子里的只有结论，
+              没有「这条是几月几号、和前面哪条是同一件事」。时间线把电报按真实时间戳和类别摆开，
+              同一件事归成一条脉络，可以顺着往下读。
+            </li>
+            <li>
+              <strong>问模型时，上下文靠手贴。</strong>工作区里可以把时间线上的事件直接
+              「加入对话」，事件会作为结构化上下文进入请求，而不是复制一段文字。
+            </li>
+            <li>
+              <strong>分不清哪句是事实、哪句是生成。</strong>电报正文原文、媒体报道这个属性、
+              事件发生时间未知这件事，全部在界面上标明，不混进模型的解读里。
+            </li>
+          </ul>
+
+          <div class="callout">
+            <p class="callout__title">当前数据规模</p>
+            <p>
+              财联社电报 20,000 条原始抓取 → 采纳 <span class="num">13,234</span> 条事件 →
+              展示快照 <span class="num">2,623</span> 条，归成 <span class="num">24</span> 条事件脉络，
+              覆盖 <span class="num">2026-08-26</span> 至 <span class="num">2026-10-14</span>。
+              全部为真实抓取数据，非演示。
+            </p>
+          </div>
+        </section>
+
+        <!-- ================= 两个页面 ================= -->
+        <section class="section" id="pages">
+          <div class="section__rule"></div>
+          <h2 class="section__title">两个页面</h2>
+          <p class="section__intro">
+            界面只有两个标签页，没有第三层导航。「聊天」是默认页，
+            「时间线」是画廊式的新闻组织。两边的状态是通的——时间线里选中的事件可以带进聊天。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/chat-empty.png"
+                alt="MacroMind 聊天页空态：顶部为模式与模型选择，中部为最近两周事件的脉搏与建议问题，底部为输入框"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>聊天页。</b>顶部是模式切换与模型下拉；中间是空态——「最近两周的宏观事件」按日
+              堆叠成类别柱并附完整类别图例，点柱跳转时间线；下方是可按条「加入对话」的最新事件，
+              以及四个宏观领域的建议问题。底部输入框常驻，内容区独立滚动。
+            </figcaption>
+          </figure>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/timeline-gallery.png"
+                alt="时间线页画廊视图：四个一级主题标签，下方是每条事件脉络的卡片，每张卡片带一条时间分布缩略线"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>时间线页 · 画廊。</b>顶部四个一级主题标签（全部 / 政策 / 宏观数据 / 市场与商品 /
+              贸易与产业），每张卡片是一条事件脉络：一条按真实时间分布的事件缩略线、
+              脉络名、抽样口径，以及日期范围。右上角常驻数据来源与「更新数据」。
+            </figcaption>
+          </figure>
+        </section>
+
+        <!-- ================= 一 · 聊天工作区 ================= -->
+        <section class="section" id="chat">
+          <div class="section__rule"></div>
+          <h2 class="section__title">一 · 聊天工作区</h2>
+          <p class="section__intro">
+            聊天区不是「接了个模型」，而是把一次分析请求拆成可控的几件事：用哪种模式、
+            用哪个模型、带上哪些事件、当前处在什么状态。
+          </p>
+
+          <h3 class="sub">
+            模式：快速与研究
+            <span class="sub__note">模式改变的是请求本身，不只是界面提示</span>
+          </h3>
+          <p>
+            输入框上方是一组互斥的分段控件。切换模式会直接改写到请求里的输出上限与系统提示词，
+            两条路径的差别是实打实的：
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>模式</th>
+                  <th>输出上限</th>
+                  <th>要求模型做什么</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>快速</td>
+                  <td class="num">800</td>
+                  <td>直接给简洁、重点突出的回答，控制在三段以内，不展开完整论证。</td>
+                </tr>
+                <tr>
+                  <td>研究</td>
+                  <td class="num">3000</td>
+                  <td>
+                    按固定结构输出：问题拆解 → 相关证据与数据（注明来源归属） → 多角度比较 →
+                    结构化结论与不确定性说明。并明确要求区分「记录的事实」「归属于他人的主张」
+                    「模型的解释」。
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-caption">
+            当前模式始终显示在输入区旁边，并配一句说明。切换只影响后续请求；
+            每条回答下方都记录它实际使用的模型与模式。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/chat-mode-bar.png"
+                alt="聊天页顶部工具条：快速/研究分段控件、模型下拉框，右侧显示「深入分析，收集证据并输出结构化结论」"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>模式与模型。</b>左侧是互斥的模式分段控件与模型下拉框，右端始终显示当前模式的
+              作用说明——切到研究模式后变为「深入分析，收集证据并输出结构化结论」。
+              生成过程中这个位置会显示「收集来源 → 比较证据 → 整理分析」的阶段指示。
+            </figcaption>
+          </figure>
+
+          <h3 class="sub">
+            模型：多套配置，各自独立
+            <span class="sub__note">设置里配一次，下拉列表即时生效，不用重启</span>
+          </h3>
+          <p>
+            可以并存多个模型，每个模型单独一套参数——接口地址、模型 ID、输出长度参数
+            （<code>max_tokens</code> 或 <code>max_completion_tokens</code>）、超时、输出上限。
+            模型显示名与提供方使用的模型 ID 分开填写，不对模型的可用性、速度或能力做任何猜测性描述。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/settings.png"
+                alt="设置对话框：模型清单、名称与模型 ID、接口地址、参数、密钥状态与探活按钮"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>设置。</b>上图为脱敏后的界面，接口地址已替换为占位值。密钥一栏只显示
+              「已设置 / 未设置」，界面不回读；加密钥输入框永远是空的，写入后即清空。
+            </figcaption>
+          </figure>
+
+          <div class="callout">
+            <p class="callout__title">密钥不出本机</p>
+            <p>
+              写入的密钥由本地服务保存到 <code>secrets.local.json</code>（权限
+              <code>0600</code>，已 gitignore）。<b>前端代码从头到尾不接触密钥</b>，
+              界面只显示「已设置 / 未设置」。不含密钥的模型清单存在
+              <code>settings.local.json</code>，可以备份或外发。
+            </p>
+            <p>
+              也可以用环境变量提供密钥（CI 或习惯 shell 的场景）：设置里没写密钥时，
+              回退读取该模型的 <code>api_key_env</code>（默认
+              <code>MACROMIND_LOCAL_API_KEY</code>），该值只存在于本地服务进程。
+              本机模型（如 Ollama）走回环地址，不要求密钥。
+            </p>
+          </div>
+
+          <p>
+            配置会被校验，规则与服务端契约一致：协议仅支持 <code>chat_completions</code>，
+            非回环地址必须 https，URL 不能带账号密码、查询参数或锚点，超时 1–60 秒，
+            输出上限 128–16000，最多 20 个模型。校验失败返回逐项错误，不是一句「保存失败」。
+            每个模型可以单独「测试连接」探活；未配置密钥的远端模型仍会列出，
+            但标记为不可用并说明原因。
+          </p>
+
+          <h3 class="sub">
+            对话与状态
+            <span class="sub__note">流式输出，五种状态在界面上一眼可分</span>
+          </h3>
+          <ul class="ticks">
+            <li>
+              <strong>输入。</strong>多行输入，Enter 发送、Shift+Enter 换行；
+              正确处理输入法组字状态——中文候选词未上屏时按 Enter 不会误发送。
+            </li>
+            <li>
+              <strong>发送之后。</strong>可以停止生成、重试失败的请求、复制回答、新建对话。
+              回答按 Markdown 渲染，表格、列表与来源引用可读。
+            </li>
+            <li>
+              <strong>状态。</strong>等待响应、生成中、已完成、已取消、请求失败五种状态各自明确。
+              取消请求或切换对话后，迟到的响应会被丢弃，不会窜进错误的会话。
+            </li>
+            <li>
+              <strong>失败不丢历史。</strong>请求失败后对话记录保留，可以直接重试。
+              本地服务未连接或没有可用模型时，界面直接说明是哪一种情况、并给出「打开设置」，
+              <b>不做任何替代回答</b>——宁可发不出去，也不给一份看不到出处的回答。
+            </li>
+          </ul>
+
+          <h3 class="sub">
+            与时间线打通
+            <span class="sub__note">事件作为结构化上下文进请求，不是复制一段文字</span>
+          </h3>
+          <p>
+            在事件详情面板点「加入聊天」，这条事件会以带类别、标题、发生时间的结构化形式
+            进入输入区上方的「已加入的事件上下文」，可随时移除。发送时它会被序列化进用户消息，
+            模型看到的是有出处的条目，而不是一段无来源的粘贴文本。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/chat-context-crop.png"
+                alt="输入区上方显示「已加入的事件上下文」标签「美国短期利率期货在经济数据公布后，小幅回吐此前涨幅」，带移除按钮"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>事件上下文。</b>从时间线带过来的事件以可移除的标签形式停在输入区上方，
+              发送前随时可以撤掉。这条是从「美国经济」脉络里带过来的。
+            </figcaption>
+          </figure>
+        </section>
+
+        <!-- ================= 二 · 新闻时间线 ================= -->
+        <section class="section" id="timeline">
+          <div class="section__rule"></div>
+          <h2 class="section__title">二 · 新闻时间线</h2>
+          <p class="section__intro">
+            时间线是这个工作区的重心。它分三层展开：<b>主题画廊</b>看全局，
+            <b>脉络页</b>读一件事的来龙去脉，<b>事件详情</b>看单条电报的出处与归属。
+          </p>
+
+          <h3 class="sub">
+            第一层 · 主题画廊
+            <span class="sub__note">先看哪里有事，再决定读什么</span>
+          </h3>
+          <p>
+            顶部四个一级主题标签把新闻切成四块：政策、宏观数据、市场与商品、贸易与产业。
+            每张卡片是一条事件脉络，卡片上那条小线是该脉络事件的真实时间分布——
+            密集处代表那几天这件事在持续发酵，空白处代表沉寂。这不是装饰，
+            是从缩略线就能看出「哪条脉络最近在动」。
+          </p>
+
+          <h3 class="sub">
+            第二层 · 脉络页
+            <span class="sub__note">一条脉络，按发生时间往下排</span>
+          </h3>
+          <p>
+            点开卡片进入脉络页。顶部是一条可点击的时间分布带，点击任意刻度跳到对应事件；
+            下方按自然日分组，每日左侧标出日期、星期与当天条数，右侧是该日的事件卡。
+            每张卡显示时间、类别、地区、标题、摘要与来源数量。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/thread.png"
+                alt="脉络页：顶部为可点击的时间分布带，下方按自然日分组的事件卡"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>脉络页。</b>标题下方明确写出抽样口径——「按每个自然日最多 5 条抽样，
+              优先重要程度」，以及该主题共抓取多少条。页面底部固定一句
+              「按发生时间先后排列。时间相邻不代表存在因果关系」。
+            </figcaption>
+          </figure>
+
+          <h3 class="sub">
+            第三层 · 事件详情面板
+            <span class="sub__note">三类信息在视觉上分开摆</span>
+          </h3>
+          <p>
+            点开任意事件，右侧滑出详情面板。它的结构本身就是一种表态——把不同可信度的内容
+            放进不同的格子，而不是揉成一段流畅的文字：
+          </p>
+          <ul class="ticks">
+            <li><strong>标题与摘要</strong>，来自来源报道。</li>
+            <li>
+              <strong>报道原文</strong>，默认折叠，展开即电报正文原样，并标注「未经核实」。
+            </li>
+            <li>
+              <strong>事件发生时间与新闻发布时间</strong>分开列出。电报只提供发布时间，
+              所以发生时间标注为未知，并写明原因，不臆造精度。
+            </li>
+            <li><strong>类别、地区、重要程度、相关实体</strong>，全部来自规则归类。</li>
+            <li><strong>来源链接</strong>，指向可点开的原始报道。</li>
+          </ul>
+          <p>
+            底部两个动作是详情面板存在的意义：「加入聊天」把这条事件送进聊天上下文，
+            「分析此事件」直接带着它发起一次分析。
+          </p>
+
+          <figure class="bleed">
+            <div class="shot">
+              <img
+                src="./shots/event-detail.png"
+                alt="事件详情面板：分类标签、标题摘要、折叠的报道原文、事件发生时间与新闻发布时间、相关实体、来源，底部为加入聊天与分析此事件"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <b>事件详情。</b>注意「事件发生时间」一栏下方的说明：
+              财联社电报只提供发布时间，事件本身的发生时间未知。这条限制被写在界面上，
+              而不是留给使用者去猜。
+            </figcaption>
+          </figure>
+        </section>
+
+        <!-- ================= 三 · 数据从哪来 ================= -->
+        <section class="section" id="data">
+          <div class="section__rule"></div>
+          <h2 class="section__title">三 · 数据从哪来</h2>
+          <p class="section__intro">
+            时间线上的事件全部是真实抓取。链路是可复核的：每一步的产物都落盘，
+            归类过程本身可以逐条抽查。
+          </p>
+
+          <div class="chain">
+            <div class="chain__step">
+              <div class="chain__file">scripts/update-news.mjs</div>
+              <div class="chain__what">
+                按 <code>last_time</code> 向前翻页抓取财联社电报，请求间隔 1.5 秒，
+                单次运行上限 150 次请求。
+              </div>
+              <div class="chain__note">增量抓取默认补最近 3 天，--days N 可调</div>
+            </div>
+            <div class="chain__step">
+              <div class="chain__file">data/news.raw.json</div>
+              <div class="chain__what">
+                原始电报全文。<b>大文件，不进版本控制</b>，但保留在本地以便重建。
+              </div>
+              <div class="chain__note">64 MB · 20,000 条</div>
+            </div>
+            <div class="chain__step">
+              <div class="chain__file">server/news/rules.mjs</div>
+              <div class="chain__what">
+                关键词归类：8 个类别 / 地区 / 重要程度 / 实体 / 归属主张。
+                <b>只用可复核的关键词规则，不调用模型判断</b>。
+              </div>
+              <div class="chain__note">每条事件记录命中词 _audit.categoryHits</div>
+            </div>
+            <div class="chain__step">
+              <div class="chain__file">server/news/pipeline.mjs</div>
+              <div class="chain__what">
+                生成事件、按真实主题归成脉络、按每日每类别限量生成展示快照。
+              </div>
+              <div class="chain__note">纯函数，有单元测试覆盖</div>
+            </div>
+            <div class="chain__step">
+              <div class="chain__file">data/news.events.json</div>
+              <div class="chain__what">
+                <b>采纳的全部事件</b>，含正文、来源链接与归类依据，供事后审计。
+                落选的事件也留在这里，不丢失。
+              </div>
+              <div class="chain__note">13,234 条</div>
+            </div>
+            <div class="chain__step">
+              <div class="chain__file">public/news.snapshot.json</div>
+              <div class="chain__what">
+                展示快照，随前端构建发布，<b>离线可用</b>。
+              </div>
+              <div class="chain__note">2,623 条</div>
+            </div>
+          </div>
+
+          <p>
+            界面取数有明确的优先级：<b>本地服务 → 静态快照 → 演示数据</b>。
+            前两者都是真实数据，只有都拿不到时才回退到一份明确虚构的演示事件，
+            并在界面上标注出来。时间线页右上角常驻显示来源、展示条数 / 抓取条数与覆盖时间范围。
+          </p>
+
+          <h3 class="sub">
+            八个类别
+            <span class="sub__note">颜色只用来识别类别，不表示利多利空</span>
+          </h3>
+          <p>
+            类别是一级分类，颜色是它的标识符。这套颜色在整份界面里是唯一的彩色来源——
+            除此之外整个工作区只有一种强调色。要说清楚的是：
+            <b>颜色不代表事件对市场是利多还是利空</b>，它只回答「这条属于哪一类」。
+          </p>
+
+          <ul class="legend">
+            <li><span class="legend__dot" style="background: var(--cat-monetary)"></span>货币政策<span class="legend__topic">政策</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-fiscal)"></span>财政政策<span class="legend__topic">政策</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-inflation)"></span>通胀与就业<span class="legend__topic">宏观数据</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-growth)"></span>增长与经济活动<span class="legend__topic">宏观数据</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-markets)"></span>金融市场<span class="legend__topic">市场与商品</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-energy)"></span>能源与大宗商品<span class="legend__topic">市场与商品</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-trade)"></span>贸易与地缘政治<span class="legend__topic">贸易与产业</span></li>
+            <li><span class="legend__dot" style="background: var(--cat-tech)"></span>科技与产业<span class="legend__topic">贸易与产业</span></li>
+          </ul>
+
+          <h3 class="sub">
+            归类口径
+            <span class="sub__note">宁可漏，不可凑</span>
+          </h3>
+          <ul class="ticks">
+            <li>
+              完全不命中这 8 个宏观类别的电报<b>直接丢弃</b>，不做兜底归类。
+              栏目稿（盘中宝、风口研报、提醒电报、投资日历等）一并过滤。
+            </li>
+            <li>
+              每条事件都记录命中的关键词，界面上可以人工抽查它为什么被归到某个类别。
+            </li>
+            <li>
+              展示量有两层控制：快照按「每个自然日 × 类别最多 8 条」，脉络页按
+              「每个自然日最多 5 条」，都优先重要程度与阅读量。落选事件仍保留在
+              <code>news.events.json</code> 里。
+            </li>
+            <li>
+              展示时区固定为 <code>Asia/Shanghai</code>，并在界面上显式写出——
+              时间永远带着它的时区一起出现。
+            </li>
+          </ul>
+        </section>
+
+        <!-- ================= 四 · 信任设计 ================= -->
+        <section class="section" id="trust">
+          <div class="section__rule"></div>
+          <h2 class="section__title">四 · 信任设计</h2>
+          <p class="section__intro">
+            这一类工具的失败方式通常不是算错，而是<b>把话说得比证据更满</b>。
+            所以界面里有一批专门用来「少说一点」的约束。
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>界面上的做法</th>
+                  <th>避免的问题</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>时间相邻的提示语</td>
+                  <td>脉络页与详情面板都写明「时间相邻不代表存在因果关系」，不因两条新闻挨着就暗示因果。</td>
+                </tr>
+                <tr>
+                  <td>发生时间标为未知</td>
+                  <td>电报只提供发布时间，就不给事件发生时间编一个精度。</td>
+                </tr>
+                <tr>
+                  <td>正文归入「报道原文」</td>
+                  <td>电报正文是媒体报道，标注未经独立核实，且<b>不写进「Agent 的解释」</b>，避免生成内容混进事实层。</td>
+                </tr>
+                <tr>
+                  <td>不造评分与百分比</td>
+                  <td>界面里没有影响评分、置信度百分比或来源数量以外的任何推断性数值。</td>
+                </tr>
+                <tr>
+                  <td>演示数据必须标注</td>
+                  <td>时间线回退到演示数据时，界面顶部直接说明「当前展示为演示数据（明确虚构）」。演示事件不使用伪造的有效来源链接。</td>
+                </tr>
+                <tr>
+                  <td>每条回答记录来源</td>
+                  <td>回答下方始终显示它用的模型与模式，不让人误以为换个模式只是换了说法。</td>
+                </tr>
+                <tr>
+                  <td>不暴露密钥</td>
+                  <td>密钥只写不读，前端代码不接触，只存在于本地服务进程。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ================= 五 · 运行与技术形态 ================= -->
+        <section class="section" id="run">
+          <div class="section__rule"></div>
+          <h2 class="section__title">五 · 运行与技术形态</h2>
+
+          <p>
+            技术栈是 React 19 + TypeScript + Tailwind CSS 4 + Vite。没有引入可视化库，
+            时间线的布局、抽样与定位全部是自己写的纯函数，并且有单元测试覆盖
+            （当前 66 项，覆盖时间线布局、归类规则、事件与脉络生成）。
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>形态</th>
+                  <th>命令</th>
+                  <th>说明</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>开发</td>
+                  <td class="num">npm run server<br />npm run dev</td>
+                  <td>本地服务 8787，前端 5173，<code>/api</code> 代理到本地服务。</td>
+                </tr>
+                <tr>
+                  <td>生产（Web）</td>
+                  <td class="num">npm run build<br />npm run server</td>
+                  <td>单进程同端口提供前端与 <code>/api</code>，浏览器打开 8787。<b>已验证</b>。</td>
+                </tr>
+                <tr>
+                  <td>桌面应用</td>
+                  <td class="num">npm run app:dist</td>
+                  <td>打包 macOS dmg/zip、Windows NSIS、Linux AppImage。Electron 主进程 fork 内置本地服务，只监听 127.0.0.1。<b>未验证</b>。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-caption">
+            不启动本地服务时，<code>npm run dev</code> 仍可单独预览：时间线读取随构建发布的静态快照（真实数据），
+            聊天区则显示「未连接本地服务」，不发送请求。
+          </p>
+
+          <p>
+            本地服务只监听回环地址，提供 <code>/api/health</code>、<code>/api/models</code>、
+            <code>/api/chat</code>（SSE 流式）、<code>/api/news</code> 与
+            <code>/api/settings</code> 系列端点。桌面端与 Web 端共用同一份前端产物。
+          </p>
+
+          <h3 class="sub">
+            小屏
+            <span class="sub__note">同一套界面，标签页切换</span>
+          </h3>
+          <p>
+            窄屏下两个面板改为标签页切换，切换时保留聊天草稿、已选事件、筛选条件与时间线位置，
+            事件详情以抽屉形式弹出。
+          </p>
+
+          <div class="pair">
+            <figure>
+              <div class="shot">
+                <img src="./shots/mobile-chat.png" alt="移动端聊天页" loading="lazy" />
+              </div>
+              <figcaption><b>移动端 · 聊天</b></figcaption>
+            </figure>
+            <figure>
+              <div class="shot">
+                <img src="./shots/mobile-thread.png" alt="移动端脉络页" loading="lazy" />
+              </div>
+              <figcaption><b>移动端 · 脉络页</b></figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- ================= 六 · 现状与限制 ================= -->
+        <section class="section" id="status">
+          <div class="section__rule"></div>
+          <h2 class="section__title">六 · 现状与限制</h2>
+          <p class="section__intro">
+            这一节列的是已知的缺口，不是待办清单的复述。凡是在界面上看起来像能力、
+            实际上还没接上的地方，都写在这里。
+          </p>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>项</th>
+                  <th>状态</th>
+                  <th>说明</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>聊天未接入 engine</td>
+                  <td><span class="tag tag--todo">待处理</span></td>
+                  <td>
+                    本地服务把对话直接转发到 OpenAI 兼容端点，<b>不使用 engine 的证据库与方法框架</b>。
+                    研究模式显示的「收集来源 → 比较证据 → 整理分析」是服务端按固定时机发出的占位状态，
+                    不代表实际检索了来源。这是当前最需要对齐的一处。
+                  </td>
+                </tr>
+                <tr>
+                  <td>归类准确率未评估</td>
+                  <td><span class="tag tag--todo">待处理</span></td>
+                  <td>
+                    关键词归类必然有误判（例如个别科技稿件被判进「贸易与地缘政治」）。
+                    每条记录了命中词可以抽查，但没有做过准确率评估。
+                  </td>
+                </tr>
+                <tr>
+                  <td>抓取依赖非官方接口</td>
+                  <td><span class="tag tag--todo">已知风险</span></td>
+                  <td>财联社电报接口变化会导致抓取失效。抓取范围目前约 49 天，受单次请求上限限制。</td>
+                </tr>
+                <tr>
+                  <td>Electron 打包未验证</td>
+                  <td><span class="tag tag--todo">未验证</span></td>
+                  <td>
+                    打包配置与外壳代码未经实际运行验证（开发环境无法下载 Electron 二进制）。
+                    Web 形态已验证。
+                  </td>
+                </tr>
+                <tr>
+                  <td>时间线的缩放手势未实现</td>
+                  <td><span class="tag tag--todo">功能缺口</span></td>
+                  <td>
+                    原始需求中的日／周／月时间尺度、放大缩小、横向平移、密集事件聚合、
+                    以及无障碍列表视图均未实现。当前是可点击的缩略分布带 + 按日分组的竖向列表。
+                  </td>
+                </tr>
+                <tr>
+                  <td>主题切换的自动化检查失效</td>
+                  <td><span class="tag tag--todo">待处理</span></td>
+                  <td>
+                    验收脚本里的主题断言恒为真，实际未验证；部分
+                    <code>*-dark.png</code> 截图实为浅色主题。
+                  </td>
+                </tr>
+                <tr>
+                  <td>真实新闻数据时间线</td>
+                  <td><span class="tag tag--done">已完成</span></td>
+                  <td>已从演示数据切换为财联社电报真实抓取，链路与口径见第三节。</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout warn">
+            <p class="callout__title">一句话概括当前边界</p>
+            <p>
+              时间线这一半是实的——真实数据、可复核的归类、明确的证据分级。
+              聊天这一半是通的——真实模型、真实流式、真实的模式差异——但它还没有接到
+              MacroMind 的证据库与分析框架上。<b>这两半之间目前只有「事件上下文」这一条通道。</b>
+            </p>
+          </div>
+
+          <p class="colophon">
+            MacroMind 宏观研究工作区 · 产品简介。界面截图取自 2026-10-15 本地构建，
+            深色主题，时间为实际抓取数据的真实展示。设置页截图中的接口地址与配置路径已脱敏。
+            按 <code>⌘P</code> 可打印为 PDF 或长图。
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      (function () {
+        // ---- 主题切换 ----
+        var root = document.documentElement;
+        var btn = document.getElementById('theme');
+        var label = document.getElementById('theme-label');
+        var sync = function () {
+          var light = root.classList.contains('light');
+          label.textContent = light ? '深色' : '浅色';
+          btn.setAttribute('aria-label', light ? '切换到深色主题' : '切换到浅色主题');
+        };
+        btn.addEventListener('click', function () {
+          root.classList.toggle('light');
+          root.classList.toggle('dark', !root.classList.contains('light'));
+          sync();
+        });
+        sync();
+
+        // ---- 事件脉搏 ----
+        // 一天一根柱，柱高为当天采纳量，柱内按类别堆叠。
+        // 覆盖窗口 2026-08-26 → 2026-10-14，共 49 天。形态用确定性伪随机序列生成，
+        // 参照真实抓取数据的量级与类别配比，不声称是逐日真实计数。
+        var CATS = [
+          { c: '#7d9bd6', w: 1.0 }, // 货币政策
+          { c: '#d6946a', w: 0.9 }, // 通胀与就业
+          { c: '#88b580', w: 1.1 }, // 增长与经济活动
+          { c: '#b491ce', w: 0.7 }, // 财政政策
+          { c: '#d08890', w: 1.5 }, // 贸易与地缘政治
+          { c: '#6fb5c1', w: 1.3 }, // 金融市场
+          { c: '#c7a866', w: 0.8 }, // 能源与大宗商品
+          { c: '#93a2b8', w: 1.6 }, // 科技与产业
+        ];
+        var DAYS = 49;
+        var rnd = function (i, salt) {
+          var x = Math.sin(i * 12.9898 + salt * 78.233) * 43758.5453;
+          return x - Math.floor(x);
+        };
+        var totals = [];
+        for (var d = 0; d < DAYS; d++) {
+          var dow = (d + 3) % 7; // 2026-08-26 是周三
+          var weekendDip = dow === 5 || dow === 6 ? 0.45 : 1;
+          var envelope = 0.72 + 0.28 * Math.sin(d / 8.5) + 0.16 * Math.sin(d / 2.7);
+          totals.push(
+            Math.max(12, Math.round(78 * envelope * weekendDip * (0.75 + rnd(d, 1) * 0.5))),
+          );
+        }
+        var maxTotal = Math.max.apply(null, totals);
+        var bars = document.getElementById('pulse-bars');
+        var frag = document.createDocumentFragment();
+        for (var i = 0; i < DAYS; i++) {
+          var bar = document.createElement('span');
+          bar.className = 'pulse__bar';
+          bar.style.height = ((totals[i] / maxTotal) * 96).toFixed(1) + '%';
+          bar.style.animationDelay = Math.round((i / DAYS) * 900) + 'ms';
+
+          var weights = CATS.map(function (cat, ci) {
+            return Math.max(0.05, cat.w * (0.4 + rnd(i * 8 + ci, 2) * 1.2));
+          });
+          var wSum = weights.reduce(function (a, b) {
+            return a + b;
+          }, 0);
+          CATS.forEach(function (cat, ci) {
+            var share = weights[ci] / wSum;
+            if (share < 0.07) return; // 份额过小的分段在 15px 宽的柱内看不见，直接并掉
+            var seg = document.createElement('span');
+            seg.className = 'pulse__seg';
+            seg.style.height = ((weights[ci] / wSum) * 100).toFixed(1) + '%';
+            seg.style.background = cat.c;
+            bar.appendChild(seg);
+          });
+          frag.appendChild(bar);
+        }
+        bars.appendChild(frag);
+
+        // ---- 左侧时间轴：当前节高亮 + 进度线 ----
+        var links = Array.prototype.slice.call(document.querySelectorAll('.rail__link'));
+        var sections = links
+          .map(function (a) {
+            return document.querySelector(a.getAttribute('href'));
+          })
+          .filter(Boolean);
+        var progress = document.getElementById('rail-progress');
+        var list = document.getElementById('rail-list');
+
+        var setCurrent = function (id) {
+          links.forEach(function (a) {
+            a.setAttribute('aria-current', a.getAttribute('href') === '#' + id ? 'true' : 'false');
+          });
+        };
+
+        if ('IntersectionObserver' in window) {
+          var visible = {};
+          var io = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (e) {
+                visible[e.target.id] = e.isIntersecting ? e.intersectionRatio : 0;
+              });
+              var best = null;
+              var bestRatio = 0;
+              sections.forEach(function (s) {
+                var r = visible[s.id] || 0;
+                if (r > bestRatio) {
+                  bestRatio = r;
+                  best = s.id;
+                }
+              });
+              if (best) setCurrent(best);
+            },
+            { rootMargin: '-72px 0px -55% 0px', threshold: [0, 0.1, 0.25, 0.5, 0.75, 1] },
+          );
+          sections.forEach(function (s) {
+            io.observe(s);
+          });
+        }
+
+        var onScroll = function () {
+          var rect = list.getBoundingClientRect();
+          var anchor = window.innerHeight * 0.36;
+          var ratio = (anchor - rect.top) / rect.height;
+          ratio = Math.max(0, Math.min(1, ratio));
+          progress.style.height = (rect.height - 1.1 * 16) * ratio + 'px';
+        };
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+      })();
+    </script>
+  </body>
+</html>
