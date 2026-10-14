@@ -46,11 +46,6 @@ function AssistantMeta(props: { m: ChatMessage }) {
   return (
     <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px] text-[var(--text-muted)]">
       {m.usedModelDisplayName && <span>{t.chat.usedWith(m.usedModelDisplayName, modeLabel)}</span>}
-      {m.isDemo && (
-        <span className="rounded bg-[var(--bg-subtle)] px-1 py-px text-[var(--text-secondary)]">
-          {t.chat.demoAnswerNote}
-        </span>
-      )}
       <span>{formatMessageTime(m.createdAt)}</span>
     </div>
   );

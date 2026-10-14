@@ -22,6 +22,8 @@ import { getNewsPayload, isStale, refreshInBackground } from './news/newsApi.mjs
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PORT = Number(process.env.MACROMIND_UI_PORT || 8787);
 const HOST = '127.0.0.1';
+// 端到端验证用：置 1 关闭后台新闻抓取，避免测试实例发起真实网络请求
+const NO_BACKGROUND_FETCH = process.env.MACROMIND_NO_BACKGROUND_FETCH === '1';
 
 // ---------- 配置加载 ----------
 const configPath =
@@ -48,7 +50,6 @@ function modelEntry(m) {
     supportedModes: ['fast', 'research'],
     available: ok,
     unavailableReason: reason,
-    isDemo: false,
   };
 }
 
@@ -274,11 +275,14 @@ const server = http.createServer(async (req, res) => {
       if (req.method === 'GET') {
         const payload = getNewsPayload();
         if (!payload) return json(res, 503, { error: '尚无新闻快照，请先运行 npm run news:update' });
-        const started = url.searchParams.get('refresh') === '1' ? refreshInBackground() : false;
+        const started =
+          !NO_BACKGROUND_FETCH && url.searchParams.get('refresh') === '1' ? refreshInBackground() : false;
         return json(res, 200, { ...payload, stale: isStale(), refreshStarted: started });
       }
       if (req.method === 'POST') {
-        const started = refreshInBackground({ days: Number(url.searchParams.get('days')) || 3 });
+        const started = NO_BACKGROUND_FETCH
+          ? false
+          : refreshInBackground({ days: Number(url.searchParams.get('days')) || 3 });
         return json(res, 202, { refreshStarted: started });
       }
     }
@@ -301,7 +305,7 @@ server.listen(PORT, HOST, () => {
   console.log(`[macromind-ui-server] 模型设置：${store.settingsPath}`);
   if (configError) console.log(`[macromind-ui-server] 注意：${configError}（/api/chat 将返回 503）`);
   // 新闻快照存在且过期时，启动后在后台增量抓取一次（不阻塞接口）
-  if (isStale() && refreshInBackground()) {
+  if (!NO_BACKGROUND_FETCH && isStale() && refreshInBackground()) {
     console.log('[macromind-ui-server] 新闻快照已过期，已在后台触发增量抓取');
   }
 });

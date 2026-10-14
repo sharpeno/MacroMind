@@ -12,7 +12,6 @@ import { EventDetailPanel } from './components/EventDetailPanel';
 import { EventPulse } from './components/EventPulse';
 import { SettingsDialog } from './components/SettingsDialog';
 import type { ChatService } from './services/chatService';
-import { DemoChatService, DEMO_MODEL } from './services/demoChatService';
 import { ProxyChatService, probeBackend } from './services/proxyChatService';
 import { loadNews, type NewsSourceKind } from './services/newsService';
 import { ProxySettingsService, type SettingsService } from './services/settingsService';
@@ -34,9 +33,10 @@ export default function App() {
 
   // ---------- 后端探测与服务适配层 ----------
   const [backend, setBackend] = useState<BackendState>('checking');
-  const [chatService, setChatService] = useState<ChatService>(() => new DemoChatService());
-  const [models, setModels] = useState<ModelOption[]>([DEMO_MODEL]);
-  const [selectedModelId, setSelectedModelId] = useState<string | null>(DEMO_MODEL.id);
+  /** 未连接本地服务时为 null：没有可用的模型，不提供占位模型 */
+  const [chatService, setChatService] = useState<ChatService | null>(null);
+  const [models, setModels] = useState<ModelOption[]>([]);
+  const [selectedModelId, setSelectedModelId] = useState<string | null>(null);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [settingsService, setSettingsService] = useState<SettingsService | null>(null);
   const settingsButtonRef = useRef<HTMLButtonElement>(null);
@@ -61,13 +61,14 @@ export default function App() {
     try {
       const remoteModels = await proxy.listModels();
       setChatService(proxy);
-      setSettingsService(new ProxySettingsService());
-      setModels([...remoteModels, DEMO_MODEL]);
+      // 复用同一个设置服务实例：换新实例会让设置对话框重新拉取并清掉「已保存」提示
+      setSettingsService((prev) => prev ?? new ProxySettingsService());
+      setModels(remoteModels);
       setBackend('connected');
       setSelectedModelId((prev) => {
         const stillThere = keepSelection && prev !== null && remoteModels.some((m) => m.id === prev);
         if (stillThere) return prev;
-        return (remoteModels.find((m) => m.available) ?? DEMO_MODEL).id;
+        return (remoteModels.find((m) => m.available) ?? remoteModels[0])?.id ?? null;
       });
       return true;
     } catch {
@@ -100,15 +101,8 @@ export default function App() {
     };
   }, [loadBackend, loadNewsData]);
 
-  // 聊天服务按需包装：演示模型选中时走演示服务（即便后端已连接）
-  const demoService = useMemo(() => new DemoChatService(), []);
-  const effectiveService = useMemo<ChatService>(() => {
-    const isDemoModel = selectedModelId === DEMO_MODEL.id;
-    return isDemoModel ? demoService : chatService;
-  }, [selectedModelId, chatService, demoService]);
-
   // ---------- 聊天与时间线状态（提升到 App，切换标签不丢失） ----------
-  const chat = useChat(effectiveService);
+  const chat = useChat(chatService);
   const tl = useTimeline(events, threads);
   const openCard = useMemo(
     () => (tl.openThreadId === null ? null : (tl.cards.find((c) => c.id === tl.openThreadId) ?? null)),
@@ -290,6 +284,7 @@ export default function App() {
             attachedEvents={attachedEvents}
             onRemoveAttached={(id) => setAttachedEvents((prev) => prev.filter((a) => a.eventId !== id))}
             onClearAttached={() => setAttachedEvents([])}
+            onOpenSettings={() => setSettingsOpen(true)}
             emptyVisual={
               <EventPulse
                 events={events}

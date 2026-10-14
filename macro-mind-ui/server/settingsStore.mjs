@@ -236,7 +236,9 @@ export class SettingsStore {
 
   /** 面向界面的安全视图：不含密钥、不含环境变量名 */
   safeView(settings = this.load()) {
-    if (!settings) return null;
+    // 全新安装（没有 settings.local.json 也没有 model.local.json）时给空的清单，
+    // 界面据此显示「尚未配置模型」并允许添加第一条——不能返回 null 让设置界面变成空白。
+    if (!settings) return { version: SETTINGS_VERSION, activeModelId: null, models: [] };
     return {
       version: settings.version,
       activeModelId: settings.activeModelId,

@@ -36,7 +36,8 @@ export interface UseChatResult {
   startNewConversation(): void;
 }
 
-export function useChat(service: ChatService): UseChatResult {
+/** service 为 null 表示本地服务未连接：没有可用模型，发送直接失败并说明原因 */
+export function useChat(service: ChatService | null): UseChatResult {
   const [conversation, setConversation] = useState<Conversation>(newConversation);
   const [isGenerating, setIsGenerating] = useState(false);
   const abortRef = useRef<AbortController | null>(null);
@@ -77,7 +78,6 @@ export function useChat(service: ChatService): UseChatResult {
         usedModelId: model.id,
         usedModelDisplayName: model.displayName,
         usedMode: mode,
-        isDemo: model.isDemo,
       };
 
       const nextMessages = [...conv.messages, userMsg, assistantMsg];
@@ -114,6 +114,15 @@ export function useChat(service: ChatService): UseChatResult {
         const isActive = () =>
           activeRef.current?.convId === conv.id && activeRef.current?.msgId === assistantMsg.id;
         let progress: ResearchProgress | undefined;
+        // 未连接本地服务：没有可用的模型，直接给出原因
+        if (service === null) {
+          if (isActive()) {
+            patchMessage(conv.id, assistantMsg.id, { status: 'error', errorMessage: t.errors.noModel });
+            activeRef.current = null;
+            setIsGenerating(false);
+          }
+          return;
+        }
         try {
           for await (const evt of service.stream(req, ctrl.signal)) {
             if (!isActive()) return; // 迟到响应：丢弃

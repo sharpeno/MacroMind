@@ -2,10 +2,9 @@ import type { ChatMode, ChatRequest, ChatStreamEvent, EventContextRef, ModelOpti
 
 /**
  * 聊天服务适配层接口。
- * 实现：
- *  - DemoChatService：明确标注的演示数据（demoChatService.ts）
- *  - ProxyChatService：经本地服务转发到已配置的模型 API（proxyChatService.ts），
- *    密钥保存在本地服务进程环境变量中，不暴露给前端。
+ * 实现：ProxyChatService —— 经本地服务转发到设置里配置的模型 API（proxyChatService.ts），
+ * 密钥只保存在本地服务进程内，不暴露给前端。
+ * 没有配置模型时前端不使用任何替代实现：界面直接说明原因（见 ModelSelector / ChatPanel）。
  */
 export interface ChatService {
   /** 从后端或集中配置加载可用模型 */

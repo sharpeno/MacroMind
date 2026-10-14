@@ -22,6 +22,7 @@ export function ChatPanel(props: {
   attachedEvents: EventContextRef[];
   onRemoveAttached: (id: string) => void;
   onClearAttached: () => void;
+  onOpenSettings: () => void;
   emptyVisual?: ReactNode;
 }) {
   const {
@@ -36,6 +37,7 @@ export function ChatPanel(props: {
     attachedEvents,
     onRemoveAttached,
     onClearAttached,
+    onOpenSettings,
     emptyVisual,
   } = props;
 
@@ -61,6 +63,9 @@ export function ChatPanel(props: {
     selectedModel !== null &&
     selectedModel.available &&
     selectedModel.supportedModes.includes(mode);
+
+  /** 没有可用模型：输入区上方说明原因，而不是让发送键静默失效 */
+  const blocked = selectedModel === null || !selectedModel.available;
 
   const handleSend = () => {
     if (!canSend || !selectedModel) return;
@@ -103,6 +108,27 @@ export function ChatPanel(props: {
           emptyVisual={emptyVisual}
         />
       </div>
+      {/* 没有可用模型时说明原因并给出入口，不用占位模型冒充可用 */}
+      {blocked && (
+        <div className="mx-auto w-full max-w-2xl px-5 pt-2">
+          <p
+            role="status"
+            className="flex flex-wrap items-center gap-x-2 gap-y-1 rounded-md border border-[var(--border)] bg-[var(--bg-subtle)] px-3 py-2 text-xs text-[var(--text-secondary)]"
+          >
+            <span>
+              {models.length === 0
+                ? t.chat.modelEmptyHint
+                : t.chat.modelBlockedHint(selectedModel?.unavailableReason ?? t.chat.modelUnavailable)}
+            </span>
+            <button
+              onClick={onOpenSettings}
+              className="text-[var(--accent-text)] underline-offset-2 hover:underline"
+            >
+              {t.chat.modelOpenSettings}
+            </button>
+          </p>
+        </div>
+      )}
       {/* 输入区（始终可见） */}
       <ChatComposer
         draft={draft}

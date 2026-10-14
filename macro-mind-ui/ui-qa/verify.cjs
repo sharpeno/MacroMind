@@ -41,7 +41,13 @@ const check = (name, ok, extra = '') => {
   check('模型下拉存在', await page.locator('#model-select').isVisible());
   check('空状态建议问题', (await page.locator('text=开始一次宏观研究对话').count()) > 0);
   await page.getByRole('tab', { name: '时间线' }).click();
-  await page.waitForTimeout(400);
+  // 等首屏数据到位：本地服务冷启动解析快照可能要 1 秒以上，固定等待会误判成空数据
+  await page
+    .locator('[data-thread-id]')
+    .first()
+    .waitFor({ timeout: 20000 })
+    .catch(() => console.log('WARN 等待脉络卡片超时'));
+  await page.waitForTimeout(300);
   // 数据来源标签：未接后端时为演示数据提示，接了后端为真实来源说明（财联社电报）
   const sourceNote = await page.locator('main p').filter({ hasText: /演示数据|财联社|快照/ }).first().innerText().catch(() => '');
   check('标注数据来源', sourceNote.length > 0, sourceNote.slice(0, 60));
@@ -141,44 +147,25 @@ const check = (name, ok, extra = '') => {
   await page.getByRole('button', { name: /返回全部时间线/ }).click();
   await page.getByRole('button', { name: '切换主题' }).click();
 
-  // 聊天：发送（演示模型、快速模式）
-  // 后端连上后默认选中真实模型，这里显式切回演示模型以验证演示链路
+  // 聊天：模型下拉只反映配置，没有配置就明说（发送链路见 verify-chat.cjs）
+  // 这里连的是仓库真实配置的模型，不能发请求（会产生真实调用），只验证界面状态。
   await page.getByRole('tab', { name: '聊天' }).click();
-  await page.waitForTimeout(200);
-  const demoOption = await page
-    .locator('#model-select option')
-    .evaluateAll((opts) => (opts.find((o) => o.value === 'demo-offline') ? 'demo-offline' : null));
-  if (demoOption) {
-    await page.locator('#model-select').selectOption('demo-offline');
+  await page.waitForTimeout(300);
+  const modelOptions = await page.locator('#model-select option').allInnerTexts();
+  check('模型下拉不含界面占位模型', !modelOptions.some((o) => o.includes('演示')), modelOptions.join(' / '));
+  const selectedModel = await page.locator('#model-select').inputValue();
+  const emptyHint = (await page.locator('text=还没有可用的模型').count()) > 0;
+  const blockedHint = (await page.locator('text=当前模型不可用').count()) > 0;
+  if (emptyHint || blockedHint) {
+    check('无可用模型时说明原因', true, emptyHint ? '未配置模型' : '模型不可用');
+    check('说明里给出设置入口', await page.getByRole('button', { name: '打开设置' }).isVisible());
+    await page.locator('textarea').fill('有内容也不该能发出去');
     await page.waitForTimeout(200);
-  }
-  await page.waitForTimeout(200);
-  await page.locator('textarea').fill('测试问题：美联储政策路径？');
-  await page.locator('textarea').press('Enter');
-  await page.waitForTimeout(600);
-  const streaming = (await page.locator('text=生成中').count()) > 0 || (await page.locator('.stream-cursor').count()) > 0 || (await page.locator('text=等待响应').count()) > 0;
-  check('发送后进入生成状态', streaming || (await page.locator('text=演示回答').count()) > 0);
-  await page.waitForTimeout(4000);
-  check('收到演示回答（明确标注）', (await page.locator('text=演示回答').count()) > 0);
-  check('回答记录模型与模式', (await page.locator('text=演示模型（离线） · 快速').count()) > 0);
-
-  // 研究模式 + 发送 → 工作流程状态
-  await page.locator('[role=radio]', { hasText: '研究' }).click();
-  await page.locator('textarea').fill('研究模式测试');
-  await page.locator('textarea').press('Enter');
-  await page.waitForTimeout(900);
-  check('研究流程状态显示', (await page.locator('text=收集来源').count()) > 0);
-  // 停止生成
-  const stopBtn = page.getByRole('button', { name: '停止生成' });
-  if (await stopBtn.isVisible()) {
-    await stopBtn.click();
-    await page.waitForTimeout(300);
-    check('取消后显示已取消', (await page.locator('text=已取消').count()) > 0);
-    check('取消后可重试', (await page.getByRole('button', { name: '重试' }).count()) > 0);
-    // 重试
-    await page.getByRole('button', { name: '重试' }).click();
-    await page.waitForTimeout(4500);
-    check('重试后完成', (await page.locator('text=演示回答').count()) >= 2);
+    check('无可用模型时发送被禁用', await page.getByRole('button', { name: '发送', exact: true }).isDisabled());
+    await page.locator('textarea').fill('');
+  } else {
+    check('有可用模型时不显示无模型提示', true, `当前模型 ${selectedModel}`);
+    console.log(`SKIP 发送链路（连的是真实模型 ${selectedModel}，避免真实调用；见 verify-chat.cjs）`);
   }
 
   // 主题切换

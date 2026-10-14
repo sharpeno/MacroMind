@@ -12,12 +12,10 @@ export interface ModelOption {
   providerLabel: string;
   /** 支持的模式；不支持的组合在界面上禁用并说明 */
   supportedModes: ChatMode[];
-  /** 是否可用（后端探测失败时为 false，仍展示但禁用） */
+  /** 是否可用（未设置密钥时为 false，仍展示但禁用） */
   available: boolean;
   /** 不可用原因说明 */
   unavailableReason?: string;
-  /** 是否为演示模型（回答为演示数据） */
-  isDemo: boolean;
 }
 
 /** 设置：单个模型条目（不含密钥，只有是否已设置） */
@@ -38,7 +36,8 @@ export interface ModelConfigEntry {
 
 export interface SettingsSnapshot {
   version: number;
-  activeModelId: string;
+  /** 当前用于对话的模型；还没有配置任何模型时为 null */
+  activeModelId: string | null;
   models: ModelConfigEntry[];
 }
 
@@ -80,8 +79,6 @@ export interface ChatMessage {
   usedModelId?: string;
   usedModelDisplayName?: string;
   usedMode?: ChatMode;
-  /** 是否演示回答 */
-  isDemo?: boolean;
   /** 错误信息（status === 'error'） */
   errorMessage?: string;
   /** 研究模式进度（流式期间更新） */

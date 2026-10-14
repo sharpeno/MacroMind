@@ -46,7 +46,7 @@ npm run dev       # 前端 http://localhost:5173（/api 代理到 8787）
 npm run build && npm run server   # 浏览器打开 http://127.0.0.1:8787
 ```
 
-不启动本地服务时仍可用 `npm run dev` 单独预览：时间线读取随构建发布的静态快照（真实数据），模型请求回退演示回答。
+不启动本地服务时仍可用 `npm run dev` 单独预览：时间线读取随构建发布的静态快照（真实数据），聊天不可用——没有本地服务就没有模型，界面如实说明并指到设置，不提供占位模型。
 
 ## 模型接入
 
@@ -71,7 +71,7 @@ export MACROMIND_LOCAL_API_KEY=...
 npm run server
 ```
 
-本机模型（如 Ollama，`http://127.0.0.1:11434/v1`）不需要密钥，回环地址不做密钥要求。未配置密钥的远端模型仍会列出，但标记为不可用并说明原因，界面回退演示模型；对它发起 `/api/chat` 返回 503。
+本机模型（如 Ollama，`http://127.0.0.1:11434/v1`）不需要密钥，回环地址不做密钥要求。未配置密钥的远端模型仍会列出，但标记为不可用并说明原因；对它发起 `/api/chat` 返回 503。下拉框里的模型只来自这里的配置——没有任何占位或演示模型，一个都没配就显示「未配置模型」并给出设置入口。
 
 设置端点（均由本地服务提供，仅监听 127.0.0.1）：
 
@@ -109,8 +109,7 @@ src/
   config/topics.ts          # 一级主题 + 类别→主题映射
   services/
     chatService.ts          # 聊天接口 + 模式→请求配置映射
-    demoChatService.ts      # 演示聊天（明确标注）
-    proxyChatService.ts     # 本地服务适配器（SSE 流式）
+    proxyChatService.ts     # 本地服务适配器（SSE 流式）——唯一的聊天实现
     newsService.ts          # 取数优先级：本地服务 → 静态快照 → 演示数据
     settingsService.ts      # 模型设置读写
     demoEvents.ts           # 明确虚构的演示事件（仅在真实数据都不可用时使用）
@@ -140,11 +139,15 @@ ui-qa/                      # Playwright 验证脚本与截图
 npm run test   # 66 项单元测试：时间线布局 + 归类规则 + 事件/脉络/快照生成
 npm run lint   # oxlint
 npm run build  # tsc 类型检查 + vite 构建
-node ui-qa/verify.cjs            # 浏览器交互检查（需 dev 服务运行在 5199）
-node ui-qa/verify-settings.cjs   # 设置对话框：模型清单/密钥只写不读/校验/探活/焦点（需 dev + 本地服务）
+node ui-qa/verify.cjs            # 浏览器交互检查（需 dev 服务运行在 5199；不发送聊天请求）
+node ui-qa/verify-chat.cjs       # 聊天链路：发送/流式/研究模式/停止/重试（自带 mock 上游与隔离实例，无需密钥）
+node ui-qa/verify-settings.cjs   # 设置对话框：模型清单/密钥只写不读/校验/探活/焦点（自带隔离实例与临时配置）
 node ui-qa/verify-connected.cjs  # 连接模式模型处理（需本地服务）
 node ui-qa/verify-prod.cjs       # 生产构建端到端（需 build + server）
 node ui-qa/check-real-data.cjs   # 真实数据时间线：来源说明/脉络/详情/筛选（需 build + server）
 ```
+
+> `verify-chat.cjs` 与 `verify-settings.cjs` 自带隔离环境（mock 上游 / 临时配置目录 + 独立端口），
+> 不会读写仓库里的真实模型配置，也不会把请求发到真实模型。
 
 > 已知问题：`ui-qa/verify.cjs` 的主题切换断言恒为真（`isDark === true || isDark === false`），实际未验证；`*-dark.png` 系列截图是浅色主题。见仓库根目录《UI问题清单.md》。
