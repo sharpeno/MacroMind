@@ -235,6 +235,10 @@ Analyst Method Mining
 4. 测试/G:/youhegaojian/macro-mind-engine/docs/current/RUNTIME.md
 5. 人工审阅不讲人话
 
+### 20261008
+
+1. 先不进行人工审阅的工作，而是下载视频，建立数据库好的，请执行下一步
+
 # 所以现在项目阶段发生了一个真正的大变化
 
 之前一直是：

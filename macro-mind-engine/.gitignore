@@ -10,3 +10,6 @@ dist/
 runtime_runs/
 runtime_demo_runs/
 model.local.json
+
+# Local GUI conversations and review annotations
+workbench_state/

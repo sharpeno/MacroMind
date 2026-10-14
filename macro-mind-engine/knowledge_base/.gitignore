@@ -1,0 +1,8 @@
+test_runs/
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local database and capture smoke-test output
+*.sqlite3
+capture_test_tmp_*/
