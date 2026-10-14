@@ -5,7 +5,7 @@
 
 当前入口：[项目进度](docs/current/STATUS.md) · [目录地图](docs/current/STRUCTURE.md) · [操作与续接](docs/current/OPERATIONS.md)。
 
-当前首五期数据为 run_005，最新人工反馈已落实；尚未完成新新闻分析与可调用分析师框架。执行 `.\.venv\Scripts\python.exe scripts/operations/project_status.py` 只读核对最新指针、封存产物与计数。历史阶段报告保留当时结论，不代表当前全部能力。
+当前首五期数据为 run_005，最新人工反馈已落实；尚未完成新新闻分析与可调用分析师框架。执行 `uv run python scripts/operations/project_status.py` 只读核对最新指针、封存产物与计数。历史阶段报告保留当时结论，不代表当前全部能力。
 
 Python 3.12+, Pydantic v2, Draft 2020-12 JSON Schema, PyYAML, Typer and pytest.
 Ontology 0.3 remains frozen; executable schema and registry version are 0.1.0.
@@ -16,26 +16,33 @@ not repair facts. Migration does not re-extract semantics. Review does not waive
 schema validity. Unknown is valid data. Model inference is attributed. Original
 artifacts are immutable. All transformations must be diffable and runs auditable.
 
-## Setup
+## Setup with uv
 
-From this directory, with Python 3.12+ available:
+From this directory, install `uv`. The checked-in `.python-version` selects the
+Python 3.12 line for both macOS and Windows:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -e ".[test]"
+```text
+uv sync
 ```
 
-`requirements-lock.txt` records the tested environment. The package includes the
-generated enums; registry YAML and authoritative frozen inputs are external paths,
-so always pass explicit paths for CLI operations. No contract is embedded/copied.
+`uv.lock` is the authoritative, cross-platform lockfile and must be committed.
+`uv sync` creates or updates `.venv` and installs the project plus the default
+`dev` group, including pytest, jsonschema and ruff. Use `uv run ...` for commands
+so uv verifies the lockfile and runs them in the locked environment.
+
+`requirements-lock.txt` is retained as a historical compatibility snapshot only;
+it is not used by the project workflow and must not be edited as a second lockfile.
+The package includes the generated enums; registry YAML and authoritative frozen
+inputs are external paths, so always pass explicit paths for CLI operations. No
+contract is embedded/copied.
 
 ## Commands
 
-```powershell
-.\.venv\Scripts\macromind.exe contract verify --contract-root ../golden_sample_test/core_ontology/v0.3
-.\.venv\Scripts\macromind.exe registry verify --registry-root registries/v0_3
-.\.venv\Scripts\macromind.exe schema export --contract-root ../golden_sample_test/core_ontology/v0.3 --registry-root registries/v0_3 --output-root schemas/v0_3
-.\.venv\Scripts\python.exe -m pytest
+```text
+uv run macromind contract verify --contract-root ../golden_sample_test/core_ontology/v0.3
+uv run macromind registry verify --registry-root registries/v0_3
+uv run macromind schema export --contract-root ../golden_sample_test/core_ontology/v0.3 --registry-root registries/v0_3 --output-root schemas/v0_3
+uv run pytest
 ```
 
 All three commands output deterministic result JSON to stdout and per-run structured
@@ -46,10 +53,10 @@ schema files remain UTF-8.
 
 ## Developer builds
 
-```powershell
-.\.venv\Scripts\python.exe scripts/generate_enums.py
-.\.venv\Scripts\python.exe scripts/build_schema_docs.py
-.\.venv\Scripts\python.exe scripts/run_gate.py
+```text
+uv run python scripts/generate_enums.py
+uv run python scripts/build_schema_docs.py
+uv run python scripts/run_gate.py
 ```
 
 Registry YAML is authoritative; generated Python enums and JSON Schemas are checked

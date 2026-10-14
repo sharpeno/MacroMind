@@ -1,9 +1,10 @@
 import json,hashlib
 from pathlib import Path
 from datetime import datetime,timezone
-ROOT=Path('G:/youhegaojian/macro-mind-engine');Q=ROOT/'phase1/extraction_quality';O=Q/'semantic_pilot_001';B=ROOT/'phase1/batch_pilot'
+ROOT=Path(__file__).resolve().parents[2];Q=ROOT/'phase1/extraction_quality';O=Q/'semantic_pilot_001';B=ROOT/'phase1/batch_pilot'
 def rd(p):return json.loads(p.read_bytes())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return p.resolve().relative_to(ROOT.resolve()).as_posix()
 def wr(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 assert '624 passed' in (O/'full_tests.stdout.txt').read_text()
 for name in ['quality_tests','full_tests','changed_lint','changed_format']:assert rd(O/(name+'.command.json'))['exit_code']==0
@@ -59,8 +60,8 @@ frozen_sample.json及freeze_manifest.json为冻结基线；EPxxx.packet.json和c
 v={'time':datetime.now(timezone.utc).isoformat(),'stage':'SEMANTIC_SELF_REVIEW_IMPLEMENTED_AWAITING_CALIBRATION','completed':['Reusable nine-axis workflow implemented and applied to 3 frozen samples','14 new tests; 40 quality and 624 full tests passed','3 packet CLI validations; changed lint and format passed','8 browser checks passed; canonical data unchanged'],'unfinished':['Human calibration of 3 self-review outcomes','No semantic accuracy improvement established','Original uncertainty/source findings remain'],'next_step':'Collect MacroMind_semantic001 review JSON; preserve user choice to retain original','semantic_acceptance':False,'scale_up_approved':False}
 wr(O/'progress.json',v)
 with (O/'progress.jsonl').open('a',encoding='utf-8') as f:f.write(json.dumps(v,ensure_ascii=False)+'\n')
-wr(Q/'latest.json',{'run':'semantic_pilot_001','report':str(O/'REPORT.md'),'page':str(O/'HUMAN_REVIEW.html'),'progress':str(O/'progress.json'),'status':v['stage']})
-wr(B/'review_latest.json',{'round':'semantic_pilot_001','page':str(O/'HUMAN_REVIEW.html'),'report':str(O/'REPORT.md'),'status':v['stage']})
+wr(Q/'latest.json',{'run':'semantic_pilot_001','report':ref(O/'REPORT.md'),'page':ref(O/'HUMAN_REVIEW.html'),'progress':ref(O/'progress.json'),'status':v['stage']})
+wr(B/'review_latest.json',{'round':'semantic_pilot_001','page':ref(O/'HUMAN_REVIEW.html'),'report':ref(O/'REPORT.md'),'status':v['stage']})
 impl=[ROOT/'src/macromind/quality/semantic_review.py',ROOT/'scripts/validate_semantic_review.py',ROOT/'tests/quality/test_semantic_review.py',ROOT/'docs/SEMANTIC_SELF_REVIEW_WORKFLOW.md']
 wr(O/'manifest.json',{'artifacts':{str(p.relative_to(O)):sha(p) for p in O.rglob('*') if p.is_file() and p.name!='manifest.json'},'implementation':{str(p):sha(p) for p in impl}})
 print('Semantic pilot sealed: 624 tests, 8 UI checks, 3 human calibration items pending.')

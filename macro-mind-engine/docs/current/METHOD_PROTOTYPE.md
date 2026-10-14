@@ -44,7 +44,7 @@
 
 ```powershell
 $env:PYTHONPATH = 'src'
-.\.venv\Scripts\python.exe scripts/run_method_prototype.py --packet phase1/method_prototype/run_001/public_case.packet.json --output phase1/method_prototype/example_next
+uv run python scripts/run_method_prototype.py --packet phase1/method_prototype/run_001/public_case.packet.json --output phase1/method_prototype/example_next
 ```
 
 输入由本轮公共案例packet示范，日期和来源指纹不能省略。as_of_analysis模式禁止使用截止日期之后才可用的方法；历史迁移需要明确选择retrospective_transfer。日期是输入元数据，程序仅检查其一致性，不自动查证原始发布时间。

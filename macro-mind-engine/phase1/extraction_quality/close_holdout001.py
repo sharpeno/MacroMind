@@ -1,5 +1,6 @@
 import sys
-sys.path.insert(0,'G:/youhegaojian/macro-mind-engine/phase1/extraction_quality')
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parent))
 from apply_holdout001 import *
 assert rd(O/'verification.command.json')['exit_code']==0 and rd(O/'quality_regressions.command.json')['exit_code']==0
 report='''# holdout_001 人工校准与修订收尾

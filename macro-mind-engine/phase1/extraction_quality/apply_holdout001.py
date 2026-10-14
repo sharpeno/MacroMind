@@ -1,11 +1,12 @@
 import json,hashlib,shutil,sys,os,subprocess
 from pathlib import Path
 from datetime import datetime,timezone
-ROOT=Path('G:/youhegaojian/macro-mind-engine');sys.path.insert(0,str(ROOT/'src'))
+ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT/'src'))
 from macromind.quality.annotations import records,digest
 B=ROOT/'phase1/batch_pilot';OLD=B/'run_003';R=B/'run_004';Q=ROOT/'phase1/extraction_quality';H=Q/'holdout_001';O=Q/'calibrated_001';A=B/'human_reviews/holdout_001/batch_001'
 def rd(p):return json.loads(p.read_bytes())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def ref(p):return p.resolve().relative_to(ROOT.resolve()).as_posix()
 def wr(p,v):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 def cmd(name,args,expected=0):
  wr(O/(name+'.command.json'),{'argv':args,'cwd':str(ROOT),'exit_code':None})

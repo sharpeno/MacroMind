@@ -20,7 +20,7 @@
 
 ```powershell
 $env:PYTHONPATH = 'src'
-.\.venv\Scripts\python.exe scripts/run_method_timeline.py --packet phase1/method_timeline/run_001/T1.input.json --previous phase1/method_timeline/run_001/T0/snapshot.json --output phase1/method_timeline/example_replay
+uv run python scripts/run_method_timeline.py --packet phase1/method_timeline/run_001/T1.input.json --previous phase1/method_timeline/run_001/T0/snapshot.json --output phase1/method_timeline/example_replay
 ```
 
 这是重放示例；输出目录必须不存在。新增时点需要新输入、较晚截止日期和前一结果的object_hash。来源内容发生修订应使用新ID；每个判断保留相同ID以便追踪，不能静默删除错误分支。

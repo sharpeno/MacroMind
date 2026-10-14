@@ -47,7 +47,7 @@ for ep,ds in diffs.items():
    text='无（新增）' if val is None else val.get('statement') or ' + '.join(val['premises'])+' → '+val['final_conclusion']+'；'+val['steps'][0]['statement'];lines+=[label+'：'+text,'']
 (R/'CHANGE_REVIEW.md').write_text('\n'.join(lines),encoding='utf-8')
 progress('ROUND2_FEEDBACK_IMPLEMENTED',['Confirm assistant-derived added/split text if needed','Unresolved source attribution/timing and other fields remain','No scale-up or Skill acceptance'])
-wr(ARCH/'latest_resolution.json',{'run':'run_003','resolution':str(R/'review_resolution.json'),'report':str(R/'REVISION_REPORT.md'),'status':'ROUND2_FEEDBACK_IMPLEMENTED'})
-wr(B/'revision_latest.json',{'run':'run_003','report':str(R/'REVISION_REPORT.md'),'changes':str(R/'CHANGE_REVIEW.md'),'progress':str(R/'progress.json'),'status':'ROUND2_FEEDBACK_IMPLEMENTED'})
-wr(B/'review_latest.json',{'round':'review_round_002','status':'FEEDBACK_RECEIVED_AND_IMPLEMENTED','receipt':str(ARCH/'receipt.json'),'revision_run':'run_003','report':str(R/'REVISION_REPORT.md')})
+wr(ARCH/'latest_resolution.json',{'run':'run_003','resolution':ref(R/'review_resolution.json'),'report':ref(R/'REVISION_REPORT.md'),'status':'ROUND2_FEEDBACK_IMPLEMENTED'})
+wr(B/'revision_latest.json',{'run':'run_003','report':ref(R/'REVISION_REPORT.md'),'changes':ref(R/'CHANGE_REVIEW.md'),'progress':ref(R/'progress.json'),'status':'ROUND2_FEEDBACK_IMPLEMENTED'})
+wr(B/'review_latest.json',{'round':'review_round_002','status':'FEEDBACK_RECEIVED_AND_IMPLEMENTED','receipt':ref(ARCH/'receipt.json'),'revision_run':'run_003','report':ref(R/'REVISION_REPORT.md')})
 print(json.dumps({'checks':len(checks),'totals':totals,'audit_statuses':{k:v['findings_status'] for k,v in audits.items()}},ensure_ascii=True))

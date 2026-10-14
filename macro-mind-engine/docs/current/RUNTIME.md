@@ -7,8 +7,8 @@
 在 `G:\youhegaojian\macro-mind-engine` 中运行以下 PowerShell 命令。使用现有虚拟环境即可，没有增加依赖。
 
 ```powershell
-.\.venv\Scripts\python.exe -m macromind.cli.main task --help
-.\.venv\Scripts\python.exe -m macromind.runtime.cli --help
+uv run python -m macromind.cli.main task --help
+uv run python -m macromind.runtime.cli --help
 ```
 
 两种入口调用同一实现。首期是同步命令行运行器：一个命令运行一个任务，可从另一终端查询状态；同一任务不能并发执行。不是后台任务队列或 Web 服务。
@@ -20,12 +20,12 @@
 3. 检查配置并创建任务：
 
 ```powershell
-.\.venv\Scripts\python.exe -m macromind.cli.main task check-config --config .\model.local.json
-$created = .\.venv\Scripts\python.exe -m macromind.cli.main task create --spec .\examples\runtime\task.json | ConvertFrom-Json
+uv run python -m macromind.cli.main task check-config --config ./model.local.json
+$created = uv run python -m macromind.cli.main task create --spec ./examples/runtime/task.json | ConvertFrom-Json
 $taskId = $created.id
-.\.venv\Scripts\python.exe -m macromind.cli.main task run $taskId --config .\model.local.json
-.\.venv\Scripts\python.exe -m macromind.cli.main task status $taskId
-.\.venv\Scripts\python.exe -m macromind.cli.main task audit $taskId
+uv run python -m macromind.cli.main task run $taskId --config ./model.local.json
+uv run python -m macromind.cli.main task status $taskId
+uv run python -m macromind.cli.main task audit $taskId
 ```
 
 `check-config` 只作离线检查，不能证明密钥有效或服务可用。`run` 会把任务问题、方法快照以及模型请求的证据片段发送给配置的服务。当前没有自动上传整库，也没有网页抓取工具。
@@ -35,8 +35,8 @@ $taskId = $created.id
 失败后可执行：
 
 ```powershell
-.\.venv\Scripts\python.exe -m macromind.cli.main task retry $taskId --config .\model.local.json
-.\.venv\Scripts\python.exe -m macromind.cli.main task list
+uv run python -m macromind.cli.main task retry $taskId --config ./model.local.json
+uv run python -m macromind.cli.main task list
 ```
 
 重试仍使用原任务快照，创建新的 attempt，不覆盖之前的日志、配置或结果。允许更换服务配置，但会分别记录。已经成功的任务不能再次运行；新输入或新方法应创建新任务。所有命令可带 `--store <独立目录>`，同一任务的命令必须使用相同目录。程序拒绝把已知正式材料、phase1、源代码和审阅目录用作输出目录。
@@ -117,8 +117,8 @@ Responses 使用 function_call / function_call_output，并保留后续调用所
 ## 离线验证
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest tests/runtime -q -p no:cacheprovider
-.\.venv\Scripts\python.exe examples/runtime/demo_http.py --store .\runtime_demo_runs
+uv run pytest tests/runtime -q -p no:cacheprovider
+uv run python examples/runtime/demo_http.py --store ./runtime_demo_runs
 ```
 
 示例会启动临时本机HTTP服务，返回脚本化工具调用和结果，退出时关闭服务。它验证真实HTTP传输、工具执行、引用检查和任务产物，**不调用真实大模型**。示例用量为未知，不伪造token或业务效果。
