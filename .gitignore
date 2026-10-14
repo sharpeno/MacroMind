@@ -15,6 +15,9 @@
 !.env.example
 !.env.sample
 **/model.local.json
+# UI 设置：模型清单可外发，密钥文件永不提交
+**/settings.local.json
+**/secrets.local.json
 *.pem
 *.key
 # Disposable test directories (not archived evidence)
