@@ -1,0 +1,220 @@
+@import 'tailwindcss';
+
+/* 使用 class 策略的暗色模式（html.dark） */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * 视觉方向：宏观研究仪器。
+ * 墨蓝底 + 细线结构 + 唯一强调色「终端琥珀」；其余颜色只来自 8 个新闻类别。
+ * 不用渐变、玻璃态与装饰光效。
+ */
+:root {
+  --bg: #f4f5f8;
+  --bg-panel: #ffffff;
+  --bg-subtle: #ebedf2;
+  --bg-hover: #e3e6ec;
+  --border: #dce0e8;
+  --border-strong: #c3c9d4;
+  --text: #141a26;
+  --text-secondary: #4a5366;
+  --text-muted: #6f788b;
+  --accent: #9a5800;
+  --accent-soft: #fbefd9;
+  --accent-text: #8f5300;
+  --on-accent: #ffffff;
+  --ok: #2f8a4e;
+  --danger: #b4232a;
+  --danger-soft: #fbe9ea;
+
+  --cat-monetary: #4f6fae;
+  --cat-inflation: #b0653a;
+  --cat-growth: #5a8a52;
+  --cat-fiscal: #8a62a8;
+  --cat-trade: #a8555f;
+  --cat-markets: #3e8a96;
+  --cat-energy: #a1803c;
+  --cat-tech: #627085;
+
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0c1220;
+  --bg-panel: #131a2b;
+  --bg-subtle: #1b2338;
+  --bg-hover: #232d45;
+  --border: #222b41;
+  --border-strong: #34405c;
+  --text: #e7eaf2;
+  --text-secondary: #aeb6c8;
+  --text-muted: #7d879c;
+  --accent: #f0b44c;
+  --accent-soft: #2e2614;
+  --accent-text: #f5c26b;
+  --on-accent: #1a1206;
+  --ok: #5fbf7f;
+  --danger: #f87171;
+  --danger-soft: #3a1c1e;
+
+  --cat-monetary: #7d9bd6;
+  --cat-inflation: #d6946a;
+  --cat-growth: #88b580;
+  --cat-fiscal: #b491ce;
+  --cat-trade: #d08890;
+  --cat-markets: #6fb5c1;
+  --cat-energy: #c7a866;
+  --cat-tech: #93a2b8;
+
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC',
+    'Segoe UI', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  font-feature-settings: 'tnum';
+}
+
+/* 可见焦点状态 */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* 尊重用户的减少动画偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 唯一的自发动效：事件脉搏刻度从左到右依次升起（首次进入） */
+@keyframes tick-rise {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+.tick-rise {
+  transform-origin: bottom;
+  animation: tick-rise 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* Markdown 渲染样式（聊天回答） */
+.md-body {
+  overflow-wrap: break-word;
+}
+.md-body > :first-child {
+  margin-top: 0;
+}
+.md-body > :last-child {
+  margin-bottom: 0;
+}
+.md-body h1,
+.md-body h2,
+.md-body h3 {
+  font-size: 1em;
+  font-weight: 650;
+  margin: 1.1em 0 0.45em;
+}
+.md-body h2 {
+  font-size: 1.05em;
+}
+.md-body p {
+  margin: 0.5em 0;
+}
+.md-body ul,
+.md-body ol {
+  margin: 0.5em 0;
+  padding-left: 1.4em;
+}
+.md-body ul {
+  list-style: disc;
+}
+.md-body ol {
+  list-style: decimal;
+}
+.md-body li {
+  margin: 0.2em 0;
+}
+.md-body table {
+  border-collapse: collapse;
+  margin: 0.7em 0;
+  font-size: 0.93em;
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.md-body th,
+.md-body td {
+  border: 1px solid var(--border-strong);
+  padding: 4px 10px;
+  text-align: left;
+}
+.md-body th {
+  background: var(--bg-subtle);
+  font-weight: 600;
+}
+.md-body code {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.9em;
+}
+.md-body pre {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 12px;
+  overflow-x: auto;
+}
+.md-body pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+.md-body blockquote {
+  border-left: 3px solid var(--border-strong);
+  margin: 0.6em 0;
+  padding: 0.1em 0 0.1em 0.9em;
+  color: var(--text-secondary);
+}
+.md-body a {
+  color: var(--accent-text);
+  text-decoration: underline;
+}
+
+/* 流式生成光标 */
+.stream-cursor::after {
+  content: '▍';
+  color: var(--accent);
+  animation: blink 1s steps(2) infinite;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* 细滚动条 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}

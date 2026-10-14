@@ -1,0 +1,71 @@
+{
+  "name": "macro-mind-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "MacroMind 宏观研究工作区",
+  "main": "electron/main.mjs",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "server": "node server/index.mjs",
+    "news:update": "node scripts/update-news.mjs",
+    "news:rebuild": "node scripts/update-news.mjs --rebuild",
+    "preview": "vite preview",
+    "app:dev": "electron .",
+    "app:pack": "npm run build && electron-builder --dir",
+    "app:dist": "npm run build && electron-builder"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3",
+    "oxlint": "^1.81.0",
+    "playwright-core": "^1.64.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^4.1.11"
+  },
+  "build": {
+    "appId": "com.macromind.workspace",
+    "productName": "MacroMind",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "server/**/*"
+    ],
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.finance"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}

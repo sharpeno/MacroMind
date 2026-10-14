@@ -1,0 +1,9 @@
+node_modules
+dist
+release
+*.local
+.DS_Store
+
+# 新闻原始数据与审计事件文件体积大，不进版本控制；快照随构建发布
+data/news.raw.json
+data/news.events.json
